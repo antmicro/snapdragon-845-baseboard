@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TPS65982BB
+#
+DEF TPS65982BB U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "TPS65982BB" 0 0 50 H V C CNN
+F2 "temp:TPS65982ABZBHR" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 400 -450 50 0 1 1 "Decide on exact model of usb PD" Normal 0 C C
+T 0 450 -350 50 0 1 1 "Work in progress, add pinout" Normal 0 C C
+S 0 0 850 -800 1 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
