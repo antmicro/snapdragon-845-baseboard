@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name SA800U-WF)(type Legacy)(uri ${KIPRJMOD}/SA800U-WF.lib)(options "")(descr ""))
+  (lib (name RTL8111Hx)(type Legacy)(uri ${KIPRJMOD}/RTL8111Hx.lib)(options "")(descr ""))
 )
