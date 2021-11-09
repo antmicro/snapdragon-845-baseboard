@@ -1,0 +1,368 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# antmicroCapacitors0402_C_100n_0402
+#
+DEF antmicroCapacitors0402_C_100n_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_100n_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
+F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
+F6 "100n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_1u_0402
+#
+DEF antmicroCapacitors0402_C_1u_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_1u_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1005X6S1A105K050BC" 200 300 60 H I L CNN "MPN"
+F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitorsmisc_C_100n_0805_100V
+#
+DEF antmicroCapacitorsmisc_C_100n_0805_100V C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorsmisc_C_100n_0805_100V" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0805-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "SAMSUNG" 200 400 60 H I L CNN "Manufacturer"
+F5 "CL21B104KCFNNNE" 200 300 60 H I L CNN "MPN"
+F6 "100n/100V" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitorsmisc_C_47u_0805
+#
+DEF antmicroCapacitorsmisc_C_47u_0805 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorsmisc_C_47u_0805" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0805-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
+F5 "C0805C476M9PACTU" 200 300 60 H I L CNN "MPN"
+F6 "47u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitorspol_C_100u_KEMET_A
+#
+DEF antmicroCapacitorspol_C_100u_KEMET_A C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorspol_C_100u_KEMET_A" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:KEMET_A" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "298D107X06R3A2T" 200 300 60 H I L CNN "MPN"
+F6 "100u" 0 -100 50 H V C CNN "Val"
+DRAW
+S -90 -30 -90 -10 1 1 0 N
+S -90 -30 90 -30 1 1 0 N
+S 90 -70 -90 -90 1 1 0 F
+S 90 -10 -90 -10 1 1 0 N
+S 90 -10 90 -30 1 1 0 N
+P 2 1 1 0 -70 40 -30 40 N
+P 2 1 1 0 -50 60 -50 20 N
+X ~ 1 0 100 110 D 0 0 1 1 P
+X ~ 2 0 -200 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitorspol_C_47u_ELEC_100V
+#
+DEF antmicroCapacitorspol_C_47u_ELEC_100V C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorspol_C_47u_ELEC_100V" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:CP_Elec_10x10.5" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "EEEHA2A470UP" 200 300 60 H I L CNN "MPN"
+F6 "47u/100V" 0 -100 50 H V C CNN "Val"
+DRAW
+S -90 -30 -90 -10 1 1 0 N
+S -90 -30 90 -30 1 1 0 N
+S 90 -70 -90 -90 1 1 0 F
+S 90 -10 -90 -10 1 1 0 N
+S 90 -10 90 -30 1 1 0 N
+P 2 1 1 0 -70 40 -30 40 N
+P 2 1 1 0 -50 60 -50 20 N
+X ~ 1 0 100 110 D 0 0 1 1 P
+X ~ 2 0 -200 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroDCDCConverters_PDQE30-Q48-S5-D
+#
+DEF antmicroDCDCConverters_PDQE30-Q48-S5-D PS 0 40 Y Y 1 F N
+F0 "PS" -400 350 50 H V L BNN
+F1 "antmicroDCDCConverters_PDQE30-Q48-S5-D" -400 -400 50 H V L BNN
+F2 "antmicro-footprints:PDQE30-Q48" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F5 "PDQE30-Q48-S5-D" 0 0 50 H I L BNN "MPN"
+F6 "CUI" 0 0 50 H I L BNN "Manufacturer"
+DRAW
+S -400 -300 400 300 0 0 10 f
+X CTRL 1 -600 0 200 R 40 40 0 0 I
+X GND 2 -600 -200 200 R 40 40 0 0 W
+X VIN 3 -600 200 200 R 40 40 0 0 I
+X VO 4 600 200 200 L 40 40 0 0 O
+X TRIM 5 600 0 200 L 40 40 0 0 P
+X 0V 6 600 -200 200 L 40 40 0 0 O
+ENDDRAW
+ENDDEF
+#
+# antmicroDiodesRectifiersSingle_SMAJ58A-13-F
+#
+DEF antmicroDiodesRectifiersSingle_SMAJ58A-13-F D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C BNN
+F1 "antmicroDiodesRectifiersSingle_SMAJ58A-13-F" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:DO-214AC" 200 200 60 H I L CNN
+F3 "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0001754755/DIOD-S-A0001754755-1.pdf?hkey=52A5661711E402568146F3353EA87419" 200 300 60 H I L CNN
+F4 "SMAJ58A-13-F" 200 500 60 H I L CNN "MPN"
+F5 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 0 50 -50 50 -75 75 -75 75 -50 N
+P 4 0 1 0 50 50 50 75 25 75 25 50 N
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroDiodesZenerSingle_BZT52Bxx
+#
+DEF antmicroDiodesZenerSingle_BZT52Bxx D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "antmicroDiodesZenerSingle_BZT52Bxx" 0 -100 50 H V C CNN
+F2 "antmicro-footprints:SOD-123" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BZT52C18-G3-18" 25 -250 50 H I C CNN "MPN"
+F5 "Vishay" 0 -350 50 H I C CNN "Manufacturer"
+$FPLIST
+ D?SOD?123*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 10 -50 -50 -50 50 -30 50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+X A A 150 0 100 L 50 50 1 1 P
+X K K -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroFerriteBeadsandChips_BLM21PG221SN1D
+#
+DEF antmicroFerriteBeadsandChips_BLM21PG221SN1D FB 0 40 Y Y 1 F N
+F0 "FB" -125 350 60 H V C CNN
+F1 "antmicroFerriteBeadsandChips_BLM21PG221SN1D" 0 -150 60 H I L CNN
+F2 "antmicro-footprints:0805-res" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "BLM21PG221SN1D" -175 150 60 H V L CNN "MPN"
+F5 "Murata" -175 250 60 H V L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2378DDA
+#
+DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2378DDA IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_TPS2378DDA" 850 200 50 H V L CNN
+F2 "antmicro-footprints:SOIC127P600X170-9N" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" 850 -100 50 H I L CNN "Description"
+F5 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer"
+F6 "TPS2378DDA" 850 -400 50 H I L CNN "MPN"
+F7 "TPS2378DDA" 850 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "595-TPS2378DDA" 850 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 f
+X VDD 1 0 0 200 R 50 50 0 0 W
+X DEN 2 0 -100 200 R 50 50 0 0 P
+X CLS 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 W
+X RTN 5 1000 -300 200 L 50 50 0 0 P
+X CDB 6 1000 -200 200 L 50 50 0 0 P
+X T2P 7 1000 -100 200 L 50 50 0 0 P
+X APD 8 1000 0 200 L 50 50 0 0 P
+X EP 9 500 -800 200 U 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_0R_0402
+#
+DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_100k_0402
+#
+DEF antmicroResistors0402_R_100k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_100k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW0402100KFKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "100k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_24k9_0402
+#
+DEF antmicroResistors0402_R_24k9_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_24k9_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "WR04X2492FTL" 200 300 60 H I L CNN "MPN"
+F6 "24k9" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_63R4_0402
+#
+DEF antmicroResistors0402_R_63R4_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_63R4_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040263R4FKED" 200 300 60 H I L CNN "MPN"
+F6 "63R4" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTVSDiodes_MB10S
+#
+DEF antmicroTVSDiodes_MB10S D 0 40 Y Y 1 F N
+F0 "D" 200 150 50 H V C CNN
+F1 "antmicroTVSDiodes_MB10S" 550 150 50 H V C CNN
+F2 "antmicro-footprints:MB10S" -550 -50 50 H I C CNN
+F3 "" -550 -50 50 H I C CNN
+F4 "MB10S" 0 0 50 H V C CNN "MPN"
+F5 "MULTICOMP" 0 0 50 H V C CNN "Manufacturer"
+DRAW
+S 100 50 600 -450 0 1 0 f
+P 2 0 1 0 100 -200 150 -200 N
+P 2 0 1 0 150 -400 100 -400 N
+P 2 0 1 0 150 -150 150 -300 N
+P 2 0 1 0 150 -100 150 -150 N
+P 2 0 1 0 150 0 100 0 N
+P 2 0 1 0 200 -300 150 -300 N
+P 2 0 1 0 200 -100 150 -100 N
+P 2 0 1 0 350 -300 300 -300 N
+P 2 0 1 0 350 -100 300 -100 N
+P 2 0 1 0 400 -300 250 -300 N
+P 2 0 1 0 400 -100 250 -100 N
+P 2 0 1 0 500 -300 550 -300 N
+P 2 0 1 0 500 -100 550 -100 N
+P 2 0 1 0 550 -200 600 -200 N
+P 2 0 1 0 550 -150 550 -300 N
+P 2 0 1 0 550 -100 550 -150 N
+P 3 0 1 0 350 -300 350 -400 150 -400 N
+P 3 0 1 0 350 -100 350 0 150 0 N
+P 2 1 1 0 300 -250 300 -350 N
+P 2 1 1 0 300 -50 300 -150 N
+P 2 1 1 0 500 -250 500 -350 N
+P 2 1 1 0 500 -50 500 -150 N
+P 4 1 1 0 200 -250 200 -350 300 -300 200 -250 F
+P 4 1 1 0 200 -50 200 -150 300 -100 200 -50 F
+P 4 1 1 0 400 -250 400 -350 500 -300 400 -250 F
+P 4 1 1 0 400 -50 400 -150 500 -100 400 -50 F
+X ~ 1 750 -200 150 L 50 50 1 1 P
+X ~ 2 -50 -200 150 R 50 50 1 1 P
+X ~ 3 -50 0 150 R 50 50 1 1 P
+X ~ 4 -50 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDD
+#
+DEF power_GNDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDD" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -60 50 -80 0 1 10 F
+P 2 0 1 0 0 0 0 -60 N
+X GNDD 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
