@@ -24,8 +24,6 @@ Wire Wire Line
 	7950 2800 7950 2700
 Wire Wire Line
 	1450 2600 1650 2600
-Text Notes 5500 5000 0    50   ~ 0
-Should this be trimmed? \nThe output should be 5V so\nI guess this is fine and trimming\nis not necessary?
 $Comp
 L power:GND #PWR010
 U 1 1 61A46067
@@ -136,32 +134,24 @@ $EndComp
 Wire Wire Line
 	8000 5500 8000 5550
 Wire Wire Line
-	5450 5500 6500 5500
+	5450 5500 6100 5500
 Wire Wire Line
 	5600 5300 5450 5300
 $Comp
 L antmicroResistors0402:R_0R_0402 R13
 U 1 1 61A460AF
-P 5750 5300
-F 0 "R13" H 5750 5513 60  0000 C CNN
-F 1 "R_0R_0402" H 5750 5150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5950 5500 60  0001 L CNN
-F 3 "" H 5750 5300 50  0001 C CNN
-F 4 "PANASONIC" H 5950 5700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 5950 5600 60  0001 L CNN "MPN"
-F 6 "0R" H 5750 5415 50  0000 C CNN "Val"
-	1    5750 5300
+P 5850 4900
+F 0 "R13" H 5850 5113 60  0000 C CNN
+F 1 "R_0R_0402" H 5850 4750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6050 5100 60  0001 L CNN
+F 3 "" H 5850 4900 50  0001 C CNN
+F 4 "PANASONIC" H 6050 5300 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6050 5200 60  0001 L CNN "MPN"
+F 6 "0R" H 5850 5015 50  0000 C CNN "Val"
+F 7 "DNP" H 5850 4900 50  0001 C CNN "DNP"
+	1    5850 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 5100 6500 5100
-Connection ~ 6150 5100
-Wire Wire Line
-	6150 5300 5900 5300
-Wire Wire Line
-	6150 5100 6150 5300
-Wire Wire Line
-	5450 5100 6150 5100
 Text GLabel 7250 2100 2    50   Input ~ 0
 APD
 Text Notes 5100 1700 0    50   ~ 0
@@ -648,4 +638,44 @@ F 3 "~" H 4700 2900 50  0001 C CNN
 	1    4700 2900
 	-1   0    0    1   
 $EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R16
+U 1 1 6197A6CB
+P 5850 5700
+F 0 "R16" H 5850 5913 60  0000 C CNN
+F 1 "R_0R_0402" H 5850 5550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6050 5900 60  0001 L CNN
+F 3 "" H 5850 5700 50  0001 C CNN
+F 4 "PANASONIC" H 6050 6100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6050 6000 60  0001 L CNN "MPN"
+F 6 "0R" H 5850 5815 50  0000 C CNN "Val"
+F 7 "DNP" H 5850 5700 50  0001 C CNN "DNP"
+	1    5850 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5300 5600 5700
+Wire Wire Line
+	5600 5700 5700 5700
+Connection ~ 5600 5300
+Wire Wire Line
+	5450 5100 6100 5100
+Wire Wire Line
+	6000 5700 6100 5700
+Wire Wire Line
+	6100 5700 6100 5500
+Connection ~ 6100 5500
+Wire Wire Line
+	6100 5500 6500 5500
+Connection ~ 6100 5100
+Wire Wire Line
+	6100 5100 6500 5100
+Wire Wire Line
+	5600 4900 5700 4900
+Wire Wire Line
+	5600 4900 5600 5300
+Wire Wire Line
+	6000 4900 6100 4900
+Wire Wire Line
+	6100 4900 6100 5100
 $EndSCHEMATC

@@ -226,7 +226,6 @@ Text Label 2000 5900 0    50   ~ 0
 LAN0_MDI1N
 Text Label 2000 5800 0    50   ~ 0
 LAN0_MDI1P
-
 Wire Wire Line
 	2500 6100 2000 6100
 Wire Wire Line
@@ -790,10 +789,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 1500 2800 1500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 61C6A237
 P 7650 2650
-F 0 "#PWR?" H 7650 2400 50  0001 C CNN
+F 0 "#PWR01" H 7650 2400 50  0001 C CNN
 F 1 "GND" H 7655 2477 50  0000 C CNN
 F 2 "" H 7650 2650 50  0001 C CNN
 F 3 "" H 7650 2650 50  0001 C CNN
@@ -804,10 +803,10 @@ Connection ~ 7650 2650
 Wire Wire Line
 	7650 2650 8200 2650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 61C7BBCB
 P 9400 1650
-F 0 "#PWR?" H 9400 1400 50  0001 C CNN
+F 0 "#PWR02" H 9400 1400 50  0001 C CNN
 F 1 "GND" V 9405 1522 50  0000 R CNN
 F 2 "" H 9400 1650 50  0001 C CNN
 F 3 "" H 9400 1650 50  0001 C CNN
@@ -815,10 +814,10 @@ F 3 "" H 9400 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 61C7BF66
 P 9400 1850
-F 0 "#PWR?" H 9400 1600 50  0001 C CNN
+F 0 "#PWR03" H 9400 1600 50  0001 C CNN
 F 1 "GND" V 9405 1722 50  0000 R CNN
 F 2 "" H 9400 1850 50  0001 C CNN
 F 3 "" H 9400 1850 50  0001 C CNN
@@ -827,4 +826,6 @@ F 3 "" H 9400 1850 50  0001 C CNN
 $EndComp
 Text Notes 950  4950 0    50   ~ 0
 Consider separating PSU for analog / digital
+Text Notes 1600 950  0    50   ~ 0
+Choke is on secondary side.\n(Where only data is passed through)
 $EndSCHEMATC
