@@ -1,6 +1,22 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Oscillators_ECS-1618-250-BN-TR
+#
+DEF Oscillators_ECS-1618-250-BN-TR Y 0 40 Y Y 1 F N
+F0 "Y" 0 50 50 H V C CNN
+F1 "Oscillators_ECS-1618-250-BN-TR" 200 -350 50 H V C CNN
+F2 "" 200 50 50 H I C CNN
+F3 "" 200 50 50 H I C CNN
+DRAW
+S 0 0 500 -300 1 1 0 f
+X EN 1 -100 -100 100 R 50 50 1 1 I
+X GND 2 -100 -200 100 R 50 50 1 1 W
+X OUT 3 600 -200 100 L 50 50 1 1 O
+X VDD 4 600 -100 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # RTL8111Hx_RTL8111H
 #
 DEF RTL8111Hx_RTL8111H U 0 40 Y Y 1 F N
@@ -74,6 +90,24 @@ F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "04025G103ZAT2A" 200 300 60 H I L CNN "MPN"
 F6 "10n" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0402_C_10p_0402
+#
+DEF antmicroCapacitors0402_C_10p_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_10p_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MC0402N100D500CT" 200 300 60 H I L CNN "MPN"
+F6 "10p" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -445,6 +479,57 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_10k_0402
+#
+DEF antmicroResistors0402_R_10k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_10k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
+F6 "10k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_1M0_0402
+#
+DEF antmicroResistors0402_R_1M0_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1M0_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TE CONNECTIVITY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRG0402F1M0" 200 300 60 H I L CNN "MPN"
+F6 "1M0" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_1k_0402
+#
+DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
+F6 "1k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_24k9_0402
 #
 DEF antmicroResistors0402_R_24k9_0402 R 0 0 Y Y 1 F N
@@ -530,6 +615,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0603_R_15k_0603
+#
+DEF antmicroResistors0603_R_15k_0603 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0603_R_15k_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0603-FX-1502ELF" 200 300 60 H I L CNN "MPN"
+F6 "15k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTVSDiodes_MB10S
 #
 DEF antmicroTVSDiodes_MB10S D 0 40 Y Y 1 F N
@@ -586,6 +688,21 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +1V0 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+1V8
+#
+DEF power_+1V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
