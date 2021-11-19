@@ -1,0 +1,254 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroUSBDVIHDMIConnectors:MUSBRM1C1M0 J?
+U 1 1 61A37430
+P 2650 2100
+F 0 "J?" H 2650 3135 50  0000 C CNN
+F 1 "MUSBRM1C1M0" H 2650 3044 50  0000 C CNN
+F 2 "antmicro-footprints:USB-C_Rugged_RA_MUSBRM1C1M0" H 2850 2300 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/musbrm1c1xx.pdf" H 2850 2400 60  0001 L CNN
+F 4 "MUSBRM1C1M0" H 2850 2600 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (Commercial Products)" H 2850 3200 60  0001 L CNN "Manufacturer"
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroInterfaceAnalogSwitchesSpecialPurpose:TS3USB30EDGSR U?
+U 1 1 61A48DAE
+P 5800 2150
+F 0 "U?" H 5400 3300 60  0000 C CNN
+F 1 "TS3USB30EDGSR" H 5200 3150 60  0000 C CNN
+F 2 "antmicro-footprints:MSOP-10_W3mm" H 5950 2340 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts3usb30e" H 5950 2440 60  0001 L CNN
+F 4 "TS3USB30EDGSR" H 5950 2640 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 5970 3250 60  0001 L CNN "Manufacturer"
+	1    5800 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1350 5800 1300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61A4DDE1
+P 4250 1300
+F 0 "#PWR?" H 4250 1150 50  0001 C CNN
+F 1 "+3V3" V 4265 1428 50  0000 L CNN
+F 2 "" H 4250 1300 50  0001 C CNN
+F 3 "" H 4250 1300 50  0001 C CNN
+	1    4250 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 5050 1750 0    50   ~ 0
+USB_SBU1
+Text Label 5050 2150 0    50   ~ 0
+USB_SBU2
+Wire Wire Line
+	5050 2150 5500 2150
+Wire Wire Line
+	5050 1750 5500 1750
+$Comp
+L power:GND #PWR?
+U 1 1 61A4FE6D
+P 5900 3100
+F 0 "#PWR?" H 5900 2850 50  0001 C CNN
+F 1 "GND" H 5905 2927 50  0000 C CNN
+F 2 "" H 5900 3100 50  0001 C CNN
+F 3 "" H 5900 3100 50  0001 C CNN
+	1    5900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 5900 3100
+$Comp
+L power:GND #PWR?
+U 1 1 61A52AC4
+P 4450 1650
+F 0 "#PWR?" H 4450 1400 50  0001 C CNN
+F 1 "GND" H 4455 1477 50  0000 C CNN
+F 2 "" H 4450 1650 50  0001 C CNN
+F 3 "" H 4450 1650 50  0001 C CNN
+	1    4450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61A55FCB
+P 4450 1500
+F 0 "C?" H 4565 1545 60  0000 L CNN
+F 1 "C_1u_0402" H 4450 1350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4650 1700 60  0001 L CNN
+F 3 "" H 4450 1500 50  0001 C CNN
+F 4 "TDK" H 4650 1900 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 4650 1800 60  0001 L CNN "MPN"
+F 6 "1u" H 4565 1447 50  0000 L CNN "Val"
+	1    4450 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1300 4450 1300
+Wire Wire Line
+	4450 1350 4450 1300
+Connection ~ 4450 1300
+Wire Wire Line
+	4450 1300 5800 1300
+Wire Wire Line
+	6200 2650 6350 2650
+Wire Wire Line
+	6350 2650 6350 2750
+$Comp
+L antmicroResistors0402:R_2k2_0402 R?
+U 1 1 61A77AD1
+P 6350 2900
+F 0 "R?" V 6305 2970 60  0000 L CNN
+F 1 "R_2k2_0402" H 6350 2750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6550 3100 60  0001 L CNN
+F 3 "" H 6350 2900 50  0001 C CNN
+F 4 "YAGEO" H 6550 3300 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 6550 3200 60  0001 L CNN "MPN"
+F 6 "2k2" V 6403 2970 50  0000 L CNN "Val"
+	1    6350 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 61A7947B
+P 6500 3350
+F 0 "#PWR?" H 6500 3200 50  0001 C CNN
+F 1 "+1V8" H 6515 3523 50  0000 C CNN
+F 2 "" H 6500 3350 50  0001 C CNN
+F 3 "" H 6500 3350 50  0001 C CNN
+	1    6500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3350 6500 3350
+Wire Wire Line
+	6350 3050 6350 3350
+Text Label 6450 2650 0    50   ~ 0
+SBU_SW_OE
+Text Label 6450 2450 0    50   ~ 0
+SBU_SW_SEL
+Wire Wire Line
+	6350 2650 6450 2650
+Connection ~ 6350 2650
+Wire Wire Line
+	6200 2450 6450 2450
+Wire Wire Line
+	6200 2250 7100 2250
+Wire Wire Line
+	6200 1650 7100 1650
+Wire Wire Line
+	7100 2250 7100 2400
+Wire Wire Line
+	7100 2250 7100 1650
+Connection ~ 7100 2250
+$Comp
+L antmicroResistors0402:R_100k_0402 R?
+U 1 1 61A919E7
+P 7100 2550
+F 0 "R?" V 7055 2620 60  0000 L CNN
+F 1 "R_100k_0402" H 7100 2400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7300 2750 60  0001 L CNN
+F 3 "" H 7100 2550 50  0001 C CNN
+F 4 "VISHAY" H 7300 2950 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 7300 2850 60  0001 L CNN "MPN"
+F 6 "100k" V 7153 2620 50  0000 L CNN "Val"
+	1    7100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_100k_0402 R?
+U 1 1 61A91F11
+P 7450 2550
+F 0 "R?" V 7405 2620 60  0000 L CNN
+F 1 "R_100k_0402" H 7450 2400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7650 2750 60  0001 L CNN
+F 3 "" H 7450 2550 50  0001 C CNN
+F 4 "VISHAY" H 7650 2950 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 7650 2850 60  0001 L CNN "MPN"
+F 6 "100k" V 7503 2620 50  0000 L CNN "Val"
+	1    7450 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 1850 7450 1850
+Wire Wire Line
+	7450 1850 7450 2050
+Connection ~ 7450 1850
+Wire Wire Line
+	6200 2050 7450 2050
+Connection ~ 7450 2050
+Wire Wire Line
+	7450 2050 7450 2400
+Text GLabel 7450 2850 3    50   Input ~ 0
+3v075
+Wire Wire Line
+	7100 2700 7100 2800
+$Comp
+L power:GND #PWR?
+U 1 1 61A9C117
+P 7100 2800
+F 0 "#PWR?" H 7100 2550 50  0001 C CNN
+F 1 "GND" H 7105 2627 50  0000 C CNN
+F 2 "" H 7100 2800 50  0001 C CNN
+F 3 "" H 7100 2800 50  0001 C CNN
+	1    7100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2700 7450 2850
+Wire Wire Line
+	7450 1850 7900 1850
+Wire Wire Line
+	7100 2250 7900 2250
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 61AA1C18
+P 8050 1850
+F 0 "C?" V 7792 1850 60  0000 C CNN
+F 1 "C_100n_0402" H 8050 1700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8250 2050 60  0001 L CNN
+F 3 "" H 8050 1850 50  0001 C CNN
+F 4 "Walsin" H 8250 2250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8250 2150 60  0001 L CNN "MPN"
+F 6 "100n" V 7890 1850 50  0000 C CNN "Val"
+	1    8050 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 61AA25EA
+P 8050 2250
+F 0 "C?" V 7792 2250 60  0000 C CNN
+F 1 "C_100n_0402" H 8050 2100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8250 2450 60  0001 L CNN
+F 3 "" H 8050 2250 50  0001 C CNN
+F 4 "Walsin" H 8250 2650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 8250 2550 60  0001 L CNN "MPN"
+F 6 "100n" V 7890 2250 50  0000 C CNN "Val"
+	1    8050 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 8450 1850 2    50   Input ~ 0
+EDP_AUX_N
+Text GLabel 8450 2250 2    50   Input ~ 0
+EDP_AUX_P
+Wire Wire Line
+	8200 1850 8450 1850
+Wire Wire Line
+	8200 2250 8450 2250
+$EndSCHEMATC

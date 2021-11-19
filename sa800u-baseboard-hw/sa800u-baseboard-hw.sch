@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -30,5 +30,11 @@ S 2750 7000 500  500
 U 6197686D
 F0 "HDMI" 50
 F1 "HDMI.sch" 50
+$EndSheet
+$Sheet
+S 3800 7000 500  500 
+U 61A2F307
+F0 "USB-C Interface " 50
+F1 "USB-C Interface .sch" 50
 $EndSheet
 $EndSCHEMATC
