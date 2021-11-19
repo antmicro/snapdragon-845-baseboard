@@ -62,6 +62,23 @@ X MDIP3 9 400 -1600 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# ZenerDiode_1N5227B
+#
+DEF ZenerDiode_1N5227B D 0 40 Y Y 1 F N
+F0 "D" -150 100 50 H V C CNN
+F1 "ZenerDiode_1N5227B" 250 100 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+P 2 1 1 0 50 -50 25 -50 N
+P 2 1 1 0 50 50 50 -50 N
+P 2 1 1 0 50 50 75 50 N
+P 4 1 1 0 -50 50 -50 -50 50 0 -50 50 F
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0402_C_100n_0402
 #
 DEF antmicroCapacitors0402_C_100n_0402 C 0 0 Y Y 1 F N
@@ -269,6 +286,25 @@ P 2 0 1 0 50 50 50 -50 N
 P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
 P 4 0 1 0 50 -50 50 -75 75 -75 75 -50 N
 P 4 0 1 0 50 50 50 75 25 75 25 50 N
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroDiodesZenerSingle_1N5231BTR
+#
+DEF antmicroDiodesZenerSingle_1N5231BTR Z 0 0 N N 1 F N
+F0 "Z" 0 100 60 H V C BNN
+F1 "antmicroDiodesZenerSingle_1N5231BTR" 0 -100 60 H V C CNN
+F2 "antmicro-footprints:DO-35" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N5221B-D.PDF" 200 300 60 H I L CNN
+F4 "1N5231BTR" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 50 -50 25 -50 N
+P 2 0 1 0 50 50 50 -50 N
+P 2 0 1 0 50 50 75 50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
 X ~ A -200 0 150 R 50 50 1 1 P
 X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
@@ -731,6 +767,25 @@ X ~ 4 -50 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroTVSDiodes_PGB1010603MR
+#
+DEF antmicroTVSDiodes_PGB1010603MR D 0 40 Y Y 1 F N
+F0 "D" -216 108 60 H V L CNN
+F1 "antmicroTVSDiodes_PGB1010603MR" 4 -130 60 H V C CNN
+F2 "antmicro-footprints:PGB1010603MR" 200 200 60 H I L CNN
+F3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" 200 300 60 H I L CNN
+F4 "Littelfuse Inc." 200 1100 60 H I L CNN "Manufacturer"
+F5 "PGB1010603MR" 200 500 60 H I L CNN "MPN"
+DRAW
+P 3 0 1 0 0 0 0 -50 -25 -75 N
+P 3 0 1 0 0 0 0 50 25 75 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+P 4 0 1 0 100 50 100 -50 0 0 100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroUSBDVIHDMIConnectors_MUSBRM1C1M0
 #
 DEF antmicroUSBDVIHDMIConnectors_MUSBRM1C1M0 J 0 40 Y Y 1 F N
@@ -1059,6 +1114,21 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VBUS
+#
+DEF power_VBUS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VBUS" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

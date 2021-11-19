@@ -2,4 +2,5 @@
   (lib (name SA800U-WF)(type Legacy)(uri ${KIPRJMOD}/SA800U-WF.lib)(options "")(descr ""))
   (lib (name RTL8111Hx)(type Legacy)(uri ${KIPRJMOD}/RTL8111Hx.lib)(options "")(descr ""))
   (lib (name Oscillators)(type Legacy)(uri ${KIPRJMOD}/Oscillators.lib)(options "")(descr ""))
+  (lib (name ZenerDiode)(type Legacy)(uri ${KIPRJMOD}/ZenerDiode.lib)(options "")(descr ""))
 )
