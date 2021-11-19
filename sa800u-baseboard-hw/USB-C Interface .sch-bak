@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroUSBDVIHDMIConnectors:MUSBRM1C1M0 J?
+L antmicroUSBDVIHDMIConnectors:MUSBRM1C1M0 J1
 U 1 1 61A37430
 P 3800 2550
-F 0 "J?" H 3800 3585 50  0000 C CNN
+F 0 "J1" H 3800 3585 50  0000 C CNN
 F 1 "MUSBRM1C1M0" H 3800 3494 50  0000 C CNN
 F 2 "antmicro-footprints:USB-C_Rugged_RA_MUSBRM1C1M0" H 4000 2750 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/musbrm1c1xx.pdf" H 4000 2850 60  0001 L CNN
@@ -27,10 +27,10 @@ F 5 "Amphenol ICC (Commercial Products)" H 4000 3650 60  0001 L CNN "Manufacture
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroInterfaceAnalogSwitchesSpecialPurpose:TS3USB30EDGSR U?
+L antmicroInterfaceAnalogSwitchesSpecialPurpose:TS3USB30EDGSR U2
 U 1 1 61A48DAE
 P 7750 1950
-F 0 "U?" H 7550 2600 60  0000 C CNN
+F 0 "U2" H 7550 2600 60  0000 C CNN
 F 1 "TS3USB30EDGSR" H 6950 2600 60  0000 C CNN
 F 2 "antmicro-footprints:MSOP-10_W3mm" H 7900 2140 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts3usb30e" H 7900 2240 60  0001 L CNN
@@ -42,10 +42,10 @@ $EndComp
 Wire Wire Line
 	7750 1150 7750 1100
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR021
 U 1 1 61A4DDE1
 P 6200 1100
-F 0 "#PWR?" H 6200 950 50  0001 C CNN
+F 0 "#PWR021" H 6200 950 50  0001 C CNN
 F 1 "+3V3" V 6215 1228 50  0000 L CNN
 F 2 "" H 6200 1100 50  0001 C CNN
 F 3 "" H 6200 1100 50  0001 C CNN
@@ -61,10 +61,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 1550 7450 1550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 61A4FE6D
 P 7850 2900
-F 0 "#PWR?" H 7850 2650 50  0001 C CNN
+F 0 "#PWR023" H 7850 2650 50  0001 C CNN
 F 1 "GND" H 7855 2727 50  0000 C CNN
 F 2 "" H 7850 2900 50  0001 C CNN
 F 3 "" H 7850 2900 50  0001 C CNN
@@ -74,10 +74,10 @@ $EndComp
 Wire Wire Line
 	7850 2750 7850 2900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR022
 U 1 1 61A52AC4
 P 6400 1450
-F 0 "#PWR?" H 6400 1200 50  0001 C CNN
+F 0 "#PWR022" H 6400 1200 50  0001 C CNN
 F 1 "GND" H 6405 1277 50  0000 C CNN
 F 2 "" H 6400 1450 50  0001 C CNN
 F 3 "" H 6400 1450 50  0001 C CNN
@@ -85,10 +85,10 @@ F 3 "" H 6400 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C28
 U 1 1 61A55FCB
 P 6400 1300
-F 0 "C?" H 6515 1345 60  0000 L CNN
+F 0 "C28" H 6515 1345 60  0000 L CNN
 F 1 "C_1u_0402" H 6400 1150 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 6600 1500 60  0001 L CNN
 F 3 "" H 6400 1300 50  0001 C CNN
@@ -110,10 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 2450 8300 2550
 $Comp
-L antmicroResistors0402:R_2k2_0402 R?
+L antmicroResistors0402:R_2k2_0402 R25
 U 1 1 61A77AD1
 P 8300 2700
-F 0 "R?" V 8255 2770 60  0000 L CNN
+F 0 "R25" V 8255 2770 60  0000 L CNN
 F 1 "R_2k2_0402" H 8300 2550 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 8500 2900 60  0001 L CNN
 F 3 "" H 8300 2700 50  0001 C CNN
@@ -124,10 +124,10 @@ F 6 "2k2" V 8353 2770 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR024
 U 1 1 61A7947B
 P 8450 3150
-F 0 "#PWR?" H 8450 3000 50  0001 C CNN
+F 0 "#PWR024" H 8450 3000 50  0001 C CNN
 F 1 "+1V8" H 8465 3323 50  0000 C CNN
 F 2 "" H 8450 3150 50  0001 C CNN
 F 3 "" H 8450 3150 50  0001 C CNN
@@ -157,10 +157,10 @@ Wire Wire Line
 	9050 2050 9050 1450
 Connection ~ 9050 2050
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L antmicroResistors0402:R_100k_0402 R26
 U 1 1 61A919E7
 P 9050 2350
-F 0 "R?" V 9005 2420 60  0000 L CNN
+F 0 "R26" V 9005 2420 60  0000 L CNN
 F 1 "R_100k_0402" H 9050 2200 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 9250 2550 60  0001 L CNN
 F 3 "" H 9050 2350 50  0001 C CNN
@@ -171,10 +171,10 @@ F 6 "100k" V 9103 2420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L antmicroResistors0402:R_100k_0402 R27
 U 1 1 61A91F11
 P 9400 2350
-F 0 "R?" V 9355 2420 60  0000 L CNN
+F 0 "R27" V 9355 2420 60  0000 L CNN
 F 1 "R_100k_0402" H 9400 2200 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 9600 2550 60  0001 L CNN
 F 3 "" H 9400 2350 50  0001 C CNN
@@ -199,10 +199,10 @@ Text GLabel 9400 2650 3    50   Input ~ 0
 Wire Wire Line
 	9050 2500 9050 2600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR025
 U 1 1 61A9C117
 P 9050 2600
-F 0 "#PWR?" H 9050 2350 50  0001 C CNN
+F 0 "#PWR025" H 9050 2350 50  0001 C CNN
 F 1 "GND" H 9055 2427 50  0000 C CNN
 F 2 "" H 9050 2600 50  0001 C CNN
 F 3 "" H 9050 2600 50  0001 C CNN
@@ -216,10 +216,10 @@ Wire Wire Line
 Wire Wire Line
 	9050 2050 9850 2050
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C29
 U 1 1 61AA1C18
 P 10000 1650
-F 0 "C?" V 9742 1650 60  0000 C CNN
+F 0 "C29" V 9742 1650 60  0000 C CNN
 F 1 "C_100n_0402" H 10000 1500 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 10200 1850 60  0001 L CNN
 F 3 "" H 10000 1650 50  0001 C CNN
@@ -230,10 +230,10 @@ F 6 "100n" V 9840 1650 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C30
 U 1 1 61AA25EA
 P 10000 2050
-F 0 "C?" V 9742 2050 60  0000 C CNN
+F 0 "C30" V 9742 2050 60  0000 C CNN
 F 1 "C_100n_0402" H 10000 1900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 10200 2250 60  0001 L CNN
 F 3 "" H 10000 2050 50  0001 C CNN
@@ -252,10 +252,10 @@ Wire Wire Line
 Wire Wire Line
 	10150 2050 10400 2050
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR019
 U 1 1 61AB1226
 P 4750 1300
-F 0 "#PWR?" H 4750 1150 50  0001 C CNN
+F 0 "#PWR019" H 4750 1150 50  0001 C CNN
 F 1 "VBUS" H 4765 1473 50  0000 C CNN
 F 2 "" H 4750 1300 50  0001 C CNN
 F 3 "" H 4750 1300 50  0001 C CNN
@@ -274,10 +274,10 @@ Wire Wire Line
 	4750 2800 4300 2800
 Connection ~ 4750 1300
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C?
+L antmicroCapacitors0402:C_1u_0402 C23
 U 1 1 61ACCBAB
 P 2700 3050
-F 0 "C?" H 2815 3095 60  0000 L CNN
+F 0 "C23" H 2815 3095 60  0000 L CNN
 F 1 "C_1u_0402" H 2700 2900 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2900 3250 60  0001 L CNN
 F 3 "" H 2700 3050 50  0001 C CNN
@@ -295,10 +295,10 @@ Wire Wire Line
 Wire Wire Line
 	3600 3500 3600 3550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR017
 U 1 1 61ACF8AD
 P 3600 3650
-F 0 "#PWR?" H 3600 3400 50  0001 C CNN
+F 0 "#PWR017" H 3600 3400 50  0001 C CNN
 F 1 "GND" H 3605 3477 50  0000 C CNN
 F 2 "" H 3600 3650 50  0001 C CNN
 F 3 "" H 3600 3650 50  0001 C CNN
@@ -330,10 +330,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 3100 4550 3100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 61AD6080
 P 4000 3650
-F 0 "#PWR?" H 4000 3400 50  0001 C CNN
+F 0 "#PWR018" H 4000 3400 50  0001 C CNN
 F 1 "GND" H 4005 3477 50  0000 C CNN
 F 2 "" H 4000 3650 50  0001 C CNN
 F 3 "" H 4000 3650 50  0001 C CNN
@@ -363,10 +363,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 2200 2000 2200
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C19
 U 1 1 61AEA0E1
 P 1850 2000
-F 0 "C?" V 1800 1900 60  0000 C CNN
+F 0 "C19" V 1800 1900 60  0000 C CNN
 F 1 "C_100n_0402" H 1850 1850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2050 2200 60  0001 L CNN
 F 3 "" H 1850 2000 50  0001 C CNN
@@ -377,10 +377,10 @@ F 6 "100n" V 1800 2150 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C20
 U 1 1 61AEABE1
 P 1850 2200
-F 0 "C?" V 1800 2100 60  0000 C CNN
+F 0 "C20" V 1800 2100 60  0000 C CNN
 F 1 "C_100n_0402" H 1850 2050 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2050 2400 60  0001 L CNN
 F 3 "" H 1850 2200 50  0001 C CNN
@@ -426,10 +426,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 3100 2000 3100
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C21
 U 1 1 61B0AD05
 P 1850 2900
-F 0 "C?" V 1800 2800 60  0000 C CNN
+F 0 "C21" V 1800 2800 60  0000 C CNN
 F 1 "C_100n_0402" H 1850 2750 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2050 3100 60  0001 L CNN
 F 3 "" H 1850 2900 50  0001 C CNN
@@ -440,10 +440,10 @@ F 6 "100n" V 1800 3050 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C22
 U 1 1 61B0BA57
 P 1850 3100
-F 0 "C?" V 1800 3000 60  0000 C CNN
+F 0 "C22" V 1800 3000 60  0000 C CNN
 F 1 "C_100n_0402" H 1850 2950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 2050 3300 60  0001 L CNN
 F 3 "" H 1850 3100 50  0001 C CNN
@@ -475,10 +475,10 @@ Connection ~ 2450 2400
 Wire Wire Line
 	2450 2400 3300 2400
 $Comp
-L antmicroTVSDiodes:PGB1010603MR D?
+L antmicroTVSDiodes:PGB1010603MR D2
 U 1 1 61B3161C
 P 2450 4650
-F 0 "D?" V 2397 4753 60  0000 L CNN
+F 0 "D2" V 2397 4753 60  0000 L CNN
 F 1 "PGB1010603MR" V 2503 4753 60  0000 L CNN
 F 2 "antmicro-footprints:PGB1010603MR" H 2650 4850 60  0001 L CNN
 F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 2650 4950 60  0001 L CNN
@@ -488,10 +488,10 @@ F 5 "PGB1010603MR" H 2650 5150 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroDiodesZenerSingle:1N5231BTR Z?
+L antmicroDiodesZenerSingle:1N5231BTR Z1
 U 1 1 61B3339A
 P 2300 4200
-F 0 "Z?" V 2353 4122 60  0000 R CNN
+F 0 "Z1" V 2353 4122 60  0000 R CNN
 F 1 "1N5231BTR" V 2247 4122 60  0000 R CNN
 F 2 "antmicro-footprints:DO-35" H 2500 4400 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N5221B-D.PDF" H 2500 4500 60  0001 L CNN
@@ -501,10 +501,10 @@ F 5 "ON Semiconductor" H 2500 5300 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZenerDiode:1N5227B D?
+L ZenerDiode:1N5227B D1
 U 1 1 61B35D92
 P 2150 3800
-F 0 "D?" V 2196 3722 50  0000 R CNN
+F 0 "D1" V 2196 3722 50  0000 R CNN
 F 1 "1N5227B" V 2105 3722 50  0000 R CNN
 F 2 "" H 2150 3950 50  0001 C CNN
 F 3 "" H 2150 3950 50  0001 C CNN
@@ -529,10 +529,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 5050 2300 5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 61B60718
 P 2300 5150
-F 0 "#PWR?" H 2300 4900 50  0001 C CNN
+F 0 "#PWR016" H 2300 4900 50  0001 C CNN
 F 1 "GND" H 2305 4977 50  0000 C CNN
 F 2 "" H 2300 5150 50  0001 C CNN
 F 3 "" H 2300 5150 50  0001 C CNN
@@ -548,10 +548,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 2100 5100 2100
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C24
 U 1 1 61B68402
 P 5600 2000
-F 0 "C?" V 5550 1900 60  0000 C CNN
+F 0 "C24" V 5550 1900 60  0000 C CNN
 F 1 "C_100n_0402" H 5600 1850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5800 2200 60  0001 L CNN
 F 3 "" H 5600 2000 50  0001 C CNN
@@ -564,10 +564,10 @@ $EndComp
 Wire Wire Line
 	5750 2000 6100 2000
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C25
 U 1 1 61B68D7F
 P 5600 2200
-F 0 "C?" V 5550 2100 60  0000 C CNN
+F 0 "C25" V 5550 2100 60  0000 C CNN
 F 1 "C_100n_0402" H 5600 2050 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5800 2400 60  0001 L CNN
 F 3 "" H 5600 2200 50  0001 C CNN
@@ -605,10 +605,10 @@ USB_CC2
 Wire Wire Line
 	4300 2700 5300 2700
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C26
 U 1 1 61B7FEE0
 P 5600 2900
-F 0 "C?" V 5550 2800 60  0000 C CNN
+F 0 "C26" V 5550 2800 60  0000 C CNN
 F 1 "C_100n_0402" H 5600 2750 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5800 3100 60  0001 L CNN
 F 3 "" H 5600 2900 50  0001 C CNN
@@ -619,10 +619,10 @@ F 6 "100n" V 5550 3050 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C27
 U 1 1 61B80E0B
 P 5600 3100
-F 0 "C?" V 5550 3000 60  0000 C CNN
+F 0 "C27" V 5550 3000 60  0000 C CNN
 F 1 "C_100n_0402" H 5600 2950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 5800 3300 60  0001 L CNN
 F 3 "" H 5600 3100 50  0001 C CNN
@@ -649,10 +649,10 @@ USB1_SS_TX1_M
 Text Label 6100 3100 0    50   ~ 0
 USB1_SS_TX1_P
 $Comp
-L antmicroTVSDiodes:PGB1010603MR D?
+L antmicroTVSDiodes:PGB1010603MR D3
 U 1 1 61B97586
 P 5300 3800
-F 0 "D?" V 5247 3903 60  0000 L CNN
+F 0 "D3" V 5247 3903 60  0000 L CNN
 F 1 "PGB1010603MR" V 5353 3903 60  0000 L CNN
 F 2 "antmicro-footprints:PGB1010603MR" H 5500 4000 60  0001 L CNN
 F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5500 4100 60  0001 L CNN
@@ -669,14 +669,16 @@ Wire Wire Line
 Wire Wire Line
 	5300 4000 5300 4200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR020
 U 1 1 61BA0B19
 P 5300 4200
-F 0 "#PWR?" H 5300 3950 50  0001 C CNN
+F 0 "#PWR020" H 5300 3950 50  0001 C CNN
 F 1 "GND" H 5305 4027 50  0000 C CNN
 F 2 "" H 5300 4200 50  0001 C CNN
 F 3 "" H 5300 4200 50  0001 C CNN
 	1    5300 4200
 	1    0    0    -1  
 $EndComp
+Text Notes 7500 1050 0    50   ~ 0
+This should be optional,\nhard to get component and\nnot necessary.
 $EndSCHEMATC

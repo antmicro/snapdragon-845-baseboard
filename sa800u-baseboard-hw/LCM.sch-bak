@@ -1,0 +1,116 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroFCCConnectors:1-1734248-5 J?
+U 1 1 61BD3566
+P 2400 1750
+F 0 "J?" H 2478 1841 50  0000 L CNN
+F 1 "1-1734248-5" H 2478 1750 50  0000 L CNN
+F 2 "antmicro-footprints:TE_1-1734248-5" H 1950 450 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734248%7FE1%7Fpdf%7FEnglish%7FENG_CD_1734248_E1__.pdf%7F1-1734248-5" H 2550 1750 50  0001 L BNN
+F 4 "TE Connectivity " H 1950 550 50  0001 L BNN "Manufacturer"
+F 5 "1-1734248-5 " H 2478 1659 50  0000 L CNN "MPN"
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1050 2050 1050
+Wire Wire Line
+	2050 1050 2050 1350
+Wire Wire Line
+	2050 1350 2250 1350
+Wire Wire Line
+	2050 1350 2050 1650
+Wire Wire Line
+	2050 1650 2250 1650
+Connection ~ 2050 1350
+Wire Wire Line
+	2050 1650 2050 1950
+Wire Wire Line
+	2050 1950 2250 1950
+Connection ~ 2050 1650
+Wire Wire Line
+	2050 1950 2050 2250
+Wire Wire Line
+	2050 2250 2250 2250
+Connection ~ 2050 1950
+Wire Wire Line
+	2250 2450 1950 2450
+Wire Wire Line
+	1950 2450 1950 2350
+Wire Wire Line
+	1950 2350 2250 2350
+Wire Wire Line
+	1950 2450 1900 2450
+Connection ~ 1950 2450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61BD4928
+P 1900 2450
+F 0 "#PWR?" H 1900 2300 50  0001 C CNN
+F 1 "+3V3" V 1915 2578 50  0000 L CNN
+F 2 "" H 1900 2450 50  0001 C CNN
+F 3 "" H 1900 2450 50  0001 C CNN
+	1    1900 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 2250 2050 2600
+Connection ~ 2050 2250
+$Comp
+L power:GND #PWR?
+U 1 1 61BD6C0B
+P 2050 2600
+F 0 "#PWR?" H 2050 2350 50  0001 C CNN
+F 1 "GND" H 2055 2427 50  0000 C CNN
+F 2 "" H 2050 2600 50  0001 C CNN
+F 3 "" H 2050 2600 50  0001 C CNN
+	1    2050 2600
+	1    0    0    -1  
+$EndComp
+Text Label 1600 1250 0    50   ~ 0
+DSI0_LN1_P
+Wire Wire Line
+	1600 1150 2250 1150
+Wire Wire Line
+	1600 1250 2250 1250
+Text Label 1600 1150 0    50   ~ 0
+DSI0_LN1_N
+Wire Wire Line
+	1600 1450 2250 1450
+Wire Wire Line
+	1600 1550 2250 1550
+Wire Wire Line
+	1600 1750 2250 1750
+Wire Wire Line
+	1600 1850 2250 1850
+Wire Wire Line
+	1600 2050 2250 2050
+Wire Wire Line
+	1600 2150 2250 2150
+Text Label 1600 1750 0    50   ~ 0
+DSI0_LN0_N
+Text Label 1600 1850 0    50   ~ 0
+DSI0_LN0_P
+Text Label 1600 1550 0    50   ~ 0
+DSI0_CLK_P
+Text Label 1600 1450 0    50   ~ 0
+DSI0_CLK_N
+Text Label 1600 2150 0    50   ~ 0
+TP_I2C_SDA
+Text Label 1600 2050 0    50   ~ 0
+TP_I2C_SCL
+$EndSCHEMATC

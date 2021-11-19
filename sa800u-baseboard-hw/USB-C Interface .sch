@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -679,4 +679,6 @@ F 3 "" H 5300 4200 50  0001 C CNN
 	1    5300 4200
 	1    0    0    -1  
 $EndComp
+Text Notes 7500 1050 0    50   ~ 0
+This should be optional,\nhard to get component and\nnot necessary.
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -36,5 +36,11 @@ S 3800 7000 500  500
 U 61A2F307
 F0 "USB-C Interface " 50
 F1 "USB-C Interface .sch" 50
+$EndSheet
+$Sheet
+S 4850 7000 500  500 
+U 61BD2CC1
+F0 "LCM" 50
+F1 "LCM.sch" 50
 $EndSheet
 $EndSCHEMATC
