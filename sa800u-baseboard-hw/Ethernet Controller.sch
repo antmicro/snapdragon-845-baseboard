@@ -1105,4 +1105,24 @@ Wire Wire Line
 	6000 6250 7200 6250
 Wire Wire Line
 	6000 6400 7500 6400
+Text Notes 875  5250 0    50   ~ 0
+REMARK: Add components to our repository \n(antmicro-kicad-components)
+Text Notes 5750 925  0    50   ~ 0
+REMARK: Please use _P _N at the end of the labels \n(eg. LAN0_RJ45_D1P -->LAN0_RJ45_D1_P)
+Text Notes 6200 3300 0    50   ~ 0
+REMARK: This GND's should be isolated. \nUse EARTH symbol instead of GND at HV side.
+Wire Notes Line
+	5425 4300 6750 4300
+Wire Notes Line
+	6750 4300 6750 3350
+Wire Notes Line
+	6750 3350 6775 3350
+Wire Notes Line
+	7650 3075 7650 2900
+Wire Notes Line
+	6800 3000 6800 2350
+Wire Notes Line
+	6800 2350 6825 2350
+Text Notes 575  5500 0    50   ~ 0
+REMARK: Please, fill the background \nof the symbol
 $EndSCHEMATC

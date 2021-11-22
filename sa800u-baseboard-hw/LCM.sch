@@ -580,4 +580,14 @@ Wire Wire Line
 Connection ~ 5600 2550
 Wire Wire Line
 	5600 2550 7100 2550
+Text Notes 2950 3025 0    50   ~ 0
+REMARK:These pull-ups are doubled
+Wire Notes Line
+	4425 3000 5275 3000
+Wire Notes Line
+	2875 3000 2400 3000
+Wire Notes Line
+	2400 3000 2400 2400
+Wire Notes Line
+	2400 2400 2275 2400
 $EndSCHEMATC

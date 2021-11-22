@@ -681,4 +681,6 @@ F 3 "" H 5300 4200 50  0001 C CNN
 $EndComp
 Text Notes 7500 1050 0    50   ~ 0
 This should be optional,\nhard to get component and\nnot necessary.
+Text Notes 6075 3325 0    50   ~ 0
+REMARK: USE _N instead of _M ( Kicad can't recognize _M)
 $EndSCHEMATC
