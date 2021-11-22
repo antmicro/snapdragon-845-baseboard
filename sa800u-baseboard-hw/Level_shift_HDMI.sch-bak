@@ -1,0 +1,29 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L antmicroLogicTranslatorsLevelShifters:TXB0104RUT U?
+U 1 1 61AD2A25
+P 3750 2550
+F 0 "U?" H 3750 1761 50  0000 C CNN
+F 1 "TXB0104RUT" H 3750 1670 50  0000 C CNN
+F 2 "antmicro-footprints:Texas_R_PUQFN-N12" H 3750 1579 50  0000 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 3860 2645 50  0001 C CNN
+F 4 "Texas Instruments" H 3350 1700 50  0001 C CNN "Manufacturer"
+F 5 "TXB0104RUTR" H 3300 1600 50  0001 C CNN "MPN"
+	1    3750 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
