@@ -4,4 +4,5 @@
   (lib (name Oscillators)(type Legacy)(uri ${KIPRJMOD}/Oscillators.lib)(options "")(descr ""))
   (lib (name ZenerDiode)(type Legacy)(uri ${KIPRJMOD}/ZenerDiode.lib)(options "")(descr ""))
   (lib (name Connectors)(type Legacy)(uri ${KIPRJMOD}/Connectors.lib)(options "")(descr ""))
+  (lib (name HDMI)(type Legacy)(uri ${KIPRJMOD}/HDMI.lib)(options "")(descr ""))
 )
