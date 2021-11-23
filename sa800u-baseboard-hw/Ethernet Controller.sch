@@ -40,40 +40,36 @@ F 3 "" H 1600 3100 50  0001 C CNN
 	1    1600 3100
 	-1   0    0    -1  
 $EndComp
-Text Label 2050 1100 0    50   ~ 0
-LAN0_MDI0P
 Text Label 2050 1300 0    50   ~ 0
-LAN0_MDI0N
+LAN0_MDI0_N
 Text Label 2050 1500 0    50   ~ 0
-LAN0_MDI1P
+LAN0_MDI1_P
 Text Label 2050 1700 0    50   ~ 0
-LAN0_MDI1N
+LAN0_MDI1_N
 Text Label 2050 1900 0    50   ~ 0
-LAN0_MDI2P
+LAN0_MDI2_P
 Text Label 2050 2100 0    50   ~ 0
-LAN0_MDI2N
+LAN0_MDI2_N
 Text Label 2050 2300 0    50   ~ 0
-LAN0_MDI3P
+LAN0_MDI3_P
 Text Label 2050 2500 0    50   ~ 0
-LAN0_MDI3N
+LAN0_MDI3_N
 Text Label 3750 2500 0    50   ~ 0
-LAN0_RJ45_D4M
+LAN0_RJ45_D4_N
 Wire Wire Line
 	3650 2500 3750 2500
 Text Label 3750 2300 0    50   ~ 0
-LAN0_RJ45_D4P
+LAN0_RJ45_D4_P
 Text Label 3750 2100 0    50   ~ 0
-LAN0_RJ45_D3M
+LAN0_RJ45_D3_N
 Text Label 3750 1900 0    50   ~ 0
-LAN0_RJ45_D3P
+LAN0_RJ45_D3_P
 Text Label 3750 1700 0    50   ~ 0
-LAN0_RJ45_D2M
+LAN0_RJ45_D2_N
 Text Label 3750 1500 0    50   ~ 0
-LAN0_RJ45_D2P
-Text Label 3750 1300 0    50   ~ 0
-LAN0_RJ45_D1M
+LAN0_RJ45_D2_P
 Text Label 3750 1100 0    50   ~ 0
-LAN0_RJ45_D1P
+LAN0_RJ45_D1_P
 Wire Wire Line
 	3650 2300 3750 2300
 Wire Wire Line
@@ -211,7 +207,7 @@ Wire Wire Line
 Text Label 4300 6000 0    50   ~ 0
 PCIE1_RST_N
 Text Label 4550 6500 3    50   ~ 0
-PCIE1_RX_M
+PCIE1_RX_N
 Text Label 4300 6500 3    50   ~ 0
 PCIE1_RX_P
 Text GLabel 1750 5700 0    50   Input ~ 0
@@ -219,19 +215,19 @@ Text GLabel 1750 5700 0    50   Input ~ 0
 Text GLabel 1750 6200 0    50   Input ~ 0
 1V0A
 Text Label 2000 6100 0    50   ~ 0
-LAN0_MDI2N
+LAN0_MDI2_N
 Text Label 2000 6000 0    50   ~ 0
-LAN0_MDI2P
+LAN0_MDI2_P
 Text Label 2000 5900 0    50   ~ 0
-LAN0_MDI1N
+LAN0_MDI1_N
 Text Label 2000 5800 0    50   ~ 0
-LAN0_MDI1P
+LAN0_MDI1_P
 Wire Wire Line
 	2500 6100 2000 6100
 Wire Wire Line
 	2500 6000 2000 6000
 Text Label 2000 5600 0    50   ~ 0
-LAN0_MDI0N
+LAN0_MDI0_N
 Wire Wire Line
 	2500 5900 2000 5900
 Wire Wire Line
@@ -239,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 5500 2500 5500
 Text Label 2000 5500 0    50   ~ 0
-LAN0_MDI0P
+LAN0_MDI0_P
 Wire Wire Line
 	3000 6700 3000 7400
 Wire Wire Line
@@ -251,13 +247,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 6700 3700 7400
 Text Label 3700 7400 1    50   ~ 0
-PCIE1_REFCLK_M
+PCIE1_REFCLK_N
 Wire Wire Line
 	3600 6700 3600 7400
 Text Label 3600 7400 1    50   ~ 0
 PCIE1_REFCLK_P
 Text Label 3500 7400 1    50   ~ 0
-PCIE1_TX_M
+PCIE1_TX_N
 Text Label 3400 7400 1    50   ~ 0
 PCIE1_TX_P
 Wire Wire Line
@@ -269,9 +265,9 @@ PCIE1_CLKREQ_N
 Text GLabel 3200 7450 3    50   Input ~ 0
 3V3
 Text Label 3100 7400 1    50   ~ 0
-LAN0_MDI3N
+LAN0_MDI3_N
 Text Label 3000 7400 1    50   ~ 0
-LAN0_MDI3P
+LAN0_MDI3_P
 $Comp
 L RTL8111Hx:RTL8111H U1
 U 1 1 618E8CA2
@@ -469,23 +465,23 @@ Wire Wire Line
 Wire Wire Line
 	7000 1450 6350 1450
 Text Label 6350 2050 0    50   ~ 0
-LAN0_RJ45_D4M
+LAN0_RJ45_D4_N
 Text Label 6350 1950 0    50   ~ 0
-LAN0_RJ45_D4P
+LAN0_RJ45_D4_P
 Text Label 6350 1850 0    50   ~ 0
-LAN0_RJ45_D3M
+LAN0_RJ45_D3_N
 Text Label 6350 1750 0    50   ~ 0
-LAN0_RJ45_D3P
+LAN0_RJ45_D3_P
 Text Label 6350 1650 0    50   ~ 0
-LAN0_RJ45_D2M
+LAN0_RJ45_D2_N
 Text Label 6350 1550 0    50   ~ 0
-LAN0_RJ45_D2P
+LAN0_RJ45_D2_P
 Text Label 6350 1450 0    50   ~ 0
-LAN0_RJ45_D1M
+LAN0_RJ45_D1_N
 Wire Wire Line
 	7000 1350 6350 1350
 Text Label 6350 1350 0    50   ~ 0
-LAN0_RJ45_D1P
+LAN0_RJ45_D1_P
 $Comp
 L antmicroModularConnectorsJacksWithMagnetics:WE-RJ45_7499111121A J?1
 U 1 1 61953706
@@ -1067,12 +1063,8 @@ Wire Wire Line
 	6000 6250 7200 6250
 Wire Wire Line
 	6000 6400 7500 6400
-Text Notes 875  5250 0    50   ~ 0
-REMARK: Add components to our repository \n(antmicro-kicad-components)
 Text Notes 5750 925  0    50   ~ 0
 REMARK: Please use _P _N at the end of the labels \n(eg. LAN0_RJ45_D1P -->LAN0_RJ45_D1_P)
-Text Notes 575  5500 0    50   ~ 0
-REMARK: Please, fill the background \nof the symbol
 $Comp
 L power:Earth #PWR?
 U 1 1 619F1D72
@@ -1117,4 +1109,8 @@ Wire Wire Line
 	6900 2250 6900 2350
 Wire Wire Line
 	5200 4200 5200 4300
+Text Label 3750 1300 0    50   ~ 0
+LAN0_RJ45_D1_N
+Text Label 2050 1100 0    50   ~ 0
+LAN0_MDI0_P
 $EndSCHEMATC
