@@ -192,24 +192,14 @@ Wire Wire Line
 	4300 5500 4200 5500
 Text Label 4300 5500 0    50   ~ 0
 REG_1V0
-Text Label 4300 5800 0    50   ~ 0
-PCIE1_WAKE_N
 Wire Wire Line
 	4200 5800 4300 5800
-Text Label 4300 5900 0    50   ~ 0
-ETH_ISOLATEB
 Wire Wire Line
 	4200 5900 4300 5900
 Wire Wire Line
 	4200 6000 4300 6000
 Wire Wire Line
 	4200 6200 4300 6200
-Text Label 4300 6000 0    50   ~ 0
-PCIE1_RST_N
-Text Label 4550 6500 3    50   ~ 0
-PCIE1_RX_N
-Text Label 4300 6500 3    50   ~ 0
-PCIE1_RX_P
 Text GLabel 1750 5700 0    50   Input ~ 0
 1V0A
 Text GLabel 1750 6200 0    50   Input ~ 0
@@ -246,22 +236,12 @@ Wire Wire Line
 	3500 6700 3500 7400
 Wire Wire Line
 	3700 6700 3700 7400
-Text Label 3700 7400 1    50   ~ 0
-PCIE1_REFCLK_N
 Wire Wire Line
 	3600 6700 3600 7400
-Text Label 3600 7400 1    50   ~ 0
-PCIE1_REFCLK_P
-Text Label 3500 7400 1    50   ~ 0
-PCIE1_TX_N
-Text Label 3400 7400 1    50   ~ 0
-PCIE1_TX_P
 Wire Wire Line
 	3300 6700 3300 7400
 Wire Wire Line
 	3200 6700 3200 7450
-Text Label 3300 7400 1    50   ~ 0
-PCIE1_CLKREQ_N
 Text GLabel 3200 7450 3    50   Input ~ 0
 3V3
 Text Label 3100 7400 1    50   ~ 0
@@ -1047,14 +1027,6 @@ F 3 "" H 8050 6450 50  0001 C CNN
 	1    8050 6450
 	1    0    0    -1  
 $EndComp
-Text Label 6000 6250 0    50   ~ 0
-PCIE1_CLKREQ_N
-Text Label 6000 6400 0    50   ~ 0
-ETH_ISOLATEB
-Text Label 6000 6100 0    50   ~ 0
-PCIE1_RST_N
-Text Label 6000 5950 0    50   ~ 0
-PCIE1_WAKE_N
 Wire Wire Line
 	6000 5950 6550 5950
 Wire Wire Line
@@ -1063,8 +1035,6 @@ Wire Wire Line
 	6000 6250 7200 6250
 Wire Wire Line
 	6000 6400 7500 6400
-Text Notes 5750 925  0    50   ~ 0
-REMARK: Please use _P _N at the end of the labels \n(eg. LAN0_RJ45_D1P -->LAN0_RJ45_D1_P)
 $Comp
 L power:Earth #PWR?
 U 1 1 619F1D72
@@ -1113,4 +1083,32 @@ Text Label 3750 1300 0    50   ~ 0
 LAN0_RJ45_D1_N
 Text Label 2050 1100 0    50   ~ 0
 LAN0_MDI0_P
+Text GLabel 3300 7400 3    50   Input ~ 0
+PCIE1_CLKREQ_N
+Text GLabel 3400 7400 3    50   Input ~ 0
+PCIE1_TX_P
+Text GLabel 3500 7400 3    50   Input ~ 0
+PCIE1_TX_N
+Text GLabel 3600 7400 3    50   Input ~ 0
+PCIE1_REFCLK_P
+Text GLabel 3700 7400 3    50   Input ~ 0
+PCIE1_REFCLK_N
+Text GLabel 4300 6500 3    50   Input ~ 0
+PCIE1_RX_P
+Text GLabel 4550 6500 3    50   Input ~ 0
+PCIE1_RX_N
+Text GLabel 4300 6000 2    50   Input ~ 0
+PCIE1_RST_N
+Text GLabel 4300 5900 2    50   Input ~ 0
+ETH_ISOLATEB
+Text GLabel 4300 5800 2    50   Input ~ 0
+PCIE1_WAKE_N
+Text GLabel 6000 6400 0    50   Input ~ 0
+ETH_ISOLATEB
+Text GLabel 6000 6250 0    50   Input ~ 0
+PCIE1_CLKREQ_N
+Text GLabel 6000 6100 0    50   Input ~ 0
+PCIE1_RST_N
+Text GLabel 6000 5950 0    50   Input ~ 0
+PCIE1_WAKE_N
 $EndSCHEMATC

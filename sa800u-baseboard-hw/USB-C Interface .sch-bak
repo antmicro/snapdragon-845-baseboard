@@ -393,7 +393,7 @@ $EndComp
 Text Label 1000 2000 0    50   ~ 0
 USB1_SS_TX0_P
 Text Label 1000 2200 0    50   ~ 0
-USB1_SS_TX0_M
+USB1_SS_TX0_N
 Wire Wire Line
 	1000 2000 1700 2000
 Wire Wire Line
@@ -460,7 +460,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 3100 1000 3100
 Text Label 1000 2900 0    50   ~ 0
-USB1_SS_RX1_M
+USB1_SS_RX1_N
 Text Label 1000 3100 0    50   ~ 0
 USB1_SS_RX1_P
 Wire Wire Line
@@ -582,7 +582,7 @@ Wire Wire Line
 Text Label 6100 2000 0    50   ~ 0
 USB1_SS_RX0_P
 Text Label 6100 2200 0    50   ~ 0
-USB1_SS_RX0_M
+USB1_SS_RX0_N
 Wire Wire Line
 	4300 2300 4750 2300
 Connection ~ 4750 2300
@@ -645,7 +645,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3100 6100 3100
 Text Label 6100 2900 0    50   ~ 0
-USB1_SS_TX1_M
+USB1_SS_TX1_N
 Text Label 6100 3100 0    50   ~ 0
 USB1_SS_TX1_P
 $Comp
@@ -681,6 +681,4 @@ F 3 "" H 5300 4200 50  0001 C CNN
 $EndComp
 Text Notes 7500 1050 0    50   ~ 0
 This should be optional,\nhard to get component and\nnot necessary.
-Text Notes 6075 3325 0    50   ~ 0
-REMARK: USE _N instead of _M ( Kicad can't recognize _M)
 $EndSCHEMATC
