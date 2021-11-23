@@ -372,22 +372,9 @@ Wire Wire Line
 Wire Wire Line
 	8200 2650 8200 2400
 Wire Wire Line
-	7050 2650 7650 2650
-Wire Wire Line
 	7050 2400 7050 2650
 Text GLabel 6850 2150 0    50   Input ~ 0
 3V3
-$Comp
-L power:GND #PWR0105
-U 1 1 6199FB11
-P 6900 2250
-F 0 "#PWR0105" H 6900 2000 50  0001 C CNN
-F 1 "GND" V 6905 2122 50  0000 R CNN
-F 2 "" H 6900 2250 50  0001 C CNN
-F 3 "" H 6900 2250 50  0001 C CNN
-	1    6900 2250
-	0    1    1    0   
-$EndComp
 Text Label 9850 1950 0    50   ~ 0
 ETH_LED2
 $Comp
@@ -679,17 +666,6 @@ F 6 "1n/2kV" V 5100 4250 50  0000 C CNN "Val"
 	1    5200 4050
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 61BDF244
-P 5200 4200
-F 0 "#PWR0111" H 5200 3950 50  0001 C CNN
-F 1 "GND" H 5205 4027 50  0000 C CNN
-F 2 "" H 5200 4200 50  0001 C CNN
-F 3 "" H 5200 4200 50  0001 C CNN
-	1    5200 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 1950 9850 1950
 Connection ~ 8750 1950
@@ -788,20 +764,6 @@ Wire Wire Line
 	1600 3000 1600 3100
 Wire Wire Line
 	2050 1500 2800 1500
-$Comp
-L power:GND #PWR01
-U 1 1 61C6A237
-P 7650 2650
-F 0 "#PWR01" H 7650 2400 50  0001 C CNN
-F 1 "GND" H 7655 2477 50  0000 C CNN
-F 2 "" H 7650 2650 50  0001 C CNN
-F 3 "" H 7650 2650 50  0001 C CNN
-	1    7650 2650
-	1    0    0    -1  
-$EndComp
-Connection ~ 7650 2650
-Wire Wire Line
-	7650 2650 8200 2650
 $Comp
 L power:GND #PWR02
 U 1 1 61C7BBCB
@@ -1105,4 +1067,68 @@ Wire Wire Line
 	6000 6250 7200 6250
 Wire Wire Line
 	6000 6400 7500 6400
+Text Notes 875  5250 0    50   ~ 0
+REMARK: Add components to our repository \n(antmicro-kicad-components)
+Text Notes 5750 925  0    50   ~ 0
+REMARK: Please use _P _N at the end of the labels \n(eg. LAN0_RJ45_D1P -->LAN0_RJ45_D1_P)
+Text Notes 6200 3300 0    50   ~ 0
+REMARK: This GND's should be isolated. \nUse EARTH symbol instead of GND at HV side.
+Wire Notes Line
+	5425 4300 6750 4300
+Wire Notes Line
+	6750 4300 6750 3350
+Wire Notes Line
+	6750 3350 6775 3350
+Wire Notes Line
+	7650 3075 7650 2900
+Wire Notes Line
+	6800 3000 6800 2350
+Wire Notes Line
+	6800 2350 6825 2350
+Text Notes 575  5500 0    50   ~ 0
+REMARK: Please, fill the background \nof the symbol
+$Comp
+L power:Earth #PWR?
+U 1 1 619F1D72
+P 5200 4300
+F 0 "#PWR?" H 5200 4050 50  0001 C CNN
+F 1 "Earth" H 5200 4150 50  0001 C CNN
+F 2 "" H 5200 4300 50  0001 C CNN
+F 3 "~" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 619F2B63
+P 6900 2350
+F 0 "#PWR?" H 6900 2100 50  0001 C CNN
+F 1 "Earth" H 6900 2200 50  0001 C CNN
+F 2 "" H 6900 2350 50  0001 C CNN
+F 3 "~" H 6900 2350 50  0001 C CNN
+	1    6900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 619F3D25
+P 7650 2700
+F 0 "#PWR?" H 7650 2450 50  0001 C CNN
+F 1 "Earth" H 7650 2550 50  0001 C CNN
+F 2 "" H 7650 2700 50  0001 C CNN
+F 3 "~" H 7650 2700 50  0001 C CNN
+	1    7650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2650 7650 2650
+Wire Wire Line
+	7650 2700 7650 2650
+Connection ~ 7650 2650
+Wire Wire Line
+	7650 2650 8200 2650
+Wire Wire Line
+	6900 2250 6900 2350
+Wire Wire Line
+	5200 4200 5200 4300
 $EndSCHEMATC

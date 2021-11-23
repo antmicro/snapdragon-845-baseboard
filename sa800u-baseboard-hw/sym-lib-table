@@ -5,4 +5,5 @@
   (lib (name ZenerDiode)(type Legacy)(uri ${KIPRJMOD}/ZenerDiode.lib)(options "")(descr ""))
   (lib (name Connectors)(type Legacy)(uri ${KIPRJMOD}/Connectors.lib)(options "")(descr ""))
   (lib (name HDMI)(type Legacy)(uri ${KIPRJMOD}/HDMI.lib)(options "")(descr ""))
+  (lib (name 68612014122)(type Legacy)(uri /home/jszukala/Downloads/temp_components/68612014122.lib)(options "")(descr "")(disabled))
 )
