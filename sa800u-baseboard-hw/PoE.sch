@@ -583,8 +583,6 @@ F 5 "MULTICOMP" H 2050 1684 50  0000 C CNN "Manufacturer"
 	1    1700 1550
 	1    0    0    -1  
 $EndComp
-Text Notes 550  1300 0    50   ~ 0
-How to connect this to RJ45?
 Wire Wire Line
 	1850 4750 1850 5100
 Wire Wire Line

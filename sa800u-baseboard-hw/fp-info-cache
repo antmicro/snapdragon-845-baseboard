@@ -1,4 +1,4 @@
-1888688080336018
+1896876459361456
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -420,12 +420,26 @@ connector Molex Micro-Fit_3.0 side entry
 2
 2
 antmicro-footprints
+43045-0413
+Molex Micro-Fit 3.0 Connector System, 43045-0413 (compatible alternatives: 43045-0412, 43045-0424)
+connector Molex Micro-Fit_3.0 side entry
+0
+4
+4
+antmicro-footprints
 43045-0612
 
 
 0
 8
 7
+antmicro-footprints
+43045-1013
+Molex Micro-Fit 3.0 Connector System, 43045-1013 (compatible alternatives: 43045-1012, 43045-1024)
+connector Molex Micro-Fit_3.0 side entry
+0
+10
+10
 antmicro-footprints
 48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
@@ -4886,6 +4900,13 @@ RNH0030A
 31
 31
 antmicro-footprints
+RTL8111H
+<b>QFP-32 package</b><p>5x5 mm case, 0.5 mm lead pitch
+
+0
+33
+33
+antmicro-footprints
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
 resistor
@@ -7882,6 +7903,13 @@ antmicro-text_midlayer
 0
 0
 antmicro-footprints
+cokolwiek
+
+
+0
+0
+0
+antmicro-footprints
 compute-module-4-1.5mm
 
 
@@ -8084,3 +8112,10 @@ zglue-logo
 0
 0
 0
+temp
+RTL8111H
+<b>QFP-32 package</b><p>5x5 mm case, 0.5 mm lead pitch
+
+0
+33
+33
