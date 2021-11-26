@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1250 6200 0    50   ~ 0
--||-\n
 $Comp
 L antmicroInterfaceDriversReceiversTransceivers:749020010A T1
 U 1 1 61920376
@@ -234,17 +232,6 @@ Text Label 3100 7400 1    50   ~ 0
 LAN0_MDI3_N
 Text Label 3000 7400 1    50   ~ 0
 LAN0_MDI3_P
-$Comp
-L RTL8111Hx:RTL8111H U1
-U 1 1 618E8CA2
-P 2600 5100
-F 0 "U1" H 2550 5150 50  0000 L CNN
-F 1 "RTL8111H" H 3850 5150 50  0000 L CNN
-F 2 "" H 2500 4800 50  0001 C CNN
-F 3 "" H 2500 4800 50  0001 C CNN
-	1    2600 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 5800 2000 5800
 $Comp
@@ -1052,4 +1039,17 @@ Text GLabel 7500 5350 1    50   Input ~ 0
 3V3
 Text GLabel 6350 4450 1    50   Input ~ 0
 1V8
+$Comp
+L antmicroInterfaceControllers:RTL8111H U?
+U 1 1 61A1B9F8
+P 2600 5100
+F 0 "U?" H 4244 4487 50  0000 L CNN
+F 1 "RTL8111H" H 4244 4396 50  0000 L CNN
+F 2 "antmicro-footprints:RTL8111H" H 2600 5100 50  0001 C CNN
+F 3 "" H 2600 5100 50  0001 C CNN
+F 4 "RTL8111H" H 4244 4305 50  0000 L CNN "MPN"
+F 5 "REALTEK" H 4244 4214 50  0000 L CNN "Manufacturer"
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-1908347668441456
+1909985583326456
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -5774,6 +5774,13 @@ SOT65P210X110-5N
 0
 5
 5
+antmicro-footprints
+SOT95P230X110-3N
+
+
+0
+3
+3
 antmicro-footprints
 SOT95P275X110-6N
 

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -421,30 +421,6 @@ F 5 "PGB1010603MR" H 2650 5150 60  0001 L CNN "MPN"
 	1    2450 4650
 	0    1    1    0   
 $EndComp
-$Comp
-L antmicroDiodesZenerSingle:1N5231BTR Z1
-U 1 1 61B3339A
-P 2300 4200
-F 0 "Z1" V 2353 4122 60  0000 R CNN
-F 1 "1N5231BTR" V 2247 4122 60  0000 R CNN
-F 2 "antmicro-footprints:DO-35" H 2500 4400 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/1N5221B-D.PDF" H 2500 4500 60  0001 L CNN
-F 4 "1N5231BTR" H 2500 4700 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 2500 5300 60  0001 L CNN "Manufacturer"
-	1    2300 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ZenerDiode:1N5227B D1
-U 1 1 61B35D92
-P 2150 3800
-F 0 "D1" V 2196 3722 50  0000 R CNN
-F 1 "1N5227B" V 2105 3722 50  0000 R CNN
-F 2 "" H 2150 3950 50  0001 C CNN
-F 3 "" H 2150 3950 50  0001 C CNN
-	1    2150 3800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2450 2400 2450 4450
 Wire Wire Line
@@ -651,4 +627,30 @@ Text GLabel 6200 1100 0    50   Input ~ 0
 3V3
 Text GLabel 8450 3150 1    50   Input ~ 0
 1V8
+$Comp
+L antmicroDiodesZenerSingle:BZX84-C3V6,215 D?
+U 1 1 61A2E749
+P 2300 4200
+F 0 "D?" V 2400 4200 50  0000 R CNN
+F 1 "BZX84-C3V6,215" V 2196 4222 50  0000 R CNN
+F 2 "antmicro-footprints:SOT95P230X110-3N" H 2150 4400 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1808429.pdf" H 2150 4400 50  0001 C CNN
+F 4 "BZX84-C3V6,215" V 2300 4000 50  0000 R CNN "MPN"
+F 5 "NEXPERIA" V 2400 4000 50  0000 R CNN "Manufacturer"
+	1    2300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroDiodesZenerSingle:BZX84-C3V6,215 D?
+U 1 1 61A30594
+P 2150 3800
+F 0 "D?" V 2250 3800 50  0000 R CNN
+F 1 "BZX84-C3V6,215" V 2046 3822 50  0000 R CNN
+F 2 "antmicro-footprints:SOT95P230X110-3N" H 2000 4000 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1808429.pdf" H 2000 4000 50  0001 C CNN
+F 4 "BZX84-C3V6,215" V 2000 4600 50  0000 R CNN "MPN"
+F 5 "NEXPERIA" V 2100 4600 50  0000 R CNN "Manufacturer"
+	1    2150 3800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

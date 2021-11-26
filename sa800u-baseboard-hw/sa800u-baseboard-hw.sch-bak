@@ -14,12 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 600  7000 500  500 
-U 61A19323
-F0 "PoE" 50
-F1 "PoE.sch" 50
-$EndSheet
-$Sheet
 S 1600 7000 500  500 
 U 618E716E
 F0 "Ethernet Controller" 50
@@ -51,4 +45,10 @@ F1 "Level_shift_HDMI.sch" 50
 $EndSheet
 Text Notes 625  6150 0    50   ~ 0
 GENERAL REMARKS:\n-Nice sheet separation\n-Nice and clear signal labeling\n-Use "kmake get-ignore" inside the repo to make git ignore backup\n files\n-Make folder structure flat - move files ../ \n-Make all the sheets A3 format\n-Avoid "space" in file names use "_" instead
+$Sheet
+S 600  7000 500  500 
+U 61A19323
+F0 "PoE" 50
+F1 "PoE.sch" 50
+$EndSheet
 $EndSCHEMATC
