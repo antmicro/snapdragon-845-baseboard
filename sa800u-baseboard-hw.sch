@@ -16,8 +16,8 @@ $EndDescr
 $Sheet
 S 1600 7000 500  500 
 U 618E716E
-F0 "Ethernet Controller" 50
-F1 "Ethernet Controller.sch" 50
+F0 "Ethernet_Controller" 50
+F1 "Ethernet_Controller.sch" 50
 $EndSheet
 $Sheet
 S 3000 7000 500  500 
@@ -28,8 +28,8 @@ $EndSheet
 $Sheet
 S 5200 7000 500  500 
 U 61A2F307
-F0 "USB-C Interface " 50
-F1 "USB-C Interface .sch" 50
+F0 "USB-C_Interface " 50
+F1 "USB-C_Interface.sch" 50
 $EndSheet
 $Sheet
 S 6250 7000 500  500 
