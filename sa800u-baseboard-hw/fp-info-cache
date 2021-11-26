@@ -1,4 +1,4 @@
-1896876459361456
+1908347668441456
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -1259,6 +1259,13 @@ BGA 200 0.8x0.65
 0
 200
 200
+antmicro-footprints
+BGA8C50P2X4_88X188X50N
+
+
+0
+8
+8
 antmicro-footprints
 BGA80P96C6X16_800X1400X110
 
@@ -3255,6 +3262,13 @@ file:///C:/Users/alex_wegscheid/Downloads/TB6612FNG_datasheet_en_20141001%20(7).
 24
 24
 antmicro-footprints
+LT9611
+
+
+0
+80
+65
+antmicro-footprints
 LUMILED_L1I0-0850090000000
 
 
@@ -3345,6 +3359,13 @@ MICRON_EMMC_153
 0
 153
 153
+antmicro-footprints
+MOLEX_39-30-1060
+
+
+0
+6
+6
 antmicro-footprints
 MOLEX_47272-0001
 
@@ -3697,6 +3718,13 @@ http://www.vishay.com/docs/84277/veml6070.pdf
 6
 antmicro-footprints
 OSC_ASEM1-16.000MHZ-LC-T
+
+
+0
+4
+4
+antmicro-footprints
+OSC_ECS-1618-250-BN-TR
 
 
 0
@@ -7903,13 +7931,6 @@ antmicro-text_midlayer
 0
 0
 antmicro-footprints
-cokolwiek
-
-
-0
-0
-0
-antmicro-footprints
 compute-module-4-1.5mm
 
 
@@ -8112,6 +8133,34 @@ zglue-logo
 0
 0
 0
+temp
+OSC_ECS-1618-250-BN-TR
+
+
+0
+4
+4
+temp
+QFN-64_7.5x7.5
+
+
+0
+0
+0
+temp
+QFN-64_EP_7.5x7.5_Pitch0.4mm
+
+
+0
+80
+65
+temp
+QFN-64_UP
+
+
+0
+65
+65
 temp
 RTL8111H
 <b>QFP-32 package</b><p>5x5 mm case, 0.5 mm lead pitch

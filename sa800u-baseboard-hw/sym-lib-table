@@ -1,9 +1,9 @@
 (sym_lib_table
   (lib (name SA800U-WF)(type Legacy)(uri ${KIPRJMOD}/SA800U-WF.lib)(options "")(descr ""))
-  (lib (name RTL8111Hx)(type Legacy)(uri ${KIPRJMOD}/RTL8111Hx.lib)(options "")(descr ""))
+  (lib (name RTL8111Hx)(type Legacy)(uri ${KIPRJMOD}/RTL8111Hx.lib)(options "")(descr "")(disabled))
   (lib (name Oscillators)(type Legacy)(uri ${KIPRJMOD}/Oscillators.lib)(options "")(descr ""))
   (lib (name ZenerDiode)(type Legacy)(uri ${KIPRJMOD}/ZenerDiode.lib)(options "")(descr ""))
-  (lib (name Connectors)(type Legacy)(uri ${KIPRJMOD}/Connectors.lib)(options "")(descr ""))
-  (lib (name HDMI)(type Legacy)(uri ${KIPRJMOD}/HDMI.lib)(options "")(descr ""))
+  (lib (name Connectors)(type Legacy)(uri ${KIPRJMOD}/Connectors.lib)(options "")(descr "")(disabled))
+  (lib (name HDMI)(type Legacy)(uri ${KIPRJMOD}/HDMI.lib)(options "")(descr "")(disabled))
   (lib (name 68612014122)(type Legacy)(uri /home/jszukala/Downloads/temp_components/68612014122.lib)(options "")(descr "")(disabled))
 )

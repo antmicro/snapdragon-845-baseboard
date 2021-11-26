@@ -36,17 +36,6 @@ Text GLabel 2950 2650 0    50   Input ~ 0
 I2S1_SCK
 Text GLabel 2950 2850 0    50   Input ~ 0
 I2S1_DATA0
-$Comp
-L HDMI:TXS0102YZPR U6
-U 1 1 61AE6E30
-P 8800 1950
-F 0 "U6" H 9050 1377 50  0000 C CNN
-F 1 "TXS0102YZPR" H 9050 1286 50  0000 C CNN
-F 2 "" H 8250 2150 50  0001 C CNN
-F 3 "" H 8250 2150 50  0001 C CNN
-	1    8800 1950
-	1    0    0    -1  
-$EndComp
 Text GLabel 3850 1650 1    50   Input ~ 0
 VDD33
 Text GLabel 4550 2250 2    50   Input ~ 0
@@ -368,4 +357,17 @@ Wire Wire Line
 	7050 2150 7300 2150
 Text Notes 3650 975  0    50   ~ 0
 REMARK:Please unify convention of naming power supply labels.\nWe often use global labels. Always check that the name is exactly the same.
+$Comp
+L antmicroLogicTranslatorsLevelShifters:TXS0102YZPR U?
+U 1 1 61A10975
+P 8800 1950
+F 0 "U?" H 9050 1377 50  0000 C CNN
+F 1 "TXS0102YZPR" H 9050 1286 50  0000 C CNN
+F 2 "antmicro-footprints:BGA8C50P2X4_88X188X50N" H 8800 1950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/txs0102.pdf?ts=1637914596981&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTXS0102DCTR%2526keyMatch%253DTXS0102DCTR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN" H 8800 1950 50  0001 C CNN
+F 4 "TXS0102YZPR" H 9050 1195 50  0000 C CNN "MPN"
+F 5 "Texas Instruments" H 9050 1104 50  0000 C CNN "Manufacturer"
+	1    8800 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

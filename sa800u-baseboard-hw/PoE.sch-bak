@@ -593,49 +593,11 @@ Connection ~ 5750 1750
 Wire Wire Line
 	5750 1750 7950 1750
 Wire Wire Line
-	1850 5500 2200 5500
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 61A82610
-P 4700 1750
-F 0 "#FLG0101" H 4700 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 4700 1923 50  0000 C CNN
-F 2 "" H 4700 1750 50  0001 C CNN
-F 3 "~" H 4700 1750 50  0001 C CNN
-	1    4700 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 61A95F09
-P 2200 5500
-F 0 "#FLG0102" H 2200 5575 50  0001 C CNN
-F 1 "PWR_FLAG" H 2200 5673 50  0000 C CNN
-F 2 "" H 2200 5500 50  0001 C CNN
-F 3 "~" H 2200 5500 50  0001 C CNN
-	1    2200 5500
-	-1   0    0    1   
-$EndComp
-Connection ~ 2200 5500
-Wire Wire Line
-	2200 5500 2950 5500
-Wire Wire Line
 	6750 2200 7450 2200
 Text GLabel 7450 2200 2    50   Input ~ 0
 T2P_HIGH
 Wire Wire Line
 	6750 2100 7250 2100
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 61AB6F5B
-P 4700 2900
-F 0 "#FLG0103" H 4700 2975 50  0001 C CNN
-F 1 "PWR_FLAG" H 4700 3073 50  0000 C CNN
-F 2 "" H 4700 2900 50  0001 C CNN
-F 3 "~" H 4700 2900 50  0001 C CNN
-	1    4700 2900
-	-1   0    0    1   
-$EndComp
 $Comp
 L antmicroResistors0402:R_0R_0402 R16
 U 1 1 6197A6CB
@@ -678,6 +640,6 @@ Wire Wire Line
 	6100 4900 6100 5100
 Text Notes 5275 1325 0    50   ~ 0
 REMARK:Typical aplication circuit can be found in \nTPS2378DDA datasheet:\n https://www.ti.com/lit/ds/symlink/tps2378.pdf?ts=1637556069032&ref_url=https%253A%252F%252Fwww.google.com%252F\nThere is the reference connection for APD circuit.
-Text Notes 3775 3275 0    50   ~ 0
-REMARK: What is the purpose of these PWR_FLAGS? \neeeeIf it is intended as a test point use TP_SMD1MM instead.
+Wire Wire Line
+	1850 5500 2950 5500
 $EndSCHEMATC
