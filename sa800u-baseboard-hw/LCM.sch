@@ -1,0 +1,621 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2950 950  2750 950 
+Wire Wire Line
+	2750 950  2750 1250
+Wire Wire Line
+	2750 1250 2950 1250
+Wire Wire Line
+	2750 1250 2750 1550
+Wire Wire Line
+	2750 1550 2950 1550
+Connection ~ 2750 1250
+Wire Wire Line
+	2750 1550 2750 1850
+Wire Wire Line
+	2750 1850 2950 1850
+Connection ~ 2750 1550
+Wire Wire Line
+	2750 1850 2750 2150
+Wire Wire Line
+	2750 2150 2950 2150
+Connection ~ 2750 1850
+Wire Wire Line
+	2950 2350 2650 2350
+Wire Wire Line
+	2650 2350 2650 2250
+Wire Wire Line
+	2650 2250 2950 2250
+Wire Wire Line
+	2650 2350 2600 2350
+Connection ~ 2650 2350
+$Comp
+L power:+3V3 #PWR026
+U 1 1 61BD4928
+P 2600 2350
+F 0 "#PWR026" H 2600 2200 50  0001 C CNN
+F 1 "+3V3" V 2615 2478 50  0000 L CNN
+F 2 "" H 2600 2350 50  0001 C CNN
+F 3 "" H 2600 2350 50  0001 C CNN
+	1    2600 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2150 2750 2500
+Connection ~ 2750 2150
+$Comp
+L power:GND #PWR027
+U 1 1 61BD6C0B
+P 2750 2500
+F 0 "#PWR027" H 2750 2250 50  0001 C CNN
+F 1 "GND" H 2755 2327 50  0000 C CNN
+F 2 "" H 2750 2500 50  0001 C CNN
+F 3 "" H 2750 2500 50  0001 C CNN
+	1    2750 2500
+	1    0    0    -1  
+$EndComp
+Text Label 550  1150 0    50   ~ 0
+DSI0_LN1_P
+Text Label 550  1050 0    50   ~ 0
+DSI0_LN1_N
+Text Label 550  1650 0    50   ~ 0
+DSI0_LN0_N
+Text Label 550  1750 0    50   ~ 0
+DSI0_LN0_P
+Text Label 550  1450 0    50   ~ 0
+DSI0_CLK_P
+Text Label 550  1350 0    50   ~ 0
+DSI0_CLK_N
+Text Label 550  2050 0    50   ~ 0
+TP_I2C_SDA
+Text Label 550  1950 0    50   ~ 0
+TP_I2C_SCL
+Text Label 6200 1200 0    50   ~ 0
+DSI0_LN3_P
+Text Label 6200 1100 0    50   ~ 0
+DSI0_LN3_N
+Text Label 6200 1500 0    50   ~ 0
+DSI0_LN2_P
+Text Label 6200 1400 0    50   ~ 0
+DSI0_LN2_N
+Text Label 6200 1700 0    50   ~ 0
+DSI0_LN1_N
+Text Label 6200 1800 0    50   ~ 0
+DSI0_LN1_P
+Text Label 6200 2000 0    50   ~ 0
+DSI0_LN0_N
+Text Label 6200 2100 0    50   ~ 0
+DSI0_LN0_P
+Wire Wire Line
+	9300 1000 9050 1000
+Wire Wire Line
+	9050 1000 9050 1300
+Wire Wire Line
+	9050 1300 9300 1300
+Wire Wire Line
+	9050 1300 9050 1600
+Connection ~ 9050 1300
+Wire Wire Line
+	9050 1600 9300 1600
+Connection ~ 9050 1600
+Wire Wire Line
+	9050 1600 9050 1900
+Wire Wire Line
+	9050 1900 9300 1900
+Connection ~ 9050 1900
+Wire Wire Line
+	9050 1900 9050 2200
+Wire Wire Line
+	9050 2200 9300 2200
+Text Label 6200 2600 0    50   ~ 0
+TP_I2C_SCL
+Text Label 6200 2700 0    50   ~ 0
+TP_I2C_SDA
+Wire Wire Line
+	9050 2200 9050 2500
+Wire Wire Line
+	9050 2500 9300 2500
+Connection ~ 9050 2200
+Wire Wire Line
+	9050 2500 9050 2800
+Wire Wire Line
+	9050 2800 9300 2800
+Connection ~ 9050 2500
+$Comp
+L power:+3V3 #PWR028
+U 1 1 61BE8457
+P 8700 2900
+F 0 "#PWR028" H 8700 2750 50  0001 C CNN
+F 1 "+3V3" V 8715 3028 50  0000 L CNN
+F 2 "" H 8700 2900 50  0001 C CNN
+F 3 "" H 8700 2900 50  0001 C CNN
+	1    8700 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 2900 9300 2900
+Wire Wire Line
+	9050 2800 9050 3050
+Connection ~ 9050 2800
+$Comp
+L power:GND #PWR029
+U 1 1 61BEA7A9
+P 9050 3050
+F 0 "#PWR029" H 9050 2800 50  0001 C CNN
+F 1 "GND" H 9055 2877 50  0000 C CNN
+F 2 "" H 9050 3050 50  0001 C CNN
+F 3 "" H 9050 3050 50  0001 C CNN
+	1    9050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:744235900 L1
+U 1 1 61C019F9
+P 1450 1100
+F 0 "L1" H 1400 1250 50  0000 C CNN
+F 1 "744235900" H 1450 925 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 2050 1600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1450 1100 50  0001 C CNN
+F 4 "Wurth Elektronik" H 1950 1100 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 1900 1200 50  0000 C CNN "MPN"
+F 6 "2A" H 1525 1750 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 1600 1675 50  0001 C CNN "Size"
+F 8 "300n/2A" H 1675 1325 50  0001 C CNN "Val"
+	1    1450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1600 1250 1650
+Wire Wire Line
+	1250 1800 1250 1750
+Wire Wire Line
+	1250 1000 1250 1050
+Wire Wire Line
+	1250 1200 1250 1150
+Wire Wire Line
+	550  1050 1250 1050
+Wire Wire Line
+	550  1150 1250 1150
+Wire Wire Line
+	550  1650 1250 1650
+Wire Wire Line
+	550  1750 1250 1750
+Wire Wire Line
+	1650 1050 1650 1000
+Wire Wire Line
+	1650 1050 2950 1050
+Wire Wire Line
+	1650 1200 1650 1150
+Wire Wire Line
+	1650 1150 2950 1150
+Wire Wire Line
+	1650 1600 1650 1650
+Wire Wire Line
+	1650 1650 2950 1650
+Wire Wire Line
+	1650 1800 1650 1750
+Wire Wire Line
+	1650 1750 2950 1750
+$Comp
+L antmicroFixedInductors:744235900 L4
+U 1 1 61C7C69E
+P 7100 1150
+F 0 "L4" H 7050 1300 50  0000 C CNN
+F 1 "744235900" H 7100 975 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 7700 1650 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 7100 1150 50  0001 C CNN
+F 4 "Wurth Elektronik" H 7600 1150 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 7550 1250 50  0000 C CNN "MPN"
+F 6 "2A" H 7175 1800 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 7250 1725 50  0001 C CNN "Size"
+F 8 "300n/2A" H 7325 1375 50  0001 C CNN "Val"
+	1    7100 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1050 6900 1100
+Wire Wire Line
+	6900 1250 6900 1200
+Wire Wire Line
+	6200 1100 6900 1100
+Wire Wire Line
+	6200 1200 6900 1200
+Wire Wire Line
+	7300 1100 7300 1050
+Wire Wire Line
+	7300 1250 7300 1200
+Wire Wire Line
+	7300 1200 9300 1200
+Wire Wire Line
+	7300 1100 9300 1100
+$Comp
+L antmicroFixedInductors:744235900 L5
+U 1 1 61C90DC8
+P 7100 1450
+F 0 "L5" H 7050 1600 50  0000 C CNN
+F 1 "744235900" H 7100 1275 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 7700 1950 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 7100 1450 50  0001 C CNN
+F 4 "Wurth Elektronik" H 7600 1450 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 7550 1550 50  0000 C CNN "MPN"
+F 6 "2A" H 7175 2100 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 7250 2025 50  0001 C CNN "Size"
+F 8 "300n/2A" H 7325 1675 50  0001 C CNN "Val"
+	1    7100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1350 6900 1400
+Wire Wire Line
+	6900 1550 6900 1500
+Wire Wire Line
+	6200 1400 6900 1400
+Wire Wire Line
+	6200 1500 6900 1500
+Wire Wire Line
+	7300 1400 7300 1350
+Wire Wire Line
+	7300 1550 7300 1500
+Wire Wire Line
+	7300 1400 9300 1400
+Wire Wire Line
+	7300 1500 9300 1500
+$Comp
+L antmicroFixedInductors:744235900 L6
+U 1 1 61C9382F
+P 7100 1750
+F 0 "L6" H 7050 1900 50  0000 C CNN
+F 1 "744235900" H 7100 1575 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 7700 2250 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 7100 1750 50  0001 C CNN
+F 4 "Wurth Elektronik" H 7600 1750 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 7550 1850 50  0000 C CNN "MPN"
+F 6 "2A" H 7175 2400 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 7250 2325 50  0001 C CNN "Size"
+F 8 "300n/2A" H 7325 1975 50  0001 C CNN "Val"
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1650 6900 1700
+Wire Wire Line
+	6900 1850 6900 1800
+Wire Wire Line
+	6200 1700 6900 1700
+Wire Wire Line
+	6200 1800 6900 1800
+Wire Wire Line
+	7300 1700 7300 1650
+Wire Wire Line
+	7300 1850 7300 1800
+Wire Wire Line
+	7300 1700 9300 1700
+Wire Wire Line
+	7300 1800 9300 1800
+$Comp
+L antmicroFixedInductors:744235900 L7
+U 1 1 61C974B1
+P 7100 2050
+F 0 "L7" H 7050 2200 50  0000 C CNN
+F 1 "744235900" H 7100 1875 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 7700 2550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 7100 2050 50  0001 C CNN
+F 4 "Wurth Elektronik" H 7600 2050 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 7550 2150 50  0000 C CNN "MPN"
+F 6 "2A" H 7175 2700 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 7250 2625 50  0001 C CNN "Size"
+F 8 "300n/2A" H 7325 2275 50  0001 C CNN "Val"
+	1    7100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1950 6900 2000
+Wire Wire Line
+	6900 2150 6900 2100
+Wire Wire Line
+	6200 2000 6900 2000
+Wire Wire Line
+	6200 2100 6900 2100
+Wire Wire Line
+	7300 2000 7300 1950
+Wire Wire Line
+	7300 2150 7300 2100
+Wire Wire Line
+	7300 2000 9300 2000
+Wire Wire Line
+	7300 2100 9300 2100
+$Comp
+L antmicroFixedInductors:744235900 L3
+U 1 1 61C04BDF
+P 1450 1700
+F 0 "L3" H 1400 1850 50  0000 C CNN
+F 1 "744235900" H 1450 1525 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 2050 2200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1450 1700 50  0001 C CNN
+F 4 "Wurth Elektronik" H 1950 1700 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 1900 1800 50  0000 C CNN "MPN"
+F 6 "2A" H 1525 2350 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 1600 2275 50  0001 C CNN "Size"
+F 8 "300n/2A" H 1675 1925 50  0001 C CNN "Val"
+	1    1450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1450 2950 1450
+Wire Wire Line
+	1650 1500 1650 1450
+Wire Wire Line
+	1650 1350 2950 1350
+Wire Wire Line
+	1650 1300 1650 1350
+Wire Wire Line
+	550  1450 1250 1450
+Wire Wire Line
+	550  1350 1250 1350
+Wire Wire Line
+	1250 1500 1250 1450
+Wire Wire Line
+	1250 1300 1250 1350
+$Comp
+L antmicroFixedInductors:744235900 L2
+U 1 1 61C03F94
+P 1450 1400
+F 0 "L2" H 1400 1550 50  0000 C CNN
+F 1 "744235900" H 1450 1225 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 2050 1900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1450 1400 50  0001 C CNN
+F 4 "Wurth Elektronik" H 1950 1400 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 1900 1500 50  0000 C CNN "MPN"
+F 6 "2A" H 1525 2050 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 1600 1975 50  0001 C CNN "Size"
+F 8 "300n/2A" H 1675 1625 50  0001 C CNN "Val"
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  2050 1500 2050
+$Comp
+L antmicroFixedInductors:744235900 L8
+U 1 1 61CC5748
+P 7100 2350
+F 0 "L8" H 7050 2500 50  0000 C CNN
+F 1 "744235900" H 7100 2175 50  0001 C CNN
+F 2 "antmicro-footprints:744235900" H 7700 2850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 7100 2350 50  0001 C CNN
+F 4 "Wurth Elektronik" H 7600 2350 50  0000 C CNN "Manufacturer"
+F 5 "744235900" H 7550 2450 50  0000 C CNN "MPN"
+F 6 "2A" H 7175 3000 50  0001 C CNN "MaxCur"
+F 7 "3.2x4.5" H 7250 2925 50  0001 C CNN "Size"
+F 8 "300n/2A" H 7325 2575 50  0001 C CNN "Val"
+	1    7100 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2250 6900 2300
+Wire Wire Line
+	6900 2450 6900 2400
+Wire Wire Line
+	6200 2300 6900 2300
+Wire Wire Line
+	6200 2400 6900 2400
+Wire Wire Line
+	7300 2300 7300 2250
+Wire Wire Line
+	7300 2450 7300 2400
+Wire Wire Line
+	7300 2300 9300 2300
+Wire Wire Line
+	7300 2400 9300 2400
+Text Label 6200 2300 0    50   ~ 0
+DSI0_CLK_N
+Text Label 6200 2400 0    50   ~ 0
+DSI0_CLK_P
+Wire Wire Line
+	6200 2600 7800 2600
+Wire Wire Line
+	6200 2700 7550 2700
+$Comp
+L antmicroResistors0402:R_4k7_0402 R29
+U 1 1 619BC4E7
+P 1750 2350
+F 0 "R29" V 1705 2420 60  0000 L CNN
+F 1 "R_4k7_0402" H 1750 2200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1950 2550 60  0001 L CNN
+F 3 "" H 1750 2350 50  0001 C CNN
+F 4 "VISHAY" H 1950 2750 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 1950 2650 60  0001 L CNN "MPN"
+F 6 "4k7" V 1803 2420 50  0000 L CNN "Val"
+	1    1750 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R28
+U 1 1 619BDFE3
+P 1500 2350
+F 0 "R28" V 1455 2420 60  0000 L CNN
+F 1 "R_4k7_0402" H 1500 2200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1700 2550 60  0001 L CNN
+F 3 "" H 1500 2350 50  0001 C CNN
+F 4 "VISHAY" H 1700 2750 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 1700 2650 60  0001 L CNN "MPN"
+F 6 "4k7" V 1553 2420 50  0000 L CNN "Val"
+	1    1500 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 2200 1750 1950
+Wire Wire Line
+	550  1950 1750 1950
+Connection ~ 1750 1950
+Wire Wire Line
+	1750 1950 2950 1950
+Wire Wire Line
+	1500 2200 1500 2050
+Connection ~ 1500 2050
+Wire Wire Line
+	1500 2050 2950 2050
+Wire Wire Line
+	1750 2500 1750 2600
+Wire Wire Line
+	1500 2500 1500 2600
+$Comp
+L power:+3V3 #PWR030
+U 1 1 619CDB8C
+P 1500 2600
+F 0 "#PWR030" H 1500 2450 50  0001 C CNN
+F 1 "+3V3" V 1515 2728 50  0000 L CNN
+F 2 "" H 1500 2600 50  0001 C CNN
+F 3 "" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR031
+U 1 1 619CE012
+P 1750 2600
+F 0 "#PWR031" H 1750 2450 50  0001 C CNN
+F 1 "+3V3" V 1765 2728 50  0000 L CNN
+F 2 "" H 1750 2600 50  0001 C CNN
+F 3 "" H 1750 2600 50  0001 C CNN
+	1    1750 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R31
+U 1 1 619D2E39
+P 7800 3000
+F 0 "R31" V 7755 3070 60  0000 L CNN
+F 1 "R_4k7_0402" H 7800 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8000 3200 60  0001 L CNN
+F 3 "" H 7800 3000 50  0001 C CNN
+F 4 "VISHAY" H 8000 3400 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 8000 3300 60  0001 L CNN "MPN"
+F 6 "4k7" V 7853 3070 50  0000 L CNN "Val"
+	1    7800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_4k7_0402 R30
+U 1 1 619D2E42
+P 7550 3000
+F 0 "R30" V 7505 3070 60  0000 L CNN
+F 1 "R_4k7_0402" H 7550 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7750 3200 60  0001 L CNN
+F 3 "" H 7550 3000 50  0001 C CNN
+F 4 "VISHAY" H 7750 3400 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 7750 3300 60  0001 L CNN "MPN"
+F 6 "4k7" V 7603 3070 50  0000 L CNN "Val"
+	1    7550 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 3150 7800 3250
+Wire Wire Line
+	7550 3150 7550 3250
+$Comp
+L power:+3V3 #PWR032
+U 1 1 619D2E4C
+P 7550 3250
+F 0 "#PWR032" H 7550 3100 50  0001 C CNN
+F 1 "+3V3" V 7565 3378 50  0000 L CNN
+F 2 "" H 7550 3250 50  0001 C CNN
+F 3 "" H 7550 3250 50  0001 C CNN
+	1    7550 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR033
+U 1 1 619D2E52
+P 7800 3250
+F 0 "#PWR033" H 7800 3100 50  0001 C CNN
+F 1 "+3V3" V 7815 3378 50  0000 L CNN
+F 2 "" H 7800 3250 50  0001 C CNN
+F 3 "" H 7800 3250 50  0001 C CNN
+	1    7800 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 2850 7550 2700
+Connection ~ 7550 2700
+Wire Wire Line
+	7550 2700 9300 2700
+Wire Wire Line
+	7800 2850 7800 2600
+Connection ~ 7800 2600
+Wire Wire Line
+	7800 2600 9300 2600
+$Comp
+L antmicroFCCConnectors:68612014122 J?
+U 1 1 61A116F2
+P 9300 2000
+F 0 "J?" H 9464 2193 50  0000 L CNN
+F 1 "68612014122" H 9464 2102 50  0000 L CNN
+F 2 "antmicro-footprints:68612014122" H 10150 2850 50  0001 C CNN
+F 3 "https://www.we-online.com/katalog/datasheet/68612014122.pdf" H 10150 2850 50  0001 C CNN
+F 4 "68612014122" H 9464 2011 50  0000 L CNN "MPN"
+F 5 "WURTH ELEKTRONIK" H 9464 1920 50  0000 L CNN "Manufacturer"
+	1    9300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFCCConnectors:3-84952-0 J?
+U 1 1 619D8F59
+P 3350 2350
+F 0 "J?" H 3580 2337 50  0000 L CNN
+F 1 "3-84952-0" H 3580 2246 50  0000 L CNN
+F 2 "" H 4150 2250 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1-1773959-6-flexible-printed-circuit-con%7F0919%7Fpdf%7FEnglish%7FENG_DS_1-1773959-6-flexible-printed-circuit-con_0919.pdf%7F3-84952-0" H 4150 2250 50  0001 L BNN
+F 4 "3-84952-0" H 3580 2155 50  0000 L CNN "MPN"
+F 5 "AMP - TE CONNECTIVITY" H 3580 2064 50  0000 L CNN "Manufacturer"
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 2450
+NoConn ~ 2950 2550
+NoConn ~ 2950 2650
+NoConn ~ 2950 2750
+NoConn ~ 2950 2850
+NoConn ~ 2950 2950
+NoConn ~ 2950 3050
+NoConn ~ 2950 3150
+NoConn ~ 2950 3250
+NoConn ~ 2950 3350
+NoConn ~ 2950 3450
+NoConn ~ 2950 3550
+NoConn ~ 2950 3650
+NoConn ~ 2950 3750
+NoConn ~ 2950 3850
+$Comp
+L power:GND #PWR?
+U 1 1 61A1358A
+P 2950 4200
+F 0 "#PWR?" H 2950 3950 50  0001 C CNN
+F 1 "GND" H 2955 4027 50  0000 C CNN
+F 2 "" H 2950 4200 50  0001 C CNN
+F 3 "" H 2950 4200 50  0001 C CNN
+	1    2950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4200 2950 4050
+Text Notes 1000 750  0    50   ~ 0
+Compatible with generic raspberry pi LCDs.
+Text Notes 3600 3200 0    50   ~ 0
+Is this connector right? 30 instead of 15?\n
+Text Notes 6200 850  0    50   ~ 0
+General purpose DSI for LCD
+$EndSCHEMATC
