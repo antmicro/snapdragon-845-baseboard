@@ -425,38 +425,6 @@ Wire Wire Line
 	2350 3000 2350 3100
 Wire Wire Line
 	2350 3100 2000 3100
-$Comp
-L antmicroCapacitors0402:C_100n_0402 C21
-U 1 1 61B0AD05
-P 1850 2900
-F 0 "C21" V 1800 2800 60  0000 C CNN
-F 1 "C_100n_0402" H 1850 2750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2050 3100 60  0001 L CNN
-F 3 "" H 1850 2900 50  0001 C CNN
-F 4 "Walsin" H 2050 3300 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2050 3200 60  0001 L CNN "MPN"
-F 6 "100n" V 1800 3050 50  0000 C CNN "Val"
-	1    1850 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_100n_0402 C22
-U 1 1 61B0BA57
-P 1850 3100
-F 0 "C22" V 1800 3000 60  0000 C CNN
-F 1 "C_100n_0402" H 1850 2950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2050 3300 60  0001 L CNN
-F 3 "" H 1850 3100 50  0001 C CNN
-F 4 "Walsin" H 2050 3500 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2050 3400 60  0001 L CNN "MPN"
-F 6 "100n" V 1800 3250 50  0000 C CNN "Val"
-	1    1850 3100
-	0    1    1    0   
-$EndComp
-Text Notes 400  3400 0    50   ~ 0
-This is not exactly the same value as in ref,\nin ref is 330nF
-Wire Wire Line
-	1700 2900 1000 2900
 Wire Wire Line
 	1700 3100 1000 3100
 Text Label 1000 2900 0    50   ~ 0
@@ -681,4 +649,34 @@ F 3 "" H 5300 4200 50  0001 C CNN
 $EndComp
 Text Notes 7500 1050 0    50   ~ 0
 This should be optional,\nhard to get component and\nnot necessary.
+Wire Wire Line
+	1700 2900 1000 2900
+$Comp
+L antmicroCapacitors0603:C_330n_0603 C?
+U 1 1 61B288A3
+P 1850 2900
+F 0 "C?" V 1800 2750 60  0000 C CNN
+F 1 "C_330n_0603" H 1850 2750 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 2050 3100 60  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 1850 2900 50  0001 C CNN
+F 4 "Vishay" H 2050 3300 60  0001 L CNN "Manufacturer"
+F 5 "VJ0603A331JXBAC" H 2050 3200 60  0001 L CNN "MPN"
+F 6 "330n" V 1800 3100 50  0000 C CNN "Val"
+	1    1850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroCapacitors0603:C_330n_0603 C?
+U 1 1 61B290D9
+P 1850 3100
+F 0 "C?" V 1800 2950 60  0000 C CNN
+F 1 "C_330n_0603" H 1850 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 2050 3300 60  0001 L CNN
+F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 1850 3100 50  0001 C CNN
+F 4 "Vishay" H 2050 3500 60  0001 L CNN "Manufacturer"
+F 5 "VJ0603A331JXBAC" H 2050 3400 60  0001 L CNN "MPN"
+F 6 "330n" V 1800 3300 50  0000 C CNN "Val"
+	1    1850 3100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

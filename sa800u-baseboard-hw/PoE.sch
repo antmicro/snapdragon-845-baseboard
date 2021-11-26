@@ -257,8 +257,6 @@ F 5 "Murata" H 2500 5281 60  0000 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	1850 5100 2300 5100
-Text GLabel 1850 4750 1    50   Input ~ 0
-VDD
 Wire Wire Line
 	9800 2600 9800 2800
 Wire Wire Line
@@ -304,8 +302,6 @@ $EndComp
 Connection ~ 7950 2400
 Wire Wire Line
 	7950 1750 7950 1550
-Text GLabel 7950 1550 1    50   Input ~ 0
-VDD
 Wire Wire Line
 	7950 2150 7950 2400
 $Comp
@@ -642,4 +638,10 @@ Text Notes 5275 1325 0    50   ~ 0
 REMARK:Typical aplication circuit can be found in \nTPS2378DDA datasheet:\n https://www.ti.com/lit/ds/symlink/tps2378.pdf?ts=1637556069032&ref_url=https%253A%252F%252Fwww.google.com%252F\nThere is the reference connection for APD circuit.
 Wire Wire Line
 	1850 5500 2950 5500
+Text GLabel 8450 5100 2    50   Input ~ 0
+5V
+Text Label 7950 1550 1    50   ~ 0
+VDD
+Text Label 1850 4750 1    50   ~ 0
+VDD
 $EndSCHEMATC

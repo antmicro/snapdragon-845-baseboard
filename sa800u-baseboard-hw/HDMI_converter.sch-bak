@@ -77,7 +77,7 @@ F 3 "" H 2200 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 2200 5900 0    50   Input ~ 0
-VDD33
+3V3
 $Comp
 L antmicroResistors0603:R_10k_0603 R32
 U 1 1 61A0DBB2
@@ -198,7 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4950 4200 7050
 Text GLabel 5250 5850 0    50   Input ~ 0
-VDD33
+3V3
 Wire Wire Line
 	5250 5850 5250 6150
 $Comp
@@ -316,17 +316,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 3400 6000 3300
 Connection ~ 6000 3400
-$Comp
-L power:+5V #PWR0106
-U 1 1 61A3A044
-P 6000 3300
-F 0 "#PWR0106" H 6000 3150 50  0001 C CNN
-F 1 "+5V" H 6015 3473 50  0000 C CNN
-F 2 "" H 6000 3300 50  0001 C CNN
-F 3 "" H 6000 3300 50  0001 C CNN
-	1    6000 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L antmicroResistors0402:R_0R_0402 R43
 U 1 1 61A3ACDD
@@ -466,19 +455,6 @@ F 1 "GND" H 9805 3927 50  0000 C CNN
 F 2 "" H 9800 4100 50  0001 C CNN
 F 3 "" H 9800 4100 50  0001 C CNN
 	1    9800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V8 #PWR?
-U 1 1 61A80E97
-P 7750 3650
-AR Path="/618E716E/61A80E97" Ref="#PWR?"  Part="1" 
-AR Path="/6197686D/61A80E97" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 7750 3500 50  0001 C CNN
-F 1 "+1V8" H 7765 3823 50  0000 C CNN
-F 2 "" H 7750 3650 50  0001 C CNN
-F 3 "" H 7750 3650 50  0001 C CNN
-	1    7750 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -713,4 +689,8 @@ Text Label 8650 4500 1    50   ~ 0
 XTALO
 Text Label 9200 4500 1    50   ~ 0
 XTALI
+Text GLabel 6000 3300 1    50   Input ~ 0
+5V0
+Text GLabel 7750 3650 1    50   Input ~ 0
+1V8
 $EndSCHEMATC

@@ -41,17 +41,6 @@ F 5 "Texas Instruments" H 7920 3050 60  0001 L CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	7750 1150 7750 1100
-$Comp
-L power:+3V3 #PWR021
-U 1 1 61A4DDE1
-P 6200 1100
-F 0 "#PWR021" H 6200 950 50  0001 C CNN
-F 1 "+3V3" V 6215 1228 50  0000 L CNN
-F 2 "" H 6200 1100 50  0001 C CNN
-F 3 "" H 6200 1100 50  0001 C CNN
-	1    6200 1100
-	0    -1   -1   0   
-$EndComp
 Text Label 7000 1550 0    50   ~ 0
 USB_SBU1
 Text Label 7000 1950 0    50   ~ 0
@@ -122,17 +111,6 @@ F 5 "RC0402FR-072K2L" H 8500 3000 60  0001 L CNN "MPN"
 F 6 "2k2" V 8353 2770 50  0000 L CNN "Val"
 	1    8300 2700
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+1V8 #PWR024
-U 1 1 61A7947B
-P 8450 3150
-F 0 "#PWR024" H 8450 3000 50  0001 C CNN
-F 1 "+1V8" H 8465 3323 50  0000 C CNN
-F 2 "" H 8450 3150 50  0001 C CNN
-F 3 "" H 8450 3150 50  0001 C CNN
-	1    8450 3150
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8300 3150 8450 3150
@@ -251,17 +229,6 @@ Wire Wire Line
 	10150 1650 10400 1650
 Wire Wire Line
 	10150 2050 10400 2050
-$Comp
-L power:VBUS #PWR019
-U 1 1 61AB1226
-P 4750 1300
-F 0 "#PWR019" H 4750 1150 50  0001 C CNN
-F 1 "VBUS" H 4765 1473 50  0000 C CNN
-F 2 "" H 4750 1300 50  0001 C CNN
-F 3 "" H 4750 1300 50  0001 C CNN
-	1    4750 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 2800 2700 2800
 Wire Wire Line
@@ -272,7 +239,6 @@ Wire Wire Line
 	4750 1300 4750 2300
 Wire Wire Line
 	4750 2800 4300 2800
-Connection ~ 4750 1300
 $Comp
 L antmicroCapacitors0402:C_1u_0402 C23
 U 1 1 61ACCBAB
@@ -679,4 +645,10 @@ F 6 "330n" V 1800 3300 50  0000 C CNN "Val"
 	1    1850 3100
 	0    1    1    0   
 $EndComp
+Text GLabel 4750 1300 1    50   Input ~ 0
+VBUS
+Text GLabel 6200 1100 0    50   Input ~ 0
+3V3
+Text GLabel 8450 3150 1    50   Input ~ 0
+1V8
 $EndSCHEMATC
