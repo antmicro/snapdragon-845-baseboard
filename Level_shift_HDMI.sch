@@ -355,8 +355,6 @@ Wire Wire Line
 	7050 1850 7300 1850
 Wire Wire Line
 	7050 2150 7300 2150
-Text Notes 3650 975  0    50   ~ 0
-REMARK:Please unify convention of naming power supply labels.\nWe often use global labels. Always check that the name is exactly the same.
 $Comp
 L antmicroLogicTranslatorsLevelShifters:TXS0102YZPR U?
 U 1 1 61A10975

@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 3 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -90,8 +90,6 @@ Text GLabel 5000 2800 2    50   Input ~ 0
 PAIR45
 Text GLabel 4600 2800 2    50   Input ~ 0
 PAIR78
-Text Notes 2550 4250 0    50   ~ 0
-This resistor should be precision\n1% resistor, not available in lib. \nAdd it. \n
 Wire Wire Line
 	3800 4900 3800 5000
 Wire Wire Line

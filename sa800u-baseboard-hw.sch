@@ -43,8 +43,6 @@ U 61AD1F84
 F0 "Level_shift_HDMI" 50
 F1 "Level_shift_HDMI.sch" 50
 $EndSheet
-Text Notes 625  6150 0    50   ~ 0
-GENERAL REMARKS:\n-Nice sheet separation\n-Nice and clear signal labeling\n-Use "kmake get-ignore" inside the repo to make git ignore backup\n files\n-Make folder structure flat - move files ../ \n-Make all the sheets A3 format\n-Avoid "space" in file names use "_" instead
 $Sheet
 S 600  7000 500  500 
 U 61A19323
