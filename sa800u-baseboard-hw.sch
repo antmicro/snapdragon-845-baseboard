@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -48,5 +48,11 @@ S 600  7000 500  500
 U 61A19323
 F0 "PoE" 50
 F1 "PoE.sch" 50
+$EndSheet
+$Sheet
+S 7250 7000 500  500 
+U 61A4BC4F
+F0 "SoM" 50
+F1 "SoM.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -27,7 +27,7 @@ F 5 "TXB0104RUTR" H 3300 1600 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 3650 1650 1    50   Input ~ 0
-VREG_S4A_1V8
+1V8
 Text GLabel 2950 2250 0    50   Input ~ 0
 I2S1_WS
 Text GLabel 2950 2450 0    50   Input ~ 0
@@ -37,7 +37,7 @@ I2S1_SCK
 Text GLabel 2950 2850 0    50   Input ~ 0
 I2S1_DATA0
 Text GLabel 3850 1650 1    50   Input ~ 0
-VDD33
+3V3
 Text GLabel 4550 2250 2    50   Input ~ 0
 I2S_WS
 Text GLabel 4550 2450 2    50   Input ~ 0
@@ -209,9 +209,9 @@ Wire Wire Line
 Wire Wire Line
 	9400 2250 9650 2250
 Text GLabel 9000 1650 1    50   Input ~ 0
-VREG_S4A_1V8
+1V8
 Text GLabel 9100 1650 1    50   Input ~ 0
-VDD33
+3V3
 Wire Wire Line
 	9000 1650 9000 1750
 Wire Wire Line
@@ -311,50 +311,50 @@ Wire Wire Line
 $Comp
 L antmicroResistors0402:R_2k2_0402 R46
 U 1 1 61B1457B
-P 6900 1850
-F 0 "R46" H 6900 2063 60  0000 C CNN
-F 1 "R_2k2_0402" H 6900 1700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7100 2050 60  0001 L CNN
-F 3 "" H 6900 1850 50  0001 C CNN
-F 4 "YAGEO" H 7100 2250 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-072K2L" H 7100 2150 60  0001 L CNN "MPN"
-F 6 "2k2" H 6900 1965 50  0000 C CNN "Val"
-	1    6900 1850
+P 6800 2050
+F 0 "R46" H 6800 2263 60  0000 C CNN
+F 1 "R_2k2_0402" H 6800 1900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7000 2250 60  0001 L CNN
+F 3 "" H 6800 2050 50  0001 C CNN
+F 4 "YAGEO" H 7000 2450 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 7000 2350 60  0001 L CNN "MPN"
+F 6 "2k2" H 6800 2165 50  0000 C CNN "Val"
+	1    6800 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicroResistors0402:R_2k2_0402 R47
 U 1 1 61B14A5A
-P 6900 2150
-F 0 "R47" H 6900 2363 60  0000 C CNN
-F 1 "R_2k2_0402" H 6900 2000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7100 2350 60  0001 L CNN
-F 3 "" H 6900 2150 50  0001 C CNN
-F 4 "YAGEO" H 7100 2550 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-072K2L" H 7100 2450 60  0001 L CNN "MPN"
-F 6 "2k2" H 6900 2265 50  0000 C CNN "Val"
-	1    6900 2150
+P 6800 2350
+F 0 "R47" H 6800 2563 60  0000 C CNN
+F 1 "R_2k2_0402" H 6800 2200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7000 2550 60  0001 L CNN
+F 3 "" H 6800 2350 50  0001 C CNN
+F 4 "YAGEO" H 7000 2750 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 7000 2650 60  0001 L CNN "MPN"
+F 6 "2k2" H 6800 2465 50  0000 C CNN "Val"
+	1    6800 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 1850 6600 1850
+	6650 2050 6500 2050
 Wire Wire Line
-	6750 2150 6600 2150
+	6650 2350 6500 2350
 Wire Wire Line
-	6600 2150 6600 1850
-Connection ~ 6600 1850
+	6500 2350 6500 2050
+Connection ~ 6500 2050
 Wire Wire Line
-	6600 1850 6400 1850
-Text GLabel 6400 1850 0    50   Input ~ 0
-VREG_S4A_1V8
-Text GLabel 7300 1850 2    50   Input ~ 0
+	6500 2050 6300 2050
+Text GLabel 6300 2050 0    50   Input ~ 0
+1V8
+Text GLabel 7200 2050 2    50   Input ~ 0
 I2C4_SDA
-Text GLabel 7300 2150 2    50   Input ~ 0
+Text GLabel 7200 2350 2    50   Input ~ 0
 I2C4_SCL
 Wire Wire Line
-	7050 1850 7300 1850
+	6950 2050 7200 2050
 Wire Wire Line
-	7050 2150 7300 2150
+	6950 2350 7200 2350
 $Comp
 L antmicroLogicTranslatorsLevelShifters:TXS0102YZPR U?
 U 1 1 61A10975
@@ -368,4 +368,262 @@ F 5 "Texas Instruments" H 9050 1104 50  0000 C CNN "Manufacturer"
 	1    8800 1950
 	1    0    0    -1  
 $EndComp
+Text Notes 5050 1200 0    50   ~ 0
+Maybe put it into HDMI converter sheet?\n
+Text GLabel 10650 5800 0    50   Input ~ 0
+LT9611_RST
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 61A5DDCB
+P 11000 5300
+F 0 "R?" V 10955 5370 60  0000 L CNN
+F 1 "R_4k7_0402" H 11000 5150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 11200 5500 60  0001 L CNN
+F 3 "" H 11000 5300 50  0001 C CNN
+F 4 "VISHAY" H 11200 5700 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 11200 5600 60  0001 L CNN "MPN"
+F 6 "4k7" V 11053 5370 50  0000 L CNN "Val"
+	1    11000 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 11000 4950 1    50   Input ~ 0
+1V8
+Wire Wire Line
+	11000 5450 11000 5800
+Wire Wire Line
+	10650 5800 11000 5800
+Wire Wire Line
+	11000 4950 11000 5050
+Wire Wire Line
+	11000 5050 11800 5050
+Connection ~ 11000 5050
+Wire Wire Line
+	11000 5050 11000 5150
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:2N7000 Q?
+U 1 1 61A61AB9
+P 11900 5800
+F 0 "Q?" V 12061 5800 60  0000 C CNN
+F 1 "2N7000" V 12167 5800 60  0000 C CNN
+F 2 "antmicro-footprints:TO-92-3" H 12100 6000 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 12100 6100 60  0001 L CNN
+F 4 "2N7000" H 12100 6300 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 12100 6900 60  0001 L CNN "Manufacturer"
+	1    11900 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11800 5050 11800 5500
+Wire Wire Line
+	11000 5800 11700 5800
+Connection ~ 11000 5800
+Wire Wire Line
+	12100 5800 12500 5800
+Wire Wire Line
+	12500 5800 12500 5450
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 61A66733
+P 12500 5300
+F 0 "R?" V 12455 5370 60  0000 L CNN
+F 1 "R_4k7_0402" H 12500 5150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 12700 5500 60  0001 L CNN
+F 3 "" H 12500 5300 50  0001 C CNN
+F 4 "VISHAY" H 12700 5700 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 12700 5600 60  0001 L CNN "MPN"
+F 6 "4k7" V 12553 5370 50  0000 L CNN "Val"
+	1    12500 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12500 4950 12500 5150
+Text GLabel 12500 4950 1    50   Input ~ 0
+3V3
+Text GLabel 12850 5800 2    50   Input ~ 0
+RST_N
+Wire Wire Line
+	12850 5800 12500 5800
+Connection ~ 12500 5800
+$Comp
+L antmicroResistors0402:R_10k_0402 R?
+U 1 1 61A6FC70
+P 3750 4750
+F 0 "R?" V 3705 4820 60  0000 L CNN
+F 1 "R_10k_0402" H 3750 4600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3950 4950 60  0001 L CNN
+F 3 "" H 3750 4750 50  0001 C CNN
+F 4 "VISHAY" H 3950 5150 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 3950 5050 60  0001 L CNN "MPN"
+F 6 "10k" V 3803 4820 50  0000 L CNN "Val"
+	1    3750 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_27k_0402 R?
+U 1 1 61A70FBA
+P 4500 5100
+F 0 "R?" V 4455 5170 60  0000 L CNN
+F 1 "R_27k_0402" H 4500 4950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4700 5300 60  0001 L CNN
+F 3 "" H 4500 5100 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4700 5500 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF2702X" H 4700 5400 60  0001 L CNN "MPN"
+F 6 "27k" V 4553 5170 50  0000 L CNN "Val"
+	1    4500 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4600 3750 4350
+Wire Wire Line
+	3750 4350 4500 4350
+Wire Wire Line
+	4500 4350 4500 4450
+$Comp
+L antmicroDiodesRectifiersSingle:S1G D?
+U 1 1 61A73119
+P 4500 4650
+F 0 "D?" V 4447 4728 60  0000 L CNN
+F 1 "S1G" V 4553 4728 60  0000 L CNN
+F 2 "antmicro-footprints:DO-214AC" H 4700 4850 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" H 4700 4950 60  0001 L CNN
+F 4 "S1G" H 4700 5150 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 4700 5750 60  0001 L CNN "Manufacturer"
+	1    4500 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 4850 4500 4950
+Text GLabel 3750 4250 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	3750 4250 3750 4350
+Connection ~ 3750 4350
+Wire Wire Line
+	3750 4900 3750 5450
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:2N7000 Q?
+U 1 1 61A75AC1
+P 3850 5750
+F 0 "Q?" V 4011 5750 60  0000 C CNN
+F 1 "2N7000" V 4117 5750 60  0000 C CNN
+F 2 "antmicro-footprints:TO-92-3" H 4050 5950 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 4050 6050 60  0001 L CNN
+F 4 "2N7000" H 4050 6250 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 4050 6850 60  0001 L CNN "Manufacturer"
+	1    3850 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 5750 4500 5750
+Wire Wire Line
+	4500 5750 4500 5250
+Wire Wire Line
+	4500 5750 5000 5750
+Connection ~ 4500 5750
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61A7A0F0
+P 3850 6450
+F 0 "R?" H 3850 6755 60  0000 C CNN
+F 1 "R_0R_0402" H 3850 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4050 6650 60  0001 L CNN
+F 3 "" H 3850 6450 50  0001 C CNN
+F 4 "PANASONIC" H 4050 6850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4050 6750 60  0001 L CNN "MPN"
+F 6 "0R" H 3850 6657 50  0000 C CNN "Val"
+F 7 "DNP" H 3850 6566 50  0000 C CNN "DNP"
+	1    3850 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5750 4500 6450
+Wire Wire Line
+	4500 6450 4000 6450
+Wire Wire Line
+	3700 6450 3200 6450
+Wire Wire Line
+	3200 6450 3200 5750
+Wire Wire Line
+	3200 5750 3650 5750
+Wire Wire Line
+	3200 5750 3000 5750
+Connection ~ 3200 5750
+Text GLabel 3000 5750 0    50   Input ~ 0
+CEC_GPIO6
+Text GLabel 5000 5750 2    50   Input ~ 0
+CEC_HDMI
+Text GLabel 6700 5750 0    50   Input ~ 0
+LT9611_GPIO5
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 61A83015
+P 7050 5250
+F 0 "R?" V 7005 5320 60  0000 L CNN
+F 1 "R_4k7_0402" H 7050 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7250 5450 60  0001 L CNN
+F 3 "" H 7050 5250 50  0001 C CNN
+F 4 "VISHAY" H 7250 5650 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 7250 5550 60  0001 L CNN "MPN"
+F 6 "4k7" V 7103 5320 50  0000 L CNN "Val"
+	1    7050 5250
+	0    1    1    0   
+$EndComp
+Text GLabel 7050 4900 1    50   Input ~ 0
+1V8
+Wire Wire Line
+	7050 5400 7050 5750
+Wire Wire Line
+	6700 5750 7050 5750
+Wire Wire Line
+	7050 4900 7050 5000
+Wire Wire Line
+	7050 5000 7850 5000
+Connection ~ 7050 5000
+Wire Wire Line
+	7050 5000 7050 5100
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:2N7000 Q?
+U 1 1 61A83024
+P 7950 5750
+F 0 "Q?" V 8111 5750 60  0000 C CNN
+F 1 "2N7000" V 8217 5750 60  0000 C CNN
+F 2 "antmicro-footprints:TO-92-3" H 8150 5950 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 8150 6050 60  0001 L CNN
+F 4 "2N7000" H 8150 6250 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8150 6850 60  0001 L CNN "Manufacturer"
+	1    7950 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 5000 7850 5450
+Wire Wire Line
+	7050 5750 7750 5750
+Connection ~ 7050 5750
+Wire Wire Line
+	8150 5750 8550 5750
+Wire Wire Line
+	8550 5750 8550 5400
+$Comp
+L antmicroResistors0402:R_4k7_0402 R?
+U 1 1 61A83032
+P 8550 5250
+F 0 "R?" V 8505 5320 60  0000 L CNN
+F 1 "R_4k7_0402" H 8550 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8750 5450 60  0001 L CNN
+F 3 "" H 8550 5250 50  0001 C CNN
+F 4 "VISHAY" H 8750 5650 60  0001 L CNN "Manufacturer"
+F 5 "MCS04020C4701FE000" H 8750 5550 60  0001 L CNN "MPN"
+F 6 "4k7" V 8603 5320 50  0000 L CNN "Val"
+	1    8550 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 4900 8550 5100
+Text GLabel 8550 4900 1    50   Input ~ 0
+3V3
+Text GLabel 8900 5750 2    50   Input ~ 0
+INTO_GPIO5
+Wire Wire Line
+	8900 5750 8550 5750
+Connection ~ 8550 5750
 $EndSCHEMATC

@@ -212,6 +212,23 @@ X 0V 6 600 -200 200 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
+# antmicroDiodesRectifiersSingle_S1G
+#
+DEF antmicroDiodesRectifiersSingle_S1G D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C CNN
+F1 "antmicroDiodesRectifiersSingle_S1G" 0 -100 60 H V C CNN
+F2 "antmicro-footprints:DO-214AC" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" 200 300 60 H I L CNN
+F4 "S1G" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroDiodesRectifiersSingle_SMAJ58A-13-F
 #
 DEF antmicroDiodesRectifiersSingle_SMAJ58A-13-F D 0 0 N N 1 F N
@@ -970,6 +987,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_27k_0402
+#
+DEF antmicroResistors0402_R_27k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_27k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2RKF2702X" 200 300 60 H I L CNN "MPN"
+F6 "27k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_2k2_0402
 #
 DEF antmicroResistors0402_R_2k2_0402 R 0 0 Y Y 1 F N
@@ -1183,6 +1217,39 @@ P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
 P 4 0 1 0 100 50 100 -50 0 0 100 50 F
 X ~ 1 -200 0 100 R 50 50 1 1 P
 X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTransistorsFETsMOSFETsSingle_2N7000
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_2N7000 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_2N7000" 136 0 60 V V C CNN
+F2 "antmicro-footprints:TO-92-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 300 60 H I L CNN
+F4 "2N7000" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X S 1 0 -200 100 U 50 50 1 1 B
+X G 2 -300 -100 100 R 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
