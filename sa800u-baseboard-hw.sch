@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -54,5 +54,11 @@ S 7250 7000 500  500
 U 61A4BC4F
 F0 "SoM" 50
 F1 "SoM.sch" 50
+$EndSheet
+$Sheet
+S 8200 7000 500  500 
+U 61A60486
+F0 "Cameras_Interface" 50
+F1 "Cameras_Interface.sch" 50
 $EndSheet
 $EndSCHEMATC
