@@ -538,58 +538,58 @@ F 5 "BLP2032SM-GCT-ND" H 11600 8050 50  0001 C CNN "MPN"
 	1    11600 8050
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroPushbuttonSwitches:TL3340AF160QG S?
-U 1 1 61C126F3
-P 12550 8100
-F 0 "S?" H 12650 8547 50  0000 C CNN
-F 1 "TL3340AF160QG" H 12650 8456 50  0000 C CNN
-F 2 "antmicro-footprints:TL3340AF160QG" H 12550 8100 50  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 8100 50  0001 C CNN
-F 4 "TL3340AF160QG" H 12650 8365 50  0000 C CNN "MPN"
-F 5 "" H 12550 8100 50  0000 C CNN "Manufacturer"
-	1    12550 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroPushbuttonSwitches:TL3340AF160QG S?
-U 1 1 61C145CA
-P 12550 8850
-F 0 "S?" H 12650 9297 50  0000 C CNN
-F 1 "TL3340AF160QG" H 12650 9206 50  0000 C CNN
-F 2 "antmicro-footprints:TL3340AF160QG" H 12550 8850 50  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 8850 50  0001 C CNN
-F 4 "TL3340AF160QG" H 12650 9115 50  0000 C CNN "MPN"
-F 5 "" H 12550 8850 50  0000 C CNN "Manufacturer"
-	1    12550 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroPushbuttonSwitches:TL3340AF160QG S?
-U 1 1 61C150DA
-P 12550 7400
-F 0 "S?" H 12650 7847 50  0000 C CNN
-F 1 "TL3340AF160QG" H 12650 7756 50  0000 C CNN
-F 2 "antmicro-footprints:TL3340AF160QG" H 12550 7400 50  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 7400 50  0001 C CNN
-F 4 "TL3340AF160QG" H 12650 7665 50  0000 C CNN "MPN"
-F 5 "" H 12550 7400 50  0000 C CNN "Manufacturer"
-	1    12550 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroPushbuttonSwitches:TL3340AF160QG S?
-U 1 1 61C1584E
-P 12550 9550
-F 0 "S?" H 12650 9997 50  0000 C CNN
-F 1 "TL3340AF160QG" H 12650 9906 50  0000 C CNN
-F 2 "antmicro-footprints:TL3340AF160QG" H 12550 9550 50  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 9550 50  0001 C CNN
-F 4 "TL3340AF160QG" H 12650 9815 50  0000 C CNN "MPN"
-F 5 "" H 12550 9550 50  0000 C CNN "Manufacturer"
-	1    12550 9550
-	1    0    0    -1  
-$EndComp
 Text Notes 11550 7700 0    50   ~ 0
 Work in progress.
+$Comp
+L antmicroPushbuttonSwitches:KMR2 S?
+U 1 1 61C94E75
+P 14000 7350
+F 0 "S?" H 14000 7625 50  0000 C CNN
+F 1 "KMR2" H 14000 7534 50  0000 C CNN
+F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 14200 7550 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14200 7650 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14196 7743 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14200 7822 60  0001 L CNN "Manufacturer"
+	1    14000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:KMR2 S?
+U 1 1 61CA28EE
+P 14000 7850
+F 0 "S?" H 14000 8125 50  0000 C CNN
+F 1 "KMR2" H 14000 8034 50  0000 C CNN
+F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 14200 8050 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14200 8150 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14196 8243 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14200 8322 60  0001 L CNN "Manufacturer"
+	1    14000 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:KMR2 S?
+U 1 1 61CA563B
+P 14000 8400
+F 0 "S?" H 14000 8675 50  0000 C CNN
+F 1 "KMR2" H 14000 8584 50  0000 C CNN
+F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 14200 8600 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14200 8700 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14196 8793 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14200 8872 60  0001 L CNN "Manufacturer"
+	1    14000 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:KMR2 S?
+U 1 1 61CA8515
+P 14000 8900
+F 0 "S?" H 14000 9175 50  0000 C CNN
+F 1 "KMR2" H 14000 9084 50  0000 C CNN
+F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 14200 9100 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14200 9200 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14196 9293 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14200 9372 60  0001 L CNN "Manufacturer"
+	1    14000 8900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

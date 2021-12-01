@@ -28,4 +28,58 @@ F 5 "2908-05WB-MG" H 2000 3700 60  0001 L CNN "MPN"
 	1    1800 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
+U 1 1 61CBAA98
+P 3850 2950
+F 0 "J?" H 4228 3054 50  0000 L CNN
+F 1 "MC-HVT1-S04-G" H 4228 2963 50  0000 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 4050 3250 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 4050 3350 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 4050 3450 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 4050 3550 60  0001 L CNN "Manufacturer"
+	1    3850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
+U 1 1 61CBAE41
+P 4450 2950
+F 0 "J?" H 4828 3054 50  0000 L CNN
+F 1 "MC-HVT1-S04-G" H 4828 2963 50  0000 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 4650 3250 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 4650 3350 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 4650 3450 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 4650 3550 60  0001 L CNN "Manufacturer"
+	1    4450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
+U 1 1 61CBBE03
+P 5050 2950
+F 0 "J?" H 5428 3054 50  0000 L CNN
+F 1 "MC-HVT1-S04-G" H 5428 2963 50  0000 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 5250 3250 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 5250 3350 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 5250 3450 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 5250 3550 60  0001 L CNN "Manufacturer"
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
+U 1 1 61CBC17A
+P 5700 2950
+F 0 "J?" H 6078 3054 50  0000 L CNN
+F 1 "MC-HVT1-S04-G" H 6078 2963 50  0000 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 5900 3250 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 5900 3350 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 5900 3450 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 5900 3550 60  0001 L CNN "Manufacturer"
+	1    5700 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 3050 2650 0    50   ~ 0
+Work in progress.
 $EndSCHEMATC
