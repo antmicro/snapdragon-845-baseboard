@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -523,4 +523,73 @@ F 5 "QUECTEL" H 10150 7274 50  0000 C CNN "Manufacturer"
 	4    9500 7200
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroBatteryHoldersClipsContacts:BLP2032SM-GCT-ND BAT?
+U 1 1 61C092A2
+P 11600 8050
+AR Path="/61C092A2" Ref="BAT?"  Part="1" 
+AR Path="/61A4BC4F/61C092A2" Ref="BAT?"  Part="1" 
+F 0 "BAT?" H 11730 8053 60  0000 L CNN
+F 1 "BLP2032SM-GCT-ND" H 11730 7947 60  0000 L CNN
+F 2 "antmicro-footprints:BLP2032SM-GCT-ND" H 11600 8050 60  0001 C CNN
+F 3 "" H 11600 8050 60  0001 C CNN
+F 4 "MPD" H 11600 8050 50  0001 C CNN "Manufacturer"
+F 5 "BLP2032SM-GCT-ND" H 11600 8050 50  0001 C CNN "MPN"
+	1    11600 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:TL3340AF160QG S?
+U 1 1 61C126F3
+P 12550 8100
+F 0 "S?" H 12650 8547 50  0000 C CNN
+F 1 "TL3340AF160QG" H 12650 8456 50  0000 C CNN
+F 2 "antmicro-footprints:TL3340AF160QG" H 12550 8100 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 8100 50  0001 C CNN
+F 4 "TL3340AF160QG" H 12650 8365 50  0000 C CNN "MPN"
+F 5 "" H 12550 8100 50  0000 C CNN "Manufacturer"
+	1    12550 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:TL3340AF160QG S?
+U 1 1 61C145CA
+P 12550 8850
+F 0 "S?" H 12650 9297 50  0000 C CNN
+F 1 "TL3340AF160QG" H 12650 9206 50  0000 C CNN
+F 2 "antmicro-footprints:TL3340AF160QG" H 12550 8850 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 8850 50  0001 C CNN
+F 4 "TL3340AF160QG" H 12650 9115 50  0000 C CNN "MPN"
+F 5 "" H 12550 8850 50  0000 C CNN "Manufacturer"
+	1    12550 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:TL3340AF160QG S?
+U 1 1 61C150DA
+P 12550 7400
+F 0 "S?" H 12650 7847 50  0000 C CNN
+F 1 "TL3340AF160QG" H 12650 7756 50  0000 C CNN
+F 2 "antmicro-footprints:TL3340AF160QG" H 12550 7400 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 7400 50  0001 C CNN
+F 4 "TL3340AF160QG" H 12650 7665 50  0000 C CNN "MPN"
+F 5 "" H 12550 7400 50  0000 C CNN "Manufacturer"
+	1    12550 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroPushbuttonSwitches:TL3340AF160QG S?
+U 1 1 61C1584E
+P 12550 9550
+F 0 "S?" H 12650 9997 50  0000 C CNN
+F 1 "TL3340AF160QG" H 12650 9906 50  0000 C CNN
+F 2 "antmicro-footprints:TL3340AF160QG" H 12550 9550 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/140/TL3340-2065742.pdf" H 12550 9550 50  0001 C CNN
+F 4 "TL3340AF160QG" H 12650 9815 50  0000 C CNN "MPN"
+F 5 "" H 12550 9550 50  0000 C CNN "Manufacturer"
+	1    12550 9550
+	1    0    0    -1  
+$EndComp
+Text Notes 11550 7700 0    50   ~ 0
+Work in progress.
 $EndSCHEMATC

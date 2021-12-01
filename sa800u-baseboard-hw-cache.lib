@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroBatteryHoldersClipsContacts_BLP2032SM-GCT-ND
+#
+DEF antmicroBatteryHoldersClipsContacts_BLP2032SM-GCT-ND BAT 0 40 Y Y 1 F N
+F0 "BAT" 110 -30 60 H V L BNN
+F1 "antmicroBatteryHoldersClipsContacts_BLP2032SM-GCT-ND" 110 -110 60 H V L BNN
+F2 "antmicro-footprints:BLP2032SM-GCT-ND" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "MPD" 0 0 50 H I C CNN "Manufacturer"
+F5 "BLP2032SM-GCT-ND" 0 0 50 H I C CNN "MPN"
+DRAW
+P 2 0 1 10 -100 0 100 0 N
+P 2 0 1 10 -100 50 -80 50 N
+P 2 0 1 10 -90 60 -90 40 N
+P 2 0 1 20 -50 -50 50 -50 N
+P 2 0 1 10 0 -100 0 -50 N
+X + + 0 100 100 D 1 1 0 1 P
+X - - 0 -200 100 U 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0402_C_100n_0402
 #
 DEF antmicroCapacitors0402_C_100n_0402 C 0 0 Y Y 1 F N
@@ -1007,6 +1027,29 @@ X OE 8 -100 -400 100 R 50 40 1 1 T
 ENDDRAW
 ENDDEF
 #
+# antmicroMemoryConnectorsPCCardSockets_2908-05WB-MG
+#
+DEF antmicroMemoryConnectorsPCCardSockets_2908-05WB-MG J 0 40 Y Y 1 F N
+F0 "J" -500 500 60 H V C CNN
+F1 "antmicroMemoryConnectorsPCCardSockets_2908-05WB-MG" 0 -400 60 V V L CNN
+F2 "antmicro-footprints:MicroSD_2908-05WB-MG" 200 200 60 H I L CNN
+F3 "http://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf" 200 300 60 H I L CNN
+F4 "3M" 200 1100 60 H I L CNN "Manufacturer"
+F5 "2908-05WB-MG" 200 500 60 H I L CNN "MPN"
+DRAW
+P 11 0 1 0 -500 -550 -500 400 -300 400 -200 500 -100 500 -100 400 0 400 100 500 600 500 600 -550 -500 -550 f
+X DAT2 1 -600 300 100 R 50 50 1 1 B
+X CD/DAT3 2 -600 200 100 R 50 50 1 1 B
+X CMD 3 -600 100 100 R 50 50 1 1 B
+X VDD 4 -600 0 100 R 50 50 1 1 W
+X CLK 5 -600 -100 100 R 50 50 1 1 O
+X VSS 6 -600 -200 100 R 50 50 1 1 W
+X DAT0 7 -600 -300 100 R 50 50 1 1 B
+X DAT1 8 -600 -400 100 R 50 50 1 1 B
+X SHLD 9 -600 -500 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMicrocontrollers_SA800U-WF
 #
 DEF antmicroMicrocontrollers_SA800U-WF U 0 40 Y Y 4 F N
@@ -1608,6 +1651,34 @@ X NC 8 -800 -950 200 R 70 70 1 1 P
 X GND 9 800 -850 200 L 70 70 1 1 P
 X SHIELD SH1 -750 -1450 200 R 70 70 1 1 P
 X SHIELD SH2 800 -1450 200 L 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroPushbuttonSwitches_TL3340AF160QG
+#
+DEF antmicroPushbuttonSwitches_TL3340AF160QG S 0 40 Y Y 1 F N
+F0 "S" -150 250 50 H V C CNN
+F1 "antmicroPushbuttonSwitches_TL3340AF160QG" 300 300 50 H V C CNN
+F2 "antmicro-footprints:TL3340AF160QG" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TL3340AF160QG" 0 0 50 H V C CNN "MPN"
+DRAW
+C 10 90 10 1 1 10 F
+P 2 1 1 10 -50 -50 230 -50 N
+P 2 1 1 10 -10 -100 190 -100 N
+P 2 1 1 10 -10 -10 -10 90 N
+P 2 1 1 10 -10 90 10 90 N
+P 2 1 1 10 50 190 130 190 N
+P 2 1 1 10 90 -50 90 -100 N
+P 2 1 1 10 90 190 90 130 N
+P 2 1 1 10 170 90 190 90 N
+P 2 1 1 10 170 110 170 90 N
+P 2 1 1 10 170 170 10 90 N
+X 1 1 -200 100 200 R 70 1 1 1 P
+X 2 2 300 100 100 L 70 1 1 1 P
+X 3 3 -200 0 200 R 70 1 1 1 P
+X SH1 SH1 -200 -100 200 R 70 1 1 1 P
+X SH2 SH2 400 -100 200 L 70 1 1 1 P
 ENDDRAW
 ENDDEF
 #
