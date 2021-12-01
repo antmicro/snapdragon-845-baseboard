@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -13,50 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SA800U-WF:SA800U-WF-J1 U?
-U 1 1 61A8EF71
-P 1750 1650
-F 0 "U?" H 2475 1815 50  0000 C CNN
-F 1 "SA800U-WF-J1" H 2475 1724 50  0000 C CNN
-F 2 "" H 1850 1450 50  0001 C CNN
-F 3 "" H 1850 1450 50  0001 C CNN
-	1    1750 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L SA800U-WF:SA800U-WF-J2 U?
-U 1 1 61A93EC2
-P 6150 1650
-F 0 "U?" H 6388 1815 50  0000 C CNN
-F 1 "SA800U-WF-J2" H 6388 1724 50  0000 C CNN
-F 2 "" H 6450 1000 50  0001 C CNN
-F 3 "" H 6450 1000 50  0001 C CNN
-	1    6150 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L SA800U-WF:SA800U-WF-J3 U?
-U 1 1 61A9F40B
-P 11000 1700
-F 0 "U?" H 11650 1865 50  0000 C CNN
-F 1 "SA800U-WF-J3" H 11650 1774 50  0000 C CNN
-F 2 "" H 11050 1700 50  0001 C CNN
-F 3 "" H 11050 1700 50  0001 C CNN
-	1    11000 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L SA800U-WF:SA800U-WF-J4 U?
-U 1 1 61AA09E5
-P 11000 5900
-F 0 "U?" H 11650 6065 50  0000 C CNN
-F 1 "SA800U-WF-J4" H 11650 5974 50  0000 C CNN
-F 2 "" H 11000 5850 50  0001 C CNN
-F 3 "" H 11000 5850 50  0001 C CNN
-	1    11000 5900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61AB272F
@@ -475,7 +431,6 @@ F 3 "" H 1300 9550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 9550 1300 9550
-Connection ~ 1650 9550
 Wire Wire Line
 	1550 9650 1650 9650
 Wire Wire Line
@@ -515,4 +470,57 @@ F 3 "" H 1300 10150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 10150 1650 10150
+$Comp
+L antmicroMicrocontrollers:SA800U-WF U?
+U 1 1 61B940C3
+P 1750 1650
+F 0 "U?" H 2475 1997 50  0000 C CNN
+F 1 "SA800U-WF" H 2475 1906 50  0000 C CNN
+F 2 "antmicro-footprints:SA800U-WF" H 1750 1650 50  0001 C CNN
+F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 1750 1650 50  0001 C CNN
+F 4 "SA800U-WF" H 2475 1815 50  0000 C CNN "MPN"
+F 5 "QUECTEL" H 2475 1724 50  0000 C CNN "Manufacturer"
+	1    1750 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 9550
+$Comp
+L antmicroMicrocontrollers:SA800U-WF U?
+U 2 1 61BAF70E
+P 5150 1750
+F 0 "U?" H 5875 2097 50  0000 C CNN
+F 1 "SA800U-WF" H 5875 2006 50  0000 C CNN
+F 2 "antmicro-footprints:SA800U-WF" H 5150 1750 50  0001 C CNN
+F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 5150 1750 50  0001 C CNN
+F 4 "SA800U-WF" H 5875 1915 50  0000 C CNN "MPN"
+F 5 "QUECTEL" H 5875 1824 50  0000 C CNN "Manufacturer"
+	2    5150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:SA800U-WF U?
+U 3 1 61BB5D93
+P 9600 2250
+F 0 "U?" H 10250 2597 50  0000 C CNN
+F 1 "SA800U-WF" H 10250 2506 50  0000 C CNN
+F 2 "antmicro-footprints:SA800U-WF" H 9600 2250 50  0001 C CNN
+F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 9600 2250 50  0001 C CNN
+F 4 "SA800U-WF" H 10250 2415 50  0000 C CNN "MPN"
+F 5 "QUECTEL" H 10250 2324 50  0000 C CNN "Manufacturer"
+	3    9600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:SA800U-WF U?
+U 4 1 61BBA563
+P 9500 7200
+F 0 "U?" H 10150 7547 50  0000 C CNN
+F 1 "SA800U-WF" H 10150 7456 50  0000 C CNN
+F 2 "antmicro-footprints:SA800U-WF" H 9500 7200 50  0001 C CNN
+F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 9500 7200 50  0001 C CNN
+F 4 "SA800U-WF" H 10150 7365 50  0000 C CNN "MPN"
+F 5 "QUECTEL" H 10150 7274 50  0000 C CNN "Manufacturer"
+	4    9500 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

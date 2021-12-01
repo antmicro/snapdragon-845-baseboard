@@ -38,12 +38,6 @@ F0 "LCM" 50
 F1 "LCM.sch" 50
 $EndSheet
 $Sheet
-S 4200 7000 500  500 
-U 61AD1F84
-F0 "Level_shift_HDMI" 50
-F1 "Level_shift_HDMI.sch" 50
-$EndSheet
-$Sheet
 S 600  7000 500  500 
 U 61A19323
 F0 "PoE" 50
@@ -60,5 +54,11 @@ S 8200 7000 500  500
 U 61A60486
 F0 "Cameras_Interface" 50
 F1 "Cameras_Interface.sch" 50
+$EndSheet
+$Sheet
+S 9500 7000 500  500 
+U 61B13669
+F0 "M2" 50
+F1 "M2.sch" 50
 $EndSheet
 $EndSCHEMATC
