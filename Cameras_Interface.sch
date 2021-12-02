@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 10
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L14
 U 1 1 61A76D63
 P 1650 3900
-F 0 "L?" H 1650 4089 50  0000 C CNN
+F 0 "L14" H 1650 4089 50  0000 C CNN
 F 1 "744235900" H 1650 3725 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 4400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 3900 50  0001 C CNN
@@ -66,10 +66,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 4700 1450 4750
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L16
 U 1 1 61AA8ED1
 P 1650 4800
-F 0 "L?" H 1650 4989 50  0000 C CNN
+F 0 "L16" H 1650 4989 50  0000 C CNN
 F 1 "744235900" H 1650 4625 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 5300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 4800 50  0001 C CNN
@@ -86,10 +86,10 @@ CSI0_LN1_P
 Text GLabel 1200 4750 0    50   Input ~ 0
 CSI0_LN1_N
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L15
 U 1 1 61AA3E09
 P 1650 4350
-F 0 "L?" H 1650 4539 50  0000 C CNN
+F 0 "L15" H 1650 4539 50  0000 C CNN
 F 1 "744235900" H 1650 4175 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 4850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 4350 50  0001 C CNN
@@ -106,10 +106,10 @@ CSI0_LN0_N
 Text GLabel 1200 5300 0    50   Input ~ 0
 CSI0_LN0_P
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L17
 U 1 1 61AB8175
 P 1650 5250
-F 0 "L?" H 1650 5439 50  0000 C CNN
+F 0 "L17" H 1650 5439 50  0000 C CNN
 F 1 "744235900" H 1650 5075 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 5750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 5250 50  0001 C CNN
@@ -136,10 +136,10 @@ CSI0_CLK_N
 Text GLabel 1200 5750 0    50   Input ~ 0
 CSI0_CLK_P
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L18
 U 1 1 61AD6420
 P 1650 5700
-F 0 "L?" H 1650 5889 50  0000 C CNN
+F 0 "L18" H 1650 5889 50  0000 C CNN
 F 1 "744235900" H 1650 5525 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 6200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 5700 50  0001 C CNN
@@ -160,10 +160,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 5750 1200 5750
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L9
 U 1 1 61AE220C
 P 1650 1600
-F 0 "L?" H 1650 1789 50  0000 C CNN
+F 0 "L9" H 1650 1789 50  0000 C CNN
 F 1 "744235900" H 1650 1425 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 2100 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 1600 50  0001 C CNN
@@ -212,10 +212,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 2400 1450 2450
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L11
 U 1 1 61AE2229
 P 1650 2500
-F 0 "L?" H 1650 2689 50  0000 C CNN
+F 0 "L11" H 1650 2689 50  0000 C CNN
 F 1 "744235900" H 1650 2325 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 3000 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 2500 50  0001 C CNN
@@ -232,10 +232,10 @@ CSI1_LN1_P
 Text GLabel 1200 2450 0    50   Input ~ 0
 CSI1_LN1_N
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L10
 U 1 1 61AE2236
 P 1650 2050
-F 0 "L?" H 1650 2239 50  0000 C CNN
+F 0 "L10" H 1650 2239 50  0000 C CNN
 F 1 "744235900" H 1650 1875 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 2550 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 2050 50  0001 C CNN
@@ -252,10 +252,10 @@ CSI1_LN0_N
 Text GLabel 1200 3000 0    50   Input ~ 0
 CSI1_LN0_P
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L12
 U 1 1 61AE2243
 P 1650 2950
-F 0 "L?" H 1650 3139 50  0000 C CNN
+F 0 "L12" H 1650 3139 50  0000 C CNN
 F 1 "744235900" H 1650 2775 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 3450 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 2950 50  0001 C CNN
@@ -280,10 +280,10 @@ CSI1_CLK_N
 Text GLabel 1200 3450 0    50   Input ~ 0
 CSI1_CLK_P
 $Comp
-L antmicroFixedInductors:744235900 L?
+L antmicroFixedInductors:744235900 L13
 U 1 1 61AE2254
 P 1650 3400
-F 0 "L?" H 1650 3589 50  0000 C CNN
+F 0 "L13" H 1650 3589 50  0000 C CNN
 F 1 "744235900" H 1650 3225 50  0001 C CNN
 F 2 "antmicro-footprints:744235900" H 2250 3900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 3400 50  0001 C CNN
@@ -304,10 +304,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 3450 1200 3450
 $Comp
-L antmicroFCCConnectors:WE_68715014522 J?
+L antmicroFCCConnectors:WE_68715014522 J8
 U 1 1 61A63D9B
 P 7650 3250
-F 0 "J?" H 7730 2442 50  0000 L CNN
+F 0 "J8" H 7730 2442 50  0000 L CNN
 F 1 "WE_68715014522" H 7730 2351 50  0000 L CNN
 F 2 "antmicro-footprints:WE_68715014522" H 7450 -300 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" H 7650 -400 50  0001 C CNN
@@ -593,10 +593,10 @@ CAM0\n
 Text Notes 700  1450 0    50   ~ 0
 CAM1\n
 $Comp
-L power:GND #PWR?
+L power:GND #PWR056
 U 1 1 61C4B844
 P 7300 6950
-F 0 "#PWR?" H 7300 6700 50  0001 C CNN
+F 0 "#PWR056" H 7300 6700 50  0001 C CNN
 F 1 "GND" H 7305 6777 50  0000 C CNN
 F 2 "" H 7300 6950 50  0001 C CNN
 F 3 "" H 7300 6950 50  0001 C CNN
@@ -604,10 +604,10 @@ F 3 "" H 7300 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:MAX13042EEBC+T U?
+L antmicroLogicTranslatorsLevelShifters:MAX13042EEBC+T U9
 U 1 1 61C766BC
 P 3250 7400
-F 0 "U?" H 4400 7450 50  0000 C CNN
+F 0 "U9" H 4400 7450 50  0000 C CNN
 F 1 "MAX13042EEBC+T" H 3900 6400 50  0000 C CNN
 F 2 "antmicro-footprints:max13042eebc&plus_t" H 3250 7400 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2001042.pdf" H 3250 7400 50  0001 C CNN
@@ -657,10 +657,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 8100 3700 8100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR054
 U 1 1 61CBF74D
 P 1500 8000
-F 0 "#PWR?" H 1500 7750 50  0001 C CNN
+F 0 "#PWR054" H 1500 7750 50  0001 C CNN
 F 1 "GND" H 1505 7827 50  0000 C CNN
 F 2 "" H 1500 8000 50  0001 C CNN
 F 3 "" H 1500 8000 50  0001 C CNN
@@ -700,10 +700,10 @@ Wire Wire Line
 Text GLabel 1150 8400 0    50   Input ~ 0
 1V8
 $Comp
-L antmicroResistors0603:R_0R_0603 R?
+L antmicroResistors0603:R_0R_0603 R59
 U 1 1 61CF2C26
 P 2550 6750
-F 0 "R?" H 2550 6963 60  0000 C CNN
+F 0 "R59" H 2550 6963 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6600 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 6950 60  0001 L CNN
 F 3 "" H 2550 6750 50  0001 C CNN
@@ -715,10 +715,10 @@ F 7 "DNP" H 2550 6750 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R?
+L antmicroResistors0603:R_0R_0603 R60
 U 1 1 61CF310B
 P 2550 6900
-F 0 "R?" H 2550 7113 60  0000 C CNN
+F 0 "R60" H 2550 7113 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6750 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 7100 60  0001 L CNN
 F 3 "" H 2550 6900 50  0001 C CNN
@@ -730,10 +730,10 @@ F 7 "DNP" H 2550 6900 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R?
+L antmicroResistors0603:R_0R_0603 R61
 U 1 1 61CF351C
 P 2550 7050
-F 0 "R?" H 2550 7263 60  0000 C CNN
+F 0 "R61" H 2550 7263 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6900 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 7250 60  0001 L CNN
 F 3 "" H 2550 7050 50  0001 C CNN
@@ -745,10 +745,10 @@ F 7 "DNP" H 2550 7050 50  0001 C CNN "Field7"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R?
+L antmicroResistors0603:R_0R_0603 R62
 U 1 1 61CF37C7
 P 2550 7200
-F 0 "R?" H 2550 7413 60  0000 C CNN
+F 0 "R62" H 2550 7413 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 7050 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 7400 60  0001 L CNN
 F 3 "" H 2550 7200 50  0001 C CNN
@@ -788,10 +788,10 @@ Connection ~ 3950 7900
 Wire Wire Line
 	3950 7900 4850 7900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR055
 U 1 1 61D3BC05
 P 1750 9050
-F 0 "#PWR?" H 1750 8800 50  0001 C CNN
+F 0 "#PWR055" H 1750 8800 50  0001 C CNN
 F 1 "GND" H 1755 8877 50  0000 C CNN
 F 2 "" H 1750 9050 50  0001 C CNN
 F 3 "" H 1750 9050 50  0001 C CNN
@@ -799,10 +799,10 @@ F 3 "" H 1750 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_1M_0603 R?
+L antmicroResistors0603:R_1M_0603 R58
 U 1 1 61D3BF41
 P 1750 8800
-F 0 "R?" V 1705 8870 60  0000 L CNN
+F 0 "R58" V 1705 8870 60  0000 L CNN
 F 1 "R_1M_0603" H 1750 8650 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 1950 9000 60  0001 L CNN
 F 3 "" H 1750 8800 50  0001 C CNN
@@ -819,10 +819,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 8400 1350 8400
 $Comp
-L antmicroResistors0603:R_0R_0603 R?
+L antmicroResistors0603:R_0R_0603 R57
 U 1 1 61D62802
 P 1500 8400
-F 0 "R?" H 1350 8500 60  0000 C CNN
+F 0 "R57" H 1350 8500 60  0000 C CNN
 F 1 "R_0R_0603" H 1500 8250 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 1700 8600 60  0001 L CNN
 F 3 "" H 1500 8400 50  0001 C CNN

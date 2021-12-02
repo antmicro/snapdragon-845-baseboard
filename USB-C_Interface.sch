@@ -594,10 +594,10 @@ This should be optional,\nhard to get component and\nnot necessary.
 Wire Wire Line
 	1700 2900 1000 2900
 $Comp
-L antmicroCapacitors0603:C_330n_0603 C?
+L antmicroCapacitors0603:C_330n_0603 C35
 U 1 1 61B288A3
 P 1850 2900
-F 0 "C?" V 1800 2750 60  0000 C CNN
+F 0 "C35" V 1800 2750 60  0000 C CNN
 F 1 "C_330n_0603" H 1850 2750 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2050 3100 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 1850 2900 50  0001 C CNN
@@ -608,10 +608,10 @@ F 6 "330n" V 1800 3100 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_330n_0603 C?
+L antmicroCapacitors0603:C_330n_0603 C36
 U 1 1 61B290D9
 P 1850 3100
-F 0 "C?" V 1800 2950 60  0000 C CNN
+F 0 "C36" V 1800 2950 60  0000 C CNN
 F 1 "C_330n_0603" H 1850 2950 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2050 3300 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 1850 3100 50  0001 C CNN
@@ -628,10 +628,10 @@ Text GLabel 6200 1100 0    50   Input ~ 0
 Text GLabel 8450 3150 1    50   Input ~ 0
 1V8
 $Comp
-L antmicroDiodesZenerSingle:BZX84-C3V6,215 D?
+L antmicroDiodesZenerSingle:BZX84-C3V6,215 D11
 U 1 1 61A2E749
 P 2300 4200
-F 0 "D?" V 2400 4200 50  0000 R CNN
+F 0 "D11" V 2400 4200 50  0000 R CNN
 F 1 "BZX84-C3V6,215" V 2196 4222 50  0000 R CNN
 F 2 "antmicro-footprints:SOT95P230X110-3N" H 2150 4400 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/1808429.pdf" H 2150 4400 50  0001 C CNN
@@ -641,10 +641,10 @@ F 5 "NEXPERIA" V 2400 4000 50  0000 R CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroDiodesZenerSingle:BZX84-C3V6,215 D?
+L antmicroDiodesZenerSingle:BZX84-C3V6,215 D4
 U 1 1 61A30594
 P 2150 3800
-F 0 "D?" V 2250 3800 50  0000 R CNN
+F 0 "D4" V 2250 3800 50  0000 R CNN
 F 1 "BZX84-C3V6,215" V 2046 3822 50  0000 R CNN
 F 2 "antmicro-footprints:SOT95P230X110-3N" H 2000 4000 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/1808429.pdf" H 2000 4000 50  0001 C CNN
@@ -654,10 +654,10 @@ F 5 "NEXPERIA" V 2100 4600 50  0000 R CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroInterfaceControllers:USB57442G U?
+L antmicroInterfaceControllers:USB57442G U7
 U 1 1 61B83E5D
 P 11900 4250
-F 0 "U?" H 11900 6102 50  0000 C CNN
+F 0 "U7" H 11900 6102 50  0000 C CNN
 F 1 "USB57442G" H 11900 6011 50  0000 C CNN
 F 2 "antmicro-footprints:QFN40P700X700X100-57N" H 11900 4250 50  0001 C CNN
 F 3 "https://www.snapeda.com/parts/USB5744/2G/Microchip/datasheet/" H 11900 4250 50  0001 C CNN
@@ -667,10 +667,10 @@ F 5 "MICROCHIP" H 11900 5829 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_632723300011 J?
+L antmicroUSBDVIHDMIConnectors:WE_632723300011 J4
 U 1 1 61B881DB
 P 13700 2700
-F 0 "J?" H 14100 2889 60  0000 C CNN
+F 0 "J4" H 14100 2889 60  0000 C CNN
 F 1 "WE_632723300011" H 14100 2783 60  0000 C CNN
 F 2 "antmicro-footprints:WE_632723300011" H 13700 2700 60  0001 C CNN
 F 3 "" H 13700 2700 60  0001 C CNN
@@ -680,10 +680,10 @@ F 5 "632723300011" H 13700 2700 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_632723300011 J?
+L antmicroUSBDVIHDMIConnectors:WE_632723300011 J5
 U 1 1 61B88C63
 P 13700 4450
-F 0 "J?" H 14100 4639 60  0000 C CNN
+F 0 "J5" H 14100 4639 60  0000 C CNN
 F 1 "WE_632723300011" H 14100 4533 60  0000 C CNN
 F 2 "antmicro-footprints:WE_632723300011" H 13700 4450 60  0001 C CNN
 F 3 "" H 13700 4450 60  0001 C CNN
@@ -698,7 +698,9 @@ $Comp
 L antmicroInterfaceControllers:FT2232HL-REEL U?
 U 1 1 61C56D21
 P 9700 8650
-F 0 "U?" H 9700 11139 60  0000 C CNN
+AR Path="/61C56D21" Ref="U?"  Part="1" 
+AR Path="/61A2F307/61C56D21" Ref="U6"  Part="1" 
+F 0 "U6" H 9700 11139 60  0000 C CNN
 F 1 "FT2232HL-REEL" H 9700 11033 60  0000 C CNN
 F 2 "antmicro-footprints:LQFP-64_10x10mm" V 9750 8875 60  0001 L CNN
 F 3 "" H 5975 8675 60  0001 L CNN
@@ -708,10 +710,10 @@ F 5 "FT2232HL-REEL" H 9750 9175 60  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_632723300011 J?
+L antmicroUSBDVIHDMIConnectors:WE_632723300011 J3
 U 1 1 61C60EDE
 P 7300 6450
-F 0 "J?" H 7700 6639 60  0000 C CNN
+F 0 "J3" H 7700 6639 60  0000 C CNN
 F 1 "WE_632723300011" H 7700 6533 60  0000 C CNN
 F 2 "antmicro-footprints:WE_632723300011" H 7300 6450 60  0001 C CNN
 F 3 "" H 7300 6450 60  0001 C CNN

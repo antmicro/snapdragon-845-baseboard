@@ -559,25 +559,12 @@ Connection ~ 7800 2600
 Wire Wire Line
 	7800 2600 9300 2600
 $Comp
-L antmicroFCCConnectors:68612014122 J?
-U 1 1 61A116F2
-P 9300 2000
-F 0 "J?" H 9464 2193 50  0000 L CNN
-F 1 "68612014122" H 9464 2102 50  0000 L CNN
-F 2 "antmicro-footprints:68612014122" H 10150 2850 50  0001 C CNN
-F 3 "https://www.we-online.com/katalog/datasheet/68612014122.pdf" H 10150 2850 50  0001 C CNN
-F 4 "68612014122" H 9464 2011 50  0000 L CNN "MPN"
-F 5 "WURTH ELEKTRONIK" H 9464 1920 50  0000 L CNN "Manufacturer"
-	1    9300 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroFCCConnectors:3-84952-0 J?
+L antmicroFCCConnectors:3-84952-0 J6
 U 1 1 619D8F59
 P 3350 2350
-F 0 "J?" H 3580 2337 50  0000 L CNN
+F 0 "J6" H 3580 2337 50  0000 L CNN
 F 1 "3-84952-0" H 3580 2246 50  0000 L CNN
-F 2 "" H 4150 2250 50  0001 L BNN
+F 2 "antmicro-footprints:TE_3-84952-0" H 4150 2250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1-1773959-6-flexible-printed-circuit-con%7F0919%7Fpdf%7FEnglish%7FENG_DS_1-1773959-6-flexible-printed-circuit-con_0919.pdf%7F3-84952-0" H 4150 2250 50  0001 L BNN
 F 4 "3-84952-0" H 3580 2155 50  0000 L CNN "MPN"
 F 5 "AMP - TE CONNECTIVITY" H 3580 2064 50  0000 L CNN "Manufacturer"
@@ -600,10 +587,10 @@ NoConn ~ 2950 3650
 NoConn ~ 2950 3750
 NoConn ~ 2950 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR036
 U 1 1 61A1358A
 P 2950 4200
-F 0 "#PWR?" H 2950 3950 50  0001 C CNN
+F 0 "#PWR036" H 2950 3950 50  0001 C CNN
 F 1 "GND" H 2955 4027 50  0000 C CNN
 F 2 "" H 2950 4200 50  0001 C CNN
 F 3 "" H 2950 4200 50  0001 C CNN
@@ -618,4 +605,17 @@ Text Notes 3600 3200 0    50   ~ 0
 Is this connector right? 30 instead of 15?\n
 Text Notes 6200 850  0    50   ~ 0
 General purpose DSI for LCD
+$Comp
+L antmicroFCCConnectors:F52R-1A7H1-11020 J7
+U 1 1 61ADF1E8
+P 9500 900
+F 0 "J7" H 9828 -13 50  0000 L CNN
+F 1 "F52R-1A7H1-11020" H 9828 -104 50  0000 L CNN
+F 2 "antmicro-footprints:F52R-1A7H1-11020" H 9500 900 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/F52R-1A7H1-11020/Amphenol%20ICC%20(FCI)/datasheet/" H 9500 900 50  0001 C CNN
+F 4 "F52R-1A7H1-11020" H 9828 -195 50  0000 L CNN "MPN"
+F 5 "AMPHENOL ICC" H 9828 -286 50  0000 L CNN "Manufacturer"
+	1    9500 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

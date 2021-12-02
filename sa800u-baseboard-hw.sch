@@ -26,13 +26,13 @@ F0 "HDMI_converter" 50
 F1 "HDMI_converter.sch" 50
 $EndSheet
 $Sheet
-S 5200 7000 500  500 
+S 4150 7000 500  500 
 U 61A2F307
 F0 "USB-C_Interface " 50
 F1 "USB-C_Interface.sch" 50
 $EndSheet
 $Sheet
-S 6250 7000 500  500 
+S 5200 7000 500  500 
 U 61BD2CC1
 F0 "LCM" 50
 F1 "LCM.sch" 50
@@ -44,25 +44,25 @@ F0 "PoE" 50
 F1 "PoE.sch" 50
 $EndSheet
 $Sheet
-S 7250 7000 500  500 
+S 6200 7000 500  500 
 U 61A4BC4F
 F0 "SoM" 50
 F1 "SoM.sch" 50
 $EndSheet
 $Sheet
-S 8200 7000 500  500 
+S 7150 7000 500  500 
 U 61A60486
 F0 "Cameras_Interface" 50
 F1 "Cameras_Interface.sch" 50
 $EndSheet
 $Sheet
-S 9500 7000 500  500 
+S 8450 7000 500  500 
 U 61B13669
 F0 "M2" 50
 F1 "M2.sch" 50
 $EndSheet
 $Sheet
-S 10400 7000 500  550 
+S 9350 7000 500  550 
 U 61C01D88
 F0 "Other_Interfaces" 50
 F1 "Other_Interfaces.sch" 50
