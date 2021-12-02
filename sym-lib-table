@@ -11,4 +11,5 @@
   (lib (name c)(type Legacy)(uri ${KIPRJMOD}/c.lib)(options "")(descr "")(disabled))
   (lib (name d)(type Legacy)(uri ${KIPRJMOD}/d.lib)(options "")(descr "")(disabled))
   (lib (name e)(type Legacy)(uri ${KIPRJMOD}/e.lib)(options "")(descr "")(disabled))
+  (lib (name USB-PD)(type Legacy)(uri ${KIPRJMOD}/USB-PD.lib)(options "")(descr ""))
 )
