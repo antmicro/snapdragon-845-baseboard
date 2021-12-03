@@ -1183,6 +1183,19 @@ X A1 D2 -100 -200 100 R 50 40 1 1 B
 ENDDRAW
 ENDDEF
 #
+# antmicroMechanicalParts_PCB_Mount_Hole_3_NPTH
+#
+DEF antmicroMechanicalParts_PCB_Mount_Hole_3_NPTH MP 0 40 Y Y 1 F N
+F0 "MP" 0 250 50 H V C CNN
+F1 "antmicroMechanicalParts_PCB_Mount_Hole_3_NPTH" 0 -250 50 H V C CNN
+F2 "antmicro-footprints:mounting-hole-3mm-NPTH" 800 700 50 H I C CNN
+F3 "" 950 800 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+C 0 0 180 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # antmicroMemoryConnectorsPCCardSockets_2908-05WB-MG
 #
 DEF antmicroMemoryConnectorsPCCardSockets_2908-05WB-MG J 0 40 Y Y 1 F N

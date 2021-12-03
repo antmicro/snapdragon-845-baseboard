@@ -73,4 +73,48 @@ U 61B0DC30
 F0 "PSU" 50
 F1 "PSU.sch" 50
 $EndSheet
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH MP?
+U 1 1 61B52107
+P 12050 8050
+F 0 "MP?" H 12258 8096 50  0000 L CNN
+F 1 "PCB_Mount_Hole_3_NPTH" H 12258 8005 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-3mm-NPTH" H 12850 8750 50  0001 C CNN
+F 3 "" H 13000 8850 50  0001 C CNN
+	1    12050 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH MP?
+U 1 1 61B52579
+P 12450 8050
+F 0 "MP?" H 12658 8096 50  0000 L CNN
+F 1 "PCB_Mount_Hole_3_NPTH" H 12658 8005 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-3mm-NPTH" H 13250 8750 50  0001 C CNN
+F 3 "" H 13400 8850 50  0001 C CNN
+	1    12450 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH MP?
+U 1 1 61B52868
+P 12050 8450
+F 0 "MP?" H 12258 8496 50  0000 L CNN
+F 1 "PCB_Mount_Hole_3_NPTH" H 12258 8405 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-3mm-NPTH" H 12850 9150 50  0001 C CNN
+F 3 "" H 13000 9250 50  0001 C CNN
+	1    12050 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH MP?
+U 1 1 61B52B11
+P 12450 8450
+F 0 "MP?" H 12658 8496 50  0000 L CNN
+F 1 "PCB_Mount_Hole_3_NPTH" H 12658 8405 50  0000 L CNN
+F 2 "antmicro-footprints:mounting-hole-3mm-NPTH" H 13250 9150 50  0001 C CNN
+F 3 "" H 13400 9250 50  0001 C CNN
+	1    12450 8450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
