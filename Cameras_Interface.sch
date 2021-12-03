@@ -685,10 +685,10 @@ Connection ~ 7450 6550
 Wire Wire Line
 	7450 6550 7450 6750
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L9
 U 1 1 61CE378A
 P 1750 1600
-F 0 "L?" H 1750 1917 50  0000 C CNN
+F 0 "L9" H 1750 1917 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 1826 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 1930 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 1600 50  0001 C CNN
@@ -698,10 +698,10 @@ F 5 "MURATA" H 1750 1826 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L10
 U 1 1 61CECE67
 P 1750 2050
-F 0 "L?" H 1750 2367 50  0000 C CNN
+F 0 "L10" H 1750 2367 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 2276 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 2380 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2050 50  0001 C CNN
@@ -711,10 +711,10 @@ F 5 "MURATA" H 1750 2276 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L11
 U 1 1 61CED3A2
 P 1750 2500
-F 0 "L?" H 1750 2817 50  0000 C CNN
+F 0 "L11" H 1750 2817 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 2726 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 2830 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2500 50  0001 C CNN
@@ -724,10 +724,10 @@ F 5 "MURATA" H 1750 2726 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L12
 U 1 1 61CEDD0B
 P 1750 2950
-F 0 "L?" H 1750 3267 50  0000 C CNN
+F 0 "L12" H 1750 3267 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 3176 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 3280 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2950 50  0001 C CNN
@@ -737,10 +737,10 @@ F 5 "MURATA" H 1750 3176 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L13
 U 1 1 61CEE413
 P 1750 3400
-F 0 "L?" H 1750 3717 50  0000 C CNN
+F 0 "L13" H 1750 3717 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 3626 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 3730 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3400 50  0001 C CNN
@@ -750,10 +750,10 @@ F 5 "MURATA" H 1750 3626 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L14
 U 1 1 61CEE814
 P 1750 3900
-F 0 "L?" H 1750 4217 50  0000 C CNN
+F 0 "L14" H 1750 4217 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 4126 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 4230 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3900 50  0001 C CNN
@@ -763,10 +763,10 @@ F 5 "MURATA" H 1750 4126 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L15
 U 1 1 61CEEFBB
 P 1750 4350
-F 0 "L?" H 1750 4667 50  0000 C CNN
+F 0 "L15" H 1750 4667 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 4576 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 4680 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 4350 50  0001 C CNN
@@ -776,10 +776,10 @@ F 5 "MURATA" H 1750 4576 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L16
 U 1 1 61CEFBB4
 P 1750 4800
-F 0 "L?" H 1750 5117 50  0000 C CNN
+F 0 "L16" H 1750 5117 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 5026 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 5130 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 4800 50  0001 C CNN
@@ -789,10 +789,10 @@ F 5 "MURATA" H 1750 5026 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L17
 U 1 1 61CF063F
 P 1750 5250
-F 0 "L?" H 1750 5567 50  0000 C CNN
+F 0 "L17" H 1750 5567 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 5476 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 5580 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 5250 50  0001 C CNN
@@ -802,10 +802,10 @@ F 5 "MURATA" H 1750 5476 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L?
+L antmicroFixedInductors:NFP0QHB242HS2D L18
 U 1 1 61CF0B6C
 P 1750 5700
-F 0 "L?" H 1750 6017 50  0000 C CNN
+F 0 "L18" H 1750 6017 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 5926 50  0000 C CNN
 F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 6030 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 5700 50  0001 C CNN
