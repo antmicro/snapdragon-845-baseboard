@@ -13,30 +13,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L antmicroFixedInductors:744235900 L14
-U 1 1 61A76D63
-P 1650 3900
-F 0 "L14" H 1650 4089 50  0000 C CNN
-F 1 "744235900" H 1650 3725 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 4400 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 3900 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 4180 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 4089 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 4550 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 4475 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 4125 50  0001 C CNN "Val"
-	1    1650 3900
-	1    0    0    -1  
-$EndComp
 Text GLabel 1200 3950 0    50   Input ~ 0
 CSI0_LN3_P
 Text GLabel 1200 3850 0    50   Input ~ 0
 CSI0_LN3_N
 Wire Wire Line
-	1850 4000 1850 3950
+	2050 4000 2050 3950
 Wire Wire Line
-	1850 3800 1850 3850
+	2050 3800 2050 3850
 Wire Wire Line
 	1450 3800 1450 3850
 Wire Wire Line
@@ -65,62 +49,14 @@ Wire Wire Line
 	1450 4750 1200 4750
 Wire Wire Line
 	1450 4700 1450 4750
-$Comp
-L antmicroFixedInductors:744235900 L16
-U 1 1 61AA8ED1
-P 1650 4800
-F 0 "L16" H 1650 4989 50  0000 C CNN
-F 1 "744235900" H 1650 4625 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 5300 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 4800 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 5080 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 4989 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 5450 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 5375 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 5025 50  0001 C CNN "Val"
-	1    1650 4800
-	1    0    0    -1  
-$EndComp
 Text GLabel 1200 4850 0    50   Input ~ 0
 CSI0_LN1_P
 Text GLabel 1200 4750 0    50   Input ~ 0
 CSI0_LN1_N
-$Comp
-L antmicroFixedInductors:744235900 L15
-U 1 1 61AA3E09
-P 1650 4350
-F 0 "L15" H 1650 4539 50  0000 C CNN
-F 1 "744235900" H 1650 4175 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 4850 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 4350 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 4630 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 4539 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 5000 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 4925 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 4575 50  0001 C CNN "Val"
-	1    1650 4350
-	1    0    0    -1  
-$EndComp
 Text GLabel 1200 5200 0    50   Input ~ 0
 CSI0_LN0_N
 Text GLabel 1200 5300 0    50   Input ~ 0
 CSI0_LN0_P
-$Comp
-L antmicroFixedInductors:744235900 L17
-U 1 1 61AB8175
-P 1650 5250
-F 0 "L17" H 1650 5439 50  0000 C CNN
-F 1 "744235900" H 1650 5075 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 5750 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 5250 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 5530 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 5439 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 5900 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 5825 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 5475 50  0001 C CNN "Val"
-	1    1650 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 5200 1450 5200
 Wire Wire Line
@@ -129,28 +65,10 @@ Wire Wire Line
 	1450 5350 1450 5300
 Wire Wire Line
 	1450 5300 1200 5300
-Text Notes 650  3750 0    50   ~ 0
-_____________________________________________________\n\n
 Text GLabel 1200 5650 0    50   Input ~ 0
 CSI0_CLK_N
 Text GLabel 1200 5750 0    50   Input ~ 0
 CSI0_CLK_P
-$Comp
-L antmicroFixedInductors:744235900 L18
-U 1 1 61AD6420
-P 1650 5700
-F 0 "L18" H 1650 5889 50  0000 C CNN
-F 1 "744235900" H 1650 5525 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 6200 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 5700 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 5980 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 5889 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 6350 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 6275 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 5925 50  0001 C CNN "Val"
-	1    1650 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 5650 1450 5650
 Wire Wire Line
@@ -159,30 +77,14 @@ Wire Wire Line
 	1450 5800 1450 5750
 Wire Wire Line
 	1450 5750 1200 5750
-$Comp
-L antmicroFixedInductors:744235900 L9
-U 1 1 61AE220C
-P 1650 1600
-F 0 "L9" H 1650 1789 50  0000 C CNN
-F 1 "744235900" H 1650 1425 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 2100 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 1600 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 1880 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 1789 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 2250 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 2175 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 1825 50  0001 C CNN "Val"
-	1    1650 1600
-	1    0    0    -1  
-$EndComp
 Text GLabel 1200 1650 0    50   Input ~ 0
 CSI1_LN3_P
 Text GLabel 1200 1550 0    50   Input ~ 0
 CSI1_LN3_N
 Wire Wire Line
-	1850 1700 1850 1650
+	2050 1700 2050 1650
 Wire Wire Line
-	1850 1500 1850 1550
+	2050 1500 2050 1550
 Wire Wire Line
 	1450 1500 1450 1550
 Wire Wire Line
@@ -211,62 +113,14 @@ Wire Wire Line
 	1450 2450 1200 2450
 Wire Wire Line
 	1450 2400 1450 2450
-$Comp
-L antmicroFixedInductors:744235900 L11
-U 1 1 61AE2229
-P 1650 2500
-F 0 "L11" H 1650 2689 50  0000 C CNN
-F 1 "744235900" H 1650 2325 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 3000 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 2500 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 2780 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 2689 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 3150 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 3075 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 2725 50  0001 C CNN "Val"
-	1    1650 2500
-	1    0    0    -1  
-$EndComp
 Text GLabel 1200 2550 0    50   Input ~ 0
 CSI1_LN1_P
 Text GLabel 1200 2450 0    50   Input ~ 0
 CSI1_LN1_N
-$Comp
-L antmicroFixedInductors:744235900 L10
-U 1 1 61AE2236
-P 1650 2050
-F 0 "L10" H 1650 2239 50  0000 C CNN
-F 1 "744235900" H 1650 1875 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 2550 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 2050 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 2330 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 2239 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 2700 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 2625 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 2275 50  0001 C CNN "Val"
-	1    1650 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 1200 2900 0    50   Input ~ 0
 CSI1_LN0_N
 Text GLabel 1200 3000 0    50   Input ~ 0
 CSI1_LN0_P
-$Comp
-L antmicroFixedInductors:744235900 L12
-U 1 1 61AE2243
-P 1650 2950
-F 0 "L12" H 1650 3139 50  0000 C CNN
-F 1 "744235900" H 1650 2775 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 3450 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 2950 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 3230 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 3139 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 3600 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 3525 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 3175 50  0001 C CNN "Val"
-	1    1650 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 2900 1450 2900
 Wire Wire Line
@@ -279,22 +133,6 @@ Text GLabel 1200 3350 0    50   Input ~ 0
 CSI1_CLK_N
 Text GLabel 1200 3450 0    50   Input ~ 0
 CSI1_CLK_P
-$Comp
-L antmicroFixedInductors:744235900 L13
-U 1 1 61AE2254
-P 1650 3400
-F 0 "L13" H 1650 3589 50  0000 C CNN
-F 1 "744235900" H 1650 3225 50  0001 C CNN
-F 2 "antmicro-footprints:744235900" H 2250 3900 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744235900.pdf" H 1650 3400 50  0001 C CNN
-F 4 "Wurth Elektronik" H 1650 3680 50  0001 C CNN "Manufacturer"
-F 5 "744235900" H 1650 3589 50  0001 C CNN "MPN"
-F 6 "2A" H 1725 4050 50  0001 C CNN "MaxCur"
-F 7 "3.2x4.5" H 1800 3975 50  0001 C CNN "Size"
-F 8 "300n/2A" H 1875 3625 50  0001 C CNN "Val"
-	1    1650 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 3350 1450 3350
 Wire Wire Line
@@ -317,124 +155,124 @@ F 5 "Wurth Elektronik " H 8300 1450 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 1550 1950 1550
+	2050 1550 2150 1550
 Wire Wire Line
-	1850 1650 1950 1650
-Text Label 1950 1550 0    50   ~ 0
+	2050 1650 2150 1650
+Text Label 2150 1550 0    50   ~ 0
 CSI1_LN3_FFC_N
-Text Label 1950 1650 0    50   ~ 0
+Text Label 2150 1650 0    50   ~ 0
 CSI1_LN3_FFC_P
 Text Label 6450 1650 0    50   ~ 0
 CSI1_LN3_FFC_N
 Text Label 6450 1750 0    50   ~ 0
 CSI1_LN3_FFC_P
-Text Label 1950 3850 0    50   ~ 0
+Text Label 2150 3850 0    50   ~ 0
 CSI0_LN3_FFC_N
-Text Label 1950 3950 0    50   ~ 0
+Text Label 2150 3950 0    50   ~ 0
 CSI0_LN3_FFC_P
 Text Label 6450 1850 0    50   ~ 0
 CSI0_LN3_FFC_N
 Text Label 6450 1950 0    50   ~ 0
 CSI0_LN3_FFC_P
 Wire Wire Line
-	1850 3850 1950 3850
+	2050 3850 2150 3850
 Wire Wire Line
-	1850 3950 1950 3950
+	2050 3950 2150 3950
 Wire Wire Line
-	1850 1950 1850 2000
+	2050 1950 2050 2000
 Wire Wire Line
-	1850 2000 1950 2000
+	2050 2000 2150 2000
 Wire Wire Line
-	1850 2150 1850 2100
+	2050 2150 2050 2100
 Wire Wire Line
-	1850 2100 1950 2100
+	2050 2100 2150 2100
 Wire Wire Line
-	1850 2400 1850 2450
+	2050 2400 2050 2450
 Wire Wire Line
-	1850 2450 1950 2450
+	2050 2450 2150 2450
 Wire Wire Line
-	1850 2600 1850 2550
+	2050 2600 2050 2550
 Wire Wire Line
-	1850 2550 1950 2550
+	2050 2550 2150 2550
 Wire Wire Line
-	1850 2850 1850 2900
+	2050 2850 2050 2900
 Wire Wire Line
-	1850 2900 1950 2900
+	2050 2900 2150 2900
 Wire Wire Line
-	1850 3050 1850 3000
+	2050 3050 2050 3000
 Wire Wire Line
-	1850 3000 1950 3000
+	2050 3000 2150 3000
 Wire Wire Line
-	1850 3300 1850 3350
+	2050 3300 2050 3350
 Wire Wire Line
-	1850 3350 1950 3350
+	2050 3350 2150 3350
 Wire Wire Line
-	1850 3500 1850 3450
+	2050 3500 2050 3450
 Wire Wire Line
-	1850 3450 1950 3450
-Text Label 1950 2000 0    50   ~ 0
+	2050 3450 2150 3450
+Text Label 2150 2000 0    50   ~ 0
 CSI1_LN2_FFC_N
-Text Label 1950 2100 0    50   ~ 0
+Text Label 2150 2100 0    50   ~ 0
 CSI1_LN2_FFC_P
-Text Label 1950 2550 0    50   ~ 0
+Text Label 2150 2550 0    50   ~ 0
 CSI1_LN1_FFC_P
-Text Label 1950 2450 0    50   ~ 0
+Text Label 2150 2450 0    50   ~ 0
 CSI1_LN1_FFC_N
-Text Label 1950 2900 0    50   ~ 0
+Text Label 2150 2900 0    50   ~ 0
 CSI1_LN0_FFC_N
-Text Label 1950 3000 0    50   ~ 0
+Text Label 2150 3000 0    50   ~ 0
 CSI1_LN0_FFC_P
-Text Label 1950 3350 0    50   ~ 0
+Text Label 2150 3350 0    50   ~ 0
 CSI1_CLK_FFC_N
-Text Label 1950 3450 0    50   ~ 0
+Text Label 2150 3450 0    50   ~ 0
 CSI1_CLK_FFC_P
 Wire Wire Line
-	1850 4250 1850 4300
+	2050 4250 2050 4300
 Wire Wire Line
-	1850 4300 1950 4300
+	2050 4300 2150 4300
 Wire Wire Line
-	1850 4450 1850 4400
+	2050 4450 2050 4400
 Wire Wire Line
-	1850 4400 1950 4400
+	2050 4400 2150 4400
 Wire Wire Line
-	1850 4700 1850 4750
+	2050 4700 2050 4750
 Wire Wire Line
-	1850 4750 1950 4750
+	2050 4750 2150 4750
 Wire Wire Line
-	1850 4900 1850 4850
+	2050 4900 2050 4850
 Wire Wire Line
-	1850 4850 1950 4850
+	2050 4850 2150 4850
 Wire Wire Line
-	1850 5150 1850 5200
+	2050 5150 2050 5200
 Wire Wire Line
-	1850 5200 1950 5200
+	2050 5200 2150 5200
 Wire Wire Line
-	1850 5350 1850 5300
+	2050 5350 2050 5300
 Wire Wire Line
-	1850 5300 1950 5300
+	2050 5300 2150 5300
 Wire Wire Line
-	1850 5600 1850 5650
+	2050 5600 2050 5650
 Wire Wire Line
-	1850 5650 1950 5650
+	2050 5650 2150 5650
 Wire Wire Line
-	1850 5800 1850 5750
+	2050 5800 2050 5750
 Wire Wire Line
-	1850 5750 1950 5750
-Text Label 1950 4300 0    50   ~ 0
+	2050 5750 2150 5750
+Text Label 2150 4300 0    50   ~ 0
 CSI0_LN2_FFC_N
-Text Label 1950 4400 0    50   ~ 0
+Text Label 2150 4400 0    50   ~ 0
 CSI0_LN2_FFC_P
-Text Label 1950 4750 0    50   ~ 0
+Text Label 2150 4750 0    50   ~ 0
 CSI0_LN1_FFC_N
-Text Label 1950 4850 0    50   ~ 0
+Text Label 2150 4850 0    50   ~ 0
 CSI0_LN1_FFC_P
-Text Label 1950 5200 0    50   ~ 0
+Text Label 2150 5200 0    50   ~ 0
 CSI0_LN0_FFC_N
-Text Label 1950 5300 0    50   ~ 0
+Text Label 2150 5300 0    50   ~ 0
 CSI0_LN0_FFC_P
-Text Label 1950 5650 0    50   ~ 0
+Text Label 2150 5650 0    50   ~ 0
 CSI0_CLK_N
-Text Label 1950 5750 0    50   ~ 0
+Text Label 2150 5750 0    50   ~ 0
 CSI0_CLK_P
 Text Label 6450 2050 0    50   ~ 0
 CSI1_LN2_FFC_N
@@ -846,4 +684,134 @@ Wire Wire Line
 Connection ~ 7450 6550
 Wire Wire Line
 	7450 6550 7450 6750
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CE378A
+P 1750 1600
+F 0 "L?" H 1750 1917 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 1826 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 1930 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 1600 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 1917 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 1826 50  0001 C CNN "Manufacturer"
+	1    1750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CECE67
+P 1750 2050
+F 0 "L?" H 1750 2367 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 2276 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 2380 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2050 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 2367 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 2276 50  0001 C CNN "Manufacturer"
+	1    1750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CED3A2
+P 1750 2500
+F 0 "L?" H 1750 2817 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 2726 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 2830 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2500 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 2817 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 2726 50  0001 C CNN "Manufacturer"
+	1    1750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CEDD0B
+P 1750 2950
+F 0 "L?" H 1750 3267 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 3176 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 3280 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2950 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 3267 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 3176 50  0001 C CNN "Manufacturer"
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CEE413
+P 1750 3400
+F 0 "L?" H 1750 3717 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 3626 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 3730 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3400 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 3717 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 3626 50  0001 C CNN "Manufacturer"
+	1    1750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CEE814
+P 1750 3900
+F 0 "L?" H 1750 4217 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 4126 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 4230 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3900 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 4217 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 4126 50  0001 C CNN "Manufacturer"
+	1    1750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CEEFBB
+P 1750 4350
+F 0 "L?" H 1750 4667 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 4576 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 4680 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 4350 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 4667 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 4576 50  0001 C CNN "Manufacturer"
+	1    1750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CEFBB4
+P 1750 4800
+F 0 "L?" H 1750 5117 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 5026 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 5130 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 4800 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 5117 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 5026 50  0001 C CNN "Manufacturer"
+	1    1750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CF063F
+P 1750 5250
+F 0 "L?" H 1750 5567 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 5476 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 5580 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 5250 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 5567 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 5476 50  0001 C CNN "Manufacturer"
+	1    1750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFixedInductors:NFP0QHB242HS2D L?
+U 1 1 61CF0B6C
+P 1750 5700
+F 0 "L?" H 1750 6017 50  0000 C CNN
+F 1 "NFP0QHB242HS2D" H 1750 5926 50  0000 C CNN
+F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 6030 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 5700 50  0001 C CNN
+F 4 "NFP0QHB242HS2D" H 1750 6017 50  0001 C CNN "MPN"
+F 5 "MURATA" H 1750 5926 50  0001 C CNN "Manufacturer"
+	1    1750 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
