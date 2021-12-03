@@ -15,15 +15,15 @@ S 0 0 850 -800 1 1 0 N
 ENDDRAW
 ENDDEF
 #
-# antmicroBatteryHoldersClipsContacts_BLP2032SM-GCT-ND
+# antmicroBatteryHoldersClipsContacts_MS621FE-FL11E
 #
-DEF antmicroBatteryHoldersClipsContacts_BLP2032SM-GCT-ND BAT 0 40 Y Y 1 F N
+DEF antmicroBatteryHoldersClipsContacts_MS621FE-FL11E BAT 0 40 Y Y 1 F N
 F0 "BAT" 110 -30 60 H V L BNN
-F1 "antmicroBatteryHoldersClipsContacts_BLP2032SM-GCT-ND" 110 -110 60 H V L BNN
-F2 "antmicro-footprints:BLP2032SM-GCT-ND" 0 0 60 H I C CNN
+F1 "antmicroBatteryHoldersClipsContacts_MS621FE-FL11E" 110 -110 60 H V L BNN
+F2 "antmicro-footprints:MS621FE-FL11E" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
-F4 "MPD" 0 0 50 H I C CNN "Manufacturer"
-F5 "BLP2032SM-GCT-ND" 0 0 50 H I C CNN "MPN"
+F4 "Seiko" 0 0 50 H I C CNN "Manufacturer"
+F5 "MS621FE-FL11E" 0 0 50 H I C CNN "MPN"
 DRAW
 P 2 0 1 10 -100 0 100 0 N
 P 2 0 1 10 -100 50 -80 50 N

@@ -497,21 +497,6 @@ F 5 "QUECTEL" H 5875 1824 50  0000 C CNN "Manufacturer"
 	2    5150 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L antmicroBatteryHoldersClipsContacts:BLP2032SM-GCT-ND BAT?
-U 1 1 61C092A2
-P 11600 8050
-AR Path="/61C092A2" Ref="BAT?"  Part="1" 
-AR Path="/61A4BC4F/61C092A2" Ref="BAT1"  Part="1" 
-F 0 "BAT1" H 11730 8053 60  0000 L CNN
-F 1 "BLP2032SM-GCT-ND" H 11730 7947 60  0000 L CNN
-F 2 "antmicro-footprints:BLP2032SM-GCT-ND" H 11600 8050 60  0001 C CNN
-F 3 "" H 11600 8050 60  0001 C CNN
-F 4 "MPD" H 11600 8050 50  0001 C CNN "Manufacturer"
-F 5 "BLP2032SM-GCT-ND" H 11600 8050 50  0001 C CNN "MPN"
-	1    11600 8050
-	1    0    0    -1  
-$EndComp
 Text Notes 11550 7700 0    50   ~ 0
 Work in progress.
 $Comp
@@ -564,6 +549,19 @@ F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14200 9200 60  0001 L CNN
 F 4 "KMR211NGLFS" H 14196 9293 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 14200 9372 60  0001 L CNN "Manufacturer"
 	1    14000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroBatteryHoldersClipsContacts:MS621FE-FL11E BAT1
+U 1 1 61B43805
+P 11800 7850
+F 0 "BAT1" H 11930 7853 60  0000 L CNN
+F 1 "MS621FE-FL11E" H 11930 7747 60  0000 L CNN
+F 2 "antmicro-footprints:MS621FE-FL11E" H 11800 7850 60  0001 C CNN
+F 3 "" H 11800 7850 60  0001 C CNN
+F 4 "Seiko" H 11800 7850 50  0001 C CNN "Manufacturer"
+F 5 "MS621FE-FL11E" H 11800 7850 50  0001 C CNN "MPN"
+	1    11800 7850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
