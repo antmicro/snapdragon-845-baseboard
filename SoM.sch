@@ -1092,53 +1092,14 @@ Should this VBAT be here?\n
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
 U 1 1 61E93EA5
-P 11150 5600
-F 0 "J?" H 11528 5704 50  0000 L CNN
-F 1 "MC-HVT1-S04-G" H 11528 5613 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 11350 5900 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 11350 6000 60  0001 L CNN
-F 4 "MC-HVT1-S04-G" H 11350 6100 60  0001 L CNN "MPN"
-F 5 "Multicomp" H 11350 6200 60  0001 L CNN "Manufacturer"
-	1    11150 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
-U 1 1 61E93EAD
-P 11750 5600
-F 0 "J?" H 12128 5704 50  0000 L CNN
-F 1 "MC-HVT1-S04-G" H 12128 5613 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 11950 5900 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 11950 6000 60  0001 L CNN
-F 4 "MC-HVT1-S04-G" H 11950 6100 60  0001 L CNN "MPN"
-F 5 "Multicomp" H 11950 6200 60  0001 L CNN "Manufacturer"
-	1    11750 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
-U 1 1 61E93EB5
-P 12350 5600
-F 0 "J?" H 12728 5704 50  0000 L CNN
-F 1 "MC-HVT1-S04-G" H 12728 5613 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 12550 5900 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 12550 6000 60  0001 L CNN
-F 4 "MC-HVT1-S04-G" H 12550 6100 60  0001 L CNN "MPN"
-F 5 "Multicomp" H 12550 6200 60  0001 L CNN "Manufacturer"
-	1    12350 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
-U 1 1 61E93EBD
-P 13000 5600
-F 0 "J?" H 13378 5704 50  0000 L CNN
-F 1 "MC-HVT1-S04-G" H 13378 5613 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 13200 5900 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 13200 6000 60  0001 L CNN
-F 4 "MC-HVT1-S04-G" H 13200 6100 60  0001 L CNN "MPN"
-F 5 "Multicomp" H 13200 6200 60  0001 L CNN "Manufacturer"
-	1    13000 5600
+P 11600 5400
+F 0 "J?" H 11978 5504 50  0000 L CNN
+F 1 "MC-HVT1-S04-G" H 11978 5413 50  0000 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 11800 5700 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 11800 5800 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 11800 5900 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 11800 6000 60  0001 L CNN "Manufacturer"
+	1    11600 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2062,4 +2023,8 @@ F 3 "" H 11800 8350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11800 8050 11800 8350
+Wire Wire Line
+	11600 5250 11600 4800
+Text Label 11600 4800 1    50   ~ 0
+GPIO_25
 $EndSCHEMATC
