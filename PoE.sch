@@ -154,7 +154,7 @@ F 7 "DNP" H 5850 4900 50  0001 C CNN "DNP"
 $EndComp
 Text GLabel 7250 2100 2    50   Input ~ 0
 APD
-Text Notes 4975 1675 0    50   ~ 0
+Text Notes 14950 6400 0    50   ~ 0
 What about APD? This circuit may be powered from other than PoE source.
 Wire Wire Line
 	6750 2400 7950 2400
@@ -634,7 +634,7 @@ Wire Wire Line
 	6000 4900 6100 4900
 Wire Wire Line
 	6100 4900 6100 5100
-Text Notes 5275 1325 0    50   ~ 0
+Text Notes 14800 6200 0    50   ~ 0
 REMARK:Typical aplication circuit can be found in \nTPS2378DDA datasheet:\n https://www.ti.com/lit/ds/symlink/tps2378.pdf?ts=1637556069032&ref_url=https%253A%252F%252Fwww.google.com%252F\nThere is the reference connection for APD circuit.
 Wire Wire Line
 	1850 5500 2950 5500
