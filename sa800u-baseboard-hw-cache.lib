@@ -323,25 +323,6 @@ X K K -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroDiodesZenerSingle_BZX84-C3V6,215
-#
-DEF antmicroDiodesZenerSingle_BZX84-C3V6,215 D 0 40 Y Y 1 F N
-F0 "D" -150 100 50 H V C CNN
-F1 "antmicroDiodesZenerSingle_BZX84-C3V6,215" 300 100 50 H V C CNN
-F2 "antmicro-footprints:SOT95P230X110-3N" 0 100 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
-F4 "BZX84-C3V6,215" 150 -100 50 H V C CNN "MPN"
-F5 "NEXPERIA" 150 -100 50 H V C CNN "Manufacturer"
-DRAW
-P 2 1 1 0 50 -50 25 -50 N
-P 2 1 1 0 50 50 50 -50 N
-P 2 1 1 0 50 50 75 50 N
-P 4 1 1 0 -50 50 -50 -50 50 0 -50 50 F
-X A 1 -200 0 150 R 50 50 1 1 P
-X K 1 200 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroDiodesZenerSingle_BZX84C6V2LT1G
 #
 DEF antmicroDiodesZenerSingle_BZX84C6V2LT1G D 0 0 N N 1 F N
@@ -2200,6 +2181,28 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroTVSDiodes_ESD9L5.0ST5G
+#
+DEF antmicroTVSDiodes_ESD9L5.0ST5G D 0 40 Y Y 1 F N
+F0 "D" 200 100 50 H V C CNN
+F1 "antmicroTVSDiodes_ESD9L5.0ST5G" -150 100 50 H V C CNN
+F2 "antmicro-footprints:DIOM1006X40N" -250 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ESD9L5.0ST5G" -300 250 50 H I C CNN "MPN"
+F5 "ONSEMI" 150 250 50 H I C CNN "Manufacturer"
+DRAW
+P 2 1 1 10 -50 -50 50 0 N
+P 2 1 1 10 -50 50 -50 -50 N
+P 2 1 1 10 50 -40 80 -70 N
+P 2 1 1 10 50 0 -50 50 N
+P 2 1 1 10 50 0 50 -40 N
+P 2 1 1 10 50 40 20 70 N
+P 2 1 1 10 50 40 50 0 N
+X ~ A -250 0 200 R 40 40 1 1 P
+X ~ K 250 0 200 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTVSDiodes_MB10S
 #
 DEF antmicroTVSDiodes_MB10S D 0 40 Y Y 1 F N
@@ -2244,22 +2247,47 @@ X ~ 4 -50 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroTVSDiodes_PGB1010603MR
+# antmicroTVSDiodes_SD05C.TCT
 #
-DEF antmicroTVSDiodes_PGB1010603MR D 0 40 Y Y 1 F N
-F0 "D" -216 108 60 H V L CNN
-F1 "antmicroTVSDiodes_PGB1010603MR" 4 -130 60 H V C CNN
-F2 "antmicro-footprints:PGB1010603MR" 200 200 60 H I L CNN
-F3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" 200 300 60 H I L CNN
-F4 "Littelfuse Inc." 200 1100 60 H I L CNN "Manufacturer"
-F5 "PGB1010603MR" 200 500 60 H I L CNN "MPN"
+DEF antmicroTVSDiodes_SD05C.TCT D 0 40 Y Y 1 F N
+F0 "D" 0 150 60 H V C CNN
+F1 "antmicroTVSDiodes_SD05C.TCT" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:SOD-323-SD05" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "Semtec" 200 600 60 H I L CNN "Manufacturer"
+F5 "SD05C.TCT" 200 500 60 H I L CNN "MPN"
 DRAW
-P 3 0 1 0 0 0 0 -50 -25 -75 N
-P 3 0 1 0 0 0 0 50 25 75 N
-P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
-P 4 0 1 0 100 50 100 -50 0 0 100 50 F
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 200 0 100 L 50 50 1 1 P
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+P 4 0 1 0 100 100 50 50 50 -50 0 -100 N
+X ~ A -200 0 150 R 50 50 1 1 B
+X ~ K 200 0 150 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# antmicroTVSDiodes_TPD1E10B06DPYR
+#
+DEF antmicroTVSDiodes_TPD1E10B06DPYR D 0 40 Y Y 1 F N
+F0 "D" -198 162 60 H V L CNN
+F1 "antmicroTVSDiodes_TPD1E10B06DPYR" 2 -166 60 H V C CNN
+F2 "antmicro-footprints:XDFN-2_1x0.60mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" 200 300 60 H I L CNN
+F4 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F5 "TPD1E10B06DPYR" 200 500 60 H I L CNN "MPN"
+DRAW
+S -198 120 200 -116 0 1 0 f
+P 2 0 1 0 -125 -75 -100 -100 N
+P 2 0 1 0 -125 0 -250 0 N
+P 2 0 1 0 -125 75 -150 100 N
+P 2 0 1 0 -125 75 -125 -75 N
+P 2 0 1 0 100 0 -100 0 N
+P 2 0 1 0 100 0 200 0 N
+P 2 0 1 0 125 -75 150 -100 N
+P 2 0 1 0 125 75 100 100 N
+P 2 0 1 0 125 75 125 -75 N
+P 4 0 1 0 -50 -75 -50 75 -125 0 -50 -75 F
+P 4 0 1 0 50 75 50 -75 125 0 50 75 F
+X ~ 1 -300 0 100 R 50 50 1 1 P
+X ~ 2 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

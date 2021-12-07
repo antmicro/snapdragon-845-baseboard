@@ -243,17 +243,15 @@ Wire Wire Line
 Connection ~ 2700 2300
 Wire Wire Line
 	2700 2300 2700 1300
-Wire Wire Line
-	3600 3500 3600 3550
 $Comp
 L power:GND #PWR027
 U 1 1 61ACF8AD
-P 3600 3650
-F 0 "#PWR027" H 3600 3400 50  0001 C CNN
-F 1 "GND" H 3605 3477 50  0000 C CNN
-F 2 "" H 3600 3650 50  0001 C CNN
-F 3 "" H 3600 3650 50  0001 C CNN
-	1    3600 3650
+P 3150 3650
+F 0 "#PWR027" H 3150 3400 50  0001 C CNN
+F 1 "GND" H 3155 3477 50  0000 C CNN
+F 2 "" H 3150 3650 50  0001 C CNN
+F 3 "" H 3150 3650 50  0001 C CNN
+	1    3150 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -261,9 +259,6 @@ Wire Wire Line
 Connection ~ 2700 2800
 Wire Wire Line
 	2700 3200 2700 3550
-Connection ~ 3600 3550
-Wire Wire Line
-	3600 3550 3600 3650
 Wire Wire Line
 	2700 3550 3150 3550
 Wire Wire Line
@@ -273,34 +268,22 @@ Wire Wire Line
 Wire Wire Line
 	3150 3100 3300 3100
 Wire Wire Line
-	3150 3100 3150 3550
+	3150 3100 3150 3200
 Connection ~ 3150 3100
-Connection ~ 3150 3550
-Wire Wire Line
-	3150 3550 3600 3550
 $Comp
 L power:GND #PWR028
 U 1 1 61AD6080
-P 4000 3650
-F 0 "#PWR028" H 4000 3400 50  0001 C CNN
-F 1 "GND" H 4005 3477 50  0000 C CNN
-F 2 "" H 4000 3650 50  0001 C CNN
-F 3 "" H 4000 3650 50  0001 C CNN
-	1    4000 3650
+P 4550 3650
+F 0 "#PWR028" H 4550 3400 50  0001 C CNN
+F 1 "GND" H 4555 3477 50  0000 C CNN
+F 2 "" H 4550 3650 50  0001 C CNN
+F 3 "" H 4550 3650 50  0001 C CNN
+	1    4550 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 3100 4550 3550
-Wire Wire Line
 	4550 2000 4550 3100
 Connection ~ 4550 3100
-Wire Wire Line
-	4000 3500 4000 3550
-Wire Wire Line
-	4000 3550 4550 3550
-Wire Wire Line
-	4000 3550 4000 3650
-Connection ~ 4000 3550
 Wire Wire Line
 	3300 2100 2350 2100
 Wire Wire Line
@@ -389,29 +372,10 @@ Wire Wire Line
 Connection ~ 2450 2400
 Wire Wire Line
 	2450 2400 3300 2400
-$Comp
-L antmicroTVSDiodes:PGB1010603MR D6
-U 1 1 61B3161C
-P 2450 4650
-F 0 "D6" V 2397 4753 60  0000 L CNN
-F 1 "PGB1010603MR" V 2503 4753 60  0000 L CNN
-F 2 "antmicro-footprints:PGB1010603MR" H 2650 4850 60  0001 L CNN
-F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 2650 4950 60  0001 L CNN
-F 4 "Littelfuse Inc." H 2650 5750 60  0001 L CNN "Manufacturer"
-F 5 "PGB1010603MR" H 2650 5150 60  0001 L CNN "MPN"
-	1    2450 4650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2450 2400 2450 4450
 Wire Wire Line
 	2300 2600 2300 4000
-Wire Wire Line
-	2450 4850 2450 5050
-Wire Wire Line
-	2300 4400 2300 5050
-Wire Wire Line
-	2150 4000 2150 5050
 Wire Wire Line
 	2150 5050 2300 5050
 Connection ~ 2300 5050
@@ -521,34 +485,19 @@ Text Label 6100 2900 0    50   ~ 0
 USB1_SS_TX1_N
 Text Label 6100 3100 0    50   ~ 0
 USB1_SS_TX1_P
-$Comp
-L antmicroTVSDiodes:PGB1010603MR D7
-U 1 1 61B97586
-P 5300 3800
-F 0 "D7" V 5247 3903 60  0000 L CNN
-F 1 "PGB1010603MR" V 5353 3903 60  0000 L CNN
-F 2 "antmicro-footprints:PGB1010603MR" H 5500 4000 60  0001 L CNN
-F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 5500 4100 60  0001 L CNN
-F 4 "Littelfuse Inc." H 5500 4900 60  0001 L CNN "Manufacturer"
-F 5 "PGB1010603MR" H 5500 4300 60  0001 L CNN "MPN"
-	1    5300 3800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5300 2700 5300 3600
 Wire Wire Line
 	5300 2700 6100 2700
-Wire Wire Line
-	5300 4000 5300 4200
 $Comp
 L power:GND #PWR029
 U 1 1 61BA0B19
-P 5300 4200
-F 0 "#PWR029" H 5300 3950 50  0001 C CNN
-F 1 "GND" H 5305 4027 50  0000 C CNN
-F 2 "" H 5300 4200 50  0001 C CNN
-F 3 "" H 5300 4200 50  0001 C CNN
-	1    5300 4200
+P 5300 4300
+F 0 "#PWR029" H 5300 4050 50  0001 C CNN
+F 1 "GND" H 5305 4127 50  0000 C CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
 	1    0    0    -1  
 $EndComp
 Text Notes 7500 1050 0    50   ~ 0
@@ -589,32 +538,6 @@ Text GLabel 6200 1100 0    50   Input ~ 0
 3V3
 Text GLabel 8450 3150 1    50   Input ~ 0
 1V8
-$Comp
-L antmicroDiodesZenerSingle:BZX84-C3V6,215 D5
-U 1 1 61A2E749
-P 2300 4200
-F 0 "D5" V 2400 4200 50  0000 R CNN
-F 1 "BZX84-C3V6,215" V 2196 4222 50  0000 R CNN
-F 2 "antmicro-footprints:SOT95P230X110-3N" H 2150 4400 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/1808429.pdf" H 2150 4400 50  0001 C CNN
-F 4 "BZX84-C3V6,215" V 2300 4000 50  0000 R CNN "MPN"
-F 5 "NEXPERIA" V 2400 4000 50  0000 R CNN "Manufacturer"
-	1    2300 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroDiodesZenerSingle:BZX84-C3V6,215 D4
-U 1 1 61A30594
-P 2150 3800
-F 0 "D4" V 2250 3800 50  0000 R CNN
-F 1 "BZX84-C3V6,215" V 2046 3822 50  0000 R CNN
-F 2 "antmicro-footprints:SOT95P230X110-3N" H 2000 4000 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/1808429.pdf" H 2000 4000 50  0001 C CNN
-F 4 "BZX84-C3V6,215" V 2000 4600 50  0000 R CNN "MPN"
-F 5 "NEXPERIA" V 2100 4600 50  0000 R CNN "Manufacturer"
-	1    2150 3800
-	0    -1   -1   0   
-$EndComp
 $Comp
 L antmicroInterfaceControllers:USB57442G U7
 U 1 1 61B83E5D
@@ -709,4 +632,72 @@ Wire Wire Line
 	4500 2700 5300 2700
 Wire Wire Line
 	4500 2800 4750 2800
+$Comp
+L antmicroTVSDiodes:ESD9L5.0ST5G D?
+U 1 1 627552CA
+P 2150 3850
+F 0 "D?" V 2196 3750 50  0000 R CNN
+F 1 "ESD9L5.0ST5G" V 2105 3750 50  0000 R CNN
+F 2 "antmicro-footprints:DIOM1006X40N" H 1900 4050 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 2150 3850 50  0001 C CNN
+F 4 "ESD9L5.0ST5G" H 1850 4100 50  0001 C CNN "MPN"
+F 5 "ONSEMI" H 2300 4100 50  0001 C CNN "Manufacturer"
+	1    2150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTVSDiodes:ESD9L5.0ST5G D?
+U 1 1 6275774B
+P 2300 4250
+F 0 "D?" V 2346 4150 50  0000 R CNN
+F 1 "ESD9L5.0ST5G" V 2255 4150 50  0000 R CNN
+F 2 "antmicro-footprints:DIOM1006X40N" H 2050 4450 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 2300 4250 50  0001 C CNN
+F 4 "ESD9L5.0ST5G" H 2000 4500 50  0001 C CNN "MPN"
+F 5 "ONSEMI" H 2450 4500 50  0001 C CNN "Manufacturer"
+	1    2300 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 4100 2150 5050
+Wire Wire Line
+	2300 4500 2300 5050
+Wire Wire Line
+	3300 3200 3150 3200
+Connection ~ 3150 3200
+Wire Wire Line
+	3150 3200 3150 3550
+Wire Wire Line
+	4550 3100 4550 3650
+Wire Wire Line
+	3150 3550 3150 3650
+Connection ~ 3150 3550
+$Comp
+L antmicroTVSDiodes:TPD1E10B06DPYR D?
+U 1 1 62775FA4
+P 2450 4750
+F 0 "D?" V 2397 4898 60  0000 L CNN
+F 1 "TPD1E10B06DPYR" V 2503 4898 60  0000 L CNN
+F 2 "antmicro-footprints:XDFN-2_1x0.60mm" H 2650 4950 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 2650 5050 60  0001 L CNN
+F 4 "Texas Instruments" H 2650 5850 60  0001 L CNN "Manufacturer"
+F 5 "TPD1E10B06DPYR" H 2650 5250 60  0001 L CNN "MPN"
+	1    2450 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTVSDiodes:TPD1E10B06DPYR D?
+U 1 1 62777722
+P 5300 3900
+F 0 "D?" V 5247 4048 60  0000 L CNN
+F 1 "TPD1E10B06DPYR" V 5353 4048 60  0000 L CNN
+F 2 "antmicro-footprints:XDFN-2_1x0.60mm" H 5500 4100 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 5500 4200 60  0001 L CNN
+F 4 "Texas Instruments" H 5500 5000 60  0001 L CNN "Manufacturer"
+F 5 "TPD1E10B06DPYR" H 5500 4400 60  0001 L CNN "MPN"
+	1    5300 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 4300 5300 4200
 $EndSCHEMATC
