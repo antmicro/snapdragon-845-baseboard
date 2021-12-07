@@ -1092,14 +1092,14 @@ Should this VBAT be here?\n
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J?
 U 1 1 61E93EA5
-P 11600 5400
-F 0 "J?" H 11978 5504 50  0000 L CNN
-F 1 "MC-HVT1-S04-G" H 11978 5413 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 11800 5700 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 11800 5800 60  0001 L CNN
-F 4 "MC-HVT1-S04-G" H 11800 5900 60  0001 L CNN "MPN"
-F 5 "Multicomp" H 11800 6000 60  0001 L CNN "Manufacturer"
-	1    11600 5400
+P 12650 5250
+F 0 "J?" H 13028 5354 50  0000 L CNN
+F 1 "MC-HVT1-S04-G" H 13028 5263 50  0000 L CNN
+F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 12850 5550 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 12850 5650 60  0001 L CNN
+F 4 "MC-HVT1-S04-G" H 12850 5750 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 12850 5850 60  0001 L CNN "Manufacturer"
+	1    12650 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1363,8 +1363,6 @@ Text GLabel 7600 5100 0    50   Input ~ 0
 USBPORT2_OCB
 Text GLabel 7600 5200 0    50   Input ~ 0
 LT6911_1V2_EN
-Text GLabel 7600 5300 0    50   Input ~ 0
-HDMI1_IN_DET
 NoConn ~ 8100 5400
 Text GLabel 7600 5500 0    50   Input ~ 0
 3V3_EN
@@ -1518,8 +1516,6 @@ Wire Wire Line
 	8100 5600 7600 5600
 Wire Wire Line
 	7600 5500 8100 5500
-Wire Wire Line
-	8100 5300 7600 5300
 Wire Wire Line
 	7600 5200 8100 5200
 Wire Wire Line
@@ -1954,8 +1950,6 @@ Wire Wire Line
 	10250 5500 9750 5500
 Wire Wire Line
 	10250 5400 9750 5400
-NoConn ~ 9750 5300
-NoConn ~ 9750 5200
 Wire Wire Line
 	10250 5100 9750 5100
 Wire Wire Line
@@ -2024,7 +2018,35 @@ $EndComp
 Wire Wire Line
 	11800 8050 11800 8350
 Wire Wire Line
-	11600 5250 11600 4800
-Text Label 11600 4800 1    50   ~ 0
+	12650 5100 12650 4650
+Text Label 12650 4650 3    50   ~ 0
 GPIO_25
+Text Label 7600 5350 2    50   ~ 0
+GPIO_49
+Wire Wire Line
+	8100 5300 7750 5300
+Wire Wire Line
+	7750 5300 7750 5350
+Wire Wire Line
+	7750 5350 7600 5350
+Text Label 12750 4650 3    50   ~ 0
+GPIO_49
+Wire Wire Line
+	12750 5100 12750 4650
+Wire Wire Line
+	12850 5100 12850 4650
+Wire Wire Line
+	12950 5100 12950 4650
+Text Label 9850 5200 0    50   ~ 0
+I2C10_SCL
+Text Label 9850 5300 0    50   ~ 0
+I2C10_SDA
+Wire Wire Line
+	9850 5300 9750 5300
+Wire Wire Line
+	9750 5200 9850 5200
+Text Label 12850 4650 3    50   ~ 0
+I2C10_SCL
+Text Label 12950 4650 3    50   ~ 0
+I2C10_SDA
 $EndSCHEMATC
