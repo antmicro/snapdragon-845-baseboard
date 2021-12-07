@@ -1828,9 +1828,9 @@ ETH_3V3_EN
 NoConn ~ 9750 6400
 NoConn ~ 9750 6500
 Text GLabel 10250 6700 2    50   Input ~ 0
-USB2_DP
+USB2_D_P
 Text GLabel 10250 6800 2    50   Input ~ 0
-USB2_DM
+USB2_D_N
 Wire Wire Line
 	9750 6900 10100 6900
 $Comp
