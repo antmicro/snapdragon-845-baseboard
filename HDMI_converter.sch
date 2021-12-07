@@ -1474,8 +1474,6 @@ Wire Wire Line
 	8150 3750 7850 3750
 Wire Wire Line
 	7850 4150 7850 4300
-Text Notes 5750 2400 0    50   ~ 0
-REMARK: Change M and P to _N and _P\n
 Text GLabel 7350 4300 0    50   Input ~ 0
 TX_D2_P
 Wire Wire Line
@@ -1509,8 +1507,6 @@ Wire Wire Line
 	9650 4150 9650 5200
 Wire Wire Line
 	9950 4150 9950 5350
-Wire Wire Line
-	7400 4450 8150 4450
 Connection ~ 8150 4450
 Wire Wire Line
 	7350 4600 8450 4600
@@ -2362,4 +2358,6 @@ Wire Wire Line
 	13600 2600 13600 3700
 Wire Wire Line
 	13950 2900 13950 3700
+Wire Wire Line
+	7350 4450 8150 4450
 $EndSCHEMATC
