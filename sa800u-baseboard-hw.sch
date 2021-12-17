@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -117,4 +117,10 @@ F 3 "" H 13400 9250 50  0001 C CNN
 	1    12450 8450
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4150 7750 500  500 
+U 628CDA4A
+F0 "USB_Hub" 50
+F1 "USB_Hub.sch" 50
+$EndSheet
 $EndSCHEMATC
