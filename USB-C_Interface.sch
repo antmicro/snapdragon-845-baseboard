@@ -952,11 +952,11 @@ Wire Wire Line
 Wire Wire Line
 	6100 5450 6750 5450
 Text GLabel 6750 5650 2    50   Input ~ 0
-USB2_HUB_SS_RX_M
+USB2_HUB_SS_RX_N
 Text GLabel 6750 5750 2    50   Input ~ 0
 USB2_HUB_SS_RX_P
 Text GLabel 6750 5450 2    50   Input ~ 0
-USB2_HUB_SS_TX_M
+USB2_HUB_SS_TX_N
 Text GLabel 6750 5550 2    50   Input ~ 0
 USB2_HUB_SS_TX_P
 Wire Wire Line
@@ -964,35 +964,35 @@ Wire Wire Line
 Wire Wire Line
 	6750 5750 6100 5750
 Text GLabel 2650 6450 0    50   Input ~ 0
-PORT1_HS_DM
+PORT1_HS_D_N
 Text GLabel 2650 6350 0    50   Input ~ 0
-PORT1_HS_DP
+PORT1_HS_D_P
 Wire Wire Line
 	2650 6350 3300 6350
 Wire Wire Line
 	2650 6450 3300 6450
 Text GLabel 2650 6650 0    50   Input ~ 0
-PORT2_HS_DM
+PORT2_HS_D_N
 Text GLabel 2650 6550 0    50   Input ~ 0
-PORT2_HS_DP
+PORT2_HS_D_P
 Wire Wire Line
 	2650 6550 3300 6550
 Wire Wire Line
 	2650 6650 3300 6650
 Text GLabel 6750 7250 2    50   Input ~ 0
-PORT1_RX_M
+PORT1_RX_N
 Text GLabel 6750 7350 2    50   Input ~ 0
 PORT1_RX_P
 Text GLabel 6750 6450 2    50   Input ~ 0
-PORT1_TX_M
+PORT1_TX_N
 Text GLabel 6750 6550 2    50   Input ~ 0
 PORT1_TX_P
 Text GLabel 6750 7050 2    50   Input ~ 0
-PORT2_RX_M
+PORT2_RX_N
 Text GLabel 6750 7150 2    50   Input ~ 0
 PORT2_RX_P
 Text GLabel 6750 6250 2    50   Input ~ 0
-PORT2_TX_M
+PORT2_TX_N
 Text GLabel 6750 6350 2    50   Input ~ 0
 PORT2_TX_P
 Wire Wire Line
