@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 12
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -365,7 +365,6 @@ CAM0_PWDN
 Wire Wire Line
 	1150 7350 1650 7350
 NoConn ~ 1650 7450
-NoConn ~ 1650 7550
 Text GLabel 1150 7650 0    50   Input ~ 0
 CAM1_PWDN
 Wire Wire Line
@@ -1340,7 +1339,6 @@ TP_INT
 Text GLabel 7600 3900 0    50   Input ~ 0
 TP_RST
 NoConn ~ 8100 4000
-NoConn ~ 8100 4100
 Text GLabel 7600 4200 0    50   Input ~ 0
 FAN_LR_GPIO27
 Text GLabel 7600 4300 0    50   Input ~ 0
@@ -1363,7 +1361,6 @@ Text GLabel 7600 5100 0    50   Input ~ 0
 USBPORT2_OCB
 Text GLabel 7600 5200 0    50   Input ~ 0
 LT6911_1V2_EN
-NoConn ~ 8100 5400
 Text GLabel 7600 5500 0    50   Input ~ 0
 3V3_EN
 Text GLabel 7600 5600 0    50   Input ~ 0
@@ -2339,4 +2336,16 @@ F 5 "SEMTECH" H 13500 8424 50  0000 C CNN "Manufacturer"
 	1    13500 7900
 	1    0    0    -1  
 $EndComp
+Text GLabel 7600 4100 0    50   Input ~ 0
+USB2_EN
+Text GLabel 1150 7550 0    50   Input ~ 0
+USB2_FAULT
+Text GLabel 7600 5400 0    50   Input ~ 0
+USB2_SINK
+Wire Wire Line
+	8100 4100 7600 4100
+Wire Wire Line
+	1650 7550 1150 7550
+Wire Wire Line
+	8100 5400 7600 5400
 $EndSCHEMATC
