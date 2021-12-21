@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 11
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -310,8 +310,6 @@ Wire Wire Line
 	7450 2550 6450 2550
 Wire Wire Line
 	6450 2650 7450 2650
-Text Notes 7750 2600 0    50   ~ 0
-Is this clock right?\nWhats going on with a clocks in general in this cameras?\n
 Wire Wire Line
 	7450 2750 7300 2750
 Connection ~ 7300 2750
@@ -470,13 +468,13 @@ Text GLabel 1200 7600 0    50   Input ~ 0
 CCI1_I2C_SDA
 Text GLabel 1200 7700 0    50   Input ~ 0
 CCI1_I2C_SCL
-Text Label 4850 7600 0    50   ~ 0
-CAM0_SDA
-Text Label 4850 7700 0    50   ~ 0
-CAM0_SCL
 Text Label 4850 7800 0    50   ~ 0
-CAM1_SDA
+CAM0_SDA
 Text Label 4850 7900 0    50   ~ 0
+CAM0_SCL
+Text Label 4850 7600 0    50   ~ 0
+CAM1_SDA
+Text Label 4850 7700 0    50   ~ 0
 CAM1_SCL
 Wire Wire Line
 	3550 7600 3650 7600
@@ -541,14 +539,14 @@ $Comp
 L antmicroResistors0603:R_0R_0603 R59
 U 1 1 61CF2C26
 P 2550 6750
-F 0 "R59" H 2550 6963 60  0000 C CNN
+F 0 "R59" H 2750 6800 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6600 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 6950 60  0001 L CNN
 F 3 "" H 2550 6750 50  0001 C CNN
 F 4 "BOURNS" H 2750 7150 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7050 60  0001 L CNN "MPN"
-F 6 "0R" H 2550 6865 50  0000 C CNN "Val"
-F 7 "DNP" H 2550 6750 50  0001 C CNN "DNP"
+F 6 "0R" H 2400 6800 50  0000 C CNN "Val"
+F 7 "DNP" H 2550 6750 50  0000 C CNN "DNP"
 	1    2550 6750
 	1    0    0    -1  
 $EndComp
@@ -556,14 +554,14 @@ $Comp
 L antmicroResistors0603:R_0R_0603 R60
 U 1 1 61CF310B
 P 2550 6900
-F 0 "R60" H 2550 7113 60  0000 C CNN
+F 0 "R60" H 2750 6950 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6750 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 7100 60  0001 L CNN
 F 3 "" H 2550 6900 50  0001 C CNN
 F 4 "BOURNS" H 2750 7300 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7200 60  0001 L CNN "MPN"
-F 6 "0R" H 2550 7015 50  0000 C CNN "Val"
-F 7 "DNP" H 2550 6900 50  0001 C CNN "DNP"
+F 6 "0R" H 2400 6950 50  0000 C CNN "Val"
+F 7 "DNP" H 2550 6900 50  0000 C CNN "DNP"
 	1    2550 6900
 	1    0    0    -1  
 $EndComp
@@ -571,14 +569,14 @@ $Comp
 L antmicroResistors0603:R_0R_0603 R61
 U 1 1 61CF351C
 P 2550 7050
-F 0 "R61" H 2550 7263 60  0000 C CNN
+F 0 "R61" H 2750 7100 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6900 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 7250 60  0001 L CNN
 F 3 "" H 2550 7050 50  0001 C CNN
 F 4 "BOURNS" H 2750 7450 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7350 60  0001 L CNN "MPN"
-F 6 "0R" H 2550 7165 50  0000 C CNN "Val"
-F 7 "DNP" H 2550 7050 50  0001 C CNN "Field7"
+F 6 "0R" H 2400 7100 50  0000 C CNN "Val"
+F 7 "DNP" H 2550 7050 50  0000 C CNN "DNP"
 	1    2550 7050
 	1    0    0    -1  
 $EndComp
@@ -586,14 +584,14 @@ $Comp
 L antmicroResistors0603:R_0R_0603 R62
 U 1 1 61CF37C7
 P 2550 7200
-F 0 "R62" H 2550 7413 60  0000 C CNN
+F 0 "R62" H 2750 7250 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 7050 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 2750 7400 60  0001 L CNN
 F 3 "" H 2550 7200 50  0001 C CNN
 F 4 "BOURNS" H 2750 7600 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7500 60  0001 L CNN "MPN"
-F 6 "0R" H 2550 7315 50  0000 C CNN "Val"
-F 7 "DNP" H 2550 7200 50  0001 C CNN "DNP"
+F 6 "0R" H 2400 7250 50  0000 C CNN "Val"
+F 7 "DNP" H 2550 7200 50  0000 C CNN "DNP"
 	1    2550 7200
 	1    0    0    -1  
 $EndComp
@@ -677,8 +675,6 @@ Wire Wire Line
 	1750 8400 1750 8650
 Text Notes 650  8850 0    50   ~ 0
 Is it ok?\nRemove 0R to tie translator \nto ground and put it into\nhigh impedance state. 
-Text Notes 600  6700 0    50   ~ 0
-DNP, mount in case translator is not necessary.
 Wire Wire Line
 	7450 6450 7450 6550
 Connection ~ 7450 6550
