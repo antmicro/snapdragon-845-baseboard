@@ -169,10 +169,10 @@ F 6 "100n" H 4300 6250 50  0000 R CNN "Val"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4850 5700 4200 5700
+	4650 5700 4200 5700
 Wire Wire Line
-	4300 5500 4200 5500
-Text Label 4300 5500 0    50   ~ 0
+	4650 5500 4200 5500
+Text Label 4650 5500 2    50   ~ 0
 REG_1V0
 Wire Wire Line
 	4200 5800 4300 5800
@@ -182,10 +182,6 @@ Wire Wire Line
 	4200 6000 4300 6000
 Wire Wire Line
 	4200 6200 4300 6200
-Text GLabel 1750 5700 0    50   Input ~ 0
-1V0A
-Text GLabel 1750 6200 0    50   Input ~ 0
-1V0A
 Text Label 2000 6100 0    50   ~ 0
 LAN0_MDI2_N
 Text Label 2000 6000 0    50   ~ 0
@@ -223,8 +219,8 @@ Wire Wire Line
 Wire Wire Line
 	3300 6700 3300 7400
 Wire Wire Line
-	3200 6700 3200 7450
-Text GLabel 3200 7450 3    50   Input ~ 0
+	3200 6700 3200 7400
+Text GLabel 3200 7400 3    50   Input ~ 0
 3V3
 Text Label 3100 7400 1    50   ~ 0
 LAN0_MDI3_N
@@ -232,26 +228,10 @@ Text Label 3000 7400 1    50   ~ 0
 LAN0_MDI3_P
 Wire Wire Line
 	2500 5800 2000 5800
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 61ADA2DF
-P 1800 6200
-F 0 "#FLG01" H 1800 6275 50  0001 C CNN
-F 1 "PWR_FLAG" H 1800 6373 50  0000 C CNN
-F 2 "" H 1800 6200 50  0001 C CNN
-F 3 "~" H 1800 6200 50  0001 C CNN
-	1    1800 6200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	1750 6200 1800 6200
-Connection ~ 1800 6200
+	2000 5700 2500 5700
 Wire Wire Line
-	1800 6200 2500 6200
-Wire Wire Line
-	1750 5700 2500 5700
-Wire Wire Line
-	4200 5600 4850 5600
+	4200 5600 4750 5600
 Wire Wire Line
 	2750 4400 3300 4400
 Wire Wire Line
@@ -872,8 +852,6 @@ Text Label 3750 1300 0    50   ~ 0
 LAN0_RJ45_D1_N
 Text Label 2050 1100 0    50   ~ 0
 LAN0_MDI0_P
-Text GLabel 3300 7400 3    50   Input ~ 0
-PCIE1_CLKREQ_N
 Text GLabel 3400 7400 3    50   Input ~ 0
 PCIE1_TX_P
 Text GLabel 3500 7400 3    50   Input ~ 0
@@ -886,20 +864,6 @@ Text GLabel 4300 6500 3    50   Input ~ 0
 PCIE1_RX_P
 Text GLabel 4550 6500 3    50   Input ~ 0
 PCIE1_RX_N
-Text GLabel 4300 6000 2    50   Input ~ 0
-PCIE1_RST_N
-Text GLabel 4300 5900 2    50   Input ~ 0
-ETH_ISOLATEB
-Text GLabel 4300 5800 2    50   Input ~ 0
-PCIE1_WAKE_N
-Text GLabel 6000 6400 0    50   Input ~ 0
-ETH_ISOLATEB
-Text GLabel 6000 6250 0    50   Input ~ 0
-PCIE1_CLKREQ_N
-Text GLabel 6000 6100 0    50   Input ~ 0
-PCIE1_RST_N
-Text GLabel 6000 5950 0    50   Input ~ 0
-PCIE1_WAKE_N
 $Comp
 L antmicroOscillators:ECS-1618-250-BN-TR Y1
 U 1 1 61A23266
@@ -1025,12 +989,8 @@ F 6 "2k49_1%" H 2750 4900 50  0000 L CNN "Val"
 $EndComp
 Text GLabel 2750 4500 0    50   Input ~ 0
 3V3
-Text GLabel 2750 4400 0    50   Input ~ 0
-1V0
-Text GLabel 4850 5600 2    50   Input ~ 0
+Text GLabel 4750 5600 2    50   Input ~ 0
 3V3
-Text GLabel 4850 5700 2    50   Input ~ 0
-1V0
 Text GLabel 6550 5350 1    50   Input ~ 0
 1V8
 Text GLabel 7500 5350 1    50   Input ~ 0
@@ -1045,8 +1005,8 @@ F 0 "U1" H 2600 5150 50  0000 L CNN
 F 1 "RTL8111H" H 3850 5150 50  0000 L CNN
 F 2 "antmicro-footprints:RTL8111H" H 2600 5100 50  0001 C CNN
 F 3 "" H 2600 5100 50  0001 C CNN
-F 4 "RTL8111H" H 4244 4305 50  0000 L CNN "MPN"
-F 5 "REALTEK" H 4244 4214 50  0000 L CNN "Manufacturer"
+F 4 "RTL8111H" H 4244 4305 50  0001 L CNN "MPN"
+F 5 "REALTEK" H 4244 4214 50  0001 L CNN "Manufacturer"
 	1    2600 5100
 	1    0    0    -1  
 $EndComp
@@ -1062,4 +1022,340 @@ F 3 "~" H 8200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8200 2400
+Text Label 2000 5700 0    50   ~ 0
+ETH_1V0
+Text Label 2000 6200 0    50   ~ 0
+ETH_1V0
+Text Label 2750 4400 2    50   ~ 0
+ETH_1V0
+Text Label 4650 5700 2    50   ~ 0
+ETH_1V0
+Wire Wire Line
+	2000 6200 2500 6200
+Text Label 4300 5800 0    50   ~ 0
+PCIE1_WAKE_N
+Text Label 4300 5900 0    50   ~ 0
+ETH_ISOLATEB
+Text Label 4300 6000 0    50   ~ 0
+PCIE1_RST_N
+Text Label 6000 5950 2    50   ~ 0
+PCIE1_WAKE_N
+Text Label 6000 6100 2    50   ~ 0
+PCIE1_RST_N
+Text Label 6000 6250 2    50   ~ 0
+PCIE1_CLKREQ_N
+Text Label 3300 7400 1    50   ~ 0
+PCIE1_CLKREQ_N
+Text Label 6000 6400 2    50   ~ 0
+ETH_ISOLATEB
+Text GLabel 1800 8450 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	1800 8450 1800 8650
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62C66184
+P 1800 8900
+F 0 "C?" H 1915 8945 60  0000 L CNN
+F 1 "C_100n_0402" H 1800 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2000 9100 60  0001 L CNN
+F 3 "" H 1800 8900 50  0001 C CNN
+F 4 "Walsin" H 2000 9300 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2000 9200 60  0001 L CNN "MPN"
+F 6 "100n" H 1915 8847 50  0000 L CNN "Val"
+	1    1800 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62C66AB1
+P 2150 8900
+F 0 "C?" H 2265 8945 60  0000 L CNN
+F 1 "C_100n_0402" H 2150 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2350 9100 60  0001 L CNN
+F 3 "" H 2150 8900 50  0001 C CNN
+F 4 "Walsin" H 2350 9300 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2350 9200 60  0001 L CNN "MPN"
+F 6 "100n" H 2265 8847 50  0000 L CNN "Val"
+	1    2150 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 62C67F6F
+P 2500 8900
+F 0 "C?" H 2615 8991 60  0000 L CNN
+F 1 "C_4u7_0402" H 2500 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2700 9100 60  0001 L CNN
+F 3 "" H 2500 8900 50  0001 C CNN
+F 4 "MURATA" H 2700 9300 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 2700 9200 60  0001 L CNN "MPN"
+F 6 "4u7" H 2615 8893 50  0000 L CNN "Val"
+F 7 "DNP" H 2615 8802 50  0000 L CNN "DNP"
+	1    2500 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_4u7_0402 C?
+U 1 1 62C68893
+P 2850 8900
+F 0 "C?" H 2965 8991 60  0000 L CNN
+F 1 "C_4u7_0402" H 2850 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3050 9100 60  0001 L CNN
+F 3 "" H 2850 8900 50  0001 C CNN
+F 4 "MURATA" H 3050 9300 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 3050 9200 60  0001 L CNN "MPN"
+F 6 "4u7" H 2965 8893 50  0000 L CNN "Val"
+F 7 "DNP" H 2965 8802 50  0000 L CNN "DNP"
+	1    2850 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 8650 2150 8650
+Wire Wire Line
+	2150 8650 2150 8750
+Connection ~ 1800 8650
+Wire Wire Line
+	1800 8650 1800 8750
+Wire Wire Line
+	2150 8650 2500 8650
+Wire Wire Line
+	2500 8650 2500 8750
+Connection ~ 2150 8650
+Wire Wire Line
+	2500 8650 2850 8650
+Wire Wire Line
+	2850 8650 2850 8750
+Connection ~ 2500 8650
+Wire Wire Line
+	1800 9050 1800 9150
+Wire Wire Line
+	1800 9150 2150 9150
+Wire Wire Line
+	2150 9150 2150 9050
+Wire Wire Line
+	2500 9050 2500 9150
+Wire Wire Line
+	2500 9150 2150 9150
+Connection ~ 2150 9150
+Wire Wire Line
+	2850 9050 2850 9150
+Wire Wire Line
+	2850 9150 2500 9150
+Connection ~ 2500 9150
+Wire Wire Line
+	1800 9150 1800 9250
+Connection ~ 1800 9150
+$Comp
+L power:GND #PWR?
+U 1 1 62C92996
+P 1800 9250
+F 0 "#PWR?" H 1800 9000 50  0001 C CNN
+F 1 "GND" H 1805 9077 50  0000 C CNN
+F 2 "" H 1800 9250 50  0001 C CNN
+F 3 "" H 1800 9250 50  0001 C CNN
+	1    1800 9250
+	1    0    0    -1  
+$EndComp
+Text Label 4000 8400 2    50   ~ 0
+REG_1V0
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62C96EDE
+P 4000 8850
+F 0 "C?" H 4115 8895 60  0000 L CNN
+F 1 "C_100n_0402" H 4000 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 4200 9050 60  0001 L CNN
+F 3 "" H 4000 8850 50  0001 C CNN
+F 4 "Walsin" H 4200 9250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4200 9150 60  0001 L CNN "MPN"
+F 6 "100n" H 4115 8797 50  0000 L CNN "Val"
+	1    4000 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62C96EE7
+P 4800 8850
+F 0 "C?" H 4915 8895 60  0000 L CNN
+F 1 "C_100n_0402" H 4800 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5000 9050 60  0001 L CNN
+F 3 "" H 4800 8850 50  0001 C CNN
+F 4 "Walsin" H 5000 9250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5000 9150 60  0001 L CNN "MPN"
+F 6 "100n" H 4915 8797 50  0000 L CNN "Val"
+	1    4800 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 8600 4800 8700
+Wire Wire Line
+	4800 8600 5150 8600
+Connection ~ 4800 8600
+Wire Wire Line
+	5150 8600 5500 8600
+Wire Wire Line
+	5500 8600 5500 8700
+Connection ~ 5150 8600
+Wire Wire Line
+	4800 9100 4800 9000
+Wire Wire Line
+	5150 9000 5150 9100
+Wire Wire Line
+	5150 9100 4800 9100
+Connection ~ 4800 9100
+Wire Wire Line
+	5500 9000 5500 9100
+Wire Wire Line
+	5500 9100 5150 9100
+Connection ~ 5150 9100
+$Comp
+L power:GND #PWR?
+U 1 1 62C96F16
+P 4000 9200
+F 0 "#PWR?" H 4000 8950 50  0001 C CNN
+F 1 "GND" H 4005 9027 50  0000 C CNN
+F 2 "" H 4000 9200 50  0001 C CNN
+F 3 "" H 4000 9200 50  0001 C CNN
+	1    4000 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 8400 4000 8600
+Wire Wire Line
+	4000 9000 4000 9100
+Wire Wire Line
+	4000 9100 4800 9100
+Connection ~ 4000 9100
+Wire Wire Line
+	4000 9100 4000 9200
+Wire Wire Line
+	4000 8600 4250 8600
+Connection ~ 4000 8600
+Wire Wire Line
+	4000 8600 4000 8700
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 62CB8786
+P 4400 8600
+F 0 "R?" H 4400 8813 60  0000 C CNN
+F 1 "R_0R_0402" H 4400 8450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4600 8800 60  0001 L CNN
+F 3 "" H 4400 8600 50  0001 C CNN
+F 4 "PANASONIC" H 4600 9000 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4600 8900 60  0001 L CNN "MPN"
+F 6 "0R" H 4400 8715 50  0000 C CNN "Val"
+	1    4400 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 8600 4800 8600
+Wire Wire Line
+	5150 8600 5150 8700
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62CBA7B2
+P 5150 8850
+F 0 "C?" H 5265 8895 60  0000 L CNN
+F 1 "C_100n_0402" H 5150 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5350 9050 60  0001 L CNN
+F 3 "" H 5150 8850 50  0001 C CNN
+F 4 "Walsin" H 5350 9250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5350 9150 60  0001 L CNN "MPN"
+F 6 "100n" H 5265 8797 50  0000 L CNN "Val"
+	1    5150 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62CBAA31
+P 5500 8850
+F 0 "C?" H 5615 8895 60  0000 L CNN
+F 1 "C_100n_0402" H 5500 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5700 9050 60  0001 L CNN
+F 3 "" H 5500 8850 50  0001 C CNN
+F 4 "Walsin" H 5700 9250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5700 9150 60  0001 L CNN "MPN"
+F 6 "100n" H 5615 8797 50  0000 L CNN "Val"
+	1    5500 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62CBABF8
+P 5850 8850
+F 0 "C?" H 5965 8895 60  0000 L CNN
+F 1 "C_100n_0402" H 5850 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6050 9050 60  0001 L CNN
+F 3 "" H 5850 8850 50  0001 C CNN
+F 4 "Walsin" H 6050 9250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6050 9150 60  0001 L CNN "MPN"
+F 6 "100n" H 5965 8797 50  0000 L CNN "Val"
+	1    5850 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62CBADDF
+P 6200 8850
+F 0 "C?" H 6315 8941 60  0000 L CNN
+F 1 "C_100n_0402" H 6200 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6400 9050 60  0001 L CNN
+F 3 "" H 6200 8850 50  0001 C CNN
+F 4 "Walsin" H 6400 9250 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6400 9150 60  0001 L CNN "MPN"
+F 6 "100n" H 6315 8843 50  0000 L CNN "Val"
+F 7 "DNP" H 6315 8752 50  0000 L CNN "DNP"
+	1    6200 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 9100 5850 9100
+Wire Wire Line
+	5850 9100 5850 9000
+Connection ~ 5500 9100
+Wire Wire Line
+	5850 9100 6200 9100
+Wire Wire Line
+	6200 9100 6200 9000
+Connection ~ 5850 9100
+Wire Wire Line
+	6200 8700 6200 8600
+Wire Wire Line
+	6200 8600 5850 8600
+Connection ~ 5500 8600
+Wire Wire Line
+	5850 8700 5850 8600
+Connection ~ 5850 8600
+Wire Wire Line
+	5850 8600 5500 8600
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 62CDD350
+P 6600 8850
+F 0 "C?" H 6715 8895 60  0000 L CNN
+F 1 "C_1u_0402" H 6600 8700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6800 9050 60  0001 L CNN
+F 3 "" H 6600 8850 50  0001 C CNN
+F 4 "TDK" H 6800 9250 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 6800 9150 60  0001 L CNN "MPN"
+F 6 "1u" H 6715 8797 50  0000 L CNN "Val"
+	1    6600 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 8700 6600 8600
+Wire Wire Line
+	6600 8600 6200 8600
+Connection ~ 6200 8600
+Wire Wire Line
+	6200 9100 6600 9100
+Wire Wire Line
+	6600 9100 6600 9000
+Connection ~ 6200 9100
+Wire Wire Line
+	6600 8600 6600 8400
+Connection ~ 6600 8600
+Text Label 6600 8400 2    50   ~ 0
+ETH_1V0
 $EndSCHEMATC

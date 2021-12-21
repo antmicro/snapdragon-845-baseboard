@@ -125,6 +125,24 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitors0402_C_4u7_0402
+#
+DEF antmicroCapacitors0402_C_4u7_0402 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0402_C_4u7_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
+F5 "GRM155R61A475MEAAD" 200 300 60 H I L CNN "MPN"
+F6 "4u7" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0603_C_22u_0603
 #
 DEF antmicroCapacitors0603_C_22u_0603 C 0 0 Y Y 1 F N
@@ -668,6 +686,25 @@ P 2 0 1 0 50 0 100 0 N
 P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
 X ~ 1 -200 0 100 R 50 50 1 1 P
 X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroFixedInductors_BRC1608TR35M
+#
+DEF antmicroFixedInductors_BRC1608TR35M L 0 40 Y Y 1 F N
+F0 "L" 0 200 50 H V C CNN
+F1 "antmicroFixedInductors_BRC1608TR35M" 0 100 50 H V C CNN
+F2 "antmicro-footprints:INDC1608X100N" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BRC1608TR35M" 0 0 50 H I C CNN "MPN"
+F5 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer"
+DRAW
+A -150 0 50 -1 1800 1 1 10 N -200 0 -100 0
+A -50 0 50 -1 1800 1 1 10 N -100 0 0 0
+A 50 0 50 -1 1800 1 1 10 N 0 0 100 0
+A 150 0 50 -1 1800 1 1 10 N 100 0 200 0
+X ~ 1 -300 0 100 R 40 40 1 1 P
+X ~ 2 300 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
