@@ -21,8 +21,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 2900 5750 2900
 Wire Wire Line
-	7950 2800 7950 2700
-Wire Wire Line
 	1450 2600 1650 2600
 $Comp
 L power:GND #PWR044
@@ -137,16 +135,12 @@ Wire Wire Line
 	5450 5500 6100 5500
 Wire Wire Line
 	5600 5300 5450 5300
-Text GLabel 7250 2100 2    50   Input ~ 0
-APD
 Text Notes 4750 1450 0    50   ~ 0
 What about APD? This circuit may be powered from other than PoE source.\n\nConsider adding an DC input (barrel jack or screw terminal) and calculate Rapd1/Rapd2 (chapter 8.2 of the datasheet)\nIf APD is not used tie it to GND to disable this functionality.\n\nAux power input can be especially helpful when debugging
 Wire Wire Line
-	6750 2400 7950 2400
-Wire Wire Line
 	3700 4650 4150 4650
 Text Label 3700 4650 0    50   ~ 0
-SNPS_CTRL
+SMPS_CTRL
 Wire Wire Line
 	4150 5300 4150 4650
 Wire Wire Line
@@ -154,7 +148,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 2300 10300 2300
 Text Label 10300 2300 2    50   ~ 0
-SNPS_CTRL
+SMPS_CTRL
 Connection ~ 9800 2300
 Connection ~ 2950 5500
 Wire Wire Line
@@ -244,8 +238,6 @@ Wire Wire Line
 	1850 5100 2300 5100
 Wire Wire Line
 	9800 2600 9800 2800
-Wire Wire Line
-	9350 2300 9350 2800
 $Comp
 L power:GNDD #PWR046
 U 1 1 61A460FF
@@ -268,39 +260,24 @@ F 3 "" H 9800 2450 50  0001 C CNN
 F 4 "VISHAY" H 10000 2850 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 10000 2750 60  0001 L CNN "MPN"
 F 6 "100k" V 9853 2520 50  0000 L CNN "Val"
+F 7 "DNP" V 9800 2450 50  0000 C CNN "DNP"
 	1    9800 2450
 	0    1    1    0   
 $EndComp
-$Comp
-L antmicroDiodesZenerSingle:BZT52Bxx D11
-U 1 1 61A46110
-P 7950 2550
-F 0 "D11" V 7904 2630 50  0000 L CNN
-F 1 "BZT52Bxx" V 7995 2630 50  0000 L CNN
-F 2 "antmicro-footprints:SOD-123" H 7950 2375 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 7950 2550 50  0001 C CNN
-F 4 "BZT52C18-G3-18" H 7975 2300 50  0001 C CNN "MPN"
-F 5 "Vishay" H 7950 2200 50  0001 C CNN "Manufacturer"
-	1    7950 2550
-	0    1    1    0   
-$EndComp
-Connection ~ 7950 2400
 Wire Wire Line
 	7950 1750 7950 1550
-Wire Wire Line
-	7950 2150 7950 2400
 $Comp
 L antmicroCapacitorspol:C_47u_ELEC_100V C36
 U 1 1 61A4611D
-P 7950 1950
-F 0 "C36" H 8068 1945 60  0000 L CNN
-F 1 "C_47u_ELEC_100V" H 7950 1800 60  0001 C CNN
-F 2 "antmicro-footprints:CP_Elec_10x10.5" H 8150 2150 60  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 7950 1950 50  0001 C CNN
-F 4 "PANASONIC" H 8150 2350 60  0001 L CNN "Manufacturer"
-F 5 "EEEHA2A470UP" H 8150 2250 60  0001 L CNN "MPN"
-F 6 "47u/100V" H 8068 1847 50  0000 L CNN "Val"
-	1    7950 1950
+P 7950 1900
+F 0 "C36" H 8068 1895 60  0000 L CNN
+F 1 "C_47u_ELEC_100V" H 7950 1750 60  0001 C CNN
+F 2 "antmicro-footprints:CP_Elec_10x10.5" H 8150 2100 60  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 7950 1900 50  0001 C CNN
+F 4 "PANASONIC" H 8150 2300 60  0001 L CNN "Manufacturer"
+F 5 "EEEHA2A470UP" H 8150 2200 60  0001 L CNN "MPN"
+F 6 "47u/100V" H 8068 1797 50  0000 L CNN "Val"
+	1    7950 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -317,12 +294,12 @@ $EndComp
 $Comp
 L power:GNDD #PWR043
 U 1 1 61A46129
-P 7950 2800
-F 0 "#PWR043" H 7950 2550 50  0001 C CNN
-F 1 "GNDD" H 7954 2645 50  0000 C CNN
-F 2 "" H 7950 2800 50  0001 C CNN
-F 3 "" H 7950 2800 50  0001 C CNN
-	1    7950 2800
+P 8500 2800
+F 0 "#PWR043" H 8500 2550 50  0001 C CNN
+F 1 "GNDD" H 8504 2645 50  0000 C CNN
+F 2 "" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -366,9 +343,9 @@ F 6 "0R" H 8850 2415 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 1750 7950 1850
+	7950 1750 7950 1800
 Wire Wire Line
-	6750 2300 8700 2300
+	6750 2300 7400 2300
 Connection ~ 5400 2900
 Wire Wire Line
 	5400 2750 5400 2900
@@ -572,13 +549,9 @@ Wire Wire Line
 	5750 2100 5750 1750
 Connection ~ 5750 1750
 Wire Wire Line
-	5750 1750 7950 1750
+	5750 1750 7400 1750
 Wire Wire Line
-	6750 2200 7450 2200
-Text GLabel 7450 2200 2    50   Input ~ 0
-T2P_HIGH
-Wire Wire Line
-	6750 2100 7250 2100
+	6750 2100 6950 2100
 $Comp
 L antmicroResistors0402:R_0R_0402 R53
 U 1 1 6197A6CB
@@ -590,7 +563,7 @@ F 3 "" H 5850 5700 50  0001 C CNN
 F 4 "PANASONIC" H 6050 6100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6050 6000 60  0001 L CNN "MPN"
 F 6 "0R" H 5850 5815 50  0000 C CNN "Val"
-F 7 "DNP" H 5850 5700 50  0001 C CNN "DNP"
+F 7 "DNP" H 5850 5700 50  0000 C CNN "DNP"
 	1    5850 5700
 	1    0    0    -1  
 $EndComp
@@ -629,9 +602,7 @@ Text Label 7950 1550 1    50   ~ 0
 VDD
 Text Label 1850 4750 1    50   ~ 0
 VDD
-Text Notes 7375 3475 0    50   ~ 0
-What is purpose of this diode?\nLooking at datasheet, RTN signal \nshould be connected directly \nto GND\n(RTN becomes our reference signal)
-Text Notes 9250 3250 0    50   ~ 0
+Text Notes 10250 2900 0    50   ~ 0
 should SNPS_CTRL be tied directly to GNDD?\nThen R55 and R56 are not needed\nAlternatively remove direct tie to the GND and make one of resistors DNP
 $Comp
 L antmicroResistors0402:R_0R_0402 R52
@@ -644,10 +615,173 @@ F 3 "" H 5850 4900 50  0001 C CNN
 F 4 "PANASONIC" H 6050 5300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6050 5200 60  0001 L CNN "MPN"
 F 6 "0R" H 5850 5015 50  0000 C CNN "Val"
-F 7 "DNP" H 5850 4900 50  0001 C CNN "DNP"
+F 7 "DNP" H 5850 4900 50  0000 C CNN "DNP"
 	1    5850 4900
 	1    0    0    -1  
 $EndComp
 Text Notes 5275 4575 0    50   ~ 0
 DNP should be visible for R52 and R53
+$Comp
+L antmicroDiodesZenerSingle:BZT52C12 D?
+U 1 1 6286AAC9
+P 9350 2550
+F 0 "D?" V 9396 2472 50  0000 R CNN
+F 1 "BZT52C12" V 9200 2500 50  0000 R CNN
+F 2 "antmicro-footprints:SOD-123" H 9350 2550 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1670962.pdf" H 9350 2550 50  0001 C CNN
+F 4 "BZT52C12" H 9350 2550 50  0001 C CNN "MPN"
+F 5 "DIODES INC." H 9350 2550 50  0001 C CNN "Manufacturer"
+	1    9350 2550
+	0    -1   -1   0   
+$EndComp
+Text Notes 7400 2500 0    50   ~ 0
+CDB == Active high enable output \nfor DCDC converter
+Wire Wire Line
+	9350 2750 9350 2800
+Wire Wire Line
+	9350 2350 9350 2300
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:IRFL4310PBF Q?
+U 1 1 62893844
+P 7100 3050
+F 0 "Q?" H 7650 2650 50  0000 L CNN
+F 1 "IRFL4310PBF" H 7750 2650 50  0000 L CNN
+F 2 "antmicro-footprint:SOT230P700X180-4N" H 7950 3150 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irfl4310pbf.pdf?fileId=5546d462533600a40153562804ba1fbc" H 7950 3050 50  0001 L CNN
+F 4 "MOSFET N-Channel 100V 2.2A SOT223 International Rectifier IRFL4310PBF N-channel MOSFET Transistor, 2.2 A, 100 V, 4-Pin SOT-223" H 7950 2950 50  0001 L CNN "Description"
+F 5 "Infineon" H 7950 2750 50  0001 L CNN "Manufacturer"
+F 6 "IRFL4310PBF" H 7950 2650 50  0001 L CNN "MPN"
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2100 6950 2400
+Wire Wire Line
+	6750 2400 6950 2400
+$Comp
+L antmicroDiodesZenerSingle:BZT52Bxx D?
+U 1 1 628B62B3
+P 7200 3150
+F 0 "D?" H 7200 2933 50  0000 C CNN
+F 1 "BZT52Bxx" H 7200 3050 50  0000 C CNN
+F 2 "antmicro-footprints:SOD-123" H 7200 2975 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 7200 3150 50  0001 C CNN
+F 4 "BZT52C18-G3-18" H 7225 2900 50  0001 C CNN "MPN"
+F 5 "Vishay" H 7200 2800 50  0001 C CNN "Manufacturer"
+	1    7200 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 3150 7400 3150
+Wire Wire Line
+	6950 3150 7050 3150
+$Comp
+L antmicroDiodesRectifiersSingle:B2100-13-F D?
+U 1 1 628C2229
+P 7950 3400
+F 0 "D?" V 8346 3320 50  0000 R CNN
+F 1 "B2100-13-F" V 8255 3320 50  0000 R CNN
+F 2 "antmicro-footprints:DIOM5336X250N" H 8400 3400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/B2100-13-F.pdf" H 8400 3300 50  0001 L CNN
+F 4 "MULTICOMP - B2100-13-F - RECTIFIER, SCHOTTKY, 2A, 100V, DO-214AA, FULL REEL" H 8400 3200 50  0001 L CNN "Description"
+F 5 "MULTICOMP" H 8400 3000 50  0001 L CNN "Manufacturer"
+F 6 "B2100-13-F" H 8400 2900 50  0001 L CNN "MPN"
+	1    7950 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 2850 7650 2700
+Wire Wire Line
+	7650 2700 7700 2700
+Wire Wire Line
+	7700 2700 7700 2850
+Wire Wire Line
+	7700 2700 7950 2700
+Connection ~ 7700 2700
+Connection ~ 7950 2700
+Wire Wire Line
+	7950 3350 7700 3350
+Wire Wire Line
+	7700 3350 7700 3250
+Wire Wire Line
+	7700 3350 6950 3350
+Wire Wire Line
+	6950 3350 6950 3150
+Connection ~ 7700 3350
+Wire Wire Line
+	7950 2700 8500 2700
+Wire Wire Line
+	8500 2800 8500 2700
+$Comp
+L power:GNDD #PWR?
+U 1 1 628EFC20
+P 7950 2100
+F 0 "#PWR?" H 7950 1850 50  0001 C CNN
+F 1 "GNDD" H 7954 1945 50  0000 C CNN
+F 2 "" H 7950 2100 50  0001 C CNN
+F 3 "" H 7950 2100 50  0001 C CNN
+	1    7950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2700 7950 2900
+Wire Wire Line
+	7950 3200 7950 3350
+Connection ~ 7400 2300
+Wire Wire Line
+	7400 2300 8700 2300
+Text GLabel 6850 1950 2    50   Input ~ 0
+T2P_HIGH
+Wire Wire Line
+	6750 2200 6850 2200
+Wire Wire Line
+	6850 2200 6850 1950
+Wire Wire Line
+	7400 1850 7400 1750
+Connection ~ 7400 1750
+Wire Wire Line
+	7400 1750 7950 1750
+Wire Wire Line
+	7400 2150 7400 2300
+$Comp
+L antmicroResistors0402:R_100k_0402 R?
+U 1 1 6291111C
+P 7400 2000
+F 0 "R?" V 7355 2070 60  0000 L CNN
+F 1 "R_100k_0402" H 7400 1850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7600 2200 60  0001 L CNN
+F 3 "" H 7400 2000 50  0001 C CNN
+F 4 "VISHAY" H 7600 2400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 7600 2300 60  0001 L CNN "MPN"
+F 6 "100k" V 7453 2070 50  0000 L CNN "Val"
+	1    7400 2000
+	0    1    1    0   
+$EndComp
+Connection ~ 6950 3150
+Wire Wire Line
+	6950 2400 6950 3150
+Connection ~ 7400 3150
+Wire Wire Line
+	7400 2300 7400 3150
+Connection ~ 6950 2400
+$Comp
+L antmicroResistors0603:R_15k_0603 R?
+U 1 1 629705A0
+P 6600 3150
+F 0 "R?" H 6600 3363 60  0000 C CNN
+F 1 "R_15k_0603" H 6600 3000 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 6800 3350 60  0001 L CNN
+F 3 "" H 6600 3150 50  0001 C CNN
+F 4 "BOURNS" H 6800 3550 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-FX-1502ELF" H 6800 3450 60  0001 L CNN "MPN"
+F 6 "15k" H 6600 3265 50  0000 C CNN "Val"
+	1    6600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3150 6950 3150
+Wire Wire Line
+	6450 3150 6300 3150
+Text Label 6300 3150 2    50   ~ 0
+VDD
 $EndSCHEMATC
