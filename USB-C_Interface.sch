@@ -1428,65 +1428,65 @@ Wire Wire Line
 $Comp
 L antmicroLogicTranslatorsLevelShifters:TXB0104D U?
 U 1 1 62A149C7
-P 9000 9650
+P 9050 9100
 AR Path="/628CDA4A/62A149C7" Ref="U?"  Part="1" 
 AR Path="/61A2F307/62A149C7" Ref="U7"  Part="1" 
-F 0 "U7" H 8750 10100 60  0000 C CNN
-F 1 "TXB0104D" H 9300 10100 60  0000 C CNN
-F 2 "antmicro-footprints:SOIC-14_W3.9mm" H 9200 9850 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 9200 9950 60  0001 L CNN
-F 4 "TXB0104D" H 9200 10150 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 9200 10750 60  0001 L CNN "Manufacturer"
-	1    9000 9650
+F 0 "U7" H 8800 9550 60  0000 C CNN
+F 1 "TXB0104D" H 9350 9550 60  0000 C CNN
+F 2 "antmicro-footprints:SOIC-14_W3.9mm" H 9250 9300 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 9250 9400 60  0001 L CNN
+F 4 "TXB0104D" H 9250 9600 60  0001 L CNN "MPN"
+F 5 "Texas Instruments" H 9250 10200 60  0001 L CNN "Manufacturer"
+	1    9050 9100
 	1    0    0    -1  
 $EndComp
-Text GLabel 8900 9050 1    50   Input ~ 0
+Text GLabel 8950 8500 1    50   Input ~ 0
 1V8
-Text GLabel 9000 9050 1    50   Input ~ 0
+Text GLabel 9050 8500 1    50   Input ~ 0
 5V
 Wire Wire Line
-	9000 9050 9000 9150
+	9050 8500 9050 8600
 Wire Wire Line
-	8900 9050 8900 9150
-Text GLabel 8400 9450 0    50   Input ~ 0
+	8950 8500 8950 8600
+Text GLabel 8450 8900 0    50   Input ~ 0
 USB2_EN
-Text GLabel 8400 9550 0    50   Input ~ 0
+Text GLabel 8450 9000 0    50   Input ~ 0
 USB2_FAULT
-Text GLabel 8400 9650 0    50   Input ~ 0
+Text GLabel 8450 9100 0    50   Input ~ 0
 USB2_SINK
 Wire Wire Line
-	8400 9450 8600 9450
+	8450 8900 8650 8900
 Wire Wire Line
-	8400 9550 8600 9550
+	8450 9000 8650 9000
 Wire Wire Line
-	8400 9650 8600 9650
+	8450 9100 8650 9100
 Wire Wire Line
-	9500 9450 9300 9450
+	9550 8900 9350 8900
 Wire Wire Line
-	9500 9550 9300 9550
+	9550 9000 9350 9000
 Wire Wire Line
-	9300 9650 9500 9650
-NoConn ~ 9300 9750
-NoConn ~ 8600 9750
-Text GLabel 8400 9850 0    50   Input ~ 0
+	9350 9100 9550 9100
+NoConn ~ 9350 9200
+NoConn ~ 8650 9200
+Text GLabel 8450 9300 0    50   Input ~ 0
 5V
 Wire Wire Line
-	8400 9850 8600 9850
+	8450 9300 8650 9300
 $Comp
 L power:GND #PWR?
 U 1 1 62A149DE
-P 9000 10250
+P 9050 9700
 AR Path="/628CDA4A/62A149DE" Ref="#PWR?"  Part="1" 
 AR Path="/61A2F307/62A149DE" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 9000 10000 50  0001 C CNN
-F 1 "GND" H 9005 10077 50  0000 C CNN
-F 2 "" H 9000 10250 50  0001 C CNN
-F 3 "" H 9000 10250 50  0001 C CNN
-	1    9000 10250
+F 0 "#PWR0114" H 9050 9450 50  0001 C CNN
+F 1 "GND" H 9055 9527 50  0000 C CNN
+F 2 "" H 9050 9700 50  0001 C CNN
+F 3 "" H 9050 9700 50  0001 C CNN
+	1    9050 9700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 10250 9000 10150
+	9050 9700 9050 9600
 $Comp
 L antmicroCapacitors0402:C_10u_0402 C?
 U 1 1 62A149E8
@@ -1519,11 +1519,11 @@ F 3 "" H 4700 6150 50  0001 C CNN
 	1    4700 6150
 	1    0    0    -1  
 $EndComp
-Text Label 9500 9450 0    50   ~ 0
+Text Label 9550 8900 0    50   ~ 0
 USB2_EN_5V
-Text Label 9500 9550 0    50   ~ 0
+Text Label 9550 9000 0    50   ~ 0
 USB2_FAULT_5V
-Text Label 9500 9650 0    50   ~ 0
+Text Label 9550 9100 0    50   ~ 0
 USB2_SINK_5V
 Text Label 5350 6500 2    50   ~ 0
 USB2_SINK_5V
@@ -1719,8 +1719,6 @@ Wire Notes Line
 Wire Notes Line
 	10850 5000 10850 10600
 Wire Notes Line
-	10850 10600 500  10600
-Wire Notes Line
 	500  10600 500  5000
 Text Notes 600  700  0    129  ~ 0
 USB1 - Display port mode
@@ -1732,4 +1730,72 @@ Wire Notes Line
 	11200 4900 11200 500 
 Wire Notes Line
 	500  500  11200 500 
+Wire Wire Line
+	9700 10050 9700 10200
+Wire Wire Line
+	10050 10050 10050 10200
+Wire Wire Line
+	10050 9550 10050 9750
+Wire Wire Line
+	9700 9750 9700 9550
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 62363CE4
+P 9700 9900
+F 0 "C?" H 9815 9945 60  0000 L CNN
+F 1 "C_100n_0402" H 9700 9750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9900 10100 60  0001 L CNN
+F 3 "" H 9700 9900 50  0001 C CNN
+F 4 "Walsin" H 9900 10300 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9900 10200 60  0001 L CNN "MPN"
+F 6 "100n" H 9815 9847 50  0000 L CNN "Val"
+	1    9700 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623647C4
+P 9700 10200
+AR Path="/628CDA4A/623647C4" Ref="#PWR?"  Part="1" 
+AR Path="/61A2F307/623647C4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9700 9950 50  0001 C CNN
+F 1 "GND" H 9705 10027 50  0000 C CNN
+F 2 "" H 9700 10200 50  0001 C CNN
+F 3 "" H 9700 10200 50  0001 C CNN
+	1    9700 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62364495
+P 10050 10200
+AR Path="/628CDA4A/62364495" Ref="#PWR?"  Part="1" 
+AR Path="/61A2F307/62364495" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 9950 50  0001 C CNN
+F 1 "GND" H 10055 10027 50  0000 C CNN
+F 2 "" H 10050 10200 50  0001 C CNN
+F 3 "" H 10050 10200 50  0001 C CNN
+	1    10050 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 623640A7
+P 10050 9900
+F 0 "C?" H 10165 9945 60  0000 L CNN
+F 1 "C_100n_0402" H 10050 9750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 10250 10100 60  0001 L CNN
+F 3 "" H 10050 9900 50  0001 C CNN
+F 4 "Walsin" H 10250 10300 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 10250 10200 60  0001 L CNN "MPN"
+F 6 "100n" H 10165 9847 50  0000 L CNN "Val"
+	1    10050 9900
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 9550 1    50   Input ~ 0
+5V
+Text GLabel 9700 9550 1    50   Input ~ 0
+1V8
+Wire Notes Line
+	10850 10600 500  10600
 $EndSCHEMATC
