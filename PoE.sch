@@ -137,25 +137,10 @@ Wire Wire Line
 	5450 5500 6100 5500
 Wire Wire Line
 	5600 5300 5450 5300
-$Comp
-L antmicroResistors0402:R_0R_0402 R52
-U 1 1 61A460AF
-P 5850 4900
-F 0 "R52" H 5850 5113 60  0000 C CNN
-F 1 "R_0R_0402" H 5850 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6050 5100 60  0001 L CNN
-F 3 "" H 5850 4900 50  0001 C CNN
-F 4 "PANASONIC" H 6050 5300 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 6050 5200 60  0001 L CNN "MPN"
-F 6 "0R" H 5850 5015 50  0000 C CNN "Val"
-F 7 "DNP" H 5850 4900 50  0001 C CNN "DNP"
-	1    5850 4900
-	1    0    0    -1  
-$EndComp
 Text GLabel 7250 2100 2    50   Input ~ 0
 APD
-Text Notes 14950 6400 0    50   ~ 0
-What about APD? This circuit may be powered from other than PoE source.
+Text Notes 4750 1450 0    50   ~ 0
+What about APD? This circuit may be powered from other than PoE source.\n\nConsider adding an DC input (barrel jack or screw terminal) and calculate Rapd1/Rapd2 (chapter 8.2 of the datasheet)\nIf APD is not used tie it to GND to disable this functionality.\n\nAux power input can be especially helpful when debugging
 Wire Wire Line
 	6750 2400 7950 2400
 Wire Wire Line
@@ -634,7 +619,7 @@ Wire Wire Line
 	6000 4900 6100 4900
 Wire Wire Line
 	6100 4900 6100 5100
-Text Notes 14800 6200 0    50   ~ 0
+Text Notes 4750 900  0    50   ~ 0
 REMARK:Typical aplication circuit can be found in \nTPS2378DDA datasheet:\n https://www.ti.com/lit/ds/symlink/tps2378.pdf?ts=1637556069032&ref_url=https%253A%252F%252Fwww.google.com%252F\nThere is the reference connection for APD circuit.
 Wire Wire Line
 	1850 5500 2950 5500
@@ -644,4 +629,25 @@ Text Label 7950 1550 1    50   ~ 0
 VDD
 Text Label 1850 4750 1    50   ~ 0
 VDD
+Text Notes 7375 3475 0    50   ~ 0
+What is purpose of this diode?\nLooking at datasheet, RTN signal \nshould be connected directly \nto GND\n(RTN becomes our reference signal)
+Text Notes 9250 3250 0    50   ~ 0
+should SNPS_CTRL be tied directly to GNDD?\nThen R55 and R56 are not needed\nAlternatively remove direct tie to the GND and make one of resistors DNP
+$Comp
+L antmicroResistors0402:R_0R_0402 R52
+U 1 1 61A460AF
+P 5850 4900
+F 0 "R52" H 5850 5113 60  0000 C CNN
+F 1 "R_0R_0402" H 5850 4750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6050 5100 60  0001 L CNN
+F 3 "" H 5850 4900 50  0001 C CNN
+F 4 "PANASONIC" H 6050 5300 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6050 5200 60  0001 L CNN "MPN"
+F 6 "0R" H 5850 5015 50  0000 C CNN "Val"
+F 7 "DNP" H 5850 4900 50  0001 C CNN "DNP"
+	1    5850 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 5275 4575 0    50   ~ 0
+DNP should be visible for R52 and R53
 $EndSCHEMATC

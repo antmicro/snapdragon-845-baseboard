@@ -1358,4 +1358,6 @@ Wire Wire Line
 Connection ~ 6600 8600
 Text Label 6600 8400 2    50   ~ 0
 ETH_1V0
+Text Notes 6600 900  0    50   ~ 0
+Ethernet connector have built in magnetics. \nIs using separate transformer intentional?\nUse connector without magnetics or change to connector \nwith magnetics and POE
 $EndSCHEMATC

@@ -117,4 +117,6 @@ U 61A19323
 F0 "PoE" 50
 F1 "PoE.sch" 50
 $EndSheet
+Text Notes 12100 4275 0    50   ~ 0
+Use 6mm spacers insted of PCB mounting holes.\nThis will allow to put device on a desk without risking \ndamage to components on the bottom of the board \nAlternatively add space for screw head/spacer on PCB\n(ie. MP1 will interfere with connector when using screw/spacer)
 $EndSCHEMATC
