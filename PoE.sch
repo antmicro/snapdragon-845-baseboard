@@ -291,17 +291,6 @@ F 3 "" H 9350 2800 50  0001 C CNN
 	1    9350 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR043
-U 1 1 61A46129
-P 8500 2800
-F 0 "#PWR043" H 8500 2550 50  0001 C CNN
-F 1 "GNDD" H 8504 2645 50  0000 C CNN
-F 2 "" H 8500 2800 50  0001 C CNN
-F 3 "" H 8500 2800 50  0001 C CNN
-	1    8500 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9350 2150 9350 2300
 $Comp
@@ -392,24 +381,6 @@ $EndComp
 Connection ~ 4700 2900
 Wire Wire Line
 	4700 2900 5400 2900
-$Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2378DDA IC1
-U 1 1 61A46174
-P 5750 2100
-F 0 "IC1" H 6250 2365 50  0000 C CNN
-F 1 "TPS2378DDA" H 6250 2274 50  0000 C CNN
-F 2 "antmicro-footprints:SOIC127P600X170-9N" H 6600 2200 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps2378.pdf" H 6600 2100 50  0001 L CNN
-F 4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" H 6600 2000 50  0001 L CNN "Description"
-F 5 "Texas Instruments" H 6600 1800 50  0001 L CNN "Manufacturer"
-F 6 "TPS2378DDA" H 6600 1700 50  0001 L CNN "MPN"
-F 7 "TPS2378DDA" H 6600 1600 50  0001 L CNN "Arrow Part Number"
-F 8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" H 6600 1500 50  0001 L CNN "Arrow Price/Stock"
-F 9 "595-TPS2378DDA" H 6600 1400 50  0001 L CNN "Mouser Part Number"
-F 10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" H 6600 1300 50  0001 L CNN "Mouser Price/Stock"
-	1    5750 2100
-	1    0    0    -1  
-$EndComp
 Connection ~ 4200 2900
 Wire Wire Line
 	4700 2900 4200 2900
@@ -640,78 +611,10 @@ Wire Wire Line
 	9350 2750 9350 2800
 Wire Wire Line
 	9350 2350 9350 2300
-$Comp
-L antmicroTransistorsFETsMOSFETsSingle:IRFL4310PBF Q?
-U 1 1 62893844
-P 7100 3050
-F 0 "Q?" H 7650 2650 50  0000 L CNN
-F 1 "IRFL4310PBF" H 7750 2650 50  0000 L CNN
-F 2 "antmicro-footprint:SOT230P700X180-4N" H 7950 3150 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irfl4310pbf.pdf?fileId=5546d462533600a40153562804ba1fbc" H 7950 3050 50  0001 L CNN
-F 4 "MOSFET N-Channel 100V 2.2A SOT223 International Rectifier IRFL4310PBF N-channel MOSFET Transistor, 2.2 A, 100 V, 4-Pin SOT-223" H 7950 2950 50  0001 L CNN "Description"
-F 5 "Infineon" H 7950 2750 50  0001 L CNN "Manufacturer"
-F 6 "IRFL4310PBF" H 7950 2650 50  0001 L CNN "MPN"
-	1    7100 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 2100 6950 2400
 Wire Wire Line
 	6750 2400 6950 2400
-$Comp
-L antmicroDiodesZenerSingle:BZT52Bxx D?
-U 1 1 628B62B3
-P 7200 3150
-F 0 "D?" H 7200 2933 50  0000 C CNN
-F 1 "BZT52Bxx" H 7200 3050 50  0000 C CNN
-F 2 "antmicro-footprints:SOD-123" H 7200 2975 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 7200 3150 50  0001 C CNN
-F 4 "BZT52C18-G3-18" H 7225 2900 50  0001 C CNN "MPN"
-F 5 "Vishay" H 7200 2800 50  0001 C CNN "Manufacturer"
-	1    7200 3150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7350 3150 7400 3150
-Wire Wire Line
-	6950 3150 7050 3150
-$Comp
-L antmicroDiodesRectifiersSingle:B2100-13-F D?
-U 1 1 628C2229
-P 7950 3400
-F 0 "D?" V 8346 3320 50  0000 R CNN
-F 1 "B2100-13-F" V 8255 3320 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM5336X250N" H 8400 3400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/B2100-13-F.pdf" H 8400 3300 50  0001 L CNN
-F 4 "MULTICOMP - B2100-13-F - RECTIFIER, SCHOTTKY, 2A, 100V, DO-214AA, FULL REEL" H 8400 3200 50  0001 L CNN "Description"
-F 5 "MULTICOMP" H 8400 3000 50  0001 L CNN "Manufacturer"
-F 6 "B2100-13-F" H 8400 2900 50  0001 L CNN "MPN"
-	1    7950 3400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7650 2850 7650 2700
-Wire Wire Line
-	7650 2700 7700 2700
-Wire Wire Line
-	7700 2700 7700 2850
-Wire Wire Line
-	7700 2700 7950 2700
-Connection ~ 7700 2700
-Connection ~ 7950 2700
-Wire Wire Line
-	7950 3350 7700 3350
-Wire Wire Line
-	7700 3350 7700 3250
-Wire Wire Line
-	7700 3350 6950 3350
-Wire Wire Line
-	6950 3350 6950 3150
-Connection ~ 7700 3350
-Wire Wire Line
-	7950 2700 8500 2700
-Wire Wire Line
-	8500 2800 8500 2700
 $Comp
 L power:GNDD #PWR?
 U 1 1 628EFC20
@@ -723,10 +626,6 @@ F 3 "" H 7950 2100 50  0001 C CNN
 	1    7950 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7950 2700 7950 2900
-Wire Wire Line
-	7950 3200 7950 3350
 Connection ~ 7400 2300
 Wire Wire Line
 	7400 2300 8700 2300
@@ -757,31 +656,22 @@ F 6 "100k" V 7453 2070 50  0000 L CNN "Val"
 	1    7400 2000
 	0    1    1    0   
 $EndComp
-Connection ~ 6950 3150
-Wire Wire Line
-	6950 2400 6950 3150
-Connection ~ 7400 3150
-Wire Wire Line
-	7400 2300 7400 3150
-Connection ~ 6950 2400
 $Comp
-L antmicroResistors0603:R_15k_0603 R?
-U 1 1 629705A0
-P 6600 3150
-F 0 "R?" H 6600 3363 60  0000 C CNN
-F 1 "R_15k_0603" H 6600 3000 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6800 3350 60  0001 L CNN
-F 3 "" H 6600 3150 50  0001 C CNN
-F 4 "BOURNS" H 6800 3550 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-FX-1502ELF" H 6800 3450 60  0001 L CNN "MPN"
-F 6 "15k" H 6600 3265 50  0000 C CNN "Val"
-	1    6600 3150
+L antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2378DDA IC1
+U 1 1 61A46174
+P 5750 2100
+F 0 "IC1" H 6250 2365 50  0000 C CNN
+F 1 "TPS2378DDA" H 6250 2274 50  0000 C CNN
+F 2 "antmicro-footprints:SOIC127P600X170-9N" H 6600 2200 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2378.pdf" H 6600 2100 50  0001 L CNN
+F 4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" H 6600 2000 50  0001 L CNN "Description"
+F 5 "Texas Instruments" H 6600 1800 50  0001 L CNN "Manufacturer"
+F 6 "TPS2378DDA" H 6600 1700 50  0001 L CNN "MPN"
+F 7 "TPS2378DDA" H 6600 1600 50  0001 L CNN "Arrow Part Number"
+F 8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" H 6600 1500 50  0001 L CNN "Arrow Price/Stock"
+F 9 "595-TPS2378DDA" H 6600 1400 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" H 6600 1300 50  0001 L CNN "Mouser Price/Stock"
+	1    5750 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 3150 6950 3150
-Wire Wire Line
-	6450 3150 6300 3150
-Text Label 6300 3150 2    50   ~ 0
-VDD
 $EndSCHEMATC
