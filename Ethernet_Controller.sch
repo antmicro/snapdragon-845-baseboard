@@ -673,23 +673,6 @@ Text Notes 950  4950 0    50   ~ 0
 Consider separating PSU for analog / digital
 Text Notes 1600 950  0    50   ~ 0
 Choke is on secondary side.\n(Where only data is passed through)
-Wire Wire Line
-	6800 4600 6350 4600
-Wire Wire Line
-	6350 4600 6350 4450
-Wire Wire Line
-	8400 4800 8400 4950
-$Comp
-L power:GND #PWR07
-U 1 1 6199D143
-P 8400 4950
-F 0 "#PWR07" H 8400 4700 50  0001 C CNN
-F 1 "GND" H 8405 4777 50  0000 C CNN
-F 2 "" H 8400 4950 50  0001 C CNN
-F 3 "" H 8400 4950 50  0001 C CNN
-	1    8400 4950
-	1    0    0    -1  
-$EndComp
 $Comp
 L antmicroResistors0402:R_1k_0402 R10
 U 1 1 619C546F
@@ -865,115 +848,6 @@ PCIE1_RX_P
 Text GLabel 4550 6500 3    50   Input ~ 0
 PCIE1_RX_N
 $Comp
-L antmicroOscillators:ECS-1618-250-BN-TR Y1
-U 1 1 61A23266
-P 7000 4200
-F 0 "Y1" H 7600 4549 50  0000 C CNN
-F 1 "ECS-1618-250-BN-TR" H 7600 4458 50  0000 C CNN
-F 2 "antmicro-footprints:OSC_ECS-1618-250-BN-TR" H 7000 4200 50  0001 C CNN
-F 3 "https://ecsxtal.com/store/pdf/ECS_1618.pdf" H 7000 4200 50  0001 C CNN
-F 4 "ECS-1618-250-BN-TR" H 7600 4367 50  0000 C CNN "MPN"
-F 5 "ECSXTAL" H 7600 4276 50  0000 C CNN "Manufacturer"
-	1    7000 4200
-	1    0    0    -1  
-$EndComp
-Text Notes 9950 4750 0    50   ~ 0
-Review Oscillator connection.
-Text Label 9750 4500 0    50   ~ 0
-XTAL2
-Wire Wire Line
-	9500 4500 9750 4500
-Wire Wire Line
-	8700 4500 8950 4500
-Text Label 8700 4500 0    50   ~ 0
-XTAL1
-Wire Wire Line
-	9500 4500 9500 4550
-Connection ~ 9500 4500
-Wire Wire Line
-	9400 4500 9500 4500
-Wire Wire Line
-	8950 4500 9100 4500
-$Comp
-L antmicroResistors0402:R_1M0_0402 R17
-U 1 1 619ADB78
-P 9250 4500
-F 0 "R17" H 9250 4713 60  0000 C CNN
-F 1 "R_1M0_0402" H 9250 4350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9450 4700 60  0001 L CNN
-F 3 "" H 9250 4500 50  0001 C CNN
-F 4 "TE CONNECTIVITY" H 9450 4900 60  0001 L CNN "Manufacturer"
-F 5 "CRG0402F1M0" H 9450 4800 60  0001 L CNN "MPN"
-F 6 "1M0" H 9250 4615 50  0000 C CNN "Val"
-	1    9250 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 4500 8950 4550
-Connection ~ 8950 4500
-$Comp
-L power:GND #PWR011
-U 1 1 619A95EF
-P 9500 4850
-F 0 "#PWR011" H 9500 4600 50  0001 C CNN
-F 1 "GND" H 9505 4677 50  0000 C CNN
-F 2 "" H 9500 4850 50  0001 C CNN
-F 3 "" H 9500 4850 50  0001 C CNN
-	1    9500 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_10p_0402 C10
-U 1 1 619A945F
-P 9500 4700
-F 0 "C10" H 9615 4745 60  0000 L CNN
-F 1 "C_10p_0402" H 9500 4550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9700 4900 60  0001 L CNN
-F 3 "" H 9500 4700 50  0001 C CNN
-F 4 "MULTICOMP" H 9700 5100 60  0001 L CNN "Manufacturer"
-F 5 "MC0402N100D500CT" H 9700 5000 60  0001 L CNN "MPN"
-F 6 "10p" H 9615 4647 50  0000 L CNN "Val"
-	1    9500 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 619A53C6
-P 8950 4850
-F 0 "#PWR08" H 8950 4600 50  0001 C CNN
-F 1 "GND" H 8955 4677 50  0000 C CNN
-F 2 "" H 8950 4850 50  0001 C CNN
-F 3 "" H 8950 4850 50  0001 C CNN
-	1    8950 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_10p_0402 C9
-U 1 1 619A5032
-P 8950 4700
-F 0 "C9" H 9065 4745 60  0000 L CNN
-F 1 "C_10p_0402" H 8950 4550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9150 4900 60  0001 L CNN
-F 3 "" H 8950 4700 50  0001 C CNN
-F 4 "MULTICOMP" H 9150 5100 60  0001 L CNN "Manufacturer"
-F 5 "MC0402N100D500CT" H 9150 5000 60  0001 L CNN "MPN"
-F 6 "10p" H 9065 4647 50  0000 L CNN "Val"
-	1    8950 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 4400 8950 4500
-Text Notes 8950 4200 0    50   ~ 0
-Why is this 1M resistor here? \n
-Wire Wire Line
-	9500 3850 6800 3850
-Wire Wire Line
-	6800 3850 6800 4400
-Wire Wire Line
-	9500 3850 9500 4500
-Wire Wire Line
-	8400 4400 8950 4400
-$Comp
 L antmicroResistors0402:R_2k49_1%_0402 R5
 U 1 1 61B0F054
 P 3200 4850
@@ -995,8 +869,6 @@ Text GLabel 6550 5350 1    50   Input ~ 0
 1V8
 Text GLabel 7500 5350 1    50   Input ~ 0
 3V3
-Text GLabel 6350 4450 1    50   Input ~ 0
-1V8
 $Comp
 L antmicroInterfaceControllers:RTL8111H U1
 U 1 1 61A1B9F8
@@ -1360,4 +1232,119 @@ Text Label 6600 8400 2    50   ~ 0
 ETH_1V0
 Text Notes 6600 900  0    50   ~ 0
 Ethernet connector have built in magnetics. \nIs using separate transformer intentional?\nUse connector without magnetics or change to connector \nwith magnetics and POE
+$Comp
+L antmicroCrystals:ABM8G-25.000MHZ-18-D2Y-T Y?
+U 1 1 6246C7D0
+P 7700 4250
+F 0 "Y?" H 7550 4450 31  0000 L CNN
+F 1 "ABM8G-25.000MHZ-18-D2Y-T" H 7750 4450 31  0000 L CNN
+F 2 "antmicro-footprints:KX-7" H 9800 4250 50  0001 C CNN
+F 3 "" H 9900 4350 50  0001 C CNN
+F 4 "ABM8G-25.000MHZ-18-D2Y-T" H 7894 4219 31  0001 L CNN "MPN"
+F 5 "Abracon" H 7894 4157 31  0001 L CNN "Manufacturer"
+	1    7700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4250 7150 4250
+Wire Wire Line
+	7850 4250 8300 4250
+Text Label 7150 4250 0    50   ~ 0
+XTAL1
+Text Label 8300 4250 2    50   ~ 0
+XTAL2
+$Comp
+L antmicroCapacitors0402:C_10p_0402 C?
+U 1 1 6248C548
+P 7150 4500
+F 0 "C?" H 7265 4545 60  0000 L CNN
+F 1 "C_10p_0402" H 7150 4350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7350 4700 60  0001 L CNN
+F 3 "" H 7150 4500 50  0001 C CNN
+F 4 "MULTICOMP" H 7350 4900 60  0001 L CNN "Manufacturer"
+F 5 "MC0402N100D500CT" H 7350 4800 60  0001 L CNN "MPN"
+F 6 "10p" H 7265 4447 50  0000 L CNN "Val"
+	1    7150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10p_0402 C?
+U 1 1 6248CDDF
+P 8300 4500
+F 0 "C?" H 8415 4545 60  0000 L CNN
+F 1 "C_10p_0402" H 8300 4350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 8500 4700 60  0001 L CNN
+F 3 "" H 8300 4500 50  0001 C CNN
+F 4 "MULTICOMP" H 8500 4900 60  0001 L CNN "Manufacturer"
+F 5 "MC0402N100D500CT" H 8500 4800 60  0001 L CNN "MPN"
+F 6 "10p" H 8415 4447 50  0000 L CNN "Val"
+	1    8300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4250 7150 4350
+Wire Wire Line
+	8300 4250 8300 4350
+Wire Wire Line
+	7700 4050 7700 4000
+Wire Wire Line
+	7700 4450 7700 4700
+$Comp
+L power:GND #PWR?
+U 1 1 624B2B57
+P 7700 4800
+F 0 "#PWR?" H 7700 4550 50  0001 C CNN
+F 1 "GND" H 7705 4627 50  0000 C CNN
+F 2 "" H 7700 4800 50  0001 C CNN
+F 3 "" H 7700 4800 50  0001 C CNN
+	1    7700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624B3561
+P 7700 4000
+F 0 "#PWR?" H 7700 3750 50  0001 C CNN
+F 1 "GND" H 7705 3827 50  0000 C CNN
+F 2 "" H 7700 4000 50  0001 C CNN
+F 3 "" H 7700 4000 50  0001 C CNN
+	1    7700 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 4250 7150 3700
+Wire Wire Line
+	7150 3700 7550 3700
+Wire Wire Line
+	8300 3700 8300 4250
+Connection ~ 7150 4250
+Connection ~ 8300 4250
+$Comp
+L antmicroResistors0402:R_1M0_0402 R?
+U 1 1 624BEECF
+P 7700 3700
+F 0 "R?" H 7700 3900 60  0000 C CNN
+F 1 "R_1M0_0402" H 7700 3550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7900 3900 60  0001 L CNN
+F 3 "" H 7700 3700 50  0001 C CNN
+F 4 "TE CONNECTIVITY" H 7900 4100 60  0001 L CNN "Manufacturer"
+F 5 "CRG0402F1M0" H 7900 4000 60  0001 L CNN "MPN"
+F 6 "1M0" H 7700 3800 50  0000 C CNN "Val"
+F 7 "DNP" H 7700 3700 50  0000 C CNN "DNP"
+	1    7700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 3700 8300 3700
+Wire Wire Line
+	7150 4650 7150 4700
+Wire Wire Line
+	7150 4700 7700 4700
+Connection ~ 7700 4700
+Wire Wire Line
+	7700 4700 7700 4800
+Wire Wire Line
+	7700 4700 8300 4700
+Wire Wire Line
+	8300 4700 8300 4650
 $EndSCHEMATC
