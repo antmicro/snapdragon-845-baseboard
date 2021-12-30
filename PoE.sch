@@ -683,4 +683,6 @@ Text Label 7250 3450 1    50   ~ 0
 RTN
 Text GLabel 7950 4800 2    50   Input ~ 0
 VDD
+Text Notes 7800 4750 0    50   ~ 0
+5V
 $EndSCHEMATC
