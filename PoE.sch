@@ -563,12 +563,10 @@ Text Notes 4750 900  0    50   ~ 0
 REMARK:Typical aplication circuit can be found in \nTPS2378DDA datasheet:\n https://www.ti.com/lit/ds/symlink/tps2378.pdf?ts=1637556069032&ref_url=https%253A%252F%252Fwww.google.com%252F\nThere is the reference connection for APD circuit.
 Wire Wire Line
 	1350 5200 2450 5200
-Text GLabel 7950 4800 2    50   Input ~ 0
-5V
 Text Label 7950 1550 1    50   ~ 0
-VDD
+VDD_POE
 Text Label 1350 4450 1    50   ~ 0
-VDD
+VDD_POE
 Text Notes 9950 2850 0    50   ~ 0
 should SNPS_CTRL be tied directly to GNDD?\nThen R89 and R90 are not needed\nAlternatively remove direct tie to the GND and make one of resistors DNP
 $Comp
@@ -683,4 +681,6 @@ Text Label 6800 2400 0    50   ~ 0
 RTN
 Text Label 7250 3450 1    50   ~ 0
 RTN
+Text GLabel 7950 4800 2    50   Input ~ 0
+VDD
 $EndSCHEMATC
