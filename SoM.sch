@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR067
+L sa800u-baseboard-hw:GND #PWR067
 U 1 1 61AB272F
 P 1300 1750
 F 0 "#PWR067" H 1300 1500 50  0001 C CNN
@@ -35,7 +35,7 @@ CSI0_LN3_N
 Text GLabel 1150 2150 0    50   Input ~ 0
 CSI0_LN2_N
 $Comp
-L power:GND #PWR068
+L sa800u-baseboard-hw:GND #PWR068
 U 1 1 61AB4B99
 P 1300 2050
 F 0 "#PWR068" H 1300 1800 50  0001 C CNN
@@ -64,7 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2550 1650 2550
 $Comp
-L power:GND #PWR069
+L sa800u-baseboard-hw:GND #PWR069
 U 1 1 61ABB2A4
 P 1300 2350
 F 0 "#PWR069" H 1300 2100 50  0001 C CNN
@@ -77,7 +77,7 @@ $EndComp
 Wire Wire Line
 	1300 2350 1650 2350
 $Comp
-L power:GND #PWR070
+L sa800u-baseboard-hw:GND #PWR070
 U 1 1 61ABBE0B
 P 1300 2650
 F 0 "#PWR070" H 1300 2400 50  0001 C CNN
@@ -94,7 +94,7 @@ CSI0_LN0_N
 Text GLabel 1150 2850 0    50   Input ~ 0
 CSI0_LN0_P
 $Comp
-L power:GND #PWR071
+L sa800u-baseboard-hw:GND #PWR071
 U 1 1 61ABF0B1
 P 1300 2950
 F 0 "#PWR071" H 1300 2700 50  0001 C CNN
@@ -119,7 +119,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 3150 1650 3150
 $Comp
-L power:GND #PWR072
+L sa800u-baseboard-hw:GND #PWR072
 U 1 1 61AC25AA
 P 1300 3250
 F 0 "#PWR072" H 1300 3000 50  0001 C CNN
@@ -140,7 +140,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 3450 1650 3450
 $Comp
-L power:GND #PWR073
+L sa800u-baseboard-hw:GND #PWR073
 U 1 1 61AC444F
 P 1300 3550
 F 0 "#PWR073" H 1300 3300 50  0001 C CNN
@@ -165,7 +165,7 @@ CSI1_LN1_N
 Text GLabel 1150 4050 0    50   Input ~ 0
 CSI1_LN1_P
 $Comp
-L power:GND #PWR074
+L sa800u-baseboard-hw:GND #PWR074
 U 1 1 61AC725F
 P 1300 3850
 F 0 "#PWR074" H 1300 3600 50  0001 C CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4150 1300 4150
 $Comp
-L power:GND #PWR075
+L sa800u-baseboard-hw:GND #PWR075
 U 1 1 61AC9405
 P 1300 4150
 F 0 "#PWR075" H 1300 3900 50  0001 C CNN
@@ -205,7 +205,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4450 1300 4450
 $Comp
-L power:GND #PWR076
+L sa800u-baseboard-hw:GND #PWR076
 U 1 1 61ACB8A4
 P 1300 4450
 F 0 "#PWR076" H 1300 4200 50  0001 C CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4750 1300 4750
 $Comp
-L power:GND #PWR077
+L sa800u-baseboard-hw:GND #PWR077
 U 1 1 61ACE42A
 P 1300 4750
 F 0 "#PWR077" H 1300 4500 50  0001 C CNN
@@ -245,7 +245,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 4950 1650 4950
 $Comp
-L power:GND #PWR078
+L sa800u-baseboard-hw:GND #PWR078
 U 1 1 61AD13DC
 P 1300 5050
 F 0 "#PWR078" H 1300 4800 50  0001 C CNN
@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5350 1300 5350
 $Comp
-L power:GND #PWR079
+L sa800u-baseboard-hw:GND #PWR079
 U 1 1 61AD5D86
 P 1300 5350
 F 0 "#PWR079" H 1300 5100 50  0001 C CNN
@@ -287,7 +287,7 @@ CSI2_LN3_P
 Text GLabel 1150 5550 0    50   Input ~ 0
 CSI2_LN3_N
 $Comp
-L power:GND #PWR080
+L sa800u-baseboard-hw:GND #PWR080
 U 1 1 61AD8A80
 P 1300 5650
 F 0 "#PWR080" H 1300 5400 50  0001 C CNN
@@ -318,7 +318,7 @@ HDMI1_INTO
 Wire Wire Line
 	1150 6250 1650 6250
 $Comp
-L power:GND #PWR081
+L sa800u-baseboard-hw:GND #PWR081
 U 1 1 61AE7140
 P 1300 6350
 F 0 "#PWR081" H 1300 6100 50  0001 C CNN
@@ -418,7 +418,7 @@ NoConn ~ 1650 9350
 Wire Wire Line
 	1650 9450 1650 9550
 $Comp
-L power:GND #PWR082
+L sa800u-baseboard-hw:GND #PWR082
 U 1 1 61B400BB
 P 1300 9550
 F 0 "#PWR082" H 1300 9300 50  0001 C CNN
@@ -457,7 +457,7 @@ Connection ~ 1550 9650
 Text GLabel 1450 9650 0    50   Input ~ 0
 VBAT
 $Comp
-L power:GND #PWR083
+L sa800u-baseboard-hw:GND #PWR083
 U 1 1 61B58726
 P 1300 10150
 F 0 "#PWR083" H 1300 9900 50  0001 C CNN
@@ -470,12 +470,12 @@ $EndComp
 Wire Wire Line
 	1300 10150 1650 10150
 $Comp
-L antmicroMicrocontrollers:SA800U-WF U10
+L sa800u-baseboard-hw:SA800U-WF U10
 U 1 1 61B940C3
 P 1750 1650
 F 0 "U10" H 2475 1997 50  0000 C CNN
 F 1 "SA800U-WF" H 2475 1906 50  0000 C CNN
-F 2 "antmicro-footprints:SA800U-WF" H 1750 1650 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SA800U-WF" H 1750 1650 50  0001 C CNN
 F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 1750 1650 50  0001 C CNN
 F 4 "SA800U-WF" H 2475 1815 50  0000 C CNN "MPN"
 F 5 "QUECTEL" H 2475 1724 50  0000 C CNN "Manufacturer"
@@ -484,12 +484,12 @@ F 5 "QUECTEL" H 2475 1724 50  0000 C CNN "Manufacturer"
 $EndComp
 Connection ~ 1650 9550
 $Comp
-L antmicroMicrocontrollers:SA800U-WF U10
+L sa800u-baseboard-hw:SA800U-WF U10
 U 2 1 61BAF70E
 P 8200 1400
 F 0 "U10" H 8925 1747 50  0000 C CNN
 F 1 "SA800U-WF" H 8925 1656 50  0000 C CNN
-F 2 "antmicro-footprints:SA800U-WF" H 8200 1400 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SA800U-WF" H 8200 1400 50  0001 C CNN
 F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 8200 1400 50  0001 C CNN
 F 4 "SA800U-WF" H 8925 1565 50  0000 C CNN "MPN"
 F 5 "QUECTEL" H 8925 1474 50  0000 C CNN "Manufacturer"
@@ -497,12 +497,12 @@ F 5 "QUECTEL" H 8925 1474 50  0000 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S2
+L sa800u-baseboard-hw:KMR2 S2
 U 1 1 61C94E75
 P 12000 2800
 F 0 "S2" H 12000 3075 50  0000 C CNN
 F 1 "KMR2" H 12000 2984 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 12200 3000 50  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12200 3000 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12200 3100 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12196 3193 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 12200 3272 60  0001 L CNN "Manufacturer"
@@ -510,12 +510,12 @@ F 5 "C&K Components" H 12200 3272 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S3
+L sa800u-baseboard-hw:KMR2 S3
 U 1 1 61CA28EE
 P 12000 3950
 F 0 "S3" H 12000 4225 50  0000 C CNN
 F 1 "KMR2" H 12000 4134 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 12200 4150 50  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12200 4150 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12200 4250 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12196 4343 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 12200 4422 60  0001 L CNN "Manufacturer"
@@ -523,12 +523,12 @@ F 5 "C&K Components" H 12200 4422 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S4
+L sa800u-baseboard-hw:KMR2 S4
 U 1 1 61CA563B
 P 12000 5050
 F 0 "S4" H 12000 5325 50  0000 C CNN
 F 1 "KMR2" H 12000 5234 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 12200 5250 50  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12200 5250 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12200 5350 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12196 5443 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 12200 5522 60  0001 L CNN "Manufacturer"
@@ -536,12 +536,12 @@ F 5 "C&K Components" H 12200 5522 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroPushbuttonSwitches:KMR2 S1
+L sa800u-baseboard-hw:KMR2 S1
 U 1 1 61CA8515
 P 11950 6150
 F 0 "S1" H 11950 6425 50  0000 C CNN
 F 1 "KMR2" H 11950 6334 50  0000 C CNN
-F 2 "antmicro-footprints:SW_SPST_4.2x2.8" H 12150 6350 50  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12150 6350 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12150 6450 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12146 6543 60  0001 L CNN "MPN"
 F 5 "C&K Components" H 12150 6622 60  0001 L CNN "Manufacturer"
@@ -549,12 +549,12 @@ F 5 "C&K Components" H 12150 6622 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroBatteryHoldersClipsContacts:MS621FE-FL11E BAT1
+L sa800u-baseboard-hw:MS621FE-FL11E BAT1
 U 1 1 61B43805
 P 15050 3750
 F 0 "BAT1" H 15180 3753 60  0000 L CNN
 F 1 "MS621FE-FL11E" H 15180 3647 60  0000 L CNN
-F 2 "antmicro-footprints:MS621FE-FL11E" H 15050 3750 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:MS621FE-FL11E" H 15050 3750 60  0001 C CNN
 F 3 "" H 15050 3750 60  0001 C CNN
 F 4 "Seiko" H 15050 3750 50  0001 C CNN "Manufacturer"
 F 5 "MS621FE-FL11E" H 15050 3750 50  0001 C CNN "MPN"
@@ -564,7 +564,7 @@ $EndComp
 Text GLabel 3800 1750 2    50   Input ~ 0
 PCIE0_RST_N
 $Comp
-L power:GND #PWR084
+L sa800u-baseboard-hw:GND #PWR084
 U 1 1 61B3A214
 P 3650 2050
 F 0 "#PWR084" H 3650 1800 50  0001 C CNN
@@ -597,7 +597,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2350 3650 2350
 $Comp
-L power:GND #PWR085
+L sa800u-baseboard-hw:GND #PWR085
 U 1 1 61B9D984
 P 3650 2350
 F 0 "#PWR085" H 3650 2100 50  0001 C CNN
@@ -618,7 +618,7 @@ PCIE0_REFCLK_P
 Text GLabel 3800 2550 2    50   Input ~ 0
 PCIE0_REFCLK_N
 $Comp
-L power:GND #PWR086
+L sa800u-baseboard-hw:GND #PWR086
 U 1 1 61BAF926
 P 3650 2650
 F 0 "#PWR086" H 3650 2400 50  0001 C CNN
@@ -637,7 +637,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 2850 3300 2850
 $Comp
-L power:GND #PWR087
+L sa800u-baseboard-hw:GND #PWR087
 U 1 1 61BC6161
 P 3650 2950
 F 0 "#PWR087" H 3650 2700 50  0001 C CNN
@@ -661,7 +661,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 3750 3650 3750
 $Comp
-L power:GND #PWR088
+L sa800u-baseboard-hw:GND #PWR088
 U 1 1 61BF8FCC
 P 3650 3250
 F 0 "#PWR088" H 3650 3000 50  0001 C CNN
@@ -672,7 +672,7 @@ F 3 "" H 3650 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR089
+L sa800u-baseboard-hw:GND #PWR089
 U 1 1 61BF983D
 P 3650 3550
 F 0 "#PWR089" H 3650 3300 50  0001 C CNN
@@ -683,7 +683,7 @@ F 3 "" H 3650 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR090
+L sa800u-baseboard-hw:GND #PWR090
 U 1 1 61BFA780
 P 3650 3750
 F 0 "#PWR090" H 3650 3500 50  0001 C CNN
@@ -728,7 +728,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 4650 3650 4650
 $Comp
-L power:GND #PWR091
+L sa800u-baseboard-hw:GND #PWR091
 U 1 1 61C531FD
 P 3650 4650
 F 0 "#PWR091" H 3650 4400 50  0001 C CNN
@@ -747,7 +747,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 4850 3800 4850
 $Comp
-L power:GND #PWR092
+L sa800u-baseboard-hw:GND #PWR092
 U 1 1 61C68198
 P 3650 4950
 F 0 "#PWR092" H 3650 4700 50  0001 C CNN
@@ -768,7 +768,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5150 3300 5150
 $Comp
-L power:GND #PWR093
+L sa800u-baseboard-hw:GND #PWR093
 U 1 1 61C7B95B
 P 3650 5250
 F 0 "#PWR093" H 3650 5000 50  0001 C CNN
@@ -789,7 +789,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5350 3800 5350
 $Comp
-L power:GND #PWR094
+L sa800u-baseboard-hw:GND #PWR094
 U 1 1 61C90A5A
 P 3650 5550
 F 0 "#PWR094" H 3650 5300 50  0001 C CNN
@@ -810,7 +810,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5650 3800 5650
 $Comp
-L power:GND #PWR095
+L sa800u-baseboard-hw:GND #PWR095
 U 1 1 61CAA88A
 P 3650 5850
 F 0 "#PWR095" H 3650 5600 50  0001 C CNN
@@ -831,7 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5950 3800 5950
 $Comp
-L power:GND #PWR096
+L sa800u-baseboard-hw:GND #PWR096
 U 1 1 61CC0A64
 P 3650 6150
 F 0 "#PWR096" H 3650 5900 50  0001 C CNN
@@ -846,7 +846,7 @@ Wire Wire Line
 Text GLabel 3800 6250 2    50   Input ~ 0
 CAM0_MCLK
 $Comp
-L power:GND #PWR097
+L sa800u-baseboard-hw:GND #PWR097
 U 1 1 61CCD768
 P 3650 6350
 F 0 "#PWR097" H 3650 6100 50  0001 C CNN
@@ -857,7 +857,7 @@ F 3 "" H 3650 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR098
+L sa800u-baseboard-hw:GND #PWR098
 U 1 1 61CD4411
 P 3650 6550
 F 0 "#PWR098" H 3650 6300 50  0001 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 3650 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR099
+L sa800u-baseboard-hw:GND #PWR099
 U 1 1 61CD5314
 P 3650 6750
 F 0 "#PWR099" H 3650 6500 50  0001 C CNN
@@ -879,7 +879,7 @@ F 3 "" H 3650 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0100
+L sa800u-baseboard-hw:GND #PWR0100
 U 1 1 61CD6288
 P 3650 6950
 F 0 "#PWR0100" H 3650 6700 50  0001 C CNN
@@ -890,7 +890,7 @@ F 3 "" H 3650 6950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0101
+L sa800u-baseboard-hw:GND #PWR0101
 U 1 1 61CD7860
 P 3650 7350
 F 0 "#PWR0101" H 3650 7100 50  0001 C CNN
@@ -901,7 +901,7 @@ F 3 "" H 3650 7350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0102
+L sa800u-baseboard-hw:GND #PWR0102
 U 1 1 61CD8775
 P 3650 7650
 F 0 "#PWR0102" H 3650 7400 50  0001 C CNN
@@ -912,7 +912,7 @@ F 3 "" H 3650 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L sa800u-baseboard-hw:GND #PWR0103
 U 1 1 61CD967F
 P 3650 7950
 F 0 "#PWR0103" H 3650 7700 50  0001 C CNN
@@ -923,7 +923,7 @@ F 3 "" H 3650 7950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L sa800u-baseboard-hw:GND #PWR0104
 U 1 1 61CDF0A8
 P 3650 8250
 F 0 "#PWR0104" H 3650 8000 50  0001 C CNN
@@ -934,7 +934,7 @@ F 3 "" H 3650 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0105
+L sa800u-baseboard-hw:GND #PWR0105
 U 1 1 61CDFF61
 P 3650 9550
 F 0 "#PWR0105" H 3650 9300 50  0001 C CNN
@@ -1074,7 +1074,7 @@ Connection ~ 3400 9950
 Wire Wire Line
 	3300 10150 3650 10150
 $Comp
-L power:GND #PWR0106
+L sa800u-baseboard-hw:GND #PWR0106
 U 1 1 61E5FE41
 P 3650 10150
 F 0 "#PWR0106" H 3650 9900 50  0001 C CNN
@@ -1089,12 +1089,12 @@ VBAT
 Text Notes 3550 9800 0    50   ~ 0
 Should this VBAT be here?\n
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:MC-HVT1-S04-G J7
+L sa800u-baseboard-hw:MC-HVT1-S04-G J7
 U 1 1 61E93EA5
 P 14900 5850
 F 0 "J7" H 15278 5954 50  0000 L CNN
 F 1 "MC-HVT1-S04-G" H 15278 5863 50  0000 L CNN
-F 2 "antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 15100 6150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" H 15100 6150 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 15100 6250 60  0001 L CNN
 F 4 "MC-HVT1-S04-G" H 15100 6350 60  0001 L CNN "MPN"
 F 5 "Multicomp" H 15100 6450 60  0001 L CNN "Manufacturer"
@@ -1124,7 +1124,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 2000 7750 2000
 $Comp
-L power:GND #PWR0107
+L sa800u-baseboard-hw:GND #PWR0107
 U 1 1 61EF7C9D
 P 7750 2000
 F 0 "#PWR0107" H 7750 1750 50  0001 C CNN
@@ -1139,7 +1139,7 @@ DSI0_LN3_N
 Text GLabel 7600 2200 0    50   Input ~ 0
 DSI0_LN3_P
 $Comp
-L power:GND #PWR0108
+L sa800u-baseboard-hw:GND #PWR0108
 U 1 1 61F03CDF
 P 7750 2300
 F 0 "#PWR0108" H 7750 2050 50  0001 C CNN
@@ -1150,7 +1150,7 @@ F 3 "" H 7750 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L sa800u-baseboard-hw:GND #PWR0109
 U 1 1 61F044E0
 P 7750 2600
 F 0 "#PWR0109" H 7750 2350 50  0001 C CNN
@@ -1161,7 +1161,7 @@ F 3 "" H 7750 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0110
+L sa800u-baseboard-hw:GND #PWR0110
 U 1 1 61F05971
 P 7750 2900
 F 0 "#PWR0110" H 7750 2650 50  0001 C CNN
@@ -1172,7 +1172,7 @@ F 3 "" H 7750 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0111
+L sa800u-baseboard-hw:GND #PWR0111
 U 1 1 61F08B02
 P 7750 3200
 F 0 "#PWR0111" H 7750 2950 50  0001 C CNN
@@ -1183,7 +1183,7 @@ F 3 "" H 7750 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0112
+L sa800u-baseboard-hw:GND #PWR0112
 U 1 1 61F098C6
 P 7750 3500
 F 0 "#PWR0112" H 7750 3250 50  0001 C CNN
@@ -1194,7 +1194,7 @@ F 3 "" H 7750 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0113
+L sa800u-baseboard-hw:GND #PWR0113
 U 1 1 61F0C799
 P 7750 6300
 F 0 "#PWR0113" H 7750 6050 50  0001 C CNN
@@ -1205,7 +1205,7 @@ F 3 "" H 7750 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0114
+L sa800u-baseboard-hw:GND #PWR0114
 U 1 1 61F37BAA
 P 7750 6600
 F 0 "#PWR0114" H 7750 6350 50  0001 C CNN
@@ -1216,7 +1216,7 @@ F 3 "" H 7750 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0115
+L sa800u-baseboard-hw:GND #PWR0115
 U 1 1 61F399BD
 P 7750 6900
 F 0 "#PWR0115" H 7750 6650 50  0001 C CNN
@@ -1227,7 +1227,7 @@ F 3 "" H 7750 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0116
+L sa800u-baseboard-hw:GND #PWR0116
 U 1 1 61F3D153
 P 7750 7200
 F 0 "#PWR0116" H 7750 6950 50  0001 C CNN
@@ -1238,7 +1238,7 @@ F 3 "" H 7750 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0117
+L sa800u-baseboard-hw:GND #PWR0117
 U 1 1 61F40C5B
 P 7750 7500
 F 0 "#PWR0117" H 7750 7250 50  0001 C CNN
@@ -1249,7 +1249,7 @@ F 3 "" H 7750 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0118
+L sa800u-baseboard-hw:GND #PWR0118
 U 1 1 61F4308E
 P 7750 9300
 F 0 "#PWR0118" H 7750 9050 50  0001 C CNN
@@ -1260,7 +1260,7 @@ F 3 "" H 7750 9300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0119
+L sa800u-baseboard-hw:GND #PWR0119
 U 1 1 61F5AB91
 P 7750 9900
 F 0 "#PWR0119" H 7750 9650 50  0001 C CNN
@@ -1548,7 +1548,7 @@ Wire Wire Line
 Text GLabel 10250 1500 2    50   Input ~ 0
 SBU_SW_OE
 $Comp
-L power:GND #PWR0120
+L sa800u-baseboard-hw:GND #PWR0120
 U 1 1 624C9A0C
 P 10100 2000
 F 0 "#PWR0120" H 10100 1750 50  0001 C CNN
@@ -1559,7 +1559,7 @@ F 3 "" H 10100 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L sa800u-baseboard-hw:GND #PWR0121
 U 1 1 624C9FC5
 P 10100 2300
 F 0 "#PWR0121" H 10100 2050 50  0001 C CNN
@@ -1572,7 +1572,7 @@ $EndComp
 Wire Wire Line
 	9750 2600 10100 2600
 $Comp
-L power:GND #PWR0122
+L sa800u-baseboard-hw:GND #PWR0122
 U 1 1 624CC7DB
 P 10100 2600
 F 0 "#PWR0122" H 10100 2350 50  0001 C CNN
@@ -1585,7 +1585,7 @@ $EndComp
 Wire Wire Line
 	9750 2900 10100 2900
 $Comp
-L power:GND #PWR0123
+L sa800u-baseboard-hw:GND #PWR0123
 U 1 1 624F9F2F
 P 10100 2900
 F 0 "#PWR0123" H 10100 2650 50  0001 C CNN
@@ -1598,7 +1598,7 @@ $EndComp
 Wire Wire Line
 	9750 3200 10100 3200
 $Comp
-L power:GND #PWR0124
+L sa800u-baseboard-hw:GND #PWR0124
 U 1 1 62512479
 P 10100 3200
 F 0 "#PWR0124" H 10100 2950 50  0001 C CNN
@@ -1611,7 +1611,7 @@ $EndComp
 Wire Wire Line
 	9750 3500 10100 3500
 $Comp
-L power:GND #PWR0125
+L sa800u-baseboard-hw:GND #PWR0125
 U 1 1 625292F6
 P 10100 3500
 F 0 "#PWR0125" H 10100 3250 50  0001 C CNN
@@ -1624,7 +1624,7 @@ $EndComp
 Wire Wire Line
 	9750 3700 10100 3700
 $Comp
-L power:GND #PWR0126
+L sa800u-baseboard-hw:GND #PWR0126
 U 1 1 6254037D
 P 10100 3700
 F 0 "#PWR0126" H 10100 3450 50  0001 C CNN
@@ -1637,7 +1637,7 @@ $EndComp
 Wire Wire Line
 	9750 4100 10100 4100
 $Comp
-L power:GND #PWR0127
+L sa800u-baseboard-hw:GND #PWR0127
 U 1 1 625594B7
 P 10100 4100
 F 0 "#PWR0127" H 10100 3850 50  0001 C CNN
@@ -1650,7 +1650,7 @@ $EndComp
 Wire Wire Line
 	9750 6600 10100 6600
 $Comp
-L power:GND #PWR0128
+L sa800u-baseboard-hw:GND #PWR0128
 U 1 1 625786F9
 P 10100 6600
 F 0 "#PWR0128" H 10100 6350 50  0001 C CNN
@@ -1663,7 +1663,7 @@ $EndComp
 Wire Wire Line
 	9750 7200 10100 7200
 $Comp
-L power:GND #PWR0130
+L sa800u-baseboard-hw:GND #PWR0130
 U 1 1 62592AEE
 P 10100 7200
 F 0 "#PWR0130" H 10100 6950 50  0001 C CNN
@@ -1676,7 +1676,7 @@ $EndComp
 Wire Wire Line
 	9750 7500 10100 7500
 $Comp
-L power:GND #PWR0131
+L sa800u-baseboard-hw:GND #PWR0131
 U 1 1 625ABAB3
 P 10100 7500
 F 0 "#PWR0131" H 10100 7250 50  0001 C CNN
@@ -1689,7 +1689,7 @@ $EndComp
 Wire Wire Line
 	9750 7800 10100 7800
 $Comp
-L power:GND #PWR0132
+L sa800u-baseboard-hw:GND #PWR0132
 U 1 1 625C38CB
 P 10100 7800
 F 0 "#PWR0132" H 10100 7550 50  0001 C CNN
@@ -1702,7 +1702,7 @@ $EndComp
 Wire Wire Line
 	9750 9200 10100 9200
 $Comp
-L power:GND #PWR0133
+L sa800u-baseboard-hw:GND #PWR0133
 U 1 1 625E1681
 P 10100 9200
 F 0 "#PWR0133" H 10100 8950 50  0001 C CNN
@@ -1715,7 +1715,7 @@ $EndComp
 Wire Wire Line
 	9750 9500 10100 9500
 $Comp
-L power:GND #PWR0134
+L sa800u-baseboard-hw:GND #PWR0134
 U 1 1 625F9A0C
 P 10100 9500
 F 0 "#PWR0134" H 10100 9250 50  0001 C CNN
@@ -1728,7 +1728,7 @@ $EndComp
 Wire Wire Line
 	9750 9800 10100 9800
 $Comp
-L power:GND #PWR0135
+L sa800u-baseboard-hw:GND #PWR0135
 U 1 1 6262E1CB
 P 10100 9800
 F 0 "#PWR0135" H 10100 9550 50  0001 C CNN
@@ -1741,7 +1741,7 @@ $EndComp
 Wire Wire Line
 	9750 9900 10100 9900
 $Comp
-L power:GND #PWR0136
+L sa800u-baseboard-hw:GND #PWR0136
 U 1 1 62646ADF
 P 10100 9900
 F 0 "#PWR0136" H 10100 9650 50  0001 C CNN
@@ -1831,7 +1831,7 @@ USB2_D_N
 Wire Wire Line
 	9750 6900 10100 6900
 $Comp
-L power:GND #PWR0129
+L sa800u-baseboard-hw:GND #PWR0129
 U 1 1 627C1693
 P 10100 6900
 F 0 "#PWR0129" H 10100 6650 50  0001 C CNN
@@ -1996,7 +1996,7 @@ VRTC
 Wire Wire Line
 	15050 3450 15050 3650
 $Comp
-L power:GND #PWR0143
+L sa800u-baseboard-hw:GND #PWR0143
 U 1 1 63057AA6
 P 15050 4250
 F 0 "#PWR0143" H 15050 4000 50  0001 C CNN
@@ -2065,7 +2065,7 @@ Wire Wire Line
 	11600 6250 11800 6250
 Connection ~ 11600 6400
 $Comp
-L power:GND #PWR0137
+L sa800u-baseboard-hw:GND #PWR0137
 U 1 1 61DF7B28
 P 11600 6550
 F 0 "#PWR0137" H 11600 6300 50  0001 C CNN
@@ -2079,12 +2079,12 @@ Wire Wire Line
 	11600 6400 11600 6550
 Connection ~ 12650 5950
 $Comp
-L antmicroResistors0402:R_1k_0402 R73
+L sa800u-baseboard-hw:R_1k_0402 R73
 U 1 1 61E99588
 P 13050 5950
 F 0 "R73" H 13050 6163 60  0000 C CNN
 F 1 "R_1k_0402" H 13050 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13250 6150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13250 6150 60  0001 L CNN
 F 3 "" H 13050 5950 50  0001 C CNN
 F 4 "BOURNS" H 13250 6350 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 13250 6250 60  0001 L CNN "MPN"
@@ -2124,7 +2124,7 @@ Wire Wire Line
 	11650 5300 11650 5400
 Connection ~ 11650 5300
 $Comp
-L power:GND #PWR0140
+L sa800u-baseboard-hw:GND #PWR0140
 U 1 1 6208ED35
 P 11650 5400
 F 0 "#PWR0140" H 11650 5150 50  0001 C CNN
@@ -2138,12 +2138,12 @@ Wire Wire Line
 	12300 4850 12700 4850
 Connection ~ 12300 4850
 $Comp
-L antmicroResistors0402:R_1k_0402 R76
+L sa800u-baseboard-hw:R_1k_0402 R76
 U 1 1 621BFD42
 P 13150 4850
 F 0 "R76" H 13150 5063 60  0000 C CNN
 F 1 "R_1k_0402" H 13150 4700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13350 5050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13350 5050 60  0001 L CNN
 F 3 "" H 13150 4850 50  0001 C CNN
 F 4 "BOURNS" H 13350 5250 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 13350 5150 60  0001 L CNN "MPN"
@@ -2183,12 +2183,12 @@ Wire Wire Line
 	12700 3750 13000 3750
 Connection ~ 12700 3750
 $Comp
-L antmicroResistors0402:R_1k_0402 R75
+L sa800u-baseboard-hw:R_1k_0402 R75
 U 1 1 622FD9DE
 P 13150 3750
 F 0 "R75" H 13150 3963 60  0000 C CNN
 F 1 "R_1k_0402" H 13150 3600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13350 3950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13350 3950 60  0001 L CNN
 F 3 "" H 13150 3750 50  0001 C CNN
 F 4 "BOURNS" H 13350 4150 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 13350 4050 60  0001 L CNN "MPN"
@@ -2220,7 +2220,7 @@ Wire Wire Line
 	11650 4200 11650 4300
 Connection ~ 11650 4200
 $Comp
-L power:GND #PWR0139
+L sa800u-baseboard-hw:GND #PWR0139
 U 1 1 62391617
 P 11650 4300
 F 0 "#PWR0139" H 11650 4050 50  0001 C CNN
@@ -2234,7 +2234,7 @@ Wire Wire Line
 	11650 3050 11650 3150
 Connection ~ 11650 3050
 $Comp
-L power:GND #PWR0138
+L sa800u-baseboard-hw:GND #PWR0138
 U 1 1 623C59A8
 P 11650 3150
 F 0 "#PWR0138" H 11650 2900 50  0001 C CNN
@@ -2251,12 +2251,12 @@ Wire Wire Line
 	12700 2600 13000 2600
 Connection ~ 12700 2600
 $Comp
-L antmicroResistors0402:R_1k_0402 R74
+L sa800u-baseboard-hw:R_1k_0402 R74
 U 1 1 62425590
 P 13150 2600
 F 0 "R74" H 13150 2813 60  0000 C CNN
 F 1 "R_1k_0402" H 13150 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13350 2800 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13350 2800 60  0001 L CNN
 F 3 "" H 13150 2600 50  0001 C CNN
 F 4 "BOURNS" H 13350 3000 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 13350 2900 60  0001 L CNN "MPN"
@@ -2297,7 +2297,7 @@ Wire Wire Line
 Text Label 11500 7400 0    50   ~ 0
 VOL_UP_TVS
 $Comp
-L power:GND #PWR0144
+L sa800u-baseboard-hw:GND #PWR0144
 U 1 1 61F2FF9D
 P 15300 7200
 F 0 "#PWR0144" H 15300 6950 50  0001 C CNN
@@ -2324,12 +2324,12 @@ Wire Wire Line
 Text Label 11500 7200 0    50   ~ 0
 PWRKEY_TVS
 $Comp
-L antmicroTVSDiodes:RCLAMP2504N.TCT D14
+L sa800u-baseboard-hw:RCLAMP2504N.TCT D14
 U 1 1 61D0B3AA
 P 13500 7450
 F 0 "D14" H 13500 8247 50  0000 C CNN
 F 1 "RCLAMP2504N.TCT" H 13500 8156 50  0000 C CNN
-F 2 "antmicro-footprints:RCLAMP2504N.TCT" H 13500 7450 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:RCLAMP2504N.TCT" H 13500 7450 50  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/761/SEMTS05345_1-2575174.pdf" H 13500 7450 50  0001 C CNN
 F 4 "RCLAMP2504N.TCT" H 13500 8065 50  0000 C CNN "MPN"
 F 5 "SEMTECH" H 13500 7974 50  0000 C CNN "Manufacturer"
@@ -2349,12 +2349,12 @@ Wire Wire Line
 Wire Wire Line
 	8100 5400 7600 5400
 $Comp
-L antmicroCapacitorsmisc:C_100u_0805 C92
+L sa800u-baseboard-hw:C_100u_0805 C92
 U 1 1 61F3DBE1
 P 12550 9100
 F 0 "C92" H 12665 9145 60  0000 L CNN
 F 1 "C_100u_0805" H 12550 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 12750 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 12750 9300 60  0001 L CNN
 F 3 "" H 12550 9100 50  0001 C CNN
 F 4 "MURATA" H 12750 9500 60  0001 L CNN "Manufacturer"
 F 5 "GRM21BR60J107ME15L" H 12750 9400 60  0001 L CNN "MPN"
@@ -2363,12 +2363,12 @@ F 6 "100u" H 12665 9047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C93
+L sa800u-baseboard-hw:C_100n_0402 C93
 U 1 1 61F40427
 P 13000 9100
 F 0 "C93" H 13115 9145 60  0000 L CNN
 F 1 "C_100n_0402" H 13000 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13200 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 13200 9300 60  0001 L CNN
 F 3 "" H 13000 9100 50  0001 C CNN
 F 4 "Walsin" H 13200 9500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13200 9400 60  0001 L CNN "MPN"
@@ -2377,12 +2377,12 @@ F 6 "100n" H 13115 9047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_33p_0402 C94
+L sa800u-baseboard-hw:C_33p_0402 C94
 U 1 1 61F422BA
 P 13450 9100
 F 0 "C94" H 13565 9145 60  0000 L CNN
 F 1 "C_33p_0402" H 13450 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13650 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 13650 9300 60  0001 L CNN
 F 3 "" H 13450 9100 50  0001 C CNN
 F 4 "MULTICOMP" H 13650 9500 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N330J500CT" H 13650 9400 60  0001 L CNN "MPN"
@@ -2391,12 +2391,12 @@ F 6 "33p" H 13565 9047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10p_0402 C95
+L sa800u-baseboard-hw:C_10p_0402 C95
 U 1 1 61F4405A
 P 13850 9100
 F 0 "C95" H 13965 9145 60  0000 L CNN
 F 1 "C_10p_0402" H 13850 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14050 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 14050 9300 60  0001 L CNN
 F 3 "" H 13850 9100 50  0001 C CNN
 F 4 "MULTICOMP" H 14050 9500 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N100D500CT" H 14050 9400 60  0001 L CNN "MPN"
@@ -2429,7 +2429,7 @@ Connection ~ 13450 9350
 Wire Wire Line
 	13450 9350 13850 9350
 $Comp
-L power:GND #PWR0141
+L sa800u-baseboard-hw:GND #PWR0141
 U 1 1 620569CD
 P 12550 9450
 F 0 "#PWR0141" H 12550 9200 50  0001 C CNN
@@ -2443,12 +2443,12 @@ Wire Wire Line
 	12550 9450 12550 9350
 Connection ~ 12550 9350
 $Comp
-L antmicroTVSDiodes:STS321045B502 D15
+L sa800u-baseboard-hw:STS321045B502 D15
 U 1 1 620E0161
 P 14650 9100
 F 0 "D15" V 14604 9328 50  0000 L CNN
 F 1 "STS321045B502" V 14695 9328 50  0000 L CNN
-F 2 "antmicro-footprints:STS321045B502" H 14650 9100 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:STS321045B502" H 14650 9100 50  0001 C CNN
 F 3 "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sts321045b502-tvs-diode-esd-suppressor-data-sheet.pdf" H 14650 9100 50  0001 C CNN
 F 4 "STS321045B502" H 14650 9100 50  0001 C CNN "MPN"
 F 5 "Cooper Bussmann" H 14650 9100 50  0001 C CNN "Manufacturer"
@@ -2460,7 +2460,7 @@ VBAT
 Wire Wire Line
 	14650 8050 14650 8300
 $Comp
-L power:GND #PWR0142
+L sa800u-baseboard-hw:GND #PWR0142
 U 1 1 6211DF21
 P 14650 10000
 F 0 "#PWR0142" H 14650 9750 50  0001 C CNN
@@ -2479,12 +2479,12 @@ Wire Wire Line
 Text GLabel 11500 8750 0    50   Input ~ 0
 VBAT
 $Comp
-L antmicroCapacitorsmisc:C_100u_0805 C?
+L sa800u-baseboard-hw:C_100u_0805 C?
 U 1 1 620055D3
 P 12150 9100
 F 0 "C?" H 12265 9145 60  0000 L CNN
 F 1 "C_100u_0805" H 12150 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 12350 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 12350 9300 60  0001 L CNN
 F 3 "" H 12150 9100 50  0001 C CNN
 F 4 "MURATA" H 12350 9500 60  0001 L CNN "Manufacturer"
 F 5 "GRM21BR60J107ME15L" H 12350 9400 60  0001 L CNN "MPN"
@@ -2493,12 +2493,12 @@ F 6 "100u" H 12265 9047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_100u_0805 C?
+L sa800u-baseboard-hw:C_100u_0805 C?
 U 1 1 62006DC2
 P 11750 9100
 F 0 "C?" H 11865 9145 60  0000 L CNN
 F 1 "C_100u_0805" H 11750 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 11950 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 11950 9300 60  0001 L CNN
 F 3 "" H 11750 9100 50  0001 C CNN
 F 4 "MURATA" H 11950 9500 60  0001 L CNN "Manufacturer"
 F 5 "GRM21BR60J107ME15L" H 11950 9400 60  0001 L CNN "MPN"
