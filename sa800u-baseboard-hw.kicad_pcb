@@ -1851,7 +1851,7 @@
     (add_net VCOM)
   )
 
-  (module antmicro-footprints:1210-cap (layer F.Cu) (tedit 5FD9C203) (tstamp 61A920AC)
+  (module sa800u-baseboard-hw-footprints:1210-cap (layer F.Cu) (tedit 5FD9C203) (tstamp 61A920AC)
     (at 99.995001 29.015001)
     (descr http://www.murata-ps.com/data/magnetics/kmp_8200c.pdf)
     (path /618E716E/61C3DA16)
@@ -1879,14 +1879,14 @@
       (net 3 "Net-(C1-Pad2)"))
     (pad 1 smd rect (at -1.145 0) (size 1.52 3.05) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model ${ANT3DMDL}/1210-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/1210-cap.step
       (offset (xyz -1.6 1.2 0.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920BB)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920BB)
     (at 114.715001 27.705001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1913,14 +1913,14 @@
       (net 6 "Net-(C2-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 20 PCIE1_RX_P))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920CA)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920CA)
     (at 111.805001 29.695001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1947,14 +1947,14 @@
       (net 21 PCIE1_RX_N))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 7 "Net-(C3-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920D9)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920D9)
     (at 114.715001 29.695001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1981,14 +1981,14 @@
       (net 5 PAIR78))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 "Net-(C4-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920E8)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A920E8)
     (at 108.255001 30.175001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2015,14 +2015,14 @@
       (net 12 "Net-(C5-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 8 PAIR45))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:1210-cap (layer F.Cu) (tedit 5FD9C203) (tstamp 61A920F9)
+  (module sa800u-baseboard-hw-footprints:1210-cap (layer F.Cu) (tedit 5FD9C203) (tstamp 61A920F9)
     (at 139.485001 5.775001)
     (descr http://www.murata-ps.com/data/magnetics/kmp_8200c.pdf)
     (path /618E716E/61BDD4DE)
@@ -2050,14 +2050,14 @@
       (net 9 Earth))
     (pad 2 smd rect (at 1.145 0) (size 1.52 3.05) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(C6-Pad2)"))
-    (model ${ANT3DMDL}/1210-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/1210-cap.step
       (offset (xyz -1.6 1.2 0.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92108)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92108)
     (at 111.805001 27.705001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2084,14 +2084,14 @@
       (net 11 PAIR36))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 765 "Net-(C7-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92117)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92117)
     (at 142.955001 9.415001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2118,14 +2118,14 @@
       (net 766 "Net-(C8-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 14 PAIR12))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92126)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92126)
     (at 127.145001 24.515001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2152,14 +2152,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 15 /Ethernet_Controller/XTAL1))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92135)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92135)
     (at 124.235001 26.505001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2186,14 +2186,14 @@
       (net 16 /Ethernet_Controller/XTAL2))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92144)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92144)
     (at 48.375001 58.525001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2220,14 +2220,14 @@
       (net 37 RST_N))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92153)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92153)
     (at 60.705001 44.355001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2254,14 +2254,14 @@
       (net 38 /HDMI_converter/XTALO))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92162)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92162)
     (at 58.415001 48.875001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2288,14 +2288,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 39 /HDMI_converter/XTALI))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92171)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92171)
     (at 61.165001 46.345001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2322,14 +2322,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92180)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92180)
     (at 55.505001 50.365001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2356,14 +2356,14 @@
       (net 26 3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9218F)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9218F)
     (at 64.825001 41.105001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2390,14 +2390,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9219E)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9219E)
     (at 141.185001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2424,14 +2424,14 @@
       (net 767 "Net-(C17-Pad1)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 22 "/USB-C_Interface /USB1_SS_TX0_P"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A921AD)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A921AD)
     (at 176.305001 -40.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2458,14 +2458,14 @@
       (net 24 "/USB-C_Interface /USB1_SS_TX0_N"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 768 "Net-(C18-Pad1)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A921C1)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A921C1)
     (at 150.945001 -32.764999)
     (path /61A2F307/61B288A3)
     (attr smd)
@@ -2493,14 +2493,14 @@
       (net 27 VBUS))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 40 "/USB-C_Interface /USB1_SS_RX1_N"))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A921D5)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A921D5)
     (at 156.275001 -25.234999)
     (path /61A2F307/61B290D9)
     (attr smd)
@@ -2528,14 +2528,14 @@
       (net 41 "/USB-C_Interface /USB1_SS_RX1_P"))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(C20-Pad1)"))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A921E4)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A921E4)
     (at 129.545001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2562,14 +2562,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 27 VBUS))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A921F3)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A921F3)
     (at 135.365001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2596,14 +2596,14 @@
       (net 29 "/USB-C_Interface /USB1_SS_RX0_P"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 769 "Net-(C22-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92202)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92202)
     (at 144.095001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2630,14 +2630,14 @@
       (net 30 "/USB-C_Interface /USB1_SS_RX0_N"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 770 "Net-(C23-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92211)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92211)
     (at 147.005001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2664,14 +2664,14 @@
       (net 28 "Net-(C24-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 32 "/USB-C_Interface /USB1_SS_TX1_N"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92220)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A92220)
     (at 165.135001 -35.254999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2698,14 +2698,14 @@
       (net 33 "/USB-C_Interface /USB1_SS_TX1_P"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 31 "Net-(C25-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9222F)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9222F)
     (at 173.395001 -40.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2732,14 +2732,14 @@
       (net 26 3V3))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9223E)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9223E)
     (at 165.135001 -28.264999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2766,14 +2766,14 @@
       (net 34 "Net-(C27-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 35 EDP_AUX_N))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9224D)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A9224D)
     (at 158.865001 -23.004999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2800,14 +2800,14 @@
       (net 36 EDP_AUX_P))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 771 "Net-(C28-Pad2)"))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:CP_Elec_10x10.5 (layer F.Cu) (tedit 5ED8C968) (tstamp 61AAE065)
+  (module sa800u-baseboard-hw-footprints:CP_Elec_10x10.5 (layer F.Cu) (tedit 5ED8C968) (tstamp 61AAE065)
     (at 65.5 122.5 270)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1010, 10.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
@@ -2859,14 +2859,14 @@
       (net 18 GNDD))
     (pad 1 smd roundrect (at -4.2 0 270) (size 4.4 2.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1)
       (net 772 "Net-(C29-Pad1)"))
-    (model ${ANT3DMDL}/CP_Elec_10x10.5.step
+    (model ${KIPRJMOD}/lib/3d-models/CP_Elec_10x10.5.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:CP_Elec_10x10.5 (layer F.Cu) (tedit 5ED8C968) (tstamp 61A9229D)
+  (module sa800u-baseboard-hw-footprints:CP_Elec_10x10.5 (layer F.Cu) (tedit 5ED8C968) (tstamp 61A9229D)
     (at 79.5 123 270)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1010, 10.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
@@ -2918,14 +2918,14 @@
       (net 772 "Net-(C29-Pad1)"))
     (pad 2 smd roundrect (at 4.2 0 270) (size 4.4 2.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1)
       (net 18 GNDD))
-    (model ${ANT3DMDL}/CP_Elec_10x10.5.step
+    (model ${KIPRJMOD}/lib/3d-models/CP_Elec_10x10.5.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0805-cap (layer F.Cu) (tedit 5FD9C126) (tstamp 61A922AD)
+  (module sa800u-baseboard-hw-footprints:0805-cap (layer F.Cu) (tedit 5FD9C126) (tstamp 61A922AD)
     (at 60.105001 35.225001)
     (path /61A19323/61A46183)
     (attr smd)
@@ -2949,14 +2949,14 @@
       (net 17 /PoE/VDD))
     (pad 2 smd rect (at 1.05 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 773 "Net-(C31-Pad2)"))
-    (model ${ANT3DMDL}/0805-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0805-cap.step
       (offset (xyz -1 0.7 1.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:KEMET_A (layer F.Cu) (tedit 5EDA24BB) (tstamp 61A922B9)
+  (module sa800u-baseboard-hw-footprints:KEMET_A (layer F.Cu) (tedit 5EDA24BB) (tstamp 61A922B9)
     (at 86.36492 16.880001)
     (path /61A19323/61A460A3)
     (fp_text reference C32 (at -2.50444 -1.19634) (layer F.SilkS)
@@ -2979,7 +2979,7 @@
       (net 4 GND))
   )
 
-  (module antmicro-footprints:0805-cap (layer F.Cu) (tedit 5FD9C126) (tstamp 61A922C9)
+  (module sa800u-baseboard-hw-footprints:0805-cap (layer F.Cu) (tedit 5FD9C126) (tstamp 61A922C9)
     (at 55.255001 35.225001)
     (path /61A19323/61A46095)
     (attr smd)
@@ -3003,14 +3003,14 @@
       (net 4 GND))
     (pad 1 smd rect (at -1.05 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask)
       (net 19 5V))
-    (model ${ANT3DMDL}/0805-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0805-cap.step
       (offset (xyz -1 0.7 1.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A922D8)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A922D8)
     (at 78.675001 23.575001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3037,14 +3037,14 @@
       (net 19 5V))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A922E7)
+  (module sa800u-baseboard-hw-footprints:0402-cap (layer F.Cu) (tedit 616D63CF) (tstamp 61A922E7)
     (at 68.835001 35.075001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -3071,14 +3071,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 19 5V))
-    (model ${ANT3DMDL}/0402-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-cap.step
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:CP_Elec_10x10.5 (layer B.Cu) (tedit 5ED8C968) (tstamp 61AC4B5D)
+  (module sa800u-baseboard-hw-footprints:CP_Elec_10x10.5 (layer B.Cu) (tedit 5ED8C968) (tstamp 61AC4B5D)
     (at 70.5 107 270)
     (descr "SMD capacitor, aluminum electrolytic, Vishay 1010, 10.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf")
     (tags "capacitor electrolytic")
@@ -3130,14 +3130,14 @@
       (net 17 /PoE/VDD))
     (pad 2 smd roundrect (at 4.2 0 270) (size 4.4 2.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1)
       (net 774 "Net-(C36-Pad2)"))
-    (model ${ANT3DMDL}/CP_Elec_10x10.5.step
+    (model ${KIPRJMOD}/lib/3d-models/CP_Elec_10x10.5.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 61A9232B)
+  (module sa800u-baseboard-hw-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 61A9232B)
     (at 139.150001 10.555001)
     (path /618E716E/61976A91)
     (attr smd)
@@ -3176,14 +3176,14 @@
       (solder_mask_margin 0.07))
     (pad 3 smd rect (at 1.05 0) (size 1.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 44 /Ethernet_Controller/ETH_LED0) (solder_mask_margin 0.07))
-    (model ${ANT3DMDL}/sot23-3.step
+    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module antmicro-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 61A92347)
+  (module sa800u-baseboard-hw-footprints:SOT-23-3 (layer F.Cu) (tedit 5D5D4314) (tstamp 61A92347)
     (at 144.520001 5.945001)
     (path /618E716E/61991971)
     (attr smd)
@@ -3222,14 +3222,14 @@
       (solder_mask_margin 0.07))
     (pad 1 smd rect (at -1.05 -0.95) (size 1.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 4 GND) (solder_mask_margin 0.07))
-    (model ${ANT3DMDL}/sot23-3.step
+    (model ${KIPRJMOD}/lib/3d-models/sot23-3.step
       (offset (xyz 0 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
     )
   )
 
-  (module antmicro-footprints:DO-214AC (layer F.Cu) (tedit 5ED8CF42) (tstamp 61A9236A)
+  (module sa800u-baseboard-hw-footprints:DO-214AC (layer F.Cu) (tedit 5ED8CF42) (tstamp 61A9236A)
     (at 48.375001 42.185001)
     (path /6197686D/61AB5487)
     (attr smd)
@@ -3274,14 +3274,14 @@
       (net 775 "Net-(D3-PadK)"))
     (pad A smd rect (at 2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 26 3V3))
-    (model ${ANT3DMDL}/DO-214AC.step
+    (model ${KIPRJMOD}/lib/3d-models/DO-214AC.step
       (offset (xyz 0 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:SOT95P230X110-3N (layer F.Cu) (tedit 61A0F043) (tstamp 61A9238B)
+  (module sa800u-baseboard-hw-footprints:SOT95P230X110-3N (layer F.Cu) (tedit 61A0F043) (tstamp 61A9238B)
     (at 152.120001 -24.194999)
     (path /61A2F307/61A30594)
     (fp_text reference D4 (at 0.282 -2.4464) (layer F.SilkS)
@@ -3320,14 +3320,14 @@
       (net 4 GND))
     (pad 2 smd roundrect (at -0.98 0.95) (size 1.26 0.59) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001))
     (pad 3 smd roundrect (at 0.98 0) (size 1.26 0.59) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001))
-    (model ${ANT3DMDL}/SOT95P230X110-3N.step
+    (model ${KIPRJMOD}/lib/3d-models/SOT95P230X110-3N.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:SOT95P230X110-3N (layer F.Cu) (tedit 61A0F043) (tstamp 61A923AC)
+  (module sa800u-baseboard-hw-footprints:SOT95P230X110-3N (layer F.Cu) (tedit 61A0F043) (tstamp 61A923AC)
     (at 166.630001 -31.534999)
     (path /61A2F307/61A2E749)
     (fp_text reference D5 (at 0.282 -2.4464) (layer F.SilkS)
@@ -3366,14 +3366,14 @@
     (pad 2 smd roundrect (at -0.98 0.95) (size 1.26 0.59) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001))
     (pad 1 smd roundrect (at -0.98 -0.95) (size 1.26 0.59) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.07000000000000001)
       (net 4 GND))
-    (model ${ANT3DMDL}/SOT95P230X110-3N.step
+    (model ${KIPRJMOD}/lib/3d-models/SOT95P230X110-3N.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:PGB1010603MR (layer F.Cu) (tedit 5D778FD7) (tstamp 61A923C0)
+  (module sa800u-baseboard-hw-footprints:PGB1010603MR (layer F.Cu) (tedit 5D778FD7) (tstamp 61A923C0)
     (at 150.945001 -30.294999)
     (path /61A2F307/61B3161C)
     (fp_text reference D6 (at 0.25 -1.45) (layer F.SilkS)
@@ -3400,14 +3400,14 @@
       (net 42 "/USB-C_Interface /USB_CC1"))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model ${ANT3DMDL}/PGB1010603MR.step
+    (model ${KIPRJMOD}/lib/3d-models/PGB1010603MR.step
       (offset (xyz 0 0 -0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:PGB1010603MR (layer F.Cu) (tedit 5D778FD7) (tstamp 61A923D4)
+  (module sa800u-baseboard-hw-footprints:PGB1010603MR (layer F.Cu) (tedit 5D778FD7) (tstamp 61A923D4)
     (at 150.945001 -27.824999)
     (path /61A2F307/61B97586)
     (fp_text reference D7 (at 0.25 -1.45) (layer F.SilkS)
@@ -3434,14 +3434,14 @@
       (net 4 GND))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 43 "/USB-C_Interface /USB_CC2"))
-    (model ${ANT3DMDL}/PGB1010603MR.step
+    (model ${KIPRJMOD}/lib/3d-models/PGB1010603MR.step
       (offset (xyz 0 0 -0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:MB10S (layer B.Cu) (tedit 5ED65AD2) (tstamp 61A923EC)
+  (module sa800u-baseboard-hw-footprints:MB10S (layer B.Cu) (tedit 5ED65AD2) (tstamp 61A923EC)
     (at 90.5 103)
     (path /61A19323/61A461C1)
     (fp_text reference D8 (at -0.218388 3.412419) (layer B.SilkS)
@@ -3474,14 +3474,14 @@
       (net 776 "Net-(D8-Pad2)"))
     (pad 1 smd rect (at -2.85 1.225) (size 1.8 1) (layers B.Cu B.Paste B.Mask)
       (net 777 "Net-(D8-Pad1)"))
-    (model ${ANT3DMDL}/MB10S.step
+    (model ${KIPRJMOD}/lib/3d-models/MB10S.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module antmicro-footprints:MB10S (layer B.Cu) (tedit 5ED65AD2) (tstamp 61A92404)
+  (module sa800u-baseboard-hw-footprints:MB10S (layer B.Cu) (tedit 5ED65AD2) (tstamp 61A92404)
     (at 90.5 97)
     (path /61A19323/61A461B9)
     (fp_text reference D9 (at -0.218388 3.412419) (layer B.SilkS)
@@ -3514,14 +3514,14 @@
       (net 5 PAIR78))
     (pad 4 smd rect (at 2.85 1.225) (size 1.8 1) (layers B.Cu B.Paste B.Mask)
       (net 8 PAIR45))
-    (model ${ANT3DMDL}/MB10S.step
+    (model ${KIPRJMOD}/lib/3d-models/MB10S.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module antmicro-footprints:DO-214AC (layer F.Cu) (tedit 5ED8CF42) (tstamp 61A92427)
+  (module sa800u-baseboard-hw-footprints:DO-214AC (layer F.Cu) (tedit 5ED8CF42) (tstamp 61A92427)
     (at 81.245001 17.595001)
     (path /61A19323/61A4618F)
     (attr smd)
@@ -3566,14 +3566,14 @@
       (net 773 "Net-(C31-Pad2)"))
     (pad K smd rect (at -2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 17 /PoE/VDD))
-    (model ${ANT3DMDL}/DO-214AC.step
+    (model ${KIPRJMOD}/lib/3d-models/DO-214AC.step
       (offset (xyz 0 0 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:SOD-123 (layer F.Cu) (tedit 60F66D22) (tstamp 61A9243F)
+  (module sa800u-baseboard-hw-footprints:SOD-123 (layer F.Cu) (tedit 60F66D22) (tstamp 61A9243F)
     (at 56.530001 32.095001)
     (path /61A19323/61A46110)
     (attr smd)
@@ -3607,14 +3607,14 @@
       (net 774 "Net-(C36-Pad2)"))
     (pad A smd rect (at 1.575 0) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask)
       (net 18 GNDD))
-    (model ${ANT3DMDL}/SOD123.step
+    (model ${KIPRJMOD}/lib/3d-models/SOD123.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
   )
 
-  (module antmicro-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 61A9244F)
+  (module sa800u-baseboard-hw-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 61A9244F)
     (at 70.5 97.5 180)
     (path /61A19323/61A460F4)
     (attr smd)
@@ -3638,14 +3638,14 @@
       (net 772 "Net-(C29-Pad1)"))
     (pad 1 smd rect (at -1.05 0 180) (size 1.2 1.2) (layers B.Cu B.Paste B.Mask)
       (net 17 /PoE/VDD))
-    (model ${ANT3DMDL}/0805-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0805-res.step
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 61A9245F)
+  (module sa800u-baseboard-hw-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 61A9245F)
     (at 83.5 97.5 180)
     (path /61A19323/61A4619F)
     (attr smd)
@@ -3669,14 +3669,14 @@
       (net 777 "Net-(D8-Pad1)"))
     (pad 2 smd rect (at 1.05 0 180) (size 1.2 1.2) (layers B.Cu B.Paste B.Mask)
       (net 17 /PoE/VDD))
-    (model ${ANT3DMDL}/0805-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0805-res.step
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 61AA1CA5)
+  (module sa800u-baseboard-hw-footprints:0805-res (layer B.Cu) (tedit 5D5D3F54) (tstamp 61AA1CA5)
     (at 83.5 99.5 180)
     (path /61A19323/61A46197)
     (attr smd)
@@ -3700,14 +3700,14 @@
       (net 773 "Net-(C31-Pad2)"))
     (pad 1 smd rect (at -1.05 0 180) (size 1.2 1.2) (layers B.Cu B.Paste B.Mask)
       (net 776 "Net-(D8-Pad2)"))
-    (model ${ANT3DMDL}/0805-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0805-res.step
       (offset (xyz 0 0 0.73))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:SOIC127P600X170-9N (layer B.Cu) (tedit 5FD9C0CC) (tstamp 61A92487)
+  (module sa800u-baseboard-hw-footprints:SOIC127P600X170-9N (layer B.Cu) (tedit 5FD9C0CC) (tstamp 61A92487)
     (at 70.5 92.5 90)
     (descr "DDA (R-PDSO-G8)_1")
     (tags "Integrated Circuit")
@@ -3750,14 +3750,14 @@
       (net 780 "Net-(IC1-Pad2)"))
     (pad 1 smd rect (at -2.712 1.905) (size 0.65 1.525) (layers B.Cu B.Paste B.Mask)
       (net 17 /PoE/VDD))
-    (model ${ANT3DMDL}/TPS2378DDA.stp
+    (model ${KIPRJMOD}/lib/3d-models/TPS2378DDA.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:7499111121A (layer F.Cu) (tedit 5FC2D09C) (tstamp 61A924AA)
+  (module sa800u-baseboard-hw-footprints:7499111121A (layer F.Cu) (tedit 5FC2D09C) (tstamp 61A924AA)
     (at 74.5 146.5 180)
     (descr WE-RJ45_Transformer-10/100/1000)
     (path /618E716E/61953706)
@@ -3818,14 +3818,14 @@
       (net 782 "Net-(J1-Pad11)"))
     (pad None np_thru_hole circle (at 5.715 0 180) (size 3.25 3.25) (drill 3.25) (layers *.Cu *.Mask))
     (pad None np_thru_hole circle (at -5.715 0 180) (size 3.25 3.25) (drill 3.25) (layers *.Cu *.Mask))
-    (model ${ANT3DMDL}/7499111121A.stp
+    (model ${KIPRJMOD}/lib/3d-models/7499111121A.stp
       (offset (xyz 0 0 7))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 180))
     )
   )
 
-  (module antmicro-footprints:HDMI_Micro-D_Molex_46765-1x01 (layer F.Cu) (tedit 615AA2CD) (tstamp 61AA6422)
+  (module sa800u-baseboard-hw-footprints:HDMI_Micro-D_Molex_46765-1x01 (layer F.Cu) (tedit 615AA2CD) (tstamp 61AA6422)
     (at 138.75 148.5)
     (descr "HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)")
     (tags "hdmi micro type d right angle tht")
@@ -3922,19 +3922,19 @@
       (net 71 "Net-(J2-PadSH)"))
     (pad SH thru_hole oval (at -3.1 0) (size 1.5 2.55) (drill oval 0.65 1.7) (layers *.Cu *.Mask)
       (net 71 "Net-(J2-PadSH)"))
-    (model ${KISYS3DMOD}/Connector_HDMI.3dshapes/HDMI_Micro-D_Molex_46765-1x01.wrl
+    (model ${KIPRJMOD}/lib/3d-models/HDMI_Micro-D_Molex_46765-1x01.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${ANT3DMDL}/467651001.stp
+    (model ${KIPRJMOD}/lib/3d-models/467651001.stp
       (offset (xyz -5 -3.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:WE_632723300011 (layer F.Cu) (tedit 60181E6B) (tstamp 61A9253E)
+  (module sa800u-baseboard-hw-footprints:WE_632723300011 (layer F.Cu) (tedit 60181E6B) (tstamp 61A9253E)
     (at 90 147.5)
     (path /61A2F307/61C60EDE)
     (attr smd)
@@ -4006,14 +4006,14 @@
       (net 49 "/USB-C_Interface /USB1_DP"))
     (pad B7 thru_hole circle (at -0.40008 -4.385) (size 0.65 0.65) (drill 0.4) (layers *.Cu *.Mask)
       (net 50 "/USB-C_Interface /USB1_DM"))
-    (model ${ANT3DMDL}/632723300011.stp
+    (model ${KIPRJMOD}/lib/3d-models/632723300011.stp
       (offset (xyz 0 -1 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 180))
     )
   )
 
-  (module antmicro-footprints:WE_632723300011 (layer F.Cu) (tedit 60181E6B) (tstamp 61A986F5)
+  (module sa800u-baseboard-hw-footprints:WE_632723300011 (layer F.Cu) (tedit 60181E6B) (tstamp 61A986F5)
     (at 113 147.5)
     (path /61A2F307/61B881DB)
     (attr smd)
@@ -4085,14 +4085,14 @@
       (net 74 "Net-(J5-PadB6)"))
     (pad B7 thru_hole circle (at -0.40008 -4.385) (size 0.65 0.65) (drill 0.4) (layers *.Cu *.Mask)
       (net 73 "Net-(J5-PadB7)"))
-    (model ${ANT3DMDL}/632723300011.stp
+    (model ${KIPRJMOD}/lib/3d-models/632723300011.stp
       (offset (xyz 0 -1 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 180))
     )
   )
 
-  (module antmicro-footprints:WE_632723300011 (layer F.Cu) (tedit 60181E6B) (tstamp 61A987A5)
+  (module sa800u-baseboard-hw-footprints:WE_632723300011 (layer F.Cu) (tedit 60181E6B) (tstamp 61A987A5)
     (at 125.5 147.5)
     (path /61A2F307/61B88C63)
     (attr smd)
@@ -4164,14 +4164,14 @@
       (net 807 "Net-(J6-PadA1)"))
     (pad "" smd rect (at -0.00008 2.045) (size 0.2 1) (layers F.Cu F.Paste F.Mask))
     (pad "" smd rect (at -0.00008 -1.055) (size 0.2 1) (layers F.Cu F.Paste F.Mask))
-    (model ${ANT3DMDL}/632723300011.stp
+    (model ${KIPRJMOD}/lib/3d-models/632723300011.stp
       (offset (xyz 0 -1 1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 180))
     )
   )
 
-  (module antmicro-footprints:TE_3-84952-0 (layer B.Cu) (tedit 61A88EA6) (tstamp 61A93395)
+  (module sa800u-baseboard-hw-footprints:TE_3-84952-0 (layer B.Cu) (tedit 61A88EA6) (tstamp 61A93395)
     (at 63 126 90)
     (path /61BD2CC1/619D8F59)
     (fp_text reference J7 (at -15.825 2.385 90) (layer B.SilkS)
@@ -4274,14 +4274,14 @@
       (net 821 "Net-(J7-Pad29)"))
     (pad 30 smd rect (at 14.5 0 90) (size 0.61 2) (layers B.Cu B.Paste B.Mask)
       (net 822 "Net-(J7-Pad30)"))
-    (model ${ANT3DMDL}/3-84952-0.stp
+    (model ${KIPRJMOD}/lib/3d-models/3-84952-0.stp
       (offset (xyz 0 -5.5 1.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:F52R-1A7H1-11020 (layer F.Cu) (tedit 61A89EF2) (tstamp 61ABFA53)
+  (module sa800u-baseboard-hw-footprints:F52R-1A7H1-11020 (layer F.Cu) (tedit 61A89EF2) (tstamp 61ABFA53)
     (at 152 130.5 90)
     (path /61BD2CC1/61ADF1E8)
     (fp_text reference J8 (at 0 -2.4559 90) (layer F.SilkS)
@@ -4363,14 +4363,14 @@
       (net 100 +3V3))
     (pad 21 smd rect (at -12.25042 -1.50594 90) (size 2.1082 1.6002) (layers F.Cu F.Paste F.Mask))
     (pad 22 smd rect (at 12.25042 -1.50594 90) (size 2.1082 1.6002) (layers F.Cu F.Paste F.Mask))
-    (model ${ANT3DMDL}/F52R-1A7H1-11020--3DModel-STEP-533217.STEP
+    (model ${KIPRJMOD}/lib/3d-models/F52R-1A7H1-11020--3DModel-STEP-533217.STEP
       (offset (xyz -9.4 -2.6 -0.1))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
   )
 
-  (module antmicro-footprints:WE_68715014522 (layer B.Cu) (tedit 5D9CB84E) (tstamp 61A92645)
+  (module sa800u-baseboard-hw-footprints:WE_68715014522 (layer B.Cu) (tedit 5D9CB84E) (tstamp 61A92645)
     (at 114 87)
     (path /61A60486/61A63D9B)
     (attr smd)
@@ -4500,14 +4500,14 @@
     (pad ~ smd rect (at 14.2 1.25) (size 2.7 3) (layers B.Cu B.Paste B.Mask))
     (pad ~ smd rect (at -14.2 1.25) (size 2.7 3) (layers B.Cu B.Paste B.Mask))
     (pad ~ smd rect (at -14.2 -2.7) (size 3 2.5) (layers B.Cu B.Paste B.Mask))
-    (model ${ANT3DMDL}/WE_68715014522.stp
+    (model ${KIPRJMOD}/lib/3d-models/WE_68715014522.stp
       (offset (xyz 0 -2.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 -180))
     )
   )
 
-  (module antmicro-footprints:MicroSD_2908-05WB-MG (layer B.Cu) (tedit 5D28929F) (tstamp 61A9864B)
+  (module sa800u-baseboard-hw-footprints:MicroSD_2908-05WB-MG (layer B.Cu) (tedit 5D28929F) (tstamp 61A9864B)
     (at 143.5 100 180)
     (path /61C01D88/61C01ECC)
     (attr smd)
@@ -4562,7 +4562,7 @@
       (net 850 "Net-(J10-Pad9)"))
   )
 
-  (module antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A9267F)
+  (module sa800u-baseboard-hw-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A9267F)
     (at 74 87)
     (descr http://cnctech.us/pdfs/3220-XX-0100-00.pdf)
     (path /61C01D88/61CBAA98)
@@ -4599,14 +4599,14 @@
       (net 134 "Net-(J11-Pad3)"))
     (pad 4 thru_hole circle (at 3.81 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 133 "Net-(J11-Pad4)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step
+    (model ${KIPRJMOD}/lib/3d-models/PinHeader_1x04_P1.27mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A90314)
+  (module sa800u-baseboard-hw-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A90314)
     (at 67 87)
     (descr http://cnctech.us/pdfs/3220-XX-0100-00.pdf)
     (path /61C01D88/61CBAE41)
@@ -4643,14 +4643,14 @@
       (net 138 "Net-(J12-Pad3)"))
     (pad 4 thru_hole circle (at 3.81 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 137 "Net-(J12-Pad4)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step
+    (model ${KIPRJMOD}/lib/3d-models/PinHeader_1x04_P1.27mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A926B1)
+  (module sa800u-baseboard-hw-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A926B1)
     (at 67 84)
     (descr http://cnctech.us/pdfs/3220-XX-0100-00.pdf)
     (path /61C01D88/61CBBE03)
@@ -4687,14 +4687,14 @@
       (net 142 "Net-(J13-Pad2)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 141 "Net-(J13-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step
+    (model ${KIPRJMOD}/lib/3d-models/PinHeader_1x04_P1.27mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A902CC)
+  (module sa800u-baseboard-hw-footprints:PinHeader_1x4_P1.27mm_Drill.7mm (layer F.Cu) (tedit 5DC13C34) (tstamp 61A902CC)
     (at 74 84)
     (descr http://cnctech.us/pdfs/3220-XX-0100-00.pdf)
     (path /61C01D88/61CBC17A)
@@ -4731,14 +4731,14 @@
       (net 853 "Net-(J14-Pad2)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 854 "Net-(J14-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x04_P1.27mm_Vertical.step
+    (model ${KIPRJMOD}/lib/3d-models/PinHeader_1x04_P1.27mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:PDQE30-Q48 (layer F.Cu) (tedit 608ACD31) (tstamp 61A9286E)
+  (module sa800u-baseboard-hw-footprints:PDQE30-Q48 (layer F.Cu) (tedit 608ACD31) (tstamp 61A9286E)
     (at 70 102)
     (path /61A19323/61A460CF)
     (fp_text reference PS1 (at -9.365 -13.885) (layer F.SilkS)
@@ -4773,14 +4773,14 @@
       (net 855 "Net-(PS1-Pad5)"))
     (pad 6 thru_hole circle (at 10.16 -10.16) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask)
       (net 4 GND))
-    (model ${ANT3DMDL}/PDQE30-Q48.step
+    (model ${KIPRJMOD}/lib/3d-models/PDQE30-Q48.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
     )
   )
 
-  (module antmicro-footprints:TO-92-3 (layer F.Cu) (tedit 5AF9CDD1) (tstamp 61A92882)
+  (module sa800u-baseboard-hw-footprints:TO-92-3 (layer F.Cu) (tedit 5AF9CDD1) (tstamp 61A92882)
     (at 45.805001 52.785001)
     (descr http://www.ti.com/lit/ds/symlink/tl431a.pdf)
     (path /6197686D/61AB5494)
@@ -4813,7 +4813,7 @@
       (net 185 "Net-(Q1-Pad2)"))
   )
 
-  (module antmicro-footprints:TO-92-3 (layer F.Cu) (tedit 5AF9CDD1) (tstamp 61A92896)
+  (module sa800u-baseboard-hw-footprints:TO-92-3 (layer F.Cu) (tedit 5AF9CDD1) (tstamp 61A92896)
     (at 54.555001 43.135001)
     (descr http://www.ti.com/lit/ds/symlink/tl431a.pdf)
     (path /6197686D/61AB54C4)
@@ -4846,7 +4846,7 @@
       (net 187 LT9611_GPIO5))
   )
 
-  (module antmicro-footprints:TO-92-3 (layer F.Cu) (tedit 5AF9CDD1) (tstamp 61A928AA)
+  (module sa800u-baseboard-hw-footprints:TO-92-3 (layer F.Cu) (tedit 5AF9CDD1) (tstamp 61A928AA)
     (at 46.505001 47.285001)
     (descr http://www.ti.com/lit/ds/symlink/tl431a.pdf)
     (path /6197686D/61AB5457)
@@ -4879,7 +4879,7 @@
       (net 188 LT9611_RST))
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928B9)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928B9)
     (at 124.235001 28.495001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4906,14 +4906,14 @@
       (net 189 "Net-(R1-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C1-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928C8)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928C8)
     (at 138.255001 14.025001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4940,14 +4940,14 @@
       (net 190 "Net-(R2-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C1-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928D7)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928D7)
     (at 138.255001 19.995001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4974,14 +4974,14 @@
       (net 191 "Net-(R3-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C1-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928E6)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928E6)
     (at 130.055001 28.495001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5008,14 +5008,14 @@
       (net 192 "Net-(R4-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C1-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928F5)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A928F5)
     (at 132.965001 24.515001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5042,14 +5042,14 @@
       (net 4 GND))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 856 "Net-(R5-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92904)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92904)
     (at 144.075001 13.395001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5076,14 +5076,14 @@
       (net 13 "Net-(C6-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 "Net-(C4-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92913)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92913)
     (at 141.165001 16.015001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5110,14 +5110,14 @@
       (net 12 "Net-(C5-Pad2)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 13 "Net-(C6-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92922)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92922)
     (at 130.055001 26.505001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5144,14 +5144,14 @@
       (net 765 "Net-(C7-Pad2)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 13 "Net-(C6-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92931)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92931)
     (at 138.255001 18.005001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5178,14 +5178,14 @@
       (net 13 "Net-(C6-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 766 "Net-(C8-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92940)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92940)
     (at 127.145001 28.495001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5212,14 +5212,14 @@
       (net 193 PCIE1_WAKE_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9294F)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9294F)
     (at 142.955001 11.405001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5246,14 +5246,14 @@
       (net 194 PCIE1_RST_N))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9295E)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9295E)
     (at 130.055001 24.515001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5280,14 +5280,14 @@
       (net 25 1V8))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 195 PCIE1_CLKREQ_N))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9296D)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9296D)
     (at 141.165001 14.025001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5314,14 +5314,14 @@
       (net 26 3V3))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 196 ETH_ISOLATEB))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92981)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92981)
     (at 108.575001 27.945001)
     (path /618E716E/61A0D0FF)
     (attr smd)
@@ -5349,14 +5349,14 @@
       (net 196 ETH_ISOLATEB))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92990)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92990)
     (at 127.145001 26.505001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5383,14 +5383,14 @@
       (net 782 "Net-(J1-Pad11)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9299F)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A9299F)
     (at 138.255001 16.015001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5417,14 +5417,14 @@
       (net 781 "Net-(J1-Pad13)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929AE)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929AE)
     (at 124.235001 24.515001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5451,14 +5451,14 @@
       (net 15 /Ethernet_Controller/XTAL1))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 16 /Ethernet_Controller/XTAL2))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929BD)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929BD)
     (at 64.235001 51.055001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5485,14 +5485,14 @@
       (net 185 "Net-(Q1-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929CC)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929CC)
     (at 61.325001 54.305001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5519,14 +5519,14 @@
       (net 184 CEC_HDMI))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 183 CEC_GPIO6))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A929E0)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A929E0)
     (at 48.695001 56.295001)
     (path /6197686D/61A0DBB2)
     (attr smd)
@@ -5554,14 +5554,14 @@
       (net 26 3V3))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 37 RST_N))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929EF)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929EF)
     (at 54.865001 56.335001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5588,14 +5588,14 @@
       (net 199 HDMIOUT_SCL))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929FE)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A929FE)
     (at 51.955001 55.495001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5622,14 +5622,14 @@
       (net 26 3V3))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 200 HDMIOUT_SDA))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A0D)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A0D)
     (at 55.505001 52.355001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5656,14 +5656,14 @@
       (net 186 INTO_GPIO5))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A1C)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A1C)
     (at 64.825001 43.095001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5690,14 +5690,14 @@
       (net 775 "Net-(D3-PadK)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 184 CEC_HDMI))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92A30)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92A30)
     (at 57.935001 46.645001)
     (path /6197686D/61A5CF19)
     (attr smd)
@@ -5725,14 +5725,14 @@
       (net 857 "Net-(R25-Pad2)"))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A3F)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A3F)
     (at 58.415001 50.865001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5759,14 +5759,14 @@
       (net 26 3V3))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 201 I2C_ADDR))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A4E)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A4E)
     (at 51.925001 57.485001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5793,14 +5793,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 201 I2C_ADDR))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A5D)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A5D)
     (at 64.075001 45.085001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5827,14 +5827,14 @@
       (net 25 1V8))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 187 LT9611_GPIO5))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A6C)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A6C)
     (at 61.325001 48.335001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5861,14 +5861,14 @@
       (net 188 LT9611_RST))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A7B)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A7B)
     (at 55.505001 54.345001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5895,14 +5895,14 @@
       (net 202 5V0))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 203 SCL_HDMI))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A8A)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A8A)
     (at 58.415001 52.855001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5929,14 +5929,14 @@
       (net 204 SDA_HDMI))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 202 5V0))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A99)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92A99)
     (at 61.325001 50.325001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5963,14 +5963,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 858 "Net-(R32-Pad1)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AA8)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AA8)
     (at 57.775001 56.835001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5997,14 +5997,14 @@
       (net 858 "Net-(R32-Pad1)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 205 DETECT_HDMI))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AB7)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AB7)
     (at 66.985001 45.085001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6031,14 +6031,14 @@
       (net 186 INTO_GPIO5))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AC6)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AC6)
     (at 64.235001 47.075001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6065,14 +6065,14 @@
       (net 26 3V3))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 37 RST_N))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AD5)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AD5)
     (at 58.415001 54.845001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6099,14 +6099,14 @@
       (net 38 /HDMI_converter/XTALO))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 39 /HDMI_converter/XTALI))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AE4)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92AE4)
     (at 54.835001 58.325001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6133,14 +6133,14 @@
       (net 859 "Net-(R37-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92AF8)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92AF8)
     (at 52.275001 53.265001)
     (path /6197686D/61AB53BB)
     (attr smd)
@@ -6168,14 +6168,14 @@
       (net 4 GND))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 859 "Net-(R37-Pad2)"))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B07)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B07)
     (at 61.325001 52.315001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6202,14 +6202,14 @@
       (net 206 I2C4_SDA))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B16)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B16)
     (at 64.235001 49.065001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6236,14 +6236,14 @@
       (net 25 1V8))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 207 I2C4_SCL))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92B2A)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92B2A)
     (at 52.275001 50.795001)
     (path /6197686D/61AB5404)
     (attr smd)
@@ -6271,14 +6271,14 @@
       (net 25 1V8))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 860 "Net-(R41-Pad2)"))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B39)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B39)
     (at 67.145001 47.075001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6305,14 +6305,14 @@
       (net 860 "Net-(R41-Pad2)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B48)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B48)
     (at 138.275001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6339,14 +6339,14 @@
       (net 197 "/USB-C_Interface /SBU_SW_OE"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B57)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B57)
     (at 132.455001 -23.224999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6373,14 +6373,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 771 "Net-(C28-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B66)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B66)
     (at 155.955001 -23.004999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6407,14 +6407,14 @@
       (net 34 "Net-(C27-Pad2)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 198 3v075))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B75)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B75)
     (at 211.715001 -25.854999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6441,14 +6441,14 @@
       (net 99 /LCM/TP_I2C_SDA))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 100 +3V3))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B84)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92B84)
     (at 211.715001 -27.844999)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6475,14 +6475,14 @@
       (net 100 +3V3))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 98 /LCM/TP_I2C_SCL))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BB1)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BB1)
     (at 78.675001 25.565001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6509,14 +6509,14 @@
       (net 773 "Net-(C31-Pad2)"))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 779 "Net-(IC1-Pad3)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BC0)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BC0)
     (at 83.525001 20.665001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6543,14 +6543,14 @@
       (net 17 /PoE/VDD))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 780 "Net-(IC1-Pad2)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BCF)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BCF)
     (at 78.775001 27.555001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6577,14 +6577,14 @@
       (net 19 5V))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 855 "Net-(PS1-Pad5)"))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BDE)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BDE)
     (at 86.435001 20.665001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6611,14 +6611,14 @@
       (net 855 "Net-(PS1-Pad5)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 GND))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BED)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BED)
     (at 81.585001 25.565001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6645,14 +6645,14 @@
       (net 778 "Net-(IC1-Pad6)"))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 18 GNDD))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BFC)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92BFC)
     (at 81.585001 23.575001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6679,14 +6679,14 @@
       (net 18 GNDD))
     (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 17 /PoE/VDD))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92C0B)
+  (module sa800u-baseboard-hw-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 61A92C0B)
     (at 73.925001 31.475001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6713,14 +6713,14 @@
       (net 18 GNDD))
     (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 18 GNDD))
-    (model ${ANT3DMDL}/0402-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0402-res.step
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C1F)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C1F)
     (at 183.585001 -4.024999)
     (path /61A60486/61D62802)
     (attr smd)
@@ -6748,14 +6748,14 @@
       (net 208 "Net-(R57-Pad2)"))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 25 1V8))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C33)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C33)
     (at 180.035001 -1.824999)
     (path /61A60486/61D3BF41)
     (attr smd)
@@ -6783,14 +6783,14 @@
       (net 208 "Net-(R57-Pad2)"))
     (pad 2 smd rect (at 0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 GND))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C47)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C47)
     (at 180.035001 -4.294999)
     (path /61A60486/61CF2C26)
     (attr smd)
@@ -6818,14 +6818,14 @@
       (net 128 /Cameras_Interface/CAM1_SCL))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 209 CCI0_I2C_SCL))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C5B)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C5B)
     (at 183.745001 -6.494999)
     (path /61A60486/61CF310B)
     (attr smd)
@@ -6853,14 +6853,14 @@
       (net 127 /Cameras_Interface/CAM1_SDA))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 210 CCI0_I2C_SDA))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C6F)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C6F)
     (at 187.295001 -6.494999)
     (path /61A60486/61CF351C)
     (attr smd)
@@ -6888,14 +6888,14 @@
       (net 126 /Cameras_Interface/CAM0_SCL))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 211 CCI1_I2C_SCL))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C83)
+  (module sa800u-baseboard-hw-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 61A92C83)
     (at 180.035001 0.645001)
     (path /61A60486/61CF37C7)
     (attr smd)
@@ -6923,14 +6923,14 @@
       (net 125 /Cameras_Interface/CAM0_SDA))
     (pad 1 smd rect (at -0.7 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 212 CCI1_I2C_SDA))
-    (model ${ANT3DMDL}/0603-res.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-res.step
       (offset (xyz -0.8 -0.4 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CA2)
+  (module sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CA2)
     (at 151 93.5)
     (descr KMR211G)
     (tags "SPST Button Switch")
@@ -6973,14 +6973,14 @@
       (net 215 "Net-(S1-Pad2)"))
     (pad 4 smd rect (at -2.05 0.8) (size 0.9 1) (layers F.Cu F.Paste F.Mask)
       (net 216 "Net-(S1-Pad4)"))
-    (model ${ANT3DMDL}/KMR2.step
+    (model ${KIPRJMOD}/lib/3d-models/KMR2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CC1)
+  (module sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CC1)
     (at 151 97.5 180)
     (descr KMR211G)
     (tags "SPST Button Switch")
@@ -7023,14 +7023,14 @@
       (net 219 "Net-(S2-Pad1)"))
     (pad 3 smd rect (at -2.05 -0.8 180) (size 0.9 1) (layers F.Cu F.Paste F.Mask)
       (net 220 "Net-(S2-Pad3)"))
-    (model ${ANT3DMDL}/KMR2.step
+    (model ${KIPRJMOD}/lib/3d-models/KMR2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CE0)
+  (module sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CE0)
     (at 151 105.5 180)
     (descr KMR211G)
     (tags "SPST Button Switch")
@@ -7073,14 +7073,14 @@
       (net 223 "Net-(S3-Pad2)"))
     (pad 4 smd rect (at -2.05 0.8 180) (size 0.9 1) (layers F.Cu F.Paste F.Mask)
       (net 224 "Net-(S3-Pad4)"))
-    (model ${ANT3DMDL}/KMR2.step
+    (model ${KIPRJMOD}/lib/3d-models/KMR2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CFF)
+  (module sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8 (layer F.Cu) (tedit 5DF0C83F) (tstamp 61A92CFF)
     (at 151 101.5 180)
     (descr KMR211G)
     (tags "SPST Button Switch")
@@ -7123,14 +7123,14 @@
       (net 227 "Net-(S4-Pad1)"))
     (pad 3 smd rect (at -2.05 -0.8 180) (size 0.9 1) (layers F.Cu F.Paste F.Mask)
       (net 228 "Net-(S4-Pad3)"))
-    (model ${ANT3DMDL}/KMR2.step
+    (model ${KIPRJMOD}/lib/3d-models/KMR2.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:749020010A (layer B.Cu) (tedit 6041FCE4) (tstamp 61A92D2E)
+  (module sa800u-baseboard-hw-footprints:749020010A (layer B.Cu) (tedit 6041FCE4) (tstamp 61A92D2E)
     (at 109.5 103.5 90)
     (descr "749020010A LAN-Transformer WE-LAN")
     (tags Transformer)
@@ -7211,14 +7211,14 @@
       (net 147 /Ethernet_Controller/LAN0_RJ45_D1_N))
     (pad 1 smd rect (at -6.985 -7.08 90) (size 0.76 1.905) (layers B.Cu B.Paste B.Mask)
       (net 14 PAIR12))
-    (model ${ANT3DMDL}/749020010A.stp
+    (model ${KIPRJMOD}/lib/3d-models/749020010A.stp
       (offset (xyz 0 0 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
 
-  (module antmicro-footprints:RTL8111H (layer F.Cu) (tedit 619D0372) (tstamp 61AA3D65)
+  (module sa800u-baseboard-hw-footprints:RTL8111H (layer F.Cu) (tedit 619D0372) (tstamp 61AA3D65)
     (at 105 127.5)
     (descr "<b>QFP-32 package</b><p>5x5 mm case, 0.5 mm lead pitch")
     (path /618E716E/61A1B9F8)
@@ -7329,14 +7329,14 @@
       (net 4 GND))
     (pad 1 smd roundrect (at -2.005 -1.4) (size 0.71 0.22) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.03)
       (net 230 /Ethernet_Controller/LAN0_MDI0_P))
-    (model ${ANT3DMDL}/RTL8111H.stp
+    (model ${KIPRJMOD}/lib/3d-models/RTL8111H.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:LT9611 (layer F.Cu) (tedit 61A0B5DA) (tstamp 61ABABE7)
+  (module sa800u-baseboard-hw-footprints:LT9611 (layer F.Cu) (tedit 61A0B5DA) (tstamp 61ABABE7)
     (at 135.5 132.5)
     (path /6197686D/61A27AED)
     (fp_text reference U2 (at 2.89 -4.94) (layer F.SilkS)
@@ -7521,14 +7521,14 @@
       (net 275 DSI1_LN2_P))
     (pad 6 smd oval (at -3.48 -0.87 90) (size 0.2 0.4) (layers F.Cu F.Paste F.Mask)
       (net 276 DSI1_LN3_P))
-    (model ${ANT3DMDL}/KSZ9031MNXIA_TR.STEP
+    (model ${KIPRJMOD}/lib/3d-models/KSZ9031MNXIA_TR.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:Texas_R_PUQFN-N12 (layer F.Cu) (tedit 5F354333) (tstamp 61A92DF7)
+  (module sa800u-baseboard-hw-footprints:Texas_R_PUQFN-N12 (layer F.Cu) (tedit 5F354333) (tstamp 61A92DF7)
     (at 45.300001 56.920001)
     (descr "Texas_R_PUQFN-N12 http://www.ti.com/lit/ds/symlink/txb0104.pdf")
     (tags Texas_R_PUQFN-N12)
@@ -7580,14 +7580,14 @@
       (net 859 "Net-(R37-Pad2)"))
     (pad 1 smd rect (at -0.425 -0.975) (size 0.15 0.25) (layers F.Cu F.Paste F.Mask)
       (net 25 1V8))
-    (model ${ANT3DMDL}/Texas_R_PUQFN-N12.step
+    (model ${KIPRJMOD}/lib/3d-models/Texas_R_PUQFN-N12.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:BGA8C50P2X4_88X188X50N (layer F.Cu) (tedit 61A0C4BF) (tstamp 61A92E15)
+  (module sa800u-baseboard-hw-footprints:BGA8C50P2X4_88X188X50N (layer F.Cu) (tedit 61A0C4BF) (tstamp 61A92E15)
     (at 53.684001 47.394001)
     (path /6197686D/61AB543D)
     (attr smd)
@@ -7631,14 +7631,14 @@
       (net 860 "Net-(R41-Pad2)"))
     (pad D2 smd circle (at 0.75 0.25) (size 0.23 0.23) (layers F.Cu F.Paste F.Mask)
       (net 206 I2C4_SDA))
-    (model ${ANT3DMDL}/TXS0102YZPR.step
+    (model ${KIPRJMOD}/lib/3d-models/TXS0102YZPR.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module antmicro-footprints:MSOP-10_W3mm (layer F.Cu) (tedit 615FF49E) (tstamp 61A92E35)
+  (module sa800u-baseboard-hw-footprints:MSOP-10_W3mm (layer F.Cu) (tedit 615FF49E) (tstamp 61A92E35)
     (at 169.665001 -37.514999)
     (path /61A2F307/61A48DAE)
     (attr smd)
@@ -7688,14 +7688,14 @@
       (net 197 "/USB-C_Interface /SBU_SW_OE") (solder_mask_margin 0.05))
     (pad 10 smd rect (at -1 -2.2) (size 0.3 1.45) (layers F.Cu F.Paste F.Mask)
       (net 26 3V3) (solder_mask_margin 0.05))
-    (model ${ANT3DMDL}/MSOP-10_W3mm.stp
+    (model ${KIPRJMOD}/lib/3d-models/MSOP-10_W3mm.stp
       (offset (xyz 0 0 0.6))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:LQFP-64_10x10mm (layer F.Cu) (tedit 615F1189) (tstamp 61AAAC69)
+  (module sa800u-baseboard-hw-footprints:LQFP-64_10x10mm (layer F.Cu) (tedit 615F1189) (tstamp 61AAAC69)
     (at 120 132.8)
     (path /61A2F307/61C56D21)
     (attr smd)
@@ -7860,14 +7860,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${ANT3DMDL}/FT2232HL-REEL.step
+    (model ${KIPRJMOD}/lib/3d-models/FT2232HL-REEL.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
     )
   )
 
-  (module antmicro-footprints:QFN40P700X700X100-57N (layer F.Cu) (tedit 61A7880B) (tstamp 61A92EDC)
+  (module sa800u-baseboard-hw-footprints:QFN40P700X700X100-57N (layer F.Cu) (tedit 61A7880B) (tstamp 61A92EDC)
     (at 102 142)
     (path /61A2F307/61B83E5D)
     (fp_text reference U7 (at -0.856825 -5.002725) (layer F.SilkS)
@@ -8008,14 +8008,14 @@
       (net 383 "Net-(U7-Pad42)"))
     (pad 57 smd rect (at 0 0) (size 4.6 4.6) (layers F.Cu F.Mask)
       (net 384 "Net-(U7-Pad57)"))
-    (model ${ANT3DMDL}/USB5744_2G.step
+    (model ${KIPRJMOD}/lib/3d-models/USB5744_2G.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:SA800U-WF (layer F.Cu) (tedit 61A8A6DE) (tstamp 61A9DB41)
+  (module sa800u-baseboard-hw-footprints:SA800U-WF (layer F.Cu) (tedit 61A8A6DE) (tstamp 61A9DB41)
     (at 146 122.2 180)
     (path /61A4BC4F/61B940C3)
     (fp_text reference U8 (at 3.7 -8.3) (layer F.SilkS)
@@ -8805,24 +8805,24 @@
     (pad "" np_thru_hole circle (at 0.45 33 180) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 55.55 33.2 180) (size 4 4) (drill 2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 57.55 4 180) (size 4 4) (drill 2) (layers *.Cu *.Mask))
-    (model ${ANT3DMDL}/SA800U-WF--3DModel-STEP-362385.STEP
+    (model ${KIPRJMOD}/lib/3d-models/SA800U-WF--3DModel-STEP-362385.STEP
       (offset (xyz 30 -18.5 8.199999999999999))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model ${ANT3DMDL}/FX10A-168S-SV-21---3DModel-STEP-1.STEP
+    (model ${KIPRJMOD}/lib/3d-models/FX10A-168S-SV-21---3DModel-STEP-1.STEP
       (offset (xyz 36.49 -6.25 0.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model ${ANT3DMDL}/FX10A-168S-SV-21---3DModel-STEP-1.STEP
+    (model ${KIPRJMOD}/lib/3d-models/FX10A-168S-SV-21---3DModel-STEP-1.STEP
       (offset (xyz 34.49 -35.25 0.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
   )
 
-  (module antmicro-footprints:max13042eebc&plus_t (layer F.Cu) (tedit 61A62925) (tstamp 61A9309D)
+  (module sa800u-baseboard-hw-footprints:max13042eebc&plus_t (layer F.Cu) (tedit 61A62925) (tstamp 61A9309D)
     (at 180.118501 -7.100899)
     (path /61A60486/61C766BC)
     (attr smd)
@@ -8874,14 +8874,14 @@
       (net 211 CCI1_I2C_SCL))
     (pad C4 smd circle (at 0.75 0.5) (size 0.254 0.254) (layers F.Cu F.Paste F.Mask)
       (net 212 CCI1_I2C_SDA))
-    (model ${ANT3DMDL}/21-0104_B123_MXM.step
+    (model ${KIPRJMOD}/lib/3d-models/21-0104_B123_MXM.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SOT-563 (layer F.Cu) (tedit 614D8AC9) (tstamp 61A93104)
+  (module sa800u-baseboard-hw-footprints:SOT-563 (layer F.Cu) (tedit 614D8AC9) (tstamp 61A93104)
     (at 137.315001 -17.054999)
     (path /61B0DC30/61A8F44F)
     (attr smd)
@@ -8923,14 +8923,14 @@
       (net 757 "Net-(U11-Pad2)"))
     (pad 3 smd rect (at 0.5 0.75) (size 0.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 758 "Net-(U11-Pad3)"))
-    (model ${ANT3DMDL}/SOT-666.STEP
+    (model ${KIPRJMOD}/lib/3d-models/SOT-666.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:SOT-563 (layer F.Cu) (tedit 614D8AC9) (tstamp 61A93120)
+  (module sa800u-baseboard-hw-footprints:SOT-563 (layer F.Cu) (tedit 614D8AC9) (tstamp 61A93120)
     (at 137.315001 -13.504999)
     (path /61B0DC30/61A8FA9C)
     (attr smd)
@@ -8972,14 +8972,14 @@
       (net 763 "Net-(U12-Pad5)"))
     (pad 4 smd rect (at 0.5 -0.75) (size 0.3 0.6) (layers F.Cu F.Paste F.Mask)
       (net 764 "Net-(U12-Pad4)"))
-    (model ${ANT3DMDL}/SOT-666.STEP
+    (model ${KIPRJMOD}/lib/3d-models/SOT-666.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:OSC_ECS-1618-250-BN-TR (layer F.Cu) (tedit 61A0CBE5) (tstamp 61A931B6)
+  (module sa800u-baseboard-hw-footprints:OSC_ECS-1618-250-BN-TR (layer F.Cu) (tedit 61A0CBE5) (tstamp 61A931B6)
     (at 104.980001 28.335001)
     (path /618E716E/61A23266)
     (fp_text reference Y1 (at -0.434823 -1.506056) (layer F.SilkS)
@@ -9006,14 +9006,14 @@
       (net 4 GND))
     (pad 1 smd rect (at -0.65 0.5) (size 0.8 0.7) (layers F.Cu F.Paste F.Mask)
       (net 25 1V8))
-    (model ${ANT3DMDL}/ECS-1618-250-BN-TR.step
+    (model ${KIPRJMOD}/lib/3d-models/ECS-1618-250-BN-TR.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:OSC_ECS-1618-250-BN-TR (layer F.Cu) (tedit 61A0CBE5) (tstamp 61A931C8)
+  (module sa800u-baseboard-hw-footprints:OSC_ECS-1618-250-BN-TR (layer F.Cu) (tedit 61A0CBE5) (tstamp 61A931C8)
     (at 61.550001 41.735001)
     (path /6197686D/61A99388)
     (fp_text reference Y2 (at -0.434823 -1.506056) (layer F.SilkS)
@@ -9040,14 +9040,14 @@
       (net 39 /HDMI_converter/XTALI))
     (pad 4 smd rect (at -0.65 -0.5) (size 0.8 0.7) (layers F.Cu F.Paste F.Mask)
       (net 38 /HDMI_converter/XTALO))
-    (model ${ANT3DMDL}/ECS-1618-250-BN-TR.step
+    (model ${KIPRJMOD}/lib/3d-models/ECS-1618-250-BN-TR.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:MS621FE-FL11E (layer B.Cu) (tedit 60B0E4EA) (tstamp 61AAEDD8)
+  (module sa800u-baseboard-hw-footprints:MS621FE-FL11E (layer B.Cu) (tedit 60B0E4EA) (tstamp 61AAEDD8)
     (at 152.5 111)
     (path /61A4BC4F/61B43805)
     (attr smd)
@@ -9061,14 +9061,14 @@
       (net 1 "Net-(BAT1-Pad-)"))
     (pad + smd rect (at 0.75 0 270) (size 1.8 0.75) (layers B.Cu B.Paste B.Mask)
       (net 2 "Net-(BAT1-Pad+)"))
-    (model ${ANT3DMDL}/MS621FE-FL11E.step
+    (model ${KIPRJMOD}/lib/3d-models/MS621FE-FL11E.step
       (offset (xyz 1 13 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module antmicro-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17A1)
+  (module sa800u-baseboard-hw-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17A1)
     (at 58 147)
     (path /61B52107)
     (fp_text reference MP1 (at 0 2.75) (layer F.SilkS)
@@ -9080,7 +9080,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module antmicro-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17A6)
+  (module sa800u-baseboard-hw-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17A6)
     (at 58 85)
     (path /61B52868)
     (fp_text reference MP2 (at 0 2.75) (layer F.SilkS)
@@ -9092,7 +9092,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module antmicro-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17AB)
+  (module sa800u-baseboard-hw-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17AB)
     (at 152 147)
     (path /61B52579)
     (fp_text reference MP3 (at 0 2.75) (layer F.SilkS)
@@ -9104,7 +9104,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module antmicro-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17B0)
+  (module sa800u-baseboard-hw-footprints:mounting-hole-3mm-NPTH (layer F.Cu) (tedit 60AE37FE) (tstamp 61AB17B0)
     (at 152 85)
     (path /61B52B11)
     (fp_text reference MP4 (at 0 2.75) (layer F.SilkS)
@@ -9116,7 +9116,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module USBPD:TPS65982ABZBHR (layer B.Cu) (tedit 61A9EB6B) (tstamp 61ABAAE5)
+  (module sa800u-baseboard-hw-footprints:TPS65982ABZBHR (layer B.Cu) (tedit 61A9EB6B) (tstamp 61ABAAE5)
     (at 123.5 105)
     (path /61B0DC30/61A8CEE6)
     (fp_text reference U13 (at 0 0) (layer B.SilkS)
@@ -9291,14 +9291,14 @@
     (pad L9 smd circle (at 1.5 -2.5) (size 0.3556 0.3556) (layers B.Cu B.Paste B.Mask))
     (pad L10 smd circle (at 2 -2.5) (size 0.3556 0.3556) (layers B.Cu B.Paste B.Mask))
     (pad L11 smd circle (at 2.5 -2.5) (size 0.3556 0.3556) (layers B.Cu B.Paste B.Mask))
-    (model ${KIPRJMOD}/ZBH0096A.stp
+    (model ${KIPRJMOD}/lib/3d-models/ZBH0096A.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC01)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC01)
     (at 44.350001 -29.742999)
     (path /61BD2CC1/61B9B38A)
     (attr smd)
@@ -9328,14 +9328,14 @@
       (net 154 /LCM/DSI0_LN1_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 153 /LCM/DSI0_LN1_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC15)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC15)
     (at 44.350001 -27.282999)
     (path /61BD2CC1/61C048CC)
     (attr smd)
@@ -9365,14 +9365,14 @@
       (net 164 "Net-(J7-Pad6)"))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 751 "Net-(J7-Pad5)"))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC29)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC29)
     (at 47.150001 -29.742999)
     (path /61BD2CC1/61C3A309)
     (attr smd)
@@ -9402,14 +9402,14 @@
       (net 157 /LCM/DSI0_LN0_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 158 /LCM/DSI0_LN0_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC3D)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC3D)
     (at 47.150001 -27.282999)
     (path /61BD2CC1/61C65B0C)
     (attr smd)
@@ -9439,14 +9439,14 @@
       (net 824 "Net-(J8-Pad3)"))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 823 "Net-(J8-Pad2)"))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC51)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC51)
     (at 49.950001 -29.742999)
     (path /61BD2CC1/61C82351)
     (attr smd)
@@ -9476,14 +9476,14 @@
       (net 162 /LCM/DSI0_LN2_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 161 /LCM/DSI0_LN2_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC65)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC65)
     (at 49.950001 -27.282999)
     (path /61BD2CC1/61C82CCB)
     (attr smd)
@@ -9513,14 +9513,14 @@
       (net 828 "Net-(J8-Pad9)"))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 827 "Net-(J8-Pad8)"))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC79)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC79)
     (at 52.750001 -29.742999)
     (path /61BD2CC1/61C832C1)
     (attr smd)
@@ -9550,14 +9550,14 @@
       (net 830 "Net-(J8-Pad12)"))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 829 "Net-(J8-Pad11)"))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC8D)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEC8D)
     (at 52.750001 -27.282999)
     (path /61BD2CC1/61C83C74)
     (attr smd)
@@ -9587,14 +9587,14 @@
       (net 155 /LCM/DSI0_CLK_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 156 /LCM/DSI0_CLK_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEB5)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEB5)
     (at 63.150001 -31.567999)
     (path /61A60486/61CE378A)
     (attr smd)
@@ -9624,14 +9624,14 @@
       (net 102 /Cameras_Interface/CSI1_LN3_FFC_P))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 101 /Cameras_Interface/CSI1_LN3_FFC_N))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEC9)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEC9)
     (at 63.150001 -29.107999)
     (path /61A60486/61CECE67)
     (attr smd)
@@ -9661,14 +9661,14 @@
       (net 168 CSI1_LN2_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 167 CSI1_LN2_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEDD)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEDD)
     (at 65.950001 -31.567999)
     (path /61A60486/61CED3A2)
     (attr smd)
@@ -9698,14 +9698,14 @@
       (net 113 /Cameras_Interface/CSI1_LN1_FFC_P))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 112 /Cameras_Interface/CSI1_LN1_FFC_N))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEF1)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEEF1)
     (at 63.150001 -26.647999)
     (path /61A60486/61CEDD0B)
     (attr smd)
@@ -9735,14 +9735,14 @@
       (net 171 CSI1_LN0_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 172 CSI1_LN0_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF05)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF05)
     (at 65.950001 -29.107999)
     (path /61A60486/61CEE413)
     (attr smd)
@@ -9772,14 +9772,14 @@
       (net 110 /Cameras_Interface/CSI1_CLK_FFC_P))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 109 /Cameras_Interface/CSI1_CLK_FFC_N))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF19)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF19)
     (at 68.750001 -31.567999)
     (path /61A60486/61CEE814)
     (attr smd)
@@ -9809,14 +9809,14 @@
       (net 175 CSI0_LN3_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 176 CSI0_LN3_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF2D)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF2D)
     (at 65.950001 -26.647999)
     (path /61A60486/61CEEFBB)
     (attr smd)
@@ -9846,14 +9846,14 @@
       (net 108 /Cameras_Interface/CSI0_LN2_FFC_P))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 107 /Cameras_Interface/CSI0_LN2_FFC_N))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF41)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF41)
     (at 68.750001 -29.107999)
     (path /61A60486/61CEFBB4)
     (attr smd)
@@ -9883,14 +9883,14 @@
       (net 179 CSI0_LN1_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 180 CSI0_LN1_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF55)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF55)
     (at 71.550001 -31.567999)
     (path /61A60486/61CF063F)
     (attr smd)
@@ -9920,14 +9920,14 @@
       (net 119 /Cameras_Interface/CSI0_LN0_FFC_P))
     (pad 2 smd rect (at 0.25 -0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 118 /Cameras_Interface/CSI0_LN0_FFC_N))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF69)
+  (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer F.Cu) (tedit 61AA2C4F) (tstamp 61ABEF69)
     (at 68.750001 -26.647999)
     (path /61A60486/61CF0B6C)
     (attr smd)
@@ -9957,14 +9957,14 @@
       (net 120 CSI0_CLK_N))
     (pad 4 smd rect (at -0.25 0.24) (size 0.3 0.23) (layers F.Cu F.Paste F.Mask)
       (net 121 CSI0_CLK_P))
-    (model ${ANT3DMDL}/NFP0QHB242HS2D.step
+    (model ${KIPRJMOD}/lib/3d-models/NFP0QHB242HS2D.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module antmicro-footprints:MDT580M01001 (layer B.Cu) (tedit 61AA3583) (tstamp 61AC1E7E)
+  (module sa800u-baseboard-hw-footprints:MDT580M01001 (layer B.Cu) (tedit 61AA3583) (tstamp 61AC1E7E)
     (at 69 143)
     (path /61B13669/61A7DEAD)
     (attr smd)
@@ -10125,7 +10125,7 @@
     (pad 1 smd rect (at 83.74499 -1.90001 90) (size 0.3 1.55) (layers B.Cu B.Paste B.Mask)
       (net 748 "Net-(U10-Pad1)"))
     (pad "" np_thru_hole circle (at 0.3 -11) (size 6 6) (drill 3.7) (layers *.Cu *.Mask))
-    (model ${ANT3DMDL}/M-mdt580m0x001.step
+    (model ${KIPRJMOD}/lib/3d-models/M-mdt580m0x001.step
       (offset (xyz 80.2 -0.15 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))

@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroInterfaceAnalogSwitchesSpecialPurpose:TS3USB30EDGSR U6
+L sa800u-baseboard-hw:TS3USB30EDGSR U6
 U 1 1 61A48DAE
 P 8000 1450
 F 0 "U6" H 7800 2100 60  0000 C CNN
 F 1 "TS3USB30EDGSR" H 7200 2100 60  0000 C CNN
-F 2 "antmicro-footprints:MSOP-10_W3mm" H 8150 1640 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:MSOP-10_W3mm" H 8150 1640 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts3usb30e" H 8150 1740 60  0001 L CNN
 F 4 "TS3USB30EDGSR" H 8150 1940 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 8170 2550 60  0001 L CNN "Manufacturer"
@@ -37,7 +37,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 1050 7700 1050
 $Comp
-L power:GND #PWR053
+L sa800u-baseboard-hw:GND #PWR053
 U 1 1 61A4FE6D
 P 8100 2400
 F 0 "#PWR053" H 8100 2150 50  0001 C CNN
@@ -50,7 +50,7 @@ $EndComp
 Wire Wire Line
 	8100 2250 8100 2400
 $Comp
-L power:GND #PWR050
+L sa800u-baseboard-hw:GND #PWR050
 U 1 1 61A52AC4
 P 6650 950
 F 0 "#PWR050" H 6650 700 50  0001 C CNN
@@ -61,12 +61,12 @@ F 3 "" H 6650 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C84
+L sa800u-baseboard-hw:C_1u_0402 C84
 U 1 1 61A55FCB
 P 6650 800
 F 0 "C84" H 6765 845 60  0000 L CNN
 F 1 "C_1u_0402" H 6650 650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6850 1000 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6850 1000 60  0001 L CNN
 F 3 "" H 6650 800 50  0001 C CNN
 F 4 "TDK" H 6850 1200 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 6850 1100 60  0001 L CNN "MPN"
@@ -86,12 +86,12 @@ Wire Wire Line
 Wire Wire Line
 	8550 1950 8550 2050
 $Comp
-L antmicroResistors0402:R_2k2_0402 R68
+L sa800u-baseboard-hw:R_2k2_0402 R68
 U 1 1 61A77AD1
 P 8550 2200
 F 0 "R68" V 8505 2270 60  0000 L CNN
 F 1 "R_2k2_0402" H 8550 2050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8750 2400 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8750 2400 60  0001 L CNN
 F 3 "" H 8550 2200 50  0001 C CNN
 F 4 "YAGEO" H 8750 2600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 8750 2500 60  0001 L CNN "MPN"
@@ -122,12 +122,12 @@ Wire Wire Line
 	9300 1550 9300 950 
 Connection ~ 9300 1550
 $Comp
-L antmicroResistors0402:R_100k_0402 R69
+L sa800u-baseboard-hw:R_100k_0402 R69
 U 1 1 61A919E7
 P 9300 1850
 F 0 "R69" V 9255 1920 60  0000 L CNN
 F 1 "R_100k_0402" H 9300 1700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9500 2050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9500 2050 60  0001 L CNN
 F 3 "" H 9300 1850 50  0001 C CNN
 F 4 "VISHAY" H 9500 2250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 9500 2150 60  0001 L CNN "MPN"
@@ -136,12 +136,12 @@ F 6 "100k" V 9353 1920 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_0402 R70
+L sa800u-baseboard-hw:R_100k_0402 R70
 U 1 1 61A91F11
 P 9650 1850
 F 0 "R70" V 9605 1920 60  0000 L CNN
 F 1 "R_100k_0402" H 9650 1700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9850 2050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9850 2050 60  0001 L CNN
 F 3 "" H 9650 1850 50  0001 C CNN
 F 4 "VISHAY" H 9850 2250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 9850 2150 60  0001 L CNN "MPN"
@@ -164,7 +164,7 @@ Text GLabel 9650 2150 3    50   Input ~ 0
 Wire Wire Line
 	9300 2000 9300 2100
 $Comp
-L power:GND #PWR057
+L sa800u-baseboard-hw:GND #PWR057
 U 1 1 61A9C117
 P 9300 2100
 F 0 "#PWR057" H 9300 1850 50  0001 C CNN
@@ -181,12 +181,12 @@ Wire Wire Line
 Wire Wire Line
 	9300 1550 10100 1550
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C90
+L sa800u-baseboard-hw:C_100n_0402 C90
 U 1 1 61AA1C18
 P 10250 1150
 F 0 "C90" V 9992 1150 60  0000 C CNN
 F 1 "C_100n_0402" H 10250 1000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10450 1350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10450 1350 60  0001 L CNN
 F 3 "" H 10250 1150 50  0001 C CNN
 F 4 "Walsin" H 10450 1550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10450 1450 60  0001 L CNN "MPN"
@@ -195,12 +195,12 @@ F 6 "100n" V 10090 1150 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C91
+L sa800u-baseboard-hw:C_100n_0402 C91
 U 1 1 61AA25EA
 P 10250 1550
 F 0 "C91" V 9992 1550 60  0000 C CNN
 F 1 "C_100n_0402" H 10250 1400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10450 1750 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10450 1750 60  0001 L CNN
 F 3 "" H 10250 1550 50  0001 C CNN
 F 4 "Walsin" H 10450 1950 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10450 1850 60  0001 L CNN "MPN"
@@ -225,12 +225,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 800  5000 1800
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C68
+L sa800u-baseboard-hw:C_1u_0402 C68
 U 1 1 61ACCBAB
 P 2950 2550
 F 0 "C68" H 3065 2595 60  0000 L CNN
 F 1 "C_1u_0402" H 2950 2400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3150 2750 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3150 2750 60  0001 L CNN
 F 3 "" H 2950 2550 50  0001 C CNN
 F 4 "TDK" H 3150 2950 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 3150 2850 60  0001 L CNN "MPN"
@@ -244,7 +244,7 @@ Connection ~ 2950 1800
 Wire Wire Line
 	2950 1800 2950 800 
 $Comp
-L power:GND #PWR043
+L sa800u-baseboard-hw:GND #PWR043
 U 1 1 61ACF8AD
 P 3400 3150
 F 0 "#PWR043" H 3400 2900 50  0001 C CNN
@@ -271,7 +271,7 @@ Wire Wire Line
 	3400 2600 3400 2700
 Connection ~ 3400 2600
 $Comp
-L power:GND #PWR047
+L sa800u-baseboard-hw:GND #PWR047
 U 1 1 61AD6080
 P 4800 3150
 F 0 "#PWR047" H 4800 2900 50  0001 C CNN
@@ -293,12 +293,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 1700 2250 1700
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C64
+L sa800u-baseboard-hw:C_100n_0402 C64
 U 1 1 61AEA0E1
 P 2100 1500
 F 0 "C64" V 2050 1400 60  0000 C CNN
 F 1 "C_100n_0402" H 2100 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2300 1700 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 2300 1700 60  0001 L CNN
 F 3 "" H 2100 1500 50  0001 C CNN
 F 4 "Walsin" H 2300 1900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2300 1800 60  0001 L CNN "MPN"
@@ -307,12 +307,12 @@ F 6 "100n" V 2050 1650 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C65
+L sa800u-baseboard-hw:C_100n_0402 C65
 U 1 1 61AEABE1
 P 2100 1700
 F 0 "C65" V 2050 1600 60  0000 C CNN
 F 1 "C_100n_0402" H 2100 1550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2300 1900 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 2300 1900 60  0001 L CNN
 F 3 "" H 2100 1700 50  0001 C CNN
 F 4 "Walsin" H 2300 2100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2300 2000 60  0001 L CNN "MPN"
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4550 2550 4650
 $Comp
-L power:GND #PWR041
+L sa800u-baseboard-hw:GND #PWR041
 U 1 1 61B60718
 P 2550 4650
 F 0 "#PWR041" H 2550 4400 50  0001 C CNN
@@ -397,12 +397,12 @@ Wire Wire Line
 Wire Wire Line
 	5350 1500 5700 1500
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C76
+L sa800u-baseboard-hw:C_100n_0402 C76
 U 1 1 61B68402
 P 5850 1500
 F 0 "C76" V 5800 1400 60  0000 C CNN
 F 1 "C_100n_0402" H 5850 1350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6050 1700 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6050 1700 60  0001 L CNN
 F 3 "" H 5850 1500 50  0001 C CNN
 F 4 "Walsin" H 6050 1900 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6050 1800 60  0001 L CNN "MPN"
@@ -413,12 +413,12 @@ $EndComp
 Wire Wire Line
 	6000 1500 6350 1500
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C77
+L sa800u-baseboard-hw:C_100n_0402 C77
 U 1 1 61B68D7F
 P 5850 1700
 F 0 "C77" V 5800 1600 60  0000 C CNN
 F 1 "C_100n_0402" H 5850 1550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6050 1900 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6050 1900 60  0001 L CNN
 F 3 "" H 5850 1700 50  0001 C CNN
 F 4 "Walsin" H 6050 2100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6050 2000 60  0001 L CNN "MPN"
@@ -444,12 +444,12 @@ USB1_DP
 Text Label 6350 2200 0    50   ~ 0
 USB_CC2
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C78
+L sa800u-baseboard-hw:C_100n_0402 C78
 U 1 1 61B7FEE0
 P 5850 2400
 F 0 "C78" V 5800 2300 60  0000 C CNN
 F 1 "C_100n_0402" H 5850 2250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6050 2600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6050 2600 60  0001 L CNN
 F 3 "" H 5850 2400 50  0001 C CNN
 F 4 "Walsin" H 6050 2800 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6050 2700 60  0001 L CNN "MPN"
@@ -458,12 +458,12 @@ F 6 "100n" V 5800 2550 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C79
+L sa800u-baseboard-hw:C_100n_0402 C79
 U 1 1 61B80E0B
 P 5850 2600
 F 0 "C79" V 5800 2500 60  0000 C CNN
 F 1 "C_100n_0402" H 5850 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6050 2800 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6050 2800 60  0001 L CNN
 F 3 "" H 5850 2600 50  0001 C CNN
 F 4 "Walsin" H 6050 3000 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6050 2900 60  0001 L CNN "MPN"
@@ -488,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2200 6350 2200
 $Comp
-L power:GND #PWR049
+L sa800u-baseboard-hw:GND #PWR049
 U 1 1 61BA0B19
 P 5550 3800
 F 0 "#PWR049" H 5550 3550 50  0001 C CNN
@@ -503,12 +503,12 @@ This should be optional,\nhard to get component and\nnot necessary.
 Wire Wire Line
 	1950 2400 1250 2400
 $Comp
-L antmicroCapacitors0603:C_330n_0603 C66
+L sa800u-baseboard-hw:C_330n_0603 C66
 U 1 1 61B288A3
 P 2100 2400
 F 0 "C66" V 2050 2250 60  0000 C CNN
 F 1 "C_330n_0603" H 2100 2250 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2300 2600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2300 2600 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 2100 2400 50  0001 C CNN
 F 4 "Vishay" H 2300 2800 60  0001 L CNN "Manufacturer"
 F 5 "VJ0603A331JXBAC" H 2300 2700 60  0001 L CNN "MPN"
@@ -517,12 +517,12 @@ F 6 "330n" V 2050 2600 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_330n_0603 C67
+L sa800u-baseboard-hw:C_330n_0603 C67
 U 1 1 61B290D9
 P 2100 2600
 F 0 "C67" V 2050 2450 60  0000 C CNN
 F 1 "C_330n_0603" H 2100 2450 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2300 2800 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2300 2800 60  0001 L CNN
 F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 2100 2600 50  0001 C CNN
 F 4 "Vishay" H 2300 3000 60  0001 L CNN "Manufacturer"
 F 5 "VJ0603A331JXBAC" H 2300 2900 60  0001 L CNN "MPN"
@@ -539,14 +539,14 @@ Text GLabel 8700 2650 1    50   Input ~ 0
 Text Notes 11950 1500 0    50   ~ 0
 Work in progress\n
 $Comp
-L antmicroInterfaceControllers:FT2232HL-REEL U?
+L sa800u-baseboard-hw:FT2232HL-REEL U?
 U 1 1 61C56D21
 P 13950 3500
 AR Path="/61C56D21" Ref="U?"  Part="1" 
 AR Path="/61A2F307/61C56D21" Ref="U9"  Part="1" 
 F 0 "U9" H 13950 5989 60  0000 C CNN
 F 1 "FT2232HL-REEL" H 13950 5883 60  0000 C CNN
-F 2 "antmicro-footprints:LQFP-64_10x10mm" V 14000 3725 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:LQFP-64_10x10mm" V 14000 3725 60  0001 L CNN
 F 3 "" H 10225 3525 60  0001 L CNN
 F 4 "FTDI, Future Technology Devices International Ltd" H 10225 4325 60  0001 L CNN "Manufacturer"
 F 5 "FT2232HL-REEL" H 14000 4025 60  0001 L CNN "MPN"
@@ -554,12 +554,12 @@ F 5 "FT2232HL-REEL" H 14000 4025 60  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_632723300011 J3
+L sa800u-baseboard-hw:WE_632723300011 J3
 U 1 1 61C60EDE
 P 3750 1400
 F 0 "J3" H 4150 1589 60  0000 C CNN
 F 1 "WE_632723300011" H 4150 1483 60  0000 C CNN
-F 2 "antmicro-footprints:WE_632723300011" H 3750 1400 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:WE_632723300011" H 3750 1400 60  0001 C CNN
 F 3 "" H 3750 1400 60  0001 C CNN
 F 4 "Wurth Elektronik" H 3750 1400 50  0001 C CNN "Manufacturer"
 F 5 "632723300011" H 3750 1400 50  0001 C CNN "MPN"
@@ -592,12 +592,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 2300 5000 2300
 $Comp
-L antmicroTVSDiodes:ESD9L5.0ST5G D9
+L sa800u-baseboard-hw:ESD9L5.0ST5G D9
 U 1 1 627552CA
 P 2400 3350
 F 0 "D9" V 2446 3250 50  0000 R CNN
 F 1 "ESD9L5.0ST5G" V 2355 3250 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM1006X40N" H 2150 3550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 2150 3550 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 2400 3350 50  0001 C CNN
 F 4 "ESD9L5.0ST5G" H 2100 3600 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 2550 3600 50  0001 C CNN "Manufacturer"
@@ -605,12 +605,12 @@ F 5 "ONSEMI" H 2550 3600 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:ESD9L5.0ST5G D10
+L sa800u-baseboard-hw:ESD9L5.0ST5G D10
 U 1 1 6275774B
 P 2550 3750
 F 0 "D10" V 2596 3650 50  0000 R CNN
 F 1 "ESD9L5.0ST5G" V 2505 3650 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM1006X40N" H 2300 3950 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 2300 3950 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 2550 3750 50  0001 C CNN
 F 4 "ESD9L5.0ST5G" H 2250 4000 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 2700 4000 50  0001 C CNN "Manufacturer"
@@ -632,12 +632,12 @@ Wire Wire Line
 	3400 3050 3400 3150
 Connection ~ 3400 3050
 $Comp
-L antmicroTVSDiodes:TPD1E10B06DPYR D11
+L sa800u-baseboard-hw:TPD1E10B06DPYR D11
 U 1 1 62775FA4
 P 2700 4250
 F 0 "D11" V 2647 4398 60  0000 L CNN
 F 1 "TPD1E10B06DPYR" V 2753 4398 60  0000 L CNN
-F 2 "antmicro-footprints:XDFN-2_1x0.60mm" H 2900 4450 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:XDFN-2_1x0.60mm" H 2900 4450 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 2900 4550 60  0001 L CNN
 F 4 "Texas Instruments" H 2900 5350 60  0001 L CNN "Manufacturer"
 F 5 "TPD1E10B06DPYR" H 2900 4750 60  0001 L CNN "MPN"
@@ -645,12 +645,12 @@ F 5 "TPD1E10B06DPYR" H 2900 4750 60  0001 L CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:TPD1E10B06DPYR D13
+L sa800u-baseboard-hw:TPD1E10B06DPYR D13
 U 1 1 62777722
 P 5550 3400
 F 0 "D13" V 5497 3548 60  0000 L CNN
 F 1 "TPD1E10B06DPYR" V 5603 3548 60  0000 L CNN
-F 2 "antmicro-footprints:XDFN-2_1x0.60mm" H 5750 3600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:XDFN-2_1x0.60mm" H 5750 3600 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd1e10b06" H 5750 3700 60  0001 L CNN
 F 4 "Texas Instruments" H 5750 4500 60  0001 L CNN "Manufacturer"
 F 5 "TPD1E10B06DPYR" H 5750 3900 60  0001 L CNN "MPN"
@@ -662,14 +662,14 @@ Wire Wire Line
 Wire Wire Line
 	2400 2000 2400 3100
 $Comp
-L antmicroUSBDVIHDMIConnectors:WE_632723300011 J4
+L sa800u-baseboard-hw:WE_632723300011 J4
 U 1 1 62A1482A
 P 4400 8850
 AR Path="/61A2F307/62A1482A" Ref="J4"  Part="1" 
 AR Path="/628CDA4A/62A1482A" Ref="J?"  Part="1" 
 F 0 "J4" H 4800 9039 60  0000 C CNN
 F 1 "WE_632723300011" H 4800 8933 60  0000 C CNN
-F 2 "antmicro-footprints:WE_632723300011" H 4400 8850 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:WE_632723300011" H 4400 8850 60  0001 C CNN
 F 3 "" H 4400 8850 60  0001 C CNN
 F 4 "Wurth Elektronik" H 4400 8850 50  0001 C CNN "Manufacturer"
 F 5 "632723300011" H 4400 8850 50  0001 C CNN "MPN"
@@ -677,7 +677,7 @@ F 5 "632723300011" H 4400 8850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR045
+L sa800u-baseboard-hw:GND #PWR045
 U 1 1 62A14830
 P 4100 10400
 AR Path="/61A2F307/62A14830" Ref="#PWR045"  Part="1" 
@@ -699,7 +699,7 @@ Connection ~ 4100 10150
 Wire Wire Line
 	4100 8950 4200 8950
 $Comp
-L power:GND #PWR048
+L sa800u-baseboard-hw:GND #PWR048
 U 1 1 62A1483B
 P 5500 10400
 AR Path="/61A2F307/62A1483B" Ref="#PWR048"  Part="1" 
@@ -739,14 +739,14 @@ Text GLabel 2900 8000 1    50   Input ~ 0
 USB2_5V
 NoConn ~ 4200 9650
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C72
+L sa800u-baseboard-hw:C_100n_0402 C72
 U 1 1 62A14853
 P 3450 9050
 AR Path="/61A2F307/62A14853" Ref="C72"  Part="1" 
 AR Path="/628CDA4A/62A14853" Ref="C?"  Part="1" 
 F 0 "C72" V 3192 9050 60  0000 C CNN
 F 1 "C_100n_0402" H 3450 8900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3650 9250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3650 9250 60  0001 L CNN
 F 3 "" H 3450 9050 50  0001 C CNN
 F 4 "Walsin" H 3650 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3650 9350 60  0001 L CNN "MPN"
@@ -755,14 +755,14 @@ F 6 "100n" V 3290 9050 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C69
+L sa800u-baseboard-hw:C_100n_0402 C69
 U 1 1 62A1485C
 P 3100 9150
 AR Path="/61A2F307/62A1485C" Ref="C69"  Part="1" 
 AR Path="/628CDA4A/62A1485C" Ref="C?"  Part="1" 
 F 0 "C69" V 2842 9150 60  0000 C CNN
 F 1 "C_100n_0402" H 3100 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3300 9350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3300 9350 60  0001 L CNN
 F 3 "" H 3100 9150 50  0001 C CNN
 F 4 "Walsin" H 3300 9550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3300 9450 60  0001 L CNN "MPN"
@@ -771,14 +771,14 @@ F 6 "100n" V 2940 9150 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C73
+L sa800u-baseboard-hw:C_100n_0402 C73
 U 1 1 62A14865
 P 3450 9850
 AR Path="/61A2F307/62A14865" Ref="C73"  Part="1" 
 AR Path="/628CDA4A/62A14865" Ref="C?"  Part="1" 
 F 0 "C73" V 3192 9850 60  0000 C CNN
 F 1 "C_100n_0402" H 3450 9700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3650 10050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3650 10050 60  0001 L CNN
 F 3 "" H 3450 9850 50  0001 C CNN
 F 4 "Walsin" H 3650 10250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3650 10150 60  0001 L CNN "MPN"
@@ -787,14 +787,14 @@ F 6 "100n" V 3290 9850 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C70
+L sa800u-baseboard-hw:C_100n_0402 C70
 U 1 1 62A1486E
 P 3100 9950
 AR Path="/61A2F307/62A1486E" Ref="C70"  Part="1" 
 AR Path="/628CDA4A/62A1486E" Ref="C?"  Part="1" 
 F 0 "C70" V 2842 9950 60  0000 C CNN
 F 1 "C_100n_0402" H 3100 9800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3300 10150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3300 10150 60  0001 L CNN
 F 3 "" H 3100 9950 50  0001 C CNN
 F 4 "Walsin" H 3300 10350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3300 10250 60  0001 L CNN "MPN"
@@ -803,14 +803,14 @@ F 6 "100n" V 2940 9950 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:ESD9L5.0ST5G D8
+L sa800u-baseboard-hw:ESD9L5.0ST5G D8
 U 1 1 62A14876
 P 1950 9200
 AR Path="/61A2F307/62A14876" Ref="D8"  Part="1" 
 AR Path="/628CDA4A/62A14876" Ref="D?"  Part="1" 
 F 0 "D8" V 2050 9350 50  0000 R CNN
 F 1 "ESD9L5.0ST5G" H 1905 9100 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM1006X40N" H 1700 9400 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 1700 9400 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 1950 9200 50  0001 C CNN
 F 4 "ESD9L5.0ST5G" H 1650 9450 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 2100 9450 50  0001 C CNN "Manufacturer"
@@ -818,14 +818,14 @@ F 5 "ONSEMI" H 2100 9450 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTVSDiodes:ESD9L5.0ST5G D7
+L sa800u-baseboard-hw:ESD9L5.0ST5G D7
 U 1 1 62A1487E
 P 1750 9300
 AR Path="/61A2F307/62A1487E" Ref="D7"  Part="1" 
 AR Path="/628CDA4A/62A1487E" Ref="D?"  Part="1" 
 F 0 "D7" V 1750 9250 50  0000 R CNN
 F 1 "ESD9L5.0ST5G" H 1600 9200 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM1006X40N" H 1500 9500 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 1500 9500 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 1750 9300 50  0001 C CNN
 F 4 "ESD9L5.0ST5G" H 1450 9550 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 1900 9550 50  0001 C CNN "Manufacturer"
@@ -844,7 +844,7 @@ Connection ~ 1750 8950
 Wire Wire Line
 	1750 8950 1750 8500
 $Comp
-L power:GND #PWR039
+L sa800u-baseboard-hw:GND #PWR039
 U 1 1 62A1488A
 P 1750 8500
 AR Path="/61A2F307/62A1488A" Ref="#PWR039"  Part="1" 
@@ -871,14 +871,14 @@ Wire Wire Line
 Wire Wire Line
 	4000 8600 3600 8600
 $Comp
-L antmicroCapacitors0603:C_22u_0603 C71
+L sa800u-baseboard-hw:C_22u_0603 C71
 U 1 1 62A1489A
 P 3200 8300
 AR Path="/61A2F307/62A1489A" Ref="C71"  Part="1" 
 AR Path="/628CDA4A/62A1489A" Ref="C?"  Part="1" 
 F 0 "C71" H 3315 8345 60  0000 L CNN
 F 1 "C_22u_0603" H 3200 8150 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 3400 8500 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 3400 8500 60  0001 L CNN
 F 3 "" H 3200 8300 50  0001 C CNN
 F 4 "MURATA" H 3400 8700 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 3400 8600 60  0001 L CNN "MPN"
@@ -887,14 +887,14 @@ F 6 "22u" H 3315 8247 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C74
+L sa800u-baseboard-hw:C_100n_0402 C74
 U 1 1 62A148A3
 P 3600 8300
 AR Path="/61A2F307/62A148A3" Ref="C74"  Part="1" 
 AR Path="/628CDA4A/62A148A3" Ref="C?"  Part="1" 
 F 0 "C74" H 3715 8345 60  0000 L CNN
 F 1 "C_100n_0402" H 3600 8150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3800 8500 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3800 8500 60  0001 L CNN
 F 3 "" H 3600 8300 50  0001 C CNN
 F 4 "Walsin" H 3800 8700 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3800 8600 60  0001 L CNN "MPN"
@@ -903,14 +903,14 @@ F 6 "100n" H 3715 8247 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:ESD9L5.0ST5G D12
+L sa800u-baseboard-hw:ESD9L5.0ST5G D12
 U 1 1 62A148AB
 P 4000 8200
 AR Path="/61A2F307/62A148AB" Ref="D12"  Part="1" 
 AR Path="/628CDA4A/62A148AB" Ref="D?"  Part="1" 
 F 0 "D12" V 4100 8350 50  0000 R CNN
 F 1 "ESD9L5.0ST5G" H 3955 8100 50  0000 R CNN
-F 2 "antmicro-footprints:DIOM1006X40N" H 3750 8400 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 3750 8400 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 4000 8200 50  0001 C CNN
 F 4 "ESD9L5.0ST5G" H 3700 8450 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 4150 8450 50  0001 C CNN "Manufacturer"
@@ -947,7 +947,7 @@ Connection ~ 3200 8600
 Wire Wire Line
 	3200 8600 2900 8600
 $Comp
-L power:GND #PWR044
+L sa800u-baseboard-hw:GND #PWR044
 U 1 1 62A148C2
 P 4000 7650
 AR Path="/61A2F307/62A148C2" Ref="#PWR044"  Part="1" 
@@ -1014,14 +1014,14 @@ USB2C_HS_D_N
 Wire Wire Line
 	6000 9150 5400 9150
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C80
+L sa800u-baseboard-hw:C_100n_0402 C80
 U 1 1 62A148E7
 P 6150 9150
 AR Path="/61A2F307/62A148E7" Ref="C80"  Part="1" 
 AR Path="/628CDA4A/62A148E7" Ref="C?"  Part="1" 
 F 0 "C80" V 5892 9150 60  0000 C CNN
 F 1 "C_100n_0402" H 6150 9000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6350 9350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6350 9350 60  0001 L CNN
 F 3 "" H 6150 9150 50  0001 C CNN
 F 4 "Walsin" H 6350 9550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6350 9450 60  0001 L CNN "MPN"
@@ -1030,14 +1030,14 @@ F 6 "100n" V 5990 9150 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C82
+L sa800u-baseboard-hw:C_100n_0402 C82
 U 1 1 62A148F0
 P 6500 9050
 AR Path="/61A2F307/62A148F0" Ref="C82"  Part="1" 
 AR Path="/628CDA4A/62A148F0" Ref="C?"  Part="1" 
 F 0 "C82" V 6242 9050 60  0000 C CNN
 F 1 "C_100n_0402" H 6500 8900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6700 9250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6700 9250 60  0001 L CNN
 F 3 "" H 6500 9050 50  0001 C CNN
 F 4 "Walsin" H 6700 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6700 9350 60  0001 L CNN "MPN"
@@ -1058,14 +1058,14 @@ Wire Wire Line
 Wire Wire Line
 	6000 9950 5400 9950
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C81
+L sa800u-baseboard-hw:C_100n_0402 C81
 U 1 1 62A148FF
 P 6150 9950
 AR Path="/61A2F307/62A148FF" Ref="C81"  Part="1" 
 AR Path="/628CDA4A/62A148FF" Ref="C?"  Part="1" 
 F 0 "C81" V 5892 9950 60  0000 C CNN
 F 1 "C_100n_0402" H 6150 9800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6350 10150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6350 10150 60  0001 L CNN
 F 3 "" H 6150 9950 50  0001 C CNN
 F 4 "Walsin" H 6350 10350 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6350 10250 60  0001 L CNN "MPN"
@@ -1074,14 +1074,14 @@ F 6 "100n" V 5990 9950 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C83
+L sa800u-baseboard-hw:C_100n_0402 C83
 U 1 1 62A14908
 P 6500 9850
 AR Path="/61A2F307/62A14908" Ref="C83"  Part="1" 
 AR Path="/628CDA4A/62A14908" Ref="C?"  Part="1" 
 F 0 "C83" V 6242 9850 60  0000 C CNN
 F 1 "C_100n_0402" H 6500 9700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6700 10050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6700 10050 60  0001 L CNN
 F 3 "" H 6500 9850 50  0001 C CNN
 F 4 "Walsin" H 6700 10250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6700 10150 60  0001 L CNN "MPN"
@@ -1109,14 +1109,14 @@ USB2_CC2
 Wire Wire Line
 	3500 9350 4200 9350
 $Comp
-L antmicroInterfaceControllers:TPS25820DSST U?
+L sa800u-baseboard-hw:TPS25820DSST U?
 U 1 1 62A1491B
 P 3350 6250
 AR Path="/628CDA4A/62A1491B" Ref="U?"  Part="1" 
 AR Path="/61A2F307/62A1491B" Ref="U5"  Part="1" 
 F 0 "U5" H 3350 6915 50  0000 C CNN
 F 1 "TPS25820DSST" H 3350 6824 50  0000 C CNN
-F 2 "antmicro-footprints:WSON-12_2x3mm" H 3400 5400 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:WSON-12_2x3mm" H 3400 5400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tps25820.pdf?ts=1624891405505&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS25820" H 3350 6250 50  0001 C CNN
 F 4 "Texas Instruments" H 3350 5600 50  0001 C CNN "Manufacturer"
 F 5 "TPS25820DSST" H 3350 5500 50  0001 C CNN "MPN"
@@ -1124,14 +1124,14 @@ F 5 "TPS25820DSST" H 3350 5500 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicSignalSwitchesMultiplexersDecoders:CBTL02043ABQ,115 U?
+L sa800u-baseboard-hw:CBTL02043ABQ,115 U?
 U 1 1 62A14923
 P 9250 6650
 AR Path="/628CDA4A/62A14923" Ref="U?"  Part="1" 
 AR Path="/61A2F307/62A14923" Ref="U8"  Part="1" 
 F 0 "U8" H 9250 7570 50  0000 C CNN
 F 1 "CBTL02043ABQ,115" H 9250 7479 50  0000 C CNN
-F 2 "antmicro-footprints:DHVQFN20" H 8650 5550 50  0001 L BNN
+F 2 "sa800u-baseboard-hw-footprints:DHVQFN20" H 8650 5550 50  0001 L BNN
 F 3 "https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf" H 9250 6650 50  0001 L BNN
 F 4 "CBTL02043ABQ,115" H 9250 5650 50  0001 C CNN "MPN"
 F 5 "Nexperia" H 9200 5750 50  0001 C CNN "Manufacturer"
@@ -1145,7 +1145,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 7300 8550 7450
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A1492C
 P 8550 7450
 AR Path="/628CDA4A/62A1492C" Ref="#PWR?"  Part="1" 
@@ -1160,14 +1160,14 @@ $EndComp
 Wire Wire Line
 	5400 9650 6050 9650
 $Comp
-L antmicroCapacitors0603:C_47u_0603 C?
+L sa800u-baseboard-hw:C_47u_0603 C?
 U 1 1 62A14936
 P 850 6000
 AR Path="/628CDA4A/62A14936" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A14936" Ref="C60"  Part="1" 
 F 0 "C60" H 965 6045 60  0000 L CNN
 F 1 "C_47u_0603" H 850 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1050 6200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 1050 6200 60  0001 L CNN
 F 3 "" H 850 6000 50  0001 C CNN
 F 4 "MURATA" H 1050 6400 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 1050 6300 60  0001 L CNN "MPN"
@@ -1176,14 +1176,14 @@ F 6 "47u" H 965 5947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_47u_0603 C?
+L sa800u-baseboard-hw:C_47u_0603 C?
 U 1 1 62A1493F
 P 1250 6000
 AR Path="/628CDA4A/62A1493F" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A1493F" Ref="C61"  Part="1" 
 F 0 "C61" H 1365 6045 60  0000 L CNN
 F 1 "C_47u_0603" H 1250 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1450 6200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 1450 6200 60  0001 L CNN
 F 3 "" H 1250 6000 50  0001 C CNN
 F 4 "MURATA" H 1450 6400 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 1450 6300 60  0001 L CNN "MPN"
@@ -1192,14 +1192,14 @@ F 6 "47u" H 1365 5947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_47u_0603 C?
+L sa800u-baseboard-hw:C_47u_0603 C?
 U 1 1 62A14948
 P 1650 6000
 AR Path="/628CDA4A/62A14948" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A14948" Ref="C62"  Part="1" 
 F 0 "C62" H 1765 6045 60  0000 L CNN
 F 1 "C_47u_0603" H 1650 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1850 6200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 1850 6200 60  0001 L CNN
 F 3 "" H 1650 6000 50  0001 C CNN
 F 4 "MURATA" H 1850 6400 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 1850 6300 60  0001 L CNN "MPN"
@@ -1208,14 +1208,14 @@ F 6 "47u" H 1765 5947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_47u_0603 C?
+L sa800u-baseboard-hw:C_47u_0603 C?
 U 1 1 62A14951
 P 2050 6000
 AR Path="/628CDA4A/62A14951" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A14951" Ref="C63"  Part="1" 
 F 0 "C63" H 2165 6045 60  0000 L CNN
 F 1 "C_47u_0603" H 2050 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2250 6200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 2250 6200 60  0001 L CNN
 F 3 "" H 2050 6000 50  0001 C CNN
 F 4 "MURATA" H 2250 6400 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 2250 6300 60  0001 L CNN "MPN"
@@ -1234,7 +1234,7 @@ Wire Wire Line
 Wire Wire Line
 	850  6150 850  6300
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A1495D
 P 850 6300
 AR Path="/628CDA4A/62A1495D" Ref="#PWR?"  Part="1" 
@@ -1270,7 +1270,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 6250 2300 6300
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A14971
 P 2300 6300
 AR Path="/628CDA4A/62A14971" Ref="#PWR?"  Part="1" 
@@ -1287,14 +1287,14 @@ Wire Wire Line
 Wire Wire Line
 	2600 6450 2600 6500
 $Comp
-L antmicroResistors0402:R_100k_0.5%_0402 R?
+L sa800u-baseboard-hw:R_100k_0.5%_0402 R?
 U 1 1 62A1497C
 P 2600 6650
 AR Path="/628CDA4A/62A1497C" Ref="R?"  Part="1" 
 AR Path="/61A2F307/62A1497C" Ref="R63"  Part="1" 
 F 0 "R63" V 2555 6720 60  0000 L CNN
 F 1 "R_100k_0.5%_0402" H 2600 6500 60  0001 C CNN
-F 2 "antmicro-footprints:0402" H 2800 6850 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402" H 2800 6850 60  0001 L CNN
 F 3 "" H 2600 6650 50  0001 C CNN
 F 4 "PANASONIC" H 2800 7050 60  0001 L CNN "Manufacturer"
 F 5 "ERA2AED104X" H 2800 6950 60  0001 L CNN "MPN"
@@ -1305,7 +1305,7 @@ $EndComp
 Wire Wire Line
 	2600 6800 2600 6850
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A14983
 P 2600 6900
 AR Path="/628CDA4A/62A14983" Ref="#PWR?"  Part="1" 
@@ -1335,14 +1335,14 @@ Wire Wire Line
 Wire Wire Line
 	3750 5850 4700 5850
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L sa800u-baseboard-hw:R_100k_0402 R?
 U 1 1 62A14995
 P 3850 6950
 AR Path="/628CDA4A/62A14995" Ref="R?"  Part="1" 
 AR Path="/61A2F307/62A14995" Ref="R64"  Part="1" 
 F 0 "R64" V 3805 7020 60  0000 L CNN
 F 1 "R_100k_0402" H 3850 6800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4050 7150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4050 7150 60  0001 L CNN
 F 3 "" H 3850 6950 50  0001 C CNN
 F 4 "VISHAY" H 4050 7350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4050 7250 60  0001 L CNN "MPN"
@@ -1353,14 +1353,14 @@ $EndComp
 Wire Wire Line
 	3750 6350 4450 6350
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L sa800u-baseboard-hw:R_100k_0402 R?
 U 1 1 62A1499F
 P 4150 6950
 AR Path="/628CDA4A/62A1499F" Ref="R?"  Part="1" 
 AR Path="/61A2F307/62A1499F" Ref="R65"  Part="1" 
 F 0 "R65" V 4105 7020 60  0000 L CNN
 F 1 "R_100k_0402" H 4150 6800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4350 7150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4350 7150 60  0001 L CNN
 F 3 "" H 4150 6950 50  0001 C CNN
 F 4 "VISHAY" H 4350 7350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4350 7250 60  0001 L CNN "MPN"
@@ -1369,14 +1369,14 @@ F 6 "100k" V 4203 7020 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_0402 R?
+L sa800u-baseboard-hw:R_100k_0402 R?
 U 1 1 62A149A8
 P 4450 6950
 AR Path="/628CDA4A/62A149A8" Ref="R?"  Part="1" 
 AR Path="/61A2F307/62A149A8" Ref="R66"  Part="1" 
 F 0 "R66" V 4405 7020 60  0000 L CNN
 F 1 "R_100k_0402" H 4450 6800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4650 7150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4650 7150 60  0001 L CNN
 F 3 "" H 4450 6950 50  0001 C CNN
 F 4 "VISHAY" H 4650 7350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4650 7250 60  0001 L CNN "MPN"
@@ -1426,14 +1426,14 @@ USB2_CC_SELECT
 Wire Wire Line
 	3850 6650 5350 6650
 $Comp
-L antmicroLogicTranslatorsLevelShifters:TXB0104D U?
+L sa800u-baseboard-hw:TXB0104D U?
 U 1 1 62A149C7
 P 9050 9100
 AR Path="/628CDA4A/62A149C7" Ref="U?"  Part="1" 
 AR Path="/61A2F307/62A149C7" Ref="U7"  Part="1" 
 F 0 "U7" H 8800 9550 60  0000 C CNN
 F 1 "TXB0104D" H 9350 9550 60  0000 C CNN
-F 2 "antmicro-footprints:SOIC-14_W3.9mm" H 9250 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SOIC-14_W3.9mm" H 9250 9300 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 9250 9400 60  0001 L CNN
 F 4 "TXB0104D" H 9250 9600 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 9250 10200 60  0001 L CNN "Manufacturer"
@@ -1473,7 +1473,7 @@ Text GLabel 8450 9300 0    50   Input ~ 0
 Wire Wire Line
 	8450 9300 8650 9300
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A149DE
 P 9050 9700
 AR Path="/628CDA4A/62A149DE" Ref="#PWR?"  Part="1" 
@@ -1488,14 +1488,14 @@ $EndComp
 Wire Wire Line
 	9050 9700 9050 9600
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L sa800u-baseboard-hw:C_10u_0402 C?
 U 1 1 62A149E8
 P 4700 6000
 AR Path="/628CDA4A/62A149E8" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A149E8" Ref="C75"  Part="1" 
 F 0 "C75" H 4815 6045 60  0000 L CNN
 F 1 "C_10u_0402" H 4700 5850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4900 6200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 4900 6200 60  0001 L CNN
 F 3 "" H 4700 6000 50  0001 C CNN
 F 4 "MURATA" H 4900 6400 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 4900 6300 60  0001 L CNN "MPN"
@@ -1507,7 +1507,7 @@ Connection ~ 4700 5850
 Wire Wire Line
 	4700 5850 5150 5850
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A149F0
 P 4700 6150
 AR Path="/628CDA4A/62A149F0" Ref="#PWR?"  Part="1" 
@@ -1536,7 +1536,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 7100 8750 7100
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A149FE
 P 8200 7450
 AR Path="/628CDA4A/62A149FE" Ref="#PWR?"  Part="1" 
@@ -1553,7 +1553,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 6900 8750 6900
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62A14A06
 P 7800 7450
 AR Path="/628CDA4A/62A14A06" Ref="#PWR?"  Part="1" 
@@ -1569,14 +1569,14 @@ Wire Wire Line
 	7800 6900 7150 6900
 Connection ~ 7800 6900
 $Comp
-L antmicroResistors0402:R_200k_0402 R?
+L sa800u-baseboard-hw:R_200k_0402 R?
 U 1 1 62A14A11
 P 7800 7200
 AR Path="/628CDA4A/62A14A11" Ref="R?"  Part="1" 
 AR Path="/61A2F307/62A14A11" Ref="R67"  Part="1" 
 F 0 "R67" V 7755 7270 60  0000 L CNN
 F 1 "R_200k_0402" H 7800 7050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8000 7400 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8000 7400 60  0001 L CNN
 F 3 "" H 7800 7200 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 8000 7600 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 8000 7500 60  0001 L CNN "MPN"
@@ -1593,14 +1593,14 @@ Wire Wire Line
 Wire Wire Line
 	4450 6350 5350 6350
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C?
 U 1 1 62A14A1E
 P 7700 6150
 AR Path="/628CDA4A/62A14A1E" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A14A1E" Ref="C87"  Part="1" 
 F 0 "C87" H 7450 6250 60  0000 L CNN
 F 1 "C_100n_0402" H 7700 6000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7900 6350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 7900 6350 60  0001 L CNN
 F 3 "" H 7700 6150 50  0001 C CNN
 F 4 "Walsin" H 7900 6550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7900 6450 60  0001 L CNN "MPN"
@@ -1616,14 +1616,14 @@ Wire Wire Line
 	6500 6000 6500 5800
 Connection ~ 7700 6000
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C?
 U 1 1 62A14A31
 P 7250 6150
 AR Path="/628CDA4A/62A14A31" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A14A31" Ref="C86"  Part="1" 
 F 0 "C86" H 7000 6250 60  0000 L CNN
 F 1 "C_100n_0402" H 7250 6000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7450 6350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 7450 6350 60  0001 L CNN
 F 3 "" H 7250 6150 50  0001 C CNN
 F 4 "Walsin" H 7450 6550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7450 6450 60  0001 L CNN "MPN"
@@ -1632,14 +1632,14 @@ F 6 "100n" H 6950 6100 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C?
 U 1 1 62A14A40
 P 6800 6150
 AR Path="/628CDA4A/62A14A40" Ref="C?"  Part="1" 
 AR Path="/61A2F307/62A14A40" Ref="C85"  Part="1" 
 F 0 "C85" H 6550 6250 60  0000 L CNN
 F 1 "C_100n_0402" H 6800 6000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7000 6350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 7000 6350 60  0001 L CNN
 F 3 "" H 6800 6150 50  0001 C CNN
 F 4 "Walsin" H 7000 6550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 7000 6450 60  0001 L CNN "MPN"
@@ -1691,7 +1691,7 @@ Connection ~ 7250 6300
 Wire Wire Line
 	7250 6300 6800 6300
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62AEF4BD
 P 6800 6450
 AR Path="/628CDA4A/62AEF4BD" Ref="#PWR?"  Part="1" 
@@ -1739,12 +1739,12 @@ Wire Wire Line
 Wire Wire Line
 	9700 9750 9700 9550
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C88
+L sa800u-baseboard-hw:C_100n_0402 C88
 U 1 1 62363CE4
 P 9700 9900
 F 0 "C88" H 9815 9945 60  0000 L CNN
 F 1 "C_100n_0402" H 9700 9750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9900 10100 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9900 10100 60  0001 L CNN
 F 3 "" H 9700 9900 50  0001 C CNN
 F 4 "Walsin" H 9900 10300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9900 10200 60  0001 L CNN "MPN"
@@ -1753,7 +1753,7 @@ F 6 "100n" H 9815 9847 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 623647C4
 P 9700 10200
 AR Path="/628CDA4A/623647C4" Ref="#PWR?"  Part="1" 
@@ -1766,7 +1766,7 @@ F 3 "" H 9700 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62364495
 P 10050 10200
 AR Path="/628CDA4A/62364495" Ref="#PWR?"  Part="1" 
@@ -1779,12 +1779,12 @@ F 3 "" H 10050 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C89
+L sa800u-baseboard-hw:C_100n_0402 C89
 U 1 1 623640A7
 P 10050 9900
 F 0 "C89" H 10165 9945 60  0000 L CNN
 F 1 "C_100n_0402" H 10050 9750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10250 10100 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10250 10100 60  0001 L CNN
 F 3 "" H 10050 9900 50  0001 C CNN
 F 4 "Walsin" H 10250 10300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10250 10200 60  0001 L CNN "MPN"

@@ -142,12 +142,12 @@ Wire Wire Line
 Wire Wire Line
 	1450 3450 1200 3450
 $Comp
-L antmicroFCCConnectors:WE_68715014522 J8
+L sa800u-baseboard-hw:WE_68715014522 J8
 U 1 1 61A63D9B
 P 7650 3250
 F 0 "J8" H 7730 2442 50  0000 L CNN
 F 1 "WE_68715014522" H 7730 2351 50  0000 L CNN
-F 2 "antmicro-footprints:WE_68715014522" H 7450 -300 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:WE_68715014522" H 7450 -300 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6871xx14522.pdf" H 7650 -400 50  0001 C CNN
 F 4 "68715014522 " H 8050 2650 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik " H 8300 1450 60  0001 L CNN "Manufacturer"
@@ -429,7 +429,7 @@ CAM0\n
 Text Notes 700  1450 0    50   ~ 0
 CAM1\n
 $Comp
-L power:GND #PWR0149
+L sa800u-baseboard-hw:GND #PWR0149
 U 1 1 61C4B844
 P 7300 6950
 F 0 "#PWR0149" H 7300 6700 50  0001 C CNN
@@ -440,12 +440,12 @@ F 3 "" H 7300 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:MAX13042EEBC+T U11
+L sa800u-baseboard-hw:MAX13042EEBC+T U11
 U 1 1 61C766BC
 P 3250 7400
 F 0 "U11" H 4400 7450 50  0000 C CNN
 F 1 "MAX13042EEBC+T" H 3900 6400 50  0000 C CNN
-F 2 "antmicro-footprints:max13042eebc&plus_t" H 3250 7400 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:max13042eebc&plus_t" H 3250 7400 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2001042.pdf" H 3250 7400 50  0001 C CNN
 F 4 "MAX13042EEBC+T" H 3900 6300 50  0001 C CNN "MPN"
 F 5 "MAXIM INTEGRATED PRODUCTS" H 3850 6200 50  0001 C CNN "Manufacturer"
@@ -493,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 8100 3700 8100
 $Comp
-L power:GND #PWR0145
+L sa800u-baseboard-hw:GND #PWR0145
 U 1 1 61CBF74D
 P 1500 8000
 F 0 "#PWR0145" H 1500 7750 50  0001 C CNN
@@ -536,12 +536,12 @@ Wire Wire Line
 Text GLabel 1150 8400 0    50   Input ~ 0
 1V8
 $Comp
-L antmicroResistors0603:R_0R_0603 R79
+L sa800u-baseboard-hw:R_0R_0603 R79
 U 1 1 61CF2C26
 P 2550 6750
 F 0 "R79" H 2750 6800 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2750 6950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2750 6950 60  0001 L CNN
 F 3 "" H 2550 6750 50  0001 C CNN
 F 4 "BOURNS" H 2750 7150 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7050 60  0001 L CNN "MPN"
@@ -551,12 +551,12 @@ F 7 "DNP" H 2550 6750 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R80
+L sa800u-baseboard-hw:R_0R_0603 R80
 U 1 1 61CF310B
 P 2550 6900
 F 0 "R80" H 2750 6950 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6750 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2750 7100 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2750 7100 60  0001 L CNN
 F 3 "" H 2550 6900 50  0001 C CNN
 F 4 "BOURNS" H 2750 7300 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7200 60  0001 L CNN "MPN"
@@ -566,12 +566,12 @@ F 7 "DNP" H 2550 6900 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R81
+L sa800u-baseboard-hw:R_0R_0603 R81
 U 1 1 61CF351C
 P 2550 7050
 F 0 "R81" H 2750 7100 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 6900 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2750 7250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2750 7250 60  0001 L CNN
 F 3 "" H 2550 7050 50  0001 C CNN
 F 4 "BOURNS" H 2750 7450 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7350 60  0001 L CNN "MPN"
@@ -581,12 +581,12 @@ F 7 "DNP" H 2550 7050 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R82
+L sa800u-baseboard-hw:R_0R_0603 R82
 U 1 1 61CF37C7
 P 2550 7200
 F 0 "R82" H 2750 7250 60  0000 C CNN
 F 1 "R_0R_0603" H 2550 7050 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2750 7400 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2750 7400 60  0001 L CNN
 F 3 "" H 2550 7200 50  0001 C CNN
 F 4 "BOURNS" H 2750 7600 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2750 7500 60  0001 L CNN "MPN"
@@ -624,7 +624,7 @@ Connection ~ 3950 7900
 Wire Wire Line
 	3950 7900 4850 7900
 $Comp
-L power:GND #PWR0146
+L sa800u-baseboard-hw:GND #PWR0146
 U 1 1 61D3BC05
 P 1750 9050
 F 0 "#PWR0146" H 1750 8800 50  0001 C CNN
@@ -635,12 +635,12 @@ F 3 "" H 1750 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_1M_0603 R78
+L sa800u-baseboard-hw:R_1M_0603 R78
 U 1 1 61D3BF41
 P 1750 8800
 F 0 "R78" V 1705 8870 60  0000 L CNN
 F 1 "R_1M_0603" H 1750 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 1950 9000 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 1950 9000 60  0001 L CNN
 F 3 "" H 1750 8800 50  0001 C CNN
 F 4 "BOURNS" H 1950 9200 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-105GLF" H 1950 9100 60  0001 L CNN "MPN"
@@ -655,12 +655,12 @@ Wire Wire Line
 Wire Wire Line
 	1150 8400 1350 8400
 $Comp
-L antmicroResistors0603:R_0R_0603 R77
+L sa800u-baseboard-hw:R_0R_0603 R77
 U 1 1 61D62802
 P 1500 8400
 F 0 "R77" H 1350 8500 60  0000 C CNN
 F 1 "R_0R_0603" H 1500 8250 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 1700 8600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 1700 8600 60  0001 L CNN
 F 3 "" H 1500 8400 50  0001 C CNN
 F 4 "BOURNS" H 1700 8800 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 1700 8700 60  0001 L CNN "MPN"
@@ -681,12 +681,12 @@ Connection ~ 7450 6550
 Wire Wire Line
 	7450 6550 7450 6750
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L19
+L sa800u-baseboard-hw:NFP0QHB242HS2D L19
 U 1 1 61CE378A
 P 1750 1600
 F 0 "L19" H 1750 1917 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 1826 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 1930 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 1930 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 1600 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 1917 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 1826 50  0001 C CNN "Manufacturer"
@@ -694,12 +694,12 @@ F 5 "MURATA" H 1750 1826 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L20
+L sa800u-baseboard-hw:NFP0QHB242HS2D L20
 U 1 1 61CECE67
 P 1750 2050
 F 0 "L20" H 1750 2367 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 2276 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 2380 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 2380 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2050 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 2367 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 2276 50  0001 C CNN "Manufacturer"
@@ -707,12 +707,12 @@ F 5 "MURATA" H 1750 2276 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L21
+L sa800u-baseboard-hw:NFP0QHB242HS2D L21
 U 1 1 61CED3A2
 P 1750 2500
 F 0 "L21" H 1750 2817 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 2726 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 2830 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 2830 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2500 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 2817 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 2726 50  0001 C CNN "Manufacturer"
@@ -720,12 +720,12 @@ F 5 "MURATA" H 1750 2726 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L22
+L sa800u-baseboard-hw:NFP0QHB242HS2D L22
 U 1 1 61CEDD0B
 P 1750 2950
 F 0 "L22" H 1750 3267 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 3176 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 3280 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 3280 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2950 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 3267 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 3176 50  0001 C CNN "Manufacturer"
@@ -733,12 +733,12 @@ F 5 "MURATA" H 1750 3176 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L23
+L sa800u-baseboard-hw:NFP0QHB242HS2D L23
 U 1 1 61CEE413
 P 1750 3400
 F 0 "L23" H 1750 3717 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 3626 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 3730 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 3730 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3400 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 3717 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 3626 50  0001 C CNN "Manufacturer"
@@ -746,12 +746,12 @@ F 5 "MURATA" H 1750 3626 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L24
+L sa800u-baseboard-hw:NFP0QHB242HS2D L24
 U 1 1 61CEE814
 P 1750 3900
 F 0 "L24" H 1750 4217 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 4126 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 4230 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 4230 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3900 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 4217 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 4126 50  0001 C CNN "Manufacturer"
@@ -759,12 +759,12 @@ F 5 "MURATA" H 1750 4126 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L25
+L sa800u-baseboard-hw:NFP0QHB242HS2D L25
 U 1 1 61CEEFBB
 P 1750 4350
 F 0 "L25" H 1750 4667 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 4576 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 4680 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 4680 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 4350 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 4667 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 4576 50  0001 C CNN "Manufacturer"
@@ -772,12 +772,12 @@ F 5 "MURATA" H 1750 4576 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L26
+L sa800u-baseboard-hw:NFP0QHB242HS2D L26
 U 1 1 61CEFBB4
 P 1750 4800
 F 0 "L26" H 1750 5117 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 5026 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 5130 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 5130 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 4800 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 5117 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 5026 50  0001 C CNN "Manufacturer"
@@ -785,12 +785,12 @@ F 5 "MURATA" H 1750 5026 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L27
+L sa800u-baseboard-hw:NFP0QHB242HS2D L27
 U 1 1 61CF063F
 P 1750 5250
 F 0 "L27" H 1750 5567 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 5476 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 5580 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 5580 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 5250 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 5567 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 5476 50  0001 C CNN "Manufacturer"
@@ -798,12 +798,12 @@ F 5 "MURATA" H 1750 5476 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFixedInductors:NFP0QHB242HS2D L28
+L sa800u-baseboard-hw:NFP0QHB242HS2D L28
 U 1 1 61CF0B6C
 P 1750 5700
 F 0 "L28" H 1750 6017 50  0000 C CNN
 F 1 "NFP0QHB242HS2D" H 1750 5926 50  0000 C CNN
-F 2 "antmicro-footprints:FIL_NFP0QHB242HS2D" H 1505 6030 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 1505 6030 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 5700 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 6017 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 5926 50  0001 C CNN "Manufacturer"
@@ -817,12 +817,12 @@ Text GLabel 4750 8700 1    50   Input ~ 0
 Wire Wire Line
 	3850 8700 3850 8900
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C96
+L sa800u-baseboard-hw:C_1u_0402 C96
 U 1 1 62292150
 P 3850 9050
 F 0 "C96" H 3965 9095 60  0000 L CNN
 F 1 "C_1u_0402" H 3850 8900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4050 9250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 4050 9250 60  0001 L CNN
 F 3 "" H 3850 9050 50  0001 C CNN
 F 4 "TDK" H 4050 9450 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 4050 9350 60  0001 L CNN "MPN"
@@ -834,12 +834,12 @@ Connection ~ 3850 8900
 Wire Wire Line
 	3850 8900 4250 8900
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C97
+L sa800u-baseboard-hw:C_100n_0402 C97
 U 1 1 6229AA27
 P 4250 9050
 F 0 "C97" H 4365 9095 60  0000 L CNN
 F 1 "C_100n_0402" H 4250 8900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4450 9250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 4450 9250 60  0001 L CNN
 F 3 "" H 4250 9050 50  0001 C CNN
 F 4 "Walsin" H 4450 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4450 9350 60  0001 L CNN "MPN"
@@ -853,7 +853,7 @@ Wire Wire Line
 	3850 9200 3850 9350
 Connection ~ 3850 9200
 $Comp
-L power:GND #PWR0147
+L sa800u-baseboard-hw:GND #PWR0147
 U 1 1 622AA3E8
 P 3850 9350
 F 0 "#PWR0147" H 3850 9100 50  0001 C CNN
@@ -866,7 +866,7 @@ $EndComp
 Wire Wire Line
 	4750 8700 4750 8900
 $Comp
-L power:GND #PWR0148
+L sa800u-baseboard-hw:GND #PWR0148
 U 1 1 622B36EE
 P 4750 9350
 F 0 "#PWR0148" H 4750 9100 50  0001 C CNN
@@ -877,12 +877,12 @@ F 3 "" H 4750 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C98
+L sa800u-baseboard-hw:C_100n_0402 C98
 U 1 1 622B3A1A
 P 4750 9050
 F 0 "C98" H 4865 9095 60  0000 L CNN
 F 1 "C_100n_0402" H 4750 8900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4950 9250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 4950 9250 60  0001 L CNN
 F 3 "" H 4750 9050 50  0001 C CNN
 F 4 "Walsin" H 4950 9450 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4950 9350 60  0001 L CNN "MPN"
