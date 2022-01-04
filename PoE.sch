@@ -135,8 +135,6 @@ Wire Wire Line
 	4950 5200 5600 5200
 Wire Wire Line
 	5100 5000 4950 5000
-Text Notes 4750 1450 0    50   ~ 0
-What about APD? This circuit may be powered from other than PoE source.\n\nConsider adding an DC input (barrel jack or screw terminal) and calculate Rapd1/Rapd2 (chapter 8.2 of the datasheet)\nIf APD is not used tie it to GND to disable this functionality.\n\nAux power input can be especially helpful when debugging
 Wire Wire Line
 	3200 4350 3650 4350
 Text Label 3200 4350 0    50   ~ 0
@@ -559,8 +557,6 @@ Wire Wire Line
 	5500 4600 5600 4600
 Wire Wire Line
 	5600 4600 5600 4800
-Text Notes 4750 900  0    50   ~ 0
-REMARK:Typical aplication circuit can be found in \nTPS2378DDA datasheet:\n https://www.ti.com/lit/ds/symlink/tps2378.pdf?ts=1637556069032&ref_url=https%253A%252F%252Fwww.google.com%252F\nThere is the reference connection for APD circuit.
 Wire Wire Line
 	1350 5200 2450 5200
 Text Label 7950 1550 1    50   ~ 0
@@ -685,4 +681,6 @@ Text GLabel 7950 4800 2    50   Input ~ 0
 VDD
 Text Notes 7800 4750 0    50   ~ 0
 5V
+Text Notes 500  950  0    50   ~ 0
+What about APD? This circuit may be powered from other than PoE source.\n\nConsider adding an DC input (barrel jack or screw terminal) and calculate Rapd1/Rapd2 (chapter 8.2 of the datasheet)\nIf APD is not used tie it to GND to disable this functionality.\n\nAux power input can be especially helpful when debugging
 $EndSCHEMATC
