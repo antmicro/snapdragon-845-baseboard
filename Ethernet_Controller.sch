@@ -3000,4 +3000,6 @@ Wire Wire Line
 	5900 1800 6050 1800
 Text Notes 6700 1650 0    50   ~ 0
 Should this diode be TVS?
+Text Notes 5850 1300 0    50   ~ 10
+RJ45 chineese replacement. \nhttps://www.l-p.com/products/457392.htm
 $EndSCHEMATC
