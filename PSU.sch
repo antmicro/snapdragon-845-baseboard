@@ -95,37 +95,35 @@ Auxiliary Power Connector
 $Comp
 L sa800u-baseboard-hw:R_3k92_0402 R?
 U 1 1 6213C414
-P 5500 4150
+P 5500 4550
 AR Path="/61A19323/6213C414" Ref="R?"  Part="1" 
 AR Path="/61B0DC30/6213C414" Ref="R?"  Part="1" 
-F 0 "R?" V 5455 4220 60  0000 L CNN
-F 1 "R_3k92_0402" H 5500 4000 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 5700 4350 60  0001 L CNN
-F 3 "" H 5500 4150 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5700 4550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF3921X" H 5700 4450 60  0001 L CNN "MPN"
-F 6 "3k92" V 5553 4220 50  0000 L CNN "Val"
-	1    5500 4150
+F 0 "R?" V 5455 4620 60  0000 L CNN
+F 1 "R_3k92_0402" H 5500 4400 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 5700 4750 60  0001 L CNN
+F 3 "" H 5500 4550 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 5700 4950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF3921X" H 5700 4850 60  0001 L CNN "MPN"
+F 6 "3k92" V 5553 4620 50  0000 L CNN "Val"
+	1    5500 4550
 	0    1    1    0   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:R_1k15_0402 R?
 U 1 1 6213C41D
-P 5500 4850
+P 5500 5250
 AR Path="/61A19323/6213C41D" Ref="R?"  Part="1" 
 AR Path="/61B0DC30/6213C41D" Ref="R?"  Part="1" 
-F 0 "R?" V 5455 4920 60  0000 L CNN
-F 1 "R_1k15_0402" H 5500 4700 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 5700 5050 60  0001 L CNN
-F 3 "" H 5500 4850 50  0001 C CNN
-F 4 "Panasonic" H 5700 5250 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF1151X" H 5700 5150 60  0001 L CNN "MPN"
-F 6 "1k15" V 5553 4920 50  0000 L CNN "Val"
-	1    5500 4850
+F 0 "R?" V 5455 5320 60  0000 L CNN
+F 1 "R_1k15_0402" H 5500 5100 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 5700 5450 60  0001 L CNN
+F 3 "" H 5500 5250 50  0001 C CNN
+F 4 "Panasonic" H 5700 5650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1151X" H 5700 5550 60  0001 L CNN "MPN"
+F 6 "1k15" V 5553 5320 50  0000 L CNN "Val"
+	1    5500 5250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4500 3900 5500 3900
 $Comp
 L sa800u-baseboard-hw:AP62301WU-7 U?
 U 1 1 6213CE88
@@ -144,64 +142,35 @@ Text Notes 9650 5500 0    50   ~ 0
 Text GLabel 4500 3900 0    50   Input ~ 0
 VDD
 Wire Wire Line
-	5500 4700 5500 4550
-Wire Wire Line
-	5500 4000 5500 3900
-Connection ~ 5500 3900
-Connection ~ 5500 4550
-Wire Wire Line
-	5500 4550 5500 4300
-Wire Wire Line
-	5500 5000 5500 5100
+	5500 5400 5500 5500
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62157A2C
-P 5500 5100
-F 0 "#PWR?" H 5500 4850 50  0001 C CNN
-F 1 "GND" H 5505 4927 50  0000 C CNN
-F 2 "" H 5500 5100 50  0001 C CNN
-F 3 "" H 5500 5100 50  0001 C CNN
-	1    5500 5100
+P 5500 5500
+F 0 "#PWR?" H 5500 5250 50  0001 C CNN
+F 1 "GND" H 5505 5327 50  0000 C CNN
+F 2 "" H 5500 5500 50  0001 C CNN
+F 3 "" H 5500 5500 50  0001 C CNN
+	1    5500 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:LMV431IM5 U?
-U 1 1 6213C40B
-P 6400 5500
-AR Path="/61A19323/6213C40B" Ref="U?"  Part="1" 
-AR Path="/61B0DC30/6213C40B" Ref="U?"  Part="1" 
-F 0 "U?" V 6248 5833 50  0000 L CNN
-F 1 "LMV431IM5" V 6339 5833 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:SOT-23-5" H 6400 5500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lmv431a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1640859539059&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmv431a" H 6400 5500 50  0001 C CNN
-F 4 "LMV431IM5" H 6400 5500 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 6400 5500 50  0001 C CNN "Manufacturer"
-	1    6400 5500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 4550 6600 4800
-Wire Wire Line
-	5500 4550 6600 4550
-$Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 6215CECC
-P 6400 4700
-F 0 "#PWR?" H 6400 4450 50  0001 C CNN
-F 1 "GND" H 6405 4527 50  0000 C CNN
-F 2 "" H 6400 4700 50  0001 C CNN
-F 3 "" H 6400 4700 50  0001 C CNN
-	1    6400 4700
-	-1   0    0    1   
+P 6200 5200
+F 0 "#PWR?" H 6200 4950 50  0001 C CNN
+F 1 "GND" H 6205 5027 50  0000 C CNN
+F 2 "" H 6200 5200 50  0001 C CNN
+F 3 "" H 6200 5200 50  0001 C CNN
+	1    6200 5200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 4800 6400 4700
+	6200 5100 6200 5200
 Text Notes 4550 3850 0    50   ~ 0
 VDD main power line 5V - 20V
 Wire Wire Line
 	6200 3900 6200 4000
-Wire Wire Line
-	5500 3900 6200 3900
 Wire Wire Line
 	6200 4300 6200 4400
 Connection ~ 6200 4400
@@ -337,23 +306,10 @@ F 6 "10k" V 7953 6320 50  0000 L CNN "Val"
 	1    7900 6250
 	0    1    1    0   
 $EndComp
-Text Notes 4800 4600 0    50   ~ 0
+Text Notes 4800 5000 0    50   ~ 0
 Vref = 5.47V ->
 Text Notes 7750 6250 1    50   ~ 0
 1.54V - 5.63V for\n5.5   -    20V
-$Comp
-L sa800u-baseboard-hw:IRF7416TRPBF Q?
-U 1 1 621FFF25
-P 10000 4750
-F 0 "Q?" H 10000 5265 50  0000 C CNN
-F 1 "IRF7416TRPBF" H 10000 5174 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:IRF7416TRPBF" H 10000 4750 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/1912231.pdf" H 10000 4750 50  0001 C CNN
-F 4 "IRF7416TRPBF" H 10000 5265 50  0001 C CNN "MPN"
-F 5 "INFINEON" H 10000 5174 50  0001 C CNN "Manufacturer"
-	1    10000 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 4900 9200 4900
 Wire Wire Line
@@ -371,16 +327,7 @@ Wire Wire Line
 	9150 4800 9200 4800
 Connection ~ 9150 4700
 Wire Wire Line
-	10800 4600 10800 4700
-Wire Wire Line
 	10800 4900 11000 4900
-Connection ~ 10800 4900
-Connection ~ 10800 4700
-Wire Wire Line
-	10800 4700 10800 4800
-Connection ~ 10800 4800
-Wire Wire Line
-	10800 4800 10800 4900
 Text GLabel 11000 4900 2    50   Input ~ 0
 5V
 Text Notes 9700 4200 0    50   ~ 0
@@ -389,4 +336,53 @@ Text Notes 6950 3850 0    50   ~ 0
 If VDD > 5.5V use converter\nelse bypass converter and pass 5V directly to power line
 Text Notes 10250 6000 0    50   ~ 0
 Work in progress
+Wire Wire Line
+	10800 4600 10800 4700
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:IRF7416TRPBF Q?
+U 1 1 61D4AB9F
+P 10000 4750
+F 0 "Q?" H 10000 5265 50  0000 C CNN
+F 1 "IRF7416TRPBF" H 10000 5174 50  0000 C CNN
+F 2 "antmicro-footprints:IRF7416TRPBF" H 10000 4750 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/1912231.pdf" H 10000 4750 50  0001 C CNN
+F 4 "IRF7416TRPBF" H 10000 5265 50  0001 C CNN "MPN"
+F 5 "INFINEON" H 10000 5174 50  0001 C CNN "Manufacturer"
+	1    10000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4700 10800 4800
+Connection ~ 10800 4700
+Connection ~ 10800 4900
+Connection ~ 10800 4800
+Wire Wire Line
+	10800 4800 10800 4900
+$Comp
+L antmicroPMICORControllersIdealDiodes:LMV431IM5 U?
+U 1 1 61D55508
+P 6200 4950
+F 0 "U?" H 6328 4996 50  0000 L CNN
+F 1 "LMV431IM5" H 6328 4905 50  0000 L CNN
+F 2 "antmicro-footprints:SOT-23-5" H 6200 4950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmv431a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1640859539059&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flmv431a" H 6200 4950 50  0001 C CNN
+F 4 "LMV431IM5" H 6200 4950 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 6200 4950 50  0001 C CNN "Manufacturer"
+	1    6200 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4700 5500 4950
+Wire Wire Line
+	4500 3900 5500 3900
+Wire Wire Line
+	6050 4950 5500 4950
+Connection ~ 5500 4950
+Wire Wire Line
+	5500 4950 5500 5100
+Wire Wire Line
+	5500 3900 5500 4400
+Connection ~ 5500 3900
+Wire Wire Line
+	5500 3900 6200 3900
 $EndSCHEMATC
