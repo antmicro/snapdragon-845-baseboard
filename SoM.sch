@@ -2479,10 +2479,10 @@ Wire Wire Line
 Text GLabel 11500 8750 0    50   Input ~ 0
 VBAT
 $Comp
-L sa800u-baseboard-hw:C_100u_0805 C?
+L sa800u-baseboard-hw:C_100u_0805 C108
 U 1 1 620055D3
 P 12150 9100
-F 0 "C?" H 12265 9145 60  0000 L CNN
+F 0 "C108" H 12265 9145 60  0000 L CNN
 F 1 "C_100u_0805" H 12150 8950 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 12350 9300 60  0001 L CNN
 F 3 "" H 12150 9100 50  0001 C CNN
@@ -2493,10 +2493,10 @@ F 6 "100u" H 12265 9047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:C_100u_0805 C?
+L sa800u-baseboard-hw:C_100u_0805 C107
 U 1 1 62006DC2
 P 11750 9100
-F 0 "C?" H 11865 9145 60  0000 L CNN
+F 0 "C107" H 11865 9145 60  0000 L CNN
 F 1 "C_100u_0805" H 11750 8950 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 11950 9300 60  0001 L CNN
 F 3 "" H 11750 9100 50  0001 C CNN
