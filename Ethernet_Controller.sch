@@ -249,95 +249,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 2100 2800 2100
 Wire Wire Line
-	9250 1850 9400 1850
-Wire Wire Line
-	9250 1650 9400 1650
-Wire Wire Line
-	8200 2650 8200 2400
-Wire Wire Line
-	7050 2400 7050 2650
-Text GLabel 6850 2150 0    50   Input ~ 0
-3V3
-Text Label 9850 1950 0    50   ~ 0
-ETH_LED2
-$Comp
-L sa800u-baseboard-hw:BZX84C6V2LT1G D2
-U 1 1 61991971
-P 9050 1850
-F 0 "D2" H 9200 1900 60  0000 C CNN
-F 1 "BZX84C6V2LT1G" H 9050 2050 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 9250 2050 60  0001 L CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/bzx84c2v4lt1-d.pdf" H 9250 2150 60  0001 L CNN
-F 4 "BZX84C6V2LT1G" H 9250 2350 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 9250 2950 60  0001 L CNN "Manufacturer"
-	1    9050 1850
-	-1   0    0    1   
-$EndComp
-Connection ~ 8750 1750
-Wire Wire Line
-	8750 1650 8750 1750
-Wire Wire Line
-	8850 1650 8750 1650
-Wire Wire Line
-	8100 1750 8750 1750
-Wire Wire Line
-	8750 1850 8850 1850
-Wire Wire Line
-	8750 1950 8750 1850
-Wire Wire Line
-	8100 1950 8750 1950
-Text GLabel 8500 1850 2    50   Input ~ 0
-3V3
-Text GLabel 8500 1650 2    50   Input ~ 0
-3V3
-$Comp
-L sa800u-baseboard-hw:BZX84C6V2LT1G D1
-U 1 1 61976A91
-P 9050 1650
-F 0 "D1" H 9200 1700 60  0000 C CNN
-F 1 "BZX84C6V2LT1G" H 9050 1550 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 9250 1850 60  0001 L CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/bzx84c2v4lt1-d.pdf" H 9250 1950 60  0001 L CNN
-F 4 "BZX84C6V2LT1G" H 9250 2150 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 9250 2750 60  0001 L CNN "Manufacturer"
-	1    9050 1650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8200 1850 8100 1850
-Text Label 9850 1750 0    50   ~ 0
-ETH_LED0
-Wire Wire Line
-	8100 1650 8200 1650
-$Comp
-L sa800u-baseboard-hw:R_470R_0402 R17
-U 1 1 6196D91A
-P 8350 1650
-F 0 "R17" H 8150 1700 60  0000 C CNN
-F 1 "R_470R_0402" H 8350 1500 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8550 1850 60  0001 L CNN
-F 3 "" H 8350 1650 50  0001 C CNN
-F 4 "VISHAY" H 8550 2050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402470RFKED" H 8550 1950 60  0001 L CNN "MPN"
-F 6 "470R" H 8350 1650 50  0000 C CNN "Val"
-	1    8350 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_470R_0402 R18
-U 1 1 619694FE
-P 8350 1850
-F 0 "R18" H 8150 1900 60  0000 C CNN
-F 1 "R_470R_0402" H 8350 1700 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8550 2050 60  0001 L CNN
-F 3 "" H 8350 1850 50  0001 C CNN
-F 4 "VISHAY" H 8550 2250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402470RFKED" H 8550 2150 60  0001 L CNN "MPN"
-F 6 "470R" H 8350 1850 50  0000 C CNN "Val"
-	1    8350 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	7000 2050 6350 2050
 Wire Wire Line
 	7000 1950 6350 1950
@@ -369,23 +280,8 @@ Wire Wire Line
 	7000 1350 6350 1350
 Text Label 6350 1350 0    50   ~ 0
 LAN0_RJ45_D1_P
-$Comp
-L sa800u-baseboard-hw:WE-RJ45_7499111121A J1
-U 1 1 61953706
-P 7500 1850
-F 0 "J1" H 7600 2715 50  0000 C CNN
-F 1 "WE-RJ45_7499111121A" H 7600 2624 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:7499111121A" H 7500 1850 50  0001 L BNN
-F 3 "" H 7500 1850 50  0001 L BNN
-F 4 "7499111121A" H 7500 1850 50  0001 L BNN "MPN"
-F 5 "WURTH ELEKTRONIK" H 7500 1850 50  0001 C CNN "Manufacturer"
-	1    7500 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 2250 7000 2250
-Wire Wire Line
-	6850 2150 7000 2150
 Wire Wire Line
 	4600 2400 4600 3000
 Wire Wire Line
@@ -550,11 +446,6 @@ F 6 "1n/2kV" V 5100 4250 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8750 1950 9850 1950
-Connection ~ 8750 1950
-Wire Wire Line
-	8750 1750 9850 1750
-Wire Wire Line
 	2800 1200 1900 1200
 Wire Wire Line
 	2800 1600 1900 1600
@@ -647,28 +538,6 @@ Wire Wire Line
 	1600 3000 1600 3100
 Wire Wire Line
 	2050 1500 2800 1500
-$Comp
-L sa800u-baseboard-hw:GND #PWR011
-U 1 1 61C7BBCB
-P 9400 1650
-F 0 "#PWR011" H 9400 1400 50  0001 C CNN
-F 1 "GND" V 9405 1522 50  0000 R CNN
-F 2 "" H 9400 1650 50  0001 C CNN
-F 3 "" H 9400 1650 50  0001 C CNN
-	1    9400 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:GND #PWR012
-U 1 1 61C7BF66
-P 9400 1850
-F 0 "#PWR012" H 9400 1600 50  0001 C CNN
-F 1 "GND" V 9405 1722 50  0000 R CNN
-F 2 "" H 9400 1850 50  0001 C CNN
-F 3 "" H 9400 1850 50  0001 C CNN
-	1    9400 1850
-	0    -1   -1   0   
-$EndComp
 Text Notes 950  4950 0    50   ~ 0
 Consider separating PSU for analog / digital
 Text Notes 1600 950  0    50   ~ 0
@@ -809,24 +678,6 @@ F 3 "~" H 6900 2350 50  0001 C CNN
 	1    6900 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:Earth #PWR07
-U 1 1 619F3D25
-P 7650 2700
-F 0 "#PWR07" H 7650 2450 50  0001 C CNN
-F 1 "Earth" H 7650 2550 50  0001 C CNN
-F 2 "" H 7650 2700 50  0001 C CNN
-F 3 "~" H 7650 2700 50  0001 C CNN
-	1    7650 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 2650 7650 2650
-Wire Wire Line
-	7650 2700 7650 2650
-Connection ~ 7650 2650
-Wire Wire Line
-	7650 2650 8200 2650
 Wire Wire Line
 	6900 2250 6900 2350
 Wire Wire Line
@@ -882,18 +733,6 @@ F 5 "REALTEK" H 4244 4214 50  0001 L CNN "Manufacturer"
 	1    2600 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:PWR_FLAG #FLG01
-U 1 1 62B8658A
-P 8200 2400
-F 0 "#FLG01" H 8200 2475 50  0001 C CNN
-F 1 "PWR_FLAG" H 8200 2573 50  0000 C CNN
-F 2 "" H 8200 2400 50  0001 C CNN
-F 3 "~" H 8200 2400 50  0001 C CNN
-	1    8200 2400
-	1    0    0    -1  
-$EndComp
-Connection ~ 8200 2400
 Text Label 2000 5700 0    50   ~ 0
 ETH_1V0
 Text Label 2000 6200 0    50   ~ 0
@@ -1347,4 +1186,17 @@ Wire Wire Line
 	7700 4700 8300 4700
 Wire Wire Line
 	8300 4700 8300 4650
+$Comp
+L antmicroModularConnectorsJacks:SS-60000-009 J1
+U 1 1 61EEF185
+P 7400 1750
+F 0 "J1" H 7630 1746 50  0000 L CNN
+F 1 "SS-60000-009" H 7630 1655 50  0000 L CNN
+F 2 "antmicro-footprints:BEL_SS-60000-009" H 7400 1750 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2615305.pdf" H 7400 1750 50  0001 C CNN
+F 4 "SS-60000-009" H 7400 1750 50  0001 C CNN "MPN"
+F 5 "STEWART CONNECTOR" H 7400 1750 50  0001 C CNN "Manufacturer"
+	1    7400 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
