@@ -1249,17 +1249,6 @@ F 3 "" H 7750 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L sa800u-baseboard-hw:GND #PWR0118
-U 1 1 61F4308E
-P 7750 9300
-F 0 "#PWR0118" H 7750 9050 50  0001 C CNN
-F 1 "GND" V 7755 9172 50  0000 R CNN
-F 2 "" H 7750 9300 50  0001 C CNN
-F 3 "" H 7750 9300 50  0001 C CNN
-	1    7750 9300
-	0    1    1    0   
-$EndComp
-$Comp
 L sa800u-baseboard-hw:GND #PWR0119
 U 1 1 61F5AB91
 P 7750 9900
@@ -1339,41 +1328,11 @@ TP_INT
 Text GLabel 7600 3900 0    50   Input ~ 0
 TP_RST
 NoConn ~ 8100 4000
-Text GLabel 7600 4200 0    50   Input ~ 0
-FAN_LR_GPIO27
-Text GLabel 7600 4300 0    50   Input ~ 0
-CAM3_VILLU_EN
-Text GLabel 7600 4400 0    50   Input ~ 0
-LCD_TE
-Text GLabel 7600 4500 0    50   Input ~ 0
-LCD_RST_N
-Text GLabel 7600 4600 0    50   Input ~ 0
-LT9611_1V2_EN
-Text GLabel 7600 4700 0    50   Input ~ 0
-LT9611_3V3_EN
 Text GLabel 7600 4800 0    50   Input ~ 0
 LT9611_GPIO5
 Text GLabel 7600 4900 0    50   Input ~ 0
 LT9611_RST
-Text GLabel 7600 5000 0    50   Input ~ 0
-USBPORT1_OCB
-Text GLabel 7600 5100 0    50   Input ~ 0
-USBPORT2_OCB
-Text GLabel 7600 5200 0    50   Input ~ 0
-LT6911_1V2_EN
-Text GLabel 7600 5500 0    50   Input ~ 0
-3V3_EN
-Text GLabel 7600 5600 0    50   Input ~ 0
-5V_EN
 NoConn ~ 8100 5700
-Text GLabel 7600 5900 0    50   Input ~ 0
-CODEC_RST
-Text GLabel 7600 6000 0    50   Input ~ 0
-CODEC_SPI_CLK
-Text GLabel 7600 6100 0    50   Input ~ 0
-CODEC_SPI_MOSI
-Text GLabel 7600 6200 0    50   Input ~ 0
-CODEC_SPI_CS
 Text GLabel 7600 6400 0    50   Input ~ 0
 USB2_SS_RX_N
 Text GLabel 7600 6500 0    50   Input ~ 0
@@ -1405,44 +1364,15 @@ Wire Wire Line
 	8000 7700 8000 7800
 Wire Wire Line
 	8000 7800 8100 7800
-Text GLabel 7600 7900 0    50   Input ~ 0
-USB_BOOT
-Text GLabel 7600 8000 0    50   Input ~ 0
-USBHUB_3V3_EN
-Text GLabel 7600 8100 0    50   Input ~ 0
-USBHUB_1V2_EN
-Text GLabel 7600 8200 0    50   Input ~ 0
-USB_HUB_5V_EN
-Text GLabel 7600 8400 0    50   Input ~ 0
-VREG_BOB
-Wire Wire Line
-	7600 8400 8000 8400
-Wire Wire Line
-	8000 8400 8000 8500
-Wire Wire Line
-	8000 8500 8100 8500
-Connection ~ 8000 8400
-Wire Wire Line
-	8000 8400 8100 8400
 NoConn ~ 8100 8600
-Text GLabel 7600 8700 0    50   Input ~ 0
-PWM_OUTPUT1
 Text GLabel 7600 8800 0    50   Input ~ 0
 1V8
 Text Notes 5050 8850 0    50   ~ 0
 In reference design this 1V8s are separate for gpios lds etc.\n
-Text GLabel 7600 8900 0    50   Input ~ 0
-LDO19A_3V0
-Text GLabel 7600 9000 0    50   Input ~ 0
-R_LED
-Text GLabel 7600 9100 0    50   Input ~ 0
-B_LED
-Text GLabel 7600 9200 0    50   Input ~ 0
-G_LED
 Text GLabel 7600 9400 0    50   Input ~ 0
 USB_VBUS
 Wire Wire Line
-	7600 9400 8000 9400
+	7600 9400 7750 9400
 Wire Wire Line
 	8000 9400 8000 9500
 Wire Wire Line
@@ -1466,25 +1396,7 @@ Connection ~ 8000 9500
 Wire Wire Line
 	8000 9500 8000 9600
 Wire Wire Line
-	7600 9200 8100 9200
-Wire Wire Line
-	7600 9100 8100 9100
-Wire Wire Line
-	8100 9000 7600 9000
-Wire Wire Line
-	7600 8900 8100 8900
-Wire Wire Line
 	8100 8800 7600 8800
-Wire Wire Line
-	7600 8700 8100 8700
-Wire Wire Line
-	8100 8200 7600 8200
-Wire Wire Line
-	7600 8100 8100 8100
-Wire Wire Line
-	8100 8000 7600 8000
-Wire Wire Line
-	7600 7900 8100 7900
 Wire Wire Line
 	8100 7400 7600 7400
 Wire Wire Line
@@ -1502,39 +1414,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 6400 8100 6400
 Wire Wire Line
-	8100 6200 7600 6200
-Wire Wire Line
-	7600 6100 8100 6100
-Wire Wire Line
-	8100 6000 7600 6000
-Wire Wire Line
-	7600 5900 8100 5900
-Wire Wire Line
-	8100 5600 7600 5600
-Wire Wire Line
-	7600 5500 8100 5500
-Wire Wire Line
-	7600 5200 8100 5200
-Wire Wire Line
-	8100 5100 7600 5100
-Wire Wire Line
-	7600 5000 8100 5000
-Wire Wire Line
 	8100 4900 7600 4900
 Wire Wire Line
 	7600 4800 8100 4800
-Wire Wire Line
-	8100 4700 7600 4700
-Wire Wire Line
-	7600 4600 8100 4600
-Wire Wire Line
-	8100 4500 7600 4500
-Wire Wire Line
-	7600 4400 8100 4400
-Wire Wire Line
-	8100 4300 7600 4300
-Wire Wire Line
-	7600 4200 8100 4200
 Wire Wire Line
 	7600 3900 8100 3900
 Wire Wire Line
@@ -1825,9 +1707,9 @@ ETH_3V3_EN
 NoConn ~ 9750 6400
 NoConn ~ 9750 6500
 Text GLabel 10250 6700 2    50   Input ~ 0
-USB2_D_P
+USB2C_HS_D_P
 Text GLabel 10250 6800 2    50   Input ~ 0
-USB2_D_N
+USB2C_HS_D_N
 Wire Wire Line
 	9750 6900 10100 6900
 $Comp
@@ -2522,4 +2404,55 @@ Wire Wire Line
 Connection ~ 12150 9350
 Wire Wire Line
 	12150 9350 11750 9350
+NoConn ~ 8100 8400
+NoConn ~ 8100 8500
+NoConn ~ 8100 7900
+NoConn ~ 8100 8000
+NoConn ~ 8100 8100
+NoConn ~ 8100 8200
+NoConn ~ 8100 5900
+NoConn ~ 8100 6000
+NoConn ~ 8100 6100
+NoConn ~ 8100 6200
+NoConn ~ 8100 8700
+NoConn ~ 8100 5500
+NoConn ~ 8100 5600
+$Comp
+L sa800u-baseboard-hw:GND #PWR0118
+U 1 1 62A6F314
+P 7750 9300
+F 0 "#PWR0118" H 7750 9050 50  0001 C CNN
+F 1 "GND" V 7755 9172 50  0000 R CNN
+F 2 "" H 7750 9300 50  0001 C CNN
+F 3 "" H 7750 9300 50  0001 C CNN
+	1    7750 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0118
+U 1 1 62A98DBC
+P 7750 9400
+F 0 "#FLG0118" H 7750 9475 50  0001 C CNN
+F 1 "PWR_FLAG" H 7750 9573 50  0000 C CNN
+F 2 "" H 7750 9400 50  0001 C CNN
+F 3 "~" H 7750 9400 50  0001 C CNN
+	1    7750 9400
+	-1   0    0    1   
+$EndComp
+Connection ~ 7750 9400
+Wire Wire Line
+	7750 9400 8000 9400
+NoConn ~ 8100 8900
+NoConn ~ 8100 9000
+NoConn ~ 8100 9100
+NoConn ~ 8100 9200
+NoConn ~ 8100 4200
+NoConn ~ 8100 4300
+NoConn ~ 8100 4400
+NoConn ~ 8100 4500
+NoConn ~ 8100 4600
+NoConn ~ 8100 4700
+NoConn ~ 8100 5000
+NoConn ~ 8100 5100
+NoConn ~ 8100 5200
 $EndSCHEMATC
