@@ -103,10 +103,6 @@ Wire Wire Line
 	8550 2650 8700 2650
 Wire Wire Line
 	8550 2350 8550 2650
-Text Label 8650 1950 0    50   ~ 0
-SBU_SW_OE
-Text Label 8650 1750 0    50   ~ 0
-SBU_SW_SEL
 Wire Wire Line
 	8550 1950 8650 1950
 Connection ~ 8550 1950
@@ -159,8 +155,6 @@ Wire Wire Line
 Connection ~ 9650 1350
 Wire Wire Line
 	9650 1350 9650 1700
-Text GLabel 9650 2150 3    50   Input ~ 0
-3v075
 Wire Wire Line
 	9300 2000 9300 2100
 $Comp
@@ -320,10 +314,6 @@ F 6 "100n" V 2050 1850 50  0000 C CNN "Val"
 	1    2100 1700
 	0    1    1    0   
 $EndComp
-Text Label 1250 1500 0    50   ~ 0
-USB1_SS_TX0_P
-Text Label 1250 1700 0    50   ~ 0
-USB1_SS_TX0_N
 Wire Wire Line
 	1250 1500 1950 1500
 Wire Wire Line
@@ -336,10 +326,6 @@ Wire Wire Line
 	3550 2000 2400 2000
 Wire Wire Line
 	3550 2100 2550 2100
-Text Label 1250 2000 0    50   ~ 0
-USB1_DP
-Text Label 1250 2100 0    50   ~ 0
-USB1_DM
 Text Label 1250 2200 0    50   ~ 0
 USB_SBU1
 Wire Wire Line
@@ -357,10 +343,6 @@ Wire Wire Line
 	2600 2600 2250 2600
 Wire Wire Line
 	1950 2600 1250 2600
-Text Label 1250 2400 0    50   ~ 0
-USB1_SS_RX1_N
-Text Label 1250 2600 0    50   ~ 0
-USB1_SS_RX1_P
 Connection ~ 2400 2000
 Wire Wire Line
 	2400 2000 1250 2000
@@ -428,20 +410,12 @@ F 6 "100n" V 5800 1850 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	6000 1700 6350 1700
-Text Label 6350 1500 0    50   ~ 0
-USB1_SS_RX0_P
-Text Label 6350 1700 0    50   ~ 0
-USB1_SS_RX0_N
 Connection ~ 5000 1800
 Wire Wire Line
 	5000 1800 5000 2300
-Text Label 6350 1900 0    50   ~ 0
+Text Label 6350 1900 2    50   ~ 0
 USB_SBU2
-Text Label 6350 2000 0    50   ~ 0
-USB1_DM
-Text Label 6350 2100 0    50   ~ 0
-USB1_DP
-Text Label 6350 2200 0    50   ~ 0
+Text Label 6350 2200 2    50   ~ 0
 USB_CC2
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C78
@@ -479,10 +453,6 @@ Wire Wire Line
 	6000 2400 6350 2400
 Wire Wire Line
 	6000 2600 6350 2600
-Text Label 6350 2400 0    50   ~ 0
-USB1_SS_TX1_N
-Text Label 6350 2600 0    50   ~ 0
-USB1_SS_TX1_P
 Wire Wire Line
 	5550 2200 5550 3100
 Wire Wire Line
@@ -1798,4 +1768,91 @@ Text GLabel 9700 9550 1    50   Input ~ 0
 1V8
 Wire Notes Line
 	10850 10600 500  10600
+Text GLabel 6350 2400 2    50   Input ~ 0
+USB1_SS_TX1_N
+Text GLabel 6350 2600 2    50   Input ~ 0
+USB1_SS_TX1_P
+Text GLabel 6350 1700 2    50   Input ~ 0
+USB1_SS_RX0_N
+Text GLabel 6350 1500 2    50   Input ~ 0
+USB1_SS_RX0_P
+Text GLabel 6350 2000 2    50   Input ~ 0
+USB1_DM
+Text GLabel 6350 2100 2    50   Input ~ 0
+USB1_DP
+Text GLabel 1250 1500 0    50   Input ~ 0
+USB1_SS_TX0_P
+Text GLabel 1250 1700 0    50   Input ~ 0
+USB1_SS_TX0_N
+Text GLabel 1250 2400 0    50   Input ~ 0
+USB1_SS_RX1_N
+Text GLabel 1250 2600 0    50   Input ~ 0
+USB1_SS_RX1_P
+Text GLabel 1250 2100 0    50   Input ~ 0
+USB1_DM
+Text GLabel 1250 2000 0    50   Input ~ 0
+USB1_DP
+NoConn ~ 14950 1400
+NoConn ~ 14950 1500
+NoConn ~ 14950 1600
+NoConn ~ 14950 1800
+NoConn ~ 14950 1900
+NoConn ~ 14950 2000
+NoConn ~ 14950 2100
+NoConn ~ 14950 2300
+NoConn ~ 14950 2400
+NoConn ~ 14950 2500
+NoConn ~ 14950 2600
+NoConn ~ 14950 2900
+NoConn ~ 14950 3000
+NoConn ~ 14950 3100
+NoConn ~ 14950 3200
+NoConn ~ 14950 3300
+NoConn ~ 14950 3400
+NoConn ~ 14950 3500
+NoConn ~ 14950 3600
+NoConn ~ 14950 3800
+NoConn ~ 14950 3900
+NoConn ~ 14950 4000
+NoConn ~ 14950 4100
+NoConn ~ 14950 4200
+NoConn ~ 14950 4300
+NoConn ~ 14950 4400
+NoConn ~ 14950 4500
+NoConn ~ 14950 4800
+NoConn ~ 14950 4900
+NoConn ~ 14950 5000
+NoConn ~ 14950 5100
+NoConn ~ 14950 5500
+NoConn ~ 14950 5600
+NoConn ~ 12950 4800
+NoConn ~ 12950 4700
+NoConn ~ 12950 4600
+NoConn ~ 12950 4100
+NoConn ~ 12950 4200
+NoConn ~ 12950 4300
+NoConn ~ 12950 4400
+NoConn ~ 12950 4500
+NoConn ~ 12950 3900
+NoConn ~ 12950 3800
+NoConn ~ 12950 3700
+NoConn ~ 12950 3600
+NoConn ~ 12950 3500
+NoConn ~ 12950 3400
+NoConn ~ 12950 3300
+NoConn ~ 12950 3200
+NoConn ~ 12950 2900
+NoConn ~ 12950 2800
+NoConn ~ 12950 2500
+NoConn ~ 12950 2400
+NoConn ~ 12950 2200
+NoConn ~ 12950 1800
+NoConn ~ 12950 1600
+NoConn ~ 12950 1400
+Text GLabel 8650 1750 2    50   Input ~ 0
+SBU_SW_SEL
+Text GLabel 8650 1950 2    50   Input ~ 0
+SBU_SW_OE
+Text GLabel 9650 2150 3    50   Input ~ 0
+3V3
 $EndSCHEMATC
