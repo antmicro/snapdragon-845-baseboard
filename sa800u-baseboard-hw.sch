@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -127,4 +127,10 @@ F 5 "Wurth Elektronik " H 3758 4364 50  0000 L CNN "Manufacturer"
 $EndComp
 Text Notes 500  900  0    50   ~ 0
 Use 6mm spacers insted of PCB mounting holes.\nThis will allow to put device on a desk without risking \ndamage to components on the bottom of the board               DONE\nAlternatively add space for screw head/spacer on PCB\n(ie. MP1 will interfere with connector when using screw/spacer)
+$Sheet
+S 5500 6950 1550 650 
+U 61DC2BE0
+F0 "Temp_psu" 50
+F1 "Temp_psu.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 11
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -13,36 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2500 8100 0    50   ~ 0
-3V3
-Text Notes 3950 8100 0    50   ~ 0
-1V2\n
-$Comp
-L sa800u-baseboard-hw:AP62301WU-7 U13
-U 1 1 61F9C6E8
-P 2600 8700
-F 0 "U13" H 2600 9165 50  0000 C CNN
-F 1 "AP62301WU-7" H 2600 9074 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:TSOT23-6" H 2550 8050 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 2550 8350 50  0001 C CNN
-F 4 "AP62301WU-7" H 2550 8150 50  0001 C CNN "MPN"
-F 5 "Diodes Incorporated" H 2550 8250 50  0001 C CNN "Manufacturer"
-	1    2600 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:AP62301WU-7 U14
-U 1 1 61F9CA4D
-P 4050 8700
-F 0 "U14" H 4050 9165 50  0000 C CNN
-F 1 "AP62301WU-7" H 4050 9074 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:TSOT23-6" H 4000 8050 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 4000 8350 50  0001 C CNN
-F 4 "AP62301WU-7" H 4000 8150 50  0001 C CNN "MPN"
-F 5 "Diodes Incorporated" H 4000 8250 50  0001 C CNN "Manufacturer"
-	1    4050 8700
-	1    0    0    -1  
-$EndComp
 $Comp
 L sa800u-baseboard-hw:AP62301WU-7 U17
 U 1 1 6213CE88
