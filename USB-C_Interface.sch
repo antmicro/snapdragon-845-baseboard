@@ -500,8 +500,6 @@ F 6 "330n" V 2050 2800 50  0000 C CNN "Val"
 	1    2100 2600
 	0    1    1    0   
 $EndComp
-Text GLabel 5000 800  1    50   Input ~ 0
-VBUS
 Text GLabel 6450 600  0    50   Input ~ 0
 3V3
 Text GLabel 8700 2650 1    50   Input ~ 0
@@ -930,15 +928,15 @@ F 3 "" H 4000 7650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1550 9450 0    50   Input ~ 0
-USB2_HS_D_P
+USB2C_HS_D_P
 Text GLabel 8450 6350 0    50   Input ~ 0
-USB2_RX_N
+USB2_SS_RX_N
 Text GLabel 8450 6250 0    50   Input ~ 0
-USB2_RX_P
+USB2_SS_RX_P
 Text GLabel 8450 6650 0    50   Input ~ 0
-USB2_TX_N
+USB2_SS_TX_N
 Text GLabel 8450 6550 0    50   Input ~ 0
-USB2_TX_P
+USB2_SS_TX_P
 Wire Wire Line
 	5400 9250 5600 9250
 Wire Wire Line
@@ -1388,7 +1386,7 @@ Connection ~ 4150 6500
 Text GLabel 5150 5850 2    50   Input ~ 0
 USB2_5V
 Text GLabel 1550 9550 0    50   Input ~ 0
-USB2_HS_D_N
+USB2C_HS_D_N
 Text Label 7150 6900 0    50   ~ 0
 USB2_CC_SELECT
 Text Label 5350 6650 2    50   ~ 0
@@ -1855,4 +1853,8 @@ Text GLabel 8650 1950 2    50   Input ~ 0
 SBU_SW_OE
 Text GLabel 9650 2150 3    50   Input ~ 0
 3V3
+Text GLabel 5000 800  1    50   Input ~ 0
+USB_VBUS
+Text Notes 5100 1100 0    50   ~ 0
+Charging power\ninput.\nPower output for\nOTG device.\nUSB/adaptor\ninsertion detect.
 $EndSCHEMATC

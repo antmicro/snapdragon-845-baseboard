@@ -43,17 +43,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 2350 2600 2350
 Connection ~ 2650 2350
-$Comp
-L sa800u-baseboard-hw:+3V3 #PWR062
-U 1 1 61BD4928
-P 2600 2350
-F 0 "#PWR062" H 2600 2200 50  0001 C CNN
-F 1 "+3V3" V 2615 2478 50  0000 L CNN
-F 2 "" H 2600 2350 50  0001 C CNN
-F 3 "" H 2600 2350 50  0001 C CNN
-	1    2600 2350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2750 2150 2750 2500
 Connection ~ 2750 2150
@@ -68,38 +57,6 @@ F 3 "" H 2750 2500 50  0001 C CNN
 	1    2750 2500
 	1    0    0    -1  
 $EndComp
-Text Label 700  1150 0    50   ~ 0
-DSI0_LN1_P
-Text Label 700  1050 0    50   ~ 0
-DSI0_LN1_N
-Text Label 700  1650 0    50   ~ 0
-DSI0_LN0_N
-Text Label 700  1750 0    50   ~ 0
-DSI0_LN0_P
-Text Label 700  1450 0    50   ~ 0
-DSI0_CLK_P
-Text Label 700  1350 0    50   ~ 0
-DSI0_CLK_N
-Text Label 550  2050 0    50   ~ 0
-TP_I2C_SDA
-Text Label 550  1950 0    50   ~ 0
-TP_I2C_SCL
-Text Label 6000 1200 0    50   ~ 0
-DSI0_LN3_P
-Text Label 6000 1100 0    50   ~ 0
-DSI0_LN3_N
-Text Label 6000 1500 0    50   ~ 0
-DSI0_LN2_P
-Text Label 6000 1400 0    50   ~ 0
-DSI0_LN2_N
-Text Label 6000 1700 0    50   ~ 0
-DSI0_LN1_N
-Text Label 6000 1800 0    50   ~ 0
-DSI0_LN1_P
-Text Label 6000 2000 0    50   ~ 0
-DSI0_LN0_N
-Text Label 6000 2100 0    50   ~ 0
-DSI0_LN0_P
 Wire Wire Line
 	9300 1000 9050 1000
 Wire Wire Line
@@ -121,10 +78,6 @@ Wire Wire Line
 	9050 1900 9050 2200
 Wire Wire Line
 	9050 2200 9300 2200
-Text Label 6200 2600 0    50   ~ 0
-TP_I2C_SCL
-Text Label 6200 2700 0    50   ~ 0
-TP_I2C_SDA
 Wire Wire Line
 	9050 2200 9050 2500
 Wire Wire Line
@@ -135,17 +88,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9300 2800
 Connection ~ 9050 2500
-$Comp
-L sa800u-baseboard-hw:+3V3 #PWR065
-U 1 1 61BE8457
-P 8700 2900
-F 0 "#PWR065" H 8700 2750 50  0001 C CNN
-F 1 "+3V3" V 8715 3028 50  0000 L CNN
-F 2 "" H 8700 2900 50  0001 C CNN
-F 3 "" H 8700 2900 50  0001 C CNN
-	1    8700 2900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8700 2900 9300 2900
 Wire Wire Line
@@ -248,10 +190,6 @@ Wire Wire Line
 	7300 2300 9300 2300
 Wire Wire Line
 	7300 2400 9300 2400
-Text Label 6000 2300 0    50   ~ 0
-DSI0_CLK_N
-Text Label 6000 2400 0    50   ~ 0
-DSI0_CLK_P
 $Comp
 L sa800u-baseboard-hw:R_4k7_0402 R72
 U 1 1 619BC4E7
@@ -296,28 +234,6 @@ Wire Wire Line
 	1750 2500 1750 2600
 Wire Wire Line
 	1500 2500 1500 2600
-$Comp
-L sa800u-baseboard-hw:+3V3 #PWR060
-U 1 1 619CDB8C
-P 1500 2600
-F 0 "#PWR060" H 1500 2450 50  0001 C CNN
-F 1 "+3V3" V 1515 2728 50  0000 L CNN
-F 2 "" H 1500 2600 50  0001 C CNN
-F 3 "" H 1500 2600 50  0001 C CNN
-	1    1500 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:+3V3 #PWR061
-U 1 1 619CE012
-P 1750 2600
-F 0 "#PWR061" H 1750 2450 50  0001 C CNN
-F 1 "+3V3" V 1765 2728 50  0000 L CNN
-F 2 "" H 1750 2600 50  0001 C CNN
-F 3 "" H 1750 2600 50  0001 C CNN
-	1    1750 2600
-	-1   0    0    1   
-$EndComp
 $Comp
 L sa800u-baseboard-hw:3-84952-0 J5
 U 1 1 619D8F59
@@ -557,5 +473,54 @@ F 3 "~" H 1500 2600 50  0001 C CNN
 	1    1500 2600
 	0    1    1    0   
 $EndComp
-Connection ~ 1500 2600
+Text GLabel 700  1050 0    50   Input ~ 0
+DSI0_LN1_N
+Text GLabel 700  1150 0    50   Input ~ 0
+DSI0_LN1_P
+Text GLabel 700  1350 0    50   Input ~ 0
+DSI0_CLK_N
+Text GLabel 700  1450 0    50   Input ~ 0
+DSI0_CLK_P
+Text GLabel 700  1650 0    50   Input ~ 0
+DSI0_LN0_N
+Text GLabel 700  1750 0    50   Input ~ 0
+DSI0_LN0_P
+Text GLabel 550  1950 0    50   Input ~ 0
+TP_I2C_SCL
+Text GLabel 550  2050 0    50   Input ~ 0
+TP_I2C_SDA
+Text GLabel 1500 2600 3    50   Input ~ 0
+3V3
+Text GLabel 1750 2600 3    50   Input ~ 0
+3V3
+Text GLabel 2600 2350 0    50   Input ~ 0
+3V3
+Text GLabel 6000 1100 0    50   Input ~ 0
+DSI0_LN3_N
+Text GLabel 6000 1200 0    50   Input ~ 0
+DSI0_LN3_P
+Text GLabel 6000 1400 0    50   Input ~ 0
+DSI0_LN2_N
+Text GLabel 6000 1500 0    50   Input ~ 0
+DSI0_LN2_P
+Text GLabel 6000 1700 0    50   Input ~ 0
+DSI0_LN1_N
+Text GLabel 6000 1800 0    50   Input ~ 0
+DSI0_LN1_P
+Text GLabel 6000 2000 0    50   Input ~ 0
+DSI0_LN0_N
+Text GLabel 6000 2100 0    50   Input ~ 0
+DSI0_LN0_P
+Text GLabel 6000 2300 0    50   Input ~ 0
+DSI0_CLK_N
+Text GLabel 6000 2400 0    50   Input ~ 0
+DSI0_CLK_P
+Text GLabel 6200 2600 0    50   Input ~ 0
+TP_I2C_SCL
+Text GLabel 6200 2700 0    50   Input ~ 0
+TP_I2C_SDA
+Text GLabel 8700 2900 0    50   Input ~ 0
+3V3
+Text Notes 3600 3300 0    50   ~ 0
+Add some TVS diodes for protection.
 $EndSCHEMATC
