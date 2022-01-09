@@ -683,4 +683,6 @@ Text Notes 7800 4750 0    50   ~ 0
 5V
 Text Notes 500  950  0    50   ~ 0
 What about APD? This circuit may be powered from other than PoE source.\n\nConsider adding an DC input (barrel jack or screw terminal) and calculate Rapd1/Rapd2 (chapter 8.2 of the datasheet)\nIf APD is not used tie it to GND to disable this functionality.\n\nAux power input can be especially helpful when debugging
+Text Notes 7400 3625 0    50   ~ 0
+Do 7k5 resistor needs to be in 2512 package?
 $EndSCHEMATC
