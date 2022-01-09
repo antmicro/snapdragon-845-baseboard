@@ -2455,4 +2455,6 @@ NoConn ~ 8100 4700
 NoConn ~ 8100 5000
 NoConn ~ 8100 5100
 NoConn ~ 8100 5200
+Text Notes 525  775  0    50   ~ 0
+Separate 3D model of device and connecors.\nThis will allow disabling SA800U model when \nplacing components under it keeping connectors in view.
 $EndSCHEMATC
