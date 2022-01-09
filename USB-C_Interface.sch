@@ -1857,4 +1857,8 @@ Text GLabel 5000 800  1    50   Input ~ 0
 USB_VBUS
 Text Notes 5100 1100 0    50   ~ 0
 Charging power\ninput.\nPower output for\nOTG device.\nUSB/adaptor\ninsertion detect.
+Text Notes 1425 2775 0    50   ~ 0
+Change to 0402 package
+Text Notes 1100 3625 0    50   ~ 0
+K pin on schematic is not \nconnected to C pad on footprint
 $EndSCHEMATC
