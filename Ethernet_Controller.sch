@@ -3051,4 +3051,12 @@ $EndComp
 Connection ~ 2100 6200
 Wire Wire Line
 	2100 6200 2500 6200
+Text Notes 8100 6400 0    50   ~ 0
+Try to add 15K resistor in 0402 package,\nadd it to library using provided script.\nThis will simplify layout.
+Text Notes 1675 9650 0    50   ~ 0
+There are 3 power input pins connected to 3V3.\nOne 100nF cap is missing
+Text Notes 2625 9350 0    50   ~ 0
+4u7 caps should be \nplaced near pins ...
+Text Notes 6150 9350 0    50   ~ 0
+DNP 100nF and \n1uF caps should be placed near pins...
 $EndSCHEMATC
