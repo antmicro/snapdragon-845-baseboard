@@ -892,4 +892,6 @@ F 6 "100n" H 4865 8997 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	4750 9200 4750 9350
+Text Notes 1575 6600 0    50   ~ 0
+Change BGA package to something easier to solder. \nChange resistors to 0402
 $EndSCHEMATC
