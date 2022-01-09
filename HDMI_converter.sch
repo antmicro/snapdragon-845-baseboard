@@ -3187,4 +3187,28 @@ Wire Wire Line
 	7650 8850 7800 8850
 Text Label 3800 5650 1    50   ~ 0
 I2C_ADDR
+Text Notes 4150 9925 0    50   ~ 0
+Change to SMD equivalent\n
+Text Notes 4875 11175 0    50   ~ 0
+Change to SMD equivalent\n
+Text Notes 1575 10750 0    50   ~ 0
+Change to SMD equivalent\n
+Text Notes 13200 9275 0    50   ~ 0
+Change to SMD equivalent\n
+Text Notes 10850 8850 0    50   ~ 0
+Use package larger than BGA
+Text Notes 9575 9425 0    50   ~ 0
+Is voltage divider \nneeded on OE pin?\n
+Text Notes 5875 9075 0    50   ~ 0
+Is voltage divider \nneeded on OE pin?\n
+Text Notes 9500 9000 0    50   ~ 0
+10k res can be \nchanged to \n0402 package\n
+Text Notes 6675 8800 0    50   ~ 0
+10k res can be \nchanged to \n0402 package\n
+Text Notes 1600 5100 0    50   ~ 0
+10k res can be \nchanged to \n0402 package\n
+Text Notes 4700 875  0    50   ~ 0
+7k68 res can be \nchanged to \n0402 package\n
+Text Notes 13325 8450 0    50   ~ 0
+510R resistor can \nbe changed to 0402
 $EndSCHEMATC
