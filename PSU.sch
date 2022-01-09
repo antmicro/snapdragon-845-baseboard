@@ -2421,22 +2421,26 @@ Wire Wire Line
 Connection ~ 9050 3000
 Text GLabel 9500 3000 2    50   Input ~ 0
 5V
+Wire Wire Line
+	7800 3000 8100 3000
 $Comp
-L antmicroFixedInductors:74437336033 L29
-U 1 1 61E3C956
+L antmicroFixedInductors:XEL4030-222MEC L?
+U 1 1 6206CC03
 P 7650 3000
-F 0 "L29" H 7650 3305 60  0000 C CNN
-F 1 "74437336033" H 7650 3199 60  0000 C CNN
-F 2 "antmicro-footprints:WE_74437336033" H 8475 3350 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/74437336033.pdf" H 7705 3030 60  0001 C CNN
-F 4 "Wurth Elektronik" H 7950 3800 50  0001 C CNN "Manufacturer"
-F 5 "74437336033" H 7900 3725 50  0001 C CNN "MPN"
-F 6 "3.3u/4.1A" H 7650 3101 50  0000 C CNN "Val"
-F 7 "5.2x5.2" H 7775 3550 50  0001 C CNN "Size"
-F 8 "4.1A" H 7725 3650 50  0001 C CNN "MaxCur"
+AR Path="/61DC2BE0/6206CC03" Ref="L?"  Part="1" 
+AR Path="/61B0DC30/6206CC03" Ref="L29"  Part="1" 
+F 0 "L29" H 7650 3301 50  0000 C CNN
+F 1 "XEL4030-222MEC" H 7650 3210 50  0000 C CNN
+F 2 "antmicro-footprints:Coilcraft-XEL4030" H 8450 3250 60  0001 C CNN
+F 3 "https://www.coilcraft.com/getmedia/8245f050-f190-4295-8c41-7c03d662ee3d/xel4030.pdf" H 7705 3030 60  0001 C CNN
+F 4 "XEL4030-222MEC" H 7850 3500 50  0001 C CNN "MPN"
+F 5 "Coilcraft" H 7950 3600 50  0001 C CNN "Manufacturer"
+F 6 "2u2/6.1A" H 7650 3119 50  0000 C CNN "Val"
+F 7 "6.1A" H 7725 3425 50  0001 C CNN "MaxCur"
+F 8 "4x4" H 7775 3325 50  0001 C CNN "Size"
 	1    7650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 3000 8100 3000
+Text Notes 5950 1275 0    50   ~ 0
+Try to use something like SIR681DP-T1-RE3,\nIt will be smaller but powerfull enough
 $EndSCHEMATC
