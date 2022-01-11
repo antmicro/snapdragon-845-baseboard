@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 12
+Sheet 11 13
 Title ""
 Date ""
 Rev ""
@@ -563,8 +563,8 @@ Text Label 7950 1550 1    50   ~ 0
 VDD_POE
 Text Label 1350 4450 1    50   ~ 0
 VDD_POE
-Text Notes 9950 2850 0    50   ~ 0
-should SNPS_CTRL be tied directly to GNDD?\nThen R89 and R90 are not needed\nAlternatively remove direct tie to the GND and make one of resistors DNP
+Text Notes 13050 9850 0    50   ~ 0
+should SNPS_CTRL be tied directly to GNDD?\nThen R89 and R90 are not needed                    DONE\nAlternatively remove direct tie to the GND and make one of resistors DNP
 $Comp
 L sa800u-baseboard-hw:R_0R_0402 R85
 U 1 1 61A460AF
