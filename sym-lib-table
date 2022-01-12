@@ -5,7 +5,6 @@
   (lib (name ZenerDiode)(type Legacy)(uri ${KIPRJMOD}/ZenerDiode.lib)(options "")(descr "")(disabled))
   (lib (name Connectors)(type Legacy)(uri ${KIPRJMOD}/Connectors.lib)(options "")(descr "")(disabled))
   (lib (name HDMI)(type Legacy)(uri ${KIPRJMOD}/HDMI.lib)(options "")(descr "")(disabled))
-  (lib (name 68612014122)(type Legacy)(uri /home/jszukala/Downloads/temp_components/68612014122.lib)(options "")(descr "")(disabled))
   (lib (name sa800u-baseboard-hw-rescue)(type Legacy)(uri ${KIPRJMOD}/sa800u-baseboard-hw-rescue.lib)(options "")(descr "")(disabled))
   (lib (name b)(type Legacy)(uri ${KIPRJMOD}/b.lib)(options "")(descr "")(disabled))
   (lib (name c)(type Legacy)(uri ${KIPRJMOD}/c.lib)(options "")(descr "")(disabled))
@@ -13,5 +12,4 @@
   (lib (name e)(type Legacy)(uri ${KIPRJMOD}/e.lib)(options "")(descr "")(disabled))
   (lib (name USB-PD)(type Legacy)(uri ${KIPRJMOD}/USB-PD.lib)(options "")(descr ""))
   (lib (name sa800u-baseboard-hw)(type Legacy)(uri ${KIPRJMOD}/lib/sa800u-baseboard-hw.lib)(options "")(descr ""))
-  (lib (name brooklyn-baseboard)(type Legacy)(uri /home/smroz/antmicro/projects/andium/andium-brooklyn-baseboard-hw/brooklyn-baseboard.lib)(options "")(descr ""))
 )
