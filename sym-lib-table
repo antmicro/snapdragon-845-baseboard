@@ -13,4 +13,5 @@
   (lib (name e)(type Legacy)(uri ${KIPRJMOD}/e.lib)(options "")(descr "")(disabled))
   (lib (name USB-PD)(type Legacy)(uri ${KIPRJMOD}/USB-PD.lib)(options "")(descr ""))
   (lib (name sa800u-baseboard-hw)(type Legacy)(uri ${KIPRJMOD}/lib/sa800u-baseboard-hw.lib)(options "")(descr ""))
+  (lib (name brooklyn-baseboard)(type Legacy)(uri /home/smroz/antmicro/projects/andium/andium-brooklyn-baseboard-hw/brooklyn-baseboard.lib)(options "")(descr ""))
 )
