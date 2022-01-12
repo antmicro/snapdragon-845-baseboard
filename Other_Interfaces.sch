@@ -311,20 +311,6 @@ F 3 "" H 2875 3575 50  0001 C CNN
 	1    2875 3575
 	1    0    0    -1  
 $EndComp
-Text GLabel 1625 3200 0    50   Input ~ 0
-SDMMC_DAT1
-Text GLabel 1625 3100 0    50   Input ~ 0
-SDMMC_DAT0
-Text GLabel 1625 2500 0    50   Input ~ 0
-SDMMC_DAT2
-Text GLabel 1625 2600 0    50   Input ~ 0
-SDMMC_DAT3
-Text GLabel 1625 2700 0    50   Input ~ 0
-SDMMC_CMD
-Text GLabel 1625 2900 0    50   Input ~ 0
-SDMMC_CLK
-Text GLabel 1625 2400 0    50   Input ~ 0
-SDMMC_CD
 Wire Wire Line
 	4100 3300 4050 3300
 Wire Wire Line
@@ -401,4 +387,18 @@ NoConn ~ 2350 3450
 Connection ~ 3350 1350
 Wire Wire Line
 	3350 1350 3650 1350
+Text GLabel 1625 2900 0    50   Input ~ 0
+SD_CLK
+Text GLabel 1625 2700 0    50   Input ~ 0
+SD_CMD
+Text GLabel 1625 2400 0    50   Input ~ 0
+SD_DET
+Text GLabel 1625 3100 0    50   Input ~ 0
+SD_DATA0
+Text GLabel 1625 3200 0    50   Input ~ 0
+SD_DATA1
+Text GLabel 1625 2600 0    50   Input ~ 0
+SD_DATA3
+Text GLabel 1625 2500 0    50   Input ~ 0
+SD_DATA2
 $EndSCHEMATC
