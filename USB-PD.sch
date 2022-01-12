@@ -319,10 +319,10 @@ Connection ~ 6200 1750
 Text Notes 7200 3350 0    50   ~ 0
 WORK IN PROGRESS
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR0213
 U 1 1 61DF321E
 P 9650 4450
-F 0 "#PWR?" H 9650 4200 50  0001 C CNN
+F 0 "#PWR0213" H 9650 4200 50  0001 C CNN
 F 1 "GND" V 9655 4322 50  0000 R CNN
 F 2 "" H 9650 4450 50  0001 C CNN
 F 3 "" H 9650 4450 50  0001 C CNN
@@ -330,10 +330,10 @@ F 3 "" H 9650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:C_1u_0402 C?
+L sa800u-baseboard-hw:C_1u_0402 C136
 U 1 1 61DF393A
 P 9050 4350
-F 0 "C?" V 8950 4400 60  0000 L CNN
+F 0 "C136" V 8950 4400 60  0000 L CNN
 F 1 "C_1u_0402" H 9050 4200 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9250 4550 60  0001 L CNN
 F 3 "" H 9050 4350 50  0001 C CNN
@@ -344,10 +344,10 @@ F 6 "1u" V 8950 4200 50  0000 L CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sa800u-baseboard-hw:C_1u_0402 C?
+L sa800u-baseboard-hw:C_1u_0402 C138
 U 1 1 61DF5A13
 P 9400 4250
-F 0 "C?" V 9515 4295 60  0000 L CNN
+F 0 "C138" V 9515 4295 60  0000 L CNN
 F 1 "C_1u_0402" H 9400 4100 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9600 4450 60  0001 L CNN
 F 3 "" H 9400 4250 50  0001 C CNN
@@ -371,10 +371,10 @@ Text Label 8600 4350 0    50   ~ 0
 2V7
 Connection ~ 9650 4250
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR0214
 U 1 1 61E0C3B2
 P 8700 4050
-F 0 "#PWR?" H 8700 3800 50  0001 C CNN
+F 0 "#PWR0214" H 8700 3800 50  0001 C CNN
 F 1 "GND" V 8705 3922 50  0000 R CNN
 F 2 "" H 8700 4050 50  0001 C CNN
 F 3 "" H 8700 4050 50  0001 C CNN
@@ -390,10 +390,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 1750 9050 1750
 $Comp
-L sa800u-baseboard-hw:C_1u_0402 C?
+L sa800u-baseboard-hw:C_1u_0402 C137
 U 1 1 61E26115
 P 9400 3950
-F 0 "C?" V 9515 3995 60  0000 L CNN
+F 0 "C137" V 9515 3995 60  0000 L CNN
 F 1 "C_1u_0402" H 9400 3800 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9600 4150 60  0001 L CNN
 F 3 "" H 9400 3950 50  0001 C CNN
@@ -427,26 +427,12 @@ F 5 "INFINEON" H 11550 1900 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 1750 10750 1850
-Connection ~ 10750 1850
-Wire Wire Line
-	10750 1850 10750 1950
-Wire Wire Line
 	10750 1750 10050 1750
-Connection ~ 10750 1750
-Wire Wire Line
-	12350 1750 12350 1850
-Connection ~ 12350 1850
-Wire Wire Line
-	12350 1850 12350 1950
-Connection ~ 12350 1950
-Wire Wire Line
-	12350 1950 12350 2050
 $Comp
-L sa800u-baseboard-hw:R_100k_0402 R?
+L sa800u-baseboard-hw:R_100k_0402 R108
 U 1 1 61E6364D
 P 10050 2000
-F 0 "R?" V 10005 2070 60  0000 L CNN
+F 0 "R108" V 10005 2070 60  0000 L CNN
 F 1 "R_100k_0402" H 10050 1850 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10250 2200 60  0001 L CNN
 F 3 "" H 10050 2000 50  0001 C CNN
@@ -462,10 +448,10 @@ Wire Wire Line
 	10050 1850 10050 1750
 Connection ~ 10050 1750
 $Comp
-L sa800u-baseboard-hw:R_22k_0402 R?
+L sa800u-baseboard-hw:R_22k_0402 R109
 U 1 1 61E675D2
 P 10050 2800
-F 0 "R?" V 10005 2870 60  0000 L CNN
+F 0 "R109" V 10005 2870 60  0000 L CNN
 F 1 "R_22k_0402" H 10050 2650 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10250 3000 60  0001 L CNN
 F 3 "" H 10050 2800 50  0001 C CNN
@@ -480,7 +466,6 @@ Wire Wire Line
 Connection ~ 10050 2500
 Wire Wire Line
 	12350 1750 12600 1750
-Connection ~ 12350 1750
 Wire Wire Line
 	12600 1750 12600 1850
 Wire Wire Line
@@ -488,10 +473,10 @@ Wire Wire Line
 Connection ~ 12600 1750
 Connection ~ 10750 2500
 $Comp
-L sa800u-baseboard-hw:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C139
 U 1 1 61E6EBE7
 P 12600 2000
-F 0 "C?" H 12715 2045 60  0000 L CNN
+F 0 "C139" H 12715 2045 60  0000 L CNN
 F 1 "C_100n_0402" H 12600 1850 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 12800 2200 60  0001 L CNN
 F 3 "" H 12600 2000 50  0001 C CNN
@@ -502,10 +487,10 @@ F 6 "100n" H 12715 1947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:R_100R_0402 R?
+L sa800u-baseboard-hw:R_100R_0402 R110
 U 1 1 61E6F64B
 P 12250 2500
-F 0 "R?" H 12250 2713 60  0000 C CNN
+F 0 "R110" H 12250 2713 60  0000 C CNN
 F 1 "R_100R_0402" H 12250 2350 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 12450 2700 60  0001 L CNN
 F 3 "" H 12250 2500 50  0001 C CNN
@@ -531,10 +516,10 @@ Wire Wire Line
 Wire Wire Line
 	12600 1750 13200 1750
 $Comp
-L sa800u-baseboard-hw:R_1k1_0402 R?
+L sa800u-baseboard-hw:R_1k1_0402 R111
 U 1 1 61E821E4
 P 13200 2100
-F 0 "R?" V 13155 2170 60  0000 L CNN
+F 0 "R111" V 13155 2170 60  0000 L CNN
 F 1 "R_1k1_0402" H 13200 1950 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13400 2300 60  0001 L CNN
 F 3 "" H 13200 2100 50  0001 C CNN
@@ -558,4 +543,8 @@ Wire Wire Line
 	6450 5250 6700 5250
 Text Notes 12450 1550 0    50   ~ 0
 WORK IN PROGRESS
+Wire Wire Line
+	10750 1750 10750 1950
+Wire Wire Line
+	12350 1750 12350 2050
 $EndSCHEMATC
