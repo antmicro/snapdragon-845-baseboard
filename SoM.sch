@@ -561,7 +561,7 @@ F 5 "MS621FE-FL11E" H 15050 3750 50  0001 C CNN "MPN"
 	1    15050 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 1750 2    50   Input ~ 0
+Text GLabel 3800 1750 2    50   Output ~ 0
 PCIE0_RST_N
 $Comp
 L sa800u-baseboard-hw:GND #PWR084
@@ -586,9 +586,9 @@ Wire Wire Line
 	3800 1950 3300 1950
 Wire Wire Line
 	3300 1850 3800 1850
-Text GLabel 3800 2150 2    50   Input ~ 0
+Text GLabel 3800 2150 2    50   Output ~ 0
 PCIE0_TX_N
-Text GLabel 3800 2250 2    50   Input ~ 0
+Text GLabel 3800 2250 2    50   Output ~ 0
 PCIE0_TX_P
 Wire Wire Line
 	3800 2250 3300 2250
@@ -613,9 +613,9 @@ Wire Wire Line
 	3300 2450 3800 2450
 Wire Wire Line
 	3300 2650 3650 2650
-Text GLabel 3800 2450 2    50   Input ~ 0
+Text GLabel 3800 2450 2    50   Output ~ 0
 PCIE0_REFCLK_P
-Text GLabel 3800 2550 2    50   Input ~ 0
+Text GLabel 3800 2550 2    50   Output ~ 0
 PCIE0_REFCLK_N
 $Comp
 L sa800u-baseboard-hw:GND #PWR086
