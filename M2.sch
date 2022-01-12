@@ -305,12 +305,12 @@ F 6 "10k" V 3053 2070 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608CGCK D20
+L sa800u-baseboard-hw:KP-1608CGCK D20
 U 1 1 61F081D5
 P 3200 4675
 F 0 "D20" H 3150 5012 60  0000 C CNN
 F 1 "KP-1608CGCK" H 3150 4906 60  0000 C CNN
-F 2 "antmicro-footprints:LED_0603" H 3400 4875 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 3400 4875 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 3400 4975 60  0001 L CNN
 F 4 "KP-1608CGCK" H 3400 5175 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 3410 5295 60  0001 L CNN "Manufacturer"
@@ -318,12 +318,12 @@ F 5 "KINGBRIGHT" H 3410 5295 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_220R_0402 R102
+L sa800u-baseboard-hw:R_220R_0402 R102
 U 1 1 61F0A68A
 P 2800 4675
 F 0 "R102" H 2800 4552 60  0000 C CNN
 F 1 "R_220R_0402" H 2800 4525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 4875 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 4875 60  0001 L CNN
 F 3 "" H 2800 4675 50  0001 C CNN
 F 4 "Panasonic" H 3000 5075 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 3000 4975 60  0001 L CNN "MPN"
@@ -400,12 +400,12 @@ F 6 "100n" V 6650 2400 50  0000 C CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroMechanicalParts:9774040151 SP1
+L sa800u-baseboard-hw:9774040151 SP1
 U 1 1 61F46DD9
 P 4500 5975
 F 0 "SP1" H 4443 5686 60  0000 C CNN
 F 1 "9774040151" H 4443 5792 60  0000 C CNN
-F 2 "antmicro-footprints:9774040151" H 4500 5975 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:9774040151" H 4500 5975 60  0001 C CNN
 F 3 "" H 4500 5975 60  0001 C CNN
 F 4 "Wurth Elektronik" H 4500 5975 50  0001 C CNN "Manufacturer"
 F 5 "9774030151" H 4500 5975 50  0001 C CNN "MPN"
@@ -463,23 +463,23 @@ Connection ~ 3000 1575
 Wire Wire Line
 	3000 1575 3475 1575
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP1
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP1
 U 1 1 61F6D551
 P 3175 3075
 F 0 "TP1" V 3175 2875 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 3175 2975 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 3375 3275 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 3375 3275 60  0001 L CNN
 F 3 "" H 3375 3375 60  0001 L CNN
 	1    3175 3075
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD_0_75MM TP2
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP2
 U 1 1 61F6FD56
 P 3175 3175
 F 0 "TP2" V 3175 2975 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 3175 3075 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 3375 3375 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 3375 3375 60  0001 L CNN
 F 3 "" H 3375 3475 60  0001 L CNN
 	1    3175 3175
 	0    1    1    0   

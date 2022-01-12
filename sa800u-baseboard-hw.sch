@@ -74,12 +74,12 @@ F0 "PoE" 50
 F1 "PoE.sch" 50
 $EndSheet
 $Comp
-L antmicroMechanicalParts:PCB_Spacer_M2 MP3
+L sa800u-baseboard-hw:PCB_Spacer_M2 MP3
 U 1 1 61E50FA3
 P 12300 4500
 F 0 "MP3" H 12508 4637 50  0000 L CNN
 F 1 "PCB_Spacer_M2" H 12508 4546 50  0000 L CNN
-F 2 "antmicro-footprints:9774030243R" H 13100 5200 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 13100 5200 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 13250 5300 50  0001 C CNN
 F 4 "9774030243R" H 12508 4455 50  0000 L CNN "MPN"
 F 5 "Wurth Elektronik " H 12508 4364 50  0000 L CNN "Manufacturer"
@@ -87,12 +87,12 @@ F 5 "Wurth Elektronik " H 12508 4364 50  0000 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Spacer_M2 MP4
+L sa800u-baseboard-hw:PCB_Spacer_M2 MP4
 U 1 1 61E5197E
 P 12300 6850
 F 0 "MP4" H 12508 6987 50  0000 L CNN
 F 1 "PCB_Spacer_M2" H 12508 6896 50  0000 L CNN
-F 2 "antmicro-footprints:9774030243R" H 13100 7550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 13100 7550 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 13250 7650 50  0001 C CNN
 F 4 "9774030243R" H 12508 6805 50  0000 L CNN "MPN"
 F 5 "Wurth Elektronik " H 12508 6714 50  0000 L CNN "Manufacturer"
@@ -100,12 +100,12 @@ F 5 "Wurth Elektronik " H 12508 6714 50  0000 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Spacer_M2 MP2
+L sa800u-baseboard-hw:PCB_Spacer_M2 MP2
 U 1 1 61E52039
 P 3550 6850
 F 0 "MP2" H 3758 6987 50  0000 L CNN
 F 1 "PCB_Spacer_M2" H 3758 6896 50  0000 L CNN
-F 2 "antmicro-footprints:9774030243R" H 4350 7550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 4350 7550 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 4500 7650 50  0001 C CNN
 F 4 "9774030243R" H 3758 6805 50  0000 L CNN "MPN"
 F 5 "Wurth Elektronik " H 3758 6714 50  0000 L CNN "Manufacturer"
@@ -113,12 +113,12 @@ F 5 "Wurth Elektronik " H 3758 6714 50  0000 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:PCB_Spacer_M2 MP1
+L sa800u-baseboard-hw:PCB_Spacer_M2 MP1
 U 1 1 61E52603
 P 3550 4500
 F 0 "MP1" H 3758 4637 50  0000 L CNN
 F 1 "PCB_Spacer_M2" H 3758 4546 50  0000 L CNN
-F 2 "antmicro-footprints:9774030243R" H 4350 5200 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 4350 5200 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 4500 5300 50  0001 C CNN
 F 4 "9774030243R" H 3758 4455 50  0000 L CNN "MPN"
 F 5 "Wurth Elektronik " H 3758 4364 50  0000 L CNN "Manufacturer"
@@ -128,15 +128,15 @@ $EndComp
 Text Notes 500  900  0    50   ~ 0
 Use 6mm spacers insted of PCB mounting holes.\nThis will allow to put device on a desk without risking \ndamage to components on the bottom of the board               DONE\nAlternatively add space for screw head/spacer on PCB\n(ie. MP1 will interfere with connector when using screw/spacer)
 $Sheet
-S 5500 6950 1550 650 
-U 61DC2BE0
-F0 "Temp_psu" 50
-F1 "Temp_psu.sch" 50
-$EndSheet
-$Sheet
 S 8800 6950 1550 700 
 U 61DF77CE
 F0 "USB-PD" 50
 F1 "USB-PD.sch" 50
+$EndSheet
+$Sheet
+S 5500 6950 1550 650 
+U 61DC2BE0
+F0 "Temp_psu" 50
+F1 "Temp_psu.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -885,12 +885,12 @@ Connection ~ 5900 1900
 Text Label 7000 2200 0    50   ~ 0
 ETH_LED2
 $Comp
-L antmicroModularConnectorsJacksWithMagnetics:5-2337992-8 J1
+L sa800u-baseboard-hw:5-2337992-8 J1
 U 1 1 61F1EEFA
 P 2700 1200
 F 0 "J1" H 4700 1621 60  0000 C CNN
 F 1 "5-2337992-8" H 4700 1515 60  0000 C CNN
-F 2 "antmicro-footprints:5-2337992-8" H 4700 -850 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:5-2337992-8" H 4700 -850 60  0001 C CNN
 F 3 "" H 4150 1050 60  0001 C CNN
 F 4 "5-2337992-8" H 4700 1417 50  0001 C CNN "MPN"
 F 5 "TE Connectivity" H 4700 1326 50  0001 C CNN "Manufacturer"
@@ -939,12 +939,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 1750 4150 1750
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C1
+L sa800u-baseboard-hw:C_10n_0402 C1
 U 1 1 61FF0531
 P 3050 1950
 F 0 "C1" H 3165 1995 60  0000 L CNN
 F 1 "C_10n_0402" H 3050 1800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3250 2150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3250 2150 60  0001 L CNN
 F 3 "" H 3050 1950 50  0001 C CNN
 F 4 "AVX" H 3250 2350 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 3250 2250 60  0001 L CNN "MPN"
@@ -2959,12 +2959,12 @@ $EndBitmap
 Text Notes 1500 750  0    50   ~ 0
 Internals of RJ45
 $Comp
-L antmicroDiodesZenerSingle:BZX84C3V3LT1G D1
+L sa800u-baseboard-hw:BZX84C3V3LT1G D1
 U 1 1 61D774AD
 P 6200 1800
 F 0 "D1" H 6200 2025 50  0000 C CNN
 F 1 "BZX84C3V3LT1G" H 6200 1934 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 6200 1800 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 6200 1800 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2236792.pdf" H 6200 1800 50  0001 C CNN
 F 4 "BZX84C3V3LT1G" H 6200 1800 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 6200 1800 50  0001 C CNN "Manufacturer"
@@ -2972,12 +2972,12 @@ F 5 "ONSEMI" H 6200 1800 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesZenerSingle:BZX84C3V3LT1G D2
+L sa800u-baseboard-hw:BZX84C3V3LT1G D2
 U 1 1 61D77E1B
 P 6200 2100
 F 0 "D2" H 6200 2325 50  0000 C CNN
 F 1 "BZX84C3V3LT1G" H 6200 2234 50  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 6200 2100 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 6200 2100 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2236792.pdf" H 6200 2100 50  0001 C CNN
 F 4 "BZX84C3V3LT1G" H 6200 2100 50  0001 C CNN "MPN"
 F 5 "ONSEMI" H 6200 2100 50  0001 C CNN "Manufacturer"
@@ -2997,7 +2997,7 @@ Should this diode be TVS?
 Text Notes 5850 1300 0    50   ~ 10
 RJ45 chineese replacement. \nhttps://www.l-p.com/products/457392.htm
 $Comp
-L power:PWR_FLAG #FLG0104
+L sa800u-baseboard-hw:PWR_FLAG #FLG0104
 U 1 1 61E34BE1
 P 4000 3000
 F 0 "#FLG0104" H 4000 3075 50  0001 C CNN
@@ -3009,7 +3009,7 @@ F 3 "~" H 4000 3000 50  0001 C CNN
 $EndComp
 Connection ~ 4000 3000
 $Comp
-L power:PWR_FLAG #FLG0105
+L sa800u-baseboard-hw:PWR_FLAG #FLG0105
 U 1 1 61F4A681
 P 1800 8550
 F 0 "#FLG0105" H 1800 8625 50  0001 C CNN
@@ -3023,7 +3023,7 @@ Connection ~ 1800 8550
 Wire Wire Line
 	1800 8550 1800 8650
 $Comp
-L power:PWR_FLAG #FLG0106
+L sa800u-baseboard-hw:PWR_FLAG #FLG0106
 U 1 1 61F4B119
 P 4000 8550
 F 0 "#FLG0106" H 4000 8625 50  0001 C CNN
@@ -3038,7 +3038,7 @@ Wire Wire Line
 	4000 8550 4000 8650
 NoConn ~ 3700 5000
 $Comp
-L power:PWR_FLAG #FLG0108
+L sa800u-baseboard-hw:PWR_FLAG #FLG0108
 U 1 1 620BA7AF
 P 2100 6200
 F 0 "#FLG0108" H 2100 6275 50  0001 C CNN
