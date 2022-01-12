@@ -274,6 +274,43 @@ X MC_N0 9 -100 -1350 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# antmicroLEDIndicationDiscrete_KP-1608CGCK
+#
+DEF antmicroLEDIndicationDiscrete_KP-1608CGCK D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "antmicroLEDIndicationDiscrete_KP-1608CGCK" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "KP-1608CGCK" 200 500 60 H I L CNN "MPN"
+F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroMechanicalParts_9774040151
+#
+DEF antmicroMechanicalParts_9774040151 SP 0 40 Y Y 1 F N
+F0 "SP" -100 100 60 H V L BNN
+F1 "antmicroMechanicalParts_9774040151" -100 -200 60 H V L BNN
+F2 "antmicro-footprints:9774040151" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
+F5 "9774030151" 0 0 50 H I C CNN "MPN"
+DRAW
+S -100 -100 100 100 0 1 10 f
+S -50 -50 50 50 0 1 10 f
+X 1 1 -200 0 100 R 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_PCB_Spacer_M2
 #
 DEF antmicroMechanicalParts_PCB_Spacer_M2 MP 0 40 Y Y 1 F N
@@ -369,6 +406,26 @@ X ~ 5 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7
+#
+DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7 IC 0 40 Y Y 1 F N
+F0 "IC" -300 250 50 H V C CNN
+F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7" 200 250 50 H V C CNN
+F2 "antmicro-footprints:SOT-23-6" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Diodes Incorporated " 0 -350 50 H I C CNN "Manufacturer"
+F5 "AP22652W6-7" 0 0 50 H I C CNN "MPN"
+DRAW
+S -300 200 300 -200 1 1 6 f
+X IN 1 -400 100 100 R 40 40 1 1 B
+X GND 2 -400 -100 100 R 40 40 1 1 B
+X EN 3 -400 0 100 R 40 40 1 1 B
+X ~FAULT~ 4 400 0 100 L 40 40 1 1 B
+X ILIM 5 400 -100 100 L 40 40 1 1 B
+X OUT 6 400 100 100 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
 # antmicroPMICPowerDistributionSwitchesLoadDrivers_STUSB4500QTR
 #
 DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_STUSB4500QTR U 0 40 Y Y 1 F N
@@ -404,23 +461,6 @@ X RESET 6 -900 800 200 R 40 40 1 1 I
 X SCL 7 -900 200 200 R 40 40 1 1 I C
 X SDA 8 -900 100 200 R 40 40 1 1 B
 X DISCH 9 -900 -200 200 R 40 40 1 1 B
-# antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7
-#
-DEF antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7 IC 0 40 Y Y 1 F N
-F0 "IC" -300 250 50 H V C CNN
-F1 "antmicroPMICPowerDistributionSwitchesLoadDrivers_AP22652W6-7" 200 250 50 H V C CNN
-F2 "antmicro-footprints:SOT-23-6" 0 -250 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Diodes Incorporated " 0 -350 50 H I C CNN "Manufacturer"
-F5 "AP22652W6-7" 0 0 50 H I C CNN "MPN"
-DRAW
-S -300 200 300 -200 1 1 6 f
-X IN 1 -400 100 100 R 40 40 1 1 B
-X GND 2 -400 -100 100 R 40 40 1 1 B
-X EN 3 -400 0 100 R 40 40 1 1 B
-X ~FAULT~ 4 400 0 100 L 40 40 1 1 B
-X ILIM 5 400 -100 100 L 40 40 1 1 B
-X OUT 6 400 100 100 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -468,6 +508,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040220K0FKED" 200 300 60 H I L CNN "MPN"
 F6 "20k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_220R_0402
+#
+DEF antmicroResistors0402_R_220R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_220R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
+F6 "220R" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -607,6 +664,9 @@ P 4 1 1 0 50 100 100 100 100 -100 50 -100 N
 X ~ 1 -350 100 150 R 50 50 1 1 P
 X ~ 2 -350 -100 150 R 50 50 1 1 P
 X ~ 3 350 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTVSDiodes_TPD4E05U06_PASS
 #
 DEF antmicroTVSDiodes_TPD4E05U06_PASS D 0 40 Y Y 1 F N
@@ -627,6 +687,19 @@ X GND 3 -200 -200 200 R 70 70 0 1 P
 X CH3 4 -200 0 200 R 70 70 0 1 P
 X CH4 5 -200 -100 200 R 70 70 0 1 P
 X GND 8 -200 -300 200 R 70 70 0 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTestPoints_TP_SMD_0_75MM
+#
+DEF antmicroTestPoints_TP_SMD_0_75MM TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "antmicroTestPoints_TP_SMD_0_75MM" 0 -100 50 H I C CNN
+F2 "antmicro-footprints:Testpoint_smd_0_75mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
