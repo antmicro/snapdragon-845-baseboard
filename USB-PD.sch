@@ -224,11 +224,7 @@ Connection ~ 5650 1750
 Wire Wire Line
 	5650 1750 6200 1750
 Connection ~ 5650 2450
-Wire Wire Line
-	8500 4250 8850 4250
-Wire Wire Line
-	8500 4350 8850 4350
-Text Notes 8950 4500 0    50   ~ 0
+Text Notes 9100 3750 0    50   ~ 0
 Internal regulators.
 $Comp
 L antmicroDiodesRectifiersSingle:PMEG6002EJ,115 D?
@@ -245,8 +241,6 @@ F 5 "NEXPERIA" H 5650 2050 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	5650 2250 5650 2450
-Wire Wire Line
-	3500 2650 3500 3550
 $Comp
 L antmicroTVSDiodes:ESDA25W D?
 U 1 1 61E6BE8F
@@ -321,9 +315,247 @@ Wire Wire Line
 	6450 5750 6700 5750
 Text Notes 950  5100 0    50   ~ 0
 This diode has Vrm (standoff voltage) = 24V\nCCx pins are rated for up to 22V. But identical\ndiode was used in reference and in dev board.
-Wire Wire Line
-	6200 1750 8450 1750
 Connection ~ 6200 1750
 Text Notes 7200 3350 0    50   ~ 0
+WORK IN PROGRESS
+$Comp
+L power:GND #PWR?
+U 1 1 61DF321E
+P 9650 4450
+F 0 "#PWR?" H 9650 4200 50  0001 C CNN
+F 1 "GND" V 9655 4322 50  0000 R CNN
+F 2 "" H 9650 4450 50  0001 C CNN
+F 3 "" H 9650 4450 50  0001 C CNN
+	1    9650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61DF393A
+P 9050 4350
+F 0 "C?" V 8950 4400 60  0000 L CNN
+F 1 "C_1u_0402" H 9050 4200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9250 4550 60  0001 L CNN
+F 3 "" H 9050 4350 50  0001 C CNN
+F 4 "TDK" H 9250 4750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 9250 4650 60  0001 L CNN "MPN"
+F 6 "1u" V 8950 4200 50  0000 L CNN "Val"
+	1    9050 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61DF5A13
+P 9400 4250
+F 0 "C?" V 9515 4295 60  0000 L CNN
+F 1 "C_1u_0402" H 9400 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9600 4450 60  0001 L CNN
+F 3 "" H 9400 4250 50  0001 C CNN
+F 4 "TDK" H 9600 4650 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 9600 4550 60  0001 L CNN "MPN"
+F 6 "1u" V 9500 4100 50  0000 L CNN "Val"
+	1    9400 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 4350 8900 4350
+Wire Wire Line
+	8500 4250 9250 4250
+Wire Wire Line
+	9200 4350 9650 4350
+Wire Wire Line
+	9550 4250 9650 4250
+Wire Wire Line
+	9650 4250 9650 4350
+Text Label 8600 4350 0    50   ~ 0
+2V7
+Connection ~ 9650 4250
+$Comp
+L power:GND #PWR?
+U 1 1 61E0C3B2
+P 8700 4050
+F 0 "#PWR?" H 8700 3800 50  0001 C CNN
+F 1 "GND" V 8705 3922 50  0000 R CNN
+F 2 "" H 8700 4050 50  0001 C CNN
+F 3 "" H 8700 4050 50  0001 C CNN
+	1    8700 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 4050 8500 4050
+Wire Wire Line
+	8500 3950 9050 3950
+Wire Wire Line
+	9050 3950 9050 1750
+Wire Wire Line
+	6200 1750 9050 1750
+$Comp
+L antmicroCapacitors0402:C_1u_0402 C?
+U 1 1 61E26115
+P 9400 3950
+F 0 "C?" V 9515 3995 60  0000 L CNN
+F 1 "C_1u_0402" H 9400 3800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 9600 4150 60  0001 L CNN
+F 3 "" H 9400 3950 50  0001 C CNN
+F 4 "TDK" H 9600 4350 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 9600 4250 60  0001 L CNN "MPN"
+F 6 "1u" V 9500 3800 50  0000 L CNN "Val"
+	1    9400 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 3950 9250 3950
+Connection ~ 9050 3950
+Wire Wire Line
+	9550 3950 9650 3950
+Wire Wire Line
+	9650 3950 9650 4250
+Wire Wire Line
+	9650 4450 9650 4350
+Connection ~ 9650 4350
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:IRF7404TRPBF Q?
+U 1 1 61E557F1
+P 11550 1900
+F 0 "Q?" H 11550 2415 50  0000 C CNN
+F 1 "IRF7404TRPBF" H 11550 2324 50  0000 C CNN
+F 2 "antmicro-footprints:IRF7416TRPBF" H 11530 2295 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/137809.pdf" H 11530 2295 50  0001 C CNN
+F 4 "IRF7404TRPBF" H 11550 1900 50  0001 C CNN "MPN"
+F 5 "INFINEON" H 11550 1900 50  0001 C CNN "Manufacturer"
+	1    11550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 1750 10750 1850
+Connection ~ 10750 1850
+Wire Wire Line
+	10750 1850 10750 1950
+Wire Wire Line
+	10750 1750 10050 1750
+Connection ~ 10750 1750
+Wire Wire Line
+	12350 1750 12350 1850
+Connection ~ 12350 1850
+Wire Wire Line
+	12350 1850 12350 1950
+Connection ~ 12350 1950
+Wire Wire Line
+	12350 1950 12350 2050
+$Comp
+L antmicroResistors0402:R_100k_0402 R?
+U 1 1 61E6364D
+P 10050 2000
+F 0 "R?" V 10005 2070 60  0000 L CNN
+F 1 "R_100k_0402" H 10050 1850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10250 2200 60  0001 L CNN
+F 3 "" H 10050 2000 50  0001 C CNN
+F 4 "VISHAY" H 10250 2400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 10250 2300 60  0001 L CNN "MPN"
+F 6 "100k" V 10103 2070 50  0000 L CNN "Val"
+	1    10050 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 2500 10750 2500
+Wire Wire Line
+	10050 1850 10050 1750
+Connection ~ 10050 1750
+$Comp
+L antmicroResistors0402:R_22k_0402 R?
+U 1 1 61E675D2
+P 10050 2800
+F 0 "R?" V 10005 2870 60  0000 L CNN
+F 1 "R_22k_0402" H 10050 2650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10250 3000 60  0001 L CNN
+F 3 "" H 10050 2800 50  0001 C CNN
+F 4 "Panasonic" H 10250 3200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ-2RKF2202X" H 10250 3100 60  0001 L CNN "MPN"
+F 6 "22k" V 10103 2870 50  0000 L CNN "Val"
+	1    10050 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 2650 10050 2500
+Connection ~ 10050 2500
+Wire Wire Line
+	12350 1750 12600 1750
+Connection ~ 12350 1750
+Wire Wire Line
+	12600 1750 12600 1850
+Wire Wire Line
+	12600 2500 12400 2500
+Connection ~ 12600 1750
+Connection ~ 10750 2500
+$Comp
+L antmicroCapacitors0402:C_100n_0402 C?
+U 1 1 61E6EBE7
+P 12600 2000
+F 0 "C?" H 12715 2045 60  0000 L CNN
+F 1 "C_100n_0402" H 12600 1850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 12800 2200 60  0001 L CNN
+F 3 "" H 12600 2000 50  0001 C CNN
+F 4 "Murata" H 12800 2400 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61H104KE14D" H 12800 2300 60  0001 L CNN "MPN"
+F 6 "100n" H 12715 1947 50  0000 L CNN "Val"
+	1    12600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_100R_0402 R?
+U 1 1 61E6F64B
+P 12250 2500
+F 0 "R?" H 12250 2713 60  0000 C CNN
+F 1 "R_100R_0402" H 12250 2350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 12450 2700 60  0001 L CNN
+F 3 "" H 12250 2500 50  0001 C CNN
+F 4 "BOURNS" H 12450 2900 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 12450 2800 60  0001 L CNN "MPN"
+F 6 "100R" H 12250 2615 50  0000 C CNN "Val"
+	1    12250 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2050 10750 2500
+Wire Wire Line
+	10050 2150 10050 2500
+Wire Wire Line
+	12600 2150 12600 2500
+Wire Wire Line
+	12100 2500 10750 2500
+Wire Wire Line
+	9050 1750 10050 1750
+Connection ~ 9050 1750
+Wire Wire Line
+	13200 1750 13200 1950
+Wire Wire Line
+	12600 1750 13200 1750
+$Comp
+L antmicroResistors0402:R_1k1_0402 R?
+U 1 1 61E821E4
+P 13200 2100
+F 0 "R?" V 13155 2170 60  0000 L CNN
+F 1 "R_1k1_0402" H 13200 1950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 13400 2300 60  0001 L CNN
+F 3 "" H 13200 2100 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 13400 2500 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1101X" H 13400 2400 60  0001 L CNN "MPN"
+F 6 "1k1" V 13253 2170 50  0000 L CNN "Val"
+	1    13200 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 5350 10050 5350
+Wire Wire Line
+	10050 2950 10050 5350
+Wire Wire Line
+	13200 2250 13200 2600
+Text Label 13200 2600 3    50   ~ 0
+STUSB4500_DISCHARGE
+Text Label 6450 5250 2    50   ~ 0
+STUSB4500_DISCHARGE
+Wire Wire Line
+	6450 5250 6700 5250
+Text Notes 12450 1550 0    50   ~ 0
 WORK IN PROGRESS
 $EndSCHEMATC
