@@ -406,12 +406,12 @@ Text GLabel 8025 4800 0    50   Input ~ 0
 Text Notes 5625 5200 0    50   ~ 0
 Add some TVS diodes for protection.
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0102GT U?
+L sa800u-baseboard-hw:NTS0102GT U?
 U 1 1 65E71148
 P 3675 7675
 F 0 "U?" H 3675 8190 50  0000 C CNN
 F 1 "NTS0102GT" H 3675 8099 50  0000 C CNN
-F 2 "antmicro-footprints:PSON50P100X195X50-8N" H 3575 8175 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PSON50P100X195X50-8N" H 3575 8175 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 4325 8425 50  0001 C CNN
 F 4 "NTS0102GT" H 3675 8190 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 3675 8099 50  0001 C CNN "Manufacturer"
@@ -461,12 +461,12 @@ F 3 "" H 1875 7475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R?
 U 1 1 6605EB55
 P 2800 7325
 F 0 "R?" V 2845 7255 60  0000 R CNN
 F 1 "R_2k_0402" H 2800 7175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 7525 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 7525 60  0001 L CNN
 F 3 "" H 2800 7325 50  0001 C CNN
 F 4 "VISHAY" H 3000 7725 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 3000 7625 60  0001 L CNN "MPN"
@@ -543,12 +543,12 @@ Wire Wire Line
 Wire Wire Line
 	2700 7475 2700 7625
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R?
 U 1 1 6605EB4C
 P 2700 7325
 F 0 "R?" V 2745 7394 60  0000 L CNN
 F 1 "R_2k_0402" H 2700 7175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2900 7525 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2900 7525 60  0001 L CNN
 F 3 "" H 2700 7325 50  0001 C CNN
 F 4 "VISHAY" H 2900 7725 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 2900 7625 60  0001 L CNN "MPN"
@@ -575,12 +575,12 @@ Connection ~ 4550 7125
 Wire Wire Line
 	4550 7475 4550 7525
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R?
 U 1 1 660892CF
 P 4550 7325
 F 0 "R?" V 4595 7255 60  0000 R CNN
 F 1 "R_2k_0402" H 4550 7175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4750 7525 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4750 7525 60  0001 L CNN
 F 3 "" H 4550 7325 50  0001 C CNN
 F 4 "VISHAY" H 4750 7725 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 4750 7625 60  0001 L CNN "MPN"
@@ -589,12 +589,12 @@ F 6 "2k" V 4497 7255 50  0000 R CNN "Val"
 	0    1    -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R?
 U 1 1 660892C6
 P 4650 7325
 F 0 "R?" V 4695 7394 60  0000 L CNN
 F 1 "R_2k_0402" H 4650 7175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4850 7525 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4850 7525 60  0001 L CNN
 F 3 "" H 4650 7325 50  0001 C CNN
 F 4 "VISHAY" H 4850 7725 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 4850 7625 60  0001 L CNN "MPN"
