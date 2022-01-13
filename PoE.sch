@@ -700,4 +700,10 @@ Text Label 12225 4825 2    50   ~ 0
 TRIM
 Text Label 10100 4625 0    50   ~ 0
 VDD_POE_FB
+Text Notes 2700 3725 0    79   ~ 16
+FULL BRIDGE \nRECTIFIER!!
+Text Notes 5950 3600 0    79   ~ 16
+POE Controller
+Text Notes 11000 3600 0    79   ~ 16
+5V regulator
 $EndSCHEMATC
