@@ -47,12 +47,12 @@ Wire Wire Line
 Wire Wire Line
 	3425 3075 5075 3075
 $Comp
-L antmicroResistors0402:R_0R_0402 R115
+L sa800u-baseboard-hw:R_0R_0402 R115
 U 1 1 61F42847
 P 3275 3075
 F 0 "R115" H 3450 3125 60  0000 C CNN
 F 1 "R_0R_0402" H 3275 2925 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 3275 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 3275 60  0001 L CNN
 F 3 "" H 3275 3075 50  0001 C CNN
 F 4 "PANASONIC" H 3475 3475 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3475 3375 60  0001 L CNN "MPN"
@@ -78,12 +78,12 @@ F 7 "DNP" H 3275 2675 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R118
+L sa800u-baseboard-hw:R_33R_0402 R118
 U 1 1 61EAF388
 P 3275 3475
 F 0 "R118" H 3450 3525 60  0000 C CNN
 F 1 "R_33R_0402" H 3275 3325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 3675 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 3675 60  0001 L CNN
 F 3 "" H 3275 3475 50  0001 C CNN
 F 4 "Vishay" H 3475 3875 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3475 3775 60  0001 L CNN "MPN"
@@ -92,12 +92,12 @@ F 6 "33R" H 3700 3525 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R117
+L sa800u-baseboard-hw:R_33R_0402 R117
 U 1 1 61EAE6D0
 P 3275 3375
 F 0 "R117" H 3450 3425 60  0000 C CNN
 F 1 "R_33R_0402" H 3275 3225 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 3575 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 3575 60  0001 L CNN
 F 3 "" H 3275 3375 50  0001 C CNN
 F 4 "Vishay" H 3475 3775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3475 3675 60  0001 L CNN "MPN"
@@ -106,12 +106,12 @@ F 6 "33R" H 3700 3425 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R116
+L sa800u-baseboard-hw:R_33R_0402 R116
 U 1 1 61EAD860
 P 3275 3175
 F 0 "R116" H 3450 3225 60  0000 C CNN
 F 1 "R_33R_0402" H 3275 3025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 3375 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 3375 60  0001 L CNN
 F 3 "" H 3275 3175 50  0001 C CNN
 F 4 "Vishay" H 3475 3575 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3475 3475 60  0001 L CNN "MPN"
@@ -120,12 +120,12 @@ F 6 "33R" H 3700 3225 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R114
+L sa800u-baseboard-hw:R_33R_0402 R114
 U 1 1 61EAC664
 P 3275 2975
 F 0 "R114" H 3450 3025 60  0000 C CNN
 F 1 "R_33R_0402" H 3275 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 3175 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 3175 60  0001 L CNN
 F 3 "" H 3275 2975 50  0001 C CNN
 F 4 "Vishay" H 3475 3375 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3475 3275 60  0001 L CNN "MPN"
@@ -134,12 +134,12 @@ F 6 "33R" H 3700 3025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R113
+L sa800u-baseboard-hw:R_33R_0402 R113
 U 1 1 61EAB8F4
 P 3275 2875
 F 0 "R113" H 3450 2925 60  0000 C CNN
 F 1 "R_33R_0402" H 3275 2725 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 3075 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 3075 60  0001 L CNN
 F 3 "" H 3275 2875 50  0001 C CNN
 F 4 "Vishay" H 3475 3275 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3475 3175 60  0001 L CNN "MPN"
@@ -148,12 +148,12 @@ F 6 "33R" H 3700 2925 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_33R_0402 R112
+L sa800u-baseboard-hw:R_33R_0402 R112
 U 1 1 61EAAB9C
 P 3275 2775
 F 0 "R112" H 3450 2825 60  0000 C CNN
 F 1 "R_33R_0402" H 3275 2625 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3475 2975 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3475 2975 60  0001 L CNN
 F 3 "" H 3275 2775 50  0001 C CNN
 F 4 "Vishay" H 3475 3175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040233R0FKED" H 3475 3075 60  0001 L CNN "MPN"
@@ -381,12 +381,12 @@ Connection ~ 5150 2150
 Wire Wire Line
 	5150 2150 5575 2150
 $Comp
-L antmicroCapacitors0603:C_2u2_0603 C125
+L sa800u-baseboard-hw:C_2u2_0603 C125
 U 1 1 62000EB0
 P 5575 2300
 F 0 "C125" H 5690 2345 60  0000 L CNN
 F 1 "C_2u2_0603" H 5575 2150 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5775 2500 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 5775 2500 60  0001 L CNN
 F 3 "" H 5575 2300 50  0001 C CNN
 F 4 "TDK" H 5775 2700 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V225K080AC" H 5775 2600 60  0001 L CNN "MPN"
