@@ -374,10 +374,10 @@ Text GLabel 8025 4800 0    50   Input ~ 0
 Text Notes 3000 4375 0    50   ~ 0
 Add some TVS diodes for protection.
 $Comp
-L sa800u-baseboard-hw:NTS0102GT U?
+L sa800u-baseboard-hw:NTS0102GT U11
 U 1 1 65E71148
 P 3675 7675
-F 0 "U?" H 3675 8190 50  0000 C CNN
+F 0 "U11" H 3675 8190 50  0000 C CNN
 F 1 "NTS0102GT" H 3675 8099 50  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:PSON50P100X195X50-8N" H 3575 8175 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 4325 8425 50  0001 C CNN
@@ -401,10 +401,10 @@ LVS1A_1V8
 Text GLabel 5725 7125 2    50   Input ~ 0
 3V3_SYS
 $Comp
-L sa800u-baseboard-hw:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C121
 U 1 1 660118DD
 P 1875 7325
-F 0 "C?" H 1760 7370 60  0000 R CNN
+F 0 "C121" H 1760 7370 60  0000 R CNN
 F 1 "C_100n_0402" H 1875 7175 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 2075 7525 60  0001 L CNN
 F 3 "" H 1875 7325 50  0001 C CNN
@@ -418,10 +418,10 @@ Connection ~ 1875 7125
 Wire Wire Line
 	1875 7125 1875 7175
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR0166
 U 1 1 66028DF2
 P 1875 7475
-F 0 "#PWR?" H 1875 7225 50  0001 C CNN
+F 0 "#PWR0166" H 1875 7225 50  0001 C CNN
 F 1 "GND" H 1880 7302 50  0000 C CNN
 F 2 "" H 1875 7475 50  0001 C CNN
 F 3 "" H 1875 7475 50  0001 C CNN
@@ -429,10 +429,10 @@ F 3 "" H 1875 7475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R50
 U 1 1 6605EB55
 P 2800 7325
-F 0 "R?" V 2845 7255 60  0000 R CNN
+F 0 "R50" V 2845 7255 60  0000 R CNN
 F 1 "R_2k_0402" H 2800 7175 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 7525 60  0001 L CNN
 F 3 "" H 2800 7325 50  0001 C CNN
@@ -456,10 +456,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 7425 4075 7425
 $Comp
-L sa800u-baseboard-hw:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C126
 U 1 1 660892B3
 P 5475 7325
-F 0 "C?" H 5360 7370 60  0000 R CNN
+F 0 "C126" H 5360 7370 60  0000 R CNN
 F 1 "C_100n_0402" H 5475 7175 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5675 7525 60  0001 L CNN
 F 3 "" H 5475 7325 50  0001 C CNN
@@ -473,10 +473,10 @@ Connection ~ 5475 7125
 Wire Wire Line
 	5475 7125 5475 7175
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR0167
 U 1 1 660892BB
 P 5475 7475
-F 0 "#PWR?" H 5475 7225 50  0001 C CNN
+F 0 "#PWR0167" H 5475 7225 50  0001 C CNN
 F 1 "GND" H 5480 7302 50  0000 C CNN
 F 2 "" H 5475 7475 50  0001 C CNN
 F 3 "" H 5475 7475 50  0001 C CNN
@@ -486,10 +486,10 @@ $EndComp
 Wire Wire Line
 	4200 7125 4200 7425
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR0168
 U 1 1 660AB186
 P 4125 7775
-F 0 "#PWR?" H 4125 7525 50  0001 C CNN
+F 0 "#PWR0168" H 4125 7525 50  0001 C CNN
 F 1 "GND" H 4130 7602 50  0000 C CNN
 F 2 "" H 4125 7775 50  0001 C CNN
 F 3 "" H 4125 7775 50  0001 C CNN
@@ -511,10 +511,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 7475 2700 7625
 $Comp
-L sa800u-baseboard-hw:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R49
 U 1 1 6605EB4C
 P 2700 7325
-F 0 "R?" V 2745 7394 60  0000 L CNN
+F 0 "R49" V 2745 7394 60  0000 L CNN
 F 1 "R_2k_0402" H 2700 7175 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2900 7525 60  0001 L CNN
 F 3 "" H 2700 7325 50  0001 C CNN
@@ -543,10 +543,10 @@ Connection ~ 4550 7125
 Wire Wire Line
 	4550 7475 4550 7525
 $Comp
-L sa800u-baseboard-hw:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R71
 U 1 1 660892CF
 P 4550 7325
-F 0 "R?" V 4595 7255 60  0000 R CNN
+F 0 "R71" V 4595 7255 60  0000 R CNN
 F 1 "R_2k_0402" H 4550 7175 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4750 7525 60  0001 L CNN
 F 3 "" H 4550 7325 50  0001 C CNN
@@ -557,10 +557,10 @@ F 6 "2k" V 4497 7255 50  0000 R CNN "Val"
 	0    1    -1   0   
 $EndComp
 $Comp
-L sa800u-baseboard-hw:R_2k_0402 R?
+L sa800u-baseboard-hw:R_2k_0402 R72
 U 1 1 660892C6
 P 4650 7325
-F 0 "R?" V 4695 7394 60  0000 L CNN
+F 0 "R72" V 4695 7394 60  0000 L CNN
 F 1 "R_2k_0402" H 4650 7175 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4850 7525 60  0001 L CNN
 F 3 "" H 4650 7325 50  0001 C CNN
@@ -643,10 +643,10 @@ Wire Wire Line
 	8025 4600 10500 4600
 Connection ~ 4925 4150
 $Comp
-L antmicroFCCConnectors:1-1734248-5 J?
+L antmicroFCCConnectors:1-1734248-5 J5
 U 1 1 66288CCF
 P 5125 3550
-F 0 "J?" H 5203 3641 50  0000 L CNN
+F 0 "J5" H 5203 3641 50  0000 L CNN
 F 1 "1-1734248-5" H 5203 3550 50  0000 L CNN
 F 2 "antmicro-footprints:TE_1-1734248-5" H 4675 2250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734248%7FE1%7Fpdf%7FEnglish%7FENG_CD_1734248_E1__.pdf%7F1-1734248-5" H 5275 3550 50  0001 L BNN
