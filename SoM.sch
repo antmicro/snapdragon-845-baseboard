@@ -1013,7 +1013,7 @@ LVS1A_1V8
 Text GLabel 4650 9025 2    50   Output ~ 0
 SD_LDO21A
 Wire Wire Line
-	4650 9025 4250 9025
+	4650 9025 4525 9025
 Wire Wire Line
 	4150 9125 4250 9125
 Wire Wire Line
@@ -1325,7 +1325,7 @@ USB1_SS_RX0_P
 Text GLabel 7600 7800 0    50   Output ~ 0
 VREG_S4A_1V8
 Wire Wire Line
-	7600 7800 8000 7800
+	7600 7800 7775 7800
 Wire Wire Line
 	8000 7700 8000 7600
 Wire Wire Line
@@ -2403,7 +2403,7 @@ NoConn ~ 8100 5100
 Text Notes 525  775  0    50   ~ 0
 Separate 3D model of device and connecors.\nThis will allow disabling SA800U model when \nplacing components under it keeping connectors in view.
 Wire Wire Line
-	4150 8925 4650 8925
+	4150 8925 4525 8925
 Text GLabel 10250 5200 2    50   Output ~ 0
 I2C10_SCL
 Wire Wire Line
@@ -2878,4 +2878,46 @@ Text Notes 7025 4175 2    50   ~ 0
 USB-C\nhost mode
 Wire Notes Line
 	7100 4100 7050 4100
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 65EDAD7C
+P 7775 7800
+F 0 "#FLG?" H 7775 7875 50  0001 C CNN
+F 1 "PWR_FLAG" H 7775 7973 50  0000 C CNN
+F 2 "" H 7775 7800 50  0001 C CNN
+F 3 "~" H 7775 7800 50  0001 C CNN
+	1    7775 7800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7775 7800
+Wire Wire Line
+	7775 7800 8000 7800
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 65F1C566
+P 4525 8925
+F 0 "#FLG?" H 4525 9000 50  0001 C CNN
+F 1 "PWR_FLAG" H 4525 9098 50  0000 C CNN
+F 2 "" H 4525 8925 50  0001 C CNN
+F 3 "~" H 4525 8925 50  0001 C CNN
+	1    4525 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 65F52FA3
+P 4525 9025
+F 0 "#FLG?" H 4525 9100 50  0001 C CNN
+F 1 "PWR_FLAG" H 4525 9198 50  0000 C CNN
+F 2 "" H 4525 9025 50  0001 C CNN
+F 3 "~" H 4525 9025 50  0001 C CNN
+	1    4525 9025
+	-1   0    0    1   
+$EndComp
+Connection ~ 4525 9025
+Wire Wire Line
+	4525 9025 4250 9025
+Connection ~ 4525 8925
+Wire Wire Line
+	4525 8925 4650 8925
 $EndSCHEMATC
