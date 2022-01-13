@@ -1,0 +1,23 @@
+(module SA800U-WF_mechanical_model (layer F.Cu) (tedit 61E0073C)
+  (attr virtual)
+  (fp_text reference REF** (at 2.3 0.9) (layer Eco1.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "" (at 3.7 -8.3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 25.07) (end 0 37) (layer Eco1.User) (width 0.12))
+  (fp_line (start 0 0) (end 0 21.87) (layer Eco1.User) (width 0.12))
+  (fp_line (start 1.16 25.07) (end 0 25.07) (layer Eco1.User) (width 0.12))
+  (fp_line (start 1.16 21.87) (end 0 21.87) (layer Eco1.User) (width 0.12))
+  (fp_line (start 0 0) (end 60 0) (layer Eco1.User) (width 0.12))
+  (fp_line (start 0 37) (end 60 37) (layer Eco1.User) (width 0.12))
+  (fp_line (start 60 0) (end 60 37) (layer Eco1.User) (width 0.12))
+  (fp_arc (start 0.45 33) (end 0.000001 34.949999) (angle -206) (layer Eco1.User) (width 0.12))
+  (fp_arc (start 1.16 23.47) (end 1.16 25.07) (angle -180.4) (layer Eco1.User) (width 0.12))
+  (model ${KIPRJMOD}/lib/3d-models/SA800U-WF--3DModel-STEP-362385.STEP
+    (offset (xyz 30 -18.5 8.199999999999999))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
