@@ -2115,12 +2115,12 @@ NoConn ~ 4800 7775
 NoConn ~ 4800 7675
 Connection ~ 1425 4425
 $Comp
-L antmicroResistors0402:R_10k_0402 R22
+L sa800u-baseboard-hw:R_10k_0402 R22
 U 1 1 679C0198
 P 1425 4625
 F 0 "R22" V 1380 4695 60  0000 L CNN
 F 1 "R_10k_0402" H 1425 4475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1625 4825 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 1625 4825 60  0001 L CNN
 F 3 "" H 1425 4625 50  0001 C CNN
 F 4 "VISHAY" H 1625 5025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 1625 4925 60  0001 L CNN "MPN"
@@ -3110,12 +3110,12 @@ Wire Wire Line
 NoConn ~ 4800 6975
 NoConn ~ 4800 7075
 $Comp
-L antmicroResistors0402:R_7k5_0402 R28
+L sa800u-baseboard-hw:R_7k5_0402 R28
 U 1 1 6DC66CE7
 P 3450 8275
 F 0 "R28" V 3495 8345 60  0000 L CNN
 F 1 "R_7k5_0402" H 3450 8125 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3650 8475 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3650 8475 60  0001 L CNN
 F 3 "" H 3450 8275 50  0001 C CNN
 F 4 "YAGEO" H 3650 8675 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-077K5L" H 3650 8575 60  0001 L CNN "MPN"
@@ -3124,12 +3124,12 @@ F 6 "7k5" V 3397 8345 50  0000 L CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q1
+L sa800u-baseboard-hw:BSS138APW Q1
 U 1 1 6DD0EA46
 P 5050 9750
 F 0 "Q1" V 5211 9750 60  0000 C CNN
 F 1 "BSS138APW" V 5317 9750 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 5250 9950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SC70-3" H 5250 9950 60  0001 L CNN
 F 3 "" H 5250 10050 60  0001 L CNN
 F 4 "BSS138PW" H 5250 10250 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 5250 10850 60  0001 L CNN "Manufacturer"
@@ -3137,12 +3137,12 @@ F 5 "ON Semiconductor" H 5250 10850 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q2
+L sa800u-baseboard-hw:BSS138APW Q2
 U 1 1 6DD5D14F
 P 5050 10575
 F 0 "Q2" V 5211 10575 60  0000 C CNN
 F 1 "BSS138APW" V 5317 10575 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 5250 10775 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SC70-3" H 5250 10775 60  0001 L CNN
 F 3 "" H 5250 10875 60  0001 L CNN
 F 4 "BSS138PW" H 5250 11075 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 5250 11675 60  0001 L CNN "Manufacturer"
@@ -3150,12 +3150,12 @@ F 5 "ON Semiconductor" H 5250 11675 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q3
+L sa800u-baseboard-hw:BSS138APW Q3
 U 1 1 6DDEADF9
 P 6800 10175
 F 0 "Q3" V 6961 10175 60  0000 C CNN
 F 1 "BSS138APW" V 7067 10175 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 7000 10375 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SC70-3" H 7000 10375 60  0001 L CNN
 F 3 "" H 7000 10475 60  0001 L CNN
 F 4 "BSS138PW" H 7000 10675 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7000 11275 60  0001 L CNN "Manufacturer"
