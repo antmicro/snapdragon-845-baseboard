@@ -42,18 +42,16 @@ Wire Wire Line
 	4925 4150 4975 4150
 Wire Wire Line
 	4925 4150 2725 4150
-Wire Wire Line
-	4775 4050 4775 5950
 Connection ~ 4775 4050
 $Comp
 L sa800u-baseboard-hw:GND #PWR063
 U 1 1 61BD6C0B
-P 4775 6000
-F 0 "#PWR063" H 4775 5750 50  0001 C CNN
-F 1 "GND" H 4780 5827 50  0000 C CNN
-F 2 "" H 4775 6000 50  0001 C CNN
-F 3 "" H 4775 6000 50  0001 C CNN
-	1    4775 6000
+P 4775 4350
+F 0 "#PWR063" H 4775 4100 50  0001 C CNN
+F 1 "GND" H 4780 4177 50  0000 C CNN
+F 2 "" H 4775 4350 50  0001 C CNN
+F 3 "" H 4775 4350 50  0001 C CNN
+	1    4775 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -167,40 +165,10 @@ Wire Wire Line
 	9325 4200 9325 4150
 Wire Wire Line
 	9325 4350 9325 4300
-$Comp
-L sa800u-baseboard-hw:3-84952-0 J5
-U 1 1 619D8F59
-P 5375 4250
-F 0 "J5" H 5605 4237 50  0000 L CNN
-F 1 "3-84952-0" H 5605 4146 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:TE_3-84952-0" H 6175 4150 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1-1773959-6-flexible-printed-circuit-con%7F0919%7Fpdf%7FEnglish%7FENG_DS_1-1773959-6-flexible-printed-circuit-con_0919.pdf%7F3-84952-0" H 6175 4150 50  0001 L BNN
-F 4 "3-84952-0" H 5605 4055 50  0001 L CNN "MPN"
-F 5 "AMP - TE CONNECTIVITY" H 5605 3964 50  0001 L CNN "Manufacturer"
-	1    5375 4250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4975 4350
-NoConn ~ 4975 4450
-NoConn ~ 4975 4550
-NoConn ~ 4975 4650
-NoConn ~ 4975 4750
-NoConn ~ 4975 4850
-NoConn ~ 4975 4950
-NoConn ~ 4975 5050
-NoConn ~ 4975 5150
-NoConn ~ 4975 5250
-NoConn ~ 4975 5350
-NoConn ~ 4975 5450
-NoConn ~ 4975 5550
-NoConn ~ 4975 5650
-NoConn ~ 4975 5750
-Text Notes 4625 2600 0    50   ~ 0
+Text Notes 2875 2525 0    50   ~ 0
 Compatible with generic raspberry pi LCDs.
-Text Notes 5625 5100 0    50   ~ 0
-Is this connector right? 30 instead of 15?\n
-Text Notes 8225 2750 0    50   ~ 0
-General purpose DSI for LCD
+Text Notes 8625 2675 0    50   ~ 0
+General purpose 4 lane DSI for LCD
 $Comp
 L sa800u-baseboard-hw:F52R-1A7H1-11020 J6
 U 1 1 61ADF1E8
@@ -403,7 +371,7 @@ Text GLabel 8025 4300 0    50   Input ~ 0
 DSI0_CLK_P
 Text GLabel 8025 4800 0    50   Input ~ 0
 3V3_SYS
-Text Notes 5625 5200 0    50   ~ 0
+Text Notes 3000 4375 0    50   ~ 0
 Add some TVS diodes for protection.
 $Comp
 L sa800u-baseboard-hw:NTS0102GT U?
@@ -673,10 +641,22 @@ Wire Wire Line
 	8025 4500 10500 4500
 Wire Wire Line
 	8025 4600 10500 4600
-Wire Wire Line
-	4775 5950 4975 5950
-Connection ~ 4775 5950
-Wire Wire Line
-	4775 5950 4775 6000
 Connection ~ 4925 4150
+$Comp
+L antmicroFCCConnectors:1-1734248-5 J?
+U 1 1 66288CCF
+P 5125 3550
+F 0 "J?" H 5203 3641 50  0000 L CNN
+F 1 "1-1734248-5" H 5203 3550 50  0000 L CNN
+F 2 "antmicro-footprints:TE_1-1734248-5" H 4675 2250 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734248%7FE1%7Fpdf%7FEnglish%7FENG_CD_1734248_E1__.pdf%7F1-1734248-5" H 5275 3550 50  0001 L BNN
+F 4 "TE Connectivity " H 4675 2350 50  0001 L BNN "Manufacturer"
+F 5 "1-1734248-5 " H 5203 3459 50  0000 L CNN "MPN"
+	1    5125 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 4050 4775 4350
+Text Notes 8450 4925 0    50   ~ 0
+Add some TVS diodes for protection.
 $EndSCHEMATC
