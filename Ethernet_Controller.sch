@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1500 750  0    50   ~ 0
-Internals of RJ45
 $Comp
 L sa800u-baseboard-hw:ABM8G-25.000MHZ-18-D2Y-T Y1
 U 1 1 6246C7D0
@@ -155,13 +153,13 @@ $Comp
 L sa800u-baseboard-hw:C_100n_0402 C8
 U 1 1 6190876E
 P 6325 5775
-F 0 "C8" V 6275 5350 60  0000 R CNN
+F 0 "C8" V 6275 5600 60  0000 R CNN
 F 1 "C_100n_0402" H 6325 5625 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6525 5975 60  0001 L CNN
 F 3 "" H 6325 5775 50  0001 C CNN
 F 4 "Walsin" H 6525 6175 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6525 6075 60  0001 L CNN "MPN"
-F 6 "100n" V 6275 5600 50  0000 R CNN "Val"
+F 6 "100n" V 6275 5350 50  0000 R CNN "Val"
 	1    6325 5775
 	0    -1   1    0   
 $EndComp
@@ -169,13 +167,13 @@ $Comp
 L sa800u-baseboard-hw:C_100n_0402 C7
 U 1 1 61907765
 P 6425 5875
-F 0 "C7" V 6375 5550 60  0000 R CNN
+F 0 "C7" V 6375 5800 60  0000 R CNN
 F 1 "C_100n_0402" H 6425 5725 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6625 6075 60  0001 L CNN
 F 3 "" H 6425 5875 50  0001 C CNN
 F 4 "Walsin" H 6625 6275 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6625 6175 60  0001 L CNN "MPN"
-F 6 "100n" V 6375 5800 50  0000 R CNN "Val"
+F 6 "100n" V 6375 5550 50  0000 R CNN "Val"
 	1    6425 5875
 	0    -1   1    0   
 $EndComp
