@@ -643,12 +643,12 @@ Wire Wire Line
 	8025 4600 10500 4600
 Connection ~ 4925 4150
 $Comp
-L antmicroFCCConnectors:1-1734248-5 J5
+L sa800u-baseboard-hw:1-1734248-5 J5
 U 1 1 66288CCF
 P 5125 3550
 F 0 "J5" H 5203 3641 50  0000 L CNN
 F 1 "1-1734248-5" H 5203 3550 50  0000 L CNN
-F 2 "antmicro-footprints:TE_1-1734248-5" H 4675 2250 50  0001 L BNN
+F 2 "sa800u-baseboard-hw-footprints:TE_1-1734248-5" H 4675 2250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734248%7FE1%7Fpdf%7FEnglish%7FENG_CD_1734248_E1__.pdf%7F1-1734248-5" H 5275 3550 50  0001 L BNN
 F 4 "TE Connectivity " H 4675 2350 50  0001 L BNN "Manufacturer"
 F 5 "1-1734248-5 " H 5203 3459 50  0000 L CNN "MPN"

@@ -660,12 +660,12 @@ $EndComp
 Text Label 4900 4625 0    50   ~ 0
 VDD_POE
 $Comp
-L antmicroResistors0402:R_7k5_0402 R87
+L sa800u-baseboard-hw:R_7k5_0402 R87
 U 1 1 66578F6C
 P 6350 4150
 F 0 "R87" H 6350 4363 60  0000 C CNN
 F 1 "R_7k5_0402" H 6350 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6550 4350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6550 4350 60  0001 L CNN
 F 3 "" H 6350 4150 50  0001 C CNN
 F 4 "YAGEO" H 6550 4550 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-077K5L" H 6550 4450 60  0001 L CNN "MPN"
