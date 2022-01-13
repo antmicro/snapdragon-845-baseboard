@@ -133,10 +133,4 @@ U 61DF77CE
 F0 "USB-PD" 50
 F1 "USB-PD.sch" 50
 $EndSheet
-$Sheet
-S 5500 6950 1550 650 
-U 61DC2BE0
-F0 "Temp_psu" 50
-F1 "Temp_psu.sch" 50
-$EndSheet
 $EndSCHEMATC
