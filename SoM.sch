@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 13
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -301,19 +301,19 @@ Wire Wire Line
 	1300 5650 1650 5650
 NoConn ~ 1650 5750
 NoConn ~ 1650 5850
-Text GLabel 1150 5950 0    50   Input ~ 0
+Text GLabel 1150 5950 0    50   Output ~ 0
 CAM0_AFVDD_EN
-Text GLabel 1150 6050 0    50   Input ~ 0
+Text GLabel 1150 6050 0    50   Output ~ 0
 CAM1_AFVDD_EN
 Wire Wire Line
 	1150 5950 1650 5950
 Wire Wire Line
 	1650 6050 1150 6050
-Text GLabel 1150 6150 0    50   Input ~ 0
+Text GLabel 1150 6150 0    50   Output ~ 0
 LT6911_RST
 Wire Wire Line
 	1150 6150 1650 6150
-Text GLabel 1150 6250 0    50   Input ~ 0
+Text GLabel 1150 6250 0    50   Output ~ 0
 HDMI1_INTO
 Wire Wire Line
 	1150 6250 1650 6250
@@ -330,13 +330,13 @@ F 3 "" H 1300 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 6350 1650 6350
-Text GLabel 1150 6450 0    50   Input ~ 0
+Text GLabel 1150 6450 0    50   Output ~ 0
 CAM1_RST
-Text GLabel 1150 6550 0    50   Input ~ 0
+Text GLabel 1150 6550 0    50   Output ~ 0
 CAM1_AVDD_EN
-Text GLabel 1150 6650 0    50   Input ~ 0
+Text GLabel 1150 6650 0    50   Output ~ 0
 CAM0_RST
-Text GLabel 1150 6750 0    50   Input ~ 0
+Text GLabel 1150 6750 0    50   Output ~ 0
 CAM0_AVDD_EN
 Wire Wire Line
 	1150 6450 1650 6450
@@ -347,38 +347,38 @@ Wire Wire Line
 Wire Wire Line
 	1650 6750 1150 6750
 NoConn ~ 1650 6850
-Text GLabel 1150 6950 0    50   Input ~ 0
+Text GLabel 1150 6950 0    50   Output ~ 0
 LT6911_3V3_EN
 Wire Wire Line
 	1150 6950 1650 6950
-Text GLabel 1150 7050 0    50   Input ~ 0
+Text GLabel 1150 7050 0    50   Output ~ 0
 CAM3_VCC_EN
 Wire Wire Line
 	1150 7050 1650 7050
-Text GLabel 1150 7150 0    50   Input ~ 0
+Text GLabel 1150 7150 0    50   Output ~ 0
 RESET_USBHUB
 Wire Wire Line
 	1150 7150 1650 7150
 NoConn ~ 1650 7250
-Text GLabel 1150 7350 0    50   Input ~ 0
+Text GLabel 1150 7350 0    50   Output ~ 0
 CAM0_PWDN
 Wire Wire Line
 	1150 7350 1650 7350
 NoConn ~ 1650 7450
-Text GLabel 1150 7650 0    50   Input ~ 0
+Text GLabel 1150 7650 0    50   Output ~ 0
 CAM1_PWDN
 Wire Wire Line
 	1150 7650 1650 7650
 NoConn ~ 1650 7750
-Text GLabel 1150 7850 0    50   Input ~ 0
+Text GLabel 1150 7850 0    50   Output ~ 0
 PWR_OFF
-Text GLabel 1150 7950 0    50   Input ~ 0
+Text GLabel 1150 7950 0    50   Output ~ 0
 CAM3_RST
-Text GLabel 1150 8050 0    50   Input ~ 0
+Text GLabel 1150 8050 0    50   Output ~ 0
 CAM3_TRIGGER_OUT
-Text GLabel 1150 8150 0    50   Input ~ 0
+Text GLabel 1150 8150 0    50   Output ~ 0
 CAM1_DVDD_EN
-Text GLabel 1150 8250 0    50   Input ~ 0
+Text GLabel 1150 8250 0    50   Output ~ 0
 CAM0_DVDD_EN
 Wire Wire Line
 	1150 7850 1650 7850
@@ -484,24 +484,11 @@ F 5 "QUECTEL" H 2475 1724 50  0000 C CNN "Manufacturer"
 $EndComp
 Connection ~ 1650 9550
 $Comp
-L sa800u-baseboard-hw:SA800U-WF U10
-U 2 1 61BAF70E
-P 8200 1400
-F 0 "U10" H 8925 1747 50  0000 C CNN
-F 1 "SA800U-WF" H 8925 1656 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SA800U-WF" H 8200 1400 50  0001 C CNN
-F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 8200 1400 50  0001 C CNN
-F 4 "SA800U-WF" H 8925 1565 50  0000 C CNN "MPN"
-F 5 "QUECTEL" H 8925 1474 50  0000 C CNN "Manufacturer"
-	2    8200 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L sa800u-baseboard-hw:KMR2 S2
 U 1 1 61C94E75
 P 12000 2800
-F 0 "S2" H 12000 3075 50  0000 C CNN
-F 1 "KMR2" H 12000 2984 50  0000 C CNN
+F 0 "S2" H 12000 3125 50  0000 C CNN
+F 1 "KMR2" H 12000 3050 50  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12200 3000 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12200 3100 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12196 3193 60  0001 L CNN "MPN"
@@ -513,8 +500,8 @@ $Comp
 L sa800u-baseboard-hw:KMR2 S3
 U 1 1 61CA28EE
 P 12000 3950
-F 0 "S3" H 12000 4225 50  0000 C CNN
-F 1 "KMR2" H 12000 4134 50  0000 C CNN
+F 0 "S3" H 12000 4275 50  0000 C CNN
+F 1 "KMR2" H 12000 4200 50  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12200 4150 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12200 4250 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12196 4343 60  0001 L CNN "MPN"
@@ -526,8 +513,8 @@ $Comp
 L sa800u-baseboard-hw:KMR2 S4
 U 1 1 61CA563B
 P 12000 5050
-F 0 "S4" H 12000 5325 50  0000 C CNN
-F 1 "KMR2" H 12000 5234 50  0000 C CNN
+F 0 "S4" H 12000 5375 50  0000 C CNN
+F 1 "KMR2" H 12000 5300 50  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12200 5250 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12200 5350 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12196 5443 60  0001 L CNN "MPN"
@@ -539,8 +526,8 @@ $Comp
 L sa800u-baseboard-hw:KMR2 S1
 U 1 1 61CA8515
 P 11950 6150
-F 0 "S1" H 11950 6425 50  0000 C CNN
-F 1 "KMR2" H 11950 6334 50  0000 C CNN
+F 0 "S1" H 11950 6475 50  0000 C CNN
+F 1 "KMR2" H 11950 6400 50  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 12150 6350 50  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 12150 6450 60  0001 L CNN
 F 4 "KMR211NGLFS" H 12146 6543 60  0001 L CNN "MPN"
@@ -965,7 +952,7 @@ Text GLabel 3800 6850 2    50   Input ~ 0
 CAM3_MCLK
 Wire Wire Line
 	3800 6850 3300 6850
-Text GLabel 3800 7050 2    50   Input ~ 0
+Text GLabel 3800 7050 2    50   Output ~ 0
 PCIE1_RST_N
 Text GLabel 3800 7150 2    50   Input ~ 0
 PCIE1_CLKREQ_N
@@ -987,9 +974,9 @@ Wire Wire Line
 	3300 7550 3800 7550
 Wire Wire Line
 	3650 7650 3300 7650
-Text GLabel 3800 7750 2    50   Input ~ 0
+Text GLabel 3800 7750 2    50   Output ~ 0
 PCIE1_REFCLK_P
-Text GLabel 3800 7850 2    50   Input ~ 0
+Text GLabel 3800 7850 2    50   Output ~ 0
 PCIE1_REFCLK_N
 Wire Wire Line
 	3800 7850 3300 7850
@@ -997,9 +984,9 @@ Wire Wire Line
 	3300 7750 3800 7750
 Wire Wire Line
 	3650 7950 3300 7950
-Text GLabel 3800 8050 2    50   Input ~ 0
+Text GLabel 3800 8050 2    50   Output ~ 0
 PCIE1_TX_N
-Text GLabel 3800 8150 2    50   Input ~ 0
+Text GLabel 3800 8150 2    50   Output ~ 0
 PCIE1_TX_P
 Wire Wire Line
 	3800 8050 3300 8050
@@ -1027,24 +1014,24 @@ NoConn ~ 3300 8750
 NoConn ~ 3300 8850
 NoConn ~ 3300 8950
 NoConn ~ 3300 9050
-Text GLabel 3800 9150 2    50   Input ~ 0
-1V8
-Text GLabel 3800 9250 2    50   Input ~ 0
+Text GLabel 3800 9150 2    50   Output ~ 0
+LVS1A_1V8
+Text GLabel 3800 9250 2    50   Output ~ 0
 SD_LDO21A
 Wire Wire Line
-	3800 9250 3350 9250
+	3800 9250 3400 9250
 Wire Wire Line
-	3300 9350 3350 9350
+	3300 9350 3400 9350
 Wire Wire Line
-	3350 9350 3350 9250
-Connection ~ 3350 9250
+	3400 9350 3400 9250
+Connection ~ 3400 9250
 Wire Wire Line
-	3350 9250 3300 9250
+	3400 9250 3300 9250
 Wire Wire Line
-	3300 9450 3350 9450
+	3300 9450 3400 9450
 Wire Wire Line
-	3350 9450 3350 9350
-Connection ~ 3350 9350
+	3400 9450 3400 9350
+Connection ~ 3400 9350
 Wire Wire Line
 	3300 9550 3650 9550
 Wire Wire Line
@@ -1101,19 +1088,15 @@ F 5 "Multicomp" H 15100 6450 60  0001 L CNN "Manufacturer"
 	1    14900 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7600 1500 8100 1500
-Text Label 7600 1500 0    50   ~ 0
-GPIO_25
-Text GLabel 7600 1600 0    50   Input ~ 0
+Text GLabel 7600 1600 0    50   BiDi ~ 0
 I2C4_SDA
 Wire Wire Line
 	7600 1600 8100 1600
-Text GLabel 7600 1700 0    50   Input ~ 0
+Text GLabel 7600 1700 0    50   Output ~ 0
 I2C4_SCL
-Text GLabel 7600 1800 0    50   Input ~ 0
+Text GLabel 7600 1800 0    50   BiDi ~ 0
 SSC_I2C1_SDA
-Text GLabel 7600 1900 0    50   Input ~ 0
+Text GLabel 7600 1900 0    50   BiDi ~ 0
 SSC_I2C1_SCL
 Wire Wire Line
 	7600 1900 8100 1900
@@ -1134,9 +1117,9 @@ F 3 "" H 7750 2000 50  0001 C CNN
 	1    7750 2000
 	0    1    1    0   
 $EndComp
-Text GLabel 7600 2100 0    50   Input ~ 0
+Text GLabel 7600 2100 0    50   Output ~ 0
 DSI0_LN3_N
-Text GLabel 7600 2200 0    50   Input ~ 0
+Text GLabel 7600 2200 0    50   Output ~ 0
 DSI0_LN3_P
 $Comp
 L sa800u-baseboard-hw:GND #PWR0108
@@ -1287,25 +1270,25 @@ Wire Wire Line
 	7600 2100 8100 2100
 Wire Wire Line
 	7600 2200 8100 2200
-Text GLabel 7600 2400 0    50   Input ~ 0
+Text GLabel 7600 2400 0    50   Output ~ 0
 DSI0_LN2_N
-Text GLabel 7600 2500 0    50   Input ~ 0
+Text GLabel 7600 2500 0    50   Output ~ 0
 DSI0_LN2_P
 Wire Wire Line
 	7600 2500 8100 2500
 Wire Wire Line
 	7600 2400 8100 2400
-Text GLabel 7600 2700 0    50   Input ~ 0
+Text GLabel 7600 2700 0    50   Output ~ 0
 DSI0_CLK_N
-Text GLabel 7600 2800 0    50   Input ~ 0
+Text GLabel 7600 2800 0    50   Output ~ 0
 DSI0_CLK_P
-Text GLabel 7600 3000 0    50   Input ~ 0
+Text GLabel 7600 3000 0    50   Output ~ 0
 DSI0_LN1_N
-Text GLabel 7600 3100 0    50   Input ~ 0
+Text GLabel 7600 3100 0    50   Output ~ 0
 DSI0_LN1_P
-Text GLabel 7600 3300 0    50   Input ~ 0
+Text GLabel 7600 3300 0    50   Output ~ 0
 DSI0_LN0_N
-Text GLabel 7600 3400 0    50   Input ~ 0
+Text GLabel 7600 3400 0    50   Output ~ 0
 DSI0_LN0_P
 Wire Wire Line
 	7600 2700 8100 2700
@@ -1319,27 +1302,25 @@ Wire Wire Line
 	7600 3300 8100 3300
 Wire Wire Line
 	8100 3400 7600 3400
-Text GLabel 7600 3600 0    50   Input ~ 0
+Text GLabel 7600 3600 0    50   Output ~ 0
 TP_I2C_SCL
-Text GLabel 7600 3700 0    50   Input ~ 0
+Text GLabel 7600 3700 0    50   BiDi ~ 0
 TP_I2C_SDA
 Text GLabel 7600 3800 0    50   Input ~ 0
 TP_INT
-Text GLabel 7600 3900 0    50   Input ~ 0
+Text GLabel 7600 3900 0    50   Output ~ 0
 TP_RST
 NoConn ~ 8100 4000
-Text GLabel 7600 4800 0    50   Input ~ 0
+Text GLabel 7600 4800 0    50   Output ~ 0
 LT9611_GPIO5
-Text GLabel 7600 4900 0    50   Input ~ 0
+Text GLabel 7600 4900 0    50   Output ~ 0
 LT9611_RST
 NoConn ~ 8100 5700
 Text GLabel 7600 6400 0    50   Input ~ 0
 USB2_SS_RX_N
-Text GLabel 7600 6500 0    50   Input ~ 0
-USB2_SS_RX_P
-Text GLabel 7600 6700 0    50   Input ~ 0
+Text GLabel 7600 6700 0    50   Output ~ 0
 USB2_SS_TX_P
-Text GLabel 7600 6800 0    50   Input ~ 0
+Text GLabel 7600 6800 0    50   Output ~ 0
 USB2_SS_TX_N
 Text GLabel 7600 7000 0    50   Input ~ 0
 USB1_SS_RX1_P
@@ -1349,8 +1330,8 @@ Text GLabel 7600 7300 0    50   Input ~ 0
 USB1_SS_RX0_N
 Text GLabel 7600 7400 0    50   Input ~ 0
 USB1_SS_RX0_P
-Text GLabel 7600 7700 0    50   Input ~ 0
-1V8
+Text GLabel 7600 7700 0    50   Output ~ 0
+VREG_S4A_1V8
 Wire Wire Line
 	7600 7700 8000 7700
 Wire Wire Line
@@ -1365,9 +1346,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 7800 8100 7800
 NoConn ~ 8100 8600
-Text GLabel 7600 8800 0    50   Input ~ 0
-1V8
-Text Notes 5050 8850 0    50   ~ 0
+Text GLabel 7600 8800 0    50   Output ~ 0
+LVS2A_1V8
+Text Notes 5050 8650 0    50   ~ 0
 In reference design this 1V8s are separate for gpios lds etc.\n
 Text GLabel 7600 9400 0    50   Input ~ 0
 USB_VBUS
@@ -1427,7 +1408,7 @@ Wire Wire Line
 	8100 3600 7600 3600
 Wire Wire Line
 	10250 1500 9750 1500
-Text GLabel 10250 1500 2    50   Input ~ 0
+Text GLabel 10250 1500 2    50   Output ~ 0
 SBU_SW_OE
 $Comp
 L sa800u-baseboard-hw:GND #PWR0120
@@ -1637,49 +1618,49 @@ Wire Wire Line
 	10100 2000 9750 2000
 Wire Wire Line
 	9750 2300 10100 2300
-Text GLabel 10250 1600 2    50   Input ~ 0
+Text GLabel 10250 1600 2    50   Output ~ 0
 SBU_SW_SEL
 Text GLabel 10250 1800 2    50   Input ~ 0
 VOL_DOWN
 Text GLabel 10250 1900 2    50   Input ~ 0
 VOL_UP
-Text GLabel 10250 2100 2    50   Input ~ 0
+Text GLabel 10250 2100 2    50   Output ~ 0
 DSI1_LN0_N
-Text GLabel 10250 2200 2    50   Input ~ 0
+Text GLabel 10250 2200 2    50   Output ~ 0
 DSI1_LN0_P
-Text GLabel 10250 2400 2    50   Input ~ 0
+Text GLabel 10250 2400 2    50   Output ~ 0
 DSI1_CLK_P
-Text GLabel 10250 2500 2    50   Input ~ 0
+Text GLabel 10250 2500 2    50   Output ~ 0
 DSI1_CLK_N
-Text GLabel 10250 2700 2    50   Input ~ 0
+Text GLabel 10250 2700 2    50   Output ~ 0
 DSI1_LN2_P
-Text GLabel 10250 2800 2    50   Input ~ 0
+Text GLabel 10250 2800 2    50   Output ~ 0
 DSI1_LN2_N
-Text GLabel 10250 3000 2    50   Input ~ 0
+Text GLabel 10250 3000 2    50   Output ~ 0
 DSI1_LN3_N
-Text GLabel 10250 3100 2    50   Input ~ 0
+Text GLabel 10250 3100 2    50   Output ~ 0
 DSI1_LN3_P
-Text GLabel 10250 3300 2    50   Input ~ 0
+Text GLabel 10250 3300 2    50   Output ~ 0
 DSI1_LN1_N
-Text GLabel 10250 3400 2    50   Input ~ 0
+Text GLabel 10250 3400 2    50   Output ~ 0
 DSI1_LN1_P
-Text GLabel 10250 3600 2    50   Input ~ 0
+Text GLabel 10250 3600 2    50   Output ~ 0
 WCD_CLK
-Text GLabel 10250 3800 2    50   Input ~ 0
+Text GLabel 10250 3800 2    50   BiDi ~ 0
 SLIMBUS_DATA0
-Text GLabel 10250 3900 2    50   Input ~ 0
+Text GLabel 10250 3900 2    50   BiDi ~ 0
 SLIMBUS_DATA1
-Text GLabel 10250 4000 2    50   Input ~ 0
+Text GLabel 10250 4000 2    50   Output ~ 0
 SLIMBUS_CLK
-Text GLabel 10250 4200 2    50   Input ~ 0
+Text GLabel 10250 4200 2    50   Output ~ 0
 I2S2_WS
-Text GLabel 10250 4300 2    50   Input ~ 0
+Text GLabel 10250 4300 2    50   Output ~ 0
 I2S2_SCK
 Text GLabel 10250 4400 2    50   Input ~ 0
 I2S2_DATA0
-Text GLabel 10250 4500 2    50   Input ~ 0
+Text GLabel 10250 4500 2    50   Output ~ 0
 I2S2_DATA1
-Text GLabel 10250 4600 2    50   Input ~ 0
+Text GLabel 10250 4600 2    50   Output ~ 0
 I2S3_WS
 NoConn ~ 9750 4700
 NoConn ~ 9750 4800
@@ -1688,13 +1669,13 @@ Text GLabel 10250 4900 2    50   Input ~ 0
 I2S3_DATA0
 Text GLabel 10250 5100 2    50   Input ~ 0
 I2S3_SCK
-Text GLabel 10250 5400 2    50   Input ~ 0
+Text GLabel 10250 5400 2    50   Output ~ 0
 I2S1_WS
-Text GLabel 10250 5500 2    50   Input ~ 0
+Text GLabel 10250 5500 2    50   Output ~ 0
 I2S1_MCLK
-Text GLabel 10250 5600 2    50   Input ~ 0
+Text GLabel 10250 5600 2    50   Output ~ 0
 I2S1_SCK
-Text GLabel 10250 5800 2    50   Input ~ 0
+Text GLabel 10250 5800 2    50   Output ~ 0
 I2S1_DATA0
 Text GLabel 10250 5900 2    50   Input ~ 0
 CODEC_SPI_MISO
@@ -1702,13 +1683,13 @@ Text GLabel 10250 6000 2    50   Input ~ 0
 CODEC_INT1
 Text GLabel 10250 6100 2    50   Input ~ 0
 CODEC_INT2
-Text GLabel 10250 6300 2    50   Input ~ 0
+Text GLabel 10250 6300 2    50   Output ~ 0
 ETH_3V3_EN
 NoConn ~ 9750 6400
 NoConn ~ 9750 6500
-Text GLabel 10250 6700 2    50   Input ~ 0
+Text GLabel 10250 6700 2    50   BiDi ~ 0
 USB2C_HS_D_P
-Text GLabel 10250 6800 2    50   Input ~ 0
+Text GLabel 10250 6800 2    50   BiDi ~ 0
 USB2C_HS_D_N
 Wire Wire Line
 	9750 6900 10100 6900
@@ -1723,27 +1704,27 @@ F 3 "" H 10100 6900 50  0001 C CNN
 	1    10100 6900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10250 7000 2    50   Input ~ 0
+Text GLabel 10250 7000 2    50   Output ~ 0
 USB1_SS_TX1_N
-Text GLabel 10250 7100 2    50   Input ~ 0
+Text GLabel 10250 7100 2    50   Output ~ 0
 USB1_SS_TX1_P
-Text GLabel 10250 7300 2    50   Input ~ 0
+Text GLabel 10250 7300 2    50   BiDi ~ 0
 USB1_DM
-Text GLabel 10250 7400 2    50   Input ~ 0
+Text GLabel 10250 7400 2    50   BiDi ~ 0
 USB1_DP
-Text GLabel 10250 7600 2    50   Input ~ 0
+Text GLabel 10250 7600 2    50   Output ~ 0
 USB1_SS_TX0_N
-Text GLabel 10250 7700 2    50   Input ~ 0
+Text GLabel 10250 7700 2    50   Output ~ 0
 USB1_SS_TX0_P
-Text GLabel 10250 7900 2    50   Input ~ 0
+Text GLabel 10250 7900 2    50   BiDi ~ 0
 EDP_AUX_P
-Text GLabel 10250 8000 2    50   Input ~ 0
+Text GLabel 10250 8000 2    50   BiDi ~ 0
 EDP_AUX_N
-Text GLabel 10250 8100 2    50   Input ~ 0
+Text GLabel 10250 8100 2    50   BiDi ~ 0
 VRTC
 Text GLabel 10250 8200 2    50   Input ~ 0
 DBG_RXD
-Text GLabel 10250 8300 2    50   Input ~ 0
+Text GLabel 10250 8300 2    50   Output ~ 0
 DBG_TXD
 Text GLabel 10250 8400 2    50   Input ~ 0
 USB_CC2
@@ -1762,9 +1743,9 @@ CS_P
 Text GLabel 10250 9400 2    50   Input ~ 0
 CS_N
 Text GLabel 10250 9600 2    50   Input ~ 0
-CS_N
+BAT_P
 Text GLabel 10250 9700 2    50   Input ~ 0
-CS_N
+BAT_N
 Wire Wire Line
 	10250 9700 9750 9700
 Wire Wire Line
@@ -1894,14 +1875,6 @@ Wire Wire Line
 	14900 5700 14900 5250
 Text Label 14900 5250 3    50   ~ 0
 GPIO_25
-Text Label 7600 5350 2    50   ~ 0
-GPIO_49
-Wire Wire Line
-	8100 5300 7750 5300
-Wire Wire Line
-	7750 5300 7750 5350
-Wire Wire Line
-	7750 5350 7600 5350
 Text Label 15000 5250 3    50   ~ 0
 GPIO_49
 Wire Wire Line
@@ -1910,14 +1883,6 @@ Wire Wire Line
 	15100 5700 15100 5250
 Wire Wire Line
 	15200 5700 15200 5250
-Text Label 9850 5200 0    50   ~ 0
-I2C10_SCL
-Text Label 9850 5300 0    50   ~ 0
-I2C10_SDA
-Wire Wire Line
-	9850 5300 9750 5300
-Wire Wire Line
-	9750 5200 9850 5200
 Text Label 15100 5250 3    50   ~ 0
 I2C10_SCL
 Text Label 15200 5250 3    50   ~ 0
@@ -2148,7 +2113,7 @@ F 6 "1k" H 13150 2715 50  0000 C CNN "Val"
 $EndComp
 Text GLabel 13450 2600 2    50   Input ~ 0
 PWRKEY
-Text GLabel 10250 6200 2    50   Input ~ 0
+Text GLabel 10250 6200 2    50   Output ~ 0
 CAM3_TRIGGER_IN
 Wire Wire Line
 	13300 2600 13450 2600
@@ -2176,34 +2141,30 @@ Text Label 12650 6250 0    50   ~ 0
 HOME_TVS
 Wire Wire Line
 	12650 5950 12650 6250
-Text Label 11500 7400 0    50   ~ 0
+Text Label 12450 7450 0    50   ~ 0
 VOL_UP_TVS
 $Comp
 L sa800u-baseboard-hw:GND #PWR0144
 U 1 1 61F2FF9D
-P 15300 7200
-F 0 "#PWR0144" H 15300 6950 50  0001 C CNN
-F 1 "GND" V 15305 7072 50  0000 R CNN
-F 2 "" H 15300 7200 50  0001 C CNN
-F 3 "" H 15300 7200 50  0001 C CNN
-	1    15300 7200
-	0    -1   -1   0   
+P 13500 7950
+F 0 "#PWR0144" H 13500 7700 50  0001 C CNN
+F 1 "GND" H 13505 7777 50  0000 C CNN
+F 2 "" H 13500 7950 50  0001 C CNN
+F 3 "" H 13500 7950 50  0001 C CNN
+	1    13500 7950
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15000 7200 15300 7200
+	13500 7900 13500 7950
 Wire Wire Line
-	15300 7600 15000 7600
-Wire Wire Line
-	15000 7400 15300 7400
-Text Label 15300 7400 0    50   ~ 0
-VOL_DOWN_TVS
-Text Label 15300 7600 0    50   ~ 0
+	14600 7550 14000 7550
+Text Label 14600 7550 2    50   ~ 0
 HOME_TVS
 Wire Wire Line
-	12000 7400 11500 7400
+	12950 7450 12450 7450
 Wire Wire Line
-	11500 7200 12000 7200
-Text Label 11500 7200 0    50   ~ 0
+	12450 7250 12950 7250
+Text Label 12450 7250 0    50   ~ 0
 PWRKEY_TVS
 $Comp
 L sa800u-baseboard-hw:RCLAMP2504N.TCT D14
@@ -2218,7 +2179,7 @@ F 5 "SEMTECH" H 13500 7974 50  0000 C CNN "Manufacturer"
 	1    13500 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7600 4100 0    50   Input ~ 0
+Text GLabel 7600 4100 0    50   Output ~ 0
 USB2_EN
 Text GLabel 1150 7550 0    50   Input ~ 0
 USB2_FAULT
@@ -2337,23 +2298,21 @@ F 5 "Cooper Bussmann" H 14650 9100 50  0001 C CNN "Manufacturer"
 	1    14650 9100
 	0    1    1    0   
 $EndComp
-Text GLabel 14650 8050 0    50   Input ~ 0
+Text GLabel 14600 8800 0    50   Input ~ 0
 VBAT
-Wire Wire Line
-	14650 8050 14650 8300
 $Comp
 L sa800u-baseboard-hw:GND #PWR0142
 U 1 1 6211DF21
-P 14650 10000
-F 0 "#PWR0142" H 14650 9750 50  0001 C CNN
-F 1 "GND" V 14655 9872 50  0000 R CNN
-F 2 "" H 14650 10000 50  0001 C CNN
-F 3 "" H 14650 10000 50  0001 C CNN
-	1    14650 10000
+P 14650 9400
+F 0 "#PWR0142" H 14650 9150 50  0001 C CNN
+F 1 "GND" V 14655 9272 50  0000 R CNN
+F 2 "" H 14650 9400 50  0001 C CNN
+F 3 "" H 14650 9400 50  0001 C CNN
+	1    14650 9400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14650 10000 14650 9900
+	14650 9400 14650 9350
 Wire Wire Line
 	11750 8750 11750 8950
 Wire Wire Line
@@ -2404,8 +2363,6 @@ Wire Wire Line
 Connection ~ 12150 9350
 Wire Wire Line
 	12150 9350 11750 9350
-NoConn ~ 8100 8400
-NoConn ~ 8100 8500
 NoConn ~ 8100 7900
 NoConn ~ 8100 8000
 NoConn ~ 8100 8100
@@ -2442,7 +2399,6 @@ $EndComp
 Connection ~ 7750 9400
 Wire Wire Line
 	7750 9400 8000 9400
-NoConn ~ 8100 8900
 NoConn ~ 8100 9000
 NoConn ~ 8100 9100
 NoConn ~ 8100 9200
@@ -2454,7 +2410,63 @@ NoConn ~ 8100 4600
 NoConn ~ 8100 4700
 NoConn ~ 8100 5000
 NoConn ~ 8100 5100
-NoConn ~ 8100 5200
 Text Notes 525  775  0    50   ~ 0
 Separate 3D model of device and connecors.\nThis will allow disabling SA800U model when \nplacing components under it keeping connectors in view.
+Wire Wire Line
+	3300 9150 3800 9150
+Text GLabel 10250 5200 2    50   Output ~ 0
+I2C10_SCL
+Wire Wire Line
+	9750 5200 10250 5200
+Text GLabel 10250 5300 2    50   BiDi ~ 0
+I2C10_SDA
+Wire Wire Line
+	9750 5300 10250 5300
+Text GLabel 7600 8900 0    50   Output ~ 0
+LDO19A_3V0
+Wire Wire Line
+	8100 8900 7600 8900
+Text GLabel 7600 8400 0    50   Output ~ 0
+VREG_BOB
+Wire Wire Line
+	7600 8400 8000 8400
+Connection ~ 8000 8400
+Wire Wire Line
+	8000 8400 8100 8400
+Wire Wire Line
+	8000 8400 8000 8500
+Wire Wire Line
+	8000 8500 8100 8500
+Text GLabel 7600 6500 0    50   Input ~ 0
+USB2_SS_RX_P
+$Comp
+L sa800u-baseboard-hw:SA800U-WF U10
+U 2 1 61BAF70E
+P 8200 1400
+F 0 "U10" H 8925 1747 50  0000 C CNN
+F 1 "SA800U-WF" H 8925 1656 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SA800U-WF" H 8200 1400 50  0001 C CNN
+F 3 "https://www.quectel.com/wp-content/uploads/2021/05/Quectel_SA800U-WF_Hardware_Design_V1.0.pdf" H 8200 1400 50  0001 C CNN
+F 4 "SA800U-WF" H 8925 1565 50  0000 C CNN "MPN"
+F 5 "QUECTEL" H 8925 1474 50  0000 C CNN "Manufacturer"
+	2    8200 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 7350 14600 7350
+Text Label 14600 7350 2    50   ~ 0
+VOL_DOWN_TVS
+Wire Wire Line
+	14600 8800 14650 8800
+Wire Wire Line
+	14650 8800 14650 8850
+Text GLabel 7575 5300 0    50   BiDi ~ 0
+GPIO_49
+Wire Wire Line
+	7575 5300 8100 5300
+Text GLabel 7575 5200 0    50   BiDi ~ 0
+GPIO_124
+Wire Wire Line
+	8100 5200 7575 5200
+NoConn ~ 8100 1500
 $EndSCHEMATC
