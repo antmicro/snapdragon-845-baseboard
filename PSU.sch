@@ -28,8 +28,6 @@ F 5 "Diodes Incorporated" H 6300 2750 50  0001 C CNN "Manufacturer"
 $EndComp
 Text Notes 6350 2700 0    50   ~ 0
 5V\n\n
-Text GLabel 1200 1100 0    50   Input ~ 0
-VDD
 Wire Wire Line
 	2200 2600 2200 2700
 $Comp
@@ -3314,4 +3312,8 @@ Wire Wire Line
 Connection ~ 1625 4575
 Wire Wire Line
 	1625 4575 1750 4575
+Text GLabel 1000 1225 0    50   Input ~ 0
+AUX_VDD
+Text GLabel 1000 1000 0    50   Input ~ 0
+PD_VDD
 $EndSCHEMATC
