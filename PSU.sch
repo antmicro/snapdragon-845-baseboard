@@ -198,7 +198,7 @@ Wire Wire Line
 	5850 2000 5900 2000
 Connection ~ 5850 1900
 Wire Wire Line
-	7500 2100 7700 2100
+	7500 2100 7775 2100
 Text Notes 6400 1400 0    50   ~ 0
 Bypass transistor
 Text Notes 3650 1050 0    50   ~ 0
@@ -2269,7 +2269,7 @@ F 5 "1053091202" H 875 4050 50  0001 C CNN "MPN"
 	1    1000 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7700 2100 2    50   Input ~ 0
+Text GLabel 7850 2100 2    50   Output ~ 0
 5V_SYS
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C110
@@ -2413,7 +2413,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 3000 9500 3000
 Connection ~ 9050 3000
-Text GLabel 9500 3000 2    50   Input ~ 0
+Text GLabel 9500 3000 2    50   Output ~ 0
 5V_SYS
 Wire Wire Line
 	7800 3000 8100 3000
@@ -2742,8 +2742,6 @@ Wire Wire Line
 Connection ~ 3550 9575
 Wire Wire Line
 	3150 9575 3550 9575
-Text GLabel 1725 9575 0    50   Input ~ 0
-5V
 Wire Wire Line
 	5150 9575 5300 9575
 Connection ~ 5150 9575
@@ -2974,8 +2972,6 @@ Wire Wire Line
 Connection ~ 3550 7925
 Wire Wire Line
 	3150 7925 3550 7925
-Text GLabel 1725 7925 0    50   Input ~ 0
-5V
 Wire Wire Line
 	5150 7925 5300 7925
 Wire Wire Line
@@ -3236,8 +3232,6 @@ Wire Wire Line
 Connection ~ 3550 6150
 Wire Wire Line
 	3150 6150 3550 6150
-Text GLabel 1725 6150 0    50   Input ~ 0
-5V
 Text GLabel 5300 7925 2    50   Input ~ 0
 1V8_SYS
 Wire Wire Line
@@ -3312,10 +3306,6 @@ Wire Wire Line
 Connection ~ 1625 4575
 Wire Wire Line
 	1625 4575 1750 4575
-Text GLabel 1000 1225 0    50   Input ~ 0
-AUX_VDD
-Text GLabel 1000 1000 0    50   Input ~ 0
-PD_VDD
 $Comp
 L antmicroPMICPowerDistributionSwitchesLoadDrivers:LTC4417IUF U?
 U 1 1 6209FB09
@@ -3416,7 +3406,7 @@ Wire Wire Line
 Wire Wire Line
 	13100 5900 13100 5750
 Connection ~ 13100 5750
-Text GLabel 9800 4100 0    50   Output ~ 0
+Text GLabel 9800 4100 0    50   Input ~ 0
 AUX_VDD
 Text GLabel 9750 4900 0    50   Output ~ 0
 PD_VDD
@@ -3483,10 +3473,8 @@ Wire Wire Line
 Wire Wire Line
 	14150 4100 14600 4100
 Connection ~ 14150 4100
-Text GLabel 14900 4100 2    50   Input ~ 0
+Text GLabel 14900 4100 2    50   Output ~ 0
 VDD
-Text Notes 9600 5700 0    50   ~ 0
-PoE\n
 $Comp
 L antmicroCapacitorsmisc:C_100u_0805 C?
 U 1 1 6230A4B2
@@ -3508,6 +3496,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 6230B5B4
 P 14600 4500
+AR Path="/6230B5B4" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/6230B5B4" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 14600 4250 50  0001 C CNN
 F 1 "GND" H 14605 4327 50  0000 C CNN
 F 2 "" H 14600 4500 50  0001 C CNN
@@ -3521,6 +3511,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 6231D12F
 P 13600 10450
+AR Path="/6231D12F" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/6231D12F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 13600 10200 50  0001 C CNN
 F 1 "GND" H 13605 10277 50  0000 C CNN
 F 2 "" H 13600 10450 50  0001 C CNN
@@ -3594,6 +3586,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 62350588
 P 12000 6900
+AR Path="/62350588" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/62350588" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 12000 6650 50  0001 C CNN
 F 1 "GND" H 12005 6727 50  0000 C CNN
 F 2 "" H 12000 6900 50  0001 C CNN
@@ -3605,6 +3599,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 62350892
 P 12500 6900
+AR Path="/62350892" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/62350892" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 12500 6650 50  0001 C CNN
 F 1 "GND" H 12505 6727 50  0000 C CNN
 F 2 "" H 12500 6900 50  0001 C CNN
@@ -3616,6 +3612,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 62350BDA
 P 13000 6900
+AR Path="/62350BDA" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/62350BDA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 13000 6650 50  0001 C CNN
 F 1 "GND" H 13005 6727 50  0000 C CNN
 F 2 "" H 13000 6900 50  0001 C CNN
@@ -3727,6 +3725,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 6245617E
 P 14200 9500
+AR Path="/6245617E" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/6245617E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 14200 9250 50  0001 C CNN
 F 1 "GND" H 14205 9327 50  0000 C CNN
 F 2 "" H 14200 9500 50  0001 C CNN
@@ -3910,6 +3910,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 625AC652
 P 10200 10850
+AR Path="/625AC652" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/625AC652" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10200 10600 50  0001 C CNN
 F 1 "GND" H 10205 10677 50  0000 C CNN
 F 2 "" H 10200 10850 50  0001 C CNN
@@ -3943,8 +3945,8 @@ Connection ~ 10800 7550
 Connection ~ 10800 4100
 Wire Wire Line
 	10800 4100 11600 4100
-Text GLabel 9750 5750 0    50   Output ~ 0
-5V_SYS
+Text GLabel 9750 5750 0    50   Input ~ 0
+5V_POE
 Wire Wire Line
 	9750 5750 10200 5750
 Wire Wire Line
@@ -3962,4 +3964,56 @@ Wire Wire Line
 NoConn ~ 13600 9550
 NoConn ~ 13600 9450
 NoConn ~ 13600 9250
+Text GLabel 1200 1100 0    50   Input ~ 0
+VDD
+Text GLabel 1425 6725 0    50   Input ~ 0
+VDD
+Text GLabel 1725 6150 0    50   Input ~ 0
+VDD
+Text GLabel 1725 7925 0    50   Input ~ 0
+VDD
+Text GLabel 1725 9575 0    50   Input ~ 0
+VDD
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 61F11F38
+P 7775 2100
+AR Path="/61B0DC30/61F11F38" Ref="#FLG?"  Part="1" 
+AR Path="/61DC2BE0/61F11F38" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 7775 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 7775 2273 50  0000 C CNN
+F 2 "" H 7775 2100 50  0001 C CNN
+F 3 "~" H 7775 2100 50  0001 C CNN
+	1    7775 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7775 2100
+Wire Wire Line
+	7775 2100 7850 2100
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 61F3C00C
+P 9050 3000
+AR Path="/61B0DC30/61F3C00C" Ref="#FLG?"  Part="1" 
+AR Path="/61DC2BE0/61F3C00C" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 9050 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9050 3173 50  0000 C CNN
+F 2 "" H 9050 3000 50  0001 C CNN
+F 3 "~" H 9050 3000 50  0001 C CNN
+	1    9050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 61F4D0A9
+P 14150 4100
+AR Path="/61B0DC30/61F4D0A9" Ref="#FLG?"  Part="1" 
+AR Path="/61DC2BE0/61F4D0A9" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 14150 4175 50  0001 C CNN
+F 1 "PWR_FLAG" H 14150 4273 50  0000 C CNN
+F 2 "" H 14150 4100 50  0001 C CNN
+F 3 "~" H 14150 4100 50  0001 C CNN
+	1    14150 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

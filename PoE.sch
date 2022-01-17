@@ -544,7 +544,7 @@ Resistor that allows enabling\na chip without load connected.
 Text Label 6900 5275 0    50   ~ 0
 RTN
 Text GLabel 14450 4625 2    50   Output ~ 0
-5V_SYS
+5V_POE
 Text Notes 14450 4550 0    50   ~ 0
 5V @6A
 $Comp
