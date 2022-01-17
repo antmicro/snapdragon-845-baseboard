@@ -1775,10 +1775,8 @@ F 6 "50R" V 9378 4780 50  0000 R CNN "Val"
 $EndComp
 Text Notes 11550 6925 0    50   ~ 0
 510R resistor can \nbe changed to 0402
-Text GLabel 9000 6625 0    50   Input ~ 0
-VCOM
 Wire Wire Line
-	9075 6625 12475 6650
+	8925 6650 12475 6650
 $Comp
 L sa800u-baseboard-hw:2N7000 Q4
 U 1 1 6243334F
@@ -3166,4 +3164,6 @@ Text Label 1375 5025 2    50   ~ 0
 HDMIOUT_SCL
 Text Label 1375 5125 2    50   ~ 0
 HDMIOUT_SDA
+Text Label 8925 6650 0    50   ~ 0
+VCOM
 $EndSCHEMATC
