@@ -3307,12 +3307,12 @@ Connection ~ 1625 4575
 Wire Wire Line
 	1625 4575 1750 4575
 $Comp
-L antmicroPMICPowerDistributionSwitchesLoadDrivers:LTC4417IUF U?
+L sa800u-baseboard-hw:LTC4417IUF U?
 U 1 1 6209FB09
 P 11800 8300
 F 0 "U?" H 11400 9200 50  0000 C CNN
 F 1 "LTC4417IUF" H 13100 9200 50  0000 C CNN
-F 2 "antmicro-footprints:LTC4417IUF-TRPBF" H 11900 8300 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LTC4417IUF-TRPBF" H 11900 8300 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/609/4417f-1271526.pdf" H 11900 8300 50  0001 C CNN
 F 4 "LTC4417IUF#TRPBF" H 11800 8300 50  0001 C CNN "MPN"
 F 5 "Analog Devices" H 11800 8300 50  0001 C CNN "Manufacturer"
@@ -3320,12 +3320,12 @@ F 5 "Analog Devices" H 11800 8300 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsArrays:Si7223DN Q?
+L sa800u-baseboard-hw:Si7223DN Q?
 U 1 1 620A46EF
 P 12050 4500
 F 0 "Q?" V 12071 4172 50  0000 R CNN
 F 1 "Si7223DN" V 11980 4172 50  0000 R CNN
-F 2 "antmicro-footprints:PowerPak-1212" H 11150 4450 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 11150 4450 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 12050 4450 50  0001 C CNN
 F 4 "SI7223DN-T1-GE3" H 11350 4500 50  0001 C CNN "MPN"
 F 5 "VISHAY" H 11450 4550 50  0001 C CNN "Manufacturer"
@@ -3349,12 +3349,12 @@ Wire Wire Line
 Wire Wire Line
 	12100 4250 12100 4100
 $Comp
-L antmicroTransistorsFETsMOSFETsArrays:Si7223DN Q?
+L sa800u-baseboard-hw:Si7223DN Q?
 U 1 1 620E8A86
 P 12550 5300
 F 0 "Q?" V 12571 4972 50  0000 R CNN
 F 1 "Si7223DN" V 12480 4972 50  0000 R CNN
-F 2 "antmicro-footprints:PowerPak-1212" H 11650 5250 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 11650 5250 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 12550 5250 50  0001 C CNN
 F 4 "SI7223DN-T1-GE3" H 11850 5300 50  0001 C CNN "MPN"
 F 5 "VISHAY" H 11950 5350 50  0001 C CNN "Manufacturer"
@@ -3377,12 +3377,12 @@ Wire Wire Line
 	12600 5050 12600 4900
 Connection ~ 12600 4900
 $Comp
-L antmicroTransistorsFETsMOSFETsArrays:Si7223DN Q?
+L sa800u-baseboard-hw:Si7223DN Q?
 U 1 1 620EF987
 P 13050 6150
 F 0 "Q?" V 13071 5822 50  0000 R CNN
 F 1 "Si7223DN" V 12980 5822 50  0000 R CNN
-F 2 "antmicro-footprints:PowerPak-1212" H 12150 6100 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 12150 6100 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 13050 6100 50  0001 C CNN
 F 4 "SI7223DN-T1-GE3" H 12350 6150 50  0001 C CNN "MPN"
 F 5 "VISHAY" H 12450 6200 50  0001 C CNN "Manufacturer"
@@ -3476,12 +3476,12 @@ Connection ~ 14150 4100
 Text GLabel 14900 4100 2    50   Output ~ 0
 VDD
 $Comp
-L antmicroCapacitorsmisc:C_100u_0805 C?
+L sa800u-baseboard-hw:C_100u_0805 C?
 U 1 1 6230A4B2
 P 14600 4250
 F 0 "C?" H 14715 4295 60  0000 L CNN
 F 1 "C_100u_0805" H 14600 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 14800 4450 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 14800 4450 60  0001 L CNN
 F 3 "" H 14600 4250 50  0001 C CNN
 F 4 "MURATA" H 14800 4650 60  0001 L CNN "Manufacturer"
 F 5 "GRM21BR60J107ME15L" H 14800 4550 60  0001 L CNN "MPN"
@@ -3493,7 +3493,7 @@ Connection ~ 14600 4100
 Wire Wire Line
 	14600 4100 14900 4100
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 6230B5B4
 P 14600 4500
 AR Path="/6230B5B4" Ref="#PWR?"  Part="1" 
@@ -3508,7 +3508,7 @@ $EndComp
 Wire Wire Line
 	14600 4500 14600 4400
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 6231D12F
 P 13600 10450
 AR Path="/6231D12F" Ref="#PWR?"  Part="1" 
@@ -3526,12 +3526,12 @@ Wire Wire Line
 	13600 10350 13600 10250
 Connection ~ 13600 10350
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C?
 U 1 1 62331DDA
 P 12000 6750
 F 0 "C?" H 12115 6795 60  0000 L CNN
 F 1 "C_100n_0402" H 12000 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12200 6950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 12200 6950 60  0001 L CNN
 F 3 "" H 12000 6750 50  0001 C CNN
 F 4 "Murata" H 12200 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 12200 7050 60  0001 L CNN "MPN"
@@ -3540,12 +3540,12 @@ F 6 "100n" H 12115 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C?
 U 1 1 6233252B
 P 12500 6750
 F 0 "C?" H 12615 6795 60  0000 L CNN
 F 1 "C_100n_0402" H 12500 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 12700 6950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 12700 6950 60  0001 L CNN
 F 3 "" H 12500 6750 50  0001 C CNN
 F 4 "Murata" H 12700 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 12700 7050 60  0001 L CNN "MPN"
@@ -3554,12 +3554,12 @@ F 6 "100n" H 12615 6697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402 C?
+L sa800u-baseboard-hw:C_100n_0402 C?
 U 1 1 62332A1A
 P 13000 6750
 F 0 "C?" H 13115 6795 60  0000 L CNN
 F 1 "C_100n_0402" H 13000 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 13200 6950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 13200 6950 60  0001 L CNN
 F 3 "" H 13000 6750 50  0001 C CNN
 F 4 "Murata" H 13200 7150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 13200 7050 60  0001 L CNN "MPN"
@@ -3583,7 +3583,7 @@ Connection ~ 12850 6600
 Wire Wire Line
 	12850 6600 12850 7150
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62350588
 P 12000 6900
 AR Path="/62350588" Ref="#PWR?"  Part="1" 
@@ -3596,7 +3596,7 @@ F 3 "" H 12000 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62350892
 P 12500 6900
 AR Path="/62350892" Ref="#PWR?"  Part="1" 
@@ -3609,7 +3609,7 @@ F 3 "" H 12500 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62350BDA
 P 13000 6900
 AR Path="/62350BDA" Ref="#PWR?"  Part="1" 
@@ -3640,12 +3640,12 @@ Wire Wire Line
 	14400 8200 15300 8200
 Connection ~ 14400 8200
 $Comp
-L antmicroResistors0402:R_1M0_0402 R?
+L sa800u-baseboard-hw:R_1M0_0402 R?
 U 1 1 623C3078
 P 14400 7850
 F 0 "R?" V 14355 7920 60  0000 L CNN
 F 1 "R_1M0_0402" H 14400 7700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14600 8050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14600 8050 60  0001 L CNN
 F 3 "" H 14400 7850 50  0001 C CNN
 F 4 "TE CONNECTIVITY" H 14600 8250 60  0001 L CNN "Manufacturer"
 F 5 "CRG0402F1M0" H 14600 8150 60  0001 L CNN "MPN"
@@ -3654,12 +3654,12 @@ F 6 "1M0" V 14453 7920 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1M0_0402 R?
+L sa800u-baseboard-hw:R_1M0_0402 R?
 U 1 1 623C3C59
 P 14700 7850
 F 0 "R?" V 14655 7920 60  0000 L CNN
 F 1 "R_1M0_0402" H 14700 7700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14900 8050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14900 8050 60  0001 L CNN
 F 3 "" H 14700 7850 50  0001 C CNN
 F 4 "TE CONNECTIVITY" H 14900 8250 60  0001 L CNN "Manufacturer"
 F 5 "CRG0402F1M0" H 14900 8150 60  0001 L CNN "MPN"
@@ -3668,12 +3668,12 @@ F 6 "1M0" V 14753 7920 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1M0_0402 R?
+L sa800u-baseboard-hw:R_1M0_0402 R?
 U 1 1 623C44BA
 P 15000 7850
 F 0 "R?" V 14955 7920 60  0000 L CNN
 F 1 "R_1M0_0402" H 15000 7700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15200 8050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 15200 8050 60  0001 L CNN
 F 3 "" H 15000 7850 50  0001 C CNN
 F 4 "TE CONNECTIVITY" H 15200 8250 60  0001 L CNN "Manufacturer"
 F 5 "CRG0402F1M0" H 15200 8150 60  0001 L CNN "MPN"
@@ -3722,7 +3722,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 9350 14200 9500
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 6245617E
 P 14200 9500
 AR Path="/6245617E" Ref="#PWR?"  Part="1" 
@@ -3737,12 +3737,12 @@ $EndComp
 Text Notes 14300 9400 0    50   ~ 0
 about 100mV hysteresis setup
 $Comp
-L antmicroResistors0402:R_806k_0402 R?
+L sa800u-baseboard-hw:R_806k_0402 R?
 U 1 1 6245F858
 P 10800 7700
 F 0 "R?" V 10755 7770 60  0000 L CNN
 F 1 "R_806k_0402" H 10800 7550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 7900 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 11000 7900 60  0001 L CNN
 F 3 "" H 10800 7700 50  0001 C CNN
 F 4 "VISHAY" H 11000 8100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402806KFKED" H 11000 8000 60  0001 L CNN "MPN"
@@ -3751,12 +3751,12 @@ F 6 "806k" V 10853 7770 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_41k2_0402 R?
+L sa800u-baseboard-hw:R_41k2_0402 R?
 U 1 1 6246077A
 P 10800 8050
 F 0 "R?" V 10755 8120 60  0000 L CNN
 F 1 "R_41k2_0402" H 10800 7900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 8250 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 11000 8250 60  0001 L CNN
 F 3 "" H 10800 8050 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 11000 8450 60  0001 L CNN "Manufacturer"
 F 5 "ERA2AEB4122X" H 11000 8350 60  0001 L CNN "MPN"
@@ -3765,12 +3765,12 @@ F 6 "41k2" V 10853 8120 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_60k4_0402 R?
+L sa800u-baseboard-hw:R_60k4_0402 R?
 U 1 1 6247CD78
 P 10800 8400
 F 0 "R?" V 10755 8470 60  0000 L CNN
 F 1 "R_60k4_0402" H 10800 8250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 8600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 11000 8600 60  0001 L CNN
 F 3 "" H 10800 8400 50  0001 C CNN
 F 4 "YAGEO" H 11000 8800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-0760K4L" H 11000 8700 60  0001 L CNN "MPN"
@@ -3791,12 +3791,12 @@ Wire Wire Line
 	10800 8250 10800 8200
 Connection ~ 10800 8250
 $Comp
-L antmicroResistors0402:R_255k_0402 R?
+L sa800u-baseboard-hw:R_255k_0402 R?
 U 1 1 624DB038
 P 13900 9350
 F 0 "R?" H 13900 9563 60  0000 C CNN
 F 1 "R_255k_0402" H 13900 9200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14100 9550 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14100 9550 60  0001 L CNN
 F 3 "" H 13900 9350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 14100 9750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ-2RKF2553X" H 14100 9650 60  0001 L CNN "MPN"
@@ -3805,12 +3805,12 @@ F 6 "255k" H 13900 9465 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_910k_0402 R?
+L sa800u-baseboard-hw:R_910k_0402 R?
 U 1 1 624DD83F
 P 10500 8750
 F 0 "R?" V 10455 8820 60  0000 L CNN
 F 1 "R_910k_0402" H 10500 8600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10700 8950 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10700 8950 60  0001 L CNN
 F 3 "" H 10500 8750 50  0001 C CNN
 F 4 "VISHAY" H 10700 9150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402910KFKED" H 10700 9050 60  0001 L CNN "MPN"
@@ -3821,12 +3821,12 @@ $EndComp
 Wire Wire Line
 	10500 8900 10500 8950
 $Comp
-L antmicroResistors0402:R_64k9_0402 R?
+L sa800u-baseboard-hw:R_64k9_0402 R?
 U 1 1 6250BDC1
 P 10500 9100
 F 0 "R?" V 10455 9170 60  0000 L CNN
 F 1 "R_64k9_0402" H 10500 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10700 9300 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10700 9300 60  0001 L CNN
 F 3 "" H 10500 9100 50  0001 C CNN
 F 4 "YAGEO" H 10700 9500 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-1364K9L" H 10700 9400 60  0001 L CNN "MPN"
@@ -3837,12 +3837,12 @@ $EndComp
 Wire Wire Line
 	10500 9300 10500 9250
 $Comp
-L antmicroResistors0402:R_191k_0402 R?
+L sa800u-baseboard-hw:R_191k_0402 R?
 U 1 1 6252FA76
 P 10500 9450
 F 0 "R?" V 10455 9520 60  0000 L CNN
 F 1 "R_191k_0402" H 10500 9300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10700 9650 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10700 9650 60  0001 L CNN
 F 3 "" H 10500 9450 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10700 9850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1913X" H 10700 9750 60  0001 L CNN "MPN"
@@ -3855,12 +3855,12 @@ Wire Wire Line
 Wire Wire Line
 	11050 9650 10200 9650
 $Comp
-L antmicroResistors0402:R_402k_0402 R?
+L sa800u-baseboard-hw:R_402k_0402 R?
 U 1 1 6256D182
 P 10200 9800
 F 0 "R?" V 10155 9870 60  0000 L CNN
 F 1 "R_402k_0402" H 10200 9650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10400 10000 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10400 10000 60  0001 L CNN
 F 3 "" H 10200 9800 50  0001 C CNN
 F 4 "VISHAY" H 10400 10200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402402KFKED" H 10400 10100 60  0001 L CNN "MPN"
@@ -3869,12 +3869,12 @@ F 6 "402k" V 10253 9870 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_97k6_0402 R?
+L sa800u-baseboard-hw:R_97k6_0402 R?
 U 1 1 62585ECE
 P 10200 10150
 F 0 "R?" V 10155 10220 60  0000 L CNN
 F 1 "R_97k6_0402" H 10200 10000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10400 10350 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10400 10350 60  0001 L CNN
 F 3 "" H 10200 10150 50  0001 C CNN
 F 4 "MULTICOMP" H 10400 10550 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X9762FTL" H 10400 10450 60  0001 L CNN "MPN"
@@ -3883,12 +3883,12 @@ F 6 "97k6" V 10253 10220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_13k3_0402 R?
+L sa800u-baseboard-hw:R_13k3_0402 R?
 U 1 1 62586FC5
 P 10200 10500
 F 0 "R?" V 10155 10570 60  0000 L CNN
 F 1 "R_13k3_0402" H 10200 10350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10400 10700 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 10400 10700 60  0001 L CNN
 F 3 "" H 10200 10500 50  0001 C CNN
 F 4 "PANASONIC" H 10400 10900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1332X" H 10400 10800 60  0001 L CNN "MPN"
@@ -3907,7 +3907,7 @@ Wire Wire Line
 	10200 10350 10200 10300
 Connection ~ 10200 10350
 $Comp
-L power:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR?
 U 1 1 625AC652
 P 10200 10850
 AR Path="/625AC652" Ref="#PWR?"  Part="1" 
