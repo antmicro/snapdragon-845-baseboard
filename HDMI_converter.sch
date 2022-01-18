@@ -2987,12 +2987,12 @@ Text GLabel 6250 4575 0    50   Input ~ 0
 5V_SYS
 Connection ~ 6300 4575
 $Comp
-L antmicroResistors0603:R_7k68_0603 R?
+L sa800u-baseboard-hw:R_7k68_0603 R?
 U 1 1 626DBF4F
 P 3450 8275
 F 0 "R?" V 3405 8206 60  0000 R CNN
 F 1 "R_7k68_0603" H 3450 8125 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 3650 8475 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 3650 8475 60  0001 L CNN
 F 3 "" H 3450 8275 50  0001 C CNN
 F 4 "WALSIN" H 3650 8675 60  0001 L CNN "Manufacturer"
 F 5 "WR06X7681FTL" H 3650 8575 60  0001 L CNN "MPN"
@@ -3003,12 +3003,12 @@ $EndComp
 Text GLabel 9075 4600 0    50   Input ~ 0
 LT9611_VCC33_TX
 $Comp
-L antmicroFerriteBeadsandChips:BLM18SG121TN1D FB?
+L sa800u-baseboard-hw:BLM18SG121TN1D FB?
 U 1 1 627F8CBD
 P 10775 2800
 F 0 "FB?" H 10775 3087 60  0000 C CNN
 F 1 "BLM18SG121TN1D" H 10775 2981 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 10975 3000 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 10975 3000 60  0001 L CNN
 F 3 "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18SG121TN1%23" H 10975 3100 60  0001 L CNN
 F 4 "BLM18SG121TN1D" H 10975 3300 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 10975 3900 60  0001 L CNN "Manufacturer"
@@ -3083,12 +3083,12 @@ Wire Wire Line
 Wire Wire Line
 	13525 7150 14300 7150
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 62F929E9
 P 12475 6400
 F 0 "R?" V 12520 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 12475 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12675 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 12675 6600 60  0001 L CNN
 F 3 "" H 12475 6400 50  0001 C CNN
 F 4 "Yageo" H 12675 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 12675 6700 60  0001 L CNN "MPN"
@@ -3097,12 +3097,12 @@ F 6 "510R" V 12422 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 63022A31
 P 12825 6400
 F 0 "R?" V 12870 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 12825 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13025 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13025 6600 60  0001 L CNN
 F 3 "" H 12825 6400 50  0001 C CNN
 F 4 "Yageo" H 13025 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 13025 6700 60  0001 L CNN "MPN"
@@ -3111,12 +3111,12 @@ F 6 "510R" V 12772 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 6306715A
 P 13175 6400
 F 0 "R?" V 13220 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 13175 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13375 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13375 6600 60  0001 L CNN
 F 3 "" H 13175 6400 50  0001 C CNN
 F 4 "Yageo" H 13375 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 13375 6700 60  0001 L CNN "MPN"
@@ -3125,12 +3125,12 @@ F 6 "510R" V 13122 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 630ACE68
 P 13525 6400
 F 0 "R?" V 13570 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 13525 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13725 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 13725 6600 60  0001 L CNN
 F 3 "" H 13525 6400 50  0001 C CNN
 F 4 "Yageo" H 13725 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 13725 6700 60  0001 L CNN "MPN"
@@ -3139,12 +3139,12 @@ F 6 "510R" V 13472 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 630ACE71
 P 13875 6400
 F 0 "R?" V 13920 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 13875 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14075 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14075 6600 60  0001 L CNN
 F 3 "" H 13875 6400 50  0001 C CNN
 F 4 "Yageo" H 14075 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 14075 6700 60  0001 L CNN "MPN"
@@ -3153,12 +3153,12 @@ F 6 "510R" V 13822 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 630ACE7A
 P 14225 6400
 F 0 "R?" V 14270 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 14225 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14425 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14425 6600 60  0001 L CNN
 F 3 "" H 14225 6400 50  0001 C CNN
 F 4 "Yageo" H 14425 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 14425 6700 60  0001 L CNN "MPN"
@@ -3167,12 +3167,12 @@ F 6 "510R" V 14172 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 630F2440
 P 14575 6400
 F 0 "R?" V 14620 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 14575 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14775 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14775 6600 60  0001 L CNN
 F 3 "" H 14575 6400 50  0001 C CNN
 F 4 "Yageo" H 14775 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 14775 6700 60  0001 L CNN "MPN"
@@ -3181,12 +3181,12 @@ F 6 "510R" V 14522 6330 50  0000 R CNN "Val"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_510R_0402 R?
+L sa800u-baseboard-hw:R_510R_0402 R?
 U 1 1 630F2449
 P 14925 6400
 F 0 "R?" V 14970 6330 60  0000 R CNN
 F 1 "R_510R_0402" H 14925 6250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 15125 6600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 15125 6600 60  0001 L CNN
 F 3 "" H 14925 6400 50  0001 C CNN
 F 4 "Yageo" H 15125 6800 60  0001 L CNN "Manufacturer"
 F 5 "RC0402JR-07510RL" H 15125 6700 60  0001 L CNN "MPN"
