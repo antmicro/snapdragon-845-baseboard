@@ -3319,29 +3319,8 @@ F 5 "Analog Devices" H 11800 8300 50  0001 C CNN "Manufacturer"
 	1    11800 8300
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:Si7223DN Q?
-U 1 1 620A46EF
-P 12050 4500
-F 0 "Q?" V 12071 4172 50  0000 R CNN
-F 1 "Si7223DN" V 11980 4172 50  0000 R CNN
-F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 11150 4450 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 12050 4450 50  0001 C CNN
-F 4 "SI7223DN-T1-GE3" H 11350 4500 50  0001 C CNN "MPN"
-F 5 "VISHAY" H 11450 4550 50  0001 C CNN "Manufacturer"
-	1    12050 4500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11900 4250 11900 4200
-Wire Wire Line
-	12300 4200 12300 4250
-Wire Wire Line
-	11700 4100 11600 4100
 Wire Wire Line
 	11700 4100 11700 4250
-Wire Wire Line
-	11600 4250 11600 4100
 Wire Wire Line
 	12000 4250 12000 4100
 Wire Wire Line
@@ -3362,20 +3341,13 @@ F 5 "VISHAY" H 11950 5350 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12400 5050 12400 5000
-Wire Wire Line
-	12200 4900 12100 4900
-Wire Wire Line
 	12200 4900 12200 5050
-Wire Wire Line
-	12100 5050 12100 4900
 Wire Wire Line
 	12500 5050 12500 4900
 Wire Wire Line
 	12500 4900 12600 4900
 Wire Wire Line
 	12600 5050 12600 4900
-Connection ~ 12600 4900
 $Comp
 L sa800u-baseboard-hw:Si7223DN Q?
 U 1 1 620EF987
@@ -3390,62 +3362,30 @@ F 5 "VISHAY" H 12450 6200 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12900 5900 12900 5850
-Wire Wire Line
-	12900 5850 13300 5850
-Wire Wire Line
-	12700 5750 12600 5750
-Wire Wire Line
 	12700 5750 12700 5900
-Wire Wire Line
-	12600 5900 12600 5750
 Wire Wire Line
 	13000 5900 13000 5750
 Wire Wire Line
 	13000 5750 13100 5750
 Wire Wire Line
 	13100 5900 13100 5750
-Connection ~ 13100 5750
 Text GLabel 9800 4100 0    50   Input ~ 0
 AUX_VDD
-Text GLabel 9750 4900 0    50   Output ~ 0
+Text GLabel 9750 4900 0    50   Input ~ 0
 PD_VDD
 Wire Wire Line
-	11900 4200 12300 4200
-Wire Wire Line
-	11850 4800 12250 4800
-Connection ~ 12100 4100
-Wire Wire Line
 	11850 4800 11850 6600
-Connection ~ 11850 4800
-Wire Wire Line
-	12400 5000 12800 5000
 Wire Wire Line
 	9800 4100 10800 4100
-Connection ~ 11600 4100
 Wire Wire Line
 	12850 6450 12850 6600
 Wire Wire Line
 	12350 5600 12350 6600
-Wire Wire Line
-	12750 5600 12350 5600
-Connection ~ 12350 5600
-Wire Wire Line
-	13250 6450 12850 6450
-Connection ~ 12850 6450
-Wire Wire Line
-	12800 5000 12800 5050
-Wire Wire Line
-	13300 5900 13300 5850
-Connection ~ 12600 5750
-Wire Wire Line
-	12100 4900 10500 4900
-Connection ~ 12100 4900
-Text Label 11900 4200 1    50   ~ 0
+Text Label 12000 4100 0    50   ~ 0
 VS1
-Text Label 12400 5000 1    50   ~ 0
+Text Label 12500 4900 0    50   ~ 0
 VS2
-Text Label 12900 5850 1    50   ~ 0
+Text Label 13000 5750 0    50   ~ 0
 VS3
 Wire Wire Line
 	11750 7150 11750 7050
@@ -3459,17 +3399,6 @@ Text Label 12250 7050 1    50   ~ 0
 VS2
 Text Label 11750 7050 1    50   ~ 0
 VS1
-Wire Wire Line
-	14150 4100 14150 4900
-Wire Wire Line
-	13100 5750 14150 5750
-Wire Wire Line
-	12100 4100 14150 4100
-Wire Wire Line
-	12600 4900 14150 4900
-Connection ~ 14150 4900
-Wire Wire Line
-	14150 4900 14150 5750
 Wire Wire Line
 	14150 4100 14600 4100
 Connection ~ 14150 4100
@@ -3789,7 +3718,6 @@ Wire Wire Line
 	11050 8250 10800 8250
 Wire Wire Line
 	10800 8250 10800 8200
-Connection ~ 10800 8250
 $Comp
 L sa800u-baseboard-hw:R_255k_0402 R?
 U 1 1 624DB038
@@ -3943,8 +3871,6 @@ Wire Wire Line
 	10800 4100 10800 7550
 Connection ~ 10800 7550
 Connection ~ 10800 4100
-Wire Wire Line
-	10800 4100 11600 4100
 Text GLabel 9750 5750 0    50   Input ~ 0
 5V_POE
 Wire Wire Line
@@ -3959,8 +3885,6 @@ Wire Wire Line
 	10200 9650 10200 5750
 Connection ~ 10200 9650
 Connection ~ 10200 5750
-Wire Wire Line
-	10200 5750 12600 5750
 NoConn ~ 13600 9550
 NoConn ~ 13600 9450
 NoConn ~ 13600 9250
@@ -4016,4 +3940,91 @@ F 3 "~" H 14150 4100 50  0001 C CNN
 	1    14150 4100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11700 4100 11800 4100
+Wire Wire Line
+	11800 4100 11800 4250
+Connection ~ 11700 4100
+Wire Wire Line
+	10800 4100 11700 4100
+Wire Wire Line
+	12400 4250 12400 4100
+Connection ~ 12400 4100
+Wire Wire Line
+	12400 4100 14150 4100
+Wire Wire Line
+	12300 4100 12400 4100
+Wire Wire Line
+	12300 4100 12300 4250
+$Comp
+L sa800u-baseboard-hw:Si7223DN Q?
+U 1 1 620A46EF
+P 12050 4500
+F 0 "Q?" V 12071 4172 50  0000 R CNN
+F 1 "Si7223DN" V 11980 4172 50  0000 R CNN
+F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 11150 4450 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 12050 4450 50  0001 C CNN
+F 4 "SI7223DN-T1-GE3" H 11350 4500 50  0001 C CNN "MPN"
+F 5 "VISHAY" H 11450 4550 50  0001 C CNN "Manufacturer"
+	1    12050 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11850 4800 11950 4800
+Connection ~ 11950 4800
+Wire Wire Line
+	11950 4800 12150 4800
+Wire Wire Line
+	12200 4900 12300 4900
+Wire Wire Line
+	12300 4900 12300 5050
+Connection ~ 12200 4900
+Wire Wire Line
+	10500 4900 12200 4900
+Wire Wire Line
+	12900 4900 12900 5050
+Wire Wire Line
+	12800 4900 12800 5050
+Wire Wire Line
+	14150 4100 14150 4900
+Wire Wire Line
+	12800 4900 12900 4900
+Connection ~ 14150 4900
+Wire Wire Line
+	14150 4900 14150 5750
+Connection ~ 12900 4900
+Wire Wire Line
+	12900 4900 14150 4900
+Wire Wire Line
+	12650 5600 12450 5600
+Connection ~ 12450 5600
+Wire Wire Line
+	12450 5600 12350 5600
+Wire Wire Line
+	12800 5900 12800 5750
+Wire Wire Line
+	12800 5750 12700 5750
+Connection ~ 12700 5750
+Wire Wire Line
+	10200 5750 12700 5750
+Wire Wire Line
+	13300 5750 13300 5900
+Wire Wire Line
+	13300 5750 13400 5750
+Wire Wire Line
+	13400 5900 13400 5750
+Connection ~ 13400 5750
+Wire Wire Line
+	13400 5750 14150 5750
+Wire Wire Line
+	12850 6450 12950 6450
+Connection ~ 12950 6450
+Wire Wire Line
+	12950 6450 13150 6450
+Text Notes 9425 4225 0    50   ~ 0
+5-18V, highest priority
+Text Notes 9425 5025 0    50   ~ 0
+5-15V, middle priority
+Text Notes 9425 5900 0    50   ~ 0
+5V0, lowest priority
 $EndSCHEMATC
