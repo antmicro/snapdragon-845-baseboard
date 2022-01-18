@@ -2336,56 +2336,6 @@ Wire Wire Line
 	9775 9675 10700 9675
 Text Label 10700 9675 2    50   ~ 0
 USB2C_TX2_N
-$Comp
-L sa800u-baseboard-hw:ESD9L5.0ST5G D8
-U 1 1 62A14876
-P 10300 5725
-AR Path="/61A2F307/62A14876" Ref="D8"  Part="1" 
-AR Path="/628CDA4A/62A14876" Ref="D?"  Part="1" 
-F 0 "D8" V 10400 5875 50  0000 R CNN
-F 1 "ESD9L5.0ST5G" H 10255 5625 50  0000 R CNN
-F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 10050 5925 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 10300 5725 50  0001 C CNN
-F 4 "ESD9L5.0ST5G" H 10000 5975 50  0001 C CNN "MPN"
-F 5 "ONSEMI" H 10450 5975 50  0001 C CNN "Manufacturer"
-	1    10300 5725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:ESD9L5.0ST5G D7
-U 1 1 62A1487E
-P 10500 5625
-AR Path="/61A2F307/62A1487E" Ref="D7"  Part="1" 
-AR Path="/628CDA4A/62A1487E" Ref="D?"  Part="1" 
-F 0 "D7" V 10500 5575 50  0000 R CNN
-F 1 "ESD9L5.0ST5G" H 10350 5525 50  0000 R CNN
-F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 10250 5825 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 10500 5625 50  0001 C CNN
-F 4 "ESD9L5.0ST5G" H 10200 5875 50  0001 C CNN "MPN"
-F 5 "ONSEMI" H 10650 5875 50  0001 C CNN "Manufacturer"
-	1    10500 5625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10500 5875 10500 5975
-Wire Wire Line
-	10300 5975 10500 5975
-Connection ~ 10500 5975
-Wire Wire Line
-	10500 5975 10500 6425
-$Comp
-L sa800u-baseboard-hw:GND #PWR039
-U 1 1 62A1488A
-P 10500 6425
-AR Path="/61A2F307/62A1488A" Ref="#PWR039"  Part="1" 
-AR Path="/628CDA4A/62A1488A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR039" H 10500 6175 50  0001 C CNN
-F 1 "GND" H 10505 6252 50  0000 C CNN
-F 2 "" H 10500 6425 50  0001 C CNN
-F 3 "" H 10500 6425 50  0001 C CNN
-	1    10500 6425
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6975 9375 7925 9375
 Wire Wire Line
@@ -2413,8 +2363,6 @@ F 3 "~" H 5200 5700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8250 5475 8200 5475
-Text GLabel 8700 6275 2    50   Input ~ 0
-5V_SYS
 Text GLabel 8050 5475 0    50   Input ~ 0
 5V_SYS
 Wire Wire Line
@@ -2431,4 +2379,60 @@ Wire Wire Line
 	9725 5450 9725 5525
 Wire Wire Line
 	9475 5450 9525 5450
+Text GLabel 8700 6275 2    50   Input ~ 0
+1V8_SYS
+$Comp
+L sa800u-baseboard-hw:TPD4E05U06_PASS D?
+U 1 1 63DB6B08
+P 10375 8025
+AR Path="/61C01D88/63DB6B08" Ref="D?"  Part="1" 
+AR Path="/61A2F307/63DB6B08" Ref="D?"  Part="1" 
+F 0 "D?" V 10858 7975 60  0000 C CNN
+F 1 "TPD4E05U06_PASS" V 10964 7975 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TPD4E05U06_PASS" H 10375 8025 60  0001 C CNN
+F 3 "" H 10375 8025 60  0001 C CNN
+F 4 "Texas Instruments" H 10375 8025 50  0001 C CNN "Manufacturer"
+F 5 "TPD4E05U06DQAR" H 10375 8025 50  0001 C CNN "MPN"
+	1    10375 8025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10175 7825 10175 7775
+Wire Wire Line
+	10175 7775 10075 7775
+Wire Wire Line
+	9875 7775 9875 7950
+Wire Wire Line
+	10075 7825 10075 7775
+Connection ~ 10075 7775
+Wire Wire Line
+	10075 7775 9875 7775
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 63DB6B14
+P 9875 7950
+AR Path="/61A60486/63DB6B14" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/63DB6B14" Ref="#PWR?"  Part="1" 
+AR Path="/61A2F307/63DB6B14" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9875 7700 50  0001 C CNN
+F 1 "GND" H 9880 7777 50  0000 C CNN
+F 2 "" H 9875 7950 50  0001 C CNN
+F 3 "" H 9875 7950 50  0001 C CNN
+	1    9875 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10375 7700 10475 7700
+Wire Wire Line
+	10475 7700 10475 7825
+Wire Wire Line
+	10375 7600 10575 7600
+Wire Wire Line
+	10575 7600 10575 7825
+NoConn ~ 10375 7825
+NoConn ~ 10275 7825
+Text GLabel 10375 7600 0    50   BiDi ~ 0
+USB2C_HS_D_P
+Text GLabel 10375 7700 0    50   BiDi ~ 0
+USB2C_HS_D_N
 $EndSCHEMATC
