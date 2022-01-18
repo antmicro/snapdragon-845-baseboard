@@ -186,10 +186,6 @@ Text Label 13575 5825 0    50   ~ 0
 ETH_LED0
 Wire Wire Line
 	11700 6025 11600 6025
-Text GLabel 12000 5925 2    50   Input ~ 0
-3V3_SYS
-Text GLabel 12000 6025 2    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	12475 6225 12475 6125
 Wire Wire Line
@@ -312,41 +308,56 @@ Text Notes 12325 5400 0    50   ~ 0
 Should this diode be TVS?
 Text Notes 10675 7300 0    50   ~ 10
 Possible replacement:\nhttps://www.l-p.com/products/457392.htm
-Text GLabel 4850 3100 0    50   Input ~ 0
+Text GLabel 3625 3100 0    50   Input ~ 0
 3V3_SYS
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C2
 U 1 1 62C66184
-P 5325 3350
-F 0 "C2" H 5440 3395 60  0000 L CNN
-F 1 "C_100n_0402" H 5325 3200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5525 3550 60  0001 L CNN
-F 3 "" H 5325 3350 50  0001 C CNN
-F 4 "Walsin" H 5525 3750 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5525 3650 60  0001 L CNN "MPN"
-F 6 "100n" H 5440 3297 50  0000 L CNN "Val"
-	1    5325 3350
+P 4925 3350
+F 0 "C2" H 5040 3395 60  0000 L CNN
+F 1 "C_100n_0402" H 4925 3200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5125 3550 60  0001 L CNN
+F 3 "" H 4925 3350 50  0001 C CNN
+F 4 "Walsin" H 5125 3750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5125 3650 60  0001 L CNN "MPN"
+F 6 "100n" H 5040 3297 50  0000 L CNN "Val"
+	1    4925 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C3
 U 1 1 62C66AB1
-P 5750 3350
-F 0 "C3" H 5865 3395 60  0000 L CNN
-F 1 "C_100n_0402" H 5750 3200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5950 3550 60  0001 L CNN
-F 3 "" H 5750 3350 50  0001 C CNN
-F 4 "Walsin" H 5950 3750 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5950 3650 60  0001 L CNN "MPN"
-F 6 "100n" H 5865 3297 50  0000 L CNN "Val"
-	1    5750 3350
+P 5350 3350
+F 0 "C3" H 5465 3395 60  0000 L CNN
+F 1 "C_100n_0402" H 5350 3200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5550 3550 60  0001 L CNN
+F 3 "" H 5350 3350 50  0001 C CNN
+F 4 "Walsin" H 5550 3750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5550 3650 60  0001 L CNN "MPN"
+F 6 "100n" H 5465 3297 50  0000 L CNN "Val"
+	1    5350 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:C_4u7_0402 C4
 U 1 1 62C67F6F
+P 5775 3350
+F 0 "C4" H 5890 3441 60  0000 L CNN
+F 1 "C_4u7_0402" H 5775 3200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5975 3550 60  0001 L CNN
+F 3 "" H 5775 3350 50  0001 C CNN
+F 4 "MURATA" H 5975 3750 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 5975 3650 60  0001 L CNN "MPN"
+F 6 "4u7" H 5890 3343 50  0000 L CNN "Val"
+F 7 "DNP" H 5890 3252 50  0000 L CNN "DNP"
+	1    5775 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_4u7_0402 C5
+U 1 1 62C68893
 P 6175 3350
-F 0 "C4" H 6290 3441 60  0000 L CNN
+F 0 "C5" H 6290 3441 60  0000 L CNN
 F 1 "C_4u7_0402" H 6175 3200 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6375 3550 60  0001 L CNN
 F 3 "" H 6175 3350 50  0001 C CNN
@@ -357,48 +368,33 @@ F 7 "DNP" H 6290 3252 50  0000 L CNN "DNP"
 	1    6175 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:C_4u7_0402 C5
-U 1 1 62C68893
-P 6575 3350
-F 0 "C5" H 6690 3441 60  0000 L CNN
-F 1 "C_4u7_0402" H 6575 3200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6775 3550 60  0001 L CNN
-F 3 "" H 6575 3350 50  0001 C CNN
-F 4 "MURATA" H 6775 3750 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61A475MEAAD" H 6775 3650 60  0001 L CNN "MPN"
-F 6 "4u7" H 6690 3343 50  0000 L CNN "Val"
-F 7 "DNP" H 6690 3252 50  0000 L CNN "DNP"
-	1    6575 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5750 3100 5750 3200
+	5350 3100 5350 3200
 Wire Wire Line
-	5325 3100 5325 3200
+	4925 3100 4925 3200
+Wire Wire Line
+	5775 3100 5775 3200
 Wire Wire Line
 	6175 3100 6175 3200
 Wire Wire Line
-	6575 3100 6575 3200
+	4925 3500 4925 3600
 Wire Wire Line
-	5325 3500 5325 3600
+	5350 3600 5350 3500
 Wire Wire Line
-	5750 3600 5750 3500
+	5775 3500 5775 3600
 Wire Wire Line
 	6175 3500 6175 3600
 Wire Wire Line
-	6575 3500 6575 3600
-Wire Wire Line
-	4900 3600 4900 3700
+	4500 3600 4500 3700
 $Comp
 L sa800u-baseboard-hw:GND #PWR02
 U 1 1 62C92996
-P 4900 3700
-F 0 "#PWR02" H 4900 3450 50  0001 C CNN
-F 1 "GND" H 4905 3527 50  0000 C CNN
-F 2 "" H 4900 3700 50  0001 C CNN
-F 3 "" H 4900 3700 50  0001 C CNN
-	1    4900 3700
+P 4500 3700
+F 0 "#PWR02" H 4500 3450 50  0001 C CNN
+F 1 "GND" H 4505 3527 50  0000 C CNN
+F 2 "" H 4500 3700 50  0001 C CNN
+F 3 "" H 4500 3700 50  0001 C CNN
+	1    4500 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -461,72 +457,70 @@ DNP 100nF and \n1uF caps should be placed near pins...
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C48
 U 1 1 61E50090
-P 4900 3350
-F 0 "C48" H 5015 3395 60  0000 L CNN
-F 1 "C_100n_0402" H 4900 3200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5100 3550 60  0001 L CNN
-F 3 "" H 4900 3350 50  0001 C CNN
-F 4 "Walsin" H 5100 3750 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 5100 3650 60  0001 L CNN "MPN"
-F 6 "100n" H 5015 3297 50  0000 L CNN "Val"
-	1    4900 3350
+P 4500 3350
+F 0 "C48" H 4615 3395 60  0000 L CNN
+F 1 "C_100n_0402" H 4500 3200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 4700 3550 60  0001 L CNN
+F 3 "" H 4500 3350 50  0001 C CNN
+F 4 "Walsin" H 4700 3750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 4700 3650 60  0001 L CNN "MPN"
+F 6 "100n" H 4615 3297 50  0000 L CNN "Val"
+	1    4500 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 3100 4900 3200
+	4500 3100 4500 3200
 Wire Wire Line
-	4900 3500 4900 3600
-Connection ~ 4900 3600
+	4500 3500 4500 3600
+Connection ~ 4500 3600
+Connection ~ 4500 3100
+Connection ~ 4925 3100
+Connection ~ 5775 3600
 Wire Wire Line
-	4850 3100 4900 3100
-Connection ~ 4900 3100
-Connection ~ 5325 3100
-Connection ~ 6175 3600
+	4500 3100 4925 3100
 Wire Wire Line
-	4900 3100 5325 3100
+	4500 3600 4925 3600
+Connection ~ 5350 3100
 Wire Wire Line
-	4900 3600 5325 3600
-Connection ~ 5750 3100
+	4925 3100 5350 3100
 Wire Wire Line
-	5325 3100 5750 3100
+	4925 3600 5350 3600
+Connection ~ 4925 3600
+Connection ~ 5775 3100
 Wire Wire Line
-	5325 3600 5750 3600
-Connection ~ 5325 3600
-Connection ~ 6175 3100
+	5350 3100 5775 3100
 Wire Wire Line
-	5750 3100 6175 3100
+	5350 3600 5775 3600
+Connection ~ 5350 3600
 Wire Wire Line
-	5750 3600 6175 3600
-Connection ~ 5750 3600
+	5775 3600 6175 3600
+Wire Wire Line
+	5775 3100 6175 3100
+$Comp
+L sa800u-baseboard-hw:C_4u7_0402 C96
+U 1 1 61EB43EC
+P 6575 3350
+F 0 "C96" H 6690 3441 60  0000 L CNN
+F 1 "C_4u7_0402" H 6575 3200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6775 3550 60  0001 L CNN
+F 3 "" H 6575 3350 50  0001 C CNN
+F 4 "MURATA" H 6775 3750 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 6775 3650 60  0001 L CNN "MPN"
+F 6 "4u7" H 6690 3343 50  0000 L CNN "Val"
+F 7 "DNP" H 6690 3252 50  0000 L CNN "DNP"
+	1    6575 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 3100 6575 3200
+Wire Wire Line
+	6575 3500 6575 3600
 Wire Wire Line
 	6175 3600 6575 3600
 Wire Wire Line
 	6175 3100 6575 3100
-$Comp
-L sa800u-baseboard-hw:C_4u7_0402 C96
-U 1 1 61EB43EC
-P 6975 3350
-F 0 "C96" H 7090 3441 60  0000 L CNN
-F 1 "C_4u7_0402" H 6975 3200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 7175 3550 60  0001 L CNN
-F 3 "" H 6975 3350 50  0001 C CNN
-F 4 "MURATA" H 7175 3750 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R61A475MEAAD" H 7175 3650 60  0001 L CNN "MPN"
-F 6 "4u7" H 7090 3343 50  0000 L CNN "Val"
-F 7 "DNP" H 7090 3252 50  0000 L CNN "DNP"
-	1    6975 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6975 3100 6975 3200
-Wire Wire Line
-	6975 3500 6975 3600
-Wire Wire Line
-	6575 3600 6975 3600
-Wire Wire Line
-	6575 3100 6975 3100
-Connection ~ 6575 3100
-Connection ~ 6575 3600
+Connection ~ 6175 3100
+Connection ~ 6175 3600
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C10
 U 1 1 62C96EE7
@@ -747,8 +741,6 @@ F 6 "2k49_1%" V 6953 6695 50  0000 L CNN "Val"
 	1    6900 6625
 	0    -1   1    0   
 $EndComp
-Text GLabel 6275 4525 0    50   Input ~ 0
-3V3_SYS
 $Comp
 L sa800u-baseboard-hw:RTL8111H U1
 U 1 1 61A1B9F8
@@ -941,8 +933,6 @@ F 6 "10k" V 5028 4745 50  0000 L CNN "Val"
 	1    4975 4675
 	0    1    1    0   
 $EndComp
-Text GLabel 4850 4525 0    50   Input ~ 0
-1V8_SYS
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R13
 U 1 1 619C7B6B
@@ -1063,4 +1053,47 @@ Wire Wire Line
 	8050 5975 10500 5975
 Wire Wire Line
 	8050 5875 10500 5875
+Text GLabel 4850 4525 0    50   Input ~ 0
+VREG_S4A_1V8
+$Comp
+L sa800u-baseboard-hw:BLM18SG121TN1D FB?
+U 1 1 631C3DCA
+P 3825 3100
+F 0 "FB?" H 3825 3387 60  0000 C CNN
+F 1 "BLM18SG121TN1D" H 3825 3281 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 4025 3300 60  0001 L CNN
+F 3 "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18SG121TN1%23" H 4025 3400 60  0001 L CNN
+F 4 "BLM18SG121TN1D" H 4025 3600 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 4025 4200 60  0001 L CNN "Manufacturer"
+	1    3825 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 3100 4500 3100
+Text Label 6950 3100 2    50   ~ 0
+ETH_3V3
+Wire Wire Line
+	6575 3100 6950 3100
+Connection ~ 6575 3100
+$Comp
+L sa800u-baseboard-hw:PWR_FLAG #FLG?
+U 1 1 63216C75
+P 6175 3100
+F 0 "#FLG?" H 6175 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 6175 3273 50  0000 C CNN
+F 2 "" H 6175 3100 50  0001 C CNN
+F 3 "~" H 6175 3100 50  0001 C CNN
+	1    6175 3100
+	1    0    0    -1  
+$EndComp
+Text Label 6275 4525 0    50   ~ 0
+ETH_3V3
+Text Label 12375 5925 2    50   ~ 0
+ETH_3V3
+Wire Wire Line
+	12375 5925 12000 5925
+Text Label 12375 6025 2    50   ~ 0
+ETH_3V3
+Wire Wire Line
+	12375 6025 12000 6025
 $EndSCHEMATC
