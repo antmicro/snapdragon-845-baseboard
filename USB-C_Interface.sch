@@ -218,20 +218,6 @@ Wire Wire Line
 	2950 800  5000 800 
 Wire Wire Line
 	5000 800  5000 1800
-$Comp
-L sa800u-baseboard-hw:C_1u_0402 C68
-U 1 1 61ACCBAB
-P 2950 2550
-F 0 "C68" H 3065 2595 60  0000 L CNN
-F 1 "C_1u_0402" H 2950 2400 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 3150 2750 60  0001 L CNN
-F 3 "" H 2950 2550 50  0001 C CNN
-F 4 "TDK" H 3150 2950 60  0001 L CNN "Manufacturer"
-F 5 "C1005X6S1A105K050BC" H 3150 2850 60  0001 L CNN "MPN"
-F 6 "1u" H 3065 2497 50  0000 L CNN "Val"
-	1    2950 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 1800 2950 1800
 Connection ~ 2950 1800
@@ -248,13 +234,6 @@ F 3 "" H 3400 3150 50  0001 C CNN
 	1    3400 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 2300 2950 2400
-Connection ~ 2950 2300
-Wire Wire Line
-	2950 2700 2950 3050
-Wire Wire Line
-	2950 3050 3400 3050
 Wire Wire Line
 	3550 1500 3400 1500
 Wire Wire Line
@@ -330,11 +309,6 @@ Text Label 1250 2200 0    50   ~ 0
 USB_SBU1
 Wire Wire Line
 	1250 2200 3550 2200
-Wire Wire Line
-	3550 2400 2950 2400
-Connection ~ 2950 2400
-Wire Wire Line
-	2950 2400 2250 2400
 Wire Wire Line
 	3550 2500 2600 2500
 Wire Wire Line
@@ -574,12 +548,7 @@ Wire Wire Line
 	3550 2700 3400 2700
 Connection ~ 3400 2700
 Wire Wire Line
-	3400 2700 3400 3050
-Wire Wire Line
 	4800 2600 4800 3150
-Wire Wire Line
-	3400 3050 3400 3150
-Connection ~ 3400 3050
 $Comp
 L sa800u-baseboard-hw:TPD1E10B06DPYR D11
 U 1 1 62775FA4
@@ -2435,4 +2404,29 @@ Text GLabel 10375 7600 0    50   BiDi ~ 0
 USB2C_HS_D_P
 Text GLabel 10375 7700 0    50   BiDi ~ 0
 USB2C_HS_D_N
+Wire Wire Line
+	3400 3050 3400 3150
+Wire Wire Line
+	3400 2700 3400 3050
+Connection ~ 3400 3050
+Wire Wire Line
+	2950 3050 3400 3050
+Wire Wire Line
+	2950 2700 2950 3050
+$Comp
+L sa800u-baseboard-hw:C_1u_0402 C68
+U 1 1 61ACCBAB
+P 925 3100
+F 0 "C68" H 1040 3145 60  0000 L CNN
+F 1 "C_1u_0402" H 925 2950 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 1125 3300 60  0001 L CNN
+F 3 "" H 925 3100 50  0001 C CNN
+F 4 "TDK" H 1125 3500 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 1125 3400 60  0001 L CNN "MPN"
+F 6 "1u" H 1040 3047 50  0000 L CNN "Val"
+	1    925  3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2400 3550 2400
 $EndSCHEMATC
