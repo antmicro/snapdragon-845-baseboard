@@ -14,203 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L sa800u-baseboard-hw:TS3USB30EDGSR U6
-U 1 1 61A48DAE
-P 7700 2250
-F 0 "U6" H 7500 2900 60  0000 C CNN
-F 1 "TS3USB30EDGSR" H 6900 2900 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:MSOP-10_W3mm" H 7850 2440 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fts3usb30e" H 7850 2540 60  0001 L CNN
-F 4 "TS3USB30EDGSR" H 7850 2740 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 7870 3350 60  0001 L CNN "Manufacturer"
-	1    7700 2250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 1450 7700 1400
-Text Label 6950 1850 0    50   ~ 0
-USB_SBU1
-Text Label 6950 2250 0    50   ~ 0
-USB_SBU2
-Wire Wire Line
-	6950 2250 7400 2250
-Wire Wire Line
-	6950 1850 7400 1850
-$Comp
-L sa800u-baseboard-hw:GND #PWR053
-U 1 1 61A4FE6D
-P 7800 3200
-F 0 "#PWR053" H 7800 2950 50  0001 C CNN
-F 1 "GND" H 7805 3027 50  0000 C CNN
-F 2 "" H 7800 3200 50  0001 C CNN
-F 3 "" H 7800 3200 50  0001 C CNN
-	1    7800 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 3050 7800 3200
-$Comp
-L sa800u-baseboard-hw:GND #PWR050
-U 1 1 61A52AC4
-P 6350 1750
-F 0 "#PWR050" H 6350 1500 50  0001 C CNN
-F 1 "GND" H 6355 1577 50  0000 C CNN
-F 2 "" H 6350 1750 50  0001 C CNN
-F 3 "" H 6350 1750 50  0001 C CNN
-	1    6350 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_1u_0402 C84
-U 1 1 61A55FCB
-P 6350 1600
-F 0 "C84" H 6465 1645 60  0000 L CNN
-F 1 "C_1u_0402" H 6350 1450 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6550 1800 60  0001 L CNN
-F 3 "" H 6350 1600 50  0001 C CNN
-F 4 "TDK" H 6550 2000 60  0001 L CNN "Manufacturer"
-F 5 "C1005X6S1A105K050BC" H 6550 1900 60  0001 L CNN "MPN"
-F 6 "1u" H 6465 1547 50  0000 L CNN "Val"
-	1    6350 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 1400 6350 1400
-Wire Wire Line
-	6350 1450 6350 1400
-Connection ~ 6350 1400
-Wire Wire Line
-	6350 1400 7700 1400
-Wire Wire Line
-	8100 2750 8250 2750
-Wire Wire Line
-	8250 2750 8250 2850
-$Comp
-L sa800u-baseboard-hw:R_2k2_0402 R68
-U 1 1 61A77AD1
-P 8250 3000
-F 0 "R68" V 8205 3070 60  0000 L CNN
-F 1 "R_2k2_0402" H 8250 2850 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8450 3200 60  0001 L CNN
-F 3 "" H 8250 3000 50  0001 C CNN
-F 4 "YAGEO" H 8450 3400 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-072K2L" H 8450 3300 60  0001 L CNN "MPN"
-F 6 "2k2" V 8303 3070 50  0000 L CNN "Val"
-	1    8250 3000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8250 3450 8400 3450
-Wire Wire Line
-	8250 3150 8250 3450
-Wire Wire Line
-	8250 2750 8350 2750
-Connection ~ 8250 2750
-Wire Wire Line
-	8100 2550 8350 2550
-Wire Wire Line
-	8100 1750 9000 1750
-Wire Wire Line
-	9000 2350 9000 2500
-Wire Wire Line
-	9000 2350 9000 1750
-Connection ~ 9000 2350
-$Comp
-L sa800u-baseboard-hw:R_100k_0402 R69
-U 1 1 61A919E7
-P 9000 2650
-F 0 "R69" V 8955 2720 60  0000 L CNN
-F 1 "R_100k_0402" H 9000 2500 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9200 2850 60  0001 L CNN
-F 3 "" H 9000 2650 50  0001 C CNN
-F 4 "VISHAY" H 9200 3050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 9200 2950 60  0001 L CNN "MPN"
-F 6 "100k" V 9053 2720 50  0000 L CNN "Val"
-	1    9000 2650
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_100k_0402 R70
-U 1 1 61A91F11
-P 9350 2650
-F 0 "R70" V 9305 2720 60  0000 L CNN
-F 1 "R_100k_0402" H 9350 2500 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9550 2850 60  0001 L CNN
-F 3 "" H 9350 2650 50  0001 C CNN
-F 4 "VISHAY" H 9550 3050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 9550 2950 60  0001 L CNN "MPN"
-F 6 "100k" V 9403 2720 50  0000 L CNN "Val"
-	1    9350 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9350 1950 9350 2150
-Connection ~ 9350 1950
-Wire Wire Line
-	8100 2150 9350 2150
-Connection ~ 9350 2150
-Wire Wire Line
-	9350 2150 9350 2500
-Wire Wire Line
-	9000 2800 9000 2900
-$Comp
-L sa800u-baseboard-hw:GND #PWR057
-U 1 1 61A9C117
-P 9000 2900
-F 0 "#PWR057" H 9000 2650 50  0001 C CNN
-F 1 "GND" H 9005 2727 50  0000 C CNN
-F 2 "" H 9000 2900 50  0001 C CNN
-F 3 "" H 9000 2900 50  0001 C CNN
-	1    9000 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 2800 9350 2950
-Wire Wire Line
-	9350 1950 9800 1950
-Wire Wire Line
-	9000 2350 9800 2350
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C90
-U 1 1 61AA1C18
-P 9950 1950
-F 0 "C90" V 9692 1950 60  0000 C CNN
-F 1 "C_100n_0402" H 9950 1800 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10150 2150 60  0001 L CNN
-F 3 "" H 9950 1950 50  0001 C CNN
-F 4 "Walsin" H 10150 2350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 10150 2250 60  0001 L CNN "MPN"
-F 6 "100n" V 9790 1950 50  0000 C CNN "Val"
-	1    9950 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C91
-U 1 1 61AA25EA
-P 9950 2350
-F 0 "C91" V 10118 2350 60  0000 C CNN
-F 1 "C_100n_0402" H 9950 2200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10150 2550 60  0001 L CNN
-F 3 "" H 9950 2350 50  0001 C CNN
-F 4 "Walsin" H 10150 2750 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 10150 2650 60  0001 L CNN "MPN"
-F 6 "100n" V 10216 2350 50  0000 C CNN "Val"
-	1    9950 2350
-	0    1    1    0   
-$EndComp
-Text GLabel 10350 1950 2    50   Input ~ 0
-EDP_AUX_N
-Text GLabel 10350 2350 2    50   Input ~ 0
-EDP_AUX_P
-Wire Wire Line
-	10100 1950 10350 1950
-Wire Wire Line
-	10100 2350 10350 2350
-Text Notes 7450 1350 0    50   ~ 0
-This should be optional,\nhard to get component and\nnot necessary.
-Text GLabel 8400 3450 1    50   Input ~ 0
-1V8
-$Comp
 L sa800u-baseboard-hw:WE_632723300011 J3
 U 1 1 61C60EDE
 P 2900 1950
@@ -1253,12 +1056,6 @@ F 6 "100n" H 9840 5622 50  0000 L CNN "Val"
 $EndComp
 Wire Notes Line
 	10850 10600 500  10600
-Text GLabel 8350 2550 2    50   Input ~ 0
-SBU_SW_SEL
-Text GLabel 8350 2750 2    50   Input ~ 0
-SBU_SW_OE
-Text GLabel 9350 2950 3    50   Input ~ 0
-3V3
 $Comp
 L sa800u-baseboard-hw:FT232RQ-REEL U9
 U 1 1 61E5B4AE
@@ -1897,8 +1694,6 @@ Connection ~ 14775 4575
 Wire Wire Line
 	15175 4475 15275 4475
 Connection ~ 15175 4475
-Text GLabel 6150 1400 0    50   Input ~ 0
-VREG_S4A_1V8
 Text Label 5650 5700 2    50   ~ 0
 USB2_5V
 Text Label 6000 8425 0    50   ~ 0
@@ -2430,12 +2225,216 @@ Wire Wire Line
 	4500 3550 5250 3550
 Wire Wire Line
 	4500 3450 5350 3450
-Text Label 8125 1950 0    50   ~ 0
-USB_SBU1_EDP_AUX_N
 Wire Wire Line
-	8100 2350 9000 2350
-Wire Wire Line
-	8100 1950 9350 1950
+	8250 3450 8400 3450
+$Comp
+L sa800u-baseboard-hw:FSUSB30MUX U?
+U 1 1 650075CA
+P 7700 2250
+F 0 "U?" H 7650 3253 60  0000 C CNN
+F 1 "FSUSB30MUX" H 7650 3147 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:MSOP-10_W3mm" H 7850 2440 60  0001 L CNN
+F 3 "" H 7850 2540 60  0001 L CNN
+F 4 "FSUSB30MUX" H 7850 2740 60  0001 L CNN "MPN"
+F 5 "ON SEMI" H 7870 3350 60  0001 L CNN "Manufacturer"
+	1    7700 2250
+	-1   0    0    -1  
+$EndComp
 Text Label 8125 2350 0    50   ~ 0
 USB_SBU2_EDP_AUX_P
+Wire Wire Line
+	8100 1950 9350 1950
+Wire Wire Line
+	8100 2350 9000 2350
+Text Label 8125 1950 0    50   ~ 0
+USB_SBU1_EDP_AUX_N
+Text GLabel 6150 1400 0    50   Input ~ 0
+VREG_S4A_1V8
+Text GLabel 9350 1150 2    50   Input ~ 0
+3V3
+Text GLabel 8350 2750 2    50   Input ~ 0
+SBU_SW_OE
+Text GLabel 8350 2550 2    50   Input ~ 0
+SBU_SW_SEL
+Text GLabel 8400 3450 1    50   Input ~ 0
+1V8
+Text Notes 7300 1125 0    50   ~ 0
+This should be optional,\nhard to get component and\nnot necessary.
+Wire Wire Line
+	10100 2350 10350 2350
+Wire Wire Line
+	10100 1950 10350 1950
+Text GLabel 10350 2350 2    50   Input ~ 0
+EDP_AUX_P
+Text GLabel 10350 1950 2    50   Input ~ 0
+EDP_AUX_N
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C91
+U 1 1 61AA25EA
+P 9950 2350
+F 0 "C91" V 10118 2350 60  0000 C CNN
+F 1 "C_100n_0402" H 9950 2200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10150 2550 60  0001 L CNN
+F 3 "" H 9950 2350 50  0001 C CNN
+F 4 "Walsin" H 10150 2750 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 10150 2650 60  0001 L CNN "MPN"
+F 6 "100n" V 10216 2350 50  0000 C CNN "Val"
+	1    9950 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C90
+U 1 1 61AA1C18
+P 9950 1950
+F 0 "C90" V 9692 1950 60  0000 C CNN
+F 1 "C_100n_0402" H 9950 1800 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 10150 2150 60  0001 L CNN
+F 3 "" H 9950 1950 50  0001 C CNN
+F 4 "Walsin" H 10150 2350 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 10150 2250 60  0001 L CNN "MPN"
+F 6 "100n" V 9790 1950 50  0000 C CNN "Val"
+	1    9950 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 1950 9800 1950
+Wire Wire Line
+	9350 1300 9350 1150
+Wire Wire Line
+	9350 1950 9350 1600
+Wire Wire Line
+	8100 2150 9350 2150
+Connection ~ 9350 1950
+Wire Wire Line
+	9350 1950 9350 2150
+$Comp
+L sa800u-baseboard-hw:R_100k_0402 R70
+U 1 1 61A91F11
+P 9350 1450
+F 0 "R70" V 9305 1520 60  0000 L CNN
+F 1 "R_100k_0402" H 9350 1300 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9550 1650 60  0001 L CNN
+F 3 "" H 9350 1450 50  0001 C CNN
+F 4 "VISHAY" H 9550 1850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 9550 1750 60  0001 L CNN "MPN"
+F 6 "100k" V 9403 1520 50  0000 L CNN "Val"
+	1    9350 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9000 2350
+Wire Wire Line
+	9000 2350 9000 1750
+Wire Wire Line
+	8100 1750 9000 1750
+Wire Wire Line
+	8100 2550 8350 2550
+Connection ~ 8250 2750
+Wire Wire Line
+	8250 2750 8350 2750
+Wire Wire Line
+	8250 3150 8250 3450
+$Comp
+L sa800u-baseboard-hw:R_2k2_0402 R68
+U 1 1 61A77AD1
+P 8250 3000
+F 0 "R68" V 8205 3070 60  0000 L CNN
+F 1 "R_2k2_0402" H 8250 2850 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8450 3200 60  0001 L CNN
+F 3 "" H 8250 3000 50  0001 C CNN
+F 4 "YAGEO" H 8450 3400 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 8450 3300 60  0001 L CNN "MPN"
+F 6 "2k2" V 8303 3070 50  0000 L CNN "Val"
+	1    8250 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 2750 8250 2850
+Wire Wire Line
+	8100 2750 8250 2750
+Wire Wire Line
+	6350 1400 7700 1400
+Connection ~ 6350 1400
+Wire Wire Line
+	6350 1450 6350 1400
+Wire Wire Line
+	6150 1400 6350 1400
+$Comp
+L sa800u-baseboard-hw:C_1u_0402 C84
+U 1 1 61A55FCB
+P 6350 1600
+F 0 "C84" H 6465 1645 60  0000 L CNN
+F 1 "C_1u_0402" H 6350 1450 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6550 1800 60  0001 L CNN
+F 3 "" H 6350 1600 50  0001 C CNN
+F 4 "TDK" H 6550 2000 60  0001 L CNN "Manufacturer"
+F 5 "C1005X6S1A105K050BC" H 6550 1900 60  0001 L CNN "MPN"
+F 6 "1u" H 6465 1547 50  0000 L CNN "Val"
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR050
+U 1 1 61A52AC4
+P 6350 1750
+F 0 "#PWR050" H 6350 1500 50  0001 C CNN
+F 1 "GND" H 6355 1577 50  0000 C CNN
+F 2 "" H 6350 1750 50  0001 C CNN
+F 3 "" H 6350 1750 50  0001 C CNN
+	1    6350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3050 7800 3200
+$Comp
+L sa800u-baseboard-hw:GND #PWR053
+U 1 1 61A4FE6D
+P 7800 3200
+F 0 "#PWR053" H 7800 2950 50  0001 C CNN
+F 1 "GND" H 7805 3027 50  0000 C CNN
+F 2 "" H 7800 3200 50  0001 C CNN
+F 3 "" H 7800 3200 50  0001 C CNN
+	1    7800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1850 7400 1850
+Wire Wire Line
+	6950 2250 7400 2250
+Text Label 6950 2250 0    50   ~ 0
+USB_SBU2
+Text Label 6950 1850 0    50   ~ 0
+USB_SBU1
+Wire Wire Line
+	7700 1450 7700 1400
+Wire Wire Line
+	9000 2350 9800 2350
+$Comp
+L sa800u-baseboard-hw:GND #PWR057
+U 1 1 61A9C117
+P 9000 2900
+F 0 "#PWR057" H 9000 2650 50  0001 C CNN
+F 1 "GND" H 9005 2727 50  0000 C CNN
+F 2 "" H 9000 2900 50  0001 C CNN
+F 3 "" H 9000 2900 50  0001 C CNN
+	1    9000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2800 9000 2900
+$Comp
+L sa800u-baseboard-hw:R_100k_0402 R69
+U 1 1 61A919E7
+P 9000 2650
+F 0 "R69" V 8955 2720 60  0000 L CNN
+F 1 "R_100k_0402" H 9000 2500 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9200 2850 60  0001 L CNN
+F 3 "" H 9000 2650 50  0001 C CNN
+F 4 "VISHAY" H 9200 3050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 9200 2950 60  0001 L CNN "MPN"
+F 6 "100k" V 9053 2720 50  0000 L CNN "Val"
+	1    9000 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9000 2350 9000 2500
 $EndSCHEMATC
