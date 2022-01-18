@@ -1,6 +1,58 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroFerriteBeadsandChips_BLM18SG121TN1D
+#
+DEF antmicroFerriteBeadsandChips_BLM18SG121TN1D FB 0 40 Y Y 1 F N
+F0 "FB" -150 150 60 H V C CNN
+F1 "antmicroFerriteBeadsandChips_BLM18SG121TN1D" 0 -150 60 H V L CNN
+F2 "antmicro-footprints:0603-res" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "BLM18SG121TN1D" 200 500 60 H I L CNN "MPN"
+F5 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_510R_0402
+#
+DEF antmicroResistors0402_R_510R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_510R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Yageo" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402JR-07510RL" 200 300 60 H I L CNN "MPN"
+F6 "510R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0603_R_7k68_0603
+#
+DEF antmicroResistors0603_R_7k68_0603 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0603_R_7k68_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "WR06X7681FTL" 200 300 60 H I L CNN "MPN"
+F6 "7k68" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sa800u-baseboard-hw_1-1734248-5
 #
 DEF sa800u-baseboard-hw_1-1734248-5 J 0 40 Y Y 1 F N
@@ -85,39 +137,6 @@ X VSS 6 -600 -200 100 R 50 50 1 1 W
 X DAT0 7 -600 -300 100 R 50 50 1 1 B
 X DAT1 8 -600 -400 100 R 50 50 1 1 B
 X SHLD 9 -600 -500 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_2N7000
-#
-DEF sa800u-baseboard-hw_2N7000 Q 0 0 Y Y 1 F N
-F0 "Q" -106 143 60 H V R CNN
-F1 "sa800u-baseboard-hw_2N7000" 136 0 60 V V C CNN
-F2 "sa800u-baseboard-hw-footprints:TO-92-3" 200 200 60 H I L CNN
-F3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" 200 300 60 H I L CNN
-F4 "2N7000" 200 500 60 H I L CNN "MPN"
-F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-C -50 0 130 0 1 0 f
-C 0 -75 5 0 1 0 N
-C 0 -55 5 0 1 0 N
-C 0 75 5 0 1 0 N
-P 2 0 1 0 0 -55 -100 -55 N
-P 3 0 1 0 -200 -100 -120 -100 -120 55 N
-P 3 0 1 0 0 -100 0 0 -100 0 N
-P 3 0 1 0 0 100 0 55 -100 55 N
-P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
-P 2 1 1 0 -100 -55 -100 -75 N
-P 2 1 1 0 -100 -55 -100 -35 N
-P 2 1 1 0 -100 0 -100 -20 N
-P 2 1 1 0 -100 0 -100 20 N
-P 2 1 1 0 -100 75 -100 35 N
-P 2 1 1 0 60 20 20 20 N
-P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
-P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
-X S 1 0 -200 100 U 50 50 1 1 B
-X G 2 -300 -100 100 R 50 50 1 1 B
-X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -2254,23 +2273,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "KOA" 200 400 60 H I L CNN "Manufacturer"
 F5 "RN73R1ETTP50R0F50" 200 300 60 H I L CNN "MPN"
 F6 "50R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_510R_0603
-#
-DEF sa800u-baseboard-hw_R_510R_0603 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_510R_0603" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0603-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW0603510RFKEA" 200 300 60 H I L CNN "MPN"
-F6 "510R" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
