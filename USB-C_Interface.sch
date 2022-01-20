@@ -2229,8 +2229,8 @@ $Comp
 L sa800u-baseboard-hw:FSUSB30MUX U?
 U 1 1 650075CA
 P 3900 2425
-F 0 "U?" H 4175 3450 60  0000 C CNN
-F 1 "FSUSB30MUX" H 3925 3350 60  0000 C CNN
+F 0 "U?" H 3900 3725 60  0000 C CNN
+F 1 "FSUSB30MUX" H 3900 3625 60  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:MSOP-10_W3mm" H 4050 2615 60  0001 L CNN
 F 3 "" H 4050 2715 60  0001 L CNN
 F 4 "FSUSB30MUX" H 4050 2915 60  0001 L CNN "MPN"
@@ -2240,8 +2240,6 @@ F 5 "ON SEMI" H 4070 3525 60  0001 L CNN "Manufacturer"
 $EndComp
 Text GLabel 3300 1575 0    50   Input ~ 0
 VREG_S4A_1V8
-Text GLabel 2475 2025 0    50   Input ~ 0
-3V075
 Text GLabel 3300 1925 0    50   Input ~ 0
 SBU_SW_OE
 Text GLabel 3300 2025 0    50   Input ~ 0
@@ -2387,9 +2385,6 @@ $EndComp
 Wire Wire Line
 	3500 1600 3500 1575
 Wire Wire Line
-	3500 1575 3900 1575
-Connection ~ 3900 1575
-Wire Wire Line
 	3900 1575 3900 1675
 Wire Wire Line
 	4175 1625 4175 1575
@@ -2455,5 +2450,17 @@ Wire Wire Line
 	2475 2025 2525 2025
 Wire Wire Line
 	3300 1575 3500 1575
-Connection ~ 3500 1575
+Text GLabel 3825 1350 0    50   Input ~ 0
+3V3_SYS
+Wire Wire Line
+	3825 1350 3900 1350
+Wire Wire Line
+	3900 1350 3900 1575
+Connection ~ 3900 1575
+Text Label 3050 2425 2    50   ~ 0
+USB_SBU2_1
+Text Label 3075 2625 2    50   ~ 0
+USB_SBU_1_2
+Text GLabel 2475 2025 0    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
