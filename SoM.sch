@@ -1067,8 +1067,6 @@ F 3 "" H 4500 9925 50  0001 C CNN
 $EndComp
 Text GLabel 4500 9425 2    50   Input ~ 0
 VBAT
-Text Notes 4400 9575 0    50   ~ 0
-Should this VBAT be here?\n
 $Comp
 L sa800u-baseboard-hw:MC-HVT1-S04-G J7
 U 1 1 61E93EA5
@@ -2400,8 +2398,6 @@ NoConn ~ 8100 4600
 NoConn ~ 8100 4700
 NoConn ~ 8100 5000
 NoConn ~ 8100 5100
-Text Notes 525  775  0    50   ~ 0
-Separate 3D model of device and connecors.\nThis will allow disabling SA800U model when \nplacing components under it keeping connectors in view.
 Wire Wire Line
 	4150 8925 4525 8925
 Text GLabel 10250 5200 2    50   Output ~ 0
@@ -2416,17 +2412,6 @@ Text GLabel 7600 8900 0    50   Output ~ 0
 LDO19A_3V0
 Wire Wire Line
 	8100 8900 7775 8900
-Text GLabel 7600 8400 0    50   Output ~ 0
-VREG_BOB
-Wire Wire Line
-	7600 8400 7775 8400
-Connection ~ 8000 8400
-Wire Wire Line
-	8000 8400 8100 8400
-Wire Wire Line
-	8000 8400 8000 8500
-Wire Wire Line
-	8000 8500 8100 8500
 Text GLabel 7600 6500 0    50   Input ~ 0
 USB2_SS_RX_P
 $Comp
@@ -2729,20 +2714,6 @@ F 3 "~" H 7775 8900 50  0001 C CNN
 	1    7775 8900
 	-1   0    0    1   
 $EndComp
-$Comp
-L sa800u-baseboard-hw:PWR_FLAG #FLG0105
-U 1 1 6486CB93
-P 7775 8400
-F 0 "#FLG0105" H 7775 8475 50  0001 C CNN
-F 1 "PWR_FLAG" H 7775 8573 50  0000 C CNN
-F 2 "" H 7775 8400 50  0001 C CNN
-F 3 "~" H 7775 8400 50  0001 C CNN
-	1    7775 8400
-	1    0    0    -1  
-$EndComp
-Connection ~ 7775 8400
-Wire Wire Line
-	7775 8400 8000 8400
 Connection ~ 7775 8800
 Wire Wire Line
 	7775 8800 7600 8800
@@ -2920,4 +2891,22 @@ Wire Wire Line
 Connection ~ 4525 8925
 Wire Wire Line
 	4525 8925 4650 8925
+NoConn ~ 8100 8400
+NoConn ~ 8100 8500
+Text Notes 6475 8025 0    50   ~ 0
+Comment:\n1.8V @2A\nPower supply for external GPIO’s\npull-up circuit and level shift circuit
+Text Notes 6475 8725 0    50   ~ 0
+Comment:\n1.8V @100mA\nPower supply for\nIOVDD or VDD of sensors
+Text Notes 6475 9225 0    50   ~ 0
+Comment:\n3.0V @600mA\nPower supply for\nsensors
+Text Notes 6450 10100 0    50   ~ 0
+Comment:\n4.0V - 15V Input OR \n5V output\nCharging power\ninput.\nPower output for\nOTG device.\nUSB/adaptor\ninsertion detect
+Text Notes 5125 8925 0    50   ~ 0
+Comment:\n1.8V @300mA\nPower supply for\nIOVDD of cameras
+Text Notes 5125 9300 0    50   ~ 0
+Comment:\n2.95V @800mA\nSD card power supply
+Text Notes 4750 9775 0    50   ~ 0
+Comment:\nPower supply for the module\n3.55V - 4.4V INPUT, 3.8 nominal\nMust be provided with sufficient\ncurrent of up to 3 A
+Text Notes 500  11150 0    50   ~ 0
+Comment:\nPower rails from connectors 3&4 of SOM:\nLDO12A_1V8   : 1.8V @300mA (low power mode charger)\nLDO14A_1V88: 1.8V @50mA (Power supply for IOVDD of TP and LCDs)\nLDO24A_3V075: 3.075V @150mA (Power supply for DP’s pull-up circuits.\nLDO28A_3V0 :3.0V@150mA (Power supply for VDD of TP)\n
 $EndSCHEMATC
