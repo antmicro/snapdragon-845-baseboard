@@ -375,8 +375,6 @@ F 6 "4k7" V 5353 9620 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9075 4600 9325 4600
-Wire Wire Line
 	11425 4600 11425 4700
 Wire Wire Line
 	9325 4600 9325 4700
@@ -696,10 +694,6 @@ Text Label 11850 2500 0    50   ~ 0
 SCL_HDMI
 Text Label 11850 2600 0    50   ~ 0
 SDA_HDMI
-Wire Wire Line
-	11850 2500 13250 2500
-Wire Wire Line
-	11850 2600 13600 2600
 NoConn ~ 14750 2700
 Wire Wire Line
 	14750 2900 13950 2900
@@ -964,8 +958,6 @@ Wire Wire Line
 	6650 900  6850 900 
 Text GLabel 5900 900  0    50   Input ~ 0
 1V2_SYS
-Text GLabel 8400 900  0    50   Input ~ 0
-LT9611_VDD12
 Wire Wire Line
 	8450 900  8450 1000
 Wire Wire Line
@@ -1177,10 +1169,6 @@ Connection ~ 8850 1700
 Wire Wire Line
 	9250 2100 9250 2200
 Connection ~ 8850 2200
-Text GLabel 8400 1700 0    50   Input ~ 0
-LT9611_VCC12_RX
-Text GLabel 8400 2450 0    50   Input ~ 0
-LT9611_VCC12_TX
 $Comp
 L sa800u-baseboard-hw:C_10u_0402 C44
 U 1 1 62B1B953
@@ -1342,8 +1330,6 @@ F 3 "~" H 6850 900 50  0001 C CNN
 $EndComp
 Connection ~ 6850 900 
 Wire Wire Line
-	6850 900  6950 900 
-Wire Wire Line
 	6650 1150 6850 1150
 Wire Wire Line
 	6650 1450 6850 1450
@@ -1372,8 +1358,6 @@ F 3 "~" H 1975 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1975 900 
-Wire Wire Line
-	1975 900  2075 900 
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0112
 U 1 1 620F4B36
@@ -1386,11 +1370,7 @@ F 3 "~" H 1975 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1975 1150
-Wire Wire Line
-	1975 1150 2075 1150
 Connection ~ 1975 1450
-Wire Wire Line
-	1975 1450 2075 1450
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0114
 U 1 1 620F566F
@@ -1403,8 +1383,6 @@ F 3 "~" H 6850 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6850 1150
-Wire Wire Line
-	6850 1150 6950 1150
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0115
 U 1 1 620F604C
@@ -1417,8 +1395,6 @@ F 3 "~" H 6850 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6850 1450
-Wire Wire Line
-	6850 1450 6950 1450
 Text Label 2675 7875 2    50   ~ 0
 I2C_ADDR
 Wire Wire Line
@@ -1667,7 +1643,7 @@ $EndComp
 Wire Wire Line
 	13525 6650 13525 6700
 Text GLabel 12850 7000 0    50   Input ~ 0
-3V3
+3V3_SYS
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R59
 U 1 1 6248A4C3
@@ -1827,10 +1803,6 @@ Wire Wire Line
 Connection ~ 2475 7325
 Wire Wire Line
 	2750 7225 3200 7225
-Wire Wire Line
-	4800 5075 6300 5075
-Wire Wire Line
-	4800 5175 6600 5175
 Text Label 7175 6175 2    50   ~ 0
 DETECT_HDMI
 Text Label 7175 5175 2    50   ~ 0
@@ -1881,36 +1853,6 @@ F 6 "0R" H 6475 5954 50  0000 C CNN "Val"
 	1    6475 6175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 4575 6600 4625
-Wire Wire Line
-	6300 4575 6600 4575
-Wire Wire Line
-	6300 4625 6300 4575
-Wire Wire Line
-	6600 5175 7175 5175
-Connection ~ 6600 5175
-Wire Wire Line
-	6600 4925 6600 5175
-$Comp
-L sa800u-baseboard-hw:R_2k2_0402 R31
-U 1 1 61A367B5
-P 6300 4775
-F 0 "R31" V 6255 4845 60  0000 L CNN
-F 1 "R_2k2_0402" H 6300 4625 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6500 4975 60  0001 L CNN
-F 3 "" H 6300 4775 50  0001 C CNN
-F 4 "YAGEO" H 6500 5175 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-072K2L" H 6500 5075 60  0001 L CNN "MPN"
-F 6 "2k2" V 6353 4845 50  0000 L CNN "Val"
-	1    6300 4775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6300 5075 7175 5075
-Connection ~ 6300 5075
-Wire Wire Line
-	6300 5075 6300 4925
 NoConn ~ 4800 6775
 NoConn ~ 4800 6675
 NoConn ~ 4800 6575
@@ -1960,10 +1902,6 @@ Wire Wire Line
 	2025 4425 2350 4425
 Wire Wire Line
 	1375 4925 2350 4925
-Text GLabel 2075 900  2    50   Output ~ 0
-LT9611_VCC33_IO
-Text GLabel 2075 1150 2    50   Output ~ 0
-LT9611_VCC33_RX
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0113
 U 1 1 620F5232
@@ -1975,28 +1913,6 @@ F 3 "~" H 1975 1450 50  0001 C CNN
 	1    1975 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2075 1450 2    50   Output ~ 0
-LT9611_VCC33_TX
-Text GLabel 6950 900  2    50   Output ~ 0
-LT9611_VDD12
-Text GLabel 6950 1150 2    50   Output ~ 0
-LT9611_VCC12_RX
-Text GLabel 6950 1450 2    50   Output ~ 0
-LT9611_VCC12_TX
-Text GLabel 4950 4925 2    50   Input ~ 0
-LT9611_VCC12_TX
-Text GLabel 4950 4625 2    50   Input ~ 0
-LT9611_VCC12_RX
-Text GLabel 4950 4025 2    50   Input ~ 0
-LT9611_VDD12
-Text GLabel 3325 4725 0    50   Input ~ 0
-LT9611_VCC33_TX
-Text GLabel 3350 4025 0    50   Input ~ 0
-LT9611_VCC33_RX
-Text GLabel 3325 4425 0    50   Input ~ 0
-LT9611_VCC33_IO
-Wire Wire Line
-	4800 4925 4950 4925
 Wire Wire Line
 	4800 4625 4850 4625
 Wire Wire Line
@@ -2005,14 +1921,10 @@ Wire Wire Line
 	4850 4725 4850 4625
 Connection ~ 4850 4625
 Wire Wire Line
-	4850 4625 4950 4625
-Wire Wire Line
 	4800 4025 4850 4025
 Wire Wire Line
 	4800 4125 4850 4125
 Connection ~ 4850 4025
-Wire Wire Line
-	4850 4025 4950 4025
 Wire Wire Line
 	4850 4125 4850 4025
 Wire Wire Line
@@ -2039,10 +1951,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 4925 3500 4925
 Wire Wire Line
-	3325 4725 3500 4725
-Wire Wire Line
-	3325 4425 3450 4425
-Wire Wire Line
 	3500 4525 3450 4525
 Wire Wire Line
 	3450 4525 3450 4425
@@ -2054,8 +1962,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 4225 3450 4125
 Wire Wire Line
-	3450 4025 3350 4025
-Wire Wire Line
 	3500 4025 3450 4025
 Connection ~ 3450 4025
 Wire Wire Line
@@ -2064,19 +1970,13 @@ Connection ~ 3450 4125
 Wire Wire Line
 	3450 4125 3450 4025
 Connection ~ 10450 1400
-Wire Wire Line
-	8450 1700 8400 1700
 Connection ~ 8450 1700
-Wire Wire Line
-	8400 900  8450 900 
 Connection ~ 8450 900 
 Wire Wire Line
 	8850 1700 9250 1700
 Wire Wire Line
 	8850 2200 9250 2200
 Connection ~ 9250 2200
-Wire Wire Line
-	8450 2450 8400 2450
 Connection ~ 8850 2950
 Wire Wire Line
 	8450 2450 8850 2450
@@ -2107,8 +2007,6 @@ Wire Wire Line
 Connection ~ 4100 2975
 Connection ~ 4900 2200
 Connection ~ 4900 1400
-Text GLabel 3650 2475 0    50   Input ~ 0
-LT9611_VCC33_TX
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C32
 U 1 1 62375A67
@@ -2137,8 +2035,6 @@ $EndComp
 Wire Wire Line
 	4100 2975 4100 3025
 Connection ~ 3700 2475
-Wire Wire Line
-	3700 2475 3650 2475
 Wire Wire Line
 	4100 2975 3700 2975
 Wire Wire Line
@@ -2180,8 +2076,6 @@ F 6 "100n" H 4215 1897 50  0000 L CNN "Val"
 	1    4100 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 900  0    50   Input ~ 0
-LT9611_VCC33_IO
 $Comp
 L sa800u-baseboard-hw:GND #PWR014
 U 1 1 62342544
@@ -2196,8 +2090,6 @@ $EndComp
 Wire Wire Line
 	4900 2200 4900 2250
 Connection ~ 3700 1700
-Wire Wire Line
-	3700 1700 3650 1700
 Wire Wire Line
 	4500 2200 4100 2200
 Wire Wire Line
@@ -2282,8 +2174,6 @@ Wire Wire Line
 	4900 1400 4900 1450
 Connection ~ 3700 900 
 Wire Wire Line
-	3700 900  3650 900 
-Wire Wire Line
 	4500 1400 4100 1400
 Wire Wire Line
 	4500 1300 4500 1400
@@ -2366,8 +2256,6 @@ F 7 "DNP" H 3815 1052 50  0000 L CNN "DNP"
 	1    3700 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 1700 0    50   Input ~ 0
-LT9611_VCC33_RX
 Connection ~ 9325 4600
 Wire Wire Line
 	10225 4600 10525 4600
@@ -2968,25 +2856,6 @@ VREG_S4A_1V8
 Text GLabel 8100 9325 0    50   Input ~ 0
 VREG_S4A_1V8
 $Comp
-L sa800u-baseboard-hw:R_2k2_0402 R32
-U 1 1 61A36C6F
-P 6600 4775
-F 0 "R32" V 6555 4845 60  0000 L CNN
-F 1 "R_2k2_0402" H 6600 4625 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6800 4975 60  0001 L CNN
-F 3 "" H 6600 4775 50  0001 C CNN
-F 4 "YAGEO" H 6800 5175 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-072K2L" H 6800 5075 60  0001 L CNN "MPN"
-F 6 "2k2" V 6653 4845 50  0000 L CNN "Val"
-	1    6600 4775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6300 4575 6250 4575
-Text GLabel 6250 4575 0    50   Input ~ 0
-5V_SYS
-Connection ~ 6300 4575
-$Comp
 L sa800u-baseboard-hw:R_7k68_0603 R?
 U 1 1 626DBF4F
 P 3450 8275
@@ -3000,8 +2869,6 @@ F 6 "7k68" V 3503 8206 50  0000 R CNN "Val"
 	1    3450 8275
 	0    1    1    0   
 $EndComp
-Text GLabel 9075 4600 0    50   Input ~ 0
-LT9611_VCC33_TX
 $Comp
 L sa800u-baseboard-hw:BLM18SG121TN1D FB?
 U 1 1 627F8CBD
@@ -3194,4 +3061,137 @@ F 6 "510R" V 14872 6330 50  0000 R CNN "Val"
 	1    14925 6400
 	0    -1   -1   0   
 $EndComp
+Text Label 2725 900  2    50   ~ 0
+LT9611_VCC33_IO
+Wire Wire Line
+	1975 900  2725 900 
+Text Label 2750 1150 2    50   ~ 0
+LT9611_VCC33_RX
+Wire Wire Line
+	1975 1150 2750 1150
+Text Label 2725 1450 2    50   ~ 0
+LT9611_VCC33_TX
+Wire Wire Line
+	1975 1450 2725 1450
+Text Label 2950 900  0    50   ~ 0
+LT9611_VCC33_IO
+Text Label 2925 1700 0    50   ~ 0
+LT9611_VCC33_RX
+Text Label 2950 2475 0    50   ~ 0
+LT9611_VCC33_TX
+Wire Wire Line
+	2950 900  3700 900 
+Wire Wire Line
+	2925 1700 3700 1700
+Wire Wire Line
+	2950 2475 3700 2475
+Text Label 2600 4025 0    50   ~ 0
+LT9611_VCC33_IO
+Text Label 2550 4425 0    50   ~ 0
+LT9611_VCC33_RX
+Text Label 2575 4725 0    50   ~ 0
+LT9611_VCC33_TX
+Wire Wire Line
+	2575 4725 3500 4725
+Wire Wire Line
+	2550 4425 3450 4425
+Wire Wire Line
+	2600 4025 3450 4025
+Text Label 8600 4600 0    50   ~ 0
+LT9611_VCC33_TX
+Wire Wire Line
+	8600 4600 9325 4600
+Text Label 7625 900  2    50   ~ 0
+LT9611_VDD12
+Wire Wire Line
+	6850 900  7625 900 
+Text Label 7625 1150 2    50   ~ 0
+LT9611_VCC12_RX
+Wire Wire Line
+	6850 1150 7625 1150
+Text Label 7650 1450 2    50   ~ 0
+LT9611_VCC12_TX
+Wire Wire Line
+	6850 1450 7650 1450
+Text Label 7850 900  0    50   ~ 0
+LT9611_VDD12
+Wire Wire Line
+	7850 900  8450 900 
+Text Label 7675 1700 0    50   ~ 0
+LT9611_VCC12_RX
+Text Label 7650 2450 0    50   ~ 0
+LT9611_VCC12_TX
+Wire Wire Line
+	7675 1700 8450 1700
+Wire Wire Line
+	7650 2450 8450 2450
+Text Label 5625 4025 2    50   ~ 0
+LT9611_VDD12
+Text Label 5625 4625 2    50   ~ 0
+LT9611_VCC12_RX
+Text Label 5625 4925 2    50   ~ 0
+LT9611_VCC12_TX
+Wire Wire Line
+	4850 4025 5625 4025
+Wire Wire Line
+	4850 4625 5625 4625
+Wire Wire Line
+	11850 2600 13600 2600
+Wire Wire Line
+	11850 2500 13250 2500
+Connection ~ 6300 5075
+Connection ~ 6600 5175
+Wire Wire Line
+	6600 5175 7175 5175
+Wire Wire Line
+	4800 5175 6600 5175
+Wire Wire Line
+	6300 5075 7175 5075
+Wire Wire Line
+	4800 5075 6300 5075
+Connection ~ 6300 4575
+Wire Wire Line
+	6300 4575 6250 4575
+$Comp
+L sa800u-baseboard-hw:R_2k2_0402 R32
+U 1 1 61A36C6F
+P 6600 4775
+F 0 "R32" V 6555 4845 60  0000 L CNN
+F 1 "R_2k2_0402" H 6600 4625 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6800 4975 60  0001 L CNN
+F 3 "" H 6600 4775 50  0001 C CNN
+F 4 "YAGEO" H 6800 5175 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 6800 5075 60  0001 L CNN "MPN"
+F 6 "2k2" V 6653 4845 50  0000 L CNN "Val"
+	1    6600 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 5075 6300 4925
+$Comp
+L sa800u-baseboard-hw:R_2k2_0402 R31
+U 1 1 61A367B5
+P 6300 4775
+F 0 "R31" V 6255 4845 60  0000 L CNN
+F 1 "R_2k2_0402" H 6300 4625 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6500 4975 60  0001 L CNN
+F 3 "" H 6300 4775 50  0001 C CNN
+F 4 "YAGEO" H 6500 5175 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-072K2L" H 6500 5075 60  0001 L CNN "MPN"
+F 6 "2k2" V 6353 4845 50  0000 L CNN "Val"
+	1    6300 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 4925 6600 5175
+Wire Wire Line
+	6300 4625 6300 4575
+Wire Wire Line
+	6300 4575 6600 4575
+Wire Wire Line
+	6600 4575 6600 4625
+Text GLabel 6250 4575 0    50   Input ~ 0
+5V_SYS
+Wire Wire Line
+	4800 4925 5625 4925
 $EndSCHEMATC
