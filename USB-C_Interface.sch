@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 12
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -1883,7 +1883,7 @@ Wire Wire Line
 	8800 2025 9050 2025
 Text Notes 7900 1450 0    50   ~ 0
 Charging power\ninput.\nPower output for\nOTG device.\nUSB/adaptor\ninsertion detect.
-Text GLabel 9100 1475 2    50   Output ~ 0
+Text GLabel 9100 1475 2    50   BiDi ~ 0
 USB_VBUS
 Wire Wire Line
 	9100 1475 9000 1475

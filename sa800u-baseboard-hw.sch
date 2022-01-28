@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -132,5 +132,11 @@ S 8800 6950 1550 700
 U 61DF77CE
 F0 "USB-PD" 50
 F1 "USB-PD.sch" 50
+$EndSheet
+$Sheet
+S 7150 6950 1550 700 
+U 621D3686
+F0 "Power distribution diagram" 50
+F1 "power_distribution_diagram.sch" 50
 $EndSheet
 $EndSCHEMATC
