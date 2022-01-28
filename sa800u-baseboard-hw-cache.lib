@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroResistors0402_R_510R_0402
+#
+DEF antmicroResistors0402_R_510R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_510R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Yageo" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402JR-07510RL" 200 300 60 H I L CNN "MPN"
+F6 "510R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sa800u-baseboard-hw_1-1734248-5
 #
 DEF sa800u-baseboard-hw_1-1734248-5 J 0 40 Y Y 1 F N
