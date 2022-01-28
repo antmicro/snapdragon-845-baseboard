@@ -449,8 +449,6 @@ F 3 "" H 3375 3475 60  0001 L CNN
 	1    3175 3175
 	0    1    1    0   
 $EndComp
-Text GLabel 2600 4675 0    50   Input ~ 0
-3V3
 Wire Wire Line
 	2600 4675 2650 4675
 Wire Wire Line
@@ -591,4 +589,6 @@ Text Notes 1775 7225 0    50   ~ 0
 place close to\npin 16 and 14 of \nM.2 connector
 Text Notes 2500 6325 0    50   ~ 0
 place close to\npin 72 of\nM.2 connector
+Text GLabel 2600 4675 0    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
