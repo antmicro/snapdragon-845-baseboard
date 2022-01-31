@@ -1013,8 +1013,8 @@ L sa800u-baseboard-hw:BLM18SG121TN1D FB?
 U 1 1 631C3DCA
 P 3825 3100
 AR Path="/6197686D/631C3DCA" Ref="FB?"  Part="1" 
-AR Path="/618E716E/631C3DCA" Ref="FB?"  Part="1" 
-F 0 "FB?" H 3825 3387 60  0000 C CNN
+AR Path="/618E716E/631C3DCA" Ref="FB5"  Part="1" 
+F 0 "FB5" H 3825 3387 60  0000 C CNN
 F 1 "BLM18SG121TN1D" H 3825 3281 60  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0603-res" H 4025 3300 60  0001 L CNN
 F 3 "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18SG121TN1%23" H 4025 3400 60  0001 L CNN
@@ -1031,10 +1031,10 @@ Wire Wire Line
 	6575 3100 6950 3100
 Connection ~ 6575 3100
 $Comp
-L sa800u-baseboard-hw:PWR_FLAG #FLG?
+L sa800u-baseboard-hw:PWR_FLAG #FLG0105
 U 1 1 63216C75
 P 6175 3100
-F 0 "#FLG?" H 6175 3175 50  0001 C CNN
+F 0 "#FLG0105" H 6175 3175 50  0001 C CNN
 F 1 "PWR_FLAG" H 6175 3273 50  0000 C CNN
 F 2 "" H 6175 3100 50  0001 C CNN
 F 3 "~" H 6175 3100 50  0001 C CNN
