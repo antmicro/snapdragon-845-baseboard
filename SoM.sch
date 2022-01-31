@@ -452,8 +452,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 9425 2300 9425
 Connection ~ 2400 9425
-Text GLabel 2300 9425 0    50   Input ~ 0
-VBAT
 $Comp
 L sa800u-baseboard-hw:GND #PWR083
 U 1 1 61B58726
@@ -1066,7 +1064,7 @@ F 3 "" H 4500 9925 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4500 9425 2    50   Input ~ 0
-VBAT
+3V8_SYS
 $Comp
 L sa800u-baseboard-hw:MC-HVT1-S04-G J7
 U 1 1 61E93EA5
@@ -2905,8 +2903,10 @@ Text Notes 5125 8925 0    50   ~ 0
 Comment:\n1.8V @300mA\nPower supply for\nIOVDD of cameras
 Text Notes 5125 9300 0    50   ~ 0
 Comment:\n2.95V @800mA\nSD card power supply
-Text Notes 4750 9775 0    50   ~ 0
+Text Notes 4875 9775 0    50   ~ 0
 Comment:\nPower supply for the module\n3.55V - 4.4V INPUT, 3.8 nominal\nMust be provided with sufficient\ncurrent of up to 3 A
 Text Notes 500  11150 0    50   ~ 0
 Comment:\nPower rails from connectors 3&4 of SOM:\nLDO12A_1V8   : 1.8V @300mA (low power mode charger)\nLDO14A_1V88: 1.8V @50mA (Power supply for IOVDD of TP and LCDs)\nLDO24A_3V075: 3.075V @150mA (Power supply for DP’s pull-up circuits.\nLDO28A_3V0 :3.0V@150mA (Power supply for VDD of TP)\n
+Text GLabel 2300 9425 0    50   Input ~ 0
+3V8_SYS
 $EndSCHEMATC
