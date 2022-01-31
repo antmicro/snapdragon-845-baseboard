@@ -388,7 +388,6 @@ Wire Wire Line
 	2500 7925 2000 7925
 Wire Wire Line
 	2000 8025 2500 8025
-NoConn ~ 2500 8125
 NoConn ~ 2500 8225
 NoConn ~ 2500 8325
 NoConn ~ 2500 8425
@@ -2909,4 +2908,35 @@ Text Notes 500  11150 0    50   ~ 0
 Comment:\nPower rails from connectors 3&4 of SOM:\nLDO12A_1V8   : 1.8V @300mA (low power mode charger)\nLDO14A_1V88: 1.8V @50mA (Power supply for IOVDD of TP and LCDs)\nLDO24A_3V075: 3.075V @150mA (Power supply for DP’s pull-up circuits.\nLDO28A_3V0 :3.0V@150mA (Power supply for VDD of TP)\n
 Text GLabel 2300 9425 0    50   Input ~ 0
 3V8_SYS
+$Comp
+L antmicroResistors0402:R_1k_0402 R?
+U 1 1 620AFB7E
+P 2275 8125
+F 0 "R?" H 2275 8248 60  0000 C CNN
+F 1 "R_1k_0402" H 2275 7975 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2475 8325 60  0001 L CNN
+F 3 "" H 2275 8125 50  0001 C CNN
+F 4 "BOURNS" H 2475 8525 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 2475 8425 60  0001 L CNN "MPN"
+F 6 "1k" H 2275 8346 50  0000 C CNN "Val"
+	1    2275 8125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 8125 2425 8125
+Wire Wire Line
+	2125 8125 2075 8125
+Wire Wire Line
+	2075 8125 2075 8175
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62128AB1
+P 2075 8175
+F 0 "#PWR?" H 2075 7925 50  0001 C CNN
+F 1 "GND" H 2080 8002 50  0000 C CNN
+F 2 "" H 2075 8175 50  0001 C CNN
+F 3 "" H 2075 8175 50  0001 C CNN
+	1    2075 8175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
