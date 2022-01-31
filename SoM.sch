@@ -1719,8 +1719,6 @@ Text GLabel 10250 8600 2    50   Input ~ 0
 BAT_THERM
 Text GLabel 10250 8700 2    50   Input ~ 0
 HOME_KEY
-NoConn ~ 9750 8800
-NoConn ~ 9750 8900
 NoConn ~ 9750 9000
 NoConn ~ 9750 9100
 Text GLabel 10250 9300 2    50   Input ~ 0
@@ -2909,10 +2907,10 @@ Comment:\nPower rails from connectors 3&4 of SOM:\nLDO12A_1V8   : 1.8V @300mA (l
 Text GLabel 2300 9425 0    50   Input ~ 0
 3V8_SYS
 $Comp
-L antmicroResistors0402:R_1k_0402 R?
+L antmicroResistors0402:R_1k_0402 R1
 U 1 1 620AFB7E
 P 2275 8125
-F 0 "R?" H 2275 8248 60  0000 C CNN
+F 0 "R1" H 2275 8248 60  0000 C CNN
 F 1 "R_1k_0402" H 2275 7975 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 2475 8325 60  0001 L CNN
 F 3 "" H 2275 8125 50  0001 C CNN
@@ -2929,14 +2927,22 @@ Wire Wire Line
 Wire Wire Line
 	2075 8125 2075 8175
 $Comp
-L sa800u-baseboard-hw:GND #PWR?
+L sa800u-baseboard-hw:GND #PWR0249
 U 1 1 62128AB1
 P 2075 8175
-F 0 "#PWR?" H 2075 7925 50  0001 C CNN
+F 0 "#PWR0249" H 2075 7925 50  0001 C CNN
 F 1 "GND" H 2080 8002 50  0000 C CNN
 F 2 "" H 2075 8175 50  0001 C CNN
 F 3 "" H 2075 8175 50  0001 C CNN
 	1    2075 8175
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9750 8800 10250 8800
+Text GLabel 10250 8800 2    50   Output ~ 0
+3V3_EN
+Wire Wire Line
+	9750 8900 10250 8900
+Text GLabel 10250 8900 2    50   Output ~ 0
+1V2_EN
 $EndSCHEMATC
