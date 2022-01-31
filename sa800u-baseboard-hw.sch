@@ -86,10 +86,10 @@ F0 "Power distribution diagram" 50
 F1 "power_distribution_diagram.sch" 50
 $EndSheet
 $Comp
-L antmicroMechanicalParts:9774060151 SP?
+L antmicroMechanicalParts:9774060151 SP5
 U 1 1 61F7BD01
 P 15275 8900
-F 0 "SP?" H 15405 8953 60  0000 L CNN
+F 0 "SP5" H 15405 8953 60  0000 L CNN
 F 1 "9774060151" H 15405 8847 60  0000 L CNN
 F 2 "antmicro-footprints:9774060151" H 15275 8900 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 8900 60  0001 C CNN
@@ -99,10 +99,10 @@ F 5 "9774060151" H 15275 8900 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:9774060151 SP?
+L antmicroMechanicalParts:9774060151 SP4
 U 1 1 61F7C7AD
 P 15275 8500
-F 0 "SP?" H 15405 8553 60  0000 L CNN
+F 0 "SP4" H 15405 8553 60  0000 L CNN
 F 1 "9774060151" H 15405 8447 60  0000 L CNN
 F 2 "antmicro-footprints:9774060151" H 15275 8500 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 8500 60  0001 C CNN
@@ -112,10 +112,10 @@ F 5 "9774060151" H 15275 8500 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:9774060151 SP?
+L antmicroMechanicalParts:9774060151 SP3
 U 1 1 61F7CA04
 P 15275 8125
-F 0 "SP?" H 15405 8178 60  0000 L CNN
+F 0 "SP3" H 15405 8178 60  0000 L CNN
 F 1 "9774060151" H 15405 8072 60  0000 L CNN
 F 2 "antmicro-footprints:9774060151" H 15275 8125 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 8125 60  0001 C CNN
@@ -125,10 +125,10 @@ F 5 "9774060151" H 15275 8125 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:9774060151 SP?
+L antmicroMechanicalParts:9774060151 SP2
 U 1 1 61F7CB68
 P 15275 7775
-F 0 "SP?" H 15405 7828 60  0000 L CNN
+F 0 "SP2" H 15405 7828 60  0000 L CNN
 F 1 "9774060151" H 15405 7722 60  0000 L CNN
 F 2 "antmicro-footprints:9774060151" H 15275 7775 60  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 7775 60  0001 C CNN
@@ -138,10 +138,10 @@ F 5 "9774060151" H 15275 7775 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R28
 U 1 1 61F7DA73
 P 14925 8900
-F 0 "R?" H 14925 9000 60  0000 C CNN
+F 0 "R28" H 14925 9000 60  0000 C CNN
 F 1 "R_0R_0402" H 14925 8750 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 15125 9100 60  0001 L CNN
 F 3 "" H 14925 8900 50  0001 C CNN
@@ -157,8 +157,8 @@ L sa800u-baseboard-hw:GND #PWR?
 U 1 1 61FB7969
 P 14725 9075
 AR Path="/61A4BC4F/61FB7969" Ref="#PWR?"  Part="1" 
-AR Path="/61FB7969" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14725 8825 50  0001 C CNN
+AR Path="/61FB7969" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 14725 8825 50  0001 C CNN
 F 1 "GND" H 14730 8902 50  0000 C CNN
 F 2 "" H 14725 9075 50  0001 C CNN
 F 3 "" H 14725 9075 50  0001 C CNN
@@ -166,10 +166,10 @@ F 3 "" H 14725 9075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R8
 U 1 1 61FB8AAF
 P 14925 8500
-F 0 "R?" H 14925 8600 60  0000 C CNN
+F 0 "R8" H 14925 8600 60  0000 C CNN
 F 1 "R_0R_0402" H 14925 8350 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 15125 8700 60  0001 L CNN
 F 3 "" H 14925 8500 50  0001 C CNN
@@ -181,10 +181,10 @@ F 7 "DNP" H 14925 8500 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R3
 U 1 1 61FB952F
 P 14925 8125
-F 0 "R?" H 14925 8225 60  0000 C CNN
+F 0 "R3" H 14925 8225 60  0000 C CNN
 F 1 "R_0R_0402" H 14925 7975 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 15125 8325 60  0001 L CNN
 F 3 "" H 14925 8125 50  0001 C CNN
@@ -196,10 +196,10 @@ F 7 "DNP" H 14925 8125 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R2
 U 1 1 61FB9871
 P 14925 7775
-F 0 "R?" H 14925 7875 60  0000 C CNN
+F 0 "R2" H 14925 7875 60  0000 C CNN
 F 1 "R_0R_0402" H 14925 7625 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 15125 7975 60  0001 L CNN
 F 3 "" H 14925 7775 50  0001 C CNN

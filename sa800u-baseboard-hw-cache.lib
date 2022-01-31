@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroCapacitorsmisc_C_4u7_0805
+#
+DEF antmicroCapacitorsmisc_C_4u7_0805 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorsmisc_C_4u7_0805" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0805-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "0805X475K250CT" 200 300 60 H I L CNN "MPN"
+F6 "4u7" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroLEDIndicationDiscrete_KP-1608EC
 #
 DEF antmicroLEDIndicationDiscrete_KP-1608EC D 0 0 Y Y 1 F N
@@ -38,6 +56,24 @@ X 1 1 -200 0 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroPMICVoltageRegulatorsLinear_AP2114H-3_3TRG1
+#
+DEF antmicroPMICVoltageRegulatorsLinear_AP2114H-3_3TRG1 U 0 1 Y Y 1 F N
+F0 "U" -250 150 60 H V C CNN
+F1 "antmicroPMICVoltageRegulatorsLinear_AP2114H-3_3TRG1" -300 250 60 H V L BNN
+F2 "antmicro-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" 200 300 60 H I L CNN
+F4 "AP2114H-3.3TRG1" 200 500 60 H I L CNN "MPN"
+F5 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -300 100 200 -300 0 1 0 f
+X GND 1 -100 -500 200 U 50 50 1 1 W
+X VOUT 2 400 0 200 L 50 50 1 1 O
+X IN 3 -500 0 200 R 50 50 1 1 I
+X VOUT 4 400 -100 200 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_0R_0402
 #
 DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
@@ -65,6 +101,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "Bourns" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1372GLF" 200 300 60 H I L CNN "MPN"
 F6 "13k7" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_1k_0402
+#
+DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
+F6 "1k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -133,6 +186,23 @@ F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCWR04X7502FTL" 200 300 60 H I L CNN "MPN"
 F6 "75k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0603_R_0R_0603
+#
+DEF antmicroResistors0603_R_0R_0603 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0603_R_0R_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0603-J/-000ELF" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -569,25 +639,6 @@ P 4 1 1 0 40 -10 60 20 20 20 40 -10 F
 X G 1 -300 -100 100 R 50 50 1 1 B
 X D 2 0 200 100 D 50 50 1 1 B
 X S 3 0 -200 100 U 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_BZT52C12
-#
-DEF sa800u-baseboard-hw_BZT52C12 D 0 40 Y Y 1 F N
-F0 "D" -150 100 50 H V C CNN
-F1 "sa800u-baseboard-hw_BZT52C12" 250 100 50 H V C CNN
-F2 "sa800u-baseboard-hw-footprints:SOD-123" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BZT52C12" 0 0 50 H I C CNN "MPN"
-F5 "DIODES INC." 0 0 50 H I C CNN "Manufacturer"
-DRAW
-P 2 1 1 0 50 -50 25 -50 N
-P 2 1 1 0 50 50 50 -50 N
-P 2 1 1 0 50 50 75 50 N
-P 4 1 1 0 -50 50 -50 -50 50 0 -50 50 F
-X ~ A -200 0 150 R 50 50 1 1 P
-X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -3092,28 +3143,28 @@ ENDDEF
 # sa800u-baseboard-hw_TPS2378DDA
 #
 DEF sa800u-baseboard-hw_TPS2378DDA IC 0 30 Y Y 1 F N
-F0 "IC" 850 300 50 H V L CNN
-F1 "sa800u-baseboard-hw_TPS2378DDA" 850 200 50 H V L CNN
-F2 "sa800u-baseboard-hw-footprints:SOIC127P600X170-9N" 850 100 50 H I L CNN
-F3 "" 850 0 50 H I L CNN
-F4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" 850 -100 50 H I L CNN "Description"
-F5 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer"
-F6 "TPS2378DDA" 850 -400 50 H I L CNN "MPN"
-F7 "TPS2378DDA" 850 -500 50 H I L CNN "Arrow Part Number"
-F8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" 850 -600 50 H I L CNN "Arrow Price/Stock"
-F9 "595-TPS2378DDA" 850 -700 50 H I L CNN "Mouser Part Number"
-F10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+F0 "IC" 350 550 50 H V L CNN
+F1 "sa800u-baseboard-hw_TPS2378DDA" 350 450 50 H V L CNN
+F2 "sa800u-baseboard-hw-footprints:SOIC127P600X170-9N" 350 350 50 H I L CNN
+F3 "" 350 250 50 H I L CNN
+F4 "IEEE 802.3at PoE High-Power PD Interface with AUX Control" 300 150 50 H I L CNN "Description"
+F5 "Texas Instruments" 300 -250 50 H I L CNN "Manufacturer"
+F6 "TPS2378DDA" 300 -150 50 H I L CNN "MPN"
+F7 "TPS2378DDA" 300 -250 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/tps2378dda/texas-instruments" 300 -350 50 H I L CNN "Arrow Price/Stock"
+F9 "595-TPS2378DDA" 350 -450 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=5771e39Rz9HhOSwUvwIrNw%3D%3D" 350 -550 50 H I L CNN "Mouser Price/Stock"
 DRAW
-P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 f
-X VDD 1 0 0 200 R 50 50 0 0 W
-X DEN 2 0 -100 200 R 50 50 0 0 P
-X CLS 3 0 -200 200 R 50 50 0 0 P
-X VSS 4 0 -300 200 R 50 50 0 0 W
-X RTN 5 1000 -300 200 L 50 50 0 0 P
-X CDB 6 1000 -200 200 L 50 50 0 0 P
-X T2P 7 1000 -100 200 L 50 50 0 0 P
-X APD 8 1000 0 200 L 50 50 0 0 P
-X EP 9 500 -800 200 U 50 50 0 0 W
+P 5 0 1 6 -300 350 300 350 300 -350 -300 -350 -300 350 f
+X VDD 1 -450 250 150 R 50 50 0 0 W
+X DEN 2 -450 150 150 R 50 50 0 0 P
+X CLS 3 -450 -150 150 R 50 50 0 0 P
+X VSS 4 -450 -250 150 R 50 50 0 0 W
+X RTN 5 450 -250 150 L 50 50 0 0 P
+X CDB 6 450 250 150 L 50 50 0 0 P
+X T2P 7 450 150 150 L 50 50 0 0 P
+X APD 8 450 -150 150 L 50 50 0 0 P
+X EP 9 0 -500 150 U 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
