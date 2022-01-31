@@ -51,6 +51,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_75k_0402
+#
+DEF antmicroResistors0402_R_75k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_75k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCWR04X7502FTL" 200 300 60 H I L CNN "MPN"
+F6 "75k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sa800u-baseboard-hw_1-1734248-5
 #
 DEF sa800u-baseboard-hw_1-1734248-5 J 0 40 Y Y 1 F N
@@ -307,7 +324,7 @@ X GND 1 -400 -200 100 R 50 50 1 1 W
 X SW 2 400 200 100 L 50 50 1 1 w
 X VIN 3 -400 200 100 R 50 50 1 1 W
 X FB 4 400 -200 100 L 50 50 1 1 I
-X EN 5 -400 0 100 R 50 50 1 1 I
+X EN 5 -400 -100 100 R 50 50 1 1 I
 X BST 6 400 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
@@ -2106,23 +2123,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040225K5FKED" 200 300 60 H I L CNN "MPN"
 F6 "25k5" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_25k_1%_0402
-#
-DEF sa800u-baseboard-hw_R_25k_1%_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_25k_1%_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TE_Connectivity" 200 400 60 H I L CNN "Manufacturer"
-F5 "CPF0805B25KE1" 200 300 60 H I L CNN "MPN"
-F6 "25k_1%" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
