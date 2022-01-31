@@ -1,4 +1,4 @@
-(module WE_632723300011 (layer F.Cu) (tedit 61F85014)
+(module WE_632723300011 (layer F.Cu) (tedit 60181E6B)
   (attr smd)
   (fp_text reference J (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.05)))
@@ -42,10 +42,5 @@
     (offset (xyz 0 -1 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
-  )
-  (model "${KIPRJMOD}/lib/3d-models/USB Type-C Plug -1.step"
-    (offset (xyz 0 -6.5 1.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
   )
 )

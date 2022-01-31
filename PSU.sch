@@ -3804,12 +3804,12 @@ $EndComp
 Wire Wire Line
 	11625 9100 11175 9100
 $Comp
-L antmicroResistors0402:R_75k_0402 R154
+L sa800u-baseboard-hw:R_75k_0402 R154
 U 1 1 6240B0D1
 P 14200 6250
 F 0 "R154" V 14155 6320 60  0000 L CNN
 F 1 "R_75k_0402" H 14200 6100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 14400 6450 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 14400 6450 60  0001 L CNN
 F 3 "" H 14200 6250 50  0001 C CNN
 F 4 "MULTICOMP" H 14400 6650 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X7502FTL" H 14400 6550 60  0001 L CNN "MPN"
@@ -3818,12 +3818,12 @@ F 6 "75k" V 14253 6320 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D11
+L sa800u-baseboard-hw:KP-1608EC D11
 U 1 1 62445534
 P 6400 5575
 F 0 "D11" V 6175 5700 60  0000 R CNN
 F 1 "KP-1608EC" H 6350 5806 60  0001 C CNN
-F 2 "antmicro-footprints:LED_0603" H 6600 5775 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 6600 5775 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 6600 5875 60  0001 L CNN
 F 4 "KP-1608EC" H 6600 6075 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 6610 6195 60  0001 L CNN "Manufacturer"
@@ -3833,12 +3833,12 @@ $EndComp
 Wire Wire Line
 	6400 5050 6400 5375
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D13
+L sa800u-baseboard-hw:KP-1608EC D13
 U 1 1 624878AA
 P 6775 5575
 F 0 "D13" V 6550 5600 60  0000 L CNN
 F 1 "KP-1608EC" H 6725 5806 60  0001 C CNN
-F 2 "antmicro-footprints:LED_0603" H 6975 5775 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 6975 5775 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 6975 5875 60  0001 L CNN
 F 4 "KP-1608EC" H 6975 6075 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 6985 6195 60  0001 L CNN "Manufacturer"
@@ -3850,12 +3850,12 @@ Wire Wire Line
 Wire Wire Line
 	7150 5250 7150 5375
 $Comp
-L antmicroLEDIndicationDiscrete:KP-1608EC D19
+L sa800u-baseboard-hw:KP-1608EC D19
 U 1 1 624C5D37
 P 7150 5575
 F 0 "D19" V 6925 5600 60  0000 L CNN
 F 1 "KP-1608EC" H 7100 5806 60  0001 C CNN
-F 2 "antmicro-footprints:LED_0603" H 7350 5775 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 7350 5775 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 7350 5875 60  0001 L CNN
 F 4 "KP-1608EC" H 7350 6075 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 7360 6195 60  0001 L CNN "Manufacturer"
@@ -3904,12 +3904,12 @@ $EndComp
 Wire Wire Line
 	2800 950  2800 4400
 $Comp
-L antmicroResistors0402:R_39k_0402 R136
+L sa800u-baseboard-hw:R_39k_0402 R136
 U 1 1 62690FD8
 P 2200 7000
 F 0 "R136" V 2155 7070 60  0000 L CNN
 F 1 "R_39k_0402" H 2200 6850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 7200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7200 60  0001 L CNN
 F 3 "" H 2200 7000 50  0001 C CNN
 F 4 "MULTICOMP" H 2400 7400 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X3902FTL" H 2400 7300 60  0001 L CNN "MPN"
@@ -3918,12 +3918,12 @@ F 6 "39k" V 2253 7070 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_200k_0402 R135
+L sa800u-baseboard-hw:R_200k_0402 R135
 U 1 1 62690FE1
 P 2200 6650
 F 0 "R135" V 2155 6720 60  0000 L CNN
 F 1 "R_200k_0402" H 2200 6500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 6850 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 6850 60  0001 L CNN
 F 3 "" H 2200 6650 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 2400 7050 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 2400 6950 60  0001 L CNN "MPN"
@@ -3932,12 +3932,12 @@ F 6 "200k" V 2253 6720 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_13k7_0402 R137
+L sa800u-baseboard-hw:R_13k7_0402 R137
 U 1 1 62690FEA
 P 2200 7350
 F 0 "R137" V 2155 7420 60  0000 L CNN
 F 1 "R_13k7_0402" H 2200 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 7550 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7550 60  0001 L CNN
 F 3 "" H 2200 7350 50  0001 C CNN
 F 4 "Bourns" H 2400 7750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 2400 7650 60  0001 L CNN "MPN"
@@ -3954,12 +3954,12 @@ Connection ~ 2800 5100
 Wire Wire Line
 	2800 5400 2800 7550
 $Comp
-L antmicroResistors0402:R_13k7_0402 R143
+L sa800u-baseboard-hw:R_13k7_0402 R143
 U 1 1 626047C8
 P 2800 5250
 F 0 "R143" V 2755 5320 60  0000 L CNN
 F 1 "R_13k7_0402" H 2800 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 5450 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5450 60  0001 L CNN
 F 3 "" H 2800 5250 50  0001 C CNN
 F 4 "Bourns" H 3000 5650 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 3000 5550 60  0001 L CNN "MPN"
@@ -3971,12 +3971,12 @@ Connection ~ 2800 4750
 Wire Wire Line
 	2800 5100 2800 5050
 $Comp
-L antmicroResistors0402:R_39k_0402 R142
+L sa800u-baseboard-hw:R_39k_0402 R142
 U 1 1 625DEBAD
 P 2800 4900
 F 0 "R142" V 2755 4970 60  0000 L CNN
 F 1 "R_39k_0402" H 2800 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 5100 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5100 60  0001 L CNN
 F 3 "" H 2800 4900 50  0001 C CNN
 F 4 "MULTICOMP" H 3000 5300 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X3902FTL" H 3000 5200 60  0001 L CNN "MPN"
@@ -3988,12 +3988,12 @@ Connection ~ 2800 4400
 Wire Wire Line
 	2800 4700 2800 4750
 $Comp
-L antmicroResistors0402:R_200k_0402 R141
+L sa800u-baseboard-hw:R_200k_0402 R141
 U 1 1 625E0294
 P 2800 4550
 F 0 "R141" V 2755 4620 60  0000 L CNN
 F 1 "R_200k_0402" H 2800 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 4750 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 4750 60  0001 L CNN
 F 3 "" H 2800 4550 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 3000 4950 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 3000 4850 60  0001 L CNN "MPN"
@@ -4005,12 +4005,12 @@ Connection ~ 2500 5450
 Wire Wire Line
 	2500 5750 2500 5800
 $Comp
-L antmicroResistors0402:R_200k_0402 R138
+L sa800u-baseboard-hw:R_200k_0402 R138
 U 1 1 626CA162
 P 2500 5600
 F 0 "R138" V 2455 5670 60  0000 L CNN
 F 1 "R_200k_0402" H 2500 5450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2700 5800 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 5800 60  0001 L CNN
 F 3 "" H 2500 5600 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 2700 6000 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 2700 5900 60  0001 L CNN "MPN"
@@ -4020,12 +4020,12 @@ F 6 "200k" V 2553 5670 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 2500 5800
 $Comp
-L antmicroResistors0402:R_39k_0402 R139
+L sa800u-baseboard-hw:R_39k_0402 R139
 U 1 1 626CA159
 P 2500 5950
 F 0 "R139" V 2455 6020 60  0000 L CNN
 F 1 "R_39k_0402" H 2500 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2700 6150 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6150 60  0001 L CNN
 F 3 "" H 2500 5950 50  0001 C CNN
 F 4 "MULTICOMP" H 2700 6350 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X3902FTL" H 2700 6250 60  0001 L CNN "MPN"
@@ -4039,12 +4039,12 @@ Connection ~ 2500 6150
 Wire Wire Line
 	2500 6150 2500 6100
 $Comp
-L antmicroResistors0402:R_13k7_0402 R140
+L sa800u-baseboard-hw:R_13k7_0402 R140
 U 1 1 626CA16B
 P 2500 6300
 F 0 "R140" V 2455 6370 60  0000 L CNN
 F 1 "R_13k7_0402" H 2500 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2700 6500 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6500 60  0001 L CNN
 F 3 "" H 2500 6300 50  0001 C CNN
 F 4 "Bourns" H 2700 6700 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 2700 6600 60  0001 L CNN "MPN"

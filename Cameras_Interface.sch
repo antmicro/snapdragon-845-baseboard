@@ -1051,14 +1051,14 @@ Wire Wire Line
 	6775 6450 7400 6450
 Connection ~ 7400 6450
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:AP2114H-3_3TRG1 U?
+L sa800u-baseboard-hw:AP2114H-3_3TRG1 U?
 U 1 1 62338AD1
 P 1775 8000
 AR Path="/61B0DC30/62338AD1" Ref="U?"  Part="1" 
 AR Path="/61A60486/62338AD1" Ref="U22"  Part="1" 
 F 0 "U22" H 1725 8250 60  0000 C CNN
 F 1 "AP2114H-3_3TRG1" H 1725 8150 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-223" H 1975 8200 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-223" H 1975 8200 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 1975 8300 60  0001 L CNN
 F 4 "AP2114H-3.3TRG1" H 1975 8500 60  0001 L CNN "MPN"
 F 5 "Diodes Incorporated" H 1975 9100 60  0001 L CNN "Manufacturer"
@@ -1067,12 +1067,12 @@ F 6 "DNP" H 1725 8350 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_4u7_0805 C150
+L sa800u-baseboard-hw:C_4u7_0805 C150
 U 1 1 62343166
 P 2375 8200
 F 0 "C150" H 2490 8291 60  0000 L CNN
 F 1 "C_4u7_0805" H 2375 8050 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 2575 8400 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 2575 8400 60  0001 L CNN
 F 3 "" H 2375 8200 50  0001 C CNN
 F 4 "WALSIN" H 2575 8600 60  0001 L CNN "Manufacturer"
 F 5 "0805X475K250CT" H 2575 8500 60  0001 L CNN "MPN"
@@ -1082,12 +1082,12 @@ F 7 "DNP" H 2490 8102 50  0000 L CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_4u7_0805 C106
+L sa800u-baseboard-hw:C_4u7_0805 C106
 U 1 1 6234539F
 P 1225 8200
 F 0 "C106" H 1110 8291 60  0000 R CNN
 F 1 "C_4u7_0805" H 1225 8050 60  0001 C CNN
-F 2 "antmicro-footprints:0805-cap" H 1425 8400 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0805-cap" H 1425 8400 60  0001 L CNN
 F 3 "" H 1225 8200 50  0001 C CNN
 F 4 "WALSIN" H 1425 8600 60  0001 L CNN "Manufacturer"
 F 5 "0805X475K250CT" H 1425 8500 60  0001 L CNN "MPN"
@@ -1153,12 +1153,12 @@ Connection ~ 1225 8000
 Text GLabel 1175 8000 0    50   Input ~ 0
 5V_SYS
 $Comp
-L antmicroResistors0603:R_0R_0603 R156
+L sa800u-baseboard-hw:R_0R_0603 R156
 U 1 1 623F18FD
 P 2600 7850
 F 0 "R156" V 2691 7780 60  0000 R CNN
 F 1 "R_0R_0603" H 2600 7700 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2800 8050 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2800 8050 60  0001 L CNN
 F 3 "" H 2600 7850 50  0001 C CNN
 F 4 "BOURNS" H 2800 8250 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2800 8150 60  0001 L CNN "MPN"
@@ -1168,12 +1168,12 @@ F 7 "DNP" V 2502 7780 50  0000 R CNN "DNP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R155
+L sa800u-baseboard-hw:R_0R_0603 R155
 U 1 1 623F44F2
 P 2600 7550
 F 0 "R155" V 2645 7480 60  0000 R CNN
 F 1 "R_0R_0603" H 2600 7400 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2800 7750 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 2800 7750 60  0001 L CNN
 F 3 "" H 2600 7550 50  0001 C CNN
 F 4 "BOURNS" H 2800 7950 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2800 7850 60  0001 L CNN "MPN"
