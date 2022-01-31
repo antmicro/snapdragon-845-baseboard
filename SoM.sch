@@ -2907,12 +2907,12 @@ Comment:\nPower rails from connectors 3&4 of SOM:\nLDO12A_1V8   : 1.8V @300mA (l
 Text GLabel 2300 9425 0    50   Input ~ 0
 3V8_SYS
 $Comp
-L antmicroResistors0402:R_1k_0402 R1
+L sa800u-baseboard-hw:R_1k_0402 R1
 U 1 1 620AFB7E
 P 2275 8125
 F 0 "R1" H 2275 8248 60  0000 C CNN
 F 1 "R_1k_0402" H 2275 7975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2475 8325 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2475 8325 60  0001 L CNN
 F 3 "" H 2275 8125 50  0001 C CNN
 F 4 "BOURNS" H 2475 8525 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 2475 8425 60  0001 L CNN "MPN"
