@@ -507,7 +507,7 @@ F 5 "DIODES INC." H 8325 5425 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Text Notes 5975 6250 0    50   ~ 0
-CDB - Active high enable output \nfor DCDC converter. Open drain.
+CDB - Active low disable output \nfor DCDC converter. Open drain.
 Wire Wire Line
 	8325 5625 8325 5675
 Wire Wire Line
@@ -523,7 +523,7 @@ F 3 "" H 7550 5675 50  0001 C CNN
 	1    7550 5675
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 5075 2    50   Input ~ 0
+Text GLabel 7050 5075 2    50   Output ~ 0
 T2P_HIGH
 Wire Wire Line
 	7550 5025 7550 5275
