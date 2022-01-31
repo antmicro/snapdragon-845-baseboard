@@ -73,60 +73,6 @@ U 61A19323
 F0 "PoE" 50
 F1 "PoE.sch" 50
 $EndSheet
-$Comp
-L sa800u-baseboard-hw:PCB_Spacer_M2 MP3
-U 1 1 61E50FA3
-P 12300 4500
-F 0 "MP3" H 12508 4637 50  0000 L CNN
-F 1 "PCB_Spacer_M2" H 12508 4546 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 13100 5200 50  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 13250 5300 50  0001 C CNN
-F 4 "9774030243R" H 12508 4455 50  0000 L CNN "MPN"
-F 5 "Wurth Elektronik " H 12508 4364 50  0000 L CNN "Manufacturer"
-	1    12300 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:PCB_Spacer_M2 MP4
-U 1 1 61E5197E
-P 12300 6850
-F 0 "MP4" H 12508 6987 50  0000 L CNN
-F 1 "PCB_Spacer_M2" H 12508 6896 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 13100 7550 50  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 13250 7650 50  0001 C CNN
-F 4 "9774030243R" H 12508 6805 50  0000 L CNN "MPN"
-F 5 "Wurth Elektronik " H 12508 6714 50  0000 L CNN "Manufacturer"
-	1    12300 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:PCB_Spacer_M2 MP2
-U 1 1 61E52039
-P 3550 6850
-F 0 "MP2" H 3758 6987 50  0000 L CNN
-F 1 "PCB_Spacer_M2" H 3758 6896 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 4350 7550 50  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 4500 7650 50  0001 C CNN
-F 4 "9774030243R" H 3758 6805 50  0000 L CNN "MPN"
-F 5 "Wurth Elektronik " H 3758 6714 50  0000 L CNN "Manufacturer"
-	1    3550 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:PCB_Spacer_M2 MP1
-U 1 1 61E52603
-P 3550 4500
-F 0 "MP1" H 3758 4637 50  0000 L CNN
-F 1 "PCB_Spacer_M2" H 3758 4546 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:9774030243R" H 4350 5200 50  0001 C CNN
-F 3 "https://katalog.we-online.de/em/datasheet/9774030243R.pdf" H 4500 5300 50  0001 C CNN
-F 4 "9774030243R" H 3758 4455 50  0000 L CNN "MPN"
-F 5 "Wurth Elektronik " H 3758 4364 50  0000 L CNN "Manufacturer"
-	1    3550 4500
-	1    0    0    -1  
-$EndComp
-Text Notes 500  900  0    50   ~ 0
-Use 6mm spacers insted of PCB mounting holes.\nThis will allow to put device on a desk without risking \ndamage to components on the bottom of the board               DONE\nAlternatively add space for screw head/spacer on PCB\n(ie. MP1 will interfere with connector when using screw/spacer)
 $Sheet
 S 8800 6950 1550 700 
 U 61DF77CE
@@ -139,4 +85,148 @@ U 621D3686
 F0 "Power distribution diagram" 50
 F1 "power_distribution_diagram.sch" 50
 $EndSheet
+$Comp
+L antmicroMechanicalParts:9774060151 SP?
+U 1 1 61F7BD01
+P 15275 8900
+F 0 "SP?" H 15405 8953 60  0000 L CNN
+F 1 "9774060151" H 15405 8847 60  0000 L CNN
+F 2 "antmicro-footprints:9774060151" H 15275 8900 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 8900 60  0001 C CNN
+F 4 "Wurth Elektronik" H 15275 8900 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 15275 8900 50  0001 C CNN "MPN"
+	1    15275 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:9774060151 SP?
+U 1 1 61F7C7AD
+P 15275 8500
+F 0 "SP?" H 15405 8553 60  0000 L CNN
+F 1 "9774060151" H 15405 8447 60  0000 L CNN
+F 2 "antmicro-footprints:9774060151" H 15275 8500 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 8500 60  0001 C CNN
+F 4 "Wurth Elektronik" H 15275 8500 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 15275 8500 50  0001 C CNN "MPN"
+	1    15275 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:9774060151 SP?
+U 1 1 61F7CA04
+P 15275 8125
+F 0 "SP?" H 15405 8178 60  0000 L CNN
+F 1 "9774060151" H 15405 8072 60  0000 L CNN
+F 2 "antmicro-footprints:9774060151" H 15275 8125 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 8125 60  0001 C CNN
+F 4 "Wurth Elektronik" H 15275 8125 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 15275 8125 50  0001 C CNN "MPN"
+	1    15275 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:9774060151 SP?
+U 1 1 61F7CB68
+P 15275 7775
+F 0 "SP?" H 15405 7828 60  0000 L CNN
+F 1 "9774060151" H 15405 7722 60  0000 L CNN
+F 2 "antmicro-footprints:9774060151" H 15275 7775 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774060151.pdf" H 15275 7775 60  0001 C CNN
+F 4 "Wurth Elektronik" H 15275 7775 50  0001 C CNN "Manufacturer"
+F 5 "9774060151" H 15275 7775 50  0001 C CNN "MPN"
+	1    15275 7775
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61F7DA73
+P 14925 8900
+F 0 "R?" H 14925 9000 60  0000 C CNN
+F 1 "R_0R_0402" H 14925 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 15125 9100 60  0001 L CNN
+F 3 "" H 14925 8900 50  0001 C CNN
+F 4 "PANASONIC" H 15125 9300 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 15125 9200 60  0001 L CNN "MPN"
+F 6 "0R" H 14925 8825 50  0000 C CNN "Val"
+F 7 "DNP" H 14925 8900 50  0000 C CNN "DNP"
+	1    14925 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 61FB7969
+P 14725 9075
+AR Path="/61A4BC4F/61FB7969" Ref="#PWR?"  Part="1" 
+AR Path="/61FB7969" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14725 8825 50  0001 C CNN
+F 1 "GND" H 14730 8902 50  0000 C CNN
+F 2 "" H 14725 9075 50  0001 C CNN
+F 3 "" H 14725 9075 50  0001 C CNN
+	1    14725 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61FB8AAF
+P 14925 8500
+F 0 "R?" H 14925 8600 60  0000 C CNN
+F 1 "R_0R_0402" H 14925 8350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 15125 8700 60  0001 L CNN
+F 3 "" H 14925 8500 50  0001 C CNN
+F 4 "PANASONIC" H 15125 8900 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 15125 8800 60  0001 L CNN "MPN"
+F 6 "0R" H 14925 8425 50  0000 C CNN "Val"
+F 7 "DNP" H 14925 8500 50  0000 C CNN "DNP"
+	1    14925 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61FB952F
+P 14925 8125
+F 0 "R?" H 14925 8225 60  0000 C CNN
+F 1 "R_0R_0402" H 14925 7975 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 15125 8325 60  0001 L CNN
+F 3 "" H 14925 8125 50  0001 C CNN
+F 4 "PANASONIC" H 15125 8525 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 15125 8425 60  0001 L CNN "MPN"
+F 6 "0R" H 14925 8050 50  0000 C CNN "Val"
+F 7 "DNP" H 14925 8125 50  0000 C CNN "DNP"
+	1    14925 8125
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 61FB9871
+P 14925 7775
+F 0 "R?" H 14925 7875 60  0000 C CNN
+F 1 "R_0R_0402" H 14925 7625 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 15125 7975 60  0001 L CNN
+F 3 "" H 14925 7775 50  0001 C CNN
+F 4 "PANASONIC" H 15125 8175 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 15125 8075 60  0001 L CNN "MPN"
+F 6 "0R" H 14925 7700 50  0000 C CNN "Val"
+F 7 "DNP" H 14925 7775 50  0000 C CNN "DNP"
+	1    14925 7775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14775 7775 14725 7775
+Wire Wire Line
+	14725 7775 14725 8125
+Wire Wire Line
+	14775 8125 14725 8125
+Connection ~ 14725 8125
+Wire Wire Line
+	14725 8125 14725 8500
+Wire Wire Line
+	14775 8500 14725 8500
+Connection ~ 14725 8500
+Wire Wire Line
+	14725 8500 14725 8900
+Wire Wire Line
+	14775 8900 14725 8900
+Connection ~ 14725 8900
+Wire Wire Line
+	14725 8900 14725 9075
 $EndSCHEMATC
