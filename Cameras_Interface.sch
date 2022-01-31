@@ -381,49 +381,45 @@ Wire Wire Line
 	7300 4550 7300 6950
 NoConn ~ 7450 4650
 Wire Wire Line
-	7450 4750 6200 4750
+	7450 4750 6950 4750
 Wire Wire Line
-	7450 4850 6200 4850
+	7450 4850 6875 4850
 Wire Wire Line
-	7450 4950 6200 4950
-Text GLabel 6200 4750 0    50   Input ~ 0
+	7450 4950 6950 4950
+Text GLabel 6950 4750 0    50   Input ~ 0
 CAM0_PWDN
-Text GLabel 6200 4850 0    50   Input ~ 0
+Text GLabel 6875 4850 0    50   Input ~ 0
 CAM0_RST
-Text GLabel 6200 4950 0    50   Input ~ 0
+Text GLabel 6950 4950 0    50   Input ~ 0
 CAM1_PWDN
 NoConn ~ 7450 5050
 NoConn ~ 7450 5150
 NoConn ~ 7450 5250
 NoConn ~ 7450 5350
-Text Label 6150 5450 0    50   ~ 0
+Text Label 6450 5450 0    50   ~ 0
 CAM0_SDA
-Text Label 6150 5550 0    50   ~ 0
+Text Label 6450 5550 0    50   ~ 0
 CAM0_SCL
-Text Label 6150 5650 0    50   ~ 0
+Text Label 6450 5650 0    50   ~ 0
 CAM1_SDA
-Text Label 6150 5750 0    50   ~ 0
+Text Label 6450 5750 0    50   ~ 0
 CAM1_SCL
 Wire Wire Line
-	6150 5450 7450 5450
+	6450 5450 7450 5450
 Wire Wire Line
-	6150 5550 7450 5550
+	6450 5550 7450 5550
 Wire Wire Line
-	6150 5650 7450 5650
+	6450 5650 7450 5650
 Wire Wire Line
-	6150 5750 7450 5750
+	6450 5750 7450 5750
 Wire Wire Line
 	7450 6250 7450 6350
 NoConn ~ 7450 6150
 NoConn ~ 7450 6050
 NoConn ~ 7450 5950
 NoConn ~ 7450 5850
-Wire Wire Line
-	7450 6750 7850 6750
-Wire Wire Line
-	7850 6750 7850 6700
-Text GLabel 7850 6700 1    50   Input ~ 0
-5V
+Text GLabel 6775 6450 0    50   Input ~ 0
+5V_SYS
 Text Notes 725  4350 0    50   ~ 0
 CAM0\n
 Text Notes 700  1450 0    50   ~ 0
@@ -447,11 +443,6 @@ Text GLabel 2625 8225 0    50   Input ~ 0
 CCI1_I2C_SDA
 Text GLabel 2625 8125 0    50   Input ~ 0
 CCI1_I2C_SCL
-Wire Wire Line
-	7450 6450 7450 6550
-Connection ~ 7450 6550
-Wire Wire Line
-	7450 6550 7450 6750
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L19
 U 1 1 61CE378A
@@ -1056,4 +1047,18 @@ Wire Wire Line
 	2625 9100 2875 9100
 Connection ~ 2775 9200
 Connection ~ 2875 9100
+Wire Wire Line
+	7450 6550 7400 6550
+Wire Wire Line
+	7400 6550 7400 6450
+Wire Wire Line
+	7400 6450 7450 6450
+Wire Wire Line
+	6775 6450 7400 6450
+Connection ~ 7400 6450
+Wire Wire Line
+	7450 6250 6825 6250
+Connection ~ 7450 6250
+Text GLabel 6825 6250 0    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
