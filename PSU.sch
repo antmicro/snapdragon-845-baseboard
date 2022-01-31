@@ -2358,7 +2358,7 @@ F 3 "~" H 15375 6050 50  0001 C CNN
 	1    15375 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 15500 6050 2    50   Output ~ 0
+Text GLabel 15500 7425 2    50   Output ~ 0
 3V3_SYS
 $Comp
 L sa800u-baseboard-hw:AP62301WU-7 U13
@@ -2564,13 +2564,11 @@ NoConn ~ 5600 6100
 NoConn ~ 5600 6300
 NoConn ~ 5600 6400
 Connection ~ 2200 2600
-Connection ~ 2200 6500
 Wire Wire Line
 	2200 6500 2200 2600
 Wire Wire Line
 	2500 1750 1000 1750
 Connection ~ 2500 1750
-Connection ~ 2500 5450
 Wire Wire Line
 	2500 5450 2500 1750
 Wire Wire Line
@@ -2578,12 +2576,8 @@ Wire Wire Line
 Text GLabel 1000 2600 0    50   Input ~ 0
 5V_POE
 Connection ~ 2800 950 
-Connection ~ 2800 4400
 Wire Wire Line
-	2800 950  2800 4400
-Connection ~ 2200 7550
-Wire Wire Line
-	2200 7550 2200 7700
+	2500 7550 2500 7600
 Connection ~ 2500 7550
 Wire Wire Line
 	2200 7550 2200 7500
@@ -2592,130 +2586,28 @@ Wire Wire Line
 Wire Wire Line
 	2800 7550 2500 7550
 Wire Wire Line
-	2800 5400 2800 7550
-Wire Wire Line
-	3050 5450 2500 5450
-Wire Wire Line
 	2500 5800 3050 5800
-Connection ~ 2500 5800
-Wire Wire Line
-	3050 6150 2500 6150
-Connection ~ 2500 6150
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 625AC652
-P 2200 7700
+P 2500 7600
 AR Path="/625AC652" Ref="#PWR?"  Part="1" 
 AR Path="/61B0DC30/625AC652" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2200 7450 50  0001 C CNN
-F 1 "GND" H 2205 7527 50  0000 C CNN
-F 2 "" H 2200 7700 50  0001 C CNN
-F 3 "" H 2200 7700 50  0001 C CNN
-	1    2200 7700
+F 0 "#PWR?" H 2500 7350 50  0001 C CNN
+F 1 "GND" H 2505 7427 50  0000 C CNN
+F 2 "" H 2500 7600 50  0001 C CNN
+F 3 "" H 2500 7600 50  0001 C CNN
+	1    2500 7600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 7200
 Wire Wire Line
 	2200 7200 2200 7150
 Wire Wire Line
 	3050 7200 2200 7200
-Connection ~ 2200 6850
-Wire Wire Line
-	3050 6850 2200 6850
 Wire Wire Line
 	2200 6800 2200 6850
-$Comp
-L sa800u-baseboard-hw:R_13k3_0402 R?
-U 1 1 62586FC5
-P 2200 7350
-F 0 "R?" V 2155 7420 60  0000 L CNN
-F 1 "R_13k3_0402" H 2200 7200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7550 60  0001 L CNN
-F 3 "" H 2200 7350 50  0001 C CNN
-F 4 "PANASONIC" H 2400 7750 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF1332X" H 2400 7650 60  0001 L CNN "MPN"
-F 6 "13k3" V 2253 7420 50  0000 L CNN "Val"
-	1    2200 7350
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_97k6_0402 R?
-U 1 1 62585ECE
-P 2200 7000
-F 0 "R?" V 2155 7070 60  0000 L CNN
-F 1 "R_97k6_0402" H 2200 6850 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7200 60  0001 L CNN
-F 3 "" H 2200 7000 50  0001 C CNN
-F 4 "MULTICOMP" H 2400 7400 60  0001 L CNN "Manufacturer"
-F 5 "MCMR04X9762FTL" H 2400 7300 60  0001 L CNN "MPN"
-F 6 "97k6" V 2253 7070 50  0000 L CNN "Val"
-	1    2200 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_402k_0402 R?
-U 1 1 6256D182
-P 2200 6650
-F 0 "R?" V 2155 6720 60  0000 L CNN
-F 1 "R_402k_0402" H 2200 6500 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 6850 60  0001 L CNN
-F 3 "" H 2200 6650 50  0001 C CNN
-F 4 "VISHAY" H 2400 7050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402402KFKED" H 2400 6950 60  0001 L CNN "MPN"
-F 6 "402k" V 2253 6720 50  0000 L CNN "Val"
-	1    2200 6650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3050 6500 2200 6500
-Wire Wire Line
-	2500 6450 2500 7550
-$Comp
-L sa800u-baseboard-hw:R_191k_0402 R?
-U 1 1 6252FA76
-P 2500 6300
-F 0 "R?" V 2455 6370 60  0000 L CNN
-F 1 "R_191k_0402" H 2500 6150 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6500 60  0001 L CNN
-F 3 "" H 2500 6300 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2700 6700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF1913X" H 2700 6600 60  0001 L CNN "MPN"
-F 6 "191k" V 2553 6370 50  0000 L CNN "Val"
-	1    2500 6300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 6150 2500 6100
-$Comp
-L sa800u-baseboard-hw:R_64k9_0402 R?
-U 1 1 6250BDC1
-P 2500 5950
-F 0 "R?" V 2455 6020 60  0000 L CNN
-F 1 "R_64k9_0402" H 2500 5800 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6150 60  0001 L CNN
-F 3 "" H 2500 5950 50  0001 C CNN
-F 4 "YAGEO" H 2700 6350 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-1364K9L" H 2700 6250 60  0001 L CNN "MPN"
-F 6 "64k9" V 2553 6020 50  0000 L CNN "Val"
-	1    2500 5950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 5750 2500 5800
-$Comp
-L sa800u-baseboard-hw:R_910k_0402 R?
-U 1 1 624DD83F
-P 2500 5600
-F 0 "R?" V 2455 5670 60  0000 L CNN
-F 1 "R_910k_0402" H 2500 5450 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 5800 60  0001 L CNN
-F 3 "" H 2500 5600 50  0001 C CNN
-F 4 "VISHAY" H 2700 6000 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402910KFKED" H 2700 5900 60  0001 L CNN "MPN"
-F 6 "910k" V 2553 5670 50  0000 L CNN "Val"
-	1    2500 5600
-	0    1    1    0   
-$EndComp
 $Comp
 L sa800u-baseboard-hw:R_255k_0402 R?
 U 1 1 624DB038
@@ -2731,83 +2623,34 @@ F 6 "255k" H 5900 6315 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 5100 2800 5050
-Wire Wire Line
 	3050 5100 2800 5100
-Connection ~ 2800 4750
 Wire Wire Line
 	3050 4750 2800 4750
 Wire Wire Line
-	2800 4700 2800 4750
-Wire Wire Line
 	3050 4400 2800 4400
-$Comp
-L sa800u-baseboard-hw:R_60k4_0402 R?
-U 1 1 6247CD78
-P 2800 5250
-F 0 "R?" V 2755 5320 60  0000 L CNN
-F 1 "R_60k4_0402" H 2800 5100 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5450 60  0001 L CNN
-F 3 "" H 2800 5250 50  0001 C CNN
-F 4 "YAGEO" H 3000 5650 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-0760K4L" H 3000 5550 60  0001 L CNN "MPN"
-F 6 "60k4" V 2853 5320 50  0000 L CNN "Val"
-	1    2800 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_41k2_0402 R?
-U 1 1 6246077A
-P 2800 4900
-F 0 "R?" V 2755 4970 60  0000 L CNN
-F 1 "R_41k2_0402" H 2800 4750 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5100 60  0001 L CNN
-F 3 "" H 2800 4900 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 3000 5300 60  0001 L CNN "Manufacturer"
-F 5 "ERA2AEB4122X" H 3000 5200 60  0001 L CNN "MPN"
-F 6 "41k2" V 2853 4970 50  0000 L CNN "Val"
-	1    2800 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_806k_0402 R?
-U 1 1 6245F858
-P 2800 4550
-F 0 "R?" V 2755 4620 60  0000 L CNN
-F 1 "R_806k_0402" H 2800 4400 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 4750 60  0001 L CNN
-F 3 "" H 2800 4550 50  0001 C CNN
-F 4 "VISHAY" H 3000 4950 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402806KFKED" H 3000 4850 60  0001 L CNN "MPN"
-F 6 "806k" V 2853 4620 50  0000 L CNN "Val"
-	1    2800 4550
-	0    1    1    0   
-$EndComp
-Text Notes 6300 6250 0    50   ~ 0
-about 100mV hysteresis setup
+Text Notes 6050 6125 0    50   ~ 0
+~~100mV hysteresis
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 6245617E
-P 6200 6350
+P 6100 6250
 AR Path="/6245617E" Ref="#PWR?"  Part="1" 
 AR Path="/61B0DC30/6245617E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6200 6100 50  0001 C CNN
-F 1 "GND" H 6205 6177 50  0000 C CNN
-F 2 "" H 6200 6350 50  0001 C CNN
-F 3 "" H 6200 6350 50  0001 C CNN
-	1    6200 6350
+F 0 "#PWR?" H 6100 6000 50  0001 C CNN
+F 1 "GND" H 6105 6077 50  0000 C CNN
+F 2 "" H 6100 6250 50  0001 C CNN
+F 3 "" H 6100 6250 50  0001 C CNN
+	1    6100 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 6200 6200 6350
+	6100 6200 6100 6250
 Wire Wire Line
-	6050 6200 6200 6200
+	6050 6200 6100 6200
 Wire Wire Line
 	5600 6200 5750 6200
 Text Notes 7350 4950 0    50   ~ 0
 Maybe make it with led indicators?\n
-Wire Wire Line
-	7000 5250 7300 5250
 Connection ~ 7000 5250
 Wire Wire Line
 	7000 4850 7000 5250
@@ -2820,10 +2663,8 @@ Wire Wire Line
 	5600 5250 7000 5250
 Wire Wire Line
 	5600 5150 6700 5150
-Text GLabel 7150 4400 2    50   Input ~ 0
-1V8_SYS
 Wire Wire Line
-	7000 4400 7150 4400
+	7000 4400 7275 4400
 Connection ~ 7000 4400
 Wire Wire Line
 	6700 4400 7000 4400
@@ -2836,48 +2677,6 @@ Wire Wire Line
 	6700 4550 6700 4400
 Wire Wire Line
 	6400 4550 6400 4400
-$Comp
-L sa800u-baseboard-hw:R_1M0_0402 R?
-U 1 1 623C44BA
-P 7000 4700
-F 0 "R?" V 6955 4770 60  0000 L CNN
-F 1 "R_1M0_0402" H 7000 4550 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 7200 4900 60  0001 L CNN
-F 3 "" H 7000 4700 50  0001 C CNN
-F 4 "TE CONNECTIVITY" H 7200 5100 60  0001 L CNN "Manufacturer"
-F 5 "CRG0402F1M0" H 7200 5000 60  0001 L CNN "MPN"
-F 6 "1M0" V 7053 4770 50  0000 L CNN "Val"
-	1    7000 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_1M0_0402 R?
-U 1 1 623C3C59
-P 6700 4700
-F 0 "R?" V 6655 4770 60  0000 L CNN
-F 1 "R_1M0_0402" H 6700 4550 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6900 4900 60  0001 L CNN
-F 3 "" H 6700 4700 50  0001 C CNN
-F 4 "TE CONNECTIVITY" H 6900 5100 60  0001 L CNN "Manufacturer"
-F 5 "CRG0402F1M0" H 6900 5000 60  0001 L CNN "MPN"
-F 6 "1M0" V 6753 4770 50  0000 L CNN "Val"
-	1    6700 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_1M0_0402 R?
-U 1 1 623C3078
-P 6400 4700
-F 0 "R?" V 6355 4770 60  0000 L CNN
-F 1 "R_1M0_0402" H 6400 4550 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6600 4900 60  0001 L CNN
-F 3 "" H 6400 4700 50  0001 C CNN
-F 4 "TE CONNECTIVITY" H 6600 5100 60  0001 L CNN "Manufacturer"
-F 5 "CRG0402F1M0" H 6600 5000 60  0001 L CNN "MPN"
-F 6 "1M0" V 6453 4770 50  0000 L CNN "Val"
-	1    6400 4700
-	0    1    1    0   
-$EndComp
 Connection ~ 6400 5050
 Wire Wire Line
 	6400 5050 7300 5050
@@ -2885,11 +2684,11 @@ Wire Wire Line
 	5600 5050 6400 5050
 Wire Wire Line
 	6400 5050 6400 4850
-Text GLabel 7300 5250 2    50   Input ~ 0
+Text GLabel 7300 5250 2    50   Output ~ 0
 PoE_VDD_VALID
-Text GLabel 7300 5150 2    50   Input ~ 0
+Text GLabel 7300 5150 2    50   Output ~ 0
 PD_VDD_VALID
-Text GLabel 7300 5050 2    50   Input ~ 0
+Text GLabel 7300 5050 2    50   Output ~ 0
 AUX_VDD_VALID
 Connection ~ 6150 2600
 Wire Wire Line
@@ -3874,8 +3673,6 @@ F 5 "Diodes Incorporated" H 12900 7175 50  0001 C CNN "Manufacturer"
 	1    12950 7625
 	1    0    0    -1  
 $EndComp
-Text GLabel 15500 7425 2    50   Output ~ 0
-1V8_SYS
 Wire Wire Line
 	14625 7425 15175 7425
 Connection ~ 14625 7425
@@ -4057,4 +3854,297 @@ F 6 "75k" V 14253 6320 50  0000 L CNN "Val"
 	1    14200 6250
 	0    1    1    0   
 $EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:KP-1608EC D?
+U 1 1 62445534
+P 6400 5575
+F 0 "D?" V 6175 5700 60  0000 R CNN
+F 1 "KP-1608EC" H 6350 5806 60  0001 C CNN
+F 2 "antmicro-footprints:LED_0603" H 6600 5775 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 6600 5875 60  0001 L CNN
+F 4 "KP-1608EC" H 6600 6075 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 6610 6195 60  0001 L CNN "Manufacturer"
+	1    6400 5575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 5050 6400 5375
+$Comp
+L antmicroLEDIndicationDiscrete:KP-1608EC D?
+U 1 1 624878AA
+P 6700 5575
+F 0 "D?" V 6475 5600 60  0000 L CNN
+F 1 "KP-1608EC" H 6650 5806 60  0001 C CNN
+F 2 "antmicro-footprints:LED_0603" H 6900 5775 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 6900 5875 60  0001 L CNN
+F 4 "KP-1608EC" H 6900 6075 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 6910 6195 60  0001 L CNN "Manufacturer"
+	1    6700 5575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 5150 6700 5375
+Wire Wire Line
+	7000 5250 7000 5375
+$Comp
+L antmicroLEDIndicationDiscrete:KP-1608EC D?
+U 1 1 624C5D37
+P 7000 5575
+F 0 "D?" V 6775 5600 60  0000 L CNN
+F 1 "KP-1608EC" H 6950 5806 60  0001 C CNN
+F 2 "antmicro-footprints:LED_0603" H 7200 5775 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 7200 5875 60  0001 L CNN
+F 4 "KP-1608EC" H 7200 6075 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 7210 6195 60  0001 L CNN "Manufacturer"
+	1    7000 5575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 5250 7300 5250
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 624D5920
+P 6400 5675
+AR Path="/624D5920" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/624D5920" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 5425 50  0001 C CNN
+F 1 "GND" H 6405 5502 50  0000 C CNN
+F 2 "" H 6400 5675 50  0001 C CNN
+F 3 "" H 6400 5675 50  0001 C CNN
+	1    6400 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 624E4A76
+P 6700 5675
+AR Path="/624E4A76" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/624E4A76" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 5425 50  0001 C CNN
+F 1 "GND" H 6705 5502 50  0000 C CNN
+F 2 "" H 6700 5675 50  0001 C CNN
+F 3 "" H 6700 5675 50  0001 C CNN
+	1    6700 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 624F3B6E
+P 7000 5675
+AR Path="/624F3B6E" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/624F3B6E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7000 5425 50  0001 C CNN
+F 1 "GND" H 7005 5502 50  0000 C CNN
+F 2 "" H 7000 5675 50  0001 C CNN
+F 3 "" H 7000 5675 50  0001 C CNN
+	1    7000 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 950  2800 4400
+$Comp
+L antmicroResistors0402:R_39k_0402 R?
+U 1 1 62690FD8
+P 2200 7000
+F 0 "R?" V 2155 7070 60  0000 L CNN
+F 1 "R_39k_0402" H 2200 6850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 7200 60  0001 L CNN
+F 3 "" H 2200 7000 50  0001 C CNN
+F 4 "MULTICOMP" H 2400 7400 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04X3902FTL" H 2400 7300 60  0001 L CNN "MPN"
+F 6 "39k" V 2253 7070 50  0000 L CNN "Val"
+	1    2200 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_200k_0402 R?
+U 1 1 62690FE1
+P 2200 6650
+F 0 "R?" V 2155 6720 60  0000 L CNN
+F 1 "R_200k_0402" H 2200 6500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 6850 60  0001 L CNN
+F 3 "" H 2200 6650 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 2400 7050 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 2400 6950 60  0001 L CNN "MPN"
+F 6 "200k" V 2253 6720 50  0000 L CNN "Val"
+	1    2200 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_13k7_0402 R?
+U 1 1 62690FEA
+P 2200 7350
+F 0 "R?" V 2155 7420 60  0000 L CNN
+F 1 "R_13k7_0402" H 2200 7200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2400 7550 60  0001 L CNN
+F 3 "" H 2200 7350 50  0001 C CNN
+F 4 "Bourns" H 2400 7750 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1372GLF" H 2400 7650 60  0001 L CNN "MPN"
+F 6 "13k7" V 2253 7420 50  0000 L CNN "Val"
+	1    2200 7350
+	0    1    1    0   
+$EndComp
+Connection ~ 2200 6500
+Connection ~ 2200 6850
+Connection ~ 2200 7200
+Wire Wire Line
+	2500 5450 3050 5450
+Connection ~ 2800 5100
+Wire Wire Line
+	2800 5400 2800 7550
+$Comp
+L antmicroResistors0402:R_13k7_0402 R?
+U 1 1 626047C8
+P 2800 5250
+F 0 "R?" V 2755 5320 60  0000 L CNN
+F 1 "R_13k7_0402" H 2800 5100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3000 5450 60  0001 L CNN
+F 3 "" H 2800 5250 50  0001 C CNN
+F 4 "Bourns" H 3000 5650 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1372GLF" H 3000 5550 60  0001 L CNN "MPN"
+F 6 "13k7" V 2853 5320 50  0000 L CNN "Val"
+	1    2800 5250
+	0    1    1    0   
+$EndComp
+Connection ~ 2800 4750
+Wire Wire Line
+	2800 5100 2800 5050
+$Comp
+L antmicroResistors0402:R_39k_0402 R?
+U 1 1 625DEBAD
+P 2800 4900
+F 0 "R?" V 2755 4970 60  0000 L CNN
+F 1 "R_39k_0402" H 2800 4750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3000 5100 60  0001 L CNN
+F 3 "" H 2800 4900 50  0001 C CNN
+F 4 "MULTICOMP" H 3000 5300 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04X3902FTL" H 3000 5200 60  0001 L CNN "MPN"
+F 6 "39k" V 2853 4970 50  0000 L CNN "Val"
+	1    2800 4900
+	0    1    1    0   
+$EndComp
+Connection ~ 2800 4400
+Wire Wire Line
+	2800 4700 2800 4750
+$Comp
+L antmicroResistors0402:R_200k_0402 R?
+U 1 1 625E0294
+P 2800 4550
+F 0 "R?" V 2755 4620 60  0000 L CNN
+F 1 "R_200k_0402" H 2800 4400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3000 4750 60  0001 L CNN
+F 3 "" H 2800 4550 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 3000 4950 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 3000 4850 60  0001 L CNN "MPN"
+F 6 "200k" V 2853 4620 50  0000 L CNN "Val"
+	1    2800 4550
+	0    1    1    0   
+$EndComp
+Connection ~ 2500 5450
+Wire Wire Line
+	2500 5750 2500 5800
+$Comp
+L antmicroResistors0402:R_200k_0402 R?
+U 1 1 626CA162
+P 2500 5600
+F 0 "R?" V 2455 5670 60  0000 L CNN
+F 1 "R_200k_0402" H 2500 5450 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2700 5800 60  0001 L CNN
+F 3 "" H 2500 5600 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 2700 6000 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 2700 5900 60  0001 L CNN "MPN"
+F 6 "200k" V 2553 5670 50  0000 L CNN "Val"
+	1    2500 5600
+	0    1    1    0   
+$EndComp
+Connection ~ 2500 5800
+$Comp
+L antmicroResistors0402:R_39k_0402 R?
+U 1 1 626CA159
+P 2500 5950
+F 0 "R?" V 2455 6020 60  0000 L CNN
+F 1 "R_39k_0402" H 2500 5800 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2700 6150 60  0001 L CNN
+F 3 "" H 2500 5950 50  0001 C CNN
+F 4 "MULTICOMP" H 2700 6350 60  0001 L CNN "Manufacturer"
+F 5 "MCWR04X3902FTL" H 2700 6250 60  0001 L CNN "MPN"
+F 6 "39k" V 2553 6020 50  0000 L CNN "Val"
+	1    2500 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 6450 2500 7550
+Connection ~ 2500 6150
+Wire Wire Line
+	2500 6150 2500 6100
+$Comp
+L antmicroResistors0402:R_13k7_0402 R?
+U 1 1 626CA16B
+P 2500 6300
+F 0 "R?" V 2455 6370 60  0000 L CNN
+F 1 "R_13k7_0402" H 2500 6150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 2700 6500 60  0001 L CNN
+F 3 "" H 2500 6300 50  0001 C CNN
+F 4 "Bourns" H 2700 6700 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1372GLF" H 2700 6600 60  0001 L CNN "MPN"
+F 6 "13k7" V 2553 6370 50  0000 L CNN "Val"
+	1    2500 6300
+	0    1    1    0   
+$EndComp
+Text Notes 1575 5100 0    50   ~ 0
+Fall:\nUV 4.8V\nOV 18.4V\n\nRise:\nUV 4.85V\nOV 18.45V
+Text Notes 1575 6150 0    50   ~ 0
+Fall:\nUV 4.8V\nOV 18.4V\n\nRise:\nUV 4.85V\nOV 18.45V
+Wire Wire Line
+	2200 6850 3050 6850
+Text Notes 1575 7200 0    50   ~ 0
+Fall:\nUV 4.8V\nOV 18.4V\n\nRise:\nUV 4.85V\nOV 18.45V
+Wire Wire Line
+	2500 6150 3050 6150
+$Comp
+L sa800u-baseboard-hw:R_10k_0402 R?
+U 1 1 62964477
+P 6400 4700
+F 0 "R?" V 6445 4630 60  0000 R CNN
+F 1 "R_10k_0402" H 6400 4550 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6600 4900 60  0001 L CNN
+F 3 "" H 6400 4700 50  0001 C CNN
+F 4 "VISHAY" H 6600 5100 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6600 5000 60  0001 L CNN "MPN"
+F 6 "10k" V 6347 4630 50  0000 R CNN "Val"
+	1    6400 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_10k_0402 R?
+U 1 1 6297579F
+P 6700 4700
+F 0 "R?" V 6745 4630 60  0000 R CNN
+F 1 "R_10k_0402" H 6700 4550 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6900 4900 60  0001 L CNN
+F 3 "" H 6700 4700 50  0001 C CNN
+F 4 "VISHAY" H 6900 5100 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 6900 5000 60  0001 L CNN "MPN"
+F 6 "10k" V 6647 4630 50  0000 R CNN "Val"
+	1    6700 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_10k_0402 R?
+U 1 1 62985338
+P 7000 4700
+F 0 "R?" V 7045 4630 60  0000 R CNN
+F 1 "R_10k_0402" H 7000 4550 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 7200 4900 60  0001 L CNN
+F 3 "" H 7000 4700 50  0001 C CNN
+F 4 "VISHAY" H 7200 5100 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 7200 5000 60  0001 L CNN "MPN"
+F 6 "10k" V 6947 4630 50  0000 R CNN "Val"
+	1    7000 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7275 4400 2    50   Input ~ 0
+VREG_S4A_1V8
+Text GLabel 15500 6050 2    50   Output ~ 0
+3V8_SYS
 $EndSCHEMATC

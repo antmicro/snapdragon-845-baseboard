@@ -1,6 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroLEDIndicationDiscrete_KP-1608EC
+#
+DEF antmicroLEDIndicationDiscrete_KP-1608EC D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "antmicroLEDIndicationDiscrete_KP-1608EC" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "KP-1608EC" 200 500 60 H I L CNN "MPN"
+F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_9774060151
 #
 DEF antmicroMechanicalParts_9774060151 SP 0 40 Y Y 1 F N
@@ -27,6 +48,57 @@ F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
 F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_13k7_0402
+#
+DEF antmicroResistors0402_R_13k7_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_13k7_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Bourns" 200 400 60 H I L CNN "Manufacturer"
+F5 "CR0402-FX-1372GLF" 200 300 60 H I L CNN "MPN"
+F6 "13k7" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_200k_0402
+#
+DEF antmicroResistors0402_R_200k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_200k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "YAGEO_(PHYCOMP)" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-07200KL" 200 300 60 H I L CNN "MPN"
+F6 "200k" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_39k_0402
+#
+DEF antmicroResistors0402_R_39k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_39k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCWR04X3902FTL" 200 300 60 H I L CNN "MPN"
+F6 "39k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -1892,23 +1964,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sa800u-baseboard-hw_R_13k3_0402
-#
-DEF sa800u-baseboard-hw_R_13k3_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_13k3_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2RKF1332X" 200 300 60 H I L CNN "MPN"
-F6 "13k3" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # sa800u-baseboard-hw_R_150R_0402
 #
 DEF sa800u-baseboard-hw_R_150R_0402 R 0 0 Y Y 1 F N
@@ -1936,23 +1991,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-FX-1502ELF" 200 300 60 H I L CNN "MPN"
 F6 "15k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_191k_0402
-#
-DEF sa800u-baseboard-hw_R_191k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_191k_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERJ2RKF1913X" 200 300 60 H I L CNN "MPN"
-F6 "191k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
@@ -2232,40 +2270,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sa800u-baseboard-hw_R_402k_0402
-#
-DEF sa800u-baseboard-hw_R_402k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_402k_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW0402402KFKED" 200 300 60 H I L CNN "MPN"
-F6 "402k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_41k2_0402
-#
-DEF sa800u-baseboard-hw_R_41k2_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_41k2_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
-F5 "ERA2AEB4122X" 200 300 60 H I L CNN "MPN"
-F6 "41k2" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # sa800u-baseboard-hw_R_470R_0402
 #
 DEF sa800u-baseboard-hw_R_470R_0402 R 0 0 Y Y 1 F N
@@ -2368,23 +2372,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sa800u-baseboard-hw_R_64k9_0402
-#
-DEF sa800u-baseboard-hw_R_64k9_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_64k9_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
-F5 "RC0402FR-1364K9L" 200 300 60 H I L CNN "MPN"
-F6 "64k9" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # sa800u-baseboard-hw_R_7k5_0402
 #
 DEF sa800u-baseboard-hw_R_7k5_0402 R 0 0 Y Y 1 F N
@@ -2412,57 +2399,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
 F5 "WR06X7681FTL" 200 300 60 H I L CNN "MPN"
 F6 "7k68" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_806k_0402
-#
-DEF sa800u-baseboard-hw_R_806k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_806k_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW0402806KFKED" 200 300 60 H I L CNN "MPN"
-F6 "806k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_910k_0402
-#
-DEF sa800u-baseboard-hw_R_910k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_910k_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRCW0402910KFKED" 200 300 60 H I L CNN "MPN"
-F6 "910k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_R_97k6_0402
-#
-DEF sa800u-baseboard-hw_R_97k6_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_R_97k6_0402" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
-F5 "MCMR04X9762FTL" 200 300 60 H I L CNN "MPN"
-F6 "97k6" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
