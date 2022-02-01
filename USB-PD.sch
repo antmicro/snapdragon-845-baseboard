@@ -319,21 +319,6 @@ F 6 "1u" H 9315 4847 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:IRF7416TRPBF Q7
-U 1 1 61E557F1
-P 8850 1900
-F 0 "Q7" H 8850 2415 50  0000 C CNN
-F 1 "IRF7404TRPBF" H 8850 2324 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:IRF7416TRPBF" H 8830 2295 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/137809.pdf" H 8830 2295 50  0001 C CNN
-F 4 "IRF7404TRPBF" H 8850 1900 50  0001 C CNN "MPN"
-F 5 "INFINEON" H 8850 1900 50  0001 C CNN "Manufacturer"
-	1    8850 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 1750 7350 1750
-$Comp
 L sa800u-baseboard-hw:R_100k_0402 R108
 U 1 1 61E6364D
 P 7350 2050
@@ -347,8 +332,6 @@ F 6 "100k" V 7403 2120 50  0000 L CNN "Val"
 	1    7350 2050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7350 2450 8050 2450
 Wire Wire Line
 	7350 1900 7350 1750
 Connection ~ 7350 1750
@@ -370,13 +353,10 @@ Wire Wire Line
 	7350 2600 7350 2450
 Connection ~ 7350 2450
 Wire Wire Line
-	9650 1750 9900 1750
-Wire Wire Line
 	9900 1750 9900 1850
 Wire Wire Line
 	9900 2450 9700 2450
 Connection ~ 9900 1750
-Connection ~ 8050 2450
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C139
 U 1 1 61E6EBE7
@@ -406,13 +386,11 @@ F 6 "100R" H 9550 2565 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 2050 8050 2450
-Wire Wire Line
 	7350 2200 7350 2450
 Wire Wire Line
 	9900 2150 9900 2450
 Wire Wire Line
-	9400 2450 8050 2450
+	9400 2450 8900 2450
 Wire Wire Line
 	10500 1750 10500 1950
 Wire Wire Line
@@ -431,21 +409,6 @@ F 6 "1k1" V 10553 2170 50  0000 L CNN "Val"
 	1    10500 2100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9650 1750 9650 1850
-Wire Wire Line
-	8050 1850 8050 1950
-Wire Wire Line
-	9650 1950 9650 2050
-Connection ~ 9650 1750
-Wire Wire Line
-	8050 1850 8050 1750
-Connection ~ 8050 1850
-Connection ~ 8050 1750
-Wire Wire Line
-	9650 1950 9650 1850
-Connection ~ 9650 1950
-Connection ~ 9650 1850
 Text GLabel 11800 1750 2    50   Output ~ 0
 PD_VDD
 Wire Wire Line
@@ -1028,4 +991,28 @@ F 3 "" H 5700 2125 50  0001 C CNN
 	1    5700 2125
 	1    0    0    -1  
 $EndComp
+$Comp
+L sa800u-baseboard-hw:SQS401EN-T1_BE3 Q?
+U 1 1 62135D7B
+P 8800 1750
+AR Path="/61B0DC30/62135D7B" Ref="Q?"  Part="1" 
+AR Path="/61DF77CE/62135D7B" Ref="Q7"  Part="1" 
+F 0 "Q7" V 9067 1750 60  0000 C CNN
+F 1 "SQS401EN-T1_BE3" V 8961 1750 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Vishay_PowerPAK_1212-8_Single" H 9000 1950 60  0001 L CNN
+F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9000 2050 60  0001 L CNN
+F 4 "SQS401EN-T1_BE3" H 9000 2250 60  0001 L CNN "MPN"
+F 5 "Vishay" H 9000 2850 60  0001 L CNN "Manufacturer"
+	1    8800 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 1750 9900 1750
+Wire Wire Line
+	8900 2050 8900 2450
+Connection ~ 8900 2450
+Wire Wire Line
+	7350 2450 8900 2450
+Wire Wire Line
+	7350 1750 8600 1750
 $EndSCHEMATC
