@@ -644,10 +644,10 @@ Wire Wire Line
 Wire Wire Line
 	11975 5025 12625 5025
 $Comp
-L sa800u-baseboard-hw:R_20k_0603 R?
+L sa800u-baseboard-hw:R_20k_0603 R54
 U 1 1 62C10670
 P 8575 4825
-F 0 "R?" V 8530 4895 60  0000 L CNN
+F 0 "R54" V 8530 4895 60  0000 L CNN
 F 1 "R_20k_0603" H 8575 4675 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0603-res" H 8775 5025 60  0001 L CNN
 F 3 "" H 8575 4825 50  0001 C CNN
@@ -662,10 +662,10 @@ Wire Wire Line
 Wire Wire Line
 	8575 4975 8575 5025
 $Comp
-L sa800u-baseboard-hw:R_10k_0603 R?
+L sa800u-baseboard-hw:R_10k_0603 R56
 U 1 1 62C1B70F
 P 8575 5225
-F 0 "R?" V 8484 5295 60  0000 L CNN
+F 0 "R56" V 8484 5295 60  0000 L CNN
 F 1 "R_10k_0603" H 8575 5075 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:0603-res" H 8775 5425 60  0001 L CNN
 F 3 "" H 8575 5225 50  0001 C CNN
@@ -677,10 +677,10 @@ F 7 "DNP" V 8673 5295 50  0000 L CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L sa800u-baseboard-hw:GNDD #PWR?
+L sa800u-baseboard-hw:GNDD #PWR0254
 U 1 1 62C1C906
 P 8575 5375
-F 0 "#PWR?" H 8575 5125 50  0001 C CNN
+F 0 "#PWR0254" H 8575 5125 50  0001 C CNN
 F 1 "GNDD" H 8579 5220 50  0000 C CNN
 F 2 "" H 8575 5375 50  0001 C CNN
 F 3 "" H 8575 5375 50  0001 C CNN
@@ -695,10 +695,10 @@ Connection ~ 8575 5025
 Wire Wire Line
 	8575 5025 8575 5075
 $Comp
-L sa800u-baseboard-hw:KP-1608EC D?
+L sa800u-baseboard-hw:KP-1608EC D29
 U 1 1 62C25BE8
 P 8975 5275
-F 0 "D?" V 8925 5453 60  0000 L CNN
+F 0 "D29" V 8925 5453 60  0000 L CNN
 F 1 "KP-1608EC" V 8978 5453 60  0001 L CNN
 F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 9175 5475 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9175 5575 60  0001 L CNN
@@ -708,10 +708,10 @@ F 5 "KINGBRIGHT" H 9185 5895 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L sa800u-baseboard-hw:GNDD #PWR?
+L sa800u-baseboard-hw:GNDD #PWR0255
 U 1 1 62C271AD
 P 8975 5375
-F 0 "#PWR?" H 8975 5125 50  0001 C CNN
+F 0 "#PWR0255" H 8975 5125 50  0001 C CNN
 F 1 "GNDD" H 8979 5220 50  0000 C CNN
 F 2 "" H 8975 5375 50  0001 C CNN
 F 3 "" H 8975 5375 50  0001 C CNN
