@@ -185,9 +185,6 @@ Wire Wire Line
 	5275 3725 5275 3375
 Wire Wire Line
 	5375 3725 5375 3475
-Connection ~ 5850 3575
-Wire Wire Line
-	5850 3275 5850 3575
 Wire Wire Line
 	5900 3275 5850 3275
 $Comp
@@ -203,10 +200,6 @@ F 3 "" H 5850 3625 50  0001 C CNN
 	1    5850 3625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5850 3575 5850 3625
-Wire Wire Line
-	5900 3575 5850 3575
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 61F649BB
@@ -280,21 +273,6 @@ F 4 "Texas Instruments" H 4250 3925 50  0001 C CNN "Manufacturer"
 F 5 "TPD4E05U06DQAR" H 4250 3925 50  0001 C CNN "MPN"
 	1    4250 3925
 	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:2908-05WB-MG J?
-U 1 1 61C01ECC
-P 6500 3075
-AR Path="/61C01ECC" Ref="J?"  Part="1" 
-AR Path="/61C01D88/61C01ECC" Ref="J9"  Part="1" 
-F 0 "J9" H 6125 3750 60  0000 L CNN
-F 1 "2908-05WB-MG" H 6125 3650 60  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:MicroSD_2908-05WB-MG" H 6700 3275 60  0001 L CNN
-F 3 "http://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf" H 6700 3375 60  0001 L CNN
-F 4 "3M" H 6700 4175 60  0001 L CNN "Manufacturer"
-F 5 "2908-05WB-MG" H 6700 3575 60  0001 L CNN "MPN"
-	1    6500 3075
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4150 2675 4150 3725
@@ -429,4 +407,36 @@ Wire Wire Line
 	4250 2775 5900 2775
 Wire Wire Line
 	3025 2675 4150 2675
+$Comp
+L sa800u-baseboard-hw:693072010801 J9
+U 1 1 61F945C0
+P 6400 3225
+F 0 "J9" H 6367 3940 50  0000 C CNN
+F 1 "693072010801" H 6367 3849 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:MicroSD_693072010801" H 6300 2575 50  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/693072010801.pdf" H 6050 3225 50  0001 C CNN
+F 4 "693072010801" H 6400 3875 50  0001 C CNN "MPN"
+F 5 "Wurth Electronics" H 6350 3975 50  0001 C CNN "Manufacturer"
+	1    6400 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 61F9BA66
+P 6800 3625
+AR Path="/61A60486/61F9BA66" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/61F9BA66" Ref="#PWR0256"  Part="1" 
+F 0 "#PWR0256" H 6800 3375 50  0001 C CNN
+F 1 "GND" H 6805 3452 50  0000 C CNN
+F 2 "" H 6800 3625 50  0001 C CNN
+F 3 "" H 6800 3625 50  0001 C CNN
+	1    6800 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3575 6800 3575
+Wire Wire Line
+	6800 3575 6800 3625
+Wire Wire Line
+	5850 3275 5850 3625
 $EndSCHEMATC
