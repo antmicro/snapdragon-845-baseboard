@@ -180,8 +180,6 @@ Text GLabel 1375 6125 0    50   Input ~ 0
 DSI1_LN1_P
 Text GLabel 1375 6225 0    50   Input ~ 0
 DSI1_LN0_N
-Text GLabel 1375 6325 0    50   Input ~ 0
-DSI1_LN1_P
 $Comp
 L sa800u-baseboard-hw:46756-1001 J2
 U 1 1 61B0B3EB
@@ -3194,4 +3192,6 @@ F 6 "510R" V 14978 6470 50  0000 L CNN "Val"
 	1    14925 6400
 	0    1    1    0   
 $EndComp
+Text GLabel 1375 6325 0    50   Input ~ 0
+DSI1_LN0_P
 $EndSCHEMATC
