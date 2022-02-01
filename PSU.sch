@@ -3947,10 +3947,8 @@ F 6 "13k7" V 2253 7420 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 2200 6500
 Connection ~ 2200 6850
-Connection ~ 2200 7200
 Wire Wire Line
 	2500 5450 3050 5450
-Connection ~ 2800 5100
 Wire Wire Line
 	2800 5400 2800 7550
 $Comp
@@ -4035,7 +4033,6 @@ F 6 "39k" V 2553 6020 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	2500 6450 2500 7550
-Connection ~ 2500 6150
 Wire Wire Line
 	2500 6150 2500 6100
 $Comp
