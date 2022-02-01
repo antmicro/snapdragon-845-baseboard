@@ -591,4 +591,15 @@ Text Notes 2500 6325 0    50   ~ 0
 place close to\npin 72 of\nM.2 connector
 Text GLabel 2600 4675 0    50   Input ~ 0
 3V3_SYS
+$Comp
+L sa800u-baseboard-hw:M2_2280 M2
+U 1 1 61FAA229
+P 10400 775
+F 0 "M2" H 10828 946 50  0000 L CNN
+F 1 "M2_2280" H 10828 855 50  0000 L CNN
+F 2 "sa800u-baseboard-hw-footprints:m2_2280" H 10450 675 50  0001 C CNN
+F 3 "" H 10450 675 50  0001 C CNN
+	1    10400 775 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
