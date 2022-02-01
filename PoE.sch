@@ -101,21 +101,11 @@ $EndComp
 Wire Wire Line
 	14025 5025 14025 5075
 Wire Wire Line
-	11975 5025 12625 5025
-Wire Wire Line
 	12125 4825 11975 4825
-Text Label 10225 4175 0    50   ~ 0
-SMPS_CTRL
-Wire Wire Line
-	10675 4825 10675 4175
 Wire Wire Line
 	10775 4825 10675 4825
 Text Label 8075 4975 2    50   ~ 0
 SMPS_CTRL
-Wire Wire Line
-	10550 5025 10550 4975
-Wire Wire Line
-	10775 5025 10550 5025
 $Comp
 L sa800u-baseboard-hw:PDQE30-Q48-S5-D PS1
 U 1 1 61A460CF
@@ -128,45 +118,6 @@ F 4 "Manufacturer Recommendations" H 11375 4825 50  0001 L BNN "STANDARD"
 F 5 "PDQE30-Q48-S5-D" H 11375 4825 50  0001 L BNN "MPN"
 F 6 "CUI" H 11375 4825 50  0001 L BNN "Manufacturer"
 	1    11375 4825
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:GNDD #PWR0150
-U 1 1 61A460D6
-P 9925 5075
-F 0 "#PWR0150" H 9925 4825 50  0001 C CNN
-F 1 "GNDD" H 9929 4920 50  0000 C CNN
-F 2 "" H 9925 5075 50  0001 C CNN
-F 3 "" H 9925 5075 50  0001 C CNN
-	1    9925 5075
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_47u_ELEC_100V C100
-U 1 1 61A460E0
-P 10550 4775
-F 0 "C100" H 10433 4770 60  0000 R CNN
-F 1 "C_47u_ELEC_100V" H 10550 4625 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:CP_Elec_10x10.5" H 10750 4975 60  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 10550 4775 50  0001 C CNN
-F 4 "PANASONIC" H 10750 5175 60  0001 L CNN "Manufacturer"
-F 5 "EEEHA2A470UP" H 10750 5075 60  0001 L CNN "MPN"
-F 6 "47u/100V" H 10433 4672 50  0000 R CNN "Val"
-	1    10550 4775
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_47u_ELEC_100V C99
-U 1 1 61A460EB
-P 9925 4775
-F 0 "C99" H 9808 4770 60  0000 R CNN
-F 1 "C_47u_ELEC_100V" H 9925 4625 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:CP_Elec_10x10.5" H 10125 4975 60  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 9925 4775 50  0001 C CNN
-F 4 "PANASONIC" H 10125 5175 60  0001 L CNN "Manufacturer"
-F 5 "EEEHA2A470UP" H 10125 5075 60  0001 L CNN "MPN"
-F 6 "47u/100V" H 9808 4672 50  0000 R CNN "Val"
-	1    9925 4775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -423,8 +374,6 @@ Text Notes 5925 6650 0    50   ~ 0
 RTN - negative power return for load.\nPulled to GND when Vdd > UVLO.
 Text Notes 5925 6900 0    50   ~ 0
 T2P low when type 2 hardware class. observed\nor APD is high. Indicates high power source is available. \nIf used add optocoupler according to datasheet.
-Text Notes 5800 4400 0    50   ~ 0
-Resistor that allows enabling\na chip without load connected.
 Text Label 6800 5475 0    50   ~ 0
 RTN
 Text GLabel 14350 4625 2    50   Output ~ 0
@@ -465,24 +414,11 @@ Wire Wire Line
 	13575 5025 13125 5025
 Connection ~ 13575 5025
 Connection ~ 13125 5025
-Wire Wire Line
-	10550 4625 10550 4675
-Wire Wire Line
-	9925 4975 9925 5025
-Wire Wire Line
-	9925 4625 9925 4675
 Connection ~ 10550 4625
 Wire Wire Line
 	10550 4625 10775 4625
-Connection ~ 10550 5025
-Connection ~ 9925 4625
 Wire Wire Line
 	9925 4625 10550 4625
-Connection ~ 9925 5025
-Wire Wire Line
-	9925 5025 10550 5025
-Wire Wire Line
-	9925 5075 9925 5025
 Connection ~ 4650 4625
 Connection ~ 4650 5775
 Wire Wire Line
@@ -495,14 +431,6 @@ Connection ~ 4850 4625
 Connection ~ 4850 5775
 Text Label 6775 4975 0    50   ~ 0
 CDB
-Text Label 5950 4150 0    50   ~ 0
-RTN
-Wire Wire Line
-	6200 4150 5950 4150
-Wire Wire Line
-	6750 4150 6500 4150
-Text Label 6750 4150 2    50   ~ 0
-VDD
 $Comp
 L sa800u-baseboard-hw:TPS2378DDA IC1
 U 1 1 61A46174
@@ -523,20 +451,6 @@ F 10 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2378DDA?qs=577
 $EndComp
 Text Label 7650 4625 0    50   ~ 0
 VDD_POE
-$Comp
-L sa800u-baseboard-hw:R_7k5_0402 R87
-U 1 1 66578F6C
-P 6350 4150
-F 0 "R87" H 6350 4363 60  0000 C CNN
-F 1 "R_7k5_0402" H 6350 4000 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6550 4350 60  0001 L CNN
-F 3 "" H 6350 4150 50  0001 C CNN
-F 4 "YAGEO" H 6550 4550 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-077K5L" H 6550 4450 60  0001 L CNN "MPN"
-F 6 "7k5" H 6350 4265 50  0000 C CNN "Val"
-	1    6350 4150
-	1    0    0    -1  
-$EndComp
 Text Label 5850 5075 2    50   ~ 0
 DEN
 Wire Wire Line
@@ -603,8 +517,6 @@ Wire Wire Line
 Wire Wire Line
 	12525 4425 12625 4425
 Wire Wire Line
-	10225 4175 10675 4175
-Wire Wire Line
 	12125 4425 12225 4425
 Wire Wire Line
 	12625 4625 12625 4425
@@ -659,12 +571,156 @@ Wire Wire Line
 	6750 4975 7075 4975
 Wire Wire Line
 	7400 4650 7400 4625
-Connection ~ 7400 4625
 Wire Wire Line
 	5775 4625 7400 4625
 NoConn ~ 6750 5075
 Text GLabel 2475 5475 0    50   Input ~ 0
 PAIR78
+Connection ~ 9925 4625
+Connection ~ 7400 4625
 Wire Wire Line
-	7400 4625 9925 4625
+	7400 4625 8575 4625
+$Comp
+L sa800u-baseboard-hw:GNDD #PWR0150
+U 1 1 61A460D6
+P 9925 5075
+F 0 "#PWR0150" H 9925 4825 50  0001 C CNN
+F 1 "GNDD" H 9929 4920 50  0000 C CNN
+F 2 "" H 9925 5075 50  0001 C CNN
+F 3 "" H 9925 5075 50  0001 C CNN
+	1    9925 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9925 5075 9925 5025
+Connection ~ 9925 5025
+Wire Wire Line
+	9925 5025 10550 5025
+Wire Wire Line
+	10550 5025 10550 4975
+Wire Wire Line
+	10550 4625 10550 4675
+$Comp
+L sa800u-baseboard-hw:C_47u_ELEC_100V C100
+U 1 1 61A460E0
+P 10550 4775
+F 0 "C100" H 10433 4770 60  0000 R CNN
+F 1 "C_47u_ELEC_100V" H 10550 4625 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:CP_Elec_10x10.5" H 10750 4975 60  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 10550 4775 50  0001 C CNN
+F 4 "PANASONIC" H 10750 5175 60  0001 L CNN "Manufacturer"
+F 5 "EEEHA2A470UP" H 10750 5075 60  0001 L CNN "MPN"
+F 6 "47u/100V" H 10433 4672 50  0000 R CNN "Val"
+	1    10550 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9925 4975 9925 5025
+Wire Wire Line
+	9925 4625 9925 4675
+$Comp
+L sa800u-baseboard-hw:C_47u_ELEC_100V C99
+U 1 1 61A460EB
+P 9925 4775
+F 0 "C99" H 9808 4770 60  0000 R CNN
+F 1 "C_47u_ELEC_100V" H 9925 4625 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:CP_Elec_10x10.5" H 10125 4975 60  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1151.pdf" H 9925 4775 50  0001 C CNN
+F 4 "PANASONIC" H 10125 5175 60  0001 L CNN "Manufacturer"
+F 5 "EEEHA2A470UP" H 10125 5075 60  0001 L CNN "MPN"
+F 6 "47u/100V" H 9808 4672 50  0000 R CNN "Val"
+	1    9925 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10225 4175 10675 4175
+Wire Wire Line
+	10675 4825 10675 4175
+Text Label 10225 4175 0    50   ~ 0
+SMPS_CTRL
+Connection ~ 10550 5025
+Wire Wire Line
+	10775 5025 10550 5025
+Wire Wire Line
+	11975 5025 12625 5025
+$Comp
+L sa800u-baseboard-hw:R_20k_0603 R?
+U 1 1 62C10670
+P 8575 4825
+F 0 "R?" V 8530 4895 60  0000 L CNN
+F 1 "R_20k_0603" H 8575 4675 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 8775 5025 60  0001 L CNN
+F 3 "" H 8575 4825 50  0001 C CNN
+F 4 "MULTICOMP" H 8775 5225 60  0001 L CNN "Manufacturer"
+F 5 "MCMR06X203_JTL" H 8775 5125 60  0001 L CNN "MPN"
+F 6 "20k" V 8628 4895 50  0000 L CNN "Val"
+	1    8575 4825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8575 4625 8575 4675
+Wire Wire Line
+	8575 4975 8575 5025
+$Comp
+L sa800u-baseboard-hw:R_10k_0603 R?
+U 1 1 62C1B70F
+P 8575 5225
+F 0 "R?" V 8484 5295 60  0000 L CNN
+F 1 "R_10k_0603" H 8575 5075 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-res" H 8775 5425 60  0001 L CNN
+F 3 "" H 8575 5225 50  0001 C CNN
+F 4 "BOURNS" H 8775 5625 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-103ELF" H 8775 5525 60  0001 L CNN "MPN"
+F 6 "10k" V 8582 5295 50  0000 L CNN "Val"
+F 7 "DNP" V 8673 5295 50  0000 L CNN "DNP"
+	1    8575 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GNDD #PWR?
+U 1 1 62C1C906
+P 8575 5375
+F 0 "#PWR?" H 8575 5125 50  0001 C CNN
+F 1 "GNDD" H 8579 5220 50  0000 C CNN
+F 2 "" H 8575 5375 50  0001 C CNN
+F 3 "" H 8575 5375 50  0001 C CNN
+	1    8575 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 5025 8975 5025
+Wire Wire Line
+	8975 5025 8975 5075
+Connection ~ 8575 5025
+Wire Wire Line
+	8575 5025 8575 5075
+$Comp
+L sa800u-baseboard-hw:KP-1608EC D?
+U 1 1 62C25BE8
+P 8975 5275
+F 0 "D?" V 8925 5453 60  0000 L CNN
+F 1 "KP-1608EC" V 8978 5453 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 9175 5475 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9175 5575 60  0001 L CNN
+F 4 "KP-1608EC" H 9175 5775 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 9185 5895 60  0001 L CNN "Manufacturer"
+	1    8975 5275
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GNDD #PWR?
+U 1 1 62C271AD
+P 8975 5375
+F 0 "#PWR?" H 8975 5125 50  0001 C CNN
+F 1 "GNDD" H 8979 5220 50  0000 C CNN
+F 2 "" H 8975 5375 50  0001 C CNN
+F 3 "" H 8975 5375 50  0001 C CNN
+	1    8975 5375
+	1    0    0    -1  
+$EndComp
+Connection ~ 8575 4625
+Wire Wire Line
+	8575 4625 9925 4625
+Text Notes 8475 5825 0    50   ~ 0
+PSE must see draw of ~~10mA to maintain PoE.\nPDQE30-D draws 8~~15mA with no load\nThis circuit provides exrta ~~3mA and indicates VDD presence
 $EndSCHEMATC
