@@ -26,62 +26,8 @@ F 5 "632723300011" H 7800 1725 50  0001 C CNN "MPN"
 	1    7800 1725
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:WE_632723300011 J4
-U 1 1 62A1482A
-P 8125 8675
-AR Path="/61A2F307/62A1482A" Ref="J4"  Part="1" 
-AR Path="/628CDA4A/62A1482A" Ref="J?"  Part="1" 
-F 0 "J4" H 8525 8864 60  0000 C CNN
-F 1 "WE_632723300011" H 8525 8758 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:WE_632723300011" H 8125 8675 60  0001 C CNN
-F 3 "" H 8125 8675 60  0001 C CNN
-F 4 "Wurth Elektronik" H 8125 8675 50  0001 C CNN "Manufacturer"
-F 5 "632723300011" H 8125 8675 50  0001 C CNN "MPN"
-	1    8125 8675
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:GND #PWR045
-U 1 1 62A14830
-P 7825 10225
-AR Path="/61A2F307/62A14830" Ref="#PWR045"  Part="1" 
-AR Path="/628CDA4A/62A14830" Ref="#PWR?"  Part="1" 
-F 0 "#PWR045" H 7825 9975 50  0001 C CNN
-F 1 "GND" H 7830 10052 50  0000 C CNN
-F 2 "" H 7825 10225 50  0001 C CNN
-F 3 "" H 7825 10225 50  0001 C CNN
-	1    7825 10225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7925 9975 7825 9975
-Wire Wire Line
-	7825 9975 7825 10225
-Wire Wire Line
-	7825 9975 7825 9875
-Connection ~ 7825 9975
 Wire Wire Line
 	7825 8775 7925 8775
-$Comp
-L sa800u-baseboard-hw:GND #PWR048
-U 1 1 62A1483B
-P 9225 10225
-AR Path="/61A2F307/62A1483B" Ref="#PWR048"  Part="1" 
-AR Path="/628CDA4A/62A1483B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR048" H 9225 9975 50  0001 C CNN
-F 1 "GND" H 9230 10052 50  0000 C CNN
-F 2 "" H 9225 10225 50  0001 C CNN
-F 3 "" H 9225 10225 50  0001 C CNN
-	1    9225 10225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9125 9875 9225 9875
-Wire Wire Line
-	9225 9875 9225 10225
-Wire Wire Line
-	9125 8775 9225 8775
 Wire Wire Line
 	7925 9875 7825 9875
 Connection ~ 7825 9875
@@ -180,89 +126,46 @@ Wire Wire Line
 Wire Wire Line
 	7725 8425 7325 8425
 $Comp
-L sa800u-baseboard-hw:C_22u_0603 C71
-U 1 1 62A1489A
-P 6925 8125
-AR Path="/61A2F307/62A1489A" Ref="C71"  Part="1" 
-AR Path="/628CDA4A/62A1489A" Ref="C?"  Part="1" 
-F 0 "C71" H 7040 8170 60  0000 L CNN
-F 1 "C_22u_0603" H 6925 7975 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 7125 8325 60  0001 L CNN
-F 3 "" H 6925 8125 50  0001 C CNN
-F 4 "MURATA" H 7125 8525 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J226MEA0D" H 7125 8425 60  0001 L CNN "MPN"
-F 6 "22u" H 7040 8072 50  0000 L CNN "Val"
-	1    6925 8125
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C74
-U 1 1 62A148A3
-P 7325 8125
-AR Path="/61A2F307/62A148A3" Ref="C74"  Part="1" 
-AR Path="/628CDA4A/62A148A3" Ref="C?"  Part="1" 
-F 0 "C74" H 7440 8170 60  0000 L CNN
-F 1 "C_100n_0402" H 7325 7975 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 7525 8325 60  0001 L CNN
-F 3 "" H 7325 8125 50  0001 C CNN
-F 4 "Walsin" H 7525 8525 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 7525 8425 60  0001 L CNN "MPN"
-F 6 "100n" H 7440 8072 50  0000 L CNN "Val"
-	1    7325 8125
-	1    0    0    -1  
-$EndComp
-$Comp
 L sa800u-baseboard-hw:ESD9L5.0ST5G D12
 U 1 1 62A148AB
-P 7725 8025
+P 7725 8125
 AR Path="/61A2F307/62A148AB" Ref="D12"  Part="1" 
 AR Path="/628CDA4A/62A148AB" Ref="D?"  Part="1" 
-F 0 "D12" V 7679 8125 50  0000 L CNN
-F 1 "ESD9L5.0ST5G" V 7770 8125 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 7475 8225 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 7725 8025 50  0001 C CNN
-F 4 "ESD9L5.0ST5G" H 7425 8275 50  0001 C CNN "MPN"
-F 5 "ONSEMI" H 7875 8275 50  0001 C CNN "Manufacturer"
-	1    7725 8025
+F 0 "D12" V 7679 8225 50  0000 L CNN
+F 1 "ESD9L5.0ST5G" V 7770 8225 50  0000 L CNN
+F 2 "sa800u-baseboard-hw-footprints:DIOM1006X40N" H 7475 8325 50  0001 C CNN
+F 3 "https://www.farnell.com/datasheets/2353986.pdf" H 7725 8125 50  0001 C CNN
+F 4 "ESD9L5.0ST5G" H 7425 8375 50  0001 C CNN "MPN"
+F 5 "ONSEMI" H 7875 8375 50  0001 C CNN "Manufacturer"
+	1    7725 8125
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7725 8425 7725 8275
+	7725 8425 7725 8375
 Connection ~ 7725 8425
 Wire Wire Line
-	7725 7775 7725 7675
+	7725 7875 7725 7850
 Wire Wire Line
-	6925 7975 6925 7675
-Wire Wire Line
-	6925 7675 7325 7675
-Wire Wire Line
-	7725 7675 7725 7475
-Wire Wire Line
-	7325 7975 7325 7675
-Connection ~ 7325 7675
-Wire Wire Line
-	7325 7675 7725 7675
-Wire Wire Line
-	7325 8275 7325 8425
+	7325 8300 7325 8425
 Connection ~ 7325 8425
 Wire Wire Line
 	7325 8425 6925 8425
 Wire Wire Line
-	6925 8275 6925 8425
+	6925 8325 6925 8425
 Connection ~ 6925 8425
 Wire Wire Line
 	6925 8425 6000 8425
 $Comp
 L sa800u-baseboard-hw:GND #PWR044
 U 1 1 62A148C2
-P 7725 7475
+P 7725 7800
 AR Path="/61A2F307/62A148C2" Ref="#PWR044"  Part="1" 
 AR Path="/628CDA4A/62A148C2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR044" H 7725 7225 50  0001 C CNN
-F 1 "GND" H 7730 7302 50  0000 C CNN
-F 2 "" H 7725 7475 50  0001 C CNN
-F 3 "" H 7725 7475 50  0001 C CNN
-	1    7725 7475
+F 0 "#PWR044" H 7725 7550 50  0001 C CNN
+F 1 "GND" H 7730 7627 50  0000 C CNN
+F 2 "" H 7725 7800 50  0001 C CNN
+F 3 "" H 7725 7800 50  0001 C CNN
+	1    7725 7800
 	-1   0    0    1   
 $EndComp
 Text GLabel 3175 9000 0    50   Input ~ 0
@@ -273,20 +176,6 @@ Text GLabel 3175 9300 0    50   Input ~ 0
 USB2_SS_TX_N
 Text GLabel 3175 9200 0    50   Input ~ 0
 USB2_SS_TX_P
-Wire Wire Line
-	9125 9075 9325 9075
-Wire Wire Line
-	9325 9075 9325 8425
-Wire Wire Line
-	9125 9575 9325 9575
-Wire Wire Line
-	9325 9575 9325 9075
-Connection ~ 9325 9075
-Wire Wire Line
-	9325 8425 7725 8425
-Connection ~ 9225 9875
-Wire Wire Line
-	9225 8775 9225 9875
 Wire Wire Line
 	3175 9300 3475 9300
 Wire Wire Line
@@ -311,91 +200,8 @@ Wire Wire Line
 	4475 9800 4725 9800
 Wire Wire Line
 	4475 9900 4725 9900
-Text GLabel 10100 9375 2    50   BiDi ~ 0
-USB2C_HS_D_P
-Text GLabel 10100 9275 2    50   BiDi ~ 0
-USB2C_HS_D_N
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C80
-U 1 1 62A148E7
-P 9525 8975
-AR Path="/61A2F307/62A148E7" Ref="C80"  Part="1" 
-AR Path="/628CDA4A/62A148E7" Ref="C?"  Part="1" 
-F 0 "C80" V 9575 8725 60  0000 C CNN
-F 1 "C_100n_0402" H 9525 8825 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9725 9175 60  0001 L CNN
-F 3 "" H 9525 8975 50  0001 C CNN
-F 4 "Walsin" H 9725 9375 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9725 9275 60  0001 L CNN "MPN"
-F 6 "100n" V 9575 8500 50  0000 C CNN "Val"
-	1    9525 8975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C82
-U 1 1 62A148F0
-P 9625 8875
-AR Path="/61A2F307/62A148F0" Ref="C82"  Part="1" 
-AR Path="/628CDA4A/62A148F0" Ref="C?"  Part="1" 
-F 0 "C82" V 9675 8725 60  0000 C CNN
-F 1 "C_100n_0402" H 9625 8725 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9825 9075 60  0001 L CNN
-F 3 "" H 9625 8875 50  0001 C CNN
-F 4 "Walsin" H 9825 9275 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9825 9175 60  0001 L CNN "MPN"
-F 6 "100n" V 9675 8500 50  0000 C CNN "Val"
-	1    9625 8875
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10700 8975 9675 8975
-Wire Wire Line
-	9125 9275 10100 9275
-Wire Wire Line
-	9125 9375 10100 9375
-Wire Wire Line
-	9375 9775 9125 9775
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C81
-U 1 1 62A148FF
-P 9525 9775
-AR Path="/61A2F307/62A148FF" Ref="C81"  Part="1" 
-AR Path="/628CDA4A/62A148FF" Ref="C?"  Part="1" 
-F 0 "C81" V 9575 9525 60  0000 C CNN
-F 1 "C_100n_0402" H 9525 9625 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9725 9975 60  0001 L CNN
-F 3 "" H 9525 9775 50  0001 C CNN
-F 4 "Walsin" H 9725 10175 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9725 10075 60  0001 L CNN "MPN"
-F 6 "100n" V 9575 9300 50  0000 C CNN "Val"
-	1    9525 9775
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_100n_0402 C83
-U 1 1 62A14908
-P 9625 9675
-AR Path="/61A2F307/62A14908" Ref="C83"  Part="1" 
-AR Path="/628CDA4A/62A14908" Ref="C?"  Part="1" 
-F 0 "C83" V 9675 9525 60  0000 C CNN
-F 1 "C_100n_0402" H 9625 9525 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9825 9875 60  0001 L CNN
-F 3 "" H 9625 9675 50  0001 C CNN
-F 4 "Walsin" H 9825 10075 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9825 9975 60  0001 L CNN "MPN"
-F 6 "100n" V 9675 9300 50  0000 C CNN "Val"
-	1    9625 9675
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9475 9675 9125 9675
-Wire Wire Line
-	9675 9775 10700 9775
-NoConn ~ 9125 9175
 Text Label 7225 9175 0    50   ~ 0
 USB2_CC1
-Text Label 9775 9475 2    50   ~ 0
-USB2_CC2
 Wire Wire Line
 	7225 9175 7925 9175
 $Comp
@@ -447,8 +253,6 @@ F 3 "" H 3275 10100 50  0001 C CNN
 	1    3275 10100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9125 9475 9775 9475
 $Comp
 L sa800u-baseboard-hw:C_47u_0603 C?
 U 1 1 62A14936
@@ -703,64 +507,30 @@ Text Label 5850 6500 2    50   ~ 0
 USB2_CC_SELECT
 Wire Wire Line
 	4350 6500 5850 6500
-$Comp
-L sa800u-baseboard-hw:TXB0104D U?
-U 1 1 62A149C7
-P 8100 6075
-AR Path="/628CDA4A/62A149C7" Ref="U?"  Part="1" 
-AR Path="/61A2F307/62A149C7" Ref="U7"  Part="1" 
-F 0 "U7" H 7850 6525 60  0000 C CNN
-F 1 "TXB0104D" H 8400 6525 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SOIC-14_W3.9mm" H 8300 6275 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0104" H 8300 6375 60  0001 L CNN
-F 4 "TXB0104D" H 8300 6575 60  0001 L CNN "MPN"
-F 5 "Texas Instruments" H 8300 7175 60  0001 L CNN "Manufacturer"
-	1    8100 6075
-	-1   0    0    -1  
-$EndComp
-Text GLabel 8250 5475 2    50   Input ~ 0
+Text GLabel 8675 5450 2    50   Input ~ 0
 1V8_SYS
 Wire Wire Line
-	8100 5475 8100 5575
+	7975 5450 7975 5550
 Wire Wire Line
-	8200 5475 8200 5575
-Text GLabel 8700 5875 2    50   Input ~ 0
+	8175 5450 8175 5550
+Text GLabel 8675 5950 2    50   Input ~ 0
 USB2_EN
-Text GLabel 8700 5975 2    50   Output ~ 0
+Text GLabel 8675 6150 2    50   Output ~ 0
 USB2_FAULT
-Text GLabel 8700 6075 2    50   Output ~ 0
+Text GLabel 8675 6350 2    50   Output ~ 0
 USB2_SINK
 Wire Wire Line
-	8700 5875 8500 5875
+	8675 5950 8475 5950
 Wire Wire Line
-	8700 5975 8500 5975
+	8675 6150 8475 6150
 Wire Wire Line
-	8700 6075 8500 6075
+	8675 6350 8475 6350
 Wire Wire Line
-	7600 5875 7800 5875
+	7475 5950 7675 5950
 Wire Wire Line
-	7600 5975 7800 5975
+	7475 6150 7675 6150
 Wire Wire Line
-	7800 6075 7600 6075
-NoConn ~ 7800 6175
-NoConn ~ 8500 6175
-Wire Wire Line
-	8700 6275 8500 6275
-$Comp
-L sa800u-baseboard-hw:GND #PWR?
-U 1 1 62A149DE
-P 8100 6675
-AR Path="/628CDA4A/62A149DE" Ref="#PWR?"  Part="1" 
-AR Path="/61A2F307/62A149DE" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 8100 6425 50  0001 C CNN
-F 1 "GND" H 8105 6502 50  0000 C CNN
-F 2 "" H 8100 6675 50  0001 C CNN
-F 3 "" H 8100 6675 50  0001 C CNN
-	1    8100 6675
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 6675 8100 6575
+	7675 6350 7475 6350
 $Comp
 L sa800u-baseboard-hw:C_10u_0402 C?
 U 1 1 62A149E8
@@ -793,11 +563,11 @@ F 3 "" H 5200 6000 50  0001 C CNN
 	1    5200 6000
 	1    0    0    -1  
 $EndComp
-Text Label 7600 5875 2    50   ~ 0
+Text Label 7475 5950 2    50   ~ 0
 USB2_EN_5V
-Text Label 7600 5975 2    50   ~ 0
+Text Label 7475 6150 2    50   ~ 0
 USB2_FAULT_5V
-Text Label 7600 6075 2    50   ~ 0
+Text Label 7475 6350 2    50   ~ 0
 USB2_SINK_5V
 Text Label 5850 6350 2    50   ~ 0
 USB2_SINK_5V
@@ -949,12 +719,6 @@ Text Label 6375 9675 0    50   ~ 0
 USB2C_RX2_N
 Text Label 6375 9775 0    50   ~ 0
 USB2C_RX2_P
-Text Label 10700 9775 2    50   ~ 0
-USB2C_TX2_P
-Text Label 10700 8975 2    50   ~ 0
-USB2C_RX1_N
-Text Label 10700 8875 2    50   ~ 0
-USB2C_RX1_P
 Wire Wire Line
 	2425 8950 1975 8950
 Connection ~ 1975 8950
@@ -1698,17 +1462,6 @@ Text Label 5650 5700 2    50   ~ 0
 USB2_5V
 Text Label 6000 8425 0    50   ~ 0
 USB2_5V
-Connection ~ 7725 7675
-Wire Wire Line
-	9475 8875 9125 8875
-Wire Wire Line
-	9125 8975 9375 8975
-Wire Wire Line
-	9775 8875 10700 8875
-Wire Wire Line
-	9775 9675 10700 9675
-Text Label 10700 9675 2    50   ~ 0
-USB2C_TX2_N
 Wire Wire Line
 	6975 9375 7925 9375
 Wire Wire Line
@@ -1735,11 +1488,11 @@ F 3 "~" H 5200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 5475 8200 5475
-Text GLabel 8050 5475 0    50   Input ~ 0
+	8675 5450 8525 5450
+Text GLabel 7775 5450 0    50   Input ~ 0
 5V_SYS
 Wire Wire Line
-	8050 5475 8100 5475
+	7775 5450 7975 5450
 Text GLabel 9475 5450 0    50   Input ~ 0
 1V8_SYS
 Wire Wire Line
@@ -1752,8 +1505,6 @@ Wire Wire Line
 	9725 5450 9725 5525
 Wire Wire Line
 	9475 5450 9525 5450
-Text GLabel 8700 6275 2    50   Input ~ 0
-1V8_SYS
 $Comp
 L sa800u-baseboard-hw:TPD4E05U06_PASS D?
 U 1 1 63DB6B08
@@ -2149,20 +1900,6 @@ USB2_5V
 Wire Wire Line
 	7400 2125 7400 1475
 $Comp
-L sa800u-baseboard-hw:C_1u_0402 C68
-U 1 1 61ACCBAB
-P 7250 1475
-F 0 "C68" V 7508 1475 60  0000 C CNN
-F 1 "C_1u_0402" H 7250 1325 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 7450 1675 60  0001 L CNN
-F 3 "" H 7250 1475 50  0001 C CNN
-F 4 "TDK" H 7450 1875 60  0001 L CNN "Manufacturer"
-F 5 "C1005X6S1A105K050BC" H 7450 1775 60  0001 L CNN "MPN"
-F 6 "1u" V 7410 1475 50  0000 C CNN "Val"
-	1    7250 1475
-	0    -1   -1   0   
-$EndComp
-$Comp
 L sa800u-baseboard-hw:TPD4E05U06_PASS D?
 U 1 1 64BD5AEE
 P 10050 3975
@@ -2398,24 +2135,6 @@ Wire Wire Line
 	4650 2725 4200 2725
 Wire Wire Line
 	4650 2325 4200 2325
-$Comp
-L sa800u-baseboard-hw:GND #PWR0236
-U 1 1 6555262D
-P 7050 1525
-AR Path="/61A2F307/6555262D" Ref="#PWR0236"  Part="1" 
-AR Path="/628CDA4A/6555262D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0236" H 7050 1275 50  0001 C CNN
-F 1 "GND" H 7055 1352 50  0000 C CNN
-F 2 "" H 7050 1525 50  0001 C CNN
-F 3 "" H 7050 1525 50  0001 C CNN
-	1    7050 1525
-	1    0    0    -1  
-$EndComp
-Connection ~ 7400 1475
-Wire Wire Line
-	7100 1475 7050 1475
-Wire Wire Line
-	7050 1475 7050 1525
 Wire Wire Line
 	2525 3000 2525 2975
 Wire Wire Line
@@ -2463,4 +2182,344 @@ Text Label 3075 2625 2    50   ~ 0
 USB_SBU_1_2
 Text GLabel 2475 2025 0    50   Input ~ 0
 3V3_SYS
+$Comp
+L sa800u-baseboard-hw:C_47u_0603 C?
+U 1 1 62009893
+P 8100 4050
+AR Path="/628CDA4A/62009893" Ref="C?"  Part="1" 
+AR Path="/61A2F307/62009893" Ref="C74"  Part="1" 
+F 0 "C74" H 8215 4095 60  0000 L CNN
+F 1 "C_47u_0603" H 8100 3900 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 8300 4250 60  0001 L CNN
+F 3 "" H 8100 4050 50  0001 C CNN
+F 4 "MURATA" H 8300 4450 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 8300 4350 60  0001 L CNN "MPN"
+F 6 "47u" H 8215 3997 50  0000 L CNN "Val"
+	1    8100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_47u_0603 C?
+U 1 1 6200989C
+P 8500 4050
+AR Path="/628CDA4A/6200989C" Ref="C?"  Part="1" 
+AR Path="/61A2F307/6200989C" Ref="C152"  Part="1" 
+F 0 "C152" H 8615 4095 60  0000 L CNN
+F 1 "C_47u_0603" H 8500 3900 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 8700 4250 60  0001 L CNN
+F 3 "" H 8500 4050 50  0001 C CNN
+F 4 "MURATA" H 8700 4450 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 8700 4350 60  0001 L CNN "MPN"
+F 6 "47u" H 8615 3997 50  0000 L CNN "Val"
+	1    8500 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3850 0    50   Input ~ 0
+USB_VBUS
+Wire Wire Line
+	8100 3850 8100 3900
+Wire Wire Line
+	7950 3850 8100 3850
+Wire Wire Line
+	8100 3850 8500 3850
+Wire Wire Line
+	8500 3850 8500 3900
+Connection ~ 8100 3850
+Wire Wire Line
+	8500 4200 8500 4250
+Wire Wire Line
+	8500 4250 8100 4250
+Wire Wire Line
+	8100 4250 8100 4200
+$Comp
+L sa800u-baseboard-hw:GND #PWR0236
+U 1 1 620F6ABE
+P 8500 4250
+AR Path="/61A2F307/620F6ABE" Ref="#PWR0236"  Part="1" 
+AR Path="/628CDA4A/620F6ABE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0236" H 8500 4000 50  0001 C CNN
+F 1 "GND" H 8505 4077 50  0000 C CNN
+F 2 "" H 8500 4250 50  0001 C CNN
+F 3 "" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_47u_0603 C?
+U 1 1 62125791
+P 6925 8175
+AR Path="/628CDA4A/62125791" Ref="C?"  Part="1" 
+AR Path="/61A2F307/62125791" Ref="C68"  Part="1" 
+F 0 "C68" H 7040 8220 60  0000 L CNN
+F 1 "C_47u_0603" H 6925 8025 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 7125 8375 60  0001 L CNN
+F 3 "" H 6925 8175 50  0001 C CNN
+F 4 "MURATA" H 7125 8575 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 7125 8475 60  0001 L CNN "MPN"
+F 6 "47u" H 7040 8122 50  0000 L CNN "Val"
+	1    6925 8175
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_47u_0603 C?
+U 1 1 6212579A
+P 7325 8150
+AR Path="/628CDA4A/6212579A" Ref="C?"  Part="1" 
+AR Path="/61A2F307/6212579A" Ref="C71"  Part="1" 
+F 0 "C71" H 7440 8195 60  0000 L CNN
+F 1 "C_47u_0603" H 7325 8000 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 7525 8350 60  0001 L CNN
+F 3 "" H 7325 8150 50  0001 C CNN
+F 4 "MURATA" H 7525 8550 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 7525 8450 60  0001 L CNN "MPN"
+F 6 "47u" H 7440 8097 50  0000 L CNN "Val"
+	1    7325 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 6525 10125 6575
+Wire Wire Line
+	10125 6525 10525 6525
+Wire Wire Line
+	10525 6525 10525 6575
+Connection ~ 10125 6525
+Wire Wire Line
+	10525 6875 10525 6925
+Wire Wire Line
+	10525 6925 10125 6925
+Wire Wire Line
+	10125 6925 10125 6875
+$Comp
+L sa800u-baseboard-hw:GND #PWR0257
+U 1 1 621257A9
+P 10525 6925
+AR Path="/61A2F307/621257A9" Ref="#PWR0257"  Part="1" 
+AR Path="/628CDA4A/621257A9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0257" H 10525 6675 50  0001 C CNN
+F 1 "GND" H 10530 6752 50  0000 C CNN
+F 2 "" H 10525 6925 50  0001 C CNN
+F 3 "" H 10525 6925 50  0001 C CNN
+	1    10525 6925
+	1    0    0    -1  
+$EndComp
+Text Label 9775 6525 0    50   ~ 0
+USB2_5V
+Wire Wire Line
+	9775 6525 10125 6525
+Wire Wire Line
+	7725 7850 7325 7850
+Wire Wire Line
+	6925 7850 6925 8025
+Connection ~ 7725 7850
+Wire Wire Line
+	7325 8000 7325 7850
+Connection ~ 7325 7850
+Wire Wire Line
+	7325 7850 6925 7850
+Wire Wire Line
+	7725 7800 7725 7850
+Wire Wire Line
+	9325 8425 7725 8425
+Text Label 10700 9675 2    50   ~ 0
+USB2C_TX2_N
+Wire Wire Line
+	9775 9675 10700 9675
+Wire Wire Line
+	9775 8875 10700 8875
+Wire Wire Line
+	9125 8975 9375 8975
+Wire Wire Line
+	9475 8875 9125 8875
+Text Label 10700 8875 2    50   ~ 0
+USB2C_RX1_P
+Text Label 10700 8975 2    50   ~ 0
+USB2C_RX1_N
+Text Label 10700 9775 2    50   ~ 0
+USB2C_TX2_P
+Wire Wire Line
+	9125 9475 9775 9475
+Text Label 9775 9475 2    50   ~ 0
+USB2_CC2
+NoConn ~ 9125 9175
+Wire Wire Line
+	9675 9775 10700 9775
+Wire Wire Line
+	9475 9675 9125 9675
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C83
+U 1 1 62A14908
+P 9625 9675
+AR Path="/61A2F307/62A14908" Ref="C83"  Part="1" 
+AR Path="/628CDA4A/62A14908" Ref="C?"  Part="1" 
+F 0 "C83" V 9675 9525 60  0000 C CNN
+F 1 "C_100n_0402" H 9625 9525 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9825 9875 60  0001 L CNN
+F 3 "" H 9625 9675 50  0001 C CNN
+F 4 "Walsin" H 9825 10075 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9825 9975 60  0001 L CNN "MPN"
+F 6 "100n" V 9675 9300 50  0000 C CNN "Val"
+	1    9625 9675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C81
+U 1 1 62A148FF
+P 9525 9775
+AR Path="/61A2F307/62A148FF" Ref="C81"  Part="1" 
+AR Path="/628CDA4A/62A148FF" Ref="C?"  Part="1" 
+F 0 "C81" V 9575 9525 60  0000 C CNN
+F 1 "C_100n_0402" H 9525 9625 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9725 9975 60  0001 L CNN
+F 3 "" H 9525 9775 50  0001 C CNN
+F 4 "Walsin" H 9725 10175 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9725 10075 60  0001 L CNN "MPN"
+F 6 "100n" V 9575 9300 50  0000 C CNN "Val"
+	1    9525 9775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9375 9775 9125 9775
+Wire Wire Line
+	9125 9375 10100 9375
+Wire Wire Line
+	9125 9275 10100 9275
+Wire Wire Line
+	10700 8975 9675 8975
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C82
+U 1 1 62A148F0
+P 9625 8875
+AR Path="/61A2F307/62A148F0" Ref="C82"  Part="1" 
+AR Path="/628CDA4A/62A148F0" Ref="C?"  Part="1" 
+F 0 "C82" V 9675 8725 60  0000 C CNN
+F 1 "C_100n_0402" H 9625 8725 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9825 9075 60  0001 L CNN
+F 3 "" H 9625 8875 50  0001 C CNN
+F 4 "Walsin" H 9825 9275 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9825 9175 60  0001 L CNN "MPN"
+F 6 "100n" V 9675 8500 50  0000 C CNN "Val"
+	1    9625 8875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C80
+U 1 1 62A148E7
+P 9525 8975
+AR Path="/61A2F307/62A148E7" Ref="C80"  Part="1" 
+AR Path="/628CDA4A/62A148E7" Ref="C?"  Part="1" 
+F 0 "C80" V 9575 8725 60  0000 C CNN
+F 1 "C_100n_0402" H 9525 8825 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 9725 9175 60  0001 L CNN
+F 3 "" H 9525 8975 50  0001 C CNN
+F 4 "Walsin" H 9725 9375 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9725 9275 60  0001 L CNN "MPN"
+F 6 "100n" V 9575 8500 50  0000 C CNN "Val"
+	1    9525 8975
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10100 9275 2    50   BiDi ~ 0
+USB2C_HS_D_N
+Text GLabel 10100 9375 2    50   BiDi ~ 0
+USB2C_HS_D_P
+Wire Wire Line
+	9225 8775 9225 9875
+Connection ~ 9225 9875
+Connection ~ 9325 9075
+Wire Wire Line
+	9325 9575 9325 9075
+Wire Wire Line
+	9125 9575 9325 9575
+Wire Wire Line
+	9325 9075 9325 8425
+Wire Wire Line
+	9125 9075 9325 9075
+Wire Wire Line
+	9125 8775 9225 8775
+Wire Wire Line
+	9125 9875 9225 9875
+$Comp
+L sa800u-baseboard-hw:GND #PWR045
+U 1 1 62A14830
+P 7825 10225
+AR Path="/61A2F307/62A14830" Ref="#PWR045"  Part="1" 
+AR Path="/628CDA4A/62A14830" Ref="#PWR?"  Part="1" 
+F 0 "#PWR045" H 7825 9975 50  0001 C CNN
+F 1 "GND" H 7830 10052 50  0000 C CNN
+F 2 "" H 7825 10225 50  0001 C CNN
+F 3 "" H 7825 10225 50  0001 C CNN
+	1    7825 10225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9225 9875 9225 10225
+$Comp
+L sa800u-baseboard-hw:GND #PWR048
+U 1 1 62A1483B
+P 9225 10225
+AR Path="/61A2F307/62A1483B" Ref="#PWR048"  Part="1" 
+AR Path="/628CDA4A/62A1483B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR048" H 9225 9975 50  0001 C CNN
+F 1 "GND" H 9230 10052 50  0000 C CNN
+F 2 "" H 9225 10225 50  0001 C CNN
+F 3 "" H 9225 10225 50  0001 C CNN
+	1    9225 10225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 9975 7825 10225
+Wire Wire Line
+	7825 9975 7825 9875
+Connection ~ 7825 9975
+Wire Wire Line
+	7925 9975 7825 9975
+$Comp
+L sa800u-baseboard-hw:WE_632723300011 J4
+U 1 1 62A1482A
+P 8125 8675
+AR Path="/61A2F307/62A1482A" Ref="J4"  Part="1" 
+AR Path="/628CDA4A/62A1482A" Ref="J?"  Part="1" 
+F 0 "J4" H 8525 8864 60  0000 C CNN
+F 1 "WE_632723300011" H 8525 8758 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:WE_632723300011" H 8125 8675 60  0001 C CNN
+F 3 "" H 8125 8675 60  0001 C CNN
+F 4 "Wurth Elektronik" H 8125 8675 50  0001 C CNN "Manufacturer"
+F 5 "632723300011" H 8125 8675 50  0001 C CNN "MPN"
+	1    8125 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62D48378
+P 8075 6950
+F 0 "#PWR?" H 8075 6700 50  0001 C CNN
+F 1 "GND" H 8225 6900 50  0000 C CNN
+F 2 "" H 8075 6950 50  0001 C CNN
+F 3 "" H 8075 6950 50  0001 C CNN
+	1    8075 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TXB0104RUT U?
+U 1 1 62D48380
+P 8075 6250
+AR Path="/6197686D/62D48380" Ref="U?"  Part="1" 
+AR Path="/61A2F307/62D48380" Ref="U?"  Part="1" 
+F 0 "U?" H 8075 7225 50  0000 C CNN
+F 1 "TXB0104RUT" H 8050 7125 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Texas_R_PUQFN-N12" H 7975 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 8185 6345 50  0001 C CNN
+F 4 "Texas Instruments" H 7675 5400 50  0001 C CNN "Manufacturer"
+F 5 "TXB0104RUTR" H 7625 5300 50  0001 C CNN "MPN"
+	1    8075 6250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 5750 8525 5750
+Wire Wire Line
+	8525 5750 8525 5450
+Connection ~ 8525 5450
+Wire Wire Line
+	8525 5450 8175 5450
+NoConn ~ 8475 6550
+NoConn ~ 7675 6550
 $EndSCHEMATC
