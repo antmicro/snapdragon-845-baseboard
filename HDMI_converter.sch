@@ -535,11 +535,7 @@ HDMI_CLK_P
 Text Label 15875 6100 2    50   ~ 0
 HDMI_CLK_N
 Wire Wire Line
-	14750 1100 14300 1100
-Wire Wire Line
-	14300 1100 14300 1400
-Wire Wire Line
-	14750 3000 14300 3000
+	14750 3000 14700 3000
 Wire Wire Line
 	14750 1200 13800 1200
 Wire Wire Line
@@ -558,10 +554,7 @@ F 5 "MURATA" H 13500 1476 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14750 1400 14300 1400
-Connection ~ 14300 1400
-Wire Wire Line
-	14300 1400 14300 1700
+	14750 1400 14700 1400
 Wire Wire Line
 	14750 1500 13800 1500
 Wire Wire Line
@@ -580,11 +573,6 @@ F 5 "MURATA" H 13500 1776 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14750 1700 14300 1700
-Connection ~ 14300 1700
-Wire Wire Line
-	14300 1700 14300 2000
-Wire Wire Line
 	14750 1800 13800 1800
 Wire Wire Line
 	14750 1900 13800 1900
@@ -601,8 +589,6 @@ F 5 "MURATA" H 13500 2076 50  0001 C CNN "Manufacturer"
 	1    13500 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14750 2000 14300 2000
 Wire Wire Line
 	14750 2100 13800 2100
 Wire Wire Line
@@ -2876,10 +2862,6 @@ F 5 "Murata Electronics North America" H 10975 3900 60  0001 L CNN "Manufacturer
 	1    10775 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14300 2000 14300 2300
-Connection ~ 14300 2000
-Connection ~ 14300 3000
 Text Label 11850 2800 0    50   ~ 0
 5V_HDMI
 Text Label 10975 2800 0    50   ~ 0
@@ -2901,24 +2883,17 @@ Wire Wire Line
 	11450 2800 10975 2800
 Wire Wire Line
 	11850 2800 12550 2800
-Wire Wire Line
-	14300 3000 14300 3400
 $Comp
 L sa800u-baseboard-hw:GND #PWR035
 U 1 1 62C195C0
-P 14300 3400
-F 0 "#PWR035" H 14300 3150 50  0001 C CNN
-F 1 "GND" H 14305 3227 50  0000 C CNN
-F 2 "" H 14300 3400 50  0001 C CNN
-F 3 "" H 14300 3400 50  0001 C CNN
-	1    14300 3400
+P 14700 3100
+F 0 "#PWR035" H 14700 2850 50  0001 C CNN
+F 1 "GND" H 14705 2927 50  0000 C CNN
+F 2 "" H 14700 3100 50  0001 C CNN
+F 3 "" H 14700 3100 50  0001 C CNN
+	1    14700 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14750 2300 14300 2300
-Connection ~ 14300 2300
-Wire Wire Line
-	14300 2300 14300 3000
 $Comp
 L sa800u-baseboard-hw:BSS138APW Q4
 U 1 1 62DCD436
@@ -3219,4 +3194,45 @@ F 6 "510R" V 14978 6470 50  0000 L CNN "Val"
 	1    14925 6400
 	0    1    1    0   
 $EndComp
+Text Label 13875 1200 0    50   ~ 0
+HDMI_TX2_CONN_P
+Text Label 13875 1300 0    50   ~ 0
+HDMI_TX2_CONN_N
+Text Label 13875 1500 0    50   ~ 0
+HDMI_TX1_CONN_P
+Text Label 13875 1600 0    50   ~ 0
+HDMI_TX1_CONN_N
+Text Label 13875 1800 0    50   ~ 0
+HDMI_TX0_CONN_P
+Text Label 13875 1900 0    50   ~ 0
+HDMI_TX0_CONN_N
+Text Label 13875 2100 0    50   ~ 0
+HDMI_CLK_CONN_P
+Text Label 13875 2200 0    50   ~ 0
+HDMI_CLK_CONN_N
+Wire Wire Line
+	14700 1100 14700 1400
+Wire Wire Line
+	14700 1100 14750 1100
+Connection ~ 14700 1400
+Wire Wire Line
+	14700 1400 14700 1700
+Connection ~ 14700 3000
+Connection ~ 14700 2300
+Wire Wire Line
+	14700 2300 14700 3000
+Wire Wire Line
+	14700 2300 14750 2300
+Connection ~ 14700 2000
+Wire Wire Line
+	14700 2000 14700 2300
+Wire Wire Line
+	14700 2000 14750 2000
+Connection ~ 14700 1700
+Wire Wire Line
+	14700 1700 14700 2000
+Wire Wire Line
+	14700 1700 14750 1700
+Wire Wire Line
+	14700 3000 14700 3100
 $EndSCHEMATC
