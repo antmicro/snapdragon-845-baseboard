@@ -507,30 +507,6 @@ Text Label 5850 6500 2    50   ~ 0
 USB2_CC_SELECT
 Wire Wire Line
 	4350 6500 5850 6500
-Text GLabel 8675 5450 2    50   Input ~ 0
-1V8_SYS
-Wire Wire Line
-	7975 5450 7975 5550
-Wire Wire Line
-	8175 5450 8175 5550
-Text GLabel 8675 5950 2    50   Input ~ 0
-USB2_EN
-Text GLabel 8675 6150 2    50   Output ~ 0
-USB2_FAULT
-Text GLabel 8675 6350 2    50   Output ~ 0
-USB2_SINK
-Wire Wire Line
-	8675 5950 8475 5950
-Wire Wire Line
-	8675 6150 8475 6150
-Wire Wire Line
-	8675 6350 8475 6350
-Wire Wire Line
-	7475 5950 7675 5950
-Wire Wire Line
-	7475 6150 7675 6150
-Wire Wire Line
-	7675 6350 7475 6350
 $Comp
 L sa800u-baseboard-hw:C_10u_0402 C?
 U 1 1 62A149E8
@@ -563,12 +539,6 @@ F 3 "" H 5200 6000 50  0001 C CNN
 	1    5200 6000
 	1    0    0    -1  
 $EndComp
-Text Label 7475 5950 2    50   ~ 0
-USB2_EN_5V
-Text Label 7475 6150 2    50   ~ 0
-USB2_FAULT_5V
-Text Label 7475 6350 2    50   ~ 0
-USB2_SINK_5V
 Text Label 5850 6350 2    50   ~ 0
 USB2_SINK_5V
 Text Label 5850 6200 2    50   ~ 0
@@ -1487,12 +1457,6 @@ F 3 "~" H 5200 5700 50  0001 C CNN
 	1    5200 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8675 5450 8525 5450
-Text GLabel 7775 5450 0    50   Input ~ 0
-5V_SYS
-Wire Wire Line
-	7775 5450 7975 5450
 Text GLabel 9475 5450 0    50   Input ~ 0
 1V8_SYS
 Wire Wire Line
@@ -2487,11 +2451,49 @@ F 5 "632723300011" H 8125 8675 50  0001 C CNN "MPN"
 	1    8125 8675
 	1    0    0    -1  
 $EndComp
+Text GLabel 8675 5450 2    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	7975 5450 7975 5550
+Wire Wire Line
+	8175 5450 8175 5550
+Text GLabel 8675 5950 2    50   Input ~ 0
+USB2_EN
+Text GLabel 8675 6150 2    50   Output ~ 0
+USB2_FAULT
+Text GLabel 8675 6350 2    50   Output ~ 0
+USB2_SINK
+Wire Wire Line
+	8675 5950 8475 5950
+Wire Wire Line
+	8675 6150 8475 6150
+Wire Wire Line
+	8675 6350 8475 6350
+Wire Wire Line
+	7475 5950 7675 5950
+Wire Wire Line
+	7475 6150 7675 6150
+Wire Wire Line
+	7675 6350 7475 6350
+Text Label 7475 5950 2    50   ~ 0
+USB2_EN_5V
+Text Label 7475 6150 2    50   ~ 0
+USB2_FAULT_5V
+Text Label 7475 6350 2    50   ~ 0
+USB2_SINK_5V
+Wire Wire Line
+	8675 5450 8525 5450
+Text GLabel 7775 5450 0    50   Input ~ 0
+5V_SYS
+Wire Wire Line
+	7775 5450 7975 5450
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 62D48378
 P 8075 6950
-F 0 "#PWR?" H 8075 6700 50  0001 C CNN
+AR Path="/6197686D/62D48378" Ref="#PWR?"  Part="1" 
+AR Path="/61A2F307/62D48378" Ref="#PWR0258"  Part="1" 
+F 0 "#PWR0258" H 8075 6700 50  0001 C CNN
 F 1 "GND" H 8225 6900 50  0000 C CNN
 F 2 "" H 8075 6950 50  0001 C CNN
 F 3 "" H 8075 6950 50  0001 C CNN
@@ -2503,8 +2505,8 @@ L sa800u-baseboard-hw:TXB0104RUT U?
 U 1 1 62D48380
 P 8075 6250
 AR Path="/6197686D/62D48380" Ref="U?"  Part="1" 
-AR Path="/61A2F307/62D48380" Ref="U?"  Part="1" 
-F 0 "U?" H 8075 7225 50  0000 C CNN
+AR Path="/61A2F307/62D48380" Ref="U7"  Part="1" 
+F 0 "U7" H 8075 7225 50  0000 C CNN
 F 1 "TXB0104RUT" H 8050 7125 50  0000 C CNN
 F 2 "sa800u-baseboard-hw-footprints:Texas_R_PUQFN-N12" H 7975 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 8185 6345 50  0001 C CNN
