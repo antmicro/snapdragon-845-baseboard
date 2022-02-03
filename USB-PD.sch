@@ -211,19 +211,6 @@ F 5 "NEXPERIA" H 6600 2050 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	6600 2250 6600 2450
-$Comp
-L sa800u-baseboard-hw:ESDA25W D23
-U 1 1 61E6BE8F
-P 4750 4800
-F 0 "D23" V 4704 4572 50  0000 R CNN
-F 1 "ESDA25W" V 4795 4572 50  0000 R CNN
-F 2 "sa800u-baseboard-hw-footprints:SOT-323" H 4750 4800 50  0001 C CNN
-F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/cd/9b/8d/39/1f/d4/43/ba/CD00064033.pdf/files/CD00064033.pdf/jcr:content/translations/en.CD00064033.pdf" H 4750 4800 50  0001 C CNN
-F 4 "ESDA25W" H 4750 4800 50  0001 C CNN "MPN"
-F 5 "STMICROELECTRONICS" H 4750 4800 50  0001 C CNN "Manufacturer"
-	1    4750 4800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	2650 2350 1950 2350
 Wire Wire Line
@@ -231,18 +218,14 @@ Wire Wire Line
 $Comp
 L sa800u-baseboard-hw:GND #PWR0197
 U 1 1 61E7DBDA
-P 4750 5200
-F 0 "#PWR0197" H 4750 4950 50  0001 C CNN
-F 1 "GND" H 4755 5027 50  0000 C CNN
-F 2 "" H 4750 5200 50  0001 C CNN
-F 3 "" H 4750 5200 50  0001 C CNN
-	1    4750 5200
+P 4200 4800
+F 0 "#PWR0197" H 4200 4550 50  0001 C CNN
+F 1 "GND" H 4205 4627 50  0000 C CNN
+F 2 "" H 4200 4800 50  0001 C CNN
+F 3 "" H 4200 4800 50  0001 C CNN
+	1    4200 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 5200 4750 5150
-Wire Wire Line
-	4050 4400 4650 4400
 Wire Wire Line
 	6450 4300 6450 4200
 Wire Wire Line
@@ -259,7 +242,7 @@ Wire Wire Line
 Connection ~ 6450 4400
 Wire Wire Line
 	6450 4400 6700 4400
-Text Notes 2700 4900 0    50   ~ 0
+Text Notes 3775 4175 0    50   ~ 0
 This diode has Vrm (standoff voltage) = 24V\nCCx pins are rated for up to 22V. But identical\ndiode was used in reference and in dev board.
 $Comp
 L sa800u-baseboard-hw:C_1u_0402 C136
@@ -694,16 +677,9 @@ Connection ~ 6325 4700
 Wire Wire Line
 	6075 4800 6500 4800
 Connection ~ 6500 4800
-Wire Wire Line
-	4850 4450 4850 4300
 Connection ~ 4850 4300
 Wire Wire Line
 	4850 4300 6450 4300
-Wire Wire Line
-	4650 4450 4650 4400
-Connection ~ 4650 4400
-Wire Wire Line
-	4650 4400 6450 4400
 Text Label 4050 4400 0    50   ~ 0
 PD_CC2
 Text Label 4050 4300 0    50   ~ 0
@@ -1029,4 +1005,37 @@ F 5 "Pulse Electronics Network" H 3350 3600 60  0001 L CNN "Manufacturer"
 	1    3150 2500
 	-1   0    0    -1  
 $EndComp
+$Comp
+L antmicroTVSDiodes:PUSB3F96X_PASS D?
+U 1 1 6298EA5C
+P 4650 4800
+AR Path="/6197686D/6298EA5C" Ref="D?"  Part="1" 
+AR Path="/61A2F307/6298EA5C" Ref="D?"  Part="1" 
+AR Path="/61DF77CE/6298EA5C" Ref="D23"  Part="1" 
+F 0 "D23" V 5133 4800 60  0000 C CNN
+F 1 "PUSB3F96X_PASS" V 5239 4800 60  0000 C CNN
+F 2 "antmicro-footprints:PUSB3F96X" H 4850 4250 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 4650 4800 60  0001 C CNN
+F 4 "Nexperia" H 4850 4150 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 4850 4150 50  0001 C CNN "MPN"
+	1    4650 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4550 4450 4550
+Wire Wire Line
+	4450 4550 4450 4600
+Wire Wire Line
+	4200 4550 4200 4800
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 6450 4400
+Wire Wire Line
+	4050 4400 4750 4400
+Wire Wire Line
+	4750 4400 4750 4600
+Wire Wire Line
+	4850 4300 4850 4600
+NoConn ~ 4550 4600
+NoConn ~ 4650 4600
 $EndSCHEMATC
