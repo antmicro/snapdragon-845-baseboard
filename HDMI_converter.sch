@@ -2304,16 +2304,8 @@ Wire Wire Line
 Connection ~ 5300 10575
 Wire Wire Line
 	5300 10575 5425 10575
-Text Label 5500 10575 0    50   ~ 0
-RST_N
-Text Label 1350 5250 2    50   ~ 0
+Text Label 1375 5225 2    50   ~ 0
 LT9611_RST_N
-Wire Wire Line
-	1350 5250 1375 5250
-Wire Wire Line
-	1375 5250 1375 5225
-Text Label 5500 9750 0    50   ~ 0
-INTO_GPIO5
 Text Label 1375 4925 2    50   ~ 0
 LT9611_INTO_GPIO5
 Wire Wire Line
@@ -3307,4 +3299,8 @@ Wire Wire Line
 	10025 2325 11725 2325
 Wire Wire Line
 	11625 2225 11625 3425
+Text Label 5500 10575 0    50   ~ 0
+LT9611_RST_N
+Text Label 5500 9750 0    50   ~ 0
+LT9611_INTO_GPIO5
 $EndSCHEMATC
