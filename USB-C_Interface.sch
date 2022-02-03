@@ -1955,9 +1955,9 @@ Wire Wire Line
 Wire Wire Line
 	4175 1575 3900 1575
 Text Label 4650 2325 2    50   ~ 0
-USB_SBU1
+USB1_SBU1
 Text Label 4650 2725 2    50   ~ 0
-USB_SBU2
+USB1_SBU2
 Wire Wire Line
 	4650 2725 4200 2725
 Wire Wire Line
@@ -2005,8 +2005,8 @@ Wire Wire Line
 Connection ~ 3900 1575
 Text Label 3050 2425 2    50   ~ 0
 USB_SBU2_1
-Text Label 3075 2625 2    50   ~ 0
-USB_SBU_1_2
+Text Label 3050 2625 2    50   ~ 0
+USB_SBU1_2
 Text GLabel 2475 2025 0    50   Input ~ 0
 3V3_SYS
 $Comp
