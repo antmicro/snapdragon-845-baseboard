@@ -2271,31 +2271,27 @@ Connection ~ 12550 9350
 $Comp
 L sa800u-baseboard-hw:STS321045B502 D15
 U 1 1 620E0161
-P 14650 9100
-F 0 "D15" V 14604 9328 50  0000 L CNN
-F 1 "STS321045B502" V 14695 9328 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:STS321045B502" H 14650 9100 50  0001 C CNN
-F 3 "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sts321045b502-tvs-diode-esd-suppressor-data-sheet.pdf" H 14650 9100 50  0001 C CNN
-F 4 "STS321045B502" H 14650 9100 50  0001 C CNN "MPN"
-F 5 "Cooper Bussmann" H 14650 9100 50  0001 C CNN "Manufacturer"
-	1    14650 9100
+P 14450 9225
+F 0 "D15" V 14404 9453 50  0000 L CNN
+F 1 "STS321045B502" V 14495 9453 50  0000 L CNN
+F 2 "sa800u-baseboard-hw-footprints:STS321045B502" H 14450 9225 50  0001 C CNN
+F 3 "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sts321045b502-tvs-diode-esd-suppressor-data-sheet.pdf" H 14450 9225 50  0001 C CNN
+F 4 "STS321045B502" H 14450 9225 50  0001 C CNN "MPN"
+F 5 "Cooper Bussmann" H 14450 9225 50  0001 C CNN "Manufacturer"
+	1    14450 9225
 	0    1    1    0   
 $EndComp
-Text GLabel 14600 8800 0    50   Input ~ 0
-VBAT
 $Comp
 L sa800u-baseboard-hw:GND #PWR0142
 U 1 1 6211DF21
-P 14650 9400
-F 0 "#PWR0142" H 14650 9150 50  0001 C CNN
-F 1 "GND" V 14655 9272 50  0000 R CNN
-F 2 "" H 14650 9400 50  0001 C CNN
-F 3 "" H 14650 9400 50  0001 C CNN
-	1    14650 9400
+P 14450 9475
+F 0 "#PWR0142" H 14450 9225 50  0001 C CNN
+F 1 "GND" V 14455 9347 50  0000 R CNN
+F 2 "" H 14450 9475 50  0001 C CNN
+F 3 "" H 14450 9475 50  0001 C CNN
+	1    14450 9475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14650 9400 14650 9350
 Wire Wire Line
 	11575 8950 11750 8950
 $Comp
@@ -2420,10 +2416,6 @@ Wire Wire Line
 	14000 7350 14600 7350
 Text Label 14600 7350 2    50   ~ 0
 VOL_DOWN_TVS
-Wire Wire Line
-	14600 8800 14650 8800
-Wire Wire Line
-	14650 8800 14650 8850
 Text GLabel 7575 5300 0    50   BiDi ~ 0
 GPIO_49
 Wire Wire Line
@@ -2943,4 +2935,9 @@ Text GLabel 11575 8950 0    50   Input ~ 0
 3V8_SYS
 Wire Wire Line
 	11750 8950 12150 8950
+Wire Wire Line
+	13850 8950 14450 8950
+Connection ~ 13850 8950
+Wire Wire Line
+	14450 8950 14450 8975
 $EndSCHEMATC
