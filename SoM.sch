@@ -2297,11 +2297,7 @@ $EndComp
 Wire Wire Line
 	14650 9400 14650 9350
 Wire Wire Line
-	11750 8750 11750 8950
-Wire Wire Line
-	11500 8750 11750 8750
-Text GLabel 11500 8750 0    50   Input ~ 0
-VBAT
+	11575 8950 11750 8950
 $Comp
 L sa800u-baseboard-hw:C_100u_0805 C108
 U 1 1 620055D3
@@ -2330,8 +2326,6 @@ F 6 "100u" H 11865 9047 50  0000 L CNN "Val"
 	1    11750 9100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11750 8950 12150 8950
 Connection ~ 11750 8950
 Connection ~ 12550 8950
 Connection ~ 12150 8950
@@ -2945,4 +2939,8 @@ Wire Wire Line
 	9750 8900 10250 8900
 Text GLabel 10250 8900 2    50   Output ~ 0
 1V2_EN
+Text GLabel 11575 8950 0    50   Input ~ 0
+3V8_SYS
+Wire Wire Line
+	11750 8950 12150 8950
 $EndSCHEMATC
