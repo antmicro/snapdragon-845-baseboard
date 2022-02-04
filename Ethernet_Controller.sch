@@ -1074,4 +1074,8 @@ Wire Wire Line
 	9775 3575 10175 3575
 Wire Wire Line
 	10175 3075 10950 3075
+Text Label 6425 5625 0    50   ~ 0
+PCIE1_RX_C_N
+Text Label 6425 5725 0    50   ~ 0
+PCIE1_RX_C_P
 $EndSCHEMATC
