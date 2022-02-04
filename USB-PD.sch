@@ -991,14 +991,14 @@ F 3 "" H 3350 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:E8124-015-01 J?
+L sa800u-baseboard-hw:E8124-015-01 J?
 U 1 1 6262B1B3
 P 3150 2500
 AR Path="/61A2F307/6262B1B3" Ref="J?"  Part="1" 
 AR Path="/61DF77CE/6262B1B3" Ref="J11"  Part="1" 
 F 0 "J11" H 3150 3535 50  0000 C CNN
 F 1 "E8124-015-01" H 3150 3444 50  0000 C CNN
-F 2 "antmicro-footprints:USB-C_Female_E8124-015-01" H 3350 2700 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:USB-C_Female_E8124-015-01" H 3350 2700 60  0001 L CNN
 F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/E8124-015-01/doc_part/E8124-015-01.pdf" H 3350 2800 60  0001 L CNN
 F 4 "E8124-015-01" H 3350 3000 60  0001 L CNN "MPN"
 F 5 "Pulse Electronics Network" H 3350 3600 60  0001 L CNN "Manufacturer"
@@ -1006,7 +1006,7 @@ F 5 "Pulse Electronics Network" H 3350 3600 60  0001 L CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroTVSDiodes:PUSB3F96X_PASS D?
+L sa800u-baseboard-hw:PUSB3F96X_PASS D?
 U 1 1 6298EA5C
 P 4650 4800
 AR Path="/6197686D/6298EA5C" Ref="D?"  Part="1" 
@@ -1014,7 +1014,7 @@ AR Path="/61A2F307/6298EA5C" Ref="D?"  Part="1"
 AR Path="/61DF77CE/6298EA5C" Ref="D23"  Part="1" 
 F 0 "D23" V 5133 4800 60  0000 C CNN
 F 1 "PUSB3F96X_PASS" V 5239 4800 60  0000 C CNN
-F 2 "antmicro-footprints:PUSB3F96X" H 4850 4250 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PUSB3F96X" H 4850 4250 60  0001 C CNN
 F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 4650 4800 60  0001 C CNN
 F 4 "Nexperia" H 4850 4150 50  0001 C CNN "Manufacturer"
 F 5 "PUSB3F96X" H 4850 4150 50  0001 C CNN "MPN"

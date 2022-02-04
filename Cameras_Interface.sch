@@ -452,7 +452,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 1600 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 1917 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 1826 50  0001 C CNN "Manufacturer"
 	1    1750 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L20
@@ -465,7 +465,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2050 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 2367 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 2276 50  0001 C CNN "Manufacturer"
 	1    1750 2050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L21
@@ -478,7 +478,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2500 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 2817 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 2726 50  0001 C CNN "Manufacturer"
 	1    1750 2500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L22
@@ -491,7 +491,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 2950 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 3267 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 3176 50  0001 C CNN "Manufacturer"
 	1    1750 2950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L23
@@ -504,7 +504,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1750 3400 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1750 3717 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1750 3626 50  0001 C CNN "Manufacturer"
 	1    1750 3400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L24
@@ -517,7 +517,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1775 4500 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1775 4817 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1775 4726 50  0001 C CNN "Manufacturer"
 	1    1775 4500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L25
@@ -530,7 +530,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1775 4950 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1775 5267 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1775 5176 50  0001 C CNN "Manufacturer"
 	1    1775 4950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L26
@@ -543,7 +543,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1775 5400 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1775 5717 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1775 5626 50  0001 C CNN "Manufacturer"
 	1    1775 5400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L27
@@ -556,7 +556,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1775 5850 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1775 6167 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1775 6076 50  0001 C CNN "Manufacturer"
 	1    1775 5850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L28
@@ -569,7 +569,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 1775 6300 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 1775 6617 50  0001 C CNN "MPN"
 F 5 "MURATA" H 1775 6526 50  0001 C CNN "Manufacturer"
 	1    1775 6300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NTS0102GT U?

@@ -3996,12 +3996,12 @@ Text GLabel 11175 7725 0    50   Input ~ 0
 Text GLabel 11175 9100 0    50   Input ~ 0
 1V2_SYS_EN
 $Comp
-L antmicroResistors0402:R_13k7_0402 R143
+L sa800u-baseboard-hw:R_13k7_0402 R143
 U 1 1 62A76BE5
 P 2500 6300
 F 0 "R143" V 2455 6370 60  0000 L CNN
 F 1 "R_13k7_0402" H 2500 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2700 6500 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6500 60  0001 L CNN
 F 3 "" H 2500 6300 50  0001 C CNN
 F 4 "Bourns" H 2700 6700 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 2700 6600 60  0001 L CNN "MPN"
@@ -4011,12 +4011,12 @@ F 6 "13k7" V 2553 6370 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 2500 6150
 $Comp
-L antmicroResistors0402:R_13k7_0402 R140
+L sa800u-baseboard-hw:R_13k7_0402 R140
 U 1 1 62A794E7
 P 2200 7350
 F 0 "R140" V 2155 7420 60  0000 L CNN
 F 1 "R_13k7_0402" H 2200 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 7550 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7550 60  0001 L CNN
 F 3 "" H 2200 7350 50  0001 C CNN
 F 4 "Bourns" H 2400 7750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 2400 7650 60  0001 L CNN "MPN"
@@ -4025,12 +4025,12 @@ F 6 "13k7" V 2253 7420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_13k7_0402 R158
+L sa800u-baseboard-hw:R_13k7_0402 R158
 U 1 1 62A8AC23
 P 2800 5250
 F 0 "R158" V 2755 5320 60  0000 L CNN
 F 1 "R_13k7_0402" H 2800 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 5450 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5450 60  0001 L CNN
 F 3 "" H 2800 5250 50  0001 C CNN
 F 4 "Bourns" H 3000 5650 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 3000 5550 60  0001 L CNN "MPN"
