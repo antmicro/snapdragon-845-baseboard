@@ -16,74 +16,74 @@ $EndDescr
 $Sheet
 S 5500 4850 1550 700 
 U 618E716E
-F0 "Ethernet_Controller" 50
-F1 "Ethernet_Controller.sch" 50
+F0 "Ethernet Controller" 50
+F1 "ethernet-controller.sch" 50
 $EndSheet
 $Sheet
 S 7150 4850 1550 700 
 U 6197686D
-F0 "HDMI_converter" 50
-F1 "HDMI_converter.sch" 50
+F0 "HDMI converter" 50
+F1 "hdmi-converter.sch" 50
 $EndSheet
 $Sheet
 S 8800 4850 1550 700 
 U 61A2F307
-F0 "USB-C_Interface " 50
-F1 "USB-C_Interface.sch" 50
+F0 "USB-C Interface " 50
+F1 "usb-c-interface.sch" 50
 $EndSheet
 $Sheet
 S 10450 4850 1550 700 
 U 61BD2CC1
 F0 "LCM" 50
-F1 "LCM.sch" 50
+F1 "lcm.sch" 50
 $EndSheet
 $Sheet
 S 10450 5900 1550 700 
 U 61A4BC4F
 F0 "SoM" 50
-F1 "SoM.sch" 50
+F1 "som.sch" 50
 $EndSheet
 $Sheet
 S 3850 5900 1550 700 
 U 61A60486
-F0 "Cameras_Interface" 50
-F1 "Cameras_Interface.sch" 50
+F0 "Camera Interface" 50
+F1 "camera-interface.sch" 50
 $EndSheet
 $Sheet
 S 5500 5900 1550 700 
 U 61B13669
 F0 "M2" 50
-F1 "M2.sch" 50
+F1 "m2.sch" 50
 $EndSheet
 $Sheet
 S 7150 5900 1550 700 
 U 61C01D88
-F0 "Other_Interfaces" 50
-F1 "Other_Interfaces.sch" 50
+F0 "Other Interfaces" 50
+F1 "other-interfaces.sch" 50
 $EndSheet
 $Sheet
 S 8800 5900 1550 700 
 U 61B0DC30
 F0 "PSU" 50
-F1 "PSU.sch" 50
+F1 "psu.sch" 50
 $EndSheet
 $Sheet
 S 3850 4850 1550 700 
 U 61A19323
 F0 "PoE" 50
-F1 "PoE.sch" 50
+F1 "poe.sch" 50
 $EndSheet
 $Sheet
 S 8800 6950 1550 700 
 U 61DF77CE
 F0 "USB-PD" 50
-F1 "USB-PD.sch" 50
+F1 "usb-pd.sch" 50
 $EndSheet
 $Sheet
 S 7150 6950 1550 700 
 U 621D3686
 F0 "Power distribution diagram" 50
-F1 "power_distribution_diagram.sch" 50
+F1 "power-distribution-diagram.sch" 50
 $EndSheet
 $Comp
 L sa800u-baseboard-hw:9774060151 SP5
