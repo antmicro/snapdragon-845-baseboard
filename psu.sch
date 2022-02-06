@@ -2413,21 +2413,6 @@ F 3 "~" H 1300 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:1053091202 J?
-U 1 1 61FFBF6D
-P 675 875
-AR Path="/61A19323/61FFBF6D" Ref="J?"  Part="1" 
-AR Path="/61B0DC30/61FFBF6D" Ref="J10"  Part="1" 
-F 0 "J10" H 783 1040 50  0000 C CNN
-F 1 "1053091202" H 783 949 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:1053091202" H 500 550 50  0001 C CNN
-F 3 "" H 675 875 50  0001 C CNN
-F 4 "Molex" H 625 350 50  0001 C CNN "Manufacturer"
-F 5 "1053091202" H 550 425 50  0001 C CNN "MPN"
-	1    675  875 
-	1    0    0    -1  
-$EndComp
-$Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 61FFBF73
 P 975 1125
@@ -4009,7 +3994,6 @@ F 6 "13k7" V 2553 6370 50  0000 L CNN "Val"
 	1    2500 6300
 	0    1    1    0   
 $EndComp
-Connection ~ 2500 6150
 $Comp
 L sa800u-baseboard-hw:R_13k7_0402 R140
 U 1 1 62A794E7
@@ -4038,8 +4022,6 @@ F 6 "13k7" V 2853 5320 50  0000 L CNN "Val"
 	1    2800 5250
 	0    1    1    0   
 $EndComp
-Connection ~ 2200 7200
-Connection ~ 2800 5100
 Wire Wire Line
 	7150 5000 7150 5250
 Wire Wire Line
@@ -4091,4 +4073,17 @@ Wire Wire Line
 	6775 4700 6775 4600
 Wire Wire Line
 	7150 4700 7150 4600
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:1053131202 J10
+U 1 1 620EC9A9
+P 675 875
+F 0 "J10" H 783 1040 50  0000 C CNN
+F 1 "1053131202" H 783 949 50  0000 C CNN
+F 2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 500 550 50  0001 C CNN
+F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/1053131202" H 675 875 50  0001 C CNN
+F 4 "Molex" H 625 350 50  0001 C CNN "Manufacturer"
+F 5 "1053131202" H 550 425 50  0001 C CNN "MPN"
+	1    675  875 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
