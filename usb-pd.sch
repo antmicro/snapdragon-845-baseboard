@@ -27,10 +27,6 @@ F 5 "STMicroelectronics" H 7350 4250 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3150 2450 3150
-Wire Wire Line
-	2450 3150 2450 3200
-Wire Wire Line
 	2450 1950 2450 2000
 Wire Wire Line
 	2650 1950 2450 1950
@@ -40,8 +36,6 @@ Wire Wire Line
 	3850 3150 3850 3050
 Wire Wire Line
 	3650 3050 3850 3050
-Wire Wire Line
-	2450 3050 2450 3150
 Wire Wire Line
 	2650 3050 2450 3050
 $Comp
@@ -90,7 +84,6 @@ F 3 "" H 2450 2000 50  0001 C CNN
 	1    2450 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 2450 3150
 Wire Wire Line
 	2650 2250 1950 2250
 Wire Wire Line
@@ -991,21 +984,6 @@ F 3 "" H 3350 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:E8124-015-01 J?
-U 1 1 6262B1B3
-P 3150 2500
-AR Path="/61A2F307/6262B1B3" Ref="J?"  Part="1" 
-AR Path="/61DF77CE/6262B1B3" Ref="J11"  Part="1" 
-F 0 "J11" H 3150 3535 50  0000 C CNN
-F 1 "E8124-015-01" H 3150 3444 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:USB-C_Female_E8124-015-01" H 3350 2700 60  0001 L CNN
-F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/E8124-015-01/doc_part/E8124-015-01.pdf" H 3350 2800 60  0001 L CNN
-F 4 "E8124-015-01" H 3350 3000 60  0001 L CNN "MPN"
-F 5 "Pulse Electronics Network" H 3350 3600 60  0001 L CNN "Manufacturer"
-	1    3150 2500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L sa800u-baseboard-hw:PUSB3F96X_PASS D?
 U 1 1 6298EA5C
 P 4650 4800
@@ -1038,4 +1016,19 @@ Wire Wire Line
 	4850 4300 4850 4600
 NoConn ~ 4550 4600
 NoConn ~ 4650 4600
+$Comp
+L antmicroUSBDVIHDMIConnectors:12401598E4_2A J12
+U 1 1 6220D088
+P 3150 2500
+F 0 "J12" H 3150 3535 50  0000 C CNN
+F 1 "12401598E4_2A" H 3150 3444 50  0000 C CNN
+F 2 "antmicro-footprints:USB-C_Female_12401X" H 3350 2700 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 3350 2800 60  0001 L CNN
+F 4 "12401598E4#2A" H 3350 3000 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (Commercial Products)" H 3350 3600 60  0001 L CNN "Manufacturer"
+	1    3150 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3050 2450 3200
 $EndSCHEMATC
