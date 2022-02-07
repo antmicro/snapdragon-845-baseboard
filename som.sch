@@ -2922,11 +2922,11 @@ $EndComp
 Wire Wire Line
 	9750 8800 10250 8800
 Text GLabel 10250 8800 2    50   Output ~ 0
-3V3_EN
+3V3_SYS_EN
 Wire Wire Line
 	9750 8900 10250 8900
 Text GLabel 10250 8900 2    50   Output ~ 0
-1V2_EN
+1V2_SYS_EN
 Text GLabel 11575 8950 0    50   Input ~ 0
 3V8_SYS
 Wire Wire Line
