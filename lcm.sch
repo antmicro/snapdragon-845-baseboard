@@ -14,47 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4975 2850 4775 2850
-Wire Wire Line
-	4775 2850 4775 3150
-Wire Wire Line
-	4775 3150 4975 3150
-Wire Wire Line
-	4775 3150 4775 3450
-Wire Wire Line
-	4775 3450 4975 3450
-Connection ~ 4775 3150
-Wire Wire Line
-	4775 3450 4775 3750
-Wire Wire Line
-	4775 3750 4975 3750
-Connection ~ 4775 3450
-Wire Wire Line
-	4775 3750 4775 4050
-Wire Wire Line
-	4775 4050 4975 4050
-Connection ~ 4775 3750
-Wire Wire Line
-	4975 4250 4925 4250
-Wire Wire Line
-	4925 4250 4925 4150
-Wire Wire Line
-	4925 4150 4975 4150
-Wire Wire Line
-	4925 4150 2725 4150
-Connection ~ 4775 4050
-$Comp
-L sa800u-baseboard-hw:GND #PWR063
-U 1 1 61BD6C0B
-P 4775 4350
-F 0 "#PWR063" H 4775 4100 50  0001 C CNN
-F 1 "GND" H 4780 4177 50  0000 C CNN
-F 2 "" H 4775 4350 50  0001 C CNN
-F 3 "" H 4775 4350 50  0001 C CNN
-	1    4775 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	10500 2900 10250 2900
 Wire Wire Line
 	10250 2900 10250 3200
@@ -150,10 +109,6 @@ Wire Wire Line
 Wire Wire Line
 	9325 4050 9325 4000
 Wire Wire Line
-	3875 3400 3875 3350
-Wire Wire Line
-	3875 3200 3875 3250
-Wire Wire Line
 	8725 4150 8725 4200
 Wire Wire Line
 	8725 4350 8725 4300
@@ -165,8 +120,6 @@ Wire Wire Line
 	9325 4200 9325 4150
 Wire Wire Line
 	9325 4350 9325 4300
-Text Notes 2875 2525 0    50   ~ 0
-Compatible with generic raspberry pi LCDs.
 Text Notes 8625 2675 0    50   ~ 0
 General purpose 4 lane DSI for LCD
 $Comp
@@ -182,95 +135,6 @@ F 5 "AMPHENOL ICC" H 11178 2664 50  0001 L CNN "Manufacturer"
 	1    10850 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:NFP0QHB242HS2D L?
-U 1 1 61B9B38A
-P 3575 3000
-AR Path="/61B9B38A" Ref="L?"  Part="1" 
-AR Path="/61BD2CC1/61B9B38A" Ref="L11"  Part="1" 
-F 0 "L11" H 3925 3100 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 4225 2900 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 3575 3000 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3575 3000 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 3575 3417 50  0001 C CNN "MPN"
-F 5 "MURATA" H 3575 3326 50  0001 C CNN "Manufacturer"
-	1    3575 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4975 2950 3875 2950
-Wire Wire Line
-	4975 3050 3875 3050
-Wire Wire Line
-	3875 3050 3875 3100
-Wire Wire Line
-	3875 2950 3875 2900
-Wire Wire Line
-	3275 2900 3275 2950
-Wire Wire Line
-	3275 3100 3275 3050
-$Comp
-L sa800u-baseboard-hw:NFP0QHB242HS2D L?
-U 1 1 61C048CC
-P 3575 3300
-AR Path="/61C048CC" Ref="L?"  Part="1" 
-AR Path="/61BD2CC1/61C048CC" Ref="L12"  Part="1" 
-F 0 "L12" H 3925 3400 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 4225 3200 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 3575 3300 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3575 3300 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 3575 3717 50  0001 C CNN "MPN"
-F 5 "MURATA" H 3575 3626 50  0001 C CNN "Manufacturer"
-	1    3575 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2725 3050 3275 3050
-Wire Wire Line
-	2725 2950 3275 2950
-Wire Wire Line
-	3875 3250 4975 3250
-Wire Wire Line
-	4975 3350 3875 3350
-Wire Wire Line
-	3275 3400 3275 3350
-Wire Wire Line
-	3275 3350 2725 3350
-Wire Wire Line
-	3275 3200 3275 3250
-Wire Wire Line
-	3275 3250 2725 3250
-$Comp
-L sa800u-baseboard-hw:NFP0QHB242HS2D L?
-U 1 1 61C3A309
-P 3575 3600
-AR Path="/61C3A309" Ref="L?"  Part="1" 
-AR Path="/61BD2CC1/61C3A309" Ref="L13"  Part="1" 
-F 0 "L13" H 3925 3700 50  0000 C CNN
-F 1 "NFP0QHB242HS2D" H 4225 3500 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D" H 3575 3600 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 3575 3600 50  0001 C CNN
-F 4 "NFP0QHB242HS2D" H 3575 4017 50  0001 C CNN "MPN"
-F 5 "MURATA" H 3575 3926 50  0001 C CNN "Manufacturer"
-	1    3575 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4975 3550 3875 3550
-Wire Wire Line
-	3875 3550 3875 3500
-Wire Wire Line
-	4975 3650 3875 3650
-Wire Wire Line
-	3875 3650 3875 3700
-Wire Wire Line
-	3275 3500 3275 3550
-Wire Wire Line
-	3275 3550 2725 3550
-Wire Wire Line
-	3275 3700 3275 3650
-Wire Wire Line
-	3275 3650 2725 3650
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L?
 U 1 1 61C82351
@@ -331,24 +195,10 @@ F 5 "MURATA" H 9025 4576 50  0001 C CNN "Manufacturer"
 	1    9025 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2725 2950 0    50   Input ~ 0
-DSI0_LN1_N
-Text GLabel 2725 3050 0    50   Input ~ 0
-DSI0_LN1_P
-Text GLabel 2725 3250 0    50   Input ~ 0
-DSI0_CLK_N
-Text GLabel 2725 3350 0    50   Input ~ 0
-DSI0_CLK_P
-Text GLabel 2725 3550 0    50   Input ~ 0
-DSI0_LN0_N
-Text GLabel 2725 3650 0    50   Input ~ 0
-DSI0_LN0_P
 Text GLabel 2550 7525 0    50   Input ~ 0
 TP_I2C_SCL
 Text GLabel 2550 7625 0    50   BiDi ~ 0
 TP_I2C_SDA
-Text GLabel 2725 4150 0    50   Input ~ 0
-3V3_SYS
 Text GLabel 8025 3000 0    50   Input ~ 0
 DSI0_LN3_N
 Text GLabel 8025 3100 0    50   Input ~ 0
@@ -371,8 +221,6 @@ Text GLabel 8025 4300 0    50   Input ~ 0
 DSI0_CLK_P
 Text GLabel 8025 4800 0    50   Input ~ 0
 3V3_SYS
-Text Notes 3000 4375 0    50   ~ 0
-Add some TVS diodes for protection.
 $Comp
 L sa800u-baseboard-hw:NTS0102GT U11
 U 1 1 65E71148
@@ -590,14 +438,6 @@ Text Label 5325 7525 2    50   ~ 0
 TP_I2C_SCL_3V3
 Text Label 5325 7625 2    50   ~ 0
 TP_I2C_SDA_3V3
-Text Label 2725 3850 2    50   ~ 0
-TP_I2C_SCL_3V3
-Text Label 2725 3950 2    50   ~ 0
-TP_I2C_SDA_3V3
-Wire Wire Line
-	2725 3850 4975 3850
-Wire Wire Line
-	2725 3950 4975 3950
 Text Label 8025 4600 2    50   ~ 0
 TP_I2C_SDA_3V3
 Text Label 8025 4500 2    50   ~ 0
@@ -641,22 +481,6 @@ Wire Wire Line
 	8025 4500 10500 4500
 Wire Wire Line
 	8025 4600 10500 4600
-Connection ~ 4925 4150
-$Comp
-L sa800u-baseboard-hw:1-1734248-5 J5
-U 1 1 66288CCF
-P 5125 3550
-F 0 "J5" H 5203 3641 50  0000 L CNN
-F 1 "1-1734248-5" H 5203 3550 50  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:TE_1-1734248-5" H 4675 2250 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734248%7FE1%7Fpdf%7FEnglish%7FENG_CD_1734248_E1__.pdf%7F1-1734248-5" H 5275 3550 50  0001 L BNN
-F 4 "TE Connectivity " H 4675 2350 50  0001 L BNN "Manufacturer"
-F 5 "1-1734248-5 " H 5203 3459 50  0000 L CNN "MPN"
-	1    5125 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4775 4050 4775 4350
 Text Notes 8450 4925 0    50   ~ 0
 Add some TVS diodes for protection.
 $EndSCHEMATC
