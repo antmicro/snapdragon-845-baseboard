@@ -283,19 +283,6 @@ F 6 "10k" V 3053 2070 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L sa800u-baseboard-hw:KP-1608CGCK D20
-U 1 1 61F081D5
-P 3200 4675
-F 0 "D20" H 3150 5012 60  0000 C CNN
-F 1 "KP-1608CGCK" H 3150 4906 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 3400 4875 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 3400 4975 60  0001 L CNN
-F 4 "KP-1608CGCK" H 3400 5175 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 3410 5295 60  0001 L CNN "Manufacturer"
-	1    3200 4675
-	1    0    0    -1  
-$EndComp
-$Comp
 L sa800u-baseboard-hw:R_220R_0402 R102
 U 1 1 61F0A68A
 P 2800 4675
@@ -600,6 +587,21 @@ F 1 "M2_2280" H 10828 855 50  0000 L CNN
 F 2 "sa800u-baseboard-hw-footprints:m2_2280" H 10450 675 50  0001 C CNN
 F 3 "" H 10450 675 50  0001 C CNN
 	1    10400 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:KP-1608EC D?
+U 1 1 621C05D4
+P 3200 4675
+AR Path="/61B0DC30/621C05D4" Ref="D?"  Part="1" 
+AR Path="/61B13669/621C05D4" Ref="D?"  Part="1" 
+F 0 "D?" H 3150 4906 60  0000 C CNN
+F 1 "KP-1608EC" H 3150 4906 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 3400 4875 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 3400 4975 60  0001 L CNN
+F 4 "KP-1608EC" H 3400 5175 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 3410 5295 60  0001 L CNN "Manufacturer"
+	1    3200 4675
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
