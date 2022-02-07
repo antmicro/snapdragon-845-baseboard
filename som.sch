@@ -1715,8 +1715,6 @@ Text GLabel 10250 8400 2    50   Input ~ 0
 USB_CC2
 Text GLabel 10250 8500 2    50   Input ~ 0
 USB_CC1
-Text GLabel 10250 8600 2    50   Input ~ 0
-BAT_THERM
 Text GLabel 10250 8700 2    50   Input ~ 0
 HOME_KEY
 NoConn ~ 9750 9000
@@ -1739,8 +1737,6 @@ Wire Wire Line
 	10250 9300 9750 9300
 Wire Wire Line
 	10250 8700 9750 8700
-Wire Wire Line
-	10250 8600 9750 8600
 Wire Wire Line
 	10250 8500 9750 8500
 Wire Wire Line
@@ -2940,4 +2936,33 @@ Wire Wire Line
 Connection ~ 13850 8950
 Wire Wire Line
 	14450 8950 14450 8975
+$Comp
+L antmicroResistors0402:R_47k_0402 R?
+U 1 1 6208BD31
+P 10875 8800
+F 0 "R?" V 10830 8870 60  0000 L CNN
+F 1 "R_47k_0402" H 10875 8650 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 11075 9000 60  0001 L CNN
+F 3 "" H 10875 8800 50  0001 C CNN
+F 4 "MULTICOMP" H 11075 9200 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X4702FTL" H 11075 9100 60  0001 L CNN "MPN"
+F 6 "47k" V 10928 8870 50  0000 L CNN "Val"
+	1    10875 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 6209423C
+P 10875 8950
+F 0 "#PWR?" H 10875 8700 50  0001 C CNN
+F 1 "GND" H 10880 8777 50  0000 C CNN
+F 2 "" H 10875 8950 50  0001 C CNN
+F 3 "" H 10875 8950 50  0001 C CNN
+	1    10875 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10875 8600 10875 8650
+Wire Wire Line
+	9750 8600 10875 8600
 $EndSCHEMATC
