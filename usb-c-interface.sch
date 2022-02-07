@@ -1219,7 +1219,7 @@ Wire Wire Line
 Wire Wire Line
 	15075 3375 14675 3375
 Text GLabel 15175 3200 2    50   Input ~ 0
-5V
+5V_SYS
 $Comp
 L sa800u-baseboard-hw:1N4148WS D26
 U 1 1 62DE0C05
