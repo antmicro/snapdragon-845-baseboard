@@ -4074,9 +4074,11 @@ Wire Wire Line
 Wire Wire Line
 	7150 4700 7150 4600
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1053131202 J10
+L sa800u-baseboard-hw-rescue:1053131202-antmicroRectangularConnectorsHeadersFemalePins J10
 U 1 1 620EC9A9
 P 675 875
+AR Path="/620EC9A9" Ref="J10"  Part="1" 
+AR Path="/61B0DC30/620EC9A9" Ref="J10"  Part="1" 
 F 0 "J10" H 783 1040 50  0000 C CNN
 F 1 "1053131202" H 783 949 50  0000 C CNN
 F 2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 500 550 50  0001 C CNN
