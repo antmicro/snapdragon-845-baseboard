@@ -2633,7 +2633,7 @@ U 1 1 64251C32
 P 15400 800
 F 0 "M1" H 15400 975 50  0000 C CNN
 F 1 "SA800U-WF-mechanical_model" H 15400 800 50  0000 C CNN
-F 2 "" H 15400 800 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SA800U-WF_mechanical_model" H 15400 800 50  0001 C CNN
 F 3 "" H 15400 800 50  0001 C CNN
 	1    15400 800 
 	1    0    0    -1  
