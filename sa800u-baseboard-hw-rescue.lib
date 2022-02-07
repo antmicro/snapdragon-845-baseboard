@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1053131202-antmicroRectangularConnectorsHeadersFemalePins
+#
+DEF 1053131202-antmicroRectangularConnectorsHeadersFemalePins J 0 40 Y Y 1 F N
+F0 "J" 0 50 50 H V C CNN
+F1 "1053131202-antmicroRectangularConnectorsHeadersFemalePins" 100 150 50 H V C CNN
+F2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" -175 -325 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Molex" -50 -525 50 H I C CNN "Manufacturer"
+F5 "1053131202" -125 -450 50 H I C CNN "MPN"
+DRAW
+S 0 0 100 -225 1 1 0 f
+S 25 -125 75 -175 1 1 0 N
+S 25 -50 75 -100 1 1 0 N
+X ~ 1 200 -75 100 L 50 50 1 1 I
+X ~ 2 200 -150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
