@@ -594,8 +594,8 @@ L sa800u-baseboard-hw:KP-1608EC D?
 U 1 1 621C05D4
 P 3200 4675
 AR Path="/61B0DC30/621C05D4" Ref="D?"  Part="1" 
-AR Path="/61B13669/621C05D4" Ref="D?"  Part="1" 
-F 0 "D?" H 3150 4906 60  0000 C CNN
+AR Path="/61B13669/621C05D4" Ref="D20"  Part="1" 
+F 0 "D20" H 3150 4906 60  0000 C CNN
 F 1 "KP-1608EC" H 3150 4906 60  0001 C CNN
 F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 3400 4875 60  0001 L CNN
 F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 3400 4975 60  0001 L CNN
