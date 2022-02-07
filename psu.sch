@@ -144,7 +144,7 @@ F 6 "10k" V 11053 3170 50  0000 L CNN "Val"
 	1    11000 3100
 	0    1    1    0   
 $EndComp
-Text Notes 8975 2600 0    50   ~ 0
+Text Notes 8875 2600 0    50   ~ 0
 Vswitch = 5.47V ->
 Text Notes 10425 2975 0    50   ~ 0
 5.5V ->1.54V \n20V -> 5.63V
@@ -2511,8 +2511,6 @@ Wire Wire Line
 Connection ~ 4400 950 
 Wire Wire Line
 	4400 1100 4400 950 
-Wire Wire Line
-	2800 950  3700 950 
 Connection ~ 3700 950 
 Wire Wire Line
 	3800 950  3800 1100
@@ -2521,14 +2519,14 @@ Wire Wire Line
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0127
 U 1 1 61F4D0A9
-P 6150 950
+P 7125 950
 AR Path="/61B0DC30/61F4D0A9" Ref="#FLG0127"  Part="1" 
 AR Path="/61DC2BE0/61F4D0A9" Ref="#FLG?"  Part="1" 
-F 0 "#FLG0127" H 6150 1025 50  0001 C CNN
-F 1 "PWR_FLAG" H 6150 1123 50  0000 C CNN
-F 2 "" H 6150 950 50  0001 C CNN
-F 3 "~" H 6150 950 50  0001 C CNN
-	1    6150 950 
+F 0 "#FLG0127" H 7125 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 7125 1123 50  0000 C CNN
+F 2 "" H 7125 950 50  0001 C CNN
+F 3 "~" H 7125 950 50  0001 C CNN
+	1    7125 950 
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5600 6100
@@ -2630,7 +2628,7 @@ Connection ~ 6400 5050
 Wire Wire Line
 	6400 5050 7300 5050
 Wire Wire Line
-	5600 5050 6400 5050
+	5600 5050 5675 5050
 Text GLabel 7300 5250 2    50   Output ~ 0
 PoE_VDD_VALID
 Text GLabel 7300 5150 2    50   Output ~ 0
@@ -2785,7 +2783,7 @@ F 6 "100u" H 6715 1097 50  0000 L CNN "Val"
 	1    6600 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6725 950  2    50   Output ~ 0
+Text GLabel 7375 950  2    50   Output ~ 0
 VDD
 Connection ~ 6150 950 
 Wire Wire Line
@@ -2884,10 +2882,8 @@ Wire Wire Line
 Wire Wire Line
 	6600 950  6600 1000
 Wire Wire Line
-	6600 950  6725 950 
+	6600 950  7125 950 
 Connection ~ 6600 950 
-Wire Wire Line
-	1300 950  2800 950 
 Text Label 1450 950  0    50   ~ 0
 AUX_VDD
 $Comp
@@ -3389,7 +3385,7 @@ Connection ~ 15300 1525
 Wire Wire Line
 	15300 1525 15425 1525
 Wire Wire Line
-	13050 1525 15300 1525
+	13050 1525 14525 1525
 Wire Wire Line
 	12950 1825 12950 2000
 Wire Wire Line
@@ -3973,9 +3969,9 @@ Wire Wire Line
 Wire Wire Line
 	6775 4150 7150 4150
 Wire Wire Line
-	5600 5250 7150 5250
+	5600 5250 6275 5250
 Wire Wire Line
-	5600 5150 6775 5150
+	5600 5150 5975 5150
 Text GLabel 11175 7725 0    50   Input ~ 0
 3V3_SYS_EN
 Text GLabel 11175 9100 0    50   Input ~ 0
@@ -4088,4 +4084,337 @@ F 5 "1053131202" H 550 425 50  0001 C CNN "MPN"
 	1    675  875 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7125 1000 7125 950 
+$Comp
+L sa800u-baseboard-hw:R_10k_0402 R?
+U 1 1 62114A3F
+P 7125 1150
+F 0 "R?" V 7170 1080 60  0000 R CNN
+F 1 "R_10k_0402" H 7125 1000 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 7325 1350 60  0001 L CNN
+F 3 "" H 7125 1150 50  0001 C CNN
+F 4 "VISHAY" H 7325 1550 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 7325 1450 60  0001 L CNN "MPN"
+F 6 "10k" V 7072 1080 50  0000 R CNN "Val"
+	1    7125 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:KP-1608EC D?
+U 1 1 62114A47
+P 7125 1600
+F 0 "D?" V 6900 1625 60  0000 L CNN
+F 1 "KP-1608EC" H 7075 1831 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 7325 1800 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 7325 1900 60  0001 L CNN
+F 4 "KP-1608EC" H 7325 2100 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 7335 2220 60  0001 L CNN "Manufacturer"
+	1    7125 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7125 1400 7125 1300
+Connection ~ 7125 950 
+Wire Wire Line
+	7125 950  7375 950 
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 6215F5FF
+P 7125 1700
+AR Path="/6215F5FF" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/6215F5FF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7125 1450 50  0001 C CNN
+F 1 "GND" H 7130 1527 50  0000 C CNN
+F 2 "" H 7125 1700 50  0001 C CNN
+F 3 "" H 7125 1700 50  0001 C CNN
+	1    7125 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 621521C7
+P 12000 5950
+F 0 "TP?" H 11950 5997 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 12000 5850 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12200 6150 60  0001 L CNN
+F 3 "" H 12200 6250 60  0001 L CNN
+	1    12000 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62156A24
+P 12000 7325
+F 0 "TP?" H 11950 7372 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 12000 7225 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12200 7525 60  0001 L CNN
+F 3 "" H 12200 7625 60  0001 L CNN
+	1    12000 7325
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 621677D1
+P 12000 8700
+F 0 "TP?" H 11950 8747 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 12000 8600 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12200 8900 60  0001 L CNN
+F 3 "" H 12200 9000 60  0001 L CNN
+	1    12000 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6217A18F
+P 14625 8700
+F 0 "TP?" H 14575 8747 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 14625 8600 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 14825 8900 60  0001 L CNN
+F 3 "" H 14825 9000 60  0001 L CNN
+	1    14625 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6218BBE3
+P 14625 7325
+F 0 "TP?" H 14575 7372 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 14625 7225 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 14825 7525 60  0001 L CNN
+F 3 "" H 14825 7625 60  0001 L CNN
+	1    14625 7325
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6219BCD7
+P 14625 5950
+F 0 "TP?" H 14575 5997 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 14625 5850 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 14825 6150 60  0001 L CNN
+F 3 "" H 14825 6250 60  0001 L CNN
+	1    14625 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 621AD212
+P 12325 6450
+F 0 "TP?" H 12375 6497 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 12325 6350 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12525 6650 60  0001 L CNN
+F 3 "" H 12525 6750 60  0001 L CNN
+	1    12325 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 621BF886
+P 12325 7825
+F 0 "TP?" H 12375 7872 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 12325 7725 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12525 8025 60  0001 L CNN
+F 3 "" H 12525 8125 60  0001 L CNN
+	1    12325 7825
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 621D2B64
+P 12325 9200
+F 0 "TP?" H 12375 9247 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 12325 9100 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12525 9400 60  0001 L CNN
+F 3 "" H 12525 9500 60  0001 L CNN
+	1    12325 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 621EF4D3
+P 5675 4800
+F 0 "TP?" H 5725 4847 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 5675 4700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 5875 5000 60  0001 L CNN
+F 3 "" H 5875 5100 60  0001 L CNN
+	1    5675 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62200067
+P 5975 4800
+F 0 "TP?" H 6025 4847 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 5975 4700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6175 5000 60  0001 L CNN
+F 3 "" H 6175 5100 60  0001 L CNN
+	1    5975 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6220FE09
+P 6275 4800
+F 0 "TP?" H 6325 4847 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 6275 4700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6475 5000 60  0001 L CNN
+F 3 "" H 6475 5100 60  0001 L CNN
+	1    6275 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5675 4900 5675 5050
+Connection ~ 5675 5050
+Wire Wire Line
+	5675 5050 6400 5050
+Wire Wire Line
+	5975 4900 5975 5150
+Connection ~ 5975 5150
+Wire Wire Line
+	5975 5150 6775 5150
+Wire Wire Line
+	6275 4900 6275 5250
+Connection ~ 6275 5250
+Wire Wire Line
+	6275 5250 7150 5250
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 622544F5
+P 2800 850
+F 0 "TP?" H 2850 897 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 2800 750 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 3000 1050 60  0001 L CNN
+F 3 "" H 3000 1150 60  0001 L CNN
+	1    2800 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 622544FB
+P 2500 1650
+F 0 "TP?" H 2550 1697 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 2500 1550 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 2700 1850 60  0001 L CNN
+F 3 "" H 2700 1950 60  0001 L CNN
+	1    2500 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62254501
+P 2200 2500
+F 0 "TP?" H 2250 2547 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 2200 2400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 2400 2700 60  0001 L CNN
+F 3 "" H 2400 2800 60  0001 L CNN
+	1    2200 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 950  3700 950 
+Wire Wire Line
+	1300 950  2800 950 
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 622BE852
+P 6150 850
+F 0 "TP?" H 6200 897 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 6150 750 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 6350 1050 60  0001 L CNN
+F 3 "" H 6350 1150 60  0001 L CNN
+	1    6150 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 622DD73E
+P 11675 1900
+F 0 "TP?" H 11725 1947 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 11675 1800 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 11875 2100 60  0001 L CNN
+F 3 "" H 11875 2200 60  0001 L CNN
+	1    11675 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 622EFCB5
+P 12225 3000
+F 0 "TP?" H 12275 3047 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 12225 2900 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12425 3200 60  0001 L CNN
+F 3 "" H 12425 3300 60  0001 L CNN
+	1    12225 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62302665
+P 14550 2500
+F 0 "TP?" H 14600 2547 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 14550 2400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 14750 2700 60  0001 L CNN
+F 3 "" H 14750 2800 60  0001 L CNN
+	1    14550 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62313708
+P 12225 2500
+F 0 "TP?" H 12275 2547 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 12225 2400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 12425 2700 60  0001 L CNN
+F 3 "" H 12425 2800 60  0001 L CNN
+	1    12225 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 6232A519
+P 9725 2575
+F 0 "TP?" V 9825 2500 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 9725 2475 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 9925 2775 60  0001 L CNN
+F 3 "" H 9925 2875 60  0001 L CNN
+	1    9725 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62350CD4
+P 9825 1425
+F 0 "TP?" H 9875 1472 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 9825 1325 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 10025 1625 60  0001 L CNN
+F 3 "" H 10025 1725 60  0001 L CNN
+	1    9825 1425
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 62365069
+P 10125 2025
+F 0 "TP?" V 10125 1976 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 10125 1925 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 10325 2225 60  0001 L CNN
+F 3 "" H 10325 2325 60  0001 L CNN
+	1    10125 2025
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD_0_75MM TP?
+U 1 1 623815DB
+P 14525 1425
+F 0 "TP?" H 14575 1472 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 14525 1325 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_0_75mm" H 14725 1625 60  0001 L CNN
+F 3 "" H 14725 1725 60  0001 L CNN
+	1    14525 1425
+	-1   0    0    1   
+$EndComp
+Connection ~ 14525 1525
+Wire Wire Line
+	14525 1525 15300 1525
 $EndSCHEMATC
