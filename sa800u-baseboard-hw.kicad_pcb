@@ -1637,8 +1637,8 @@
     )
   )
 
-  (module sa800u-baseboard-hw-footprints:F52R-1A7H1-11020 (layer B.Cu) (tedit 61A89EF2) (tstamp 61FC9F7A)
-    (at 151.19 126.51 270)
+  (module sa800u-baseboard-hw-footprints:F52R-1A7H1-11020 (layer B.Cu) (tedit 61A89EF2) (tstamp 62035FA4)
+    (at 152 126.51 270)
     (path /61BD2CC1/61ADF1E8)
     (fp_text reference J6 (at 0 2.4559 270) (layer B.SilkS) hide
       (effects (font (size 0.65 0.65) (thickness 0.15)) (justify mirror))
@@ -1858,7 +1858,7 @@
     )
   )
 
-  (module sa800u-baseboard-hw-footprints:MDT580M01001 locked (layer B.Cu) (tedit 61AA3583) (tstamp 620634A8)
+  (module sa800u-baseboard-hw-footprints:MDT580M01001 locked (layer B.Cu) (tedit 61AA3583) (tstamp 620375C9)
     (at 66.65 111.5)
     (path /61B13669/61A7DEAD)
     (attr smd)
@@ -8997,7 +8997,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 61F91282)
-    (at 147.4 132.1 90)
+    (at 148.1 132.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61BD2CC1/6605EB4C)
@@ -9653,7 +9653,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 61F9145B)
-    (at 146.4 136.3 270)
+    (at 147.1 136.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61BD2CC1/660892CF)
@@ -9687,7 +9687,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 61F9146A)
-    (at 146.4 132.1 90)
+    (at 147.1 132.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61BD2CC1/660892C6)
@@ -10027,7 +10027,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 61F91291)
-    (at 147.4 136.3 270)
+    (at 148.1 136.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61BD2CC1/6605EB55)
@@ -10061,7 +10061,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:PSON50P100X195X50-8N (layer B.Cu) (tedit 5DCD5522) (tstamp 61F922A7)
-    (at 146.895 134.25 180)
+    (at 147.595 134.25 180)
     (path /61BD2CC1/65E71148)
     (attr smd)
     (fp_text reference U11 (at 0.8756 1.9064) (layer B.SilkS) hide
@@ -10175,7 +10175,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 61F8FB88)
-    (at 145.4 132.1 90)
+    (at 146.1 132.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61BD2CC1/660892B3)
@@ -10664,7 +10664,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:0402-cap (layer B.Cu) (tedit 616D63CF) (tstamp 61F8FAFF)
-    (at 145.4 136.3 270)
+    (at 146.1 136.3 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61BD2CC1/660118DD)
@@ -17003,7 +17003,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer B.Cu) (tedit 61AA2C4F) (tstamp 61ABEC3D)
-    (at 147.19 118.51)
+    (at 147.89 118.51)
     (path /61BD2CC1/61C65B0C)
     (attr smd)
     (fp_text reference L14 (at 1.032 1.4064) (layer B.SilkS) hide
@@ -17040,7 +17040,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer B.Cu) (tedit 61AA2C4F) (tstamp 61ABEC51)
-    (at 147.19 121.51)
+    (at 147.89 121.51)
     (path /61BD2CC1/61C82351)
     (attr smd)
     (fp_text reference L15 (at 1.032 1.4064) (layer B.SilkS) hide
@@ -17077,7 +17077,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer B.Cu) (tedit 61AA2C4F) (tstamp 61ABEC65)
-    (at 147.14 124.57)
+    (at 147.84 124.57)
     (path /61BD2CC1/61C82CCB)
     (attr smd)
     (fp_text reference L16 (at 1.032 1.4064) (layer B.SilkS) hide
@@ -18373,7 +18373,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer B.Cu) (tedit 61AA2C4F) (tstamp 61ABEC79)
-    (at 147.19 127.51)
+    (at 147.89 127.51)
     (path /61BD2CC1/61C832C1)
     (attr smd)
     (fp_text reference L17 (at 1.032 1.4064) (layer B.SilkS) hide
@@ -18410,7 +18410,7 @@
   )
 
   (module sa800u-baseboard-hw-footprints:FIL_NFP0QHB242HS2D (layer B.Cu) (tedit 61AA2C4F) (tstamp 61ABEC8D)
-    (at 147.1 129.1)
+    (at 147.8 129.1)
     (path /61BD2CC1/61C83C74)
     (attr smd)
     (fp_text reference L18 (at 1.032 1.4064 180) (layer B.SilkS) hide
