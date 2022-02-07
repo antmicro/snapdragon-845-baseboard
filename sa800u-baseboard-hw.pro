@@ -1,4 +1,4 @@
-update=Mon 07 Feb 2022 12:01:16 AM CET
+update=Mon 07 Feb 2022 02:04:02 PM CET
 version=1
 last_client=kicad
 [general]
@@ -48,8 +48,8 @@ TrackWidth7=0.23
 TrackWidth8=0.25
 ViaDiameter1=0.6
 ViaDrill1=0.35
-dPairWidth1=0.3
-dPairGap1=0.3
+dPairWidth1=0.125
+dPairGap1=0.125
 dPairViaGap1=0.25
 SilkLineWidth=0.09999999999999999
 SilkTextSizeV=0.65
@@ -250,8 +250,8 @@ ViaDiameter=0.6
 ViaDrill=0.35
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.3
-dPairGap=0.3
+dPairWidth=0.125
+dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=SE50_inner
