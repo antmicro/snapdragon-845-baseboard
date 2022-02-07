@@ -573,7 +573,6 @@ Wire Wire Line
 	7400 4650 7400 4625
 Wire Wire Line
 	5775 4625 7400 4625
-NoConn ~ 6750 5075
 Text GLabel 2475 5475 0    50   Input ~ 0
 PAIR78
 Connection ~ 9925 4625
@@ -632,8 +631,6 @@ F 6 "47u/100V" H 9808 4672 50  0000 R CNN "Val"
 	1    9925 4775
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10225 4175 10675 4175
 Wire Wire Line
 	10675 4825 10675 4175
 Text Label 10225 4175 0    50   ~ 0
@@ -723,4 +720,73 @@ Wire Wire Line
 	8575 4625 9925 4625
 Text Notes 8475 5825 0    50   ~ 0
 PSE must see draw of ~~10mA to maintain PoE.\nPDQE30-D draws 8~~15mA with no load\nThis circuit provides exrta ~~3mA and indicates VDD presence
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 62405733
+P 4850 4525
+F 0 "TP?" H 4850 4430 50  0000 C CNN
+F 1 "TP_SMD1MM" H 4850 4425 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5050 4725 60  0001 L CNN
+F 3 "" H 5050 4825 60  0001 L CNN
+	1    4850 4525
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 624090F9
+P 10675 4075
+F 0 "TP?" H 10625 4122 50  0000 R CNN
+F 1 "TP_SMD1MM" H 10675 3975 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 10875 4275 60  0001 L CNN
+F 3 "" H 10875 4375 60  0001 L CNN
+	1    10675 4075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10225 4175 10675 4175
+Connection ~ 10675 4175
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 62413367
+P 13125 4525
+F 0 "TP?" H 13125 4430 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13125 4425 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 13325 4725 60  0001 L CNN
+F 3 "" H 13325 4825 60  0001 L CNN
+	1    13125 4525
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 62416240
+P 13125 5125
+F 0 "TP?" H 13125 5030 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13125 5025 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 13325 5325 60  0001 L CNN
+F 3 "" H 13325 5425 60  0001 L CNN
+	1    13125 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 62420B0C
+P 4850 5875
+F 0 "TP?" H 4850 5780 50  0000 C CNN
+F 1 "TP_SMD1MM" H 4850 5775 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5050 6075 60  0001 L CNN
+F 3 "" H 5050 6175 60  0001 L CNN
+	1    4850 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 624298A6
+P 6850 5075
+F 0 "TP?" V 6850 5025 50  0000 R CNN
+F 1 "TP_SMD1MM" H 6850 4975 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 7050 5275 60  0001 L CNN
+F 3 "" H 7050 5375 60  0001 L CNN
+	1    6850 5075
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
