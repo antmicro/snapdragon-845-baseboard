@@ -1,21 +1,80 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antmicroRectangularConnectorsHeadersFemalePins_1053131202
+# antmicroResistors0402_R_47k_0402
 #
-DEF antmicroRectangularConnectorsHeadersFemalePins_1053131202 J 0 40 Y Y 1 F N
-F0 "J" 0 50 50 H V C CNN
-F1 "antmicroRectangularConnectorsHeadersFemalePins_1053131202" 100 150 50 H V C CNN
-F2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" -175 -325 50 H I C CNN
+DEF antmicroResistors0402_R_47k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_47k_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
-F4 "Molex" -50 -525 50 H I C CNN "Manufacturer"
-F5 "1053131202" -125 -450 50 H I C CNN "MPN"
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCMR04X4702FTL" 200 300 60 H I L CNN "MPN"
+F6 "47k" 0 -100 50 H V C CNN "Val"
 DRAW
-S 0 0 100 -225 1 1 0 f
-S 25 -125 75 -175 1 1 0 N
-S 25 -50 75 -100 1 1 0 N
-X ~ 1 200 -75 100 L 50 50 1 1 I
-X ~ 2 200 -150 100 L 50 50 1 1 I
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_510R_0402
+#
+DEF antmicroResistors0402_R_510R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_510R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Yageo" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402JR-07510RL" 200 300 60 H I L CNN "MPN"
+F6 "510R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_7k68_0402
+#
+DEF antmicroResistors0402_R_7k68_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_7k68_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Yageo" 200 400 60 H I L CNN "Manufacturer"
+F5 "RC0402FR-077K68L" 200 300 60 H I L CNN "MPN"
+F6 "7k68" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTestPoints_TP_SMD1MM
+#
+DEF antmicroTestPoints_TP_SMD1MM TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "antmicroTestPoints_TP_SMD1MM" 0 -100 50 H I C CNN
+F2 "antmicro-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTestPoints_TP_SMD_0_75MM
+#
+DEF antmicroTestPoints_TP_SMD_0_75MM TP 0 0 N Y 1 F N
+F0 "TP" -100 50 50 H V R CNN
+F1 "antmicroTestPoints_TP_SMD_0_75MM" 0 -100 50 H I C CNN
+F2 "antmicro-footprints:Testpoint_smd_0_75mm" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+DRAW
+C 0 0 22 0 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -260,35 +319,6 @@ X ~ B7 -500 50 210 R 50 50 1 1 P
 X ~ B8 -500 150 210 R 50 50 1 1 P
 X ~ B9 -500 250 210 R 50 50 1 1 P
 X ~ SH -200 -950 110 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_1-1734248-5
-#
-DEF sa800u-baseboard-hw_1-1734248-5 J 0 40 Y Y 1 F N
-F0 "J" -50 825 50 H V L BNN
-F1 "sa800u-baseboard-hw_1-1734248-5" -50 -900 50 H V L BNN
-F2 "sa800u-baseboard-hw-footprints:TE_1-1734248-5" -450 -1300 50 H I L BNN
-F3 "" 150 0 50 H I L BNN
-F4 "TE Connectivity " -450 -1200 50 H I L BNN "Manufacturer"
-F5 "1-1734248-5 " -150 -1100 50 H V C CNN "MPN"
-DRAW
-S -50 -800 50 800 0 0 8 f
-X ~ 1 -150 700 100 R 40 40 0 0 P
-X ~ 10 -150 -200 100 R 40 40 0 0 P
-X ~ 11 -150 -300 100 R 40 40 0 0 P
-X ~ 12 -150 -400 100 R 40 40 0 0 P
-X ~ 13 -150 -500 100 R 40 40 0 0 P
-X ~ 14 -150 -600 100 R 40 40 0 0 P
-X ~ 15 -150 -700 100 R 40 40 0 0 P
-X ~ 2 -150 600 100 R 40 40 0 0 P
-X ~ 3 -150 500 100 R 40 40 0 0 P
-X ~ 4 -150 400 100 R 40 40 0 0 P
-X ~ 5 -150 300 100 R 40 40 0 0 P
-X ~ 6 -150 200 100 R 40 40 0 0 P
-X ~ 7 -150 100 100 R 40 40 0 0 P
-X ~ 8 -150 0 100 R 40 40 0 0 P
-X ~ 9 -150 -100 100 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -1004,24 +1034,6 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sa800u-baseboard-hw_C_330n_0603
-#
-DEF sa800u-baseboard-hw_C_330n_0603 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "sa800u-baseboard-hw_C_330n_0603" 0 -150 60 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:0603-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Vishay" 200 400 60 H I L CNN "Manufacturer"
-F5 "VJ0603A331JXBAC" 200 300 60 H I L CNN "MPN"
-F6 "330n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # sa800u-baseboard-hw_C_33p_0402
 #
 DEF sa800u-baseboard-hw_C_33p_0402 C 0 0 Y Y 1 F N
@@ -1407,27 +1419,6 @@ X ~ 1 -150 0 50 R 50 50 1 1 P
 X ~ 2 150 0 50 L 50 50 1 1 P
 X ~ 3 -150 -100 50 R 50 50 1 1 P
 X ~ 4 150 -100 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_KP-1608CGCK
-#
-DEF sa800u-baseboard-hw_KP-1608CGCK D 0 0 Y Y 1 F N
-F0 "D" -200 150 60 H V C CNN
-F1 "sa800u-baseboard-hw_KP-1608CGCK" 0 -150 60 H V C CNN
-F2 "sa800u-baseboard-hw-footprints:LED_0603" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "KP-1608CGCK" 200 500 60 H I L CNN "MPN"
-F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
-DRAW
-P 2 0 1 0 -25 150 -75 100 N
-P 2 0 1 0 0 50 0 -50 N
-P 2 0 1 0 25 125 -25 75 N
-P 3 0 1 0 -50 150 -25 150 -25 125 N
-P 3 0 1 0 0 125 25 125 25 100 N
-P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -3059,23 +3050,23 @@ F3 "" 200 300 60 H I L CNN
 F4 "SQS401EN-T1_BE3" 200 500 60 H I L CNN "MPN"
 F5 "Vishay" 200 1100 60 H I L CNN "Manufacturer"
 DRAW
-C -50 0 130 0 1 0 f
-C 0 -75 5 0 1 0 N
-C 0 -55 5 0 1 0 N
-C 0 75 5 0 1 0 N
-P 2 0 1 0 0 -55 -100 -55 N
-P 3 0 1 0 -200 -100 -120 -100 -120 55 N
-P 3 0 1 0 0 -100 0 0 -100 0 N
-P 3 0 1 0 0 100 0 55 -100 55 N
-P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+C -50 0 130 1 1 0 f
+C 0 -75 5 1 1 0 N
+C 0 -55 5 1 1 0 N
+C 0 75 5 1 1 0 N
 P 2 1 1 0 -100 -55 -100 -75 N
 P 2 1 1 0 -100 -55 -100 -35 N
 P 2 1 1 0 -100 0 -100 -20 N
 P 2 1 1 0 -100 0 -100 20 N
 P 2 1 1 0 -100 75 -100 35 N
-P 2 1 1 0 60 22 20 22 N
-P 4 1 1 0 -45 0 -15 -20 -15 20 -45 0 F
-P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+P 2 1 1 0 0 -55 -100 -55 N
+P 2 1 1 0 60 -12 20 -12 N
+P 3 1 1 0 -200 -100 -120 -100 -120 55 N
+P 3 1 1 0 0 -100 0 0 -100 0 N
+P 3 1 1 0 0 100 0 55 -100 55 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 20 20 60 20 40 -10 F
+P 5 1 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
 X S 1 0 -200 100 U 50 50 1 1 B
 X S 2 0 -200 100 U 50 50 1 1 B
 X S 3 0 -200 100 U 50 50 1 1 B

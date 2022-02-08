@@ -351,8 +351,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 2150 9900 2450
 Wire Wire Line
-	9400 2450 8900 2450
-Wire Wire Line
 	10500 1750 10500 1950
 Wire Wire Line
 	9900 1750 10500 1750
@@ -958,15 +956,14 @@ F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 9000 2050 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 9000 2250 60  0001 L CNN "MPN"
 F 5 "Vishay" H 9000 2850 60  0001 L CNN "Manufacturer"
 	1    8800 1750
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	9000 1750 9900 1750
 Wire Wire Line
-	8900 2050 8900 2450
-Connection ~ 8900 2450
+	8700 2050 8700 2450
 Wire Wire Line
-	7350 2450 8900 2450
+	7350 2450 8700 2450
 Wire Wire Line
 	7350 1750 8600 1750
 $Comp
@@ -1031,4 +1028,7 @@ F 5 "Amphenol ICC (Commercial Products)" H 3350 3600 60  0001 L CNN "Manufacture
 $EndComp
 Wire Wire Line
 	2450 3050 2450 3200
+Connection ~ 8700 2450
+Wire Wire Line
+	8700 2450 9400 2450
 $EndSCHEMATC

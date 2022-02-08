@@ -2897,7 +2897,7 @@ F 3 "https://www.vishay.com/docs/65529/sqs401en.pdf" H 13050 1825 60  0001 L CNN
 F 4 "SQS401EN-T1_BE3" H 13050 2025 60  0001 L CNN "MPN"
 F 5 "Vishay" H 13050 2625 60  0001 L CNN "Manufacturer"
 	1    12850 1525
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text Notes 11100 1175 0    50   ~ 0
 Bypass transistor
@@ -3387,10 +3387,6 @@ Wire Wire Line
 Wire Wire Line
 	13050 1525 14525 1525
 Wire Wire Line
-	12950 1825 12950 2000
-Wire Wire Line
-	12950 2000 11675 2000
-Wire Wire Line
 	11925 2600 11925 1525
 Wire Wire Line
 	11000 1525 11925 1525
@@ -3672,7 +3668,7 @@ F 3 "" H 12500 8050 50  0001 C CNN
 $EndComp
 Text Notes 8375 1375 0    79   ~ 16
 5V\n\n
-Text Label 12375 2000 0    50   ~ 0
+Text Label 12300 2000 0    50   ~ 0
 BYPASS_EN
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R151
@@ -4417,4 +4413,8 @@ $EndComp
 Connection ~ 14525 1525
 Wire Wire Line
 	14525 1525 15300 1525
+Wire Wire Line
+	12750 1825 12750 2000
+Wire Wire Line
+	12750 2000 11675 2000
 $EndSCHEMATC
