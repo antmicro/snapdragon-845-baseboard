@@ -2331,12 +2331,12 @@ Wire Wire Line
 	1400 8425 1850 8425
 Connection ~ 1400 8425
 $Comp
-L antmicroUSBDVIHDMIConnectors:12401598E4_2A J11
+L sa800u-baseboard-hw:12401598E4_2A J11
 U 1 1 62048F69
 P 13800 6325
 F 0 "J11" H 13800 7360 50  0000 C CNN
 F 1 "12401598E4_2A" H 13800 7269 50  0000 C CNN
-F 2 "antmicro-footprints:USB-C_Female_12401X" H 14000 6525 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:USB-C_Female_12401X" H 14000 6525 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 14000 6625 60  0001 L CNN
 F 4 "12401598E4#2A" H 14000 6825 60  0001 L CNN "MPN"
 F 5 "Amphenol ICC (Commercial Products)" H 14000 7425 60  0001 L CNN "Manufacturer"
@@ -2344,12 +2344,12 @@ F 5 "Amphenol ICC (Commercial Products)" H 14000 7425 60  0001 L CNN "Manufactur
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:12401598E4_2A J3
+L sa800u-baseboard-hw:12401598E4_2A J3
 U 1 1 6210C2E6
 P 7100 9400
 F 0 "J3" H 7100 10435 50  0000 C CNN
 F 1 "12401598E4_2A" H 7100 10344 50  0000 C CNN
-F 2 "antmicro-footprints:USB-C_Female_12401X" H 7300 9600 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:USB-C_Female_12401X" H 7300 9600 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 7300 9700 60  0001 L CNN
 F 4 "12401598E4#2A" H 7300 9900 60  0001 L CNN "MPN"
 F 5 "Amphenol ICC (Commercial Products)" H 7300 10500 60  0001 L CNN "Manufacturer"
@@ -2357,12 +2357,12 @@ F 5 "Amphenol ICC (Commercial Products)" H 7300 10500 60  0001 L CNN "Manufactur
 	-1   0    0    -1  
 $EndComp
 $Comp
-L antmicroUSBDVIHDMIConnectors:12401598E4_2A J4
+L sa800u-baseboard-hw:12401598E4_2A J4
 U 1 1 62145545
 P 8100 2375
 F 0 "J4" H 8100 3410 50  0000 C CNN
 F 1 "12401598E4_2A" H 8100 3319 50  0000 C CNN
-F 2 "antmicro-footprints:USB-C_Female_12401X" H 8300 2575 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:USB-C_Female_12401X" H 8300 2575 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 8300 2675 60  0001 L CNN
 F 4 "12401598E4#2A" H 8300 2875 60  0001 L CNN "MPN"
 F 5 "Amphenol ICC (Commercial Products)" H 8300 3475 60  0001 L CNN "Manufacturer"
