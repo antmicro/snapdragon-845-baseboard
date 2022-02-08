@@ -18,14 +18,57 @@ Text
 Text Notes 2669 49363 0    60   ~ 0
 Text
 Wire Wire Line
-	2700 2600 2700 2675
+	5900 3275 5850 3275
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 61F78331
+P 5850 3775
+AR Path="/61A60486/61F78331" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/61F78331" Ref="#PWR0191"  Part="1" 
+F 0 "#PWR0191" H 5850 3525 50  0001 C CNN
+F 1 "GND" H 5855 3602 50  0000 C CNN
+F 2 "" H 5850 3775 50  0001 C CNN
+F 3 "" H 5850 3775 50  0001 C CNN
+	1    5850 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 61F9BA66
+P 7650 3725
+AR Path="/61A60486/61F9BA66" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/61F9BA66" Ref="#PWR0256"  Part="1" 
+F 0 "#PWR0256" H 7650 3475 50  0001 C CNN
+F 1 "GND" H 7655 3552 50  0000 C CNN
+F 2 "" H 7650 3725 50  0001 C CNN
+F 3 "" H 7650 3725 50  0001 C CNN
+	1    7650 3725
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2700 2275 2700 2300
+	7600 3675 7650 3675
 Wire Wire Line
-	2500 2275 2700 2275
+	7650 3675 7650 3725
 Wire Wire Line
-	2700 2675 2675 2675
-Connection ~ 2700 2675
+	5850 3675 5850 3775
+$Comp
+L antmicroMemoryConnectorsPCCardSockets:DM3AT-SF-PEJM5 J5
+U 1 1 62685888
+P 6800 3175
+F 0 "J5" H 6750 4174 50  0000 C CNN
+F 1 "DM3AT-SF-PEJM5" H 6750 4083 50  0000 C CNN
+F 2 "antmicro-footprints:MicroSD_DM3AT-SF-PEJM5" H 6800 3175 50  0001 C CNN
+F 3 "" H 6800 3175 50  0001 C CNN
+F 4 "HIROSE" H 6750 3992 50  0000 C CNN "Manufacturer"
+F 5 "DM3AT-SF-PEJM5" H 6750 3901 50  0000 C CNN "MPN"
+	1    6800 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3275 5850 3675
+Wire Wire Line
+	5850 3675 5900 3675
+Connection ~ 5850 3675
 Wire Wire Line
 	2725 3475 2675 3475
 Wire Wire Line
@@ -56,8 +99,6 @@ F 6 "0R" H 3325 3125 50  0000 C CNN "Val"
 	1    2875 3075
 	1    0    0    -1  
 $EndComp
-Text GLabel 2675 3075 0    50   Input ~ 0
-SD_LDO21A
 $Comp
 L sa800u-baseboard-hw:R_1k_0402 R105
 U 1 1 61EB148E
@@ -157,20 +198,6 @@ F 6 "33R" H 3350 2825 50  0000 C CNN "Val"
 	1    2875 2775
 	1    0    0    -1  
 $EndComp
-Text GLabel 2675 2775 0    50   Input ~ 0
-SD_DATA2
-Text GLabel 2675 2875 0    50   Input ~ 0
-SD_DATA3
-Text GLabel 2675 3475 0    50   Input ~ 0
-SD_DATA1
-Text GLabel 2675 3375 0    50   Input ~ 0
-SD_DATA0
-Text GLabel 2675 2675 0    50   Input ~ 0
-SD_DET
-Text GLabel 2675 2975 0    50   Input ~ 0
-SD_CMD
-Text GLabel 2675 3175 0    50   Input ~ 0
-SD_CLK
 Wire Wire Line
 	4250 3725 4250 2775
 Wire Wire Line
@@ -185,21 +212,6 @@ Wire Wire Line
 	5275 3725 5275 3375
 Wire Wire Line
 	5375 3725 5375 3475
-Wire Wire Line
-	5900 3275 5850 3275
-$Comp
-L sa800u-baseboard-hw:GND #PWR?
-U 1 1 61F78331
-P 5850 3625
-AR Path="/61A60486/61F78331" Ref="#PWR?"  Part="1" 
-AR Path="/61C01D88/61F78331" Ref="#PWR0191"  Part="1" 
-F 0 "#PWR0191" H 5850 3375 50  0001 C CNN
-F 1 "GND" H 5855 3452 50  0000 C CNN
-F 2 "" H 5850 3625 50  0001 C CNN
-F 3 "" H 5850 3625 50  0001 C CNN
-	1    5850 3625
-	1    0    0    -1  
-$EndComp
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 61F649BB
@@ -278,65 +290,6 @@ Wire Wire Line
 	4150 2675 4150 3725
 Wire Wire Line
 	5075 3725 5075 3075
-$Comp
-L sa800u-baseboard-hw:C_10p_0402 C124
-U 1 1 62000138
-P 5150 2300
-F 0 "C124" H 5265 2345 60  0000 L CNN
-F 1 "C_10p_0402" H 5150 2150 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5350 2500 60  0001 L CNN
-F 3 "" H 5150 2300 50  0001 C CNN
-F 4 "MULTICOMP" H 5350 2700 60  0001 L CNN "Manufacturer"
-F 5 "MC0402N100D500CT" H 5350 2600 60  0001 L CNN "MPN"
-F 6 "10p" H 5265 2247 50  0000 L CNN "Val"
-	1    5150 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5075 2150 5150 2150
-$Comp
-L sa800u-baseboard-hw:GND #PWR?
-U 1 1 62009F3E
-P 5150 2450
-AR Path="/61A60486/62009F3E" Ref="#PWR?"  Part="1" 
-AR Path="/61C01D88/62009F3E" Ref="#PWR0184"  Part="1" 
-F 0 "#PWR0184" H 5150 2200 50  0001 C CNN
-F 1 "GND" H 5155 2277 50  0000 C CNN
-F 2 "" H 5150 2450 50  0001 C CNN
-F 3 "" H 5150 2450 50  0001 C CNN
-	1    5150 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:GND #PWR?
-U 1 1 6200C035
-P 5575 2450
-AR Path="/61A60486/6200C035" Ref="#PWR?"  Part="1" 
-AR Path="/61C01D88/6200C035" Ref="#PWR0185"  Part="1" 
-F 0 "#PWR0185" H 5575 2200 50  0001 C CNN
-F 1 "GND" H 5580 2277 50  0000 C CNN
-F 2 "" H 5575 2450 50  0001 C CNN
-F 3 "" H 5575 2450 50  0001 C CNN
-	1    5575 2450
-	1    0    0    -1  
-$EndComp
-Connection ~ 5150 2150
-Wire Wire Line
-	5150 2150 5575 2150
-$Comp
-L sa800u-baseboard-hw:C_2u2_0603 C125
-U 1 1 62000EB0
-P 5575 2300
-F 0 "C125" H 5690 2345 60  0000 L CNN
-F 1 "C_2u2_0603" H 5575 2150 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 5775 2500 60  0001 L CNN
-F 3 "" H 5575 2300 50  0001 C CNN
-F 4 "TDK" H 5775 2700 60  0001 L CNN "Manufacturer"
-F 5 "C1608X5R1V225K080AC" H 5775 2600 60  0001 L CNN "MPN"
-F 6 "2u2" H 5690 2247 50  0000 L CNN "Val"
-	1    5575 2300
-	1    0    0    -1  
-$EndComp
 Text Label 3475 2675 0    50   ~ 0
 SD_DET_R
 Text Label 3475 2775 0    50   ~ 0
@@ -355,8 +308,6 @@ Text Label 3475 3475 0    50   ~ 0
 SD_DATA1_R
 Wire Wire Line
 	5075 3075 5900 3075
-Text Label 5075 2150 2    50   ~ 0
-SD_VDD_R
 $Comp
 L sa800u-baseboard-hw:R_100k_0402 R104
 U 1 1 6202D8CA
@@ -372,8 +323,6 @@ F 7 "DNP" V 2798 2520 50  0000 L CNN "DNP"
 	1    2700 2450
 	0    1    1    0   
 $EndComp
-Text GLabel 2500 2275 0    50   Input ~ 0
-VREG_S4A_1V8
 Wire Wire Line
 	3025 3075 5075 3075
 Connection ~ 5075 3075
@@ -407,36 +356,99 @@ Wire Wire Line
 	4250 2775 5900 2775
 Wire Wire Line
 	3025 2675 4150 2675
+Connection ~ 2700 2675
+Text GLabel 2500 2275 0    50   Input ~ 0
+VREG_S4A_1V8
+Text GLabel 2675 3175 0    50   Input ~ 0
+SD_CLK
+Text GLabel 2675 2975 0    50   Input ~ 0
+SD_CMD
+Text GLabel 2675 2675 0    50   Input ~ 0
+SD_DET
+Text GLabel 2675 3375 0    50   Input ~ 0
+SD_DATA0
+Text GLabel 2675 3475 0    50   Input ~ 0
+SD_DATA1
+Text GLabel 2675 2875 0    50   Input ~ 0
+SD_DATA3
+Text GLabel 2675 2775 0    50   Input ~ 0
+SD_DATA2
+Text GLabel 2675 3075 0    50   Input ~ 0
+SD_LDO21A
+Wire Wire Line
+	2700 2675 2675 2675
+Wire Wire Line
+	2500 2275 2700 2275
+Wire Wire Line
+	2700 2275 2700 2300
+Wire Wire Line
+	2700 2600 2700 2675
+Text Label 5075 2150 2    50   ~ 0
+SD_VDD_R
 $Comp
-L sa800u-baseboard-hw:693072010801 J9
-U 1 1 61F945C0
-P 6400 3225
-F 0 "J9" H 6367 3940 50  0000 C CNN
-F 1 "693072010801" H 6367 3849 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:MicroSD_693072010801" H 6300 2575 50  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/693072010801.pdf" H 6050 3225 50  0001 C CNN
-F 4 "693072010801" H 6400 3875 50  0001 C CNN "MPN"
-F 5 "Wurth Electronics" H 6350 3975 50  0001 C CNN "Manufacturer"
-	1    6400 3225
+L sa800u-baseboard-hw:C_2u2_0603 C125
+U 1 1 62000EB0
+P 5575 2300
+F 0 "C125" H 5690 2345 60  0000 L CNN
+F 1 "C_2u2_0603" H 5575 2150 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 5775 2500 60  0001 L CNN
+F 3 "" H 5575 2300 50  0001 C CNN
+F 4 "TDK" H 5775 2700 60  0001 L CNN "Manufacturer"
+F 5 "C1608X5R1V225K080AC" H 5775 2600 60  0001 L CNN "MPN"
+F 6 "2u2" H 5690 2247 50  0000 L CNN "Val"
+	1    5575 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2150 5575 2150
+Connection ~ 5150 2150
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 6200C035
+P 5575 2450
+AR Path="/61A60486/6200C035" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/6200C035" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 5575 2200 50  0001 C CNN
+F 1 "GND" H 5580 2277 50  0000 C CNN
+F 2 "" H 5575 2450 50  0001 C CNN
+F 3 "" H 5575 2450 50  0001 C CNN
+	1    5575 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
-U 1 1 61F9BA66
-P 6800 3625
-AR Path="/61A60486/61F9BA66" Ref="#PWR?"  Part="1" 
-AR Path="/61C01D88/61F9BA66" Ref="#PWR0256"  Part="1" 
-F 0 "#PWR0256" H 6800 3375 50  0001 C CNN
-F 1 "GND" H 6805 3452 50  0000 C CNN
-F 2 "" H 6800 3625 50  0001 C CNN
-F 3 "" H 6800 3625 50  0001 C CNN
-	1    6800 3625
+U 1 1 62009F3E
+P 5150 2450
+AR Path="/61A60486/62009F3E" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/62009F3E" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 5150 2200 50  0001 C CNN
+F 1 "GND" H 5155 2277 50  0000 C CNN
+F 2 "" H 5150 2450 50  0001 C CNN
+F 3 "" H 5150 2450 50  0001 C CNN
+	1    5150 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 3575 6800 3575
+	5075 2150 5150 2150
+$Comp
+L sa800u-baseboard-hw:C_10p_0402 C124
+U 1 1 62000138
+P 5150 2300
+F 0 "C124" H 5265 2345 60  0000 L CNN
+F 1 "C_10p_0402" H 5150 2150 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 5350 2500 60  0001 L CNN
+F 3 "" H 5150 2300 50  0001 C CNN
+F 4 "MULTICOMP" H 5350 2700 60  0001 L CNN "Manufacturer"
+F 5 "MC0402N100D500CT" H 5350 2600 60  0001 L CNN "MPN"
+F 6 "10p" H 5265 2247 50  0000 L CNN "Val"
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6800 3575 6800 3625
+	4150 2675 5725 2675
 Wire Wire Line
-	5850 3275 5850 3625
+	5725 2675 5725 3575
+Wire Wire Line
+	5725 3575 5900 3575
+Connection ~ 4150 2675
 $EndSCHEMATC
