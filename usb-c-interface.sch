@@ -1508,9 +1508,9 @@ USB1_SBU2
 Text Label 10950 2575 2    50   ~ 0
 USB1_CC2
 Text GLabel 10575 2325 2    50   BiDi ~ 0
-USB1_DM
+USB1_D_N
 Text GLabel 10575 2425 2    50   BiDi ~ 0
-USB1_DP
+USB1_D_P
 Wire Wire Line
 	6775 3775 6775 3725
 Wire Wire Line
@@ -1529,10 +1529,6 @@ F 3 "" H 6475 3900 50  0001 C CNN
 	1    6475 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 6775 3225 0    50   BiDi ~ 0
-USB2C_HS_D_P
-Text GLabel 6775 3325 0    50   BiDi ~ 0
-USB2C_HS_D_N
 Text Label 6725 3500 2    50   ~ 0
 USB1_CC1
 Text Label 6725 3600 2    50   ~ 0
@@ -1612,7 +1608,7 @@ Wire Wire Line
 Connection ~ 9950 3600
 Wire Wire Line
 	10050 3600 10050 3775
-Text Label 9400 3225 0    50   ~ 0
+Text Label 5675 3625 0    50   ~ 0
 USB_SBU1
 Text Label 9400 3325 0    50   ~ 0
 USB_SBU2
@@ -2450,10 +2446,6 @@ Text GLabel 5900 2725 0    50   Input ~ 0
 USB1_SS_RX1_N
 Text GLabel 5900 2825 0    50   Input ~ 0
 USB1_SS_RX1_P
-Text GLabel 5675 2425 0    50   BiDi ~ 0
-USB1_DM
-Text GLabel 5675 2325 0    50   BiDi ~ 0
-USB1_DP
 Wire Wire Line
 	5900 1925 6450 1925
 Wire Wire Line
@@ -2494,34 +2486,6 @@ F 6 "100n" V 6450 1875 50  0000 C CNN "Val"
 	1    6500 2025
 	0    1    1    0   
 $EndComp
-$Comp
-L sa800u-baseboard-hw:C_330n_0603 C66
-U 1 1 61B288A3
-P 6600 2725
-F 0 "C66" V 6550 2225 60  0000 C CNN
-F 1 "C_330n_0603" H 6600 2575 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0603-res" H 6800 2925 60  0001 L CNN
-F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 6600 2725 50  0001 C CNN
-F 4 "Vishay" H 6800 3125 60  0001 L CNN "Manufacturer"
-F 5 "VJ0603A331JXBAC" H 6800 3025 60  0001 L CNN "MPN"
-F 6 "330n" V 6550 2475 50  0000 C CNN "Val"
-	1    6600 2725
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:C_330n_0603 C67
-U 1 1 61B290D9
-P 6500 2825
-F 0 "C67" V 6450 2425 60  0000 C CNN
-F 1 "C_330n_0603" H 6500 2675 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0603-res" H 6700 3025 60  0001 L CNN
-F 3 "https://pl.mouser.com/datasheet/2/427/VISH_S_A0008004061_1-2570247.pdf" H 6500 2825 50  0001 C CNN
-F 4 "Vishay" H 6700 3225 60  0001 L CNN "Manufacturer"
-F 5 "VJ0603A331JXBAC" H 6700 3125 60  0001 L CNN "MPN"
-F 6 "330n" V 6450 2675 50  0000 C CNN "Val"
-	1    6500 2825
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9550 1925 8600 1925
 Wire Wire Line
@@ -2549,7 +2513,7 @@ USB1C_TX1_C_N
 Text Label 9450 2825 2    50   ~ 0
 USB1C_TX1_C_P
 Text Label 9450 2025 2    50   ~ 0
-USB1C_TX0_C_N
+USB1C_RX0_C_N
 Wire Wire Line
 	14025 8100 14025 8350
 Wire Wire Line
@@ -2566,4 +2530,40 @@ Wire Wire Line
 	14225 7900 14225 8350
 Wire Wire Line
 	13800 7900 14225 7900
+Text GLabel 5675 2425 0    50   BiDi ~ 0
+USB1_D_N
+Text GLabel 5675 2325 0    50   BiDi ~ 0
+USB1_D_P
+Text GLabel 6775 3225 0    50   BiDi ~ 0
+USB1_D_N
+Text GLabel 6775 3325 0    50   BiDi ~ 0
+USB1_D_P
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C67
+U 1 1 6231881F
+P 6600 2725
+F 0 "C67" V 6550 2225 60  0000 C CNN
+F 1 "C_100n_0402" H 6600 2575 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6800 2925 60  0001 L CNN
+F 3 "" H 6600 2725 50  0001 C CNN
+F 4 "Walsin" H 6800 3125 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6800 3025 60  0001 L CNN "MPN"
+F 6 "100n" V 6550 2475 50  0000 C CNN "Val"
+	1    6600 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_100n_0402 C66
+U 1 1 62318828
+P 6500 2825
+F 0 "C66" V 6450 2425 60  0000 C CNN
+F 1 "C_100n_0402" H 6500 2675 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-cap" H 6700 3025 60  0001 L CNN
+F 3 "" H 6500 2825 50  0001 C CNN
+F 4 "Walsin" H 6700 3225 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6700 3125 60  0001 L CNN "MPN"
+F 6 "100n" V 6450 2675 50  0000 C CNN "Val"
+	1    6500 2825
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

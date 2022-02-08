@@ -1693,10 +1693,6 @@ Text GLabel 10250 7000 2    50   Output ~ 0
 USB1_SS_TX1_N
 Text GLabel 10250 7100 2    50   Output ~ 0
 USB1_SS_TX1_P
-Text GLabel 10250 7300 2    50   BiDi ~ 0
-USB1_DM
-Text GLabel 10250 7400 2    50   BiDi ~ 0
-USB1_DP
 Text GLabel 10250 7600 2    50   Output ~ 0
 USB1_SS_TX0_N
 Text GLabel 10250 7700 2    50   Output ~ 0
@@ -2965,4 +2961,8 @@ Wire Wire Line
 	10875 8600 10875 8650
 Wire Wire Line
 	9750 8600 10875 8600
+Text GLabel 10250 7300 2    50   BiDi ~ 0
+USB1_D_N
+Text GLabel 10250 7400 2    50   BiDi ~ 0
+USB1_D_P
 $EndSCHEMATC
