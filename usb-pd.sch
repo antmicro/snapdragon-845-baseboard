@@ -1014,12 +1014,12 @@ Wire Wire Line
 NoConn ~ 4550 4600
 NoConn ~ 4650 4600
 $Comp
-L antmicroUSBDVIHDMIConnectors:12401598E4_2A J12
+L sa800u-baseboard-hw:12401598E4_2A J12
 U 1 1 6220D088
 P 3150 2500
 F 0 "J12" H 3150 3535 50  0000 C CNN
 F 1 "12401598E4_2A" H 3150 3444 50  0000 C CNN
-F 2 "antmicro-footprints:USB-C_Female_12401X" H 3350 2700 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:USB-C_Female_12401X" H 3350 2700 60  0001 L CNN
 F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf" H 3350 2800 60  0001 L CNN
 F 4 "12401598E4#2A" H 3350 3000 60  0001 L CNN "MPN"
 F 5 "Amphenol ICC (Commercial Products)" H 3350 3600 60  0001 L CNN "Manufacturer"
