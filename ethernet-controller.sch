@@ -131,28 +131,6 @@ $EndComp
 Text Label 9125 5375 0    50   ~ 0
 LAN0_MDI0_P
 $Comp
-L sa800u-baseboard-hw:GND #PWR012
-U 1 1 61C7BF66
-P 13125 6225
-F 0 "#PWR012" H 13125 5975 50  0001 C CNN
-F 1 "GND" V 13130 6097 50  0000 R CNN
-F 2 "" H 13125 6225 50  0001 C CNN
-F 3 "" H 13125 6225 50  0001 C CNN
-	1    13125 6225
-	0    -1   -1   0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:GND #PWR011
-U 1 1 61C7BBCB
-P 13125 5725
-F 0 "#PWR011" H 13125 5475 50  0001 C CNN
-F 1 "GND" V 13130 5597 50  0000 R CNN
-F 2 "" H 13125 5725 50  0001 C CNN
-F 3 "" H 13125 5725 50  0001 C CNN
-	1    13125 5725
-	0    -1   -1   0   
-$EndComp
-$Comp
 L sa800u-baseboard-hw:R_470R_0402 R18
 U 1 1 619694FE
 P 11850 6025
@@ -182,19 +160,11 @@ F 6 "470R" H 11850 5925 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	11600 5925 11700 5925
-Text Label 13575 5825 0    50   ~ 0
+Text Label 12375 5825 2    50   ~ 0
 ETH_LED0
 Wire Wire Line
 	11700 6025 11600 6025
-Wire Wire Line
-	12475 6225 12475 6125
-Wire Wire Line
-	12475 5725 12475 5825
-Wire Wire Line
-	12475 5825 13575 5825
-Wire Wire Line
-	11600 5825 12475 5825
-Text Label 13575 6125 0    50   ~ 0
+Text Label 12375 6125 2    50   ~ 0
 ETH_LED2
 $Comp
 L sa800u-baseboard-hw:5-2337992-8 J1
@@ -270,42 +240,6 @@ Wire Wire Line
 	10050 6325 10500 6325
 Wire Wire Line
 	10050 6425 10500 6425
-$Comp
-L sa800u-baseboard-hw:BZX84C3V3LT1G D1
-U 1 1 61D774AD
-P 12775 5725
-F 0 "D1" H 12775 5950 50  0000 C CNN
-F 1 "BZX84C3V3LT1G" H 12775 5859 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 12775 5725 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2236792.pdf" H 12775 5725 50  0001 C CNN
-F 4 "BZX84C3V3LT1G" H 12775 5725 50  0001 C CNN "MPN"
-F 5 "ONSEMI" H 12775 5725 50  0001 C CNN "Manufacturer"
-	1    12775 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L sa800u-baseboard-hw:BZX84C3V3LT1G D2
-U 1 1 61D77E1B
-P 12775 6225
-F 0 "D2" H 12775 6100 50  0000 C CNN
-F 1 "BZX84C3V3LT1G" H 12775 6009 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 12775 6225 50  0001 C CNN
-F 3 "https://www.farnell.com/datasheets/2236792.pdf" H 12775 6225 50  0001 C CNN
-F 4 "BZX84C3V3LT1G" H 12775 6225 50  0001 C CNN "MPN"
-F 5 "ONSEMI" H 12775 6225 50  0001 C CNN "Manufacturer"
-	1    12775 6225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12475 6225 12625 6225
-Wire Wire Line
-	12925 6225 13125 6225
-Wire Wire Line
-	12925 5725 13125 5725
-Wire Wire Line
-	12475 5725 12625 5725
-Text Notes 12325 5400 0    50   ~ 0
-Should this diode be TVS?
 Text Notes 10675 7300 0    50   ~ 10
 Possible replacement:\nhttps://www.l-p.com/products/457392.htm
 Text GLabel 3625 3100 0    50   Input ~ 0
@@ -631,12 +565,6 @@ F 3 "~" H 10175 3075 50  0001 C CNN
 	1    10175 3075
 	1    0    0    -1  
 $EndComp
-Connection ~ 12475 5825
-Wire Wire Line
-	11600 6125 12475 6125
-Connection ~ 12475 6125
-Wire Wire Line
-	12475 6125 13575 6125
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C8
 U 1 1 6190876E
@@ -1182,4 +1110,8 @@ F 3 "" H 8700 3275 60  0001 L CNN
 	1    8500 2975
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	11600 5825 12375 5825
+Wire Wire Line
+	11600 6125 12375 6125
 $EndSCHEMATC
