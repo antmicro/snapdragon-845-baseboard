@@ -170,9 +170,9 @@ Text Label 2175 4450 0    50   ~ 0
 CSI0_LN3_FFC_N
 Text Label 2175 4550 0    50   ~ 0
 CSI0_LN3_FFC_P
-Text Label 6450 1850 0    50   ~ 0
+Text Label 6450 3450 0    50   ~ 0
 CSI0_LN3_FFC_N
-Text Label 6450 1950 0    50   ~ 0
+Text Label 6450 3550 0    50   ~ 0
 CSI0_LN3_FFC_P
 Wire Wire Line
 	2075 4450 2175 4450
@@ -271,16 +271,16 @@ CSI0_LN0_FFC_N
 Text Label 2175 5900 0    50   ~ 0
 CSI0_LN0_FFC_P
 Text Label 2175 6250 0    50   ~ 0
-CSI0_CLK_N
+CSI0_CLK_FFC_N
 Text Label 2175 6350 0    50   ~ 0
-CSI0_CLK_P
-Text Label 6450 2050 0    50   ~ 0
+CSI0_CLK_FFC_P
+Text Label 6450 1850 0    50   ~ 0
 CSI1_LN2_FFC_N
-Text Label 6450 2150 0    50   ~ 0
+Text Label 6450 1950 0    50   ~ 0
 CSI1_LN2_FFC_P
-Text Label 6450 2250 0    50   ~ 0
+Text Label 6450 3650 0    50   ~ 0
 CSI0_LN2_FFC_N
-Text Label 6450 2350 0    50   ~ 0
+Text Label 6450 3750 0    50   ~ 0
 CSI0_LN2_FFC_P
 Wire Wire Line
 	7450 2450 7300 2450
@@ -291,17 +291,17 @@ Wire Wire Line
 Wire Wire Line
 	6450 1750 7450 1750
 Wire Wire Line
+	6450 3450 7450 3450
+Wire Wire Line
+	6450 3550 7450 3550
+Wire Wire Line
 	6450 1850 7450 1850
 Wire Wire Line
 	6450 1950 7450 1950
 Wire Wire Line
-	6450 2050 7450 2050
+	6450 3650 7450 3650
 Wire Wire Line
-	6450 2150 7450 2150
-Wire Wire Line
-	6450 2250 7450 2250
-Wire Wire Line
-	6450 2350 7450 2350
+	6450 3750 7450 3750
 Text Label 6450 2550 0    50   ~ 0
 CSI1_CLK_FFC_N
 Text Label 6450 2650 0    50   ~ 0
@@ -330,25 +330,13 @@ Connection ~ 7300 3350
 Wire Wire Line
 	7300 3350 7300 4250
 Wire Wire Line
-	7450 3450 6450 3450
+	7450 2050 6450 2050
 Wire Wire Line
-	7450 3550 6450 3550
-Text Label 6450 3450 0    50   ~ 0
+	7450 2150 6450 2150
+Text Label 6450 2050 0    50   ~ 0
 CSI1_LN1_FFC_N
-Text Label 6450 3550 0    50   ~ 0
+Text Label 6450 2150 0    50   ~ 0
 CSI1_LN1_FFC_P
-Text Label 6450 3650 0    50   ~ 0
-CSI0_LN1_FFC_N
-Text Label 6450 3750 0    50   ~ 0
-CSI0_LN1_FFC_P
-Wire Wire Line
-	6450 3650 7450 3650
-Wire Wire Line
-	6450 3750 7450 3750
-Text Label 6450 3850 0    50   ~ 0
-CSI1_LN0_FFC_N
-Text Label 6450 3950 0    50   ~ 0
-CSI1_LN0_FFC_P
 Text Label 6450 4050 0    50   ~ 0
 CSI0_LN0_FFC_N
 Text Label 6450 4150 0    50   ~ 0
@@ -358,18 +346,10 @@ Wire Wire Line
 Wire Wire Line
 	6450 4050 7450 4050
 Wire Wire Line
-	6450 3950 7450 3950
-Wire Wire Line
-	6450 3850 7450 3850
-Wire Wire Line
 	7450 4250 7300 4250
 Connection ~ 7300 4250
 Wire Wire Line
 	7300 4250 7300 4550
-Text Label 6450 4350 0    50   ~ 0
-CSI0_CLK_N
-Text Label 6450 4450 0    50   ~ 0
-CSI0_CLK_P
 Wire Wire Line
 	6450 4450 7450 4450
 Wire Wire Line
@@ -1438,4 +1418,24 @@ Wire Wire Line
 Connection ~ 7250 4950
 Wire Wire Line
 	7250 4950 6950 4950
+Wire Wire Line
+	6450 3950 7450 3950
+Wire Wire Line
+	6450 3850 7450 3850
+Text Label 6450 3950 0    50   ~ 0
+CSI0_LN1_FFC_P
+Text Label 6450 3850 0    50   ~ 0
+CSI0_LN1_FFC_N
+Wire Wire Line
+	6450 2250 7450 2250
+Wire Wire Line
+	6450 2350 7450 2350
+Text Label 6450 2350 0    50   ~ 0
+CSI1_LN0_FFC_P
+Text Label 6450 2250 0    50   ~ 0
+CSI1_LN0_FFC_N
+Text Label 6450 4350 0    50   ~ 0
+CSI0_CLK_FFC_N
+Text Label 6450 4450 0    50   ~ 0
+CSI0_CLK_FFC_P
 $EndSCHEMATC
