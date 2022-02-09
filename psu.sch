@@ -4361,12 +4361,12 @@ Wire Wire Line
 Wire Wire Line
 	12750 2000 11675 2000
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:1053131202 J9
+L sa800u-baseboard-hw:1053131202 J9
 U 1 1 62850090
 P 675 875
 F 0 "J9" H 783 1040 50  0000 C CNN
 F 1 "1053131202" H 783 949 50  0000 C CNN
-F 2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 500 550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 500 550 50  0001 C CNN
 F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/1053131202" H 675 875 50  0001 C CNN
 F 4 "Molex" H 625 350 50  0001 C CNN "Manufacturer"
 F 5 "1053131202" H 550 425 50  0001 C CNN "MPN"
