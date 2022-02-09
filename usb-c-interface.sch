@@ -130,14 +130,6 @@ F 3 "" H 6000 7875 50  0001 C CNN
 	1    6000 7875
 	-1   0    0    1   
 $EndComp
-Text GLabel 1150 9350 0    50   Input ~ 0
-USB2_SS_RX_N
-Text GLabel 1150 9250 0    50   Input ~ 0
-USB2_SS_RX_P
-Text GLabel 1150 9650 0    50   Output ~ 0
-USB2_SS_TX_N
-Text GLabel 1150 9550 0    50   Output ~ 0
-USB2_SS_TX_P
 Wire Wire Line
 	1150 9650 1450 9650
 Wire Wire Line
@@ -146,22 +138,6 @@ Wire Wire Line
 	1150 9350 1450 9350
 Wire Wire Line
 	1450 9250 1150 9250
-Wire Wire Line
-	2450 9850 3000 9850
-Wire Wire Line
-	2450 9950 3000 9950
-Wire Wire Line
-	2450 10150 3000 10150
-Wire Wire Line
-	2450 10250 3000 10250
-Wire Wire Line
-	2450 9050 3000 9050
-Wire Wire Line
-	2450 9150 3000 9150
-Wire Wire Line
-	2450 9350 3000 9350
-Wire Wire Line
-	2450 9450 3000 9450
 Text Label 4450 9250 0    50   ~ 0
 USB2_CC1
 Wire Wire Line
@@ -570,22 +546,6 @@ F 6 "100n" H 1065 8522 50  0000 L CNN "Val"
 	1    950  8575
 	1    0    0    -1  
 $EndComp
-Text Label 3000 9850 2    50   ~ 0
-USB2C_RX2_P
-Text Label 3000 9950 2    50   ~ 0
-USB2C_RX2_N
-Text Label 3000 10150 2    50   ~ 0
-USB2C_TX2_P
-Text Label 3000 10250 2    50   ~ 0
-USB2C_TX2_N
-Text Label 3000 9050 2    50   ~ 0
-USB2C_RX1_P
-Text Label 3000 9150 2    50   ~ 0
-USB2C_RX1_N
-Text Label 3000 9350 2    50   ~ 0
-USB2C_TX1_P
-Text Label 3000 9450 2    50   ~ 0
-USB2C_TX1_N
 Text Label 4450 8950 0    50   ~ 0
 USB2C_TX1_P
 Text Label 4450 9050 0    50   ~ 0
@@ -843,14 +803,10 @@ Text Label 14450 6275 0    50   ~ 0
 DBG_USB_D_N
 Text Label 13200 6375 2    50   ~ 0
 DBG_USB_D_N
-Text Label 13925 8000 2    50   ~ 0
+Text Label 13800 8000 2    50   ~ 0
 DBG_USB_D_P
-Text Label 13925 8100 2    50   ~ 0
+Text Label 13800 7900 2    50   ~ 0
 DBG_USB_D_N
-Wire Wire Line
-	13925 8100 14025 8100
-Wire Wire Line
-	13925 8000 14125 8000
 $Comp
 L sa800u-baseboard-hw:BLM18EG221SN1D FB4
 U 1 1 624D1B2D
@@ -1338,9 +1294,9 @@ F 3 "" H 9550 7775 50  0001 C CNN
 	1    9550 7775
 	1    0    0    -1  
 $EndComp
-Text GLabel 9850 7100 0    50   BiDi ~ 0
-USB2C_HS_D_P
 Text GLabel 9850 7200 0    50   BiDi ~ 0
+USB2C_HS_D_P
+Text GLabel 9850 7100 0    50   BiDi ~ 0
 USB2C_HS_D_N
 $Comp
 L sa800u-baseboard-hw:GND #PWR0160
@@ -1517,8 +1473,6 @@ Wire Wire Line
 Wire Wire Line
 	6775 3225 7175 3225
 Wire Wire Line
-	9800 7475 9950 7475
-Wire Wire Line
 	9950 7475 9950 7650
 Wire Wire Line
 	9850 7200 10150 7200
@@ -1526,8 +1480,6 @@ Wire Wire Line
 	9850 7100 10250 7100
 Wire Wire Line
 	10150 7200 10150 7650
-Wire Wire Line
-	10250 7100 10250 7650
 Text GLabel 10300 2725 2    50   Input ~ 0
 USB1_SS_TX1_N
 Text GLabel 10300 2025 2    50   Input ~ 0
@@ -1535,11 +1487,7 @@ USB1_SS_RX0_N
 Text GLabel 10300 1925 2    50   Input ~ 0
 USB1_SS_RX0_P
 Wire Wire Line
-	9800 7375 10050 7375
-Wire Wire Line
 	10050 7375 10050 7650
-Text Label 9250 7475 0    50   ~ 0
-USB2_5V
 Wire Wire Line
 	7400 2125 7400 1475
 Wire Wire Line
@@ -1896,36 +1844,6 @@ F 6 "47u" H 6115 8172 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10125 6525 10125 6575
-Wire Wire Line
-	10125 6525 10525 6525
-Wire Wire Line
-	10525 6525 10525 6575
-Connection ~ 10125 6525
-Wire Wire Line
-	10525 6875 10525 6925
-Wire Wire Line
-	10525 6925 10125 6925
-Wire Wire Line
-	10125 6925 10125 6875
-$Comp
-L sa800u-baseboard-hw:GND #PWR0257
-U 1 1 621257A9
-P 10525 6925
-AR Path="/61A2F307/621257A9" Ref="#PWR0257"  Part="1" 
-AR Path="/628CDA4A/621257A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0257" H 10525 6675 50  0001 C CNN
-F 1 "GND" H 10530 6752 50  0000 C CNN
-F 2 "" H 10525 6925 50  0001 C CNN
-F 3 "" H 10525 6925 50  0001 C CNN
-	1    10525 6925
-	1    0    0    -1  
-$EndComp
-Text Label 9775 6525 0    50   ~ 0
-USB2_5V
-Wire Wire Line
-	9775 6525 10125 6525
-Wire Wire Line
 	6000 7925 5600 7925
 Wire Wire Line
 	5600 7925 5600 8100
@@ -2132,11 +2050,6 @@ F 5 "PUSB3F96X" H 10250 7200 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	9550 7600 9850 7600
-Wire Wire Line
-	9800 7375 9800 7475
-Wire Wire Line
-	9800 7475 9250 7475
-Connection ~ 9800 7475
 $Comp
 L sa800u-baseboard-hw:PUSB3F96X_PASS D?
 U 1 1 622634AD
@@ -2474,8 +2387,6 @@ USB1C_TX1_C_P
 Text Label 9450 2025 2    50   ~ 0
 USB1C_RX0_C_N
 Wire Wire Line
-	14025 8100 14025 8350
-Wire Wire Line
 	14125 8000 14125 8350
 Text Label 13800 8225 2    50   ~ 0
 DBG_VBUS
@@ -2483,7 +2394,7 @@ Wire Wire Line
 	13800 8225 13925 8225
 Wire Wire Line
 	13925 8225 13925 8350
-Text Label 13800 7900 2    50   ~ 0
+Text Label 13800 8125 2    50   ~ 0
 DBG_VBUS
 Wire Wire Line
 	14225 7900 14225 8350
@@ -2525,7 +2436,7 @@ F 6 "100n" V 6450 2675 50  0000 C CNN "Val"
 	1    6500 2825
 	0    1    1    0   
 $EndComp
-Text Label 5675 3625 0    50   ~ 0
+Text Label 9400 3225 0    50   ~ 0
 USB_SBU1
 $Comp
 L sa800u-baseboard-hw:C_10u_0402 C?
@@ -2546,4 +2457,60 @@ $EndComp
 Wire Wire Line
 	6000 7925 6000 8075
 Connection ~ 6000 7925
+Wire Wire Line
+	10250 7100 10250 7650
+Text Label 9250 7375 0    50   ~ 0
+USB2_CC1
+Text Label 9250 7475 0    50   ~ 0
+USB2_CC2
+Wire Wire Line
+	9250 7375 10050 7375
+Wire Wire Line
+	9250 7475 9950 7475
+Text Label 3000 9950 2    50   ~ 0
+USB2C_TX2_N
+Text Label 3000 9850 2    50   ~ 0
+USB2C_TX2_P
+Text Label 3000 10250 2    50   ~ 0
+USB2C_RX2_N
+Text Label 3000 10150 2    50   ~ 0
+USB2C_RX2_P
+Wire Wire Line
+	2450 9950 3000 9950
+Wire Wire Line
+	2450 9850 3000 9850
+Wire Wire Line
+	2450 10250 3000 10250
+Wire Wire Line
+	2450 10150 3000 10150
+Text Label 3000 9150 2    50   ~ 0
+USB2C_TX1_N
+Text Label 3000 9050 2    50   ~ 0
+USB2C_TX1_P
+Text Label 3000 9450 2    50   ~ 0
+USB2C_RX1_N
+Text Label 3000 9350 2    50   ~ 0
+USB2C_RX1_P
+Wire Wire Line
+	2450 9150 3000 9150
+Wire Wire Line
+	2450 9050 3000 9050
+Wire Wire Line
+	2450 9450 3000 9450
+Wire Wire Line
+	2450 9350 3000 9350
+Text GLabel 1150 9550 0    50   Input ~ 0
+USB2_SS_RX_P
+Text GLabel 1150 9650 0    50   Input ~ 0
+USB2_SS_RX_N
+Text GLabel 1150 9250 0    50   Output ~ 0
+USB2_SS_TX_P
+Text GLabel 1150 9350 0    50   Output ~ 0
+USB2_SS_TX_N
+Wire Wire Line
+	13800 8000 14125 8000
+Wire Wire Line
+	13800 8125 14025 8125
+Wire Wire Line
+	14025 8125 14025 8350
 $EndSCHEMATC
