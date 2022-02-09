@@ -372,8 +372,6 @@ Text GLabel 11800 1750 2    50   Output ~ 0
 PD_VDD
 Wire Wire Line
 	5475 4800 5775 4800
-Text Label 5300 4700 0    50   ~ 0
-2V7
 $Comp
 L sa800u-baseboard-hw:R_100k_0402 R121
 U 1 1 61EEDDB8
@@ -511,8 +509,6 @@ Text GLabel 6825 7600 0    50   Input ~ 0
 STUSB4500_GPIO
 Text GLabel 6825 7500 0    50   Input ~ 0
 STUSB4500_AB_SIDE
-Text GLabel 6875 7075 0    50   Input ~ 0
-1V8
 Wire Wire Line
 	7025 7075 6875 7075
 $Comp
@@ -573,7 +569,7 @@ Wire Wire Line
 	7400 5150 7350 5150
 Connection ~ 7350 5150
 Wire Wire Line
-	5300 4700 5475 4700
+	5075 4700 5475 4700
 Connection ~ 5475 4700
 Wire Wire Line
 	5475 4700 5475 4800
@@ -1033,4 +1029,8 @@ Wire Wire Line
 Connection ~ 11350 1750
 Wire Wire Line
 	11350 1750 11800 1750
+Text GLabel 6875 7075 0    50   Input ~ 0
+VREG_S4A_1V8
+Text Label 5075 4700 0    50   ~ 0
+VREG_2V7
 $EndSCHEMATC
