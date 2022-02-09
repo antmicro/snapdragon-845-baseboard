@@ -310,19 +310,6 @@ F 6 "27k" V 7103 10045 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	6700 9525 6700 9325
-$Comp
-L sa800u-baseboard-hw:S1G D3
-U 1 1 61AB5487
-P 7050 9575
-F 0 "D3" V 6997 9653 60  0000 L CNN
-F 1 "S1G" V 7103 9653 60  0000 L CNN
-F 2 "sa800u-baseboard-hw-footprints:DO-214AC" H 7250 9775 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" H 7250 9875 60  0001 L CNN
-F 4 "S1G" H 7250 10075 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 7250 10675 60  0001 L CNN "Manufacturer"
-	1    7050 9575
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7050 9775 7050 9825
 $Comp
@@ -3572,5 +3559,20 @@ F 5 "RC0402JR-07510RL" H 12625 8000 60  0001 L CNN "MPN"
 F 6 "510R" V 12478 7770 50  0000 L CNN "Val"
 	1    12425 7700
 	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:1N4148WS D?
+U 1 1 62C88627
+P 7050 9575
+AR Path="/61A2F307/62C88627" Ref="D?"  Part="1" 
+AR Path="/6197686D/62C88627" Ref="D3"  Part="1" 
+F 0 "D3" V 6997 9497 60  0000 R CNN
+F 1 "1N4148WS" V 7103 9497 60  0000 R CNN
+F 2 "sa800u-baseboard-hw-footprints:SOD-323F" H 7250 9775 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N914BWS-D.pdf" H 7250 9875 60  0001 L CNN
+F 4 "1N4148WS" H 7250 10075 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 7250 10675 60  0001 L CNN "Manufacturer"
+	1    7050 9575
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
