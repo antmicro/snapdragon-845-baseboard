@@ -1,21 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 1053131202-antmicroRectangularConnectorsHeadersFemalePins
+# PESD18VF1BSFYL-antmicroTVSDiodes
 #
-DEF 1053131202-antmicroRectangularConnectorsHeadersFemalePins J 0 40 Y Y 1 F N
-F0 "J" 0 50 50 H V C CNN
-F1 "1053131202-antmicroRectangularConnectorsHeadersFemalePins" 100 150 50 H V C CNN
-F2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" -175 -325 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Molex" -50 -525 50 H I C CNN "Manufacturer"
-F5 "1053131202" -125 -450 50 H I C CNN "MPN"
+DEF PESD18VF1BSFYL-antmicroTVSDiodes D 0 40 Y Y 1 F N
+F0 "D" 0 150 100 H V L CNN
+F1 "PESD18VF1BSFYL-antmicroTVSDiodes" 0 -175 100 H V L CNN
+F2 "antmicro-footprints:RESC0603X26N" 0 -450 100 H I L CNN
+F3 "" 210 -150 100 H I C CNN
+F4 "nexperia" 0 -575 100 H I L CNN "Manufacturer"
+F5 "PESD18VF1BSFYL" 0 -325 100 H I L CNN "MPN"
 DRAW
-S 0 0 100 -225 1 1 0 f
-S 25 -125 75 -175 1 1 0 N
-S 25 -50 75 -100 1 1 0 N
-X ~ 1 200 -75 100 L 50 50 1 1 I
-X ~ 2 200 -150 100 L 50 50 1 1 I
+P 2 0 1 0 -125 -75 -125 75 N
+P 2 0 1 0 -125 -75 -75 -75 N
+P 2 0 1 0 -25 0 25 0 N
+P 2 0 1 0 125 0 150 0 N
+P 3 0 1 0 125 -75 125 75 75 75 N
+P 4 0 1 0 -125 0 -25 75 -25 -75 -125 0 f
+P 4 0 1 0 25 75 25 -75 125 0 25 75 f
+X ~ 1 -225 0 100 R 50 50 1 1 I
+X ~ 2 250 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
