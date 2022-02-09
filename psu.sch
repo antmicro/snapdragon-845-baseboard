@@ -3972,48 +3972,6 @@ Text GLabel 11175 7725 0    50   Input ~ 0
 3V3_SYS_EN
 Text GLabel 11175 9100 0    50   Input ~ 0
 1V2_SYS_EN
-$Comp
-L sa800u-baseboard-hw:R_13k7_0402 R143
-U 1 1 62A76BE5
-P 2500 6300
-F 0 "R143" V 2455 6370 60  0000 L CNN
-F 1 "R_13k7_0402" H 2500 6150 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6500 60  0001 L CNN
-F 3 "" H 2500 6300 50  0001 C CNN
-F 4 "Bourns" H 2700 6700 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1372GLF" H 2700 6600 60  0001 L CNN "MPN"
-F 6 "13k7" V 2553 6370 50  0000 L CNN "Val"
-	1    2500 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_13k7_0402 R140
-U 1 1 62A794E7
-P 2200 7350
-F 0 "R140" V 2155 7420 60  0000 L CNN
-F 1 "R_13k7_0402" H 2200 7200 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7550 60  0001 L CNN
-F 3 "" H 2200 7350 50  0001 C CNN
-F 4 "Bourns" H 2400 7750 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1372GLF" H 2400 7650 60  0001 L CNN "MPN"
-F 6 "13k7" V 2253 7420 50  0000 L CNN "Val"
-	1    2200 7350
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:R_13k7_0402 R158
-U 1 1 62A8AC23
-P 2800 5250
-F 0 "R158" V 2755 5320 60  0000 L CNN
-F 1 "R_13k7_0402" H 2800 5100 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5450 60  0001 L CNN
-F 3 "" H 2800 5250 50  0001 C CNN
-F 4 "Bourns" H 3000 5650 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1372GLF" H 3000 5550 60  0001 L CNN "MPN"
-F 6 "13k7" V 2853 5320 50  0000 L CNN "Val"
-	1    2800 5250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7150 5000 7150 5250
 Wire Wire Line
@@ -4065,21 +4023,6 @@ Wire Wire Line
 	6775 4700 6775 4600
 Wire Wire Line
 	7150 4700 7150 4600
-$Comp
-L sa800u-baseboard-hw:1053131202-antmicroRectangularConnectorsHeadersFemalePins J10
-U 1 1 620EC9A9
-P 675 875
-AR Path="/620EC9A9" Ref="J10"  Part="1" 
-AR Path="/61B0DC30/620EC9A9" Ref="J10"  Part="1" 
-F 0 "J10" H 783 1040 50  0000 C CNN
-F 1 "1053131202" H 783 949 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 500 550 50  0001 C CNN
-F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/1053131202" H 675 875 50  0001 C CNN
-F 4 "Molex" H 625 350 50  0001 C CNN "Manufacturer"
-F 5 "1053131202" H 550 425 50  0001 C CNN "MPN"
-	1    675  875 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7125 1000 7125 950 
 $Comp
@@ -4417,4 +4360,59 @@ Wire Wire Line
 	12750 1825 12750 2000
 Wire Wire Line
 	12750 2000 11675 2000
+$Comp
+L antmicroRectangularConnectorsHeadersFemalePins:1053131202 J9
+U 1 1 62850090
+P 675 875
+F 0 "J9" H 783 1040 50  0000 C CNN
+F 1 "1053131202" H 783 949 50  0000 C CNN
+F 2 "antmicro-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 500 550 50  0001 C CNN
+F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/1053131202" H 675 875 50  0001 C CNN
+F 4 "Molex" H 625 350 50  0001 C CNN "Manufacturer"
+F 5 "1053131202" H 550 425 50  0001 C CNN "MPN"
+	1    675  875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_13k7_0402 R140
+U 1 1 62A794E7
+P 2200 7350
+F 0 "R140" V 2155 7420 60  0000 L CNN
+F 1 "R_13k7_0402" H 2200 7200 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7550 60  0001 L CNN
+F 3 "" H 2200 7350 50  0001 C CNN
+F 4 "Bourns" H 2400 7750 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1372GLF" H 2400 7650 60  0001 L CNN "MPN"
+F 6 "13k7" V 2253 7420 50  0000 L CNN "Val"
+	1    2200 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_13k7_0402 R143
+U 1 1 62A76BE5
+P 2500 6300
+F 0 "R143" V 2455 6370 60  0000 L CNN
+F 1 "R_13k7_0402" H 2500 6150 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6500 60  0001 L CNN
+F 3 "" H 2500 6300 50  0001 C CNN
+F 4 "Bourns" H 2700 6700 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1372GLF" H 2700 6600 60  0001 L CNN "MPN"
+F 6 "13k7" V 2553 6370 50  0000 L CNN "Val"
+	1    2500 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_13k7_0402 R158
+U 1 1 62A8AC23
+P 2800 5250
+F 0 "R158" V 2755 5320 60  0000 L CNN
+F 1 "R_13k7_0402" H 2800 5100 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5450 60  0001 L CNN
+F 3 "" H 2800 5250 50  0001 C CNN
+F 4 "Bourns" H 3000 5650 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1372GLF" H 3000 5550 60  0001 L CNN "MPN"
+F 6 "13k7" V 2853 5320 50  0000 L CNN "Val"
+	1    2800 5250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
