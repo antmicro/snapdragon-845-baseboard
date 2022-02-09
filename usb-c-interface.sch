@@ -1860,12 +1860,8 @@ Wire Wire Line
 	8650 5250 8650 5350
 Wire Wire Line
 	8850 5250 8850 5350
-Text GLabel 9350 6150 2    50   Input ~ 0
-USB2_EN
 Text GLabel 9350 5950 2    50   Output ~ 0
 USB2_FAULT
-Text GLabel 9350 5750 2    50   Output ~ 0
-USB2_SINK
 Wire Wire Line
 	9350 5750 9150 5750
 Wire Wire Line
@@ -2428,4 +2424,8 @@ Wire Wire Line
 	3100 6025 4250 6025
 Wire Wire Line
 	4250 7625 6400 7625
+Text GLabel 9350 6150 2    50   Input ~ 0
+USB2_EN
+Text GLabel 9350 5750 2    50   Output ~ 0
+USB2_SINK
 $EndSCHEMATC
