@@ -146,7 +146,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 9025 3350 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 9025 3767 50  0001 C CNN "MPN"
 F 5 "MURATA" H 9025 3676 50  0001 C CNN "Manufacturer"
 	1    9025 3350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L?
@@ -161,7 +161,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 9025 3650 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 9025 4067 50  0001 C CNN "MPN"
 F 5 "MURATA" H 9025 3976 50  0001 C CNN "Manufacturer"
 	1    9025 3650
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L?
@@ -176,7 +176,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 9025 3950 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 9025 4367 50  0001 C CNN "MPN"
 F 5 "MURATA" H 9025 4276 50  0001 C CNN "Manufacturer"
 	1    9025 3950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L?
@@ -191,7 +191,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 9025 4250 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 9025 4667 50  0001 C CNN "MPN"
 F 5 "MURATA" H 9025 4576 50  0001 C CNN "Manufacturer"
 	1    9025 4250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text GLabel 2550 7525 0    50   Input ~ 0
 TP_I2C_SCL
@@ -453,7 +453,7 @@ F 3 "https://www.farnell.com/datasheets/2616945.pdf" H 9025 3050 50  0001 C CNN
 F 4 "NFP0QHB242HS2D" H 9025 3467 50  0001 C CNN "MPN"
 F 5 "MURATA" H 9025 3376 50  0001 C CNN "Manufacturer"
 	1    9025 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9325 3000 11525 3000
