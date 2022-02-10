@@ -376,18 +376,6 @@ NoConn ~ 7450 5050
 NoConn ~ 7450 5150
 NoConn ~ 7450 5250
 NoConn ~ 7450 5350
-Text Label 6450 5450 0    50   ~ 0
-CAM0_SDA
-Text Label 6450 5550 0    50   ~ 0
-CAM0_SCL
-Text Label 6450 5650 0    50   ~ 0
-CAM1_SDA
-Text Label 6450 5750 0    50   ~ 0
-CAM1_SCL
-Wire Wire Line
-	6450 5450 7450 5450
-Wire Wire Line
-	6450 5550 7450 5550
 Wire Wire Line
 	6450 5650 7450 5650
 Wire Wire Line
@@ -1438,4 +1426,16 @@ Text Label 6450 4350 0    50   ~ 0
 CSI0_CLK_FFC_N
 Text Label 6450 4450 0    50   ~ 0
 CSI0_CLK_FFC_P
+Wire Wire Line
+	6450 5450 7450 5450
+Wire Wire Line
+	6450 5550 7450 5550
+Text Label 6450 5450 0    50   ~ 0
+CCI0_I2C_SDA_3V3
+Text Label 6450 5550 0    50   ~ 0
+CCI0_I2C_SCL_3V3
+Text Label 6450 5650 0    50   ~ 0
+CCI1_I2C_SDA_3V3
+Text Label 6450 5750 0    50   ~ 0
+CCI1_I2C_SCL_3V3
 $EndSCHEMATC

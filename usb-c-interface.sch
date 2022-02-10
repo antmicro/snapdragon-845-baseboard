@@ -1382,10 +1382,6 @@ F 3 "" H 6475 3900 50  0001 C CNN
 	1    6475 3900
 	1    0    0    -1  
 $EndComp
-Text Label 6725 3500 2    50   ~ 0
-USB1_CC1
-Text Label 6725 3600 2    50   ~ 0
-USB1_CC2
 Wire Wire Line
 	6725 3600 6875 3600
 Wire Wire Line
@@ -2425,5 +2421,9 @@ USB1_SBU_P
 Text Label 9400 3225 0    50   ~ 0
 USB1_SBU_P
 Text Label 9400 3325 0    50   ~ 0
-USB1_SBU_P
+USB1_SBU_N
+Text GLabel 6725 3500 0    50   BiDi ~ 0
+USB_CC1
+Text GLabel 6725 3600 0    50   BiDi ~ 0
+USB_CC2
 $EndSCHEMATC
