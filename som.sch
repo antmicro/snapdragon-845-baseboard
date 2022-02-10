@@ -1707,9 +1707,9 @@ Text GLabel 10250 8200 2    50   Input ~ 0
 DBG_RXD
 Text GLabel 10250 8300 2    50   Output ~ 0
 DBG_TXD
-Text GLabel 10250 8400 2    50   Input ~ 0
+Text GLabel 10250 8400 2    50   BiDi ~ 0
 USB_CC2
-Text GLabel 10250 8500 2    50   Input ~ 0
+Text GLabel 10250 8500 2    50   BiDi ~ 0
 USB_CC1
 Text GLabel 10250 8700 2    50   Input ~ 0
 HOME_KEY

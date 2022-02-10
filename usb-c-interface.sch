@@ -1360,8 +1360,6 @@ F 6 "100n" V 9650 3125 50  0000 C CNN "Val"
 $EndComp
 Text Label 10950 2225 2    50   ~ 0
 USB1_SBU2
-Text Label 10950 2575 2    50   ~ 0
-USB1_CC2
 Text GLabel 10575 2325 2    50   BiDi ~ 0
 USB1_D_N
 Text GLabel 10575 2425 2    50   BiDi ~ 0
@@ -2179,7 +2177,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 2575 5725 2575
 Wire Wire Line
-	5275 2225 7600 2225
+	5675 2225 7600 2225
 Wire Wire Line
 	5675 2425 7600 2425
 Wire Wire Line
@@ -2218,8 +2216,6 @@ Wire Wire Line
 	6350 2825 5900 2825
 Text Label 5250 2575 0    50   ~ 0
 USB1_SBU1
-Text Label 5275 2225 0    50   ~ 0
-USB1_CC1
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C64
 U 1 1 61AEA0E1
@@ -2260,12 +2256,6 @@ Wire Wire Line
 	8600 2425 10575 2425
 Wire Wire Line
 	8600 2225 10950 2225
-Wire Wire Line
-	10950 2575 10525 2575
-Wire Wire Line
-	10525 2575 10525 2525
-Wire Wire Line
-	10525 2525 8600 2525
 Wire Wire Line
 	9550 2725 8600 2725
 Wire Wire Line
@@ -2428,4 +2418,10 @@ Text GLabel 9350 6150 2    50   Input ~ 0
 USB2_EN
 Text GLabel 9350 5750 2    50   Output ~ 0
 USB2_SINK
+Text GLabel 10575 2525 2    50   BiDi ~ 0
+USB_CC2
+Text GLabel 5675 2225 0    50   BiDi ~ 0
+USB_CC1
+Wire Wire Line
+	8600 2525 10575 2525
 $EndSCHEMATC
