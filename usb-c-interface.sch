@@ -1359,7 +1359,7 @@ F 6 "100n" V 9650 3125 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 Text Label 10950 2225 2    50   ~ 0
-USB1_SBU2
+USB1_SBU_P
 Text GLabel 10575 2325 2    50   BiDi ~ 0
 USB1_D_N
 Text GLabel 10575 2425 2    50   BiDi ~ 0
@@ -1453,8 +1453,6 @@ Wire Wire Line
 Connection ~ 9950 3600
 Wire Wire Line
 	10050 3600 10050 3775
-Text Label 9400 3325 0    50   ~ 0
-USB_SBU2
 Wire Wire Line
 	9400 3325 10150 3325
 Wire Wire Line
@@ -1625,11 +1623,7 @@ Wire Wire Line
 Wire Wire Line
 	4175 1575 3900 1575
 Text Label 4650 2325 2    50   ~ 0
-USB1_SBU1
-Text Label 4650 2725 2    50   ~ 0
-USB1_SBU2
-Wire Wire Line
-	4650 2725 4200 2725
+USB1_SBU_N
 Wire Wire Line
 	4650 2325 4200 2325
 Wire Wire Line
@@ -1673,10 +1667,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 1350 3900 1575
 Connection ~ 3900 1575
-Text Label 3050 2425 2    50   ~ 0
-USB_SBU2_1
-Text Label 3050 2625 2    50   ~ 0
-USB_SBU1_2
+Text Label 3150 2425 2    50   ~ 0
+USB_SBU_NP_N
+Text Label 3150 2625 2    50   ~ 0
+USB_SBU_NP_P
 Text GLabel 2475 2025 0    50   Input ~ 0
 3V3_SYS
 $Comp
@@ -2215,7 +2209,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 2825 5900 2825
 Text Label 5250 2575 0    50   ~ 0
-USB1_SBU1
+USB1_SBU_N
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C64
 U 1 1 61AEA0E1
@@ -2316,8 +2310,6 @@ F 6 "100n" V 6450 2675 50  0000 C CNN "Val"
 	1    6500 2825
 	0    1    1    0   
 $EndComp
-Text Label 9400 3225 0    50   ~ 0
-USB_SBU1
 $Comp
 L sa800u-baseboard-hw:C_10u_0402 C?
 U 1 1 62A149E8
@@ -2424,4 +2416,14 @@ Text GLabel 5675 2225 0    50   BiDi ~ 0
 USB_CC1
 Wire Wire Line
 	8600 2525 10575 2525
+Text Notes 4100 2650 0    50   ~ 0
+Note:\nSBU ending with N/P \nto enable routing with \ndifferential tools
+Wire Wire Line
+	4650 2725 4200 2725
+Text Label 4650 2725 2    50   ~ 0
+USB1_SBU_P
+Text Label 9400 3225 0    50   ~ 0
+USB1_SBU_P
+Text Label 9400 3325 0    50   ~ 0
+USB1_SBU_P
 $EndSCHEMATC
