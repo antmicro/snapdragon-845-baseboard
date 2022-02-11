@@ -2291,46 +2291,6 @@ Wire Wire Line
 	9625 9475 10425 9475
 Wire Wire Line
 	9625 9575 10325 9575
-Text Label 3000 9950 2    50   ~ 0
-USB2C_TX2_N
-Text Label 3000 9850 2    50   ~ 0
-USB2C_TX2_P
-Text Label 3000 10250 2    50   ~ 0
-USB2C_RX2_N
-Text Label 3000 10150 2    50   ~ 0
-USB2C_RX2_P
-Wire Wire Line
-	2450 9950 3000 9950
-Wire Wire Line
-	2450 9850 3000 9850
-Wire Wire Line
-	2450 10250 3000 10250
-Wire Wire Line
-	2450 10150 3000 10150
-Text Label 3000 9150 2    50   ~ 0
-USB2C_TX1_N
-Text Label 3000 9050 2    50   ~ 0
-USB2C_TX1_P
-Text Label 3000 9450 2    50   ~ 0
-USB2C_RX1_N
-Text Label 3000 9350 2    50   ~ 0
-USB2C_RX1_P
-Wire Wire Line
-	2450 9150 3000 9150
-Wire Wire Line
-	2450 9050 3000 9050
-Wire Wire Line
-	2450 9450 3000 9450
-Wire Wire Line
-	2450 9350 3000 9350
-Text GLabel 1150 9550 0    50   Input ~ 0
-USB2_SS_RX_P
-Text GLabel 1150 9650 0    50   Input ~ 0
-USB2_SS_RX_N
-Text GLabel 1150 9250 0    50   Output ~ 0
-USB2_SS_TX_P
-Text GLabel 1150 9350 0    50   Output ~ 0
-USB2_SS_TX_N
 Wire Wire Line
 	13800 8000 14125 8000
 Wire Wire Line
@@ -2421,4 +2381,107 @@ Wire Wire Line
 Connection ~ 2875 2075
 Wire Wire Line
 	2875 2075 3450 2075
+Text Label 3000 10250 2    50   ~ 0
+USB2C_RX2_N
+Text Label 3000 10150 2    50   ~ 0
+USB2C_RX2_P
+Wire Wire Line
+	2450 10250 3000 10250
+Wire Wire Line
+	2450 10150 3000 10150
+Wire Wire Line
+	2450 9850 3000 9850
+Wire Wire Line
+	2450 9950 3000 9950
+Text Label 3000 9850 2    50   ~ 0
+USB2C_TX2_P
+Text Label 3000 9950 2    50   ~ 0
+USB2C_TX2_N
+Wire Wire Line
+	2450 9050 3000 9050
+Wire Wire Line
+	2450 9150 3000 9150
+Text Label 3000 9050 2    50   ~ 0
+USB2C_TX1_P
+Text Label 3000 9150 2    50   ~ 0
+USB2C_TX1_N
+Wire Wire Line
+	2450 9350 3000 9350
+Wire Wire Line
+	2450 9450 3000 9450
+Text Label 3000 9350 2    50   ~ 0
+USB2C_RX1_P
+Text Label 3000 9450 2    50   ~ 0
+USB2C_RX1_N
+Text GLabel 1150 9350 0    50   Output ~ 0
+USB2_SS_TX_N
+Text GLabel 1150 9250 0    50   Output ~ 0
+USB2_SS_TX_P
+$Comp
+L sa800u-baseboard-hw:C_47u_0603 C?
+U 1 1 62A1CDB5
+P 6000 7100
+AR Path="/628CDA4A/62A1CDB5" Ref="C?"  Part="1" 
+AR Path="/61A2F307/62A1CDB5" Ref="C63"  Part="1" 
+F 0 "C63" H 6115 7145 60  0000 L CNN
+F 1 "C_47u_0603" H 6000 6950 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 6200 7300 60  0001 L CNN
+F 3 "" H 6000 7100 50  0001 C CNN
+F 4 "MURATA" H 6200 7500 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 6200 7400 60  0001 L CNN "MPN"
+F 6 "47u" H 6115 7047 50  0000 L CNN "Val"
+	1    6000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:C_47u_0603 C?
+U 1 1 62A1CDBE
+P 6400 7100
+AR Path="/628CDA4A/62A1CDBE" Ref="C?"  Part="1" 
+AR Path="/61A2F307/62A1CDBE" Ref="C68"  Part="1" 
+F 0 "C68" H 6515 7145 60  0000 L CNN
+F 1 "C_47u_0603" H 6400 6950 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0603-cap" H 6600 7300 60  0001 L CNN
+F 3 "" H 6400 7100 50  0001 C CNN
+F 4 "MURATA" H 6600 7500 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 6600 7400 60  0001 L CNN "MPN"
+F 6 "47u" H 6515 7047 50  0000 L CNN "Val"
+	1    6400 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6900 6000 6950
+Wire Wire Line
+	5600 6900 6000 6900
+Wire Wire Line
+	6000 6900 6400 6900
+Wire Wire Line
+	6400 6900 6400 6950
+Connection ~ 6000 6900
+Wire Wire Line
+	6400 7250 6400 7300
+Wire Wire Line
+	6400 7300 6000 7300
+Wire Wire Line
+	6000 7300 6000 7250
+$Comp
+L sa800u-baseboard-hw:GND #PWR0248
+U 1 1 62A1CDCC
+P 6400 7300
+AR Path="/61A2F307/62A1CDCC" Ref="#PWR0248"  Part="1" 
+AR Path="/628CDA4A/62A1CDCC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0248" H 6400 7050 50  0001 C CNN
+F 1 "GND" H 6405 7127 50  0000 C CNN
+F 2 "" H 6400 7300 50  0001 C CNN
+F 3 "" H 6400 7300 50  0001 C CNN
+	1    6400 7300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 7300
+Text Label 5600 6900 0    50   ~ 0
+USB2_5V
+Text GLabel 1150 9650 0    50   Input ~ 0
+USB2_SS_RX_N
+Text GLabel 1150 9550 0    50   Input ~ 0
+USB2_SS_RX_P
 $EndSCHEMATC
