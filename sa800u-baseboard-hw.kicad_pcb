@@ -2680,12 +2680,12 @@
       (net 404 USB_CC2))
     (pad 1_143 smd rect (at 15.25 7.05 180) (size 0.33 1.6) (layers F.Cu F.Paste F.Mask)
       (net 554 "Net-(U10-Pad1_143)"))
-    (model ${ANT3DMDL}/FX10A-168S-SV-21---3DModel-STEP-1.STEP
+    (model ${KIPRJMOD}/lib/3d-models/FX10A-168S-SV-21---3DModel-STEP-1.STEP
       (offset (xyz 36.49 -6.25 0.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model ${ANT3DMDL}/FX10A-168S-SV-21---3DModel-STEP-1.STEP
+    (model ${KIPRJMOD}/lib/3d-models/FX10A-168S-SV-21---3DModel-STEP-1.STEP
       (offset (xyz 34.49 -35.25 0.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
