@@ -2484,4 +2484,122 @@ Text GLabel 1150 9650 0    50   Input ~ 0
 USB2_SS_RX_N
 Text GLabel 1150 9550 0    50   Input ~ 0
 USB2_SS_RX_P
+Wire Wire Line
+	9175 -1675 9175 -1725
+Wire Wire Line
+	8875 -1725 8875 -1550
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 6217AF63
+P 8875 -1550
+AR Path="/61A60486/6217AF63" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/6217AF63" Ref="#PWR?"  Part="1" 
+AR Path="/61A2F307/6217AF63" Ref="#PWR0257"  Part="1" 
+F 0 "#PWR0257" H 8875 -1800 50  0001 C CNN
+F 1 "GND" H 8880 -1723 50  0000 C CNN
+F 2 "" H 8875 -1550 50  0001 C CNN
+F 3 "" H 8875 -1550 50  0001 C CNN
+	1    8875 -1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 -1850 9275 -1850
+Wire Wire Line
+	9275 -1850 9275 -1675
+Wire Wire Line
+	9125 -1950 9375 -1950
+Wire Wire Line
+	9375 -1950 9375 -1675
+Wire Wire Line
+	9475 -1675 9475 -2125
+Wire Wire Line
+	9575 -1675 9575 -2225
+Wire Wire Line
+	8875 -1725 9175 -1725
+$Comp
+L sa800u-baseboard-hw:PUSB3F96X_PASS D?
+U 1 1 6217AF74
+P 9375 -1475
+AR Path="/6197686D/6217AF74" Ref="D?"  Part="1" 
+AR Path="/61A2F307/6217AF74" Ref="D12"  Part="1" 
+F 0 "D12" V 9858 -1475 60  0000 C CNN
+F 1 "PUSB3F96X_PASS" V 9964 -1475 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PUSB3F96X" H 9575 -2025 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 9375 -1475 60  0001 C CNN
+F 4 "Nexperia" H 9575 -2125 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 9575 -2125 50  0001 C CNN "MPN"
+	1    9375 -1475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7675 -1725 7675 -1775
+Wire Wire Line
+	7375 -1775 7375 -1600
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 621C0750
+P 7375 -1600
+AR Path="/61A60486/621C0750" Ref="#PWR?"  Part="1" 
+AR Path="/61C01D88/621C0750" Ref="#PWR?"  Part="1" 
+AR Path="/61A2F307/621C0750" Ref="#PWR0265"  Part="1" 
+F 0 "#PWR0265" H 7375 -1850 50  0001 C CNN
+F 1 "GND" H 7380 -1773 50  0000 C CNN
+F 2 "" H 7375 -1600 50  0001 C CNN
+F 3 "" H 7375 -1600 50  0001 C CNN
+	1    7375 -1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7625 -1900 7775 -1900
+Wire Wire Line
+	7775 -1900 7775 -1725
+Wire Wire Line
+	7625 -2000 7875 -2000
+Wire Wire Line
+	7875 -2000 7875 -1725
+Wire Wire Line
+	7975 -1725 7975 -2175
+Wire Wire Line
+	7625 -2175 7975 -2175
+Wire Wire Line
+	8075 -1725 8075 -2275
+Wire Wire Line
+	7625 -2275 8075 -2275
+Wire Wire Line
+	7375 -1775 7675 -1775
+$Comp
+L sa800u-baseboard-hw:PUSB3F96X_PASS D?
+U 1 1 621C0761
+P 7875 -1525
+AR Path="/6197686D/621C0761" Ref="D?"  Part="1" 
+AR Path="/61A2F307/621C0761" Ref="D2"  Part="1" 
+F 0 "D2" V 8358 -1525 60  0000 C CNN
+F 1 "PUSB3F96X_PASS" V 8464 -1525 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PUSB3F96X" H 8075 -2075 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 7875 -1525 60  0001 C CNN
+F 4 "Nexperia" H 8075 -2175 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 8075 -2175 50  0001 C CNN "MPN"
+	1    7875 -1525
+	0    1    1    0   
+$EndComp
+Text Label 7625 -2000 2    50   ~ 0
+USB1C_TX0_C_P
+Text Label 7625 -1900 2    50   ~ 0
+USB1C_TX0_C_N
+Text Label 9125 -2225 2    50   ~ 0
+USB1C_RX1_C_N
+Text Label 9125 -2125 2    50   ~ 0
+USB1C_RX1_C_P
+Text Label 7625 -2275 2    50   ~ 0
+USB1C_RX0_C_P
+Text Label 9125 -1950 2    50   ~ 0
+USB1C_TX1_C_N
+Text Label 9125 -1850 2    50   ~ 0
+USB1C_TX1_C_P
+Text Label 7625 -2175 2    50   ~ 0
+USB1C_RX0_C_N
+Wire Wire Line
+	9125 -2225 9575 -2225
+Wire Wire Line
+	9125 -2125 9475 -2125
 $EndSCHEMATC
