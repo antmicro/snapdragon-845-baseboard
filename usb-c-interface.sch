@@ -2381,41 +2381,35 @@ Wire Wire Line
 Connection ~ 2875 2075
 Wire Wire Line
 	2875 2075 3450 2075
-Text Label 3000 10250 2    50   ~ 0
+Text Label 3000 9950 2    50   ~ 0
 USB2C_RX2_N
-Text Label 3000 10150 2    50   ~ 0
+Text Label 3000 9850 2    50   ~ 0
 USB2C_RX2_P
 Wire Wire Line
-	2450 10250 3000 10250
-Wire Wire Line
-	2450 10150 3000 10150
+	2450 9950 3000 9950
 Wire Wire Line
 	2450 9850 3000 9850
 Wire Wire Line
-	2450 9950 3000 9950
-Text Label 3000 9850 2    50   ~ 0
-USB2C_TX2_P
-Text Label 3000 9950 2    50   ~ 0
-USB2C_TX2_N
-Wire Wire Line
-	2450 9050 3000 9050
-Wire Wire Line
-	2450 9150 3000 9150
-Text Label 3000 9050 2    50   ~ 0
-USB2C_TX1_P
-Text Label 3000 9150 2    50   ~ 0
-USB2C_TX1_N
+	2450 10250 3000 10250
 Wire Wire Line
 	2450 9350 3000 9350
 Wire Wire Line
 	2450 9450 3000 9450
 Text Label 3000 9350 2    50   ~ 0
-USB2C_RX1_P
+USB2C_TX1_P
 Text Label 3000 9450 2    50   ~ 0
+USB2C_TX1_N
+Wire Wire Line
+	2450 9050 3000 9050
+Wire Wire Line
+	2450 9150 3000 9150
+Text Label 3000 9050 2    50   ~ 0
+USB2C_RX1_P
+Text Label 3000 9150 2    50   ~ 0
 USB2C_RX1_N
-Text GLabel 1150 9350 0    50   Output ~ 0
+Text GLabel 1150 9650 0    50   Output ~ 0
 USB2_SS_TX_N
-Text GLabel 1150 9250 0    50   Output ~ 0
+Text GLabel 1150 9550 0    50   Output ~ 0
 USB2_SS_TX_P
 $Comp
 L sa800u-baseboard-hw:C_47u_0603 C?
@@ -2480,9 +2474,9 @@ $EndComp
 Connection ~ 6400 7300
 Text Label 5600 6900 0    50   ~ 0
 USB2_5V
-Text GLabel 1150 9650 0    50   Input ~ 0
+Text GLabel 1150 9350 0    50   Input ~ 0
 USB2_SS_RX_N
-Text GLabel 1150 9550 0    50   Input ~ 0
+Text GLabel 1150 9250 0    50   Input ~ 0
 USB2_SS_RX_P
 Wire Wire Line
 	9175 -1675 9175 -1725
@@ -2602,4 +2596,10 @@ Wire Wire Line
 	9125 -2225 9575 -2225
 Wire Wire Line
 	9125 -2125 9475 -2125
+Text Label 3000 10250 2    50   ~ 0
+USB2C_TX2_N
+Text Label 3000 10150 2    50   ~ 0
+USB2C_TX2_P
+Wire Wire Line
+	2450 10150 3000 10150
 $EndSCHEMATC
