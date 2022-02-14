@@ -1399,8 +1399,6 @@ Wire Wire Line
 Wire Wire Line
 	6775 3225 7175 3225
 Wire Wire Line
-	10325 9575 10325 9750
-Wire Wire Line
 	10225 9300 10525 9300
 Wire Wire Line
 	10225 9200 10625 9200
@@ -1412,8 +1410,6 @@ Text GLabel 10300 2025 2    50   Input ~ 0
 USB1_SS_RX0_N
 Text GLabel 10300 1925 2    50   Input ~ 0
 USB1_SS_RX0_P
-Wire Wire Line
-	10425 9475 10425 9750
 Wire Wire Line
 	7400 2125 7400 1475
 Wire Wire Line
@@ -1435,24 +1431,13 @@ F 3 "" H 9550 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 3600 9950 3600
+	10050 3775 10050 3325
 Wire Wire Line
-	9950 3600 9950 3775
+	10150 3775 10150 3225
 Wire Wire Line
-	10150 3775 10150 3325
+	9500 3325 10050 3325
 Wire Wire Line
-	10250 3775 10250 3225
-Text GLabel 9800 3600 0    50   Input ~ 0
-USB_VBUS
-Wire Wire Line
-	9950 3600 10050 3600
-Connection ~ 9950 3600
-Wire Wire Line
-	10050 3600 10050 3775
-Wire Wire Line
-	9400 3325 10150 3325
-Wire Wire Line
-	9400 3225 10250 3225
+	9300 3225 10150 3225
 Text GLabel 4100 2250 2    50   Input ~ 0
 VREG_S4A_1V8
 Text GLabel 4100 2650 2    50   Input ~ 0
@@ -2285,12 +2270,6 @@ Wire Wire Line
 	10625 9200 10625 9750
 Text Label 9625 9475 0    50   ~ 0
 USB2_CC1
-Text Label 9625 9575 0    50   ~ 0
-USB2_CC2
-Wire Wire Line
-	9625 9475 10425 9475
-Wire Wire Line
-	9625 9575 10325 9575
 Wire Wire Line
 	13800 8000 14125 8000
 Wire Wire Line
@@ -2337,9 +2316,9 @@ Wire Wire Line
 	4550 3050 3850 3050
 Text Label 4550 3050 2    50   ~ 0
 USB1_SBU_P
-Text Label 9400 3225 0    50   ~ 0
+Text Label 9300 3225 0    50   ~ 0
 USB1_SBU_P
-Text Label 9400 3325 0    50   ~ 0
+Text Label 9500 3325 0    50   ~ 0
 USB1_SBU_N
 Text GLabel 6725 3500 0    50   BiDi ~ 0
 USB_CC1
@@ -2602,4 +2581,6 @@ Text Label 3000 10150 2    50   ~ 0
 USB2C_TX2_P
 Wire Wire Line
 	2450 10150 3000 10150
+NoConn ~ 10325 9750
+NoConn ~ 10425 9750
 $EndSCHEMATC
