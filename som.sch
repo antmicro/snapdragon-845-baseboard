@@ -2371,10 +2371,6 @@ NoConn ~ 8100 4200
 NoConn ~ 8100 4300
 NoConn ~ 8100 4400
 NoConn ~ 8100 4500
-NoConn ~ 8100 4600
-NoConn ~ 8100 4700
-NoConn ~ 8100 5000
-NoConn ~ 8100 5100
 Wire Wire Line
 	4150 8925 4525 8925
 Text GLabel 10250 5200 2    50   Output ~ 0
