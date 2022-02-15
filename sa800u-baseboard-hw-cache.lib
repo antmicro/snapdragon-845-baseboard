@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroRectangularConnectorsHeadersMalePins_BM04B-SRSS-TB-LF-SN
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_BM04B-SRSS-TB-LF-SN J 0 40 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_BM04B-SRSS-TB-LF-SN" 0 -150 50 H V C CNN
+F2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" 0 -250 50 H I C CNN
+F3 "" -450 -300 50 H I C CNN
+F4 "BM04B-SRSS-TB(LF)(SN) " -100 -350 50 H I L CNN "MPN"
+F5 "JST" -100 -450 50 H I L CNN "Manufacturer"
+DRAW
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 155 0 145 1 1 6 N
+S -50 255 0 245 1 1 6 N
+S -50 300 50 -100 1 1 10 f
+X Pin_1 1 -200 250 150 R 50 50 1 1 P
+X Pin_2 2 -200 150 150 R 50 50 1 1 P
+X Pin_3 3 -200 50 150 R 50 50 1 1 P
+X Pin_4 4 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0402_R_13k7_0402
 #
 DEF antmicroResistors0402_R_13k7_0402 R 0 0 Y Y 1 F N
@@ -15,6 +37,39 @@ DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
 X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTransistorsFETsMOSFETsSingle_BSS84
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_BSS84 Q 0 0 Y Y 1 F N
+F0 "Q" -64 201 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_BSS84" 186 0 60 V V C CNN
+F2 "antmicro-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" 200 300 60 H I L CNN
+F4 "BSS84" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -8 20 -8 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 60 20 20 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X D 2 0 200 100 D 50 50 1 1 B
+X S 3 0 -200 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -1502,28 +1557,6 @@ X ~ 1 750 -200 150 L 50 50 1 1 P
 X ~ 2 -50 -200 150 R 50 50 1 1 P
 X ~ 3 -50 0 150 R 50 50 1 1 P
 X ~ 4 -50 -400 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_MC-HVT1-S04-G
-#
-DEF sa800u-baseboard-hw_MC-HVT1-S04-G J 0 40 Y Y 1 F N
-F0 "J" -200 100 50 H V L CNN
-F1 "sa800u-baseboard-hw_MC-HVT1-S04-G" 100 -100 50 H V C CNN
-F2 "sa800u-baseboard-hw-footprints:PinHeader_1x4_P1.27mm_Drill.7mm" 200 300 60 H I L CNN
-F3 "" 200 400 60 H I L CNN
-F4 "MC-HVT1-S04-G" 200 500 60 H I L CNN "MPN"
-F5 "Multicomp" 200 600 60 H I L CNN "Manufacturer"
-DRAW
-S -50 50 350 -50 0 1 0 f
-S -10 5 10 -15 1 1 0 F
-S 90 5 110 -15 1 1 0 F
-S 190 5 210 -15 1 1 0 F
-S 290 5 310 -15 1 1 0 F
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 100 150 100 D 50 50 1 1 P
-X ~ 3 200 150 100 D 50 50 1 1 P
-X ~ 4 300 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
