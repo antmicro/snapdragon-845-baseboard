@@ -1391,13 +1391,7 @@ Wire Wire Line
 Wire Wire Line
 	6975 3500 6975 3775
 Wire Wire Line
-	7075 3775 7075 3325
-Wire Wire Line
-	6775 3325 7075 3325
-Wire Wire Line
-	7175 3775 7175 3225
-Wire Wire Line
-	6775 3225 7175 3225
+	7175 3775 7175 3300
 Wire Wire Line
 	10225 9300 10525 9300
 Wire Wire Line
@@ -2218,9 +2212,9 @@ Text GLabel 5675 2425 0    50   BiDi ~ 0
 USB1_D_N
 Text GLabel 5675 2325 0    50   BiDi ~ 0
 USB1_D_P
-Text GLabel 6775 3225 0    50   BiDi ~ 0
+Text GLabel 6725 3400 0    50   BiDi ~ 0
 USB1_D_N
-Text GLabel 6775 3325 0    50   BiDi ~ 0
+Text GLabel 6725 3500 0    50   BiDi ~ 0
 USB1_D_P
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C67
@@ -2320,9 +2314,9 @@ Text Label 9300 3225 0    50   ~ 0
 USB1_SBU_P
 Text Label 9500 3325 0    50   ~ 0
 USB1_SBU_N
-Text GLabel 6725 3500 0    50   BiDi ~ 0
-USB_CC1
 Text GLabel 6725 3600 0    50   BiDi ~ 0
+USB_CC1
+Text GLabel 6725 3300 0    50   BiDi ~ 0
 USB_CC2
 $Comp
 L sa800u-baseboard-hw:NX3DV42GU U6
@@ -2583,4 +2577,10 @@ Wire Wire Line
 	2450 10150 3000 10150
 NoConn ~ 10325 9750
 NoConn ~ 10425 9750
+Wire Wire Line
+	6725 3400 7075 3400
+Wire Wire Line
+	7075 3400 7075 3775
+Wire Wire Line
+	6725 3300 7175 3300
 $EndSCHEMATC
