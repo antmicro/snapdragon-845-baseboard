@@ -2905,8 +2905,6 @@ F 6 "10u/25V" H 11811 3022 50  0000 R CNN "Val"
 $EndComp
 Text Label 11100 2900 0    50   ~ 0
 5V_DC_DC_ENABLE
-Text GLabel 11925 8800 0    50   Input ~ 0
-VDD
 Wire Wire Line
 	14625 8800 15175 8800
 Wire Wire Line
@@ -4630,4 +4628,6 @@ Text Label 8725 3725 0    50   ~ 0
 BYPASS_EN
 Text GLabel 8700 3375 0    50   Input ~ 0
 VDD
+Text GLabel 11925 8800 0    50   Input ~ 0
+5V_SYS
 $EndSCHEMATC
