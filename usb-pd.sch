@@ -473,41 +473,25 @@ F 3 "" H 7350 5200 50  0001 C CNN
 	1    7350 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 4000 0    50   BiDi ~ 0
-STUSB4500_SDA
-Text GLabel 6350 3900 0    50   Input ~ 0
-STUSB4500_SCL
 Wire Wire Line
 	6350 3900 6700 3900
 Wire Wire Line
 	6350 4000 6700 4000
-Text GLabel 6825 7900 0    50   Input ~ 0
-STUSB4500_SDA
-Text GLabel 6825 7800 0    50   Input ~ 0
-STUSB4500_SCL
-Text GLabel 8350 3700 2    50   Output ~ 0
-STUSB4500_ALERT
 Wire Wire Line
 	8000 3700 8350 3700
-Text GLabel 6825 8000 0    50   Input ~ 0
+Text GLabel 5725 7500 0    50   Output ~ 0
 STUSB4500_ALERT
 Wire Wire Line
 	8000 3800 8350 3800
-Text GLabel 8350 3800 2    50   UnSpc ~ 0
-STUSB4500_ATTACH
-Text GLabel 8350 3900 2    50   Output ~ 0
-STUSB4500_GPIO
 Wire Wire Line
 	8000 3900 8350 3900
-Text GLabel 8350 4000 2    50   Output ~ 0
-STUSB4500_AB_SIDE
 Wire Wire Line
 	8350 4000 8000 4000
-Text GLabel 6825 7700 0    50   Input ~ 0
+Text GLabel 5725 7800 0    50   Output ~ 0
 STUSB4500_ATTACH
-Text GLabel 6825 7600 0    50   Input ~ 0
+Text GLabel 5725 7700 0    50   Output ~ 0
 STUSB4500_GPIO
-Text GLabel 6825 7500 0    50   Input ~ 0
+Text GLabel 5725 7600 0    50   Output ~ 0
 STUSB4500_AB_SIDE
 Wire Wire Line
 	7025 7075 6875 7075
@@ -686,15 +670,13 @@ Connection ~ 7350 7075
 Wire Wire Line
 	7025 7500 7025 7425
 Wire Wire Line
-	6825 7500 7025 7500
-Wire Wire Line
 	7350 7600 7350 7425
 Wire Wire Line
-	6825 7600 7350 7600
+	6225 7600 7275 7600
 Wire Wire Line
 	7675 7700 7675 7425
 Wire Wire Line
-	6825 7700 7675 7700
+	6225 7700 7600 7700
 $Comp
 L sa800u-baseboard-hw:R_4k7_0402 R128
 U 1 1 62F55A66
@@ -709,61 +691,15 @@ F 6 "4k7" V 7947 7205 50  0000 R CNN "Val"
 	1    8000 7275
 	0    -1   -1   0   
 $EndComp
-$Comp
-L sa800u-baseboard-hw:R_4k7_0402 R129
-U 1 1 62F55A6F
-P 8325 7275
-F 0 "R129" V 8370 7205 60  0000 R CNN
-F 1 "R_4k7_0402" H 8325 7125 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8525 7475 60  0001 L CNN
-F 3 "" H 8325 7275 50  0001 C CNN
-F 4 "VISHAY" H 8525 7675 60  0001 L CNN "Manufacturer"
-F 5 "MCS04020C4701FE000" H 8525 7575 60  0001 L CNN "MPN"
-F 6 "4k7" V 8272 7205 50  0000 R CNN "Val"
-	1    8325 7275
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7675 7075 8000 7075
 Wire Wire Line
 	8000 7075 8000 7125
 Wire Wire Line
-	8000 7075 8325 7075
-Wire Wire Line
-	8325 7075 8325 7125
-Connection ~ 8000 7075
-$Comp
-L sa800u-baseboard-hw:R_4k7_0402 R130
-U 1 1 62F5B4FE
-P 8650 7275
-F 0 "R130" V 8695 7205 60  0000 R CNN
-F 1 "R_4k7_0402" H 8650 7125 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 8850 7475 60  0001 L CNN
-F 3 "" H 8650 7275 50  0001 C CNN
-F 4 "VISHAY" H 8850 7675 60  0001 L CNN "Manufacturer"
-F 5 "MCS04020C4701FE000" H 8850 7575 60  0001 L CNN "MPN"
-F 6 "4k7" V 8597 7205 50  0000 R CNN "Val"
-	1    8650 7275
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8325 7075 8650 7075
-Wire Wire Line
-	8650 7075 8650 7125
-Wire Wire Line
 	8000 7800 8000 7425
 Wire Wire Line
-	6825 7800 8000 7800
-Wire Wire Line
-	8325 7900 8325 7425
-Wire Wire Line
-	6825 7900 8325 7900
-Wire Wire Line
-	8650 8000 8650 7425
-Wire Wire Line
-	6825 8000 8650 8000
+	6225 7800 7925 7800
 Connection ~ 7675 7075
-Connection ~ 8325 7075
 Wire Wire Line
 	7150 2900 7150 3450
 Wire Wire Line
@@ -1033,4 +969,162 @@ Text GLabel 6875 7075 0    50   Input ~ 0
 VREG_S4A_1V8
 Text Label 5075 4700 0    50   ~ 0
 VREG_2V7
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP?
+U 1 1 620ECAFB
+P 6925 7400
+AR Path="/61B0DC30/620ECAFB" Ref="TP?"  Part="1" 
+AR Path="/61DF77CE/620ECAFB" Ref="TP75"  Part="1" 
+F 0 "TP75" H 6975 7447 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 6925 7300 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 7125 7600 60  0001 L CNN
+F 3 "" H 7125 7700 60  0001 L CNN
+	1    6925 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP?
+U 1 1 6211F056
+P 7275 7500
+AR Path="/61B0DC30/6211F056" Ref="TP?"  Part="1" 
+AR Path="/61DF77CE/6211F056" Ref="TP76"  Part="1" 
+F 0 "TP76" H 7325 7547 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 7275 7400 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 7475 7700 60  0001 L CNN
+F 3 "" H 7475 7800 60  0001 L CNN
+	1    7275 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP?
+U 1 1 62123DE3
+P 7600 7600
+AR Path="/61B0DC30/62123DE3" Ref="TP?"  Part="1" 
+AR Path="/61DF77CE/62123DE3" Ref="TP77"  Part="1" 
+F 0 "TP77" H 7650 7647 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 7600 7500 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 7800 7800 60  0001 L CNN
+F 3 "" H 7800 7900 60  0001 L CNN
+	1    7600 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP?
+U 1 1 6212893D
+P 7925 7700
+AR Path="/61B0DC30/6212893D" Ref="TP?"  Part="1" 
+AR Path="/61DF77CE/6212893D" Ref="TP78"  Part="1" 
+F 0 "TP78" H 7975 7747 50  0000 L CNN
+F 1 "TP_SMD_0_75MM" H 7925 7600 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 8125 7900 60  0001 L CNN
+F 3 "" H 8125 8000 60  0001 L CNN
+	1    7925 7700
+	-1   0    0    1   
+$EndComp
+Connection ~ 7925 7800
+Wire Wire Line
+	7925 7800 8000 7800
+Connection ~ 7600 7700
+Wire Wire Line
+	7600 7700 7675 7700
+Connection ~ 7275 7600
+Wire Wire Line
+	7275 7600 7350 7600
+Connection ~ 6925 7500
+Wire Wire Line
+	6925 7500 7025 7500
+Wire Wire Line
+	6225 7500 6925 7500
+$Comp
+L sa800u-baseboard-hw:R_0R_0402 R?
+U 1 1 62272ADE
+P 6075 7600
+AR Path="/61C01D88/62272ADE" Ref="R?"  Part="1" 
+AR Path="/61DF77CE/62272ADE" Ref="R162"  Part="1" 
+F 0 "R162" H 5800 7650 60  0000 C CNN
+F 1 "R_0R_0402" H 6075 7450 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6275 7800 60  0001 L CNN
+F 3 "" H 6075 7600 50  0001 C CNN
+F 4 "PANASONIC" H 6275 8000 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6275 7900 60  0001 L CNN "MPN"
+F 6 "0R" H 6250 7650 50  0000 C CNN "Val"
+	1    6075 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_0R_0402 R?
+U 1 1 6228B532
+P 6075 7500
+AR Path="/61C01D88/6228B532" Ref="R?"  Part="1" 
+AR Path="/61DF77CE/6228B532" Ref="R161"  Part="1" 
+F 0 "R161" H 5800 7550 60  0000 C CNN
+F 1 "R_0R_0402" H 6075 7350 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6275 7700 60  0001 L CNN
+F 3 "" H 6075 7500 50  0001 C CNN
+F 4 "PANASONIC" H 6275 7900 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6275 7800 60  0001 L CNN "MPN"
+F 6 "0R" H 6250 7550 50  0000 C CNN "Val"
+	1    6075 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_0R_0402 R?
+U 1 1 622914DD
+P 6075 7800
+AR Path="/61C01D88/622914DD" Ref="R?"  Part="1" 
+AR Path="/61DF77CE/622914DD" Ref="R164"  Part="1" 
+F 0 "R164" H 5800 7850 60  0000 C CNN
+F 1 "R_0R_0402" H 6075 7650 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6275 8000 60  0001 L CNN
+F 3 "" H 6075 7800 50  0001 C CNN
+F 4 "PANASONIC" H 6275 8200 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6275 8100 60  0001 L CNN "MPN"
+F 6 "0R" H 6250 7850 50  0000 C CNN "Val"
+	1    6075 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:R_0R_0402 R?
+U 1 1 622914E6
+P 6075 7700
+AR Path="/61C01D88/622914E6" Ref="R?"  Part="1" 
+AR Path="/61DF77CE/622914E6" Ref="R163"  Part="1" 
+F 0 "R163" H 5800 7750 60  0000 C CNN
+F 1 "R_0R_0402" H 6075 7550 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 6275 7900 60  0001 L CNN
+F 3 "" H 6075 7700 50  0001 C CNN
+F 4 "PANASONIC" H 6275 8100 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6275 8000 60  0001 L CNN "MPN"
+F 6 "0R" H 6250 7750 50  0000 C CNN "Val"
+	1    6075 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 7500 5725 7500
+Wire Wire Line
+	5925 7600 5725 7600
+Wire Wire Line
+	5925 7700 5725 7700
+Wire Wire Line
+	5925 7800 5725 7800
+Text Label 6375 7500 0    50   ~ 0
+ALERT
+Text Label 6375 7600 0    50   ~ 0
+AB_SIDE
+Text Label 6375 7700 0    50   ~ 0
+GPIO
+Text Label 6375 7800 0    50   ~ 0
+ATTACH
+Text Label 8350 3700 2    50   ~ 0
+ALERT
+Text Label 8350 4000 2    50   ~ 0
+AB_SIDE
+Text Label 8350 3900 2    50   ~ 0
+GPIO
+Text Label 8350 3800 2    50   ~ 0
+ATTACH
+Text GLabel 6350 3900 0    50   Output ~ 0
+I2C10_SCL
+Text GLabel 6350 4000 0    50   BiDi ~ 0
+I2C10_SDA
 $EndSCHEMATC
