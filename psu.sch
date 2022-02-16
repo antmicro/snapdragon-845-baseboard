@@ -4257,12 +4257,12 @@ F 5 "1053131202" H 550 425 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_13k7_0402 R160
+L sa800u-baseboard-hw:R_13k7_0402 R160
 U 1 1 624B25ED
 P 2800 5250
 F 0 "R160" V 2755 5320 60  0000 L CNN
 F 1 "R_13k7_0402" H 2800 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3000 5450 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 3000 5450 60  0001 L CNN
 F 3 "" H 2800 5250 50  0001 C CNN
 F 4 "Bourns" H 3000 5650 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 3000 5550 60  0001 L CNN "MPN"
@@ -4272,12 +4272,12 @@ F 6 "13k7" V 2853 5320 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 2800 5100
 $Comp
-L antmicroResistors0402:R_13k7_0402 R159
+L sa800u-baseboard-hw:R_13k7_0402 R159
 U 1 1 624CBB00
 P 2500 6300
 F 0 "R159" V 2455 6370 60  0000 L CNN
 F 1 "R_13k7_0402" H 2500 6150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2700 6500 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2700 6500 60  0001 L CNN
 F 3 "" H 2500 6300 50  0001 C CNN
 F 4 "Bourns" H 2700 6700 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 2700 6600 60  0001 L CNN "MPN"
@@ -4286,12 +4286,12 @@ F 6 "13k7" V 2553 6370 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_13k7_0402 R158
+L sa800u-baseboard-hw:R_13k7_0402 R158
 U 1 1 624DD267
 P 2200 7350
 F 0 "R158" V 2155 7420 60  0000 L CNN
 F 1 "R_13k7_0402" H 2200 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2400 7550 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2400 7550 60  0001 L CNN
 F 3 "" H 2200 7350 50  0001 C CNN
 F 4 "Bourns" H 2400 7750 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1372GLF" H 2400 7650 60  0001 L CNN "MPN"
@@ -4368,12 +4368,12 @@ F 5 "KINGBRIGHT" H 6960 6270 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS84 Q11
+L sa800u-baseboard-hw:BSS84 Q11
 U 1 1 63A0BBE7
 P 7200 5900
 F 0 "Q11" H 7308 5953 60  0000 L CNN
 F 1 "BSS84" H 7308 5847 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 7400 6100 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 7400 6100 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 7400 6200 60  0001 L CNN
 F 4 "BSS84" H 7400 6400 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7400 7000 60  0001 L CNN "Manufacturer"
@@ -4414,12 +4414,12 @@ Wire Wire Line
 Wire Wire Line
 	7200 5650 7200 5700
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS84 Q12
+L sa800u-baseboard-hw:BSS84 Q12
 U 1 1 63CAEF23
 P 7200 6875
 F 0 "Q12" H 7308 6928 60  0000 L CNN
 F 1 "BSS84" H 7308 6822 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 7400 7075 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 7400 7075 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 7400 7175 60  0001 L CNN
 F 4 "BSS84" H 7400 7375 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7400 7975 60  0001 L CNN "Manufacturer"
@@ -4460,12 +4460,12 @@ Wire Wire Line
 Wire Wire Line
 	7200 6625 7200 6675
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS84 Q13
+L sa800u-baseboard-hw:BSS84 Q13
 U 1 1 63CC2578
 P 7200 7775
 F 0 "Q13" H 7308 7828 60  0000 L CNN
 F 1 "BSS84" H 7308 7722 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 7400 7975 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 7400 7975 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 7400 8075 60  0001 L CNN
 F 4 "BSS84" H 7400 8275 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7400 8875 60  0001 L CNN "Manufacturer"
@@ -4577,12 +4577,12 @@ F 5 "KINGBRIGHT" H 9185 3995 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS84 Q14
+L sa800u-baseboard-hw:BSS84 Q14
 U 1 1 640855A5
 P 9425 3625
 F 0 "Q14" H 9533 3678 60  0000 L CNN
 F 1 "BSS84" H 9533 3572 60  0000 L CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9625 3825 60  0001 L CNN
+F 2 "sa800u-baseboard-hw-footprints:SOT-23-3" H 9625 3825 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 9625 3925 60  0001 L CNN
 F 4 "BSS84" H 9625 4125 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9625 4725 60  0001 L CNN "Manufacturer"
