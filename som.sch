@@ -2047,7 +2047,7 @@ F 6 "1k" H 15325 1315 50  0000 C CNN "Val"
 	1    15325 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 15625 1200 2    50   Input ~ 0
+Text GLabel 15625 3450 2    50   Input ~ 0
 PWRKEY
 Text GLabel 10225 5800 2    50   Output ~ 0
 CAM3_TRIGGER_IN
@@ -2055,13 +2055,13 @@ Wire Wire Line
 	15475 1200 15625 1200
 Wire Wire Line
 	15475 2350 15625 2350
-Text GLabel 15625 3450 2    50   Input ~ 0
+Text GLabel 15625 4550 2    50   Input ~ 0
 VOL_DOWN
 Text GLabel 15625 2350 2    50   Input ~ 0
 VOL_UP
-Text GLabel 15625 4550 2    50   Input ~ 0
+Text GLabel 15625 1200 2    50   Input ~ 0
 HOME_KEY
-Text Label 14875 1550 0    50   ~ 0
+Text Label 14875 3750 0    50   ~ 0
 PWRKEY_TVS
 Wire Wire Line
 	14875 1200 14875 1550
@@ -2069,11 +2069,11 @@ Text Label 14875 2650 0    50   ~ 0
 VOL_UP_TVS
 Wire Wire Line
 	14875 2350 14875 2650
-Text Label 14875 3750 0    50   ~ 0
+Text Label 14825 4850 0    50   ~ 0
 VOL_DOWN_TVS
 Wire Wire Line
 	14875 3450 14875 3750
-Text Label 14825 4850 0    50   ~ 0
+Text Label 14875 1550 0    50   ~ 0
 HOME_TVS
 Wire Wire Line
 	14825 4550 14825 4850
