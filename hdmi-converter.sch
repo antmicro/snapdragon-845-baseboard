@@ -246,10 +246,6 @@ F 3 "" H 2100 10900 50  0001 C CNN
 	1    2100 10900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9025 9725 0    50   Input ~ 0
-I2C4_SCL
-Text GLabel 9025 9825 0    50   BiDi ~ 0
-I2C4_SDA
 Text GLabel 4600 10575 0    50   Input ~ 0
 LT9611_RST
 $Comp
@@ -3061,10 +3057,6 @@ Wire Wire Line
 	14750 1425 14800 1425
 Wire Wire Line
 	14750 2725 14750 2825
-Text Label 11800 9725 2    50   ~ 0
-LT9611_SCL
-Text Label 11800 9825 2    50   ~ 0
-LT9611_SDA
 Wire Wire Line
 	11325 3375 11325 3425
 Wire Wire Line
@@ -3575,4 +3567,12 @@ F 5 "ON Semiconductor" H 7250 10675 60  0001 L CNN "Manufacturer"
 	1    7050 9575
 	0    -1   1    0   
 $EndComp
+Text GLabel 9025 9725 0    50   Input ~ 0
+I2C4_SCL
+Text GLabel 9025 9825 0    50   BiDi ~ 0
+I2C4_SDA
+Text Label 11800 9825 2    50   ~ 0
+LT9611_SDA
+Text Label 11800 9725 2    50   ~ 0
+LT9611_SCL
 $EndSCHEMATC
