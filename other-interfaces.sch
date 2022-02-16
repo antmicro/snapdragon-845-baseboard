@@ -239,53 +239,13 @@ F 3 "" H 3750 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3675 3750 3675
-Connection ~ 3950 3675
-Wire Wire Line
-	3950 3725 3950 3675
-Wire Wire Line
 	3750 3675 3750 3850
-Wire Wire Line
-	4050 3675 3950 3675
 Wire Wire Line
 	4050 3725 4050 3675
 Wire Wire Line
-	4875 3675 4675 3675
-Connection ~ 4875 3675
-Wire Wire Line
-	4875 3725 4875 3675
-Wire Wire Line
 	4675 3675 4675 3850
 Wire Wire Line
-	4975 3675 4875 3675
-Wire Wire Line
 	4975 3725 4975 3675
-$Comp
-L sa800u-baseboard-hw:TPD4E05U06_PASS D22
-U 1 1 61F22664
-P 5175 3925
-F 0 "D22" V 5658 3875 60  0000 C CNN
-F 1 "TPD4E05U06_PASS" V 5764 3875 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:TPD4E05U06_PASS" H 5175 3925 60  0001 C CNN
-F 3 "" H 5175 3925 60  0001 C CNN
-F 4 "Texas Instruments" H 5175 3925 50  0001 C CNN "Manufacturer"
-F 5 "TPD4E05U06DQAR" H 5175 3925 50  0001 C CNN "MPN"
-	1    5175 3925
-	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TPD4E05U06_PASS D21
-U 1 1 61F2105E
-P 4250 3925
-F 0 "D21" V 4733 3875 60  0000 C CNN
-F 1 "TPD4E05U06_PASS" V 4839 3875 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:TPD4E05U06_PASS" H 4250 3925 60  0001 C CNN
-F 3 "" H 4250 3925 60  0001 C CNN
-F 4 "Texas Instruments" H 4250 3925 50  0001 C CNN "Manufacturer"
-F 5 "TPD4E05U06DQAR" H 4250 3925 50  0001 C CNN "MPN"
-	1    4250 3925
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4150 2675 4150 3725
 Wire Wire Line
@@ -767,4 +727,40 @@ Text Label 5725 7050 0    50   ~ 0
 I2C10_SDA_3V3
 Wire Wire Line
 	5725 7050 6325 7050
+$Comp
+L sa800u-baseboard-hw:PUSB3F96X_PASS D?
+U 1 1 62106A90
+P 4250 3925
+AR Path="/6197686D/62106A90" Ref="D?"  Part="1" 
+AR Path="/61A2F307/62106A90" Ref="D?"  Part="1" 
+AR Path="/61C01D88/62106A90" Ref="D21"  Part="1" 
+F 0 "D21" V 4733 3925 60  0000 C CNN
+F 1 "PUSB3F96X_PASS" V 4839 3925 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PUSB3F96X" H 4450 3375 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 4250 3925 60  0001 C CNN
+F 4 "Nexperia" H 4450 3275 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 4450 3275 50  0001 C CNN "MPN"
+	1    4250 3925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3675 4050 3675
+$Comp
+L sa800u-baseboard-hw:PUSB3F96X_PASS D?
+U 1 1 6210EEFA
+P 5175 3925
+AR Path="/6197686D/6210EEFA" Ref="D?"  Part="1" 
+AR Path="/61A2F307/6210EEFA" Ref="D?"  Part="1" 
+AR Path="/61C01D88/6210EEFA" Ref="D22"  Part="1" 
+F 0 "D22" V 5658 3925 60  0000 C CNN
+F 1 "PUSB3F96X_PASS" V 5764 3925 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:PUSB3F96X" H 5375 3375 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 5175 3925 60  0001 C CNN
+F 4 "Nexperia" H 5375 3275 50  0001 C CNN "Manufacturer"
+F 5 "PUSB3F96X" H 5375 3275 50  0001 C CNN "MPN"
+	1    5175 3925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4675 3675 4975 3675
 $EndSCHEMATC
