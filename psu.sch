@@ -4551,14 +4551,14 @@ Text Label 6500 6000 0    50   ~ 0
 AUX_VALID
 Wire Wire Line
 	6900 6000 6500 6000
-Text Label 6475 6975 0    50   ~ 0
+Text Label 6500 7875 0    50   ~ 0
 POE_VALID
-Text Label 6350 7875 0    50   ~ 0
+Text Label 6350 6975 0    50   ~ 0
 USB_PD_VALID
 Wire Wire Line
-	6900 6975 6475 6975
+	6900 6975 6350 6975
 Wire Wire Line
-	6900 7875 6350 7875
+	6900 7875 6500 7875
 Wire Wire Line
 	5725 6200 5725 6250
 Wire Wire Line
