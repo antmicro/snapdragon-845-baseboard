@@ -208,17 +208,6 @@ Wire Wire Line
 	2650 2350 1950 2350
 Wire Wire Line
 	3650 2650 4350 2650
-$Comp
-L sa800u-baseboard-hw:GND #PWR0197
-U 1 1 61E7DBDA
-P 4200 4800
-F 0 "#PWR0197" H 4200 4550 50  0001 C CNN
-F 1 "GND" H 4205 4627 50  0000 C CNN
-F 2 "" H 4200 4800 50  0001 C CNN
-F 3 "" H 4200 4800 50  0001 C CNN
-	1    4200 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 4300 6450 4200
 Wire Wire Line
@@ -235,8 +224,6 @@ Wire Wire Line
 Connection ~ 6450 4400
 Wire Wire Line
 	6450 4400 6700 4400
-Text Notes 3775 4175 0    50   ~ 0
-This diode has Vrm (standoff voltage) = 24V\nCCx pins are rated for up to 22V. But identical\ndiode was used in reference and in dev board.
 $Comp
 L sa800u-baseboard-hw:C_1u_0402 C136
 U 1 1 61DF393A
@@ -795,8 +782,6 @@ F 6 "590R" H 10850 3825 50  0000 L CNN "Val"
 $EndComp
 Text GLabel 10500 2925 0    50   Input ~ 0
 5V_SYS
-Text Notes 9750 3325 0    50   ~ 0
-R   G   B\n50  30 30 [mA]\n2.1 2.9 2.9 [V]
 Wire Wire Line
 	10500 2600 7725 2600
 Wire Wire Line
@@ -894,39 +879,10 @@ F 3 "" H 3350 3450 50  0001 C CNN
 	1    3350 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:PUSB3F96X_PASS D?
-U 1 1 6298EA5C
-P 4650 4800
-AR Path="/6197686D/6298EA5C" Ref="D?"  Part="1" 
-AR Path="/61A2F307/6298EA5C" Ref="D?"  Part="1" 
-AR Path="/61DF77CE/6298EA5C" Ref="D23"  Part="1" 
-F 0 "D23" V 5133 4800 60  0000 C CNN
-F 1 "PUSB3F96X_PASS" V 5239 4800 60  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:PUSB3F96X" H 4850 4250 60  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" H 4650 4800 60  0001 C CNN
-F 4 "Nexperia" H 4850 4150 50  0001 C CNN "Manufacturer"
-F 5 "PUSB3F96X" H 4850 4150 50  0001 C CNN "MPN"
-	1    4650 4800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	4200 4550 4450 4550
+	4050 4400 4650 4400
 Wire Wire Line
-	4450 4550 4450 4600
-Wire Wire Line
-	4200 4550 4200 4800
-Connection ~ 4750 4400
-Wire Wire Line
-	4750 4400 6450 4400
-Wire Wire Line
-	4050 4400 4750 4400
-Wire Wire Line
-	4750 4400 4750 4600
-Wire Wire Line
-	4850 4300 4850 4600
-NoConn ~ 4550 4600
-NoConn ~ 4650 4600
+	4850 4300 4850 4750
 $Comp
 L sa800u-baseboard-hw:12401598E4_2A J12
 U 1 1 6220D088
@@ -1127,4 +1083,59 @@ Text GLabel 6350 3900 0    50   Output ~ 0
 I2C10_SCL
 Text GLabel 6350 4000 0    50   BiDi ~ 0
 I2C10_SDA
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 629F9470
+P 4850 5225
+F 0 "#PWR?" H 4850 4975 50  0001 C CNN
+F 1 "GND" H 4855 5052 50  0000 C CNN
+F 2 "" H 4850 5225 50  0001 C CNN
+F 3 "" H 4850 5225 50  0001 C CNN
+	1    4850 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:PESD18VF1BSFYL D?
+U 1 1 629F9478
+P 4850 4975
+F 0 "D?" V 4809 5078 60  0000 L CNN
+F 1 "PESD18VF1BSFYL" V 4915 5078 60  0000 L CNN
+F 2 "sa800u-baseboard-hw-footprints:RESC0603X26N" H 4850 4525 100 0001 L CNN
+F 3 "https://www.mouser.pl/datasheet/2/916/PESD18VF1BSF-1599696.pdf" H 5060 4825 100 0001 C CNN
+F 4 "nexperia" H 4850 4400 100 0001 L CNN "Manufacturer"
+F 5 "PESD18VF1BSFYL" H 4850 4650 100 0001 L CNN "MPN"
+	1    4850 4975
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62A0542C
+P 4650 5250
+F 0 "#PWR?" H 4650 5000 50  0001 C CNN
+F 1 "GND" H 4655 5077 50  0000 C CNN
+F 2 "" H 4650 5250 50  0001 C CNN
+F 3 "" H 4650 5250 50  0001 C CNN
+	1    4650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:PESD18VF1BSFYL D?
+U 1 1 62A05434
+P 4650 5000
+F 0 "D?" V 4609 4897 60  0000 R CNN
+F 1 "PESD18VF1BSFYL" V 4715 4897 60  0000 R CNN
+F 2 "sa800u-baseboard-hw-footprints:RESC0603X26N" H 4650 4550 100 0001 L CNN
+F 3 "https://www.mouser.pl/datasheet/2/916/PESD18VF1BSF-1599696.pdf" H 4860 4850 100 0001 C CNN
+F 4 "nexperia" H 4650 4425 100 0001 L CNN "Manufacturer"
+F 5 "PESD18VF1BSFYL" H 4650 4675 100 0001 L CNN "MPN"
+	1    4650 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 4775 4650 4400
+Connection ~ 4650 4400
+Wire Wire Line
+	4650 4400 6450 4400
+Text Notes 9750 3325 0    50   ~ 0
+R   G   B\n50  30 30 [mA]\n2.1 2.9 2.9 [V]
 $EndSCHEMATC
