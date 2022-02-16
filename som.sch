@@ -1833,8 +1833,6 @@ Wire Wire Line
 	13775 4550 13775 4750
 Wire Wire Line
 	13775 4750 13975 4750
-Wire Wire Line
-	14425 4550 14825 4550
 Connection ~ 14425 4550
 Wire Wire Line
 	14275 4850 14425 4850
@@ -1860,7 +1858,6 @@ F 3 "" H 13775 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13775 5000 13775 5150
-Connection ~ 14825 4550
 $Comp
 L sa800u-baseboard-hw:R_1k_0402 R73
 U 1 1 61E99588
@@ -1875,8 +1872,6 @@ F 6 "1k" H 15225 4665 50  0000 C CNN "Val"
 	1    15225 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14825 4550 15075 4550
 Wire Wire Line
 	15375 4550 15625 4550
 Wire Wire Line
@@ -1917,8 +1912,6 @@ F 3 "" H 13825 4000 50  0001 C CNN
 	1    13825 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14475 3450 14875 3450
 Connection ~ 14475 3450
 $Comp
 L sa800u-baseboard-hw:R_1k_0402 R76
@@ -1936,9 +1929,6 @@ F 6 "1k" H 15325 3565 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	15625 3450 15475 3450
-Wire Wire Line
-	15175 3450 14875 3450
-Connection ~ 14875 3450
 Wire Wire Line
 	14025 2650 13825 2650
 Wire Wire Line
@@ -1959,12 +1949,7 @@ Wire Wire Line
 	13825 2350 13825 2550
 Wire Wire Line
 	13825 2550 14025 2550
-Wire Wire Line
-	14475 2350 14875 2350
 Connection ~ 14475 2350
-Wire Wire Line
-	14875 2350 15175 2350
-Connection ~ 14875 2350
 $Comp
 L sa800u-baseboard-hw:R_1k_0402 R75
 U 1 1 622FD9DE
@@ -2061,22 +2046,10 @@ Text GLabel 15625 2350 2    50   Input ~ 0
 VOL_UP
 Text GLabel 15625 1200 2    50   Input ~ 0
 HOME_KEY
-Text Label 14875 3750 0    50   ~ 0
-PWRKEY_TVS
 Wire Wire Line
-	14875 1200 14875 1550
-Text Label 14875 2650 0    50   ~ 0
-VOL_UP_TVS
-Wire Wire Line
-	14875 2350 14875 2650
-Text Label 14825 4850 0    50   ~ 0
-VOL_DOWN_TVS
-Wire Wire Line
-	14875 3450 14875 3750
-Text Label 14875 1550 0    50   ~ 0
-HOME_TVS
-Wire Wire Line
-	14825 4550 14825 4850
+	14875 1200 14875 1250
+Text Label 14475 1200 0    50   ~ 0
+HOME_KEY_R
 Text GLabel 7575 3700 0    50   Output ~ 0
 USB2_EN
 Text GLabel 1975 6925 0    50   Input ~ 0
@@ -2957,48 +2930,129 @@ Wire Wire Line
 Connection ~ 12000 4400
 Text GLabel 7550 4800 0    50   BiDi ~ 0
 GPIO_124
-Text Label 11425 1400 0    50   ~ 0
-VOL_UP_TVS
-$Comp
-L sa800u-baseboard-hw:GND #PWR0144
-U 1 1 61F2FF9D
-P 12475 1900
-F 0 "#PWR0144" H 12475 1650 50  0001 C CNN
-F 1 "GND" H 12480 1727 50  0000 C CNN
-F 2 "" H 12475 1900 50  0001 C CNN
-F 3 "" H 12475 1900 50  0001 C CNN
-	1    12475 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12475 1850 12475 1900
-Wire Wire Line
-	13575 1500 12975 1500
-Text Label 13575 1500 2    50   ~ 0
-HOME_TVS
-Wire Wire Line
-	11925 1400 11425 1400
-Wire Wire Line
-	11425 1200 11925 1200
-Text Label 11425 1200 0    50   ~ 0
-PWRKEY_TVS
-$Comp
-L sa800u-baseboard-hw:RCLAMP2504N.TCT D14
-U 1 1 61D0B3AA
-P 12475 1400
-F 0 "D14" H 12475 2197 50  0000 C CNN
-F 1 "RCLAMP2504N.TCT" H 12475 2106 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:RCLAMP2504N.TCT" H 12475 1400 50  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/761/SEMTS05345_1-2575174.pdf" H 12475 1400 50  0001 C CNN
-F 4 "RCLAMP2504N.TCT" H 12475 2015 50  0000 C CNN "MPN"
-F 5 "SEMTECH" H 12475 1924 50  0000 C CNN "Manufacturer"
-	1    12475 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12975 1300 13575 1300
-Text Label 13575 1300 2    50   ~ 0
-VOL_DOWN_TVS
 Text GLabel 7575 4500 0    50   Output ~ 0
 LT9611_RST
+$Comp
+L antmicroTVSDiodes:PESD2V5Y1BSFYL D?
+U 1 1 62B14C70
+P 14875 1475
+F 0 "D?" V 14842 1578 60  0000 L CNN
+F 1 "PESD2V5Y1BSFYL" V 14940 1578 50  0000 L CNN
+F 2 "antmicro-footprints:RESC0603X26N" H 14875 1025 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2V5Y1BSF.pdf" H 15085 1325 50  0001 C CNN
+F 4 "Nexperia" H 14875 900 50  0001 L CNN "Manufacturer"
+F 5 "PESD2V5Y1BSFYL" H 14875 1150 50  0001 L CNN "MPN"
+	1    14875 1475
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62B5C6BD
+P 14875 1725
+F 0 "#PWR?" H 14875 1475 50  0001 C CNN
+F 1 "GND" H 14880 1552 50  0000 C CNN
+F 2 "" H 14875 1725 50  0001 C CNN
+F 3 "" H 14875 1725 50  0001 C CNN
+	1    14875 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14875 2350 14875 2400
+Wire Wire Line
+	14475 2350 14875 2350
+Wire Wire Line
+	14475 3450 14875 3450
+Wire Wire Line
+	14425 4550 14825 4550
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62B99876
+P 14875 2875
+F 0 "#PWR?" H 14875 2625 50  0001 C CNN
+F 1 "GND" H 14880 2702 50  0000 C CNN
+F 2 "" H 14875 2875 50  0001 C CNN
+F 3 "" H 14875 2875 50  0001 C CNN
+	1    14875 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2V5Y1BSFYL D?
+U 1 1 62B99870
+P 14875 2625
+F 0 "D?" V 14842 2728 60  0000 L CNN
+F 1 "PESD2V5Y1BSFYL" V 14940 2728 50  0000 L CNN
+F 2 "antmicro-footprints:RESC0603X26N" H 14875 2175 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2V5Y1BSF.pdf" H 15085 2475 50  0001 C CNN
+F 4 "Nexperia" H 14875 2050 50  0001 L CNN "Manufacturer"
+F 5 "PESD2V5Y1BSFYL" H 14875 2300 50  0001 L CNN "MPN"
+	1    14875 2625
+	0    1    1    0   
+$EndComp
+Connection ~ 14875 2350
+Wire Wire Line
+	14875 2350 15175 2350
+Wire Wire Line
+	14875 3450 14875 3500
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62D07E7E
+P 14875 3975
+F 0 "#PWR?" H 14875 3725 50  0001 C CNN
+F 1 "GND" H 14880 3802 50  0000 C CNN
+F 2 "" H 14875 3975 50  0001 C CNN
+F 3 "" H 14875 3975 50  0001 C CNN
+	1    14875 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2V5Y1BSFYL D?
+U 1 1 62D07E86
+P 14875 3725
+F 0 "D?" V 14842 3828 60  0000 L CNN
+F 1 "PESD2V5Y1BSFYL" V 14940 3828 50  0000 L CNN
+F 2 "antmicro-footprints:RESC0603X26N" H 14875 3275 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2V5Y1BSF.pdf" H 15085 3575 50  0001 C CNN
+F 4 "Nexperia" H 14875 3150 50  0001 L CNN "Manufacturer"
+F 5 "PESD2V5Y1BSFYL" H 14875 3400 50  0001 L CNN "MPN"
+	1    14875 3725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14825 4550 14825 4600
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 62D441DC
+P 14825 5075
+F 0 "#PWR?" H 14825 4825 50  0001 C CNN
+F 1 "GND" H 14830 4902 50  0000 C CNN
+F 2 "" H 14825 5075 50  0001 C CNN
+F 3 "" H 14825 5075 50  0001 C CNN
+	1    14825 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTVSDiodes:PESD2V5Y1BSFYL D?
+U 1 1 62D441E4
+P 14825 4825
+F 0 "D?" V 14792 4928 60  0000 L CNN
+F 1 "PESD2V5Y1BSFYL" V 14890 4928 50  0000 L CNN
+F 2 "antmicro-footprints:RESC0603X26N" H 14825 4375 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2V5Y1BSF.pdf" H 15035 4675 50  0001 C CNN
+F 4 "Nexperia" H 14825 4250 50  0001 L CNN "Manufacturer"
+F 5 "PESD2V5Y1BSFYL" H 14825 4500 50  0001 L CNN "MPN"
+	1    14825 4825
+	0    1    1    0   
+$EndComp
+Connection ~ 14825 4550
+Wire Wire Line
+	14825 4550 15075 4550
+Connection ~ 14875 3450
+Wire Wire Line
+	14875 3450 15175 3450
+Text Label 14475 2350 0    50   ~ 0
+VOL_UP_R
+Text Label 14475 3450 0    50   ~ 0
+PWR_R
+Text Label 14400 4550 0    50   ~ 0
+VOL_DOWN_R
 $EndSCHEMATC
