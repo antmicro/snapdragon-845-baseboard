@@ -452,12 +452,12 @@ Wire Wire Line
 	5725 3575 5900 3575
 Connection ~ 4150 2675
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:BM04B-SRSS-TB-LF-SN J7
+L sa800u-baseboard-hw:BM04B-SRSS-TB-LF-SN J7
 U 1 1 637F6555
 P 6525 7000
 F 0 "J7" H 6443 6725 50  0000 C CNN
 F 1 "BM04B-SRSS-TB-LF-SN" H 6443 6816 50  0000 C CNN
-F 2 "antmicro-footprints:BM04B-SRSS-TB-LF-SN" H 6525 6750 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:BM04B-SRSS-TB-LF-SN" H 6525 6750 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6075 6700 50  0001 C CNN
 F 4 "BM04B-SRSS-TB(LF)(SN) " H 6425 6650 50  0001 L CNN "MPN"
 F 5 "JST" H 6425 6550 50  0001 L CNN "Manufacturer"
