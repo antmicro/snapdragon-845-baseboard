@@ -17,8 +17,8 @@ $Comp
 L sa800u-baseboard-hw:ABM8G-25.000MHZ-18-D2Y-T Y1
 U 1 1 6246C7D0
 P 4275 6675
-F 0 "Y1" H 4125 6875 31  0000 L CNN
-F 1 "ABM8G-25.000MHZ-18-D2Y-T" H 4325 6875 31  0000 L CNN
+F 0 "Y1" H 4375 6925 60  0000 L CNN
+F 1 "ABM8G-25.000MHZ-18-D2Y-T" H 4375 6850 50  0000 L CNN
 F 2 "sa800u-baseboard-hw-footprints:KX-7" H 6375 6675 50  0001 C CNN
 F 3 "" H 6475 6775 50  0001 C CNN
 F 4 "ABM8G-25.000MHZ-18-D2Y-T" H 4469 6644 31  0001 L CNN "MPN"
@@ -240,8 +240,6 @@ Wire Wire Line
 	10050 6325 10500 6325
 Wire Wire Line
 	10050 6425 10500 6425
-Text Notes 10675 7300 0    50   ~ 10
-Possible replacement:\nhttps://www.l-p.com/products/457392.htm
 Text GLabel 3625 3100 0    50   Input ~ 0
 3V3_SYS
 $Comp
@@ -386,8 +384,6 @@ F 6 "100n" H 9465 3272 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 9350 3575
 Connection ~ 9350 3075
-Text Notes 10000 3775 0    50   ~ 0
-DNP 100nF and \n1uF caps should be placed near pins...
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C48
 U 1 1 61E50090
@@ -537,8 +533,8 @@ Wire Wire Line
 Text Label 10950 3075 2    50   ~ 0
 ETH_1V0
 Wire Wire Line
-	7650 3075 7850 3075
-Text Label 7650 3075 2    50   ~ 0
+	7375 3075 7850 3075
+Text Label 7375 3075 0    50   ~ 0
 REG_1V0
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C6
@@ -760,9 +756,9 @@ Text Label 8725 6425 2    50   ~ 0
 ETH_LED2
 Text Label 8725 6225 2    50   ~ 0
 ETH_LED0
-Text Label 4550 5925 2    50   ~ 0
+Text Label 4425 5925 0    50   ~ 0
 XTAL1
-Text Label 4550 6025 2    50   ~ 0
+Text Label 4425 6025 0    50   ~ 0
 XTAL2
 Text GLabel 4550 5525 0    50   Input ~ 0
 PCIE1_TX_P
@@ -909,11 +905,11 @@ Wire Wire Line
 	4850 5825 4750 5825
 Connection ~ 4850 5825
 Wire Wire Line
-	4550 5925 4750 5925
+	4425 5925 4750 5925
 Wire Wire Line
 	4750 5925 4750 5825
 Wire Wire Line
-	4550 6025 4750 6025
+	4425 6025 4750 6025
 Wire Wire Line
 	4750 6025 4750 6125
 Wire Wire Line
@@ -1114,4 +1110,6 @@ Wire Wire Line
 	11600 5825 12375 5825
 Wire Wire Line
 	11600 6125 12375 6125
+Text Notes 525  725  0    118  ~ 24
+Ethernet controller
 $EndSCHEMATC

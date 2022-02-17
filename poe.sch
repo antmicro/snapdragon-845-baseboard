@@ -355,8 +355,6 @@ F 7 "DNP" H 12375 4425 50  0000 C CNN "DNP"
 	1    12375 4425
 	1    0    0    -1  
 $EndComp
-Text Notes 5925 6250 0    50   ~ 0
-CDB - Active low disable output \nfor DCDC converter. Open drain.
 $Comp
 L sa800u-baseboard-hw:GNDD #PWR0152
 U 1 1 628EFC20
@@ -368,12 +366,6 @@ F 3 "" H 6800 5725 50  0001 C CNN
 	1    6800 5725
 	1    0    0    -1  
 $EndComp
-Text Notes 5925 6450 0    50   ~ 0
-APD - Auxiliary power detect \nhigh on this pin disables TPS.
-Text Notes 5925 6650 0    50   ~ 0
-RTN - negative power return for load.\nPulled to GND when Vdd > UVLO.
-Text Notes 5925 6900 0    50   ~ 0
-T2P low when type 2 hardware class. observed\nor APD is high. Indicates high power source is available. \nIf used add optocoupler according to datasheet.
 Text Label 6800 5475 0    50   ~ 0
 RTN
 Text GLabel 14350 4625 2    50   Output ~ 0
@@ -718,8 +710,6 @@ $EndComp
 Connection ~ 8575 4625
 Wire Wire Line
 	8575 4625 9925 4625
-Text Notes 8475 5825 0    50   ~ 0
-PSE must see draw of ~~10mA to maintain PoE.\nPDQE30-D draws 8~~15mA with no load\nThis circuit provides exrta ~~3mA and indicates VDD presence
 $Comp
 L sa800u-baseboard-hw:TP_SMD1MM TP69
 U 1 1 62405733
@@ -789,4 +779,8 @@ F 3 "" H 7050 5375 60  0001 L CNN
 	1    6850 5075
 	0    -1   -1   0   
 $EndComp
+Text Notes 500  700  0    118  ~ 24
+PoE
+Text Notes 8475 5825 0    50   ~ 0
+~~10mA need to be drawn from PSE to maintain PoE.\nPDQE30-D draws 8~~15mA with no load\nThis circuit provides exrta ~~3mA and indicates VDD presence
 $EndSCHEMATC
