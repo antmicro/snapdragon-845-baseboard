@@ -745,90 +745,90 @@ F 6 "100u" H 12740 4772 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP85
+L sa800u-baseboard-hw:TP TP85
 U 1 1 68DA4045
 P 13125 5125
 F 0 "TP85" H 13106 5030 50  0000 C CNN
 F 1 "TP" H 13125 5125 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 13125 5125 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 13125 5125 50  0001 C CNN
 F 3 "" H 13125 5125 50  0001 C CNN
 	1    13125 5125
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP84
+L sa800u-baseboard-hw:TP TP84
 U 1 1 68DAA5BD
 P 13125 4525
 F 0 "TP84" H 13106 4430 50  0000 C CNN
 F 1 "TP" H 13125 4525 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 13125 4525 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 13125 4525 50  0001 C CNN
 F 3 "" H 13125 4525 50  0001 C CNN
 	1    13125 4525
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP83
+L sa800u-baseboard-hw:TP TP83
 U 1 1 68DB1530
 P 12225 4825
 F 0 "TP83" V 12206 4775 50  0000 R CNN
 F 1 "TP" H 12225 4825 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 12225 4825 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 12225 4825 50  0001 C CNN
 F 3 "" H 12225 4825 50  0001 C CNN
 	1    12225 4825
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP82
+L sa800u-baseboard-hw:TP TP82
 U 1 1 68DBC44F
 P 10675 4075
 F 0 "TP82" H 10656 3980 50  0000 C CNN
 F 1 "TP" H 10675 4075 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 10675 4075 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 10675 4075 50  0001 C CNN
 F 3 "" H 10675 4075 50  0001 C CNN
 	1    10675 4075
 	-1   0    0    1   
 $EndComp
 Connection ~ 10675 4175
 $Comp
-L antmicroTestPoints:TP TP78
+L sa800u-baseboard-hw:TP TP78
 U 1 1 68DC66B0
 P 4850 4525
 F 0 "TP78" H 4831 4430 50  0000 C CNN
 F 1 "TP" H 4850 4525 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 4850 4525 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 4850 4525 50  0001 C CNN
 F 3 "" H 4850 4525 50  0001 C CNN
 	1    4850 4525
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP79
+L sa800u-baseboard-hw:TP TP79
 U 1 1 68DCEF78
 P 4850 5875
 F 0 "TP79" H 4831 5780 50  0000 C CNN
 F 1 "TP" H 4850 5875 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 4850 5875 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 4850 5875 50  0001 C CNN
 F 3 "" H 4850 5875 50  0001 C CNN
 	1    4850 5875
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP80
+L sa800u-baseboard-hw:TP TP80
 U 1 1 68DD2B07
 P 6850 5075
 F 0 "TP80" V 6831 5025 50  0000 R CNN
 F 1 "TP" H 6850 5075 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 6850 5075 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 6850 5075 50  0001 C CNN
 F 3 "" H 6850 5075 50  0001 C CNN
 	1    6850 5075
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP81
+L sa800u-baseboard-hw:TP TP81
 U 1 1 68DDC004
 P 7700 5625
 F 0 "TP81" H 7612 5672 50  0000 R CNN
 F 1 "TP" H 7700 5625 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 7700 5625 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 7700 5625 50  0001 C CNN
 F 3 "" H 7700 5625 50  0001 C CNN
 	1    7700 5625
 	-1   0    0    1   

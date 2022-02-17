@@ -1168,7 +1168,7 @@
       (net 133 5V_SYS))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B5B2D)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B5B2D)
     (at 87.6 119.2)
     (path /61B0DC30/69774848)
     (attr virtual)
@@ -1216,7 +1216,7 @@
     )
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6227E0CE)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6227E0CE)
     (at 90 119.2)
     (path /61B0DC30/6952B6EC)
     (attr virtual)
@@ -2140,7 +2140,7 @@
       (net 357 "Net-(C125-Pad1)"))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6225647F)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6225647F)
     (at 74.4 147.4)
     (path /61DF77CE/69346ED5)
     (attr virtual)
@@ -2154,7 +2154,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6224BB59)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6224BB59)
     (at 76 112)
     (path /61B0DC30/692F4DBB)
     (attr virtual)
@@ -2168,7 +2168,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B6A2A)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B6A2A)
     (at 85.1 100.4)
     (path /61B0DC30/6930A4DE)
     (attr virtual)
@@ -2182,7 +2182,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CAC8)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CAC8)
     (at 85.2 119.2)
     (path /61B0DC30/6919484F)
     (attr virtual)
@@ -2196,7 +2196,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CAC3)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CAC3)
     (at 120.8 128.2)
     (path /61B0DC30/690C9E37)
     (attr virtual)
@@ -2210,7 +2210,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CABE)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CABE)
     (at 126 128.2)
     (path /61B0DC30/690E474A)
     (attr virtual)
@@ -2224,7 +2224,7 @@
       (net 138 1V2_SYS))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CA39)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CA39)
     (at 81 112)
     (path /61B0DC30/690F9833)
     (attr virtual)
@@ -2238,7 +2238,7 @@
       (net 131 3V3_SYS))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B6A1E)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B6A1E)
     (at 90.1 100.4)
     (path /61B0DC30/6910E9CD)
     (attr virtual)
@@ -2252,7 +2252,7 @@
       (net 137 3V8_SYS))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CA2F)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223CA2F)
     (at 123.4 128.2)
     (path /61B0DC30/69126DDC)
     (attr virtual)
@@ -2266,7 +2266,7 @@
       (net 133 5V_SYS))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223C9F2)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223C9F2)
     (at 78.5 112)
     (path /61B0DC30/6913B626)
     (attr virtual)
@@ -2280,7 +2280,7 @@
       (net 74 VDD))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B6916)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 622B6916)
     (at 87.6 100.4)
     (path /61B0DC30/6914FF07)
     (attr virtual)
@@ -2294,7 +2294,7 @@
       (net 74 VDD))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223C9D3)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223C9D3)
     (at 71.2 128.8)
     (path /61B0DC30/691B0870)
     (attr virtual)
@@ -2308,7 +2308,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223C9C1)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6223C9C1)
     (at 76 130.25)
     (path /61B0DC30/69259420)
     (attr virtual)
@@ -2322,7 +2322,7 @@
       (net 74 VDD))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6221A3DE)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 6221A3DE)
     (at 134 127.6)
     (path /6197686D/68F4B7A6)
     (attr virtual)
@@ -2336,7 +2336,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621E5175)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621E5175)
     (at 56.5 104)
     (path /61A19323/68DDC004)
     (attr virtual)
@@ -2350,7 +2350,7 @@
       (net 7 GNDD))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC164)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC164)
     (at 61.5 101.5 90)
     (path /61A19323/68DBC44F)
     (attr virtual)
@@ -2364,7 +2364,7 @@
       (net 76 /PoE/SMPS_CTRL))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC15F)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC15F)
     (at 56.5 101.5 90)
     (path /61A19323/68DD2B07)
     (attr virtual)
@@ -2378,7 +2378,7 @@
       (net 386 "Net-(IC2-Pad7)"))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC15A)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC15A)
     (at 56.5 109.25 90)
     (path /61A19323/68DCEF78)
     (attr virtual)
@@ -2392,7 +2392,7 @@
       (net 135 /PoE/VSS_POE))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC155)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621DC155)
     (at 59 101.5 90)
     (path /61A19323/68DC66B0)
     (attr virtual)
@@ -2406,7 +2406,7 @@
       (net 73 /PoE/VDD_POE))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621D25B3)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621D25B3)
     (at 70.25 84 180)
     (path /61A19323/68DA4045)
     (attr virtual)
@@ -2420,7 +2420,7 @@
       (net 1 GND))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621D256E)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621D256E)
     (at 75.25 84 180)
     (path /61A19323/68DAA5BD)
     (attr virtual)
@@ -2434,7 +2434,7 @@
       (net 136 5V_POE))
   )
 
-  (module antmicro-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621D2569)
+  (module sa800u-baseboard-hw-footprints:TP-R-1.5 (layer B.Cu) (tedit 620A5C12) (tstamp 621D2569)
     (at 72.85 84 180)
     (path /61A19323/68DB1530)
     (attr virtual)

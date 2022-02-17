@@ -3544,14 +3544,14 @@ F 3 "" H 6325 10050 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 68F4B7A6
 P 15825 9600
 AR Path="/61A19323/68F4B7A6" Ref="TP?"  Part="1" 
 AR Path="/6197686D/68F4B7A6" Ref="TP27"  Part="1" 
 F 0 "TP27" H 15737 9647 50  0000 R CNN
 F 1 "TP" H 15825 9600 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 15825 9600 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 15825 9600 50  0001 C CNN
 F 3 "" H 15825 9600 50  0001 C CNN
 	1    15825 9600
 	-1   0    0    1   
