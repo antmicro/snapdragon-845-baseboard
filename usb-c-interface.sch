@@ -1191,7 +1191,7 @@ F 3 "" H 10625 10300 50  0001 C CNN
 $EndComp
 Text GLabel 10925 10000 0    50   BiDi ~ 0
 USB2C_HS_D_P
-Text GLabel 10875 9900 0    50   BiDi ~ 0
+Text GLabel 10925 9900 0    50   BiDi ~ 0
 USB2C_HS_D_N
 $Comp
 L sa800u-baseboard-hw:GND #PWR0160
@@ -1355,8 +1355,6 @@ Wire Wire Line
 	7675 3050 7675 2575
 Wire Wire Line
 	10925 10000 11225 10000
-Wire Wire Line
-	10875 9900 11275 9900
 Wire Wire Line
 	11225 10000 11225 10175
 Text GLabel 15250 3250 2    50   Input ~ 0
@@ -2222,7 +2220,7 @@ F 6 "10u" H 4765 7597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11275 9900 11275 10175
+	11325 9900 11325 10175
 Wire Wire Line
 	10475 5550 11075 5550
 Wire Wire Line
@@ -2572,4 +2570,6 @@ Wire Notes Line
 	16025 4275 525  4275
 Wire Notes Line
 	16025 1350 525  1350
+Wire Wire Line
+	10925 9900 11325 9900
 $EndSCHEMATC
