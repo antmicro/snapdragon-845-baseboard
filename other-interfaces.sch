@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 13
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -343,7 +343,7 @@ Wire Wire Line
 	2700 2275 2700 2300
 Wire Wire Line
 	2700 2600 2700 2675
-Text Label 5075 2150 2    50   ~ 0
+Text Label 4700 2150 0    50   ~ 0
 SD_VDD_R
 $Comp
 L sa800u-baseboard-hw:C_2u2_0603 C125
@@ -389,7 +389,7 @@ F 3 "" H 5150 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5075 2150 5150 2150
+	4700 2150 5150 2150
 $Comp
 L sa800u-baseboard-hw:C_10p_0402 C124
 U 1 1 62000138

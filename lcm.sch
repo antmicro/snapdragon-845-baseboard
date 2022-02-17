@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 13
+Sheet 5 12
 Title ""
 Date ""
 Rev ""
@@ -436,9 +436,9 @@ Text Label 5325 7525 2    50   ~ 0
 TP_I2C_SCL_3V3
 Text Label 5325 7625 2    50   ~ 0
 TP_I2C_SDA_3V3
-Text Label 8025 4600 2    50   ~ 0
+Text Label 7550 4600 0    50   ~ 0
 TP_I2C_SDA_3V3
-Text Label 8025 4500 2    50   ~ 0
+Text Label 7550 4500 0    50   ~ 0
 TP_I2C_SCL_3V3
 $Comp
 L sa800u-baseboard-hw:NFP0QHB242HS2D L?
@@ -468,9 +468,9 @@ Add some TVS diodes for protection.
 Wire Wire Line
 	8025 4800 11525 4800
 Wire Wire Line
-	8025 4600 11525 4600
+	7550 4600 11525 4600
 Wire Wire Line
-	8025 4500 11525 4500
+	7550 4500 11525 4500
 Wire Wire Line
 	9325 4300 11525 4300
 Wire Wire Line

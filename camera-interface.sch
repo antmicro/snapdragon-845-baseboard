@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 13
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -155,124 +155,124 @@ F 5 "Wurth Elektronik " H 8300 1450 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 1550 2150 1550
+	2050 1550 2750 1550
 Wire Wire Line
-	2050 1650 2150 1650
-Text Label 2150 1550 0    50   ~ 0
+	2050 1650 2750 1650
+Text Label 2750 1550 2    50   ~ 0
 CSI1_LN3_FFC_N
-Text Label 2150 1650 0    50   ~ 0
+Text Label 2750 1650 2    50   ~ 0
 CSI1_LN3_FFC_P
 Text Label 6450 1650 0    50   ~ 0
 CSI1_LN3_FFC_N
 Text Label 6450 1750 0    50   ~ 0
 CSI1_LN3_FFC_P
-Text Label 2175 4450 0    50   ~ 0
+Text Label 2750 4450 2    50   ~ 0
 CSI0_LN3_FFC_N
-Text Label 2175 4550 0    50   ~ 0
+Text Label 2750 4550 2    50   ~ 0
 CSI0_LN3_FFC_P
 Text Label 6450 3450 0    50   ~ 0
 CSI0_LN3_FFC_N
 Text Label 6450 3550 0    50   ~ 0
 CSI0_LN3_FFC_P
 Wire Wire Line
-	2075 4450 2175 4450
+	2075 4450 2750 4450
 Wire Wire Line
-	2075 4550 2175 4550
+	2075 4550 2750 4550
 Wire Wire Line
 	2050 1950 2050 2000
 Wire Wire Line
-	2050 2000 2150 2000
+	2050 2000 2750 2000
 Wire Wire Line
 	2050 2150 2050 2100
 Wire Wire Line
-	2050 2100 2150 2100
+	2050 2100 2750 2100
 Wire Wire Line
 	2050 2400 2050 2450
 Wire Wire Line
-	2050 2450 2150 2450
+	2050 2450 2750 2450
 Wire Wire Line
 	2050 2600 2050 2550
 Wire Wire Line
-	2050 2550 2150 2550
+	2050 2550 2750 2550
 Wire Wire Line
 	2050 2850 2050 2900
 Wire Wire Line
-	2050 2900 2150 2900
+	2050 2900 2750 2900
 Wire Wire Line
 	2050 3050 2050 3000
 Wire Wire Line
-	2050 3000 2150 3000
+	2050 3000 2750 3000
 Wire Wire Line
 	2050 3300 2050 3350
 Wire Wire Line
-	2050 3350 2150 3350
+	2050 3350 2750 3350
 Wire Wire Line
 	2050 3500 2050 3450
 Wire Wire Line
-	2050 3450 2150 3450
-Text Label 2150 2000 0    50   ~ 0
+	2050 3450 2750 3450
+Text Label 2750 2000 2    50   ~ 0
 CSI1_LN2_FFC_N
-Text Label 2150 2100 0    50   ~ 0
+Text Label 2750 2100 2    50   ~ 0
 CSI1_LN2_FFC_P
-Text Label 2150 2550 0    50   ~ 0
+Text Label 2750 2550 2    50   ~ 0
 CSI1_LN1_FFC_P
-Text Label 2150 2450 0    50   ~ 0
+Text Label 2750 2450 2    50   ~ 0
 CSI1_LN1_FFC_N
-Text Label 2150 2900 0    50   ~ 0
+Text Label 2750 2900 2    50   ~ 0
 CSI1_LN0_FFC_N
-Text Label 2150 3000 0    50   ~ 0
+Text Label 2750 3000 2    50   ~ 0
 CSI1_LN0_FFC_P
-Text Label 2150 3350 0    50   ~ 0
+Text Label 2750 3350 2    50   ~ 0
 CSI1_CLK_FFC_N
-Text Label 2150 3450 0    50   ~ 0
+Text Label 2750 3450 2    50   ~ 0
 CSI1_CLK_FFC_P
 Wire Wire Line
 	2075 4850 2075 4900
 Wire Wire Line
-	2075 4900 2175 4900
+	2075 4900 2750 4900
 Wire Wire Line
 	2075 5050 2075 5000
 Wire Wire Line
-	2075 5000 2175 5000
+	2075 5000 2750 5000
 Wire Wire Line
 	2075 5300 2075 5350
 Wire Wire Line
-	2075 5350 2175 5350
+	2075 5350 2750 5350
 Wire Wire Line
 	2075 5500 2075 5450
 Wire Wire Line
-	2075 5450 2175 5450
+	2075 5450 2750 5450
 Wire Wire Line
 	2075 5750 2075 5800
 Wire Wire Line
-	2075 5800 2175 5800
+	2075 5800 2750 5800
 Wire Wire Line
 	2075 5950 2075 5900
 Wire Wire Line
-	2075 5900 2175 5900
+	2075 5900 2750 5900
 Wire Wire Line
 	2075 6200 2075 6250
 Wire Wire Line
-	2075 6250 2175 6250
+	2075 6250 2750 6250
 Wire Wire Line
 	2075 6400 2075 6350
 Wire Wire Line
-	2075 6350 2175 6350
-Text Label 2175 4900 0    50   ~ 0
+	2075 6350 2750 6350
+Text Label 2750 4900 2    50   ~ 0
 CSI0_LN2_FFC_N
-Text Label 2175 5000 0    50   ~ 0
+Text Label 2750 5000 2    50   ~ 0
 CSI0_LN2_FFC_P
-Text Label 2175 5350 0    50   ~ 0
+Text Label 2750 5350 2    50   ~ 0
 CSI0_LN1_FFC_N
-Text Label 2175 5450 0    50   ~ 0
+Text Label 2750 5450 2    50   ~ 0
 CSI0_LN1_FFC_P
-Text Label 2175 5800 0    50   ~ 0
+Text Label 2750 5800 2    50   ~ 0
 CSI0_LN0_FFC_N
-Text Label 2175 5900 0    50   ~ 0
+Text Label 2750 5900 2    50   ~ 0
 CSI0_LN0_FFC_P
-Text Label 2175 6250 0    50   ~ 0
+Text Label 2750 6250 2    50   ~ 0
 CSI0_CLK_FFC_N
-Text Label 2175 6350 0    50   ~ 0
+Text Label 2750 6350 2    50   ~ 0
 CSI0_CLK_FFC_P
 Text Label 6450 1850 0    50   ~ 0
 CSI1_LN2_FFC_N

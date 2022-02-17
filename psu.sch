@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 13
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -146,9 +146,7 @@ F 6 "10k" V 11053 3170 50  0000 L CNN "Val"
 $EndComp
 Text Notes 8875 2600 0    50   ~ 0
 Vswitch = 5.47V ->
-Text Notes 10425 2975 0    50   ~ 0
-5.5V ->1.54V \n20V -> 5.63V
-Text Notes 9750 1275 0    50   ~ 0
+Text Notes 10275 1275 0    50   ~ 0
 If VDD > 5.5V use converter\nelse bypass converter and pass \n5V directly to power line
 $Comp
 L sa800u-baseboard-hw:LMV431IM5 U16
@@ -2620,7 +2618,7 @@ Wire Wire Line
 	6400 4600 6400 4500
 Connection ~ 6400 5050
 Wire Wire Line
-	6400 5050 7300 5050
+	6400 5050 7750 5050
 Wire Wire Line
 	5600 5050 5675 5050
 Connection ~ 6150 2600
@@ -2887,7 +2885,7 @@ F 5 "Vishay" H 13050 2625 60  0001 L CNN "Manufacturer"
 	1    12850 1525
 	0    1    -1   0   
 $EndComp
-Text Notes 11100 1175 0    50   ~ 0
+Text Notes 12525 1175 0    50   ~ 0
 Bypass transistor
 $Comp
 L sa800u-baseboard-hw:C_10u_25V_0603 C109
@@ -3894,10 +3892,10 @@ Text GLabel 15500 6050 2    50   Output ~ 0
 3V8_SYS
 Connection ~ 6775 5150
 Wire Wire Line
-	6775 5150 7300 5150
+	6775 5150 7750 5150
 Connection ~ 7150 5250
 Wire Wire Line
-	7150 5250 7300 5250
+	7150 5250 7750 5250
 Wire Wire Line
 	5600 5250 6275 5250
 Wire Wire Line
@@ -4541,11 +4539,11 @@ Connection ~ 6400 4500
 Connection ~ 6150 4500
 Wire Wire Line
 	6150 4500 6400 4500
-Text Label 7300 5050 0    50   ~ 0
+Text Label 7750 5050 2    50   ~ 0
 POE_VALID
-Text Label 7300 5150 0    50   ~ 0
+Text Label 7750 5150 2    50   ~ 0
 USB_PD_VALID
-Text Label 7300 5250 0    50   ~ 0
+Text Label 7750 5250 2    50   ~ 0
 AUX_VALID
 Text Label 6500 6000 0    50   ~ 0
 AUX_VALID
@@ -4623,8 +4621,8 @@ Wire Wire Line
 Wire Wire Line
 	9425 3375 9425 3425
 Wire Wire Line
-	9125 3725 8725 3725
-Text Label 8725 3725 0    50   ~ 0
+	9125 3725 8650 3725
+Text Label 8650 3725 0    50   ~ 0
 BYPASS_EN
 Text GLabel 8700 3375 0    50   Input ~ 0
 VDD

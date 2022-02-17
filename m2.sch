@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 13
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -26,8 +26,6 @@ F 5 "Amphenol FCI" H 4475 6301 50  0001 C CNN "Manufacturer"
 	1    4475 3825
 	1    0    0    -1  
 $EndComp
-Text Notes 2725 1200 0    50   ~ 0
-Work in progress.
 Text Notes 2669 49363 0    60   ~ 0
 Text
 Text Notes 2669 49363 0    60   ~ 0
