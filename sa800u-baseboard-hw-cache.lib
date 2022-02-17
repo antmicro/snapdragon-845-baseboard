@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroTestPoints_TP
+#
+DEF antmicroTestPoints_TP TP 0 40 Y Y 1 F N
+F0 "TP" 0 0 50 H V C CNN
+F1 "antmicroTestPoints_TP" 0 0 50 H I C CNN
+F2 "antmicro-footprints:TP-R-1.5" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 22 1 1 0 N
+X ~ 1 0 100 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # sa800u-baseboard-hw_1053131202
 #
 DEF sa800u-baseboard-hw_1053131202 J 0 40 Y Y 1 F N
@@ -3221,19 +3234,6 @@ X VIN 1 -400 50 100 R 50 50 1 1 P
 X GND 2 400 -50 100 L 50 50 1 1 P
 X EN 3 -400 -50 100 R 50 50 1 1 P
 X VOUT 5 400 50 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# sa800u-baseboard-hw_TP_SMD1MM
-#
-DEF sa800u-baseboard-hw_TP_SMD1MM TP 0 0 N Y 1 F N
-F0 "TP" -100 50 50 H V R CNN
-F1 "sa800u-baseboard-hw_TP_SMD1MM" 0 -100 50 H I C CNN
-F2 "sa800u-baseboard-hw-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-DRAW
-C 0 0 22 0 1 0 N
-X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

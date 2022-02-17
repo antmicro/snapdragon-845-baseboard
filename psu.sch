@@ -780,7 +780,7 @@ Connection ~ 2325 3800
 Wire Wire Line
 	2325 7700 2325 3800
 Wire Wire Line
-	2625 2950 1125 2950
+	2625 2950 2325 2950
 Connection ~ 2625 2950
 Wire Wire Line
 	2625 6650 2625 2950
@@ -965,11 +965,6 @@ F 6 "100n" H 4240 4747 50  0000 L CNN "Val"
 	1    4125 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 5725 8400
-Wire Wire Line
-	5725 8400 5725 8300
-Wire Wire Line
-	5725 8500 5725 8400
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
 U 1 1 6231D12F
@@ -1062,19 +1057,6 @@ Wire Wire Line
 	4125 2300 4125 2150
 Wire Wire Line
 	3825 2150 3825 2300
-$Comp
-L sa800u-baseboard-hw:LTC4417IUF U21
-U 1 1 6209FB09
-P 3925 6350
-F 0 "U21" H 3525 7250 50  0000 C CNN
-F 1 "LTC4417IUF" H 5225 7250 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:LTC4417IUF-TRPBF" H 4025 6350 50  0001 C CNN
-F 3 "https://www.mouser.pl/datasheet/2/609/4417f-1271526.pdf" H 4025 6350 50  0001 C CNN
-F 4 "LTC4417IUF#TRPBF" H 3925 6350 50  0001 C CNN "MPN"
-F 5 "Analog Devices" H 3925 6350 50  0001 C CNN "Manufacturer"
-	1    3925 6350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8875 1650 10050 1650
 Text Label 1575 2150 0    50   ~ 0
@@ -1417,8 +1399,6 @@ Wire Wire Line
 Connection ~ 15525 1650
 Wire Wire Line
 	15525 1650 15650 1650
-Wire Wire Line
-	13275 1650 14750 1650
 Wire Wire Line
 	12150 2725 12150 1650
 Wire Wire Line
@@ -2001,72 +1981,6 @@ F 3 "" H 7525 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP56
-U 1 1 621521C7
-P 11050 5875
-F 0 "TP56" H 11000 5922 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 11050 5775 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 11250 6075 60  0001 L CNN
-F 3 "" H 11250 6175 60  0001 L CNN
-	1    11050 5875
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP57
-U 1 1 62156A24
-P 11050 7250
-F 0 "TP57" H 11000 7297 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 11050 7150 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 11250 7450 60  0001 L CNN
-F 3 "" H 11250 7550 60  0001 L CNN
-	1    11050 7250
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP58
-U 1 1 621677D1
-P 11050 8625
-F 0 "TP58" H 11000 8672 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 11050 8525 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 11250 8825 60  0001 L CNN
-F 3 "" H 11250 8925 60  0001 L CNN
-	1    11050 8625
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP68
-U 1 1 6217A18F
-P 13675 8625
-F 0 "TP68" H 13625 8672 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 13675 8525 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 13875 8825 60  0001 L CNN
-F 3 "" H 13875 8925 60  0001 L CNN
-	1    13675 8625
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP67
-U 1 1 6218BBE3
-P 13675 7250
-F 0 "TP67" H 13625 7297 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 13675 7150 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 13875 7450 60  0001 L CNN
-F 3 "" H 13875 7550 60  0001 L CNN
-	1    13675 7250
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP66
-U 1 1 6219BCD7
-P 13675 5875
-F 0 "TP66" H 13625 5922 50  0000 R CNN
-F 1 "TP_SMD_0_75MM" H 13675 5775 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 13875 6075 60  0001 L CNN
-F 3 "" H 13875 6175 60  0001 L CNN
-	1    13675 5875
-	-1   0    0    1   
-$EndComp
-$Comp
 L sa800u-baseboard-hw:TP_SMD_0_75MM TP61
 U 1 1 621AD212
 P 11375 6375
@@ -2099,39 +2013,6 @@ F 3 "" H 11575 9425 60  0001 L CNN
 	1    11375 9125
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP48
-U 1 1 621EF4D3
-P 5800 6000
-F 0 "TP48" H 5850 6047 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 5800 5900 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6000 6200 60  0001 L CNN
-F 3 "" H 6000 6300 60  0001 L CNN
-	1    5800 6000
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP49
-U 1 1 62200067
-P 6100 6000
-F 0 "TP49" H 6150 6047 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 6100 5900 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6300 6200 60  0001 L CNN
-F 3 "" H 6300 6300 60  0001 L CNN
-	1    6100 6000
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP51
-U 1 1 6220FE09
-P 6400 6000
-F 0 "TP51" H 6450 6047 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 6400 5900 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6600 6200 60  0001 L CNN
-F 3 "" H 6600 6300 60  0001 L CNN
-	1    6400 6000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5800 6100 5800 6250
 Connection ~ 5800 6250
@@ -2147,52 +2028,8 @@ Wire Wire Line
 Connection ~ 6400 6450
 Wire Wire Line
 	6400 6450 7275 6450
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP47
-U 1 1 622544F5
-P 2925 2050
-F 0 "TP47" H 2975 2097 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 2925 1950 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 3125 2250 60  0001 L CNN
-F 3 "" H 3125 2350 60  0001 L CNN
-	1    2925 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP46
-U 1 1 622544FB
-P 2625 2850
-F 0 "TP46" H 2675 2897 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 2625 2750 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 2825 3050 60  0001 L CNN
-F 3 "" H 2825 3150 60  0001 L CNN
-	1    2625 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP45
-U 1 1 62254501
-P 2325 3700
-F 0 "TP45" H 2375 3747 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 2325 3600 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 2525 3900 60  0001 L CNN
-F 3 "" H 2525 4000 60  0001 L CNN
-	1    2325 3700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2925 2150 3100 2150
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP50
-U 1 1 622BE852
-P 6275 2050
-F 0 "TP50" H 6325 2097 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 6275 1950 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6475 2250 60  0001 L CNN
-F 3 "" H 6475 2350 60  0001 L CNN
-	1    6275 2050
-	-1   0    0    1   
-$EndComp
 $Comp
 L sa800u-baseboard-hw:TP_SMD_0_75MM TP55
 U 1 1 622DD73E
@@ -2216,28 +2053,6 @@ F 3 "" H 12650 3425 60  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP65
-U 1 1 62302665
-P 14775 2625
-F 0 "TP65" H 14825 2672 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 14775 2525 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 14975 2825 60  0001 L CNN
-F 3 "" H 14975 2925 60  0001 L CNN
-	1    14775 2625
-	-1   0    0    1   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP59
-U 1 1 62313708
-P 12450 2625
-F 0 "TP59" H 12500 2672 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 12450 2525 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 12650 2825 60  0001 L CNN
-F 3 "" H 12650 2925 60  0001 L CNN
-	1    12450 2625
-	-1   0    0    1   
-$EndComp
-$Comp
 L sa800u-baseboard-hw:TP_SMD_0_75MM TP52
 U 1 1 6232A519
 P 9950 2700
@@ -2247,17 +2062,6 @@ F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 10150 2900 60  0001 
 F 3 "" H 10150 3000 60  0001 L CNN
 	1    9950 2700
 	0    1    1    0   
-$EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP53
-U 1 1 62350CD4
-P 10050 1550
-F 0 "TP53" H 10100 1597 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 10050 1450 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 10250 1750 60  0001 L CNN
-F 3 "" H 10250 1850 60  0001 L CNN
-	1    10050 1550
-	-1   0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:TP_SMD_0_75MM TP54
@@ -2270,20 +2074,6 @@ F 3 "" H 10550 2450 60  0001 L CNN
 	1    10350 2150
 	0    1    1    0   
 $EndComp
-$Comp
-L sa800u-baseboard-hw:TP_SMD_0_75MM TP64
-U 1 1 623815DB
-P 14750 1550
-F 0 "TP64" H 14800 1597 50  0000 L CNN
-F 1 "TP_SMD_0_75MM" H 14750 1450 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 14950 1750 60  0001 L CNN
-F 3 "" H 14950 1850 60  0001 L CNN
-	1    14750 1550
-	-1   0    0    1   
-$EndComp
-Connection ~ 14750 1650
-Wire Wire Line
-	14750 1650 15525 1650
 Wire Wire Line
 	12975 1950 12975 2125
 Wire Wire Line
@@ -2818,7 +2608,7 @@ F 3 "" H 6275 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1425 2150 2725 2150
+	1425 2150 2325 2150
 Wire Wire Line
 	2725 2200 2725 2150
 Connection ~ 2725 2150
@@ -2839,4 +2629,395 @@ Wire Wire Line
 	5975 9975 5975 10075
 Wire Wire Line
 	4500 9950 4500 10050
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 690C9E37
+P 15775 9625
+AR Path="/61A19323/690C9E37" Ref="TP?"  Part="1" 
+AR Path="/6197686D/690C9E37" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/690C9E37" Ref="TP86"  Part="1" 
+F 0 "TP86" H 15687 9672 50  0000 R CNN
+F 1 "TP" H 15775 9625 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 15775 9625 50  0001 C CNN
+F 3 "" H 15775 9625 50  0001 C CNN
+	1    15775 9625
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 690C9E3D
+P 15775 9725
+AR Path="/61BD2CC1/690C9E3D" Ref="#PWR?"  Part="1" 
+AR Path="/6197686D/690C9E3D" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/690C9E3D" Ref="#PWR0281"  Part="1" 
+F 0 "#PWR0281" H 15775 9475 50  0001 C CNN
+F 1 "GND" H 15780 9552 50  0000 C CNN
+F 2 "" H 15775 9725 50  0001 C CNN
+F 3 "" H 15775 9725 50  0001 C CNN
+	1    15775 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 690E474A
+P 13675 8625
+AR Path="/61A19323/690E474A" Ref="TP?"  Part="1" 
+AR Path="/6197686D/690E474A" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/690E474A" Ref="TP85"  Part="1" 
+F 0 "TP85" H 13587 8672 50  0000 R CNN
+F 1 "TP" H 13675 8625 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 13675 8625 50  0001 C CNN
+F 3 "" H 13675 8625 50  0001 C CNN
+	1    13675 8625
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 690F9833
+P 13675 7250
+AR Path="/61A19323/690F9833" Ref="TP?"  Part="1" 
+AR Path="/6197686D/690F9833" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/690F9833" Ref="TP68"  Part="1" 
+F 0 "TP68" H 13587 7297 50  0000 R CNN
+F 1 "TP" H 13675 7250 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 13675 7250 50  0001 C CNN
+F 3 "" H 13675 7250 50  0001 C CNN
+	1    13675 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 6910E9CD
+P 13675 5875
+AR Path="/61A19323/6910E9CD" Ref="TP?"  Part="1" 
+AR Path="/6197686D/6910E9CD" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/6910E9CD" Ref="TP67"  Part="1" 
+F 0 "TP67" H 13587 5922 50  0000 R CNN
+F 1 "TP" H 13675 5875 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 13675 5875 50  0001 C CNN
+F 3 "" H 13675 5875 50  0001 C CNN
+	1    13675 5875
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 69126DDC
+P 11050 8625
+AR Path="/61A19323/69126DDC" Ref="TP?"  Part="1" 
+AR Path="/6197686D/69126DDC" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/69126DDC" Ref="TP66"  Part="1" 
+F 0 "TP66" H 10962 8672 50  0000 R CNN
+F 1 "TP" H 11050 8625 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 11050 8625 50  0001 C CNN
+F 3 "" H 11050 8625 50  0001 C CNN
+	1    11050 8625
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 6913B626
+P 11050 7250
+AR Path="/61A19323/6913B626" Ref="TP?"  Part="1" 
+AR Path="/6197686D/6913B626" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/6913B626" Ref="TP58"  Part="1" 
+F 0 "TP58" H 10962 7297 50  0000 R CNN
+F 1 "TP" H 11050 7250 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 11050 7250 50  0001 C CNN
+F 3 "" H 11050 7250 50  0001 C CNN
+	1    11050 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 6914FF07
+P 11050 5875
+AR Path="/61A19323/6914FF07" Ref="TP?"  Part="1" 
+AR Path="/6197686D/6914FF07" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/6914FF07" Ref="TP57"  Part="1" 
+F 0 "TP57" H 10962 5922 50  0000 R CNN
+F 1 "TP" H 11050 5875 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 11050 5875 50  0001 C CNN
+F 3 "" H 11050 5875 50  0001 C CNN
+	1    11050 5875
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 6919484F
+P 15825 3875
+AR Path="/61A19323/6919484F" Ref="TP?"  Part="1" 
+AR Path="/6197686D/6919484F" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/6919484F" Ref="TP87"  Part="1" 
+F 0 "TP87" H 15737 3922 50  0000 R CNN
+F 1 "TP" H 15825 3875 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 15825 3875 50  0001 C CNN
+F 3 "" H 15825 3875 50  0001 C CNN
+	1    15825 3875
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 69194855
+P 15825 3975
+AR Path="/61BD2CC1/69194855" Ref="#PWR?"  Part="1" 
+AR Path="/6197686D/69194855" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/69194855" Ref="#PWR0282"  Part="1" 
+F 0 "#PWR0282" H 15825 3725 50  0001 C CNN
+F 1 "GND" H 15830 3802 50  0000 C CNN
+F 2 "" H 15825 3975 50  0001 C CNN
+F 3 "" H 15825 3975 50  0001 C CNN
+	1    15825 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 691B0870
+P 7725 10750
+AR Path="/61A19323/691B0870" Ref="TP?"  Part="1" 
+AR Path="/6197686D/691B0870" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/691B0870" Ref="TP53"  Part="1" 
+F 0 "TP53" H 7637 10797 50  0000 R CNN
+F 1 "TP" H 7725 10750 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 7725 10750 50  0001 C CNN
+F 3 "" H 7725 10750 50  0001 C CNN
+	1    7725 10750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 691B0876
+P 7725 10850
+AR Path="/61BD2CC1/691B0876" Ref="#PWR?"  Part="1" 
+AR Path="/6197686D/691B0876" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/691B0876" Ref="#PWR0283"  Part="1" 
+F 0 "#PWR0283" H 7725 10600 50  0001 C CNN
+F 1 "GND" H 7730 10677 50  0000 C CNN
+F 2 "" H 7725 10850 50  0001 C CNN
+F 3 "" H 7725 10850 50  0001 C CNN
+	1    7725 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 69259420
+P 6275 2050
+AR Path="/61A19323/69259420" Ref="TP?"  Part="1" 
+AR Path="/6197686D/69259420" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/69259420" Ref="TP50"  Part="1" 
+F 0 "TP50" H 6187 2097 50  0000 R CNN
+F 1 "TP" H 6275 2050 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 6275 2050 50  0001 C CNN
+F 3 "" H 6275 2050 50  0001 C CNN
+	1    6275 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5725 8500 5725 8400
+Wire Wire Line
+	5725 8400 5725 8300
+Connection ~ 5725 8400
+$Comp
+L sa800u-baseboard-hw:LTC4417IUF U21
+U 1 1 6209FB09
+P 3925 6350
+F 0 "U21" H 3525 7250 50  0000 C CNN
+F 1 "LTC4417IUF" H 5225 7250 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LTC4417IUF-TRPBF" H 4025 6350 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/609/4417f-1271526.pdf" H 4025 6350 50  0001 C CNN
+F 4 "LTC4417IUF#TRPBF" H 3925 6350 50  0001 C CNN "MPN"
+F 5 "Analog Devices" H 3925 6350 50  0001 C CNN "Manufacturer"
+	1    3925 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP48
+U 1 1 692A1450
+P 5800 6000
+F 0 "TP48" H 5875 5900 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 5800 5900 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6000 6200 60  0001 L CNN
+F 3 "" H 6000 6300 60  0001 L CNN
+	1    5800 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP49
+U 1 1 692B7982
+P 6100 6000
+F 0 "TP49" H 6175 5900 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 6100 5900 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6300 6200 60  0001 L CNN
+F 3 "" H 6300 6300 60  0001 L CNN
+	1    6100 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP51
+U 1 1 692CC13B
+P 6400 6000
+F 0 "TP51" H 6400 5905 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 6400 5900 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 6600 6200 60  0001 L CNN
+F 3 "" H 6600 6300 60  0001 L CNN
+	1    6400 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 692F4DBB
+P 15675 7825
+AR Path="/61A19323/692F4DBB" Ref="TP?"  Part="1" 
+AR Path="/6197686D/692F4DBB" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/692F4DBB" Ref="TP89"  Part="1" 
+F 0 "TP89" H 15587 7872 50  0000 R CNN
+F 1 "TP" H 15675 7825 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 15675 7825 50  0001 C CNN
+F 3 "" H 15675 7825 50  0001 C CNN
+	1    15675 7825
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 692F4DC1
+P 15675 7925
+AR Path="/61BD2CC1/692F4DC1" Ref="#PWR?"  Part="1" 
+AR Path="/6197686D/692F4DC1" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/692F4DC1" Ref="#PWR0284"  Part="1" 
+F 0 "#PWR0284" H 15675 7675 50  0001 C CNN
+F 1 "GND" H 15680 7752 50  0000 C CNN
+F 2 "" H 15675 7925 50  0001 C CNN
+F 3 "" H 15675 7925 50  0001 C CNN
+	1    15675 7925
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 6930A4DE
+P 15650 6200
+AR Path="/61A19323/6930A4DE" Ref="TP?"  Part="1" 
+AR Path="/6197686D/6930A4DE" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/6930A4DE" Ref="TP88"  Part="1" 
+F 0 "TP88" H 15562 6247 50  0000 R CNN
+F 1 "TP" H 15650 6200 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 15650 6200 50  0001 C CNN
+F 3 "" H 15650 6200 50  0001 C CNN
+	1    15650 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 6930A4E4
+P 15650 6300
+AR Path="/61BD2CC1/6930A4E4" Ref="#PWR?"  Part="1" 
+AR Path="/6197686D/6930A4E4" Ref="#PWR?"  Part="1" 
+AR Path="/61B0DC30/6930A4E4" Ref="#PWR0285"  Part="1" 
+F 0 "#PWR0285" H 15650 6050 50  0001 C CNN
+F 1 "GND" H 15655 6127 50  0000 C CNN
+F 2 "" H 15650 6300 50  0001 C CNN
+F 3 "" H 15650 6300 50  0001 C CNN
+	1    15650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP47
+U 1 1 6942DEA4
+P 2325 3700
+F 0 "TP47" H 2400 3600 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 2325 3600 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 2525 3900 60  0001 L CNN
+F 3 "" H 2525 4000 60  0001 L CNN
+	1    2325 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP46
+U 1 1 69442730
+P 2325 2850
+F 0 "TP46" H 2400 2750 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 2325 2750 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 2525 3050 60  0001 L CNN
+F 3 "" H 2525 3150 60  0001 L CNN
+	1    2325 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP45
+U 1 1 69457314
+P 2325 2050
+F 0 "TP45" H 2400 1950 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 2325 1950 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 2525 2250 60  0001 L CNN
+F 3 "" H 2525 2350 60  0001 L CNN
+	1    2325 2050
+	-1   0    0    1   
+$EndComp
+Connection ~ 2325 2950
+Wire Wire Line
+	2325 2950 1125 2950
+Connection ~ 2325 2150
+Wire Wire Line
+	2325 2150 2725 2150
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP99
+U 1 1 6949E099
+P 3875 4650
+F 0 "TP99" V 3775 4600 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 3875 4550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 4075 4850 60  0001 L CNN
+F 3 "" H 4075 4950 60  0001 L CNN
+	1    3875 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP100
+U 1 1 694B403A
+P 4375 4650
+F 0 "TP100" V 4275 4575 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 4375 4550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 4575 4850 60  0001 L CNN
+F 3 "" H 4575 4950 60  0001 L CNN
+	1    4375 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:TP_SMD_0_75MM TP101
+U 1 1 694CA4E3
+P 4875 4650
+F 0 "TP101" V 4775 4575 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 4875 4550 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Testpoint_smd_0_75mm" H 5075 4850 60  0001 L CNN
+F 3 "" H 5075 4950 60  0001 L CNN
+	1    4875 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 6952B6EC
+P 14775 2625
+AR Path="/61A19323/6952B6EC" Ref="TP?"  Part="1" 
+AR Path="/6197686D/6952B6EC" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/6952B6EC" Ref="TP17"  Part="1" 
+F 0 "TP17" H 14687 2672 50  0000 R CNN
+F 1 "TP" H 14775 2625 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 14775 2625 50  0001 C CNN
+F 3 "" H 14775 2625 50  0001 C CNN
+	1    14775 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13275 1650 15525 1650
+$Comp
+L antmicroTestPoints:TP TP?
+U 1 1 69774848
+P 12450 2625
+AR Path="/61A19323/69774848" Ref="TP?"  Part="1" 
+AR Path="/6197686D/69774848" Ref="TP?"  Part="1" 
+AR Path="/61B0DC30/69774848" Ref="TP?"  Part="1" 
+F 0 "TP?" H 12400 2675 50  0000 R CNN
+F 1 "TP" H 12450 2625 50  0001 C CNN
+F 2 "antmicro-footprints:TP-R-1.5" H 12450 2625 50  0001 C CNN
+F 3 "" H 12450 2625 50  0001 C CNN
+	1    12450 2625
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

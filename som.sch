@@ -2005,10 +2005,6 @@ Wire Wire Line
 	8075 8500 7750 8500
 Text GLabel 7575 6100 0    50   Input ~ 0
 USB2_SS_RX_P
-Text GLabel 7550 4900 0    50   BiDi ~ 0
-GPIO_49
-Wire Wire Line
-	7550 4900 8075 4900
 Wire Wire Line
 	8075 4800 7550 4800
 Wire Notes Line
@@ -2250,14 +2246,6 @@ Text Notes 5250 3250 0    50   ~ 0
 not used
 Text Notes 6875 5125 2    50   ~ 0
 USB-C\nhost mode
-Wire Notes Line
-	6950 4925 6900 4925
-Wire Notes Line
-	6900 4925 6900 4775
-Wire Notes Line
-	6900 4775 6950 4775
-Text Notes 6875 4925 2    50   ~ 0
-GPIO \npin header
 Connection ~ 7975 7400
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0103
@@ -2628,8 +2616,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 4400 12300 4400
 Connection ~ 12000 4400
-Text GLabel 7550 4800 0    50   BiDi ~ 0
-GPIO_124
 Text GLabel 7575 4500 0    50   Output ~ 0
 LT9611_RST
 Text Notes 13750 2000 0    79   ~ 16
@@ -3255,14 +3241,11 @@ Text Label 15325 4725 2    50   ~ 0
 PWR_R
 Text Label 15400 5825 2    50   ~ 0
 VOL_DOWN_R
-Connection ~ 15325 3625
-Wire Wire Line
-	15325 3625 14925 3625
-Connection ~ 15325 4725
-Wire Wire Line
-	15325 4725 14925 4725
+Text GLabel 7550 4800 0    50   Input ~ 0
+USB_PD_DISABLE
 Wire Wire Line
 	14925 3625 15425 3625
 Wire Wire Line
 	14925 4725 15425 4725
+NoConn ~ 8075 4900
 $EndSCHEMATC
