@@ -2630,7 +2630,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 9950 4500 10050
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 690C9E37
 P 15775 9625
 AR Path="/61A19323/690C9E37" Ref="TP?"  Part="1" 
@@ -2638,7 +2638,7 @@ AR Path="/6197686D/690C9E37" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/690C9E37" Ref="TP76"  Part="1" 
 F 0 "TP76" H 15687 9672 50  0000 R CNN
 F 1 "TP" H 15775 9625 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 15775 9625 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 15775 9625 50  0001 C CNN
 F 3 "" H 15775 9625 50  0001 C CNN
 	1    15775 9625
 	-1   0    0    1   
@@ -2658,7 +2658,7 @@ F 3 "" H 15775 9725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 690E474A
 P 13675 8625
 AR Path="/61A19323/690E474A" Ref="TP?"  Part="1" 
@@ -2666,13 +2666,13 @@ AR Path="/6197686D/690E474A" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/690E474A" Ref="TP72"  Part="1" 
 F 0 "TP72" H 13587 8672 50  0000 R CNN
 F 1 "TP" H 13675 8625 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 13675 8625 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 13675 8625 50  0001 C CNN
 F 3 "" H 13675 8625 50  0001 C CNN
 	1    13675 8625
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 690F9833
 P 13675 7250
 AR Path="/61A19323/690F9833" Ref="TP?"  Part="1" 
@@ -2680,13 +2680,13 @@ AR Path="/6197686D/690F9833" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/690F9833" Ref="TP71"  Part="1" 
 F 0 "TP71" H 13587 7297 50  0000 R CNN
 F 1 "TP" H 13675 7250 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 13675 7250 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 13675 7250 50  0001 C CNN
 F 3 "" H 13675 7250 50  0001 C CNN
 	1    13675 7250
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 6910E9CD
 P 13675 5875
 AR Path="/61A19323/6910E9CD" Ref="TP?"  Part="1" 
@@ -2694,13 +2694,13 @@ AR Path="/6197686D/6910E9CD" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/6910E9CD" Ref="TP70"  Part="1" 
 F 0 "TP70" H 13587 5922 50  0000 R CNN
 F 1 "TP" H 13675 5875 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 13675 5875 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 13675 5875 50  0001 C CNN
 F 3 "" H 13675 5875 50  0001 C CNN
 	1    13675 5875
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 69126DDC
 P 11050 8625
 AR Path="/61A19323/69126DDC" Ref="TP?"  Part="1" 
@@ -2708,13 +2708,13 @@ AR Path="/6197686D/69126DDC" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/69126DDC" Ref="TP63"  Part="1" 
 F 0 "TP63" H 10962 8672 50  0000 R CNN
 F 1 "TP" H 11050 8625 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 11050 8625 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 11050 8625 50  0001 C CNN
 F 3 "" H 11050 8625 50  0001 C CNN
 	1    11050 8625
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 6913B626
 P 11050 7250
 AR Path="/61A19323/6913B626" Ref="TP?"  Part="1" 
@@ -2722,13 +2722,13 @@ AR Path="/6197686D/6913B626" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/6913B626" Ref="TP62"  Part="1" 
 F 0 "TP62" H 10962 7297 50  0000 R CNN
 F 1 "TP" H 11050 7250 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 11050 7250 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 11050 7250 50  0001 C CNN
 F 3 "" H 11050 7250 50  0001 C CNN
 	1    11050 7250
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 6914FF07
 P 11050 5875
 AR Path="/61A19323/6914FF07" Ref="TP?"  Part="1" 
@@ -2736,13 +2736,13 @@ AR Path="/6197686D/6914FF07" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/6914FF07" Ref="TP61"  Part="1" 
 F 0 "TP61" H 10962 5922 50  0000 R CNN
 F 1 "TP" H 11050 5875 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 11050 5875 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 11050 5875 50  0001 C CNN
 F 3 "" H 11050 5875 50  0001 C CNN
 	1    11050 5875
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 6919484F
 P 15825 3875
 AR Path="/61A19323/6919484F" Ref="TP?"  Part="1" 
@@ -2750,7 +2750,7 @@ AR Path="/6197686D/6919484F" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/6919484F" Ref="TP77"  Part="1" 
 F 0 "TP77" H 15737 3922 50  0000 R CNN
 F 1 "TP" H 15825 3875 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 15825 3875 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 15825 3875 50  0001 C CNN
 F 3 "" H 15825 3875 50  0001 C CNN
 	1    15825 3875
 	-1   0    0    1   
@@ -2770,7 +2770,7 @@ F 3 "" H 15825 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 691B0870
 P 7725 10750
 AR Path="/61A19323/691B0870" Ref="TP?"  Part="1" 
@@ -2778,7 +2778,7 @@ AR Path="/6197686D/691B0870" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/691B0870" Ref="TP58"  Part="1" 
 F 0 "TP58" H 7637 10797 50  0000 R CNN
 F 1 "TP" H 7725 10750 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 7725 10750 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 7725 10750 50  0001 C CNN
 F 3 "" H 7725 10750 50  0001 C CNN
 	1    7725 10750
 	-1   0    0    1   
@@ -2798,7 +2798,7 @@ F 3 "" H 7725 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 69259420
 P 6275 2050
 AR Path="/61A19323/69259420" Ref="TP?"  Part="1" 
@@ -2806,7 +2806,7 @@ AR Path="/6197686D/69259420" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/69259420" Ref="TP56"  Part="1" 
 F 0 "TP56" H 6187 2097 50  0000 R CNN
 F 1 "TP" H 6275 2050 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 6275 2050 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 6275 2050 50  0001 C CNN
 F 3 "" H 6275 2050 50  0001 C CNN
 	1    6275 2050
 	-1   0    0    1   
@@ -2863,7 +2863,7 @@ F 3 "" H 6600 6300 60  0001 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 692F4DBB
 P 15675 7825
 AR Path="/61A19323/692F4DBB" Ref="TP?"  Part="1" 
@@ -2871,7 +2871,7 @@ AR Path="/6197686D/692F4DBB" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/692F4DBB" Ref="TP75"  Part="1" 
 F 0 "TP75" H 15587 7872 50  0000 R CNN
 F 1 "TP" H 15675 7825 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 15675 7825 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 15675 7825 50  0001 C CNN
 F 3 "" H 15675 7825 50  0001 C CNN
 	1    15675 7825
 	-1   0    0    1   
@@ -2891,7 +2891,7 @@ F 3 "" H 15675 7925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 6930A4DE
 P 15650 6200
 AR Path="/61A19323/6930A4DE" Ref="TP?"  Part="1" 
@@ -2899,7 +2899,7 @@ AR Path="/6197686D/6930A4DE" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/6930A4DE" Ref="TP74"  Part="1" 
 F 0 "TP74" H 15562 6247 50  0000 R CNN
 F 1 "TP" H 15650 6200 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 15650 6200 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 15650 6200 50  0001 C CNN
 F 3 "" H 15650 6200 50  0001 C CNN
 	1    15650 6200
 	-1   0    0    1   
@@ -2991,7 +2991,7 @@ F 3 "" H 5075 4950 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 6952B6EC
 P 14775 2625
 AR Path="/61A19323/6952B6EC" Ref="TP?"  Part="1" 
@@ -2999,7 +2999,7 @@ AR Path="/6197686D/6952B6EC" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/6952B6EC" Ref="TP73"  Part="1" 
 F 0 "TP73" H 14687 2672 50  0000 R CNN
 F 1 "TP" H 14775 2625 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 14775 2625 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 14775 2625 50  0001 C CNN
 F 3 "" H 14775 2625 50  0001 C CNN
 	1    14775 2625
 	-1   0    0    1   
@@ -3007,7 +3007,7 @@ $EndComp
 Wire Wire Line
 	13275 1650 15525 1650
 $Comp
-L antmicroTestPoints:TP TP?
+L sa800u-baseboard-hw:TP TP?
 U 1 1 69774848
 P 12450 2625
 AR Path="/61A19323/69774848" Ref="TP?"  Part="1" 
@@ -3015,7 +3015,7 @@ AR Path="/6197686D/69774848" Ref="TP?"  Part="1"
 AR Path="/61B0DC30/69774848" Ref="TP68"  Part="1" 
 F 0 "TP68" H 12400 2675 50  0000 R CNN
 F 1 "TP" H 12450 2625 50  0001 C CNN
-F 2 "antmicro-footprints:TP-R-1.5" H 12450 2625 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 12450 2625 50  0001 C CNN
 F 3 "" H 12450 2625 50  0001 C CNN
 	1    12450 2625
 	-1   0    0    1   
