@@ -1055,7 +1055,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 62156ACD)
+  (module sa800u-baseboard-hw-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 62156ACD)
     (at 83.75 127.6 90)
     (path /61B0DC30/678DFC23)
     (attr smd)
@@ -1083,14 +1083,14 @@
       (net 79 VDD))
     (pad 2 smd rect (at 0.7 0 90) (size 0.6 0.8) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 621473B2)
+  (module sa800u-baseboard-hw-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 621473B2)
     (at 82.25 127.59 90)
     (path /61B0DC30/6781A42D)
     (attr smd)
@@ -1118,14 +1118,14 @@
       (net 79 VDD))
     (pad 2 smd rect (at 0.7 0 90) (size 0.6 0.8) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6214739E)
+  (module sa800u-baseboard-hw-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6214739E)
     (at 76.6 146.8 180)
     (path /61B0DC30/677D3EE8)
     (attr smd)
@@ -1153,14 +1153,14 @@
       (net 184 /PSU/AUX_VDD))
     (pad 2 smd rect (at 0.7 0 180) (size 0.6 0.8) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6214730E)
+  (module sa800u-baseboard-hw-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 6214730E)
     (at 76.6 145.3 180)
     (path /61B0DC30/677D1049)
     (attr smd)
@@ -1188,7 +1188,7 @@
       (net 184 /PSU/AUX_VDD))
     (pad 2 smd rect (at 0.7 0 180) (size 0.6 0.8) (layers B.Cu B.Paste B.Mask)
       (net 1 GND))
-    (model ${ANT3DMDL}/0603-cap.step
+    (model ${KIPRJMOD}/lib/3d-models/0603-cap.step
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
