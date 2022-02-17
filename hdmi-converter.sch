@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 13
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -162,23 +162,23 @@ F 3 "" H 3450 8425 50  0001 C CNN
 	1    3450 8425
 	1    0    0    -1  
 $EndComp
-Text GLabel 1375 5425 0    50   Input ~ 0
+Text GLabel 1175 5425 0    50   Input ~ 0
 DSI1_LN3_N
-Text GLabel 1375 5525 0    50   Input ~ 0
+Text GLabel 1175 5525 0    50   Input ~ 0
 DSI1_LN3_P
-Text GLabel 1375 5625 0    50   Input ~ 0
+Text GLabel 1175 5625 0    50   Input ~ 0
 DSI1_LN2_N
-Text GLabel 1375 5725 0    50   Input ~ 0
+Text GLabel 1175 5725 0    50   Input ~ 0
 DSI1_LN2_P
-Text GLabel 1375 5825 0    50   Input ~ 0
+Text GLabel 1175 5825 0    50   Input ~ 0
 DSI1_CLK_N
-Text GLabel 1375 5925 0    50   Input ~ 0
+Text GLabel 1175 5925 0    50   Input ~ 0
 DSI1_CLK_P
-Text GLabel 1375 6025 0    50   Input ~ 0
+Text GLabel 1175 6025 0    50   Input ~ 0
 DSI1_LN1_N
-Text GLabel 1375 6125 0    50   Input ~ 0
+Text GLabel 1175 6125 0    50   Input ~ 0
 DSI1_LN1_P
-Text GLabel 1375 6225 0    50   Input ~ 0
+Text GLabel 1175 6225 0    50   Input ~ 0
 DSI1_LN0_N
 $Comp
 L sa800u-baseboard-hw:46756-1001 J2
@@ -212,13 +212,13 @@ Wire Wire Line
 Wire Wire Line
 	1700 10500 1550 10500
 Wire Wire Line
-	2500 10500 2650 10500
+	2500 10500 3350 10500
 Wire Wire Line
-	2500 10100 2650 10100
+	2500 10100 3350 10100
 Wire Wire Line
-	2500 10300 2650 10300
+	2500 10300 3350 10300
 Wire Wire Line
-	2500 9900 2650 9900
+	2500 9900 3350 9900
 Wire Wire Line
 	2000 9400 2000 9500
 $Comp
@@ -691,7 +691,7 @@ F 6 "20k" V 11078 3045 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 1425 5225
 Wire Wire Line
-	1425 5225 1375 5225
+	1425 5225 675  5225
 Text GLabel 925  775  0    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
@@ -1461,7 +1461,7 @@ F 6 "50R" V 9328 6080 50  0000 R CNN "Val"
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8875 7950 12425 7950
+	8550 7950 12425 7950
 $Comp
 L sa800u-baseboard-hw:GND #PWR036
 U 1 1 6249C17C
@@ -1736,11 +1736,11 @@ Connection ~ 1725 4425
 Connection ~ 1725 5125
 Connection ~ 2025 5025
 Wire Wire Line
-	1375 5125 1725 5125
+	675  5125 1725 5125
 Wire Wire Line
 	1425 4425 1725 4425
 Wire Wire Line
-	1375 5025 2025 5025
+	675  5025 2025 5025
 Wire Wire Line
 	1725 4425 2025 4425
 Connection ~ 2025 4425
@@ -2107,40 +2107,40 @@ Wire Wire Line
 	10175 5900 10475 5900
 Text Label 7175 8075 2    50   ~ 0
 VCOM
-Text Label 8875 6400 0    50   ~ 0
+Text Label 8550 6400 0    50   ~ 0
 HDMI_TX_D2_P
-Text Label 8875 6500 0    50   ~ 0
+Text Label 8550 6500 0    50   ~ 0
 HDMI_TX_D2_N
-Text Label 8875 6800 0    50   ~ 0
+Text Label 8550 6800 0    50   ~ 0
 HDMI_TX_D1_N
-Text Label 8875 7100 0    50   ~ 0
+Text Label 8550 7100 0    50   ~ 0
 HDMI_TX_D0_N
-Text Label 8875 7400 0    50   ~ 0
+Text Label 8550 7400 0    50   ~ 0
 HDMI_TX_CLK_N
-Text Label 8875 6700 0    50   ~ 0
+Text Label 8550 6700 0    50   ~ 0
 HDMI_TX_D1_P
-Text Label 8875 7000 0    50   ~ 0
+Text Label 8550 7000 0    50   ~ 0
 HDMI_TX_D0_P
-Text Label 8875 7300 0    50   ~ 0
+Text Label 8550 7300 0    50   ~ 0
 HDMI_TX_CLK_P
-Text Label 6350 10175 2    50   ~ 0
+Text Label 6050 10175 0    50   ~ 0
 LT9611_CEC
 Wire Wire Line
-	8875 6400 11375 6400
+	8550 6400 11375 6400
 Wire Wire Line
-	8875 6500 11075 6500
+	8550 6500 11075 6500
 Wire Wire Line
-	8875 7000 10175 7000
+	8550 7000 10175 7000
 Wire Wire Line
-	8875 7100 9875 7100
+	8550 7100 9875 7100
 Wire Wire Line
-	8875 7400 9275 7400
+	8550 7400 9275 7400
 Wire Wire Line
-	8875 7300 9575 7300
+	8550 7300 9575 7300
 Wire Wire Line
-	8875 6800 10475 6800
+	8550 6800 10475 6800
 Wire Wire Line
-	8875 6700 10775 6700
+	8550 6700 10775 6700
 Wire Wire Line
 	1700 9700 1650 9700
 Wire Wire Line
@@ -2211,21 +2211,21 @@ Wire Wire Line
 	3300 9100 3300 9275
 Wire Wire Line
 	3050 9100 3300 9100
-Text Label 1375 6525 2    50   ~ 0
+Text Label 700  6525 0    50   ~ 0
 LT9611_I2S_WS
-Text Label 1375 6625 2    50   ~ 0
+Text Label 700  6625 0    50   ~ 0
 LT9611_I2S_SCLK
-Text Label 1375 6725 2    50   ~ 0
+Text Label 700  6725 0    50   ~ 0
 LT9611_I2S_MCLK
-Text Label 1375 6825 2    50   ~ 0
+Text Label 700  6825 0    50   ~ 0
 LT9611_I2S_D0_SPDIF
-Text Label 2650 9900 0    50   ~ 0
+Text Label 3350 9900 2    50   ~ 0
 LT9611_I2S_WS
-Text Label 2650 10100 0    50   ~ 0
+Text Label 3350 10100 2    50   ~ 0
 LT9611_I2S_SCLK
-Text Label 2650 10300 0    50   ~ 0
+Text Label 3350 10300 2    50   ~ 0
 LT9611_I2S_MCLK
-Text Label 2650 10500 0    50   ~ 0
+Text Label 3350 10500 2    50   ~ 0
 LT9611_I2S_D0_SPDIF
 Wire Wire Line
 	1700 9900 1550 9900
@@ -2255,7 +2255,7 @@ Wire Wire Line
 	5300 9700 5300 9750
 Connection ~ 5300 9750
 Wire Wire Line
-	5300 9750 5500 9750
+	5300 9750 6025 9750
 Wire Wire Line
 	5250 10575 5300 10575
 Wire Wire Line
@@ -2285,9 +2285,9 @@ Wire Wire Line
 Connection ~ 5300 10575
 Wire Wire Line
 	5300 10575 5425 10575
-Text Label 1375 5225 2    50   ~ 0
+Text Label 675  5225 0    50   ~ 0
 LT9611_RST_N
-Text Label 1375 4925 2    50   ~ 0
+Text Label 675  4925 0    50   ~ 0
 LT9611_INTO_GPIO5
 Wire Wire Line
 	7000 10175 7050 10175
@@ -2295,15 +2295,15 @@ Connection ~ 6550 10175
 Wire Wire Line
 	6550 10175 6600 10175
 Wire Wire Line
-	6350 10175 6550 10175
+	6050 10175 6550 10175
 Text GLabel 6650 9325 0    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
 	7050 10125 7050 10175
 Connection ~ 7050 10175
 Wire Wire Line
-	7050 10175 7250 10175
-Text Label 7250 10175 0    50   ~ 0
+	7050 10175 7675 10175
+Text Label 7675 10175 2    50   ~ 0
 HDMI_CEC
 Wire Wire Line
 	6550 10175 6550 10550
@@ -2555,37 +2555,37 @@ Wire Wire Line
 Connection ~ 9275 9325
 Connection ~ 5425 10575
 Wire Wire Line
-	5425 10575 5500 10575
+	5425 10575 6025 10575
 Text Notes 5750 10900 0    50   ~ 0
 Note:\nplace close to\npin 17 of U2
 Wire Wire Line
-	1375 5425 3500 5425
+	1175 5425 3500 5425
 Wire Wire Line
-	1375 5525 3500 5525
+	1175 5525 3500 5525
 Wire Wire Line
-	1375 5625 3500 5625
+	1175 5625 3500 5625
 Wire Wire Line
-	1375 5725 3500 5725
+	1175 5725 3500 5725
 Wire Wire Line
-	1375 5825 3500 5825
+	1175 5825 3500 5825
 Wire Wire Line
-	1375 5925 3500 5925
+	1175 5925 3500 5925
 Wire Wire Line
-	1375 6025 3500 6025
+	1175 6025 3500 6025
 Wire Wire Line
-	1375 6125 3500 6125
+	1175 6125 3500 6125
 Wire Wire Line
-	1375 6225 3500 6225
+	1175 6225 3500 6225
 Wire Wire Line
-	1375 6325 3500 6325
+	1175 6325 3500 6325
 Wire Wire Line
-	1375 6525 3500 6525
+	700  6525 3500 6525
 Wire Wire Line
-	1375 6625 3500 6625
+	700  6625 3500 6625
 Wire Wire Line
-	1375 6725 3500 6725
+	700  6725 3500 6725
 Wire Wire Line
-	1375 6825 3500 6825
+	700  6825 3500 6825
 Wire Wire Line
 	1375 7875 3500 7875
 Wire Wire Line
@@ -2673,11 +2673,11 @@ F 5 "ON Semiconductor" H 7000 11275 60  0001 L CNN "Manufacturer"
 	1    6800 10175
 	0    1    1    0   
 $EndComp
-Text Label 1375 5025 2    50   ~ 0
+Text Label 675  5025 0    50   ~ 0
 LT9611_SCL
-Text Label 1375 5125 2    50   ~ 0
+Text Label 675  5125 0    50   ~ 0
 LT9611_SDA
-Text Label 8875 7950 0    50   ~ 0
+Text Label 8550 7950 0    50   ~ 0
 VCOM
 Text GLabel 1550 9400 0    50   Input ~ 0
 VREG_S4A_1V8
@@ -2887,7 +2887,7 @@ Text GLabel 6250 4575 0    50   Input ~ 0
 5V_SYS
 Wire Wire Line
 	4800 4925 5625 4925
-Text GLabel 1375 6325 0    50   Input ~ 0
+Text GLabel 1175 6325 0    50   Input ~ 0
 DSI1_LN0_P
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C151
@@ -3248,9 +3248,9 @@ Wire Wire Line
 	10025 2325 11725 2325
 Wire Wire Line
 	11625 2225 11625 3425
-Text Label 5500 10575 0    50   ~ 0
+Text Label 6025 10575 2    50   ~ 0
 LT9611_RST_N
-Text Label 5500 9750 0    50   ~ 0
+Text Label 6025 9750 2    50   ~ 0
 LT9611_INTO_GPIO5
 $Comp
 L sa800u-baseboard-hw:TP_SMD_0_75MM TP12
@@ -3461,7 +3461,7 @@ Wire Wire Line
 Wire Wire Line
 	2025 5275 2025 5025
 Wire Wire Line
-	1375 4925 2350 4925
+	675  4925 2350 4925
 Wire Wire Line
 	2350 5275 2350 4925
 $Comp

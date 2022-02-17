@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 13
+Sheet 4 12
 Title ""
 Date ""
 Rev ""
@@ -232,7 +232,7 @@ Connection ~ 900  5475
 Text GLabel 1000 6025 0    50   Input ~ 0
 5V_SYS
 Wire Wire Line
-	1150 6225 1350 6225
+	675  6225 1350 6225
 Wire Wire Line
 	700  6425 700  6475
 $Comp
@@ -401,7 +401,7 @@ Text Label 3750 6675 2    50   ~ 0
 USB2_SINK_5V
 Text Label 3750 6525 2    50   ~ 0
 USB2_FAULT_5V
-Text Label 1150 6225 2    50   ~ 0
+Text Label 675  6225 0    50   ~ 0
 USB2_EN_5V
 $Comp
 L sa800u-baseboard-hw:GND #PWR?
@@ -634,23 +634,10 @@ Wire Wire Line
 	14350 6875 14350 6925
 NoConn ~ 13300 6475
 Wire Wire Line
-	14300 6275 14450 6275
+	14300 6275 14850 6275
 Wire Wire Line
-	14300 6375 14450 6375
+	14300 6375 14850 6375
 NoConn ~ 14300 6175
-$Comp
-L sa800u-baseboard-hw:GND #PWR0200
-U 1 1 6207ED3B
-P 13200 5775
-AR Path="/61A2F307/6207ED3B" Ref="#PWR0200"  Part="1" 
-AR Path="/628CDA4A/6207ED3B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0200" H 13200 5525 50  0001 C CNN
-F 1 "GND" V 13205 5647 50  0000 R CNN
-F 2 "" H 13200 5775 50  0001 C CNN
-F 3 "" H 13200 5775 50  0001 C CNN
-	1    13200 5775
-	0    1    1    0   
-$EndComp
 $Comp
 L sa800u-baseboard-hw:GND #PWR0201
 U 1 1 620C9A67
@@ -665,9 +652,9 @@ F 3 "" H 14400 5775 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	13200 6275 13300 6275
+	12750 6275 13300 6275
 Wire Wire Line
-	13200 6375 13300 6375
+	12750 6375 13300 6375
 NoConn ~ 13300 5975
 Wire Wire Line
 	13200 5775 13300 5775
@@ -682,22 +669,22 @@ NoConn ~ 13300 6675
 NoConn ~ 13300 6775
 NoConn ~ 14300 6475
 NoConn ~ 13300 6175
-Text Label 14350 6075 0    50   ~ 0
+Text Label 14850 6075 2    50   ~ 0
 DBG_VBUS
 Wire Wire Line
-	14350 6075 14300 6075
-Text Label 14350 6575 0    50   ~ 0
+	14850 6075 14300 6075
+Text Label 14850 6575 2    50   ~ 0
 DBG_VBUS
 Wire Wire Line
-	14350 6575 14300 6575
-Text Label 13250 6075 2    50   ~ 0
+	14850 6575 14300 6575
+Text Label 12750 6075 0    50   ~ 0
 DBG_VBUS
 Wire Wire Line
-	13250 6075 13300 6075
-Text Label 13250 6575 2    50   ~ 0
+	12750 6075 13300 6075
+Text Label 12750 6575 0    50   ~ 0
 DBG_VBUS
 Wire Wire Line
-	13250 6575 13300 6575
+	12750 6575 13300 6575
 $Comp
 L sa800u-baseboard-hw:TPS7A0518PDBVT IC3
 U 1 1 6231D5C2
@@ -729,17 +716,17 @@ F 3 "" H 13525 8475 50  0001 C CNN
 	1    13525 8475
 	1    0    0    -1  
 $EndComp
-Text Label 13200 6275 2    50   ~ 0
+Text Label 12750 6275 0    50   ~ 0
 DBG_USB_D_P
-Text Label 14450 6375 0    50   ~ 0
+Text Label 14850 6375 2    50   ~ 0
 DBG_USB_D_P
-Text Label 14450 6275 0    50   ~ 0
+Text Label 14850 6275 2    50   ~ 0
 DBG_USB_D_N
-Text Label 13200 6375 2    50   ~ 0
+Text Label 12750 6375 0    50   ~ 0
 DBG_USB_D_N
-Text Label 13800 8000 2    50   ~ 0
+Text Label 13525 8025 0    50   ~ 0
 DBG_USB_D_P
-Text Label 13800 7900 2    50   ~ 0
+Text Label 13525 7925 0    50   ~ 0
 DBG_USB_D_N
 $Comp
 L sa800u-baseboard-hw:BLM18EG221SN1D FB4
@@ -754,14 +741,14 @@ F 5 "Murata" H 15150 3600 60  0001 L CNN "Manufacturer"
 	1    14950 2500
 	1    0    0    -1  
 $EndComp
-Text Label 15350 2500 0    50   ~ 0
+Text Label 15700 2500 2    50   ~ 0
 5V0_DBG
 Wire Wire Line
-	15350 2500 15250 2500
-Text Label 13475 1550 2    50   ~ 0
+	15700 2500 15250 2500
+Text Label 13200 1550 0    50   ~ 0
 5V0_DBG
 Wire Wire Line
-	13475 1550 13575 1550
+	13200 1550 13575 1550
 $Comp
 L sa800u-baseboard-hw:C_2u2_0603 C130
 U 1 1 6252AA2E
@@ -866,8 +853,8 @@ F 3 "" H 14925 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14550 2500 14650 2500
-Text Label 14550 2500 2    50   ~ 0
+	14175 2500 14650 2500
+Text Label 14175 2500 0    50   ~ 0
 DBG_VBUS
 $Comp
 L sa800u-baseboard-hw:PWR_FLAG #FLG0120
@@ -931,7 +918,7 @@ F 3 "" H 13825 5025 50  0001 C CNN
 	1    13825 5025
 	1    0    0    -1  
 $EndComp
-Text Label 15175 3375 0    50   ~ 0
+Text Label 15500 3375 2    50   ~ 0
 5V0_DBG
 Text GLabel 13050 3375 0    50   Input ~ 0
 1V8_DBG
@@ -1005,9 +992,9 @@ Wire Wire Line
 	13325 4475 13275 4475
 Wire Wire Line
 	13275 4575 13325 4575
-Text Label 15275 4475 0    50   ~ 0
+Text Label 15775 4475 2    50   ~ 0
 DBG_USB_D_P
-Text Label 15275 4575 0    50   ~ 0
+Text Label 15775 4575 2    50   ~ 0
 DBG_USB_D_N
 $Comp
 L sa800u-baseboard-hw:C_100n_0402 C129
@@ -1040,7 +1027,7 @@ $EndComp
 Wire Wire Line
 	13050 3375 13125 3375
 Wire Wire Line
-	15175 3375 15075 3375
+	15500 3375 15075 3375
 Wire Wire Line
 	13125 3525 13125 3375
 Connection ~ 13125 3375
@@ -1164,10 +1151,10 @@ Wire Wire Line
 Wire Wire Line
 	15175 4475 15175 4600
 Wire Wire Line
-	14775 4575 15275 4575
+	14775 4575 15775 4575
 Connection ~ 14775 4575
 Wire Wire Line
-	15175 4475 15275 4475
+	15175 4475 15775 4475
 Connection ~ 15175 4475
 Text Label 3550 6025 2    50   ~ 0
 USB2_5V
@@ -1795,16 +1782,16 @@ Wire Wire Line
 Wire Wire Line
 	9350 6150 9150 6150
 Wire Wire Line
-	8150 5750 8350 5750
+	7725 5750 8350 5750
 Wire Wire Line
-	8150 5950 8350 5950
+	7725 5950 8350 5950
 Wire Wire Line
-	8350 6150 8150 6150
-Text Label 8150 6150 2    50   ~ 0
+	8350 6150 7725 6150
+Text Label 7725 6150 0    50   ~ 0
 USB2_EN_5V
-Text Label 8150 5950 2    50   ~ 0
+Text Label 7725 5950 0    50   ~ 0
 USB2_FAULT_5V
-Text Label 8150 5750 2    50   ~ 0
+Text Label 7725 5750 0    50   ~ 0
 USB2_SINK_5V
 Wire Wire Line
 	9350 5250 9200 5250
@@ -2195,19 +2182,19 @@ USB1C_TX1_C_P
 Text Label 9450 2025 2    50   ~ 0
 USB1C_RX0_C_N
 Wire Wire Line
-	14125 8000 14125 8350
-Text Label 13800 8225 2    50   ~ 0
+	14125 8025 14125 8350
+Text Label 13525 8225 0    50   ~ 0
 DBG_VBUS
 Wire Wire Line
-	13800 8225 13925 8225
+	13525 8225 13925 8225
 Wire Wire Line
 	13925 8225 13925 8350
-Text Label 13800 8125 2    50   ~ 0
+Text Label 13525 8125 0    50   ~ 0
 DBG_VBUS
 Wire Wire Line
-	14225 7900 14225 8350
+	14225 7925 14225 8350
 Wire Wire Line
-	13800 7900 14225 7900
+	13525 7925 14225 7925
 Text GLabel 5675 2425 0    50   BiDi ~ 0
 USB1_D_N
 Text GLabel 5675 2325 0    50   BiDi ~ 0
@@ -2262,12 +2249,10 @@ F 6 "10u" H 3215 6122 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	10625 9200 10625 9750
-Text Label 9625 9475 0    50   ~ 0
-USB2_CC1
 Wire Wire Line
-	13800 8000 14125 8000
+	13525 8025 14125 8025
 Wire Wire Line
-	13800 8125 14025 8125
+	13525 8125 14025 8125
 Wire Wire Line
 	14025 8125 14025 8350
 Wire Wire Line
@@ -2583,4 +2568,17 @@ Wire Wire Line
 	7075 3400 7075 3775
 Wire Wire Line
 	6725 3300 7175 3300
+$Comp
+L sa800u-baseboard-hw:GND #PWR0200
+U 1 1 6207ED3B
+P 13200 5775
+AR Path="/61A2F307/6207ED3B" Ref="#PWR0200"  Part="1" 
+AR Path="/628CDA4A/6207ED3B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0200" H 13200 5525 50  0001 C CNN
+F 1 "GND" V 13205 5647 50  0000 R CNN
+F 2 "" H 13200 5775 50  0001 C CNN
+F 3 "" H 13200 5775 50  0001 C CNN
+	1    13200 5775
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
