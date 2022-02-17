@@ -2751,11 +2751,7 @@ F 3 "" H 14825 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14375 5750 14775 5750
-Wire Wire Line
 	14425 4650 14825 4650
-Wire Wire Line
-	14425 3550 14825 3550
 Wire Wire Line
 	14825 3550 14825 3600
 $Comp
@@ -2815,57 +2811,19 @@ $EndComp
 Connection ~ 14825 2400
 Wire Wire Line
 	14825 2400 15125 2400
-Connection ~ 14425 2400
-Wire Wire Line
-	14425 2400 14825 2400
 $Comp
 L sa800u-baseboard-hw:GND #PWR0138
 U 1 1 623C59A8
-P 13775 2950
-F 0 "#PWR0138" H 13775 2700 50  0001 C CNN
-F 1 "GND" H 13780 2777 50  0000 C CNN
-F 2 "" H 13775 2950 50  0001 C CNN
-F 3 "" H 13775 2950 50  0001 C CNN
-	1    13775 2950
+P 13925 2550
+F 0 "#PWR0138" H 13925 2300 50  0001 C CNN
+F 1 "GND" H 13930 2377 50  0000 C CNN
+F 2 "" H 13925 2550 50  0001 C CNN
+F 3 "" H 13925 2550 50  0001 C CNN
+	1    13925 2550
 	1    0    0    -1  
 $EndComp
-Connection ~ 13775 2850
 Wire Wire Line
-	13775 2850 13775 2950
-$Comp
-L sa800u-baseboard-hw:GND #PWR0139
-U 1 1 62391617
-P 13775 4100
-F 0 "#PWR0139" H 13775 3850 50  0001 C CNN
-F 1 "GND" H 13780 3927 50  0000 C CNN
-F 2 "" H 13775 4100 50  0001 C CNN
-F 3 "" H 13775 4100 50  0001 C CNN
-	1    13775 4100
-	1    0    0    -1  
-$EndComp
-Connection ~ 13775 4000
-Wire Wire Line
-	13775 4000 13775 4100
-Wire Wire Line
-	14425 2700 14275 2700
-Wire Wire Line
-	14425 2850 14425 2700
-Wire Wire Line
-	13775 2850 14425 2850
-Wire Wire Line
-	13775 2700 13775 2850
-Wire Wire Line
-	13975 2700 13775 2700
-Wire Wire Line
-	14425 2600 14275 2600
-Wire Wire Line
-	14425 2400 14425 2600
-Wire Wire Line
-	13775 2400 14425 2400
-Wire Wire Line
-	13775 2600 13775 2400
-Wire Wire Line
-	13975 2600 13775 2600
+	13975 2500 13925 2500
 $Comp
 L sa800u-baseboard-hw:R_1k_0402 R75
 U 1 1 622FD9DE
@@ -2880,27 +2838,6 @@ F 6 "1k" H 15275 3665 50  0000 C CNN "Val"
 	1    15275 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 14425 3550
-Wire Wire Line
-	13775 3750 13975 3750
-Wire Wire Line
-	13775 3550 13775 3750
-Wire Wire Line
-	14425 3550 13775 3550
-Wire Wire Line
-	14425 3750 14425 3550
-Wire Wire Line
-	14275 3750 14425 3750
-Wire Wire Line
-	14425 3850 14275 3850
-Wire Wire Line
-	14425 4000 14425 3850
-Wire Wire Line
-	13775 4000 14425 4000
-Wire Wire Line
-	13775 3850 13775 4000
-Wire Wire Line
-	13975 3850 13775 3850
 Wire Wire Line
 	15575 4650 15425 4650
 $Comp
@@ -2917,35 +2854,6 @@ F 6 "1k" H 15275 4765 50  0000 C CNN "Val"
 	1    15275 4650
 	1    0    0    -1  
 $EndComp
-Connection ~ 14425 4650
-$Comp
-L sa800u-baseboard-hw:GND #PWR0140
-U 1 1 6208ED35
-P 13775 5200
-F 0 "#PWR0140" H 13775 4950 50  0001 C CNN
-F 1 "GND" H 13780 5027 50  0000 C CNN
-F 2 "" H 13775 5200 50  0001 C CNN
-F 3 "" H 13775 5200 50  0001 C CNN
-	1    13775 5200
-	1    0    0    -1  
-$EndComp
-Connection ~ 13775 5100
-Wire Wire Line
-	14275 4850 14425 4850
-Wire Wire Line
-	14425 4950 14275 4950
-Wire Wire Line
-	14425 5100 14425 4950
-Wire Wire Line
-	13775 5100 14425 5100
-Wire Wire Line
-	13975 4950 13775 4950
-Wire Wire Line
-	13775 4850 13975 4850
-Wire Wire Line
-	14425 4650 13775 4650
-Wire Wire Line
-	14425 4850 14425 4650
 Wire Wire Line
 	15325 5750 15575 5750
 $Comp
@@ -2963,108 +2871,170 @@ F 6 "1k" H 15175 5865 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L sa800u-baseboard-hw:GND #PWR0137
-U 1 1 61DF7B28
-P 13725 6350
-F 0 "#PWR0137" H 13725 6100 50  0001 C CNN
-F 1 "GND" H 13730 6177 50  0000 C CNN
-F 2 "" H 13725 6350 50  0001 C CNN
-F 3 "" H 13725 6350 50  0001 C CNN
-	1    13725 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13725 6050 13925 6050
-Wire Wire Line
-	14375 6200 13725 6200
-Wire Wire Line
-	14375 6050 14375 6200
-Wire Wire Line
-	14225 6050 14375 6050
-Connection ~ 14375 5750
-Wire Wire Line
-	13725 5950 13925 5950
-Wire Wire Line
-	13775 4550 13775 4650
-Wire Wire Line
-	14375 5750 13725 5750
-Wire Wire Line
-	14375 5950 14375 5750
-Wire Wire Line
-	14225 5950 14375 5950
-$Comp
 L sa800u-baseboard-hw:KMR2 S1
 U 1 1 61CA8515
-P 14075 5950
-F 0 "S1" H 14075 6275 50  0000 C CNN
-F 1 "KMR2" H 14075 6200 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14275 6150 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14275 6250 60  0001 L CNN
-F 4 "KMR211NGLFS" H 14271 6343 60  0001 L CNN "MPN"
-F 5 "C&K Components" H 14275 6422 60  0001 L CNN "Manufacturer"
-	1    14075 5950
+P 14075 5750
+F 0 "S1" H 14075 6075 50  0000 C CNN
+F 1 "KMR2" H 14075 6000 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14275 5950 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14275 6050 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14271 6143 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14275 6222 60  0001 L CNN "Manufacturer"
+	1    14075 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:KMR2 S4
 U 1 1 61CA563B
-P 14125 4850
-F 0 "S4" H 14125 5175 50  0000 C CNN
-F 1 "KMR2" H 14125 5100 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14325 5050 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14325 5150 60  0001 L CNN
-F 4 "KMR211NGLFS" H 14321 5243 60  0001 L CNN "MPN"
-F 5 "C&K Components" H 14325 5322 60  0001 L CNN "Manufacturer"
-	1    14125 4850
+P 14125 4650
+F 0 "S4" H 14125 4975 50  0000 C CNN
+F 1 "KMR2" H 14125 4900 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14325 4850 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14325 4950 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14321 5043 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14325 5122 60  0001 L CNN "Manufacturer"
+	1    14125 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:KMR2 S3
 U 1 1 61CA28EE
-P 14125 3750
-F 0 "S3" H 14125 4075 50  0000 C CNN
-F 1 "KMR2" H 14125 4000 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14325 3950 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14325 4050 60  0001 L CNN
-F 4 "KMR211NGLFS" H 14321 4143 60  0001 L CNN "MPN"
-F 5 "C&K Components" H 14325 4222 60  0001 L CNN "Manufacturer"
-	1    14125 3750
+P 14125 3550
+F 0 "S3" H 14125 3875 50  0000 C CNN
+F 1 "KMR2" H 14125 3800 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14325 3750 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14325 3850 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14321 3943 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14325 4022 60  0001 L CNN "Manufacturer"
+	1    14125 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L sa800u-baseboard-hw:KMR2 S2
-U 1 1 61C94E75
-P 14125 2600
-F 0 "S2" H 14125 2925 50  0000 C CNN
-F 1 "KMR2" H 14125 2850 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14325 2800 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14325 2900 60  0001 L CNN
-F 4 "KMR211NGLFS" H 14321 2993 60  0001 L CNN "MPN"
-F 5 "C&K Components" H 14325 3072 60  0001 L CNN "Manufacturer"
-	1    14125 2600
-	1    0    0    -1  
-$EndComp
-Connection ~ 13775 4650
-Connection ~ 13775 4850
-Connection ~ 13775 4950
-Wire Wire Line
-	13775 4950 13775 4850
-Wire Wire Line
-	13775 4650 13775 4850
-Wire Wire Line
-	13775 5100 13775 5200
 Text Notes 13750 2000 0    79   ~ 16
 User buttons
 Text Notes 11500 4275 0    79   ~ 16
 I2C10 pullups
-Wire Wire Line
-	13775 5000 13775 5100
-Wire Wire Line
-	13775 4950 13775 5100
 Text Notes 11550 7575 0    79   ~ 16
 RTC battery
 Text Notes 1450 7850 0    79   ~ 16
 Auto-on
 Text Notes 525  700  0    118  ~ 24
 SoM
+Wire Wire Line
+	13975 2400 13925 2400
+Wire Wire Line
+	13925 2400 13925 2500
+Connection ~ 13925 2500
+Wire Wire Line
+	13925 2500 13925 2550
+$Comp
+L sa800u-baseboard-hw:KMR2 S2
+U 1 1 61C94E75
+P 14125 2400
+F 0 "S2" H 14125 2725 50  0000 C CNN
+F 1 "KMR2" H 14125 2650 50  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_SPST_4.2x2.8" H 14325 2600 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2631211.pdf" H 14325 2700 60  0001 L CNN
+F 4 "KMR211NGLFS" H 14321 2793 60  0001 L CNN "MPN"
+F 5 "C&K Components" H 14325 2872 60  0001 L CNN "Manufacturer"
+	1    14125 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 2500 14325 2500
+Wire Wire Line
+	14325 2500 14325 2400
+Connection ~ 14325 2400
+Wire Wire Line
+	14325 2400 14275 2400
+Wire Wire Line
+	14325 2400 14825 2400
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 675675E3
+P 13925 3700
+F 0 "#PWR?" H 13925 3450 50  0001 C CNN
+F 1 "GND" H 13930 3527 50  0000 C CNN
+F 2 "" H 13925 3700 50  0001 C CNN
+F 3 "" H 13925 3700 50  0001 C CNN
+	1    13925 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13975 3650 13925 3650
+Wire Wire Line
+	13975 3550 13925 3550
+Wire Wire Line
+	13925 3550 13925 3650
+Connection ~ 13925 3650
+Wire Wire Line
+	13925 3650 13925 3700
+Wire Wire Line
+	14275 3650 14325 3650
+Wire Wire Line
+	14325 3650 14325 3550
+Connection ~ 14325 3550
+Wire Wire Line
+	14325 3550 14275 3550
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 675D4443
+P 13925 4800
+F 0 "#PWR?" H 13925 4550 50  0001 C CNN
+F 1 "GND" H 13930 4627 50  0000 C CNN
+F 2 "" H 13925 4800 50  0001 C CNN
+F 3 "" H 13925 4800 50  0001 C CNN
+	1    13925 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13975 4750 13925 4750
+Wire Wire Line
+	13975 4650 13925 4650
+Wire Wire Line
+	13925 4650 13925 4750
+Connection ~ 13925 4750
+Wire Wire Line
+	13925 4750 13925 4800
+Wire Wire Line
+	14275 4750 14325 4750
+Wire Wire Line
+	14325 4750 14325 4650
+Connection ~ 14325 4650
+Wire Wire Line
+	14325 4650 14275 4650
+Wire Wire Line
+	14325 4650 14825 4650
+Wire Wire Line
+	14425 3550 14825 3550
+Wire Wire Line
+	14325 3550 14825 3550
+$Comp
+L sa800u-baseboard-hw:GND #PWR?
+U 1 1 6760B30D
+P 13875 5900
+F 0 "#PWR?" H 13875 5650 50  0001 C CNN
+F 1 "GND" H 13880 5727 50  0000 C CNN
+F 2 "" H 13875 5900 50  0001 C CNN
+F 3 "" H 13875 5900 50  0001 C CNN
+	1    13875 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13925 5850 13875 5850
+Wire Wire Line
+	13925 5750 13875 5750
+Wire Wire Line
+	13875 5750 13875 5850
+Connection ~ 13875 5850
+Wire Wire Line
+	13875 5850 13875 5900
+Wire Wire Line
+	14225 5850 14275 5850
+Wire Wire Line
+	14275 5850 14275 5750
+Connection ~ 14275 5750
+Wire Wire Line
+	14275 5750 14225 5750
+Wire Wire Line
+	14275 5750 14775 5750
 $EndSCHEMATC
