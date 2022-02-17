@@ -2402,14 +2402,14 @@ $EndComp
 $Comp
 L sa800u-baseboard-hw:KP-1608EC D11
 U 1 1 62445534
-P 2500 10000
-F 0 "D11" H 2450 10231 60  0000 C CNN
-F 1 "KP-1608EC" H 2450 10231 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 2700 10200 60  0001 L CNN
-F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 2700 10300 60  0001 L CNN
-F 4 "KP-1608EC" H 2700 10500 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 2710 10620 60  0001 L CNN "Manufacturer"
-	1    2500 10000
+P 2500 9950
+F 0 "D11" H 2450 10181 60  0000 C CNN
+F 1 "KP-1608EC" H 2450 10181 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 2700 10150 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 2700 10250 60  0001 L CNN
+F 4 "KP-1608EC" H 2700 10450 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 2710 10570 60  0001 L CNN "Manufacturer"
+	1    2500 9950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2423,20 +2423,20 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 3150 10550 60  0001 L 
 F 4 "BSS84" H 3150 10750 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 3150 11350 60  0001 L CNN "Manufacturer"
 	1    2950 10250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R147
 U 1 1 63ABECD7
-P 2750 10000
-F 0 "R147" H 2750 9787 60  0000 C CNN
-F 1 "R_10k_0402" H 2750 9850 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2950 10200 60  0001 L CNN
-F 3 "" H 2750 10000 50  0001 C CNN
-F 4 "VISHAY" H 2950 10400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 2950 10300 60  0001 L CNN "MPN"
-F 6 "10k" H 2750 9885 50  0000 C CNN "Val"
-	1    2750 10000
+P 2750 9950
+F 0 "R147" H 2750 9737 60  0000 C CNN
+F 1 "R_10k_0402" H 2750 9800 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 2950 10150 60  0001 L CNN
+F 3 "" H 2750 9950 50  0001 C CNN
+F 4 "VISHAY" H 2950 10350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2950 10250 60  0001 L CNN "MPN"
+F 6 "10k" H 2750 9835 50  0000 C CNN "Val"
+	1    2750 9950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2453,11 +2453,9 @@ F 3 "" H 2950 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2225 10000 2300 10000
+	2225 9950 2300 9950
 Wire Wire Line
-	2900 10000 2950 10000
-Wire Wire Line
-	2950 10000 2950 10050
+	2900 9950 2950 9950
 $Comp
 L sa800u-baseboard-hw:BSS84 Q12
 U 1 1 63CAEF23
@@ -2469,20 +2467,20 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 4700 10550 60  0001 L 
 F 4 "BSS84" H 4700 10750 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 4700 11350 60  0001 L CNN "Manufacturer"
 	1    4500 10250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R167
 U 1 1 63CAEF2E
-P 4300 10000
-F 0 "R167" H 4300 9787 60  0000 C CNN
-F 1 "R_10k_0402" H 4300 9850 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4500 10200 60  0001 L CNN
-F 3 "" H 4300 10000 50  0001 C CNN
-F 4 "VISHAY" H 4500 10400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 4500 10300 60  0001 L CNN "MPN"
-F 6 "10k" H 4300 9885 50  0000 C CNN "Val"
-	1    4300 10000
+P 4300 9950
+F 0 "R167" H 4300 9737 60  0000 C CNN
+F 1 "R_10k_0402" H 4300 9800 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 4500 10150 60  0001 L CNN
+F 3 "" H 4300 9950 50  0001 C CNN
+F 4 "VISHAY" H 4500 10350 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 4500 10250 60  0001 L CNN "MPN"
+F 6 "10k" H 4300 9835 50  0000 C CNN "Val"
+	1    4300 9950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2499,11 +2497,9 @@ F 3 "" H 4500 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3775 10000 3850 10000
+	3775 9950 3850 9950
 Wire Wire Line
-	4450 10000 4500 10000
-Wire Wire Line
-	4500 10000 4500 10050
+	4450 9950 4500 9950
 $Comp
 L sa800u-baseboard-hw:BSS84 Q13
 U 1 1 63CC2578
@@ -2515,20 +2511,20 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 6175 10575 60  0001 L 
 F 4 "BSS84" H 6175 10775 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 6175 11375 60  0001 L CNN "Manufacturer"
 	1    5975 10275
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R168
 U 1 1 63CC2583
-P 5775 10025
-F 0 "R168" H 5775 9812 60  0000 C CNN
-F 1 "R_10k_0402" H 5775 9875 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 5975 10225 60  0001 L CNN
-F 3 "" H 5775 10025 50  0001 C CNN
-F 4 "VISHAY" H 5975 10425 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 5975 10325 60  0001 L CNN "MPN"
-F 6 "10k" H 5775 9910 50  0000 C CNN "Val"
-	1    5775 10025
+P 5775 9975
+F 0 "R168" H 5775 9762 60  0000 C CNN
+F 1 "R_10k_0402" H 5775 9825 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 5975 10175 60  0001 L CNN
+F 3 "" H 5775 9975 50  0001 C CNN
+F 4 "VISHAY" H 5975 10375 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 5975 10275 60  0001 L CNN "MPN"
+F 6 "10k" H 5775 9860 50  0000 C CNN "Val"
+	1    5775 9975
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2545,42 +2541,40 @@ F 3 "" H 5975 10475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 10025 5325 10025
+	5250 9975 5325 9975
 Wire Wire Line
-	5925 10025 5975 10025
-Wire Wire Line
-	5975 10025 5975 10075
+	5925 9975 5975 9975
 $Comp
 L sa800u-baseboard-hw:KP-1608EC D13
 U 1 1 624878AA
-P 4050 10000
-F 0 "D13" H 4000 10231 60  0000 C CNN
-F 1 "KP-1608EC" H 4000 10231 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 4250 10200 60  0001 L CNN
-F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 4250 10300 60  0001 L CNN
-F 4 "KP-1608EC" H 4250 10500 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 4260 10620 60  0001 L CNN "Manufacturer"
-	1    4050 10000
+P 4050 9950
+F 0 "D13" H 4000 10181 60  0000 C CNN
+F 1 "KP-1608EC" H 4000 10181 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 4250 10150 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 4250 10250 60  0001 L CNN
+F 4 "KP-1608EC" H 4250 10450 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 4260 10570 60  0001 L CNN "Manufacturer"
+	1    4050 9950
 	1    0    0    -1  
 $EndComp
 $Comp
 L sa800u-baseboard-hw:KP-1608EC D19
 U 1 1 624C5D37
-P 5525 10025
-F 0 "D19" H 5475 10256 60  0000 C CNN
-F 1 "KP-1608EC" H 5475 10256 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 5725 10225 60  0001 L CNN
-F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 5725 10325 60  0001 L CNN
-F 4 "KP-1608EC" H 5725 10525 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 5735 10645 60  0001 L CNN "Manufacturer"
-	1    5525 10025
+P 5525 9975
+F 0 "D19" H 5475 10206 60  0000 C CNN
+F 1 "KP-1608EC" H 5475 10206 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 5725 10175 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 5725 10275 60  0001 L CNN
+F 4 "KP-1608EC" H 5725 10475 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 5735 10595 60  0001 L CNN "Manufacturer"
+	1    5525 9975
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 10025 0    50   Input ~ 0
+Text GLabel 5250 9975 0    50   Input ~ 0
 VDD
-Text GLabel 3775 10000 0    50   Input ~ 0
+Text GLabel 3775 9950 0    50   Input ~ 0
 VDD
-Text GLabel 2225 10000 0    50   Input ~ 0
+Text GLabel 2225 9950 0    50   Input ~ 0
 VDD
 Connection ~ 6525 5700
 Text Label 7875 6250 2    50   ~ 0
@@ -2589,18 +2583,18 @@ Text Label 7875 6350 2    50   ~ 0
 USB_PD_VALID
 Text Label 7875 6450 2    50   ~ 0
 AUX_VALID
-Text Label 2250 10350 0    50   ~ 0
+Text Label 2025 10150 0    50   ~ 0
 AUX_VALID
 Wire Wire Line
-	2650 10350 2250 10350
-Text Label 5275 10375 0    50   ~ 0
+	2650 10150 2025 10150
+Text Label 5050 10175 0    50   ~ 0
 POE_VALID
-Text Label 3650 10350 0    50   ~ 0
+Text Label 3575 10150 0    50   ~ 0
 USB_PD_VALID
 Wire Wire Line
-	4200 10350 3650 10350
+	4200 10150 3575 10150
 Wire Wire Line
-	5675 10375 5275 10375
+	5675 10175 5050 10175
 Wire Wire Line
 	5850 7400 5850 7450
 Wire Wire Line
@@ -2608,14 +2602,14 @@ Wire Wire Line
 $Comp
 L sa800u-baseboard-hw:KP-1608EC D28
 U 1 1 6408559D
-P 9200 3500
-F 0 "D28" H 9150 3731 60  0000 C CNN
-F 1 "KP-1608EC" H 9150 3731 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 9400 3700 60  0001 L CNN
-F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9400 3800 60  0001 L CNN
-F 4 "KP-1608EC" H 9400 4000 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 9410 4120 60  0001 L CNN "Manufacturer"
-	1    9200 3500
+P 9200 3450
+F 0 "D28" H 9150 3681 60  0000 C CNN
+F 1 "KP-1608EC" H 9150 3681 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:LED_0603" H 9400 3650 60  0001 L CNN
+F 3 "https://www.farnell.com/datasheets/1854072.pdf" H 9400 3750 60  0001 L CNN
+F 4 "KP-1608EC" H 9400 3950 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 9410 4070 60  0001 L CNN "Manufacturer"
+	1    9200 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2629,20 +2623,20 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS84-D.PDF" H 9850 4050 60  0001 L C
 F 4 "BSS84" H 9850 4250 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9850 4850 60  0001 L CNN "Manufacturer"
 	1    9650 3750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L sa800u-baseboard-hw:R_10k_0402 R170
 U 1 1 640855AE
-P 9450 3500
-F 0 "R170" H 9450 3287 60  0000 C CNN
-F 1 "R_10k_0402" H 9450 3350 60  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9650 3700 60  0001 L CNN
-F 3 "" H 9450 3500 50  0001 C CNN
-F 4 "VISHAY" H 9650 3900 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 9650 3800 60  0001 L CNN "MPN"
-F 6 "10k" H 9450 3385 50  0000 C CNN "Val"
-	1    9450 3500
+P 9450 3450
+F 0 "R170" H 9450 3237 60  0000 C CNN
+F 1 "R_10k_0402" H 9450 3300 60  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:0402-res" H 9650 3650 60  0001 L CNN
+F 3 "" H 9450 3450 50  0001 C CNN
+F 4 "VISHAY" H 9650 3850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9650 3750 60  0001 L CNN "MPN"
+F 6 "10k" H 9450 3335 50  0000 C CNN "Val"
+	1    9450 3450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2659,16 +2653,12 @@ F 3 "" H 9650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8925 3500 9000 3500
+	8925 3450 9000 3450
 Wire Wire Line
-	9600 3500 9650 3500
-Wire Wire Line
-	9650 3500 9650 3550
-Wire Wire Line
-	9350 3850 8875 3850
-Text Label 8875 3850 0    50   ~ 0
+	9350 3650 8750 3650
+Text Label 8750 3650 0    50   ~ 0
 BYPASS_EN
-Text GLabel 8925 3500 0    50   Input ~ 0
+Text GLabel 8925 3450 0    50   Input ~ 0
 VDD
 Text GLabel 10975 8725 0    50   Input ~ 0
 5V_SYS
@@ -2839,4 +2829,14 @@ Wire Wire Line
 Connection ~ 3100 2150
 Wire Wire Line
 	3100 2150 3825 2150
+Wire Wire Line
+	9600 3450 9650 3450
+Wire Wire Line
+	9650 3450 9650 3550
+Wire Wire Line
+	2950 9950 2950 10050
+Wire Wire Line
+	5975 9975 5975 10075
+Wire Wire Line
+	4500 9950 4500 10050
 $EndSCHEMATC
