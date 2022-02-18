@@ -2754,7 +2754,7 @@
   )
 
   (module label locked (layer F.Cu) (tedit 620EAFCD) (tstamp 6219B2D2)
-    (at 121.75 148.75 90)
+    (at 107.6 148.9 90)
     (descr "Converted using: scripting")
     (tags svg2mod)
     (attr virtual)
@@ -2829,7 +2829,7 @@
   )
 
   (module label locked (layer F.Cu) (tedit 620EAFC6) (tstamp 62197248)
-    (at 107.75 149.75 90)
+    (at 121.6 149.6 90)
     (descr "Converted using: scripting")
     (tags svg2mod)
     (attr virtual)
