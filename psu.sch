@@ -2079,19 +2079,6 @@ Wire Wire Line
 Wire Wire Line
 	12975 2125 11900 2125
 $Comp
-L sa800u-baseboard-hw:1053131202 J10
-U 1 1 62850090
-P 800 2075
-F 0 "J10" H 908 2240 50  0000 C CNN
-F 1 "1053131202" H 908 2149 50  0000 C CNN
-F 2 "sa800u-baseboard-hw-footprints:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 625 1750 50  0001 C CNN
-F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/1053131202" H 800 2075 50  0001 C CNN
-F 4 "Molex" H 750 1550 50  0001 C CNN "Manufacturer"
-F 5 "1053131202" H 675 1625 50  0001 C CNN "MPN"
-	1    800  2075
-	1    0    0    -1  
-$EndComp
-$Comp
 L sa800u-baseboard-hw:R_13k7_0402 R114
 U 1 1 624B25ED
 P 2925 6450
@@ -3019,5 +3006,18 @@ F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 12450 2625 50  0001 C CNN
 F 3 "" H 12450 2625 50  0001 C CNN
 	1    12450 2625
 	-1   0    0    1   
+$EndComp
+$Comp
+L sa800u-baseboard-hw:Molex_Nano-Fit-1053xx_xx02-horizontal_vertical J10
+U 1 1 621C8BA2
+P 800 2075
+F 0 "J10" H 908 2240 50  0000 C CNN
+F 1 "Molex_Nano-Fit-1053xx_xx02-horizontal_vertical" H 908 2149 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Molex_Nano-Fit_1053xx-xx02_1x02_P2.50mm_Horizontal" H 625 1750 50  0001 C CNN
+F 3 "https://www.molex.com/molex/products/part-detail/pcb_headers/1053131202" H 800 2075 50  0001 C CNN
+F 4 "Molex" H 750 1550 50  0001 C CNN "Manufacturer"
+F 5 "1053131202" H 908 2149 50  0000 C CNN "MPN"
+	1    800  2075
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
