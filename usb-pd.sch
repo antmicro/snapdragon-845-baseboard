@@ -548,8 +548,6 @@ Text Label 9500 7450 0    50   ~ 0
 VREG_2V7
 Text Label 9500 7350 0    50   ~ 0
 VREG_1V2
-Text Label 9500 7250 0    50   ~ 0
-STUSB_VDD
 Connection ~ 8100 5050
 Wire Wire Line
 	8100 5050 8650 5050
@@ -1314,4 +1312,6 @@ F 3 "" H 6975 6800 50  0001 C CNN
 	1    6975 6800
 	1    0    0    -1  
 $EndComp
+Text Label 9500 7250 0    50   ~ 0
+PD_VBUS
 $EndSCHEMATC
