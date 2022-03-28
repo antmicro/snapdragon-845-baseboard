@@ -1,28 +1,24 @@
-=================================
-SA800U (Snapdragon 845) Baseboard
-=================================
+# Antmicro's open source SA800U (Snapdragon 845) Baseboard
 
-Copyright (c) 2022 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-.. figure:: img/sa800u-baseboard-vis.png
+![Baseboard visualization](img/sa800u-baseboard-vis.png)
 
-Overview
---------
+## Overview
 
-This repository contains open hardware design files for an experimental development board for Quectel `SA800-U <https://www.quectel.com/product/sa800u-wf-smart-module>`_ System on Module (SoM) featuring Qualcomm `Snapdragon 845 Mobile Platform <https://www.qualcomm.com/products/application/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-845-mobile-platform>`_.
+This repository contains open hardware design files for an experimental development board for Quectel [SA800-U](https://www.quectel.com/product/sa800u-wf-smart-module) System on Module (SoM) featuring Qualcomm [Snapdragon 845 Mobile Platform](https://www.qualcomm.com/products/application/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-845-mobile-platform).
 This development board break-routes the relevant I/O interfaces from the SoM keeping a small mechanical outline. 
 The design files were prepared in KiCad.
 
-Repository structure
---------------------
+## Repository structure
+
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``lib`` - contains the component libraries
-* ``img`` - contains graphics for this README
+* `lib` - contains the component libraries
+* `img` - contains graphics for this README
 
-Key Features
-------------
+## Key Features
 
 * Quectel SA800U with Qualcomm Snapdragon 845
 * WiFi and Bluetooth
@@ -43,11 +39,10 @@ The board supports multiple power supply scenarios including:
 
 The on-board camera connector is electrically compatible with several video accessories created by Antmicro such as:
  
-* `OV9281 Dual Camera Board <https://github.com/antmicro/ov9281-camera-board>`_
-* `SDI-MIPI bridge <https://github.com/antmicro/sdi-mipi-bridge>`_
-* `HDMI-MIPI bridge <https://github.com/antmicro/hdmi-mipi-bridge>`_
+* [OV9281 Dual Camera Board](https://github.com/antmicro/ov9281-camera-board)
+* [SDI-MIPI bridge](https://github.com/antmicro/sdi-mipi-bridge)
+* [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 
-License
-=======
+## License
 
-`Apache-2.0 <LICENSE>`_
+[Apache-2.0](LICENSE)
