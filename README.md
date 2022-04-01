@@ -2,7 +2,7 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![Baseboard visualization](img/sa800u-baseboard-vis.png)
+![Baseboard visualization](img/sa800u-baseboard.png)
 
 ## Overview
 
