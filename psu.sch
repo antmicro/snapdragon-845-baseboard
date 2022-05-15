@@ -737,14 +737,14 @@ $Comp
 L sa800u-baseboard-hw:Si7223DN Q9
 U 1 1 620A46EF
 P 4175 2550
-F 0 "Q9" V 4196 2122 50  0000 R CNN
-F 1 "Si7223DN" V 4105 2122 50  0000 R CNN
+F 0 "Q9" V 4196 2978 50  0000 L CNN
+F 1 "Si7223DN" V 4105 2978 50  0000 L CNN
 F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 3275 2500 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 4175 2500 50  0001 C CNN
 F 4 "SI7223DN-T1-GE3" H 3475 2550 50  0001 C CNN "MPN"
 F 5 "VISHAY" H 3575 2600 50  0001 C CNN "Manufacturer"
 	1    4175 2550
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4425 2150 4425 2300
@@ -1019,14 +1019,14 @@ $Comp
 L sa800u-baseboard-hw:Si7223DN Q12
 U 1 1 620EF987
 P 5175 4200
-F 0 "Q12" V 5196 3772 50  0000 R CNN
-F 1 "Si7223DN" V 5105 3772 50  0000 R CNN
+F 0 "Q12" V 5196 4628 50  0000 L CNN
+F 1 "Si7223DN" V 5105 4628 50  0000 L CNN
 F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 4275 4150 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 5175 4150 50  0001 C CNN
 F 4 "SI7223DN-T1-GE3" H 4475 4200 50  0001 C CNN "MPN"
 F 5 "VISHAY" H 4575 4250 50  0001 C CNN "Manufacturer"
 	1    5175 4200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4725 3100 4725 2950
@@ -1040,14 +1040,14 @@ $Comp
 L sa800u-baseboard-hw:Si7223DN Q11
 U 1 1 620E8A86
 P 4675 3350
-F 0 "Q11" V 4696 2922 50  0000 R CNN
-F 1 "Si7223DN" V 4605 2922 50  0000 R CNN
+F 0 "Q11" V 4696 3778 50  0000 L CNN
+F 1 "Si7223DN" V 4605 3778 50  0000 L CNN
 F 2 "sa800u-baseboard-hw-footprints:PowerPak-1212" H 3775 3300 50  0001 C CNN
 F 3 "https://www.farnell.com/datasheets/2606257.pdf" H 4675 3300 50  0001 C CNN
 F 4 "SI7223DN-T1-GE3" H 3975 3350 50  0001 C CNN "MPN"
 F 5 "VISHAY" H 4075 3400 50  0001 C CNN "Manufacturer"
 	1    4675 3350
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4225 2300 4225 2150
