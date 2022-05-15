@@ -3205,19 +3205,6 @@ Wire Wire Line
 Wire Wire Line
 	14925 4725 15425 4725
 NoConn ~ 8075 4900
-$Comp
-L sa800u-baseboard-hw:SW_DIP_x02_219-2MSTR SW1
-U 1 1 622ABBD3
-P 11100 10550
-F 0 "SW1" H 11100 10917 50  0000 C CNN
-F 1 "W_DIP_x02_219-2MSTR" H 11100 10825 50  0001 C CNN
-F 2 "sa800u-baseboard-hw-footprints:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin" H 11100 10100 50  0001 C CNN
-F 3 " https://www.ctscorp.com/wp-content/uploads/219.pdf" H 11100 10550 50  0001 C CNN
-F 4 "219-2MSTR" H 11100 10825 50  0000 C CNN "MPN"
-F 5 "CTS" H 11100 10200 50  0001 C CNN "Manufacturer"
-	1    11100 10550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 7500 8075 7500
 Wire Wire Line
@@ -7291,5 +7278,18 @@ F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 4000 9875 50  0001 C CNN
 F 3 "" H 4000 9875 50  0001 C CNN
 	1    4000 9875
 	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroSlideSwitches:CVS-02B SW1
+U 1 1 63D5ED68
+P 11100 10550
+F 0 "SW1" H 11100 10917 50  0000 C CNN
+F 1 "CVS-02B" H 11100 10400 50  0001 C CNN
+F 2 "antmicro-footprints:SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm" H 11100 10100 50  0001 C CNN
+F 3 "https://www.mouser.pl/datasheet/2/972/cvs-1827291.pdf" H 11100 10550 50  0001 C CNN
+F 4 "CVS-02B" H 11100 10826 50  0000 C CNN "MPN"
+F 5 "Nidec Copal" H 11100 10200 50  0001 C CNN "Manufacturer"
+	1    11100 10550
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
