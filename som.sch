@@ -415,16 +415,16 @@ Wire Wire Line
 $Comp
 L sa800u-baseboard-hw:GND #PWR0102
 U 1 1 61B400BB
-P 2125 8925
-F 0 "#PWR0102" H 2125 8675 50  0001 C CNN
-F 1 "GND" V 2130 8797 50  0000 R CNN
-F 2 "" H 2125 8925 50  0001 C CNN
-F 3 "" H 2125 8925 50  0001 C CNN
-	1    2125 8925
+P 2350 8925
+F 0 "#PWR0102" H 2350 8675 50  0001 C CNN
+F 1 "GND" V 2355 8797 50  0000 R CNN
+F 2 "" H 2350 8925 50  0001 C CNN
+F 3 "" H 2350 8925 50  0001 C CNN
+	1    2350 8925
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2475 8925 2125 8925
+	2475 8925 2350 8925
 Wire Wire Line
 	2375 9025 2475 9025
 Wire Wire Line
@@ -446,22 +446,20 @@ Wire Wire Line
 	2475 9425 2375 9425
 Wire Wire Line
 	2375 9425 2375 9325
-Wire Wire Line
-	2375 9025 2275 9025
 Connection ~ 2375 9025
 $Comp
 L sa800u-baseboard-hw:GND #PWR0103
 U 1 1 61B58726
-P 2125 9525
-F 0 "#PWR0103" H 2125 9275 50  0001 C CNN
-F 1 "GND" V 2130 9397 50  0000 R CNN
-F 2 "" H 2125 9525 50  0001 C CNN
-F 3 "" H 2125 9525 50  0001 C CNN
-	1    2125 9525
+P 2350 9525
+F 0 "#PWR0103" H 2350 9275 50  0001 C CNN
+F 1 "GND" V 2355 9397 50  0000 R CNN
+F 2 "" H 2350 9525 50  0001 C CNN
+F 3 "" H 2350 9525 50  0001 C CNN
+	1    2350 9525
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2125 9525 2475 9525
+	2350 9525 2475 9525
 $Comp
 L sa800u-baseboard-hw:SA800U-WF U11
 U 1 1 61B940C3
@@ -860,12 +858,12 @@ $EndComp
 $Comp
 L sa800u-baseboard-hw:GND #PWR0127
 U 1 1 61CDFF61
-P 4475 8925
-F 0 "#PWR0127" H 4475 8675 50  0001 C CNN
-F 1 "GND" V 4480 8797 50  0000 R CNN
-F 2 "" H 4475 8925 50  0001 C CNN
-F 3 "" H 4475 8925 50  0001 C CNN
-	1    4475 8925
+P 4275 8925
+F 0 "#PWR0127" H 4275 8675 50  0001 C CNN
+F 1 "GND" V 4280 8797 50  0000 R CNN
+F 2 "" H 4275 8925 50  0001 C CNN
+F 3 "" H 4275 8925 50  0001 C CNN
+	1    4275 8925
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -970,7 +968,7 @@ Wire Wire Line
 	4225 8825 4225 8725
 Connection ~ 4225 8725
 Wire Wire Line
-	4125 8925 4475 8925
+	4125 8925 4275 8925
 Wire Wire Line
 	4125 9025 4225 9025
 Wire Wire Line
@@ -978,8 +976,6 @@ Wire Wire Line
 Wire Wire Line
 	4225 9125 4225 9025
 Connection ~ 4225 9025
-Wire Wire Line
-	4225 9025 4475 9025
 Wire Wire Line
 	4225 9125 4225 9225
 Wire Wire Line
@@ -996,20 +992,18 @@ Wire Wire Line
 	4225 9425 4125 9425
 Connection ~ 4225 9325
 Wire Wire Line
-	4125 9525 4475 9525
+	4125 9525 4275 9525
 $Comp
 L sa800u-baseboard-hw:GND #PWR0128
 U 1 1 61E5FE41
-P 4475 9525
-F 0 "#PWR0128" H 4475 9275 50  0001 C CNN
-F 1 "GND" V 4480 9397 50  0000 R CNN
-F 2 "" H 4475 9525 50  0001 C CNN
-F 3 "" H 4475 9525 50  0001 C CNN
-	1    4475 9525
+P 4275 9525
+F 0 "#PWR0128" H 4275 9275 50  0001 C CNN
+F 1 "GND" V 4280 9397 50  0000 R CNN
+F 2 "" H 4275 9525 50  0001 C CNN
+F 3 "" H 4275 9525 50  0001 C CNN
+	1    4275 9525
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4475 9025 2    50   Input ~ 0
-3V8_SYS
 Text GLabel 7575 1200 0    50   BiDi ~ 0
 I2C4_SDA
 Wire Wire Line
@@ -2433,11 +2427,11 @@ Text Notes 5100 8525 0    50   ~ 0
 Comment:\n1.8V @300mA\nPower supply for\nIOVDD of cameras
 Text Notes 5100 8900 0    50   ~ 0
 Comment:\n2.95V @800mA\nSD card power supply
-Text Notes 4850 9375 0    50   ~ 0
+Text Notes 4850 9450 0    50   ~ 0
 Comment:\nPower supply for the module\n3.55V - 4.4V INPUT, 3.8 nominal\nMust be provided with sufficient\ncurrent of up to 3 A
 Text Notes 3725 11150 0    50   ~ 0
 Comment:\nPower rails from connectors 3&4 of SOM:\nLDO12A_1V8   : 1.8V @300mA (low power mode charger)\nLDO14A_1V88: 1.8V @50mA (Power supply for IOVDD of TP and LCDs)\nLDO24A_3V075: 3.075V @150mA (Power supply for DP’s pull-up circuits.\nLDO28A_3V0 :3.0V@150mA (Power supply for VDD of TP)\n
-Text GLabel 2275 9025 0    50   Input ~ 0
+Text GLabel 1125 9025 0    50   Input ~ 0
 3V8_SYS
 $Comp
 L sa800u-baseboard-hw:R_1k_0402 R69
@@ -2464,8 +2458,6 @@ F 3 "" H 11450 10900 50  0001 C CNN
 	1    11450 10900
 	1    0    0    -1  
 $EndComp
-Text GLabel 3250 9975 0    50   Input ~ 0
-3V8_SYS
 Wire Wire Line
 	4000 9975 4400 9975
 $Comp
@@ -7261,5 +7253,43 @@ F 2 "" H 10875 9350 50  0001 C CNN
 F 3 "" H 10875 9350 50  0001 C CNN
 	1    10875 9350
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1175 9025 1125 9025
+Text Label 1625 9025 0    50   ~ 0
+VBAT_SOM
+Wire Wire Line
+	1575 9025 2375 9025
+Text Label 5050 9025 2    50   ~ 0
+VBAT_SOM
+Wire Wire Line
+	4225 9025 5050 9025
+$Comp
+L sa800u-baseboard-hw:PMEG3050EP,115 D38
+U 1 1 636E2C1E
+P 1375 9025
+F 0 "D38" H 1375 9287 60  0000 C CNN
+F 1 "PMEG3050EP,115" H 1375 9181 60  0000 C CNN
+F 2 "sa800u-baseboard-hw-footprints:Nexperia_SOD128" H 1575 9225 60  0001 L CNN
+F 3 "https://www.mouser.pl/datasheet/2/916/PMEG3050EP-2938519.pdf" H 1575 9325 60  0001 L CNN
+F 4 "PMEG3050EP,115" H 1575 9525 60  0001 L CNN "MPN"
+F 5 "Nexperia" H 1575 10125 60  0001 L CNN "Manufacturer"
+	1    1375 9025
+	1    0    0    -1  
+$EndComp
+Text Label 3250 9975 0    50   ~ 0
+VBAT_SOM
+$Comp
+L sa800u-baseboard-hw:TP TP?
+U 1 1 63C99E29
+P 4000 9875
+AR Path="/61A19323/63C99E29" Ref="TP?"  Part="1" 
+AR Path="/61A4BC4F/63C99E29" Ref="TP112"  Part="1" 
+F 0 "TP112" H 3912 9922 50  0000 R CNN
+F 1 "TP" H 4000 9875 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:TP-R-1.5" H 4000 9875 50  0001 C CNN
+F 3 "" H 4000 9875 50  0001 C CNN
+	1    4000 9875
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
