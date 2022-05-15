@@ -438,11 +438,11 @@ Wire Wire Line
 	5025 4825 4650 4825
 Text GLabel 1175 1700 0    50   Input ~ 0
 3V3_SYS
-Text GLabel 3025 2625 0    50   Input ~ 0
+Text GLabel 3025 2825 0    50   Input ~ 0
 PCIE0_RST_N
-Text GLabel 3025 2725 0    50   Output ~ 0
+Text GLabel 3025 2625 0    50   Output ~ 0
 PCIE0_WAKE_N
-Text GLabel 3025 2825 0    50   Output ~ 0
+Text GLabel 3025 2725 0    50   Output ~ 0
 PCIE0_CLKREQ_N
 Text GLabel 8700 2925 2    50   Input ~ 0
 PCIE0_TX_N

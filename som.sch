@@ -7280,12 +7280,12 @@ F 3 "" H 4000 9875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroSlideSwitches:CVS-02B SW1
+L sa800u-baseboard-hw:CVS-02B SW1
 U 1 1 63D5ED68
 P 11100 10550
 F 0 "SW1" H 11100 10917 50  0000 C CNN
 F 1 "CVS-02B" H 11100 10400 50  0001 C CNN
-F 2 "antmicro-footprints:SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm" H 11100 10100 50  0001 C CNN
+F 2 "sa800u-baseboard-hw-footprints:SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm" H 11100 10100 50  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/972/cvs-1827291.pdf" H 11100 10550 50  0001 C CNN
 F 4 "CVS-02B" H 11100 10826 50  0000 C CNN "MPN"
 F 5 "Nidec Copal" H 11100 10200 50  0001 C CNN "Manufacturer"
