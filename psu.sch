@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 12
 Title "SA800U (Snapdragon 845) Baseboard"
-Date "2022-03-28"
-Rev "1.0.0"
+Date "2022-05-16"
+Rev "1.0.1"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
