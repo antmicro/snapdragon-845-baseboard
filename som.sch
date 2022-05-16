@@ -7146,8 +7146,6 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text GLabel 11125 8900 2    50   Input ~ 0
-3V8_SYS
 $Comp
 L sa800u-baseboard-hw:R_0R_0402 R179
 U 1 1 6296CD48
@@ -7220,8 +7218,6 @@ Wire Wire Line
 	11050 8900 11050 9000
 Connection ~ 11050 8900
 Wire Wire Line
-	11050 8900 11125 8900
-Wire Wire Line
 	11050 9000 11050 9200
 Connection ~ 11050 9000
 Wire Wire Line
@@ -7292,4 +7288,8 @@ F 5 "Nidec Copal" H 11100 10200 50  0001 C CNN "Manufacturer"
 	1    11100 10550
 	1    0    0    -1  
 $EndComp
+Text Label 11650 8900 2    50   ~ 0
+VBAT_SOM
+Wire Wire Line
+	11050 8900 11650 8900
 $EndSCHEMATC
