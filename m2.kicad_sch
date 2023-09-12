@@ -6,10 +6,10 @@
 
   (title_block
     (title "SA800U (Snapdragon 845) Baseboard")
-    (date "2023-07-27")
-    (rev "1.0.2")
+    (date "2023-10-19")
+    (rev "1.0.3")
+    (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd.")
   )
 
   (lib_symbols
@@ -724,7 +724,7 @@
       (property "Value" "Spacer_H4.0mm_9774040151" (id 1) (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "sa800u-baseboard-hw-footprints:Spacer_SMD_M2.5_H4mm_Wurth_9774040151" (id 2) (at 22.86 -7.62 0)
+      (property "Footprint" "antmicro-footprints:Spacer_SMD_M2.5_H4mm_Wurth_9774040151" (id 2) (at 22.86 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040151R.pdf" (id 3) (at 22.86 -10.16 0)

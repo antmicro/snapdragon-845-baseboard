@@ -10,17 +10,17 @@
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 189163e6-d366-437f-a3ed-bce40b8e608d)
   )
-  (fp_text user "Author: Antmicro" (at -12.2428 83.1912) (layer "F.Fab") hide
+  (fp_text user "${REFERENCE}" (at -12.2428 81.9912) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 0961bbfd-4b59-40f1-b777-a76c9ce03aef)
   )
-  (fp_text user "License: Apache-2.0" (at -12.2428 84.3922) (layer "F.Fab") hide
+  (fp_text user "Author: Antmicro" (at -12.2428 83.1912) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
     (tstamp 5dfc43bd-6d62-49ca-a159-37f21df4151f)
   )
-  (fp_text user "${REFERENCE}" (at -12.2428 81.9912) (layer "F.Fab") hide
+  (fp_text user "License: Apache-2.0" (at -12.2428 84.3922) (layer "F.Fab") hide
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left bottom))
-    (tstamp 6adbd40e-beb4-471d-974f-bf97627374b3)
+    (tstamp e7bf2da9-93a2-43ed-8478-2dd5d7e6778e)
   )
   (fp_line (start -11 0) (end -11 80.001) (layer "Eco1.User") (width 0.2) (tstamp 1a76061f-990d-4aa7-8bef-dcf0cd299dfc))
   (fp_line (start 10.999 0) (end -11 0) (layer "Eco1.User") (width 0.2) (tstamp 2f8b78cc-b6f7-428d-ad62-3e324cd1ade0))
@@ -559,7 +559,7 @@
   (fp_line (start 0.488 1.834) (end 0.947 1.645) (layer "User.9") (width 0.02) (tstamp fe862a3e-17c0-4cef-8d33-c7cdf2a0ff5c))
   (fp_line (start -5.781 1.423) (end -5.834 1.463) (layer "User.9") (width 0.02) (tstamp ff06a233-b987-47f0-87da-94d9a0666b11))
   (fp_line (start -4.834 1.463) (end -4.895 1.489) (layer "User.9") (width 0.02) (tstamp ffc0203d-dad0-457a-8aee-0697c2424449))
-  (model "${KIPRJMOD}/lib/3d-models/m2_2280.step"
+  (model "${KIPRJMOD}/lib/3d-models/MODULE_GENERIC_M.2-2280.step"
     (offset (xyz -11 0 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

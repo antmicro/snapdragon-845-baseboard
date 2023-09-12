@@ -1,0 +1,367 @@
+{
+    "id": "sa800u-baseboard-hw",
+    "componentIds": [
+        "quectel-sa800u-wf",
+        "seiko-ms621fe-fl11e",
+        "murata-gcm1555c1h100ga16d",
+        "multicomp-mc0402n330j500ct",
+        "tdk-c1608x5r1e106m080ac",
+        "murata-grm188r60j226mea0d",
+        "samsung-cl21b104kcfnnne",
+        "panasonic-eeeha2a470up",
+        "kemet-c0805c476m9pactu",
+        "tdk-c1608x5r1v475m080ac",
+        "murata-grm155r71h103ka88d",
+        "multicomp-mc0402n150j500ct",
+        "tdk-c1005x6s1a105k050bc",
+        "murata-grm155r61h104ke14d",
+        "murata-grm188r60j476me15d",
+        "murata-grm1555c1e470ja01d",
+        "yaego-cc0402mrx5r5bb106",
+        "walsin-0603yd105kat2a",
+        "tdk-c1608x5r1v225k080ac",
+        "murata-grm21br60j107me15l",
+        "on-semiconductor-1n4148ws",
+        "cooper-bussmann-sts321045b502",
+        "kingbright-kp-1608zgc",
+        "nexperia-pesd2v5y1bsfyl",
+        "multicomp-mb10s",
+        "nexperia-pusb3f96x",
+        "diodes-incorporated-smaj58a-13-f",
+        "nexperia-pesd18vf1bsfyl",
+        "nexperia-pmeg6002ej-115",
+        "broadcom-asmb-ttf0-0a20b",
+        "nexperia-pmeg3050ep-115",
+        "murata-blm18sg121tn1d",
+        "murata-blm18eg221sn1d",
+        "murata-blm21pg221sn1d",
+        "texas-instruments-tps7a0518pdbvt",
+        "texas-instruments-tps2378dda",
+        "te-connectivity-5-2337992-8",
+        "molex-1053131202",
+        "molex-467651001",
+        "amphenol-12401598e4-2a",
+        "amphenol-f52r-1a7h1-11020",
+        "wurth-elektronik-68715014522",
+        "hirose-dm3at-sf-pejm5",
+        "jst-bm04b-srss-tb-lf-sn",
+        "taiyo-yuden-brc1608tr35m",
+        "coilcraft-xel4030-222mec",
+        "murata-nfp0qhb242hs2d",
+        "cui-inc-pdqe30-q48-s5-d",
+        "nexperia-bss138pw",
+        "infineon-technologies-bss84ph6327xtsa2",
+        "vishay-sqs401en-t1-be3",
+        "on-semiconductor-bss84",
+        "vishay-si7223dn-t1-ge3",
+        "bourns-cr0603-fx-1502elf",
+        "bourns-cr0402-fx-3902glf",
+        "bourns-cr0402-fx-1372glf",
+        "bourns-cr0402-fx-2491glf",
+        "bourns-cr0402-fx-2553glf",
+        "bourns-cr0402-fx-1004glf",
+        "panasonic-erj2ge0r00x",
+        "bourns-cr0402-fx-7501glf",
+        "bourns-cr0402-fx-2552glf",
+        "bourns-cr0402-fx-4700glf",
+        "bourns-cr0402-fx-7502glf",
+        "bourns-cr0402-fx-3162glf",
+        "bourns-cr0402-fx-5232glf",
+        "bourns-cr0402-fx-2492glf",
+        "bourns-cr0402-fx-63r4glf",
+        "bourns-cr0603-fx-2002elf",
+        "bourns-cr0402-fx-2202glf",
+        "bourns-cr0402-fx-1000glf",
+        "bourns-cr0402-fx-1101glf",
+        "bourns-cr0402-fx-7500glf",
+        "bourns-cr0402-fx-2701glf",
+        "bourns-cr0402-fx-4701glf",
+        "bourns-cr0402-fx-7681glf",
+        "bourns-cr0402-fx-2002glf",
+        "bourns-cr0402-fx-2201glf",
+        "bourns-cr0402-fx-2702glf",
+        "bourns-cr0402-fx-2001glf",
+        "bourns-cr0402-fx-50r0glf",
+        "bourns-cr0402-fx-5100glf",
+        "bourns-cr0402-fx-1003glf",
+        "panasonic-era2aed104x",
+        "bourns-cr0402-fx-1002glf",
+        "bourns-cr0402-fx-2003glf",
+        "bourns-cr0402-fx-1001glf",
+        "bourns-cr0402-fx-4702glf",
+        "bourns-cr0603-j-000elf",
+        "bourns-cr0402-fx-2200glf",
+        "bourns-cr0402-fx-33r0glf",
+        "c-k-kmr211nglfs",
+        "wurth-elektronik-9774060151",
+        "wurth-elektronik-9774040151r",
+        "nidec-cvs-02b",
+        "realtek-rtl8111h",
+        "hirose-electric-fx10a-168s-sv",
+        "amphenol-mdt580m01001",
+        "analog-devices-ltc4417iuf-trpbf",
+        "texas-instruments-lmv431im5",
+        "diodes-incorporated-ap62301wu-7",
+        "texas-instruments-txb0104rutr",
+        "stmicroelectronics-stusb4500qtr",
+        "lontium-lt9611",
+        "nxp-nts0102gt",
+        "ftdi-ft232rq-reel",
+        "texas-instruments-tps25820dsst",
+        "nxp-nx3dv42gu-115",
+        "nexperia-cbtl02043abq-115",
+        "abracon-abm8g-25-000mhz-18-d2y-t",
+        "abracon-abm8g-24-000mhz-18-d2y-t"
+    ],
+    "stackup": {
+        "layers": [
+            {
+                "fileName": "layer0.webp"
+            },
+            {
+                "fileName": "layer1.webp"
+            },
+            {
+                "fileName": "layer2.webp"
+            },
+            {
+                "fileName": "layer3.webp"
+            },
+            {
+                "fileName": "layer4.webp"
+            },
+            {
+                "fileName": "layer5.webp"
+            },
+            {
+                "fileName": "layer6.webp"
+            }
+        ]
+    },
+    "previews": [
+        {
+            "id": "top-photo",
+            "description": "Render in top photo view",
+            "fileName": "photoT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "photoT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "photoT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "photoT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "photoT_rightB.webm"
+                },
+                "top-left": {
+                    "fileName": "photoT_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "photoT_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "photoT_rightT.webm"
+                }
+            }
+        },
+        {
+            "id": "top-left",
+            "description": "Render in top left view",
+            "fileName": "leftT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "leftT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "leftT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "leftT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "leftT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "leftT_photoT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "leftT_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "leftT_rightT.webm"
+                }
+            }
+        },
+        {
+            "id": "top-ortho",
+            "description": "Render in top ortho view",
+            "fileName": "orthoT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "orthoT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "orthoT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "orthoT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "orthoT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "orthoT_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "orthoT_leftT.webm"
+                },
+                "top-right": {
+                    "fileName": "orthoT_rightT.webm"
+                }
+            }
+        },
+        {
+            "id": "top-right",
+            "description": "Render in top right view",
+            "fileName": "rightT.webp",
+            "animations": {
+                "bottom-photo": {
+                    "fileName": "rightT_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "rightT_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "rightT_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "rightT_rightB.webm"
+                },
+                "top-photo": {
+                    "fileName": "rightT_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "rightT_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "rightT_orthoT.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-photo",
+            "description": "Render in bottom photo view",
+            "fileName": "photoB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "photoB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "photoB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "photoB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "photoB_rightT.webm"
+                },
+                "bottom-left": {
+                    "fileName": "photoB_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "photoB_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "photoB_rightB.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-left",
+            "description": "Render in bottom left view",
+            "fileName": "leftB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "leftB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "leftB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "leftB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "leftB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "leftB_photoB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "leftB_orthoB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "leftB_rightB.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-ortho",
+            "description": "Render in bottom ortho view",
+            "fileName": "orthoB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "orthoB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "orthoB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "orthoB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "orthoB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "orthoB_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "orthoB_leftB.webm"
+                },
+                "bottom-right": {
+                    "fileName": "orthoB_rightB.webm"
+                }
+            }
+        },
+        {
+            "id": "bottom-right",
+            "description": "Render in bottom right view",
+            "fileName": "rightB.webp",
+            "animations": {
+                "top-photo": {
+                    "fileName": "rightB_photoT.webm"
+                },
+                "top-left": {
+                    "fileName": "rightB_leftT.webm"
+                },
+                "top-ortho": {
+                    "fileName": "rightB_orthoT.webm"
+                },
+                "top-right": {
+                    "fileName": "rightB_rightT.webm"
+                },
+                "bottom-photo": {
+                    "fileName": "rightB_photoB.webm"
+                },
+                "bottom-left": {
+                    "fileName": "rightB_leftB.webm"
+                },
+                "bottom-ortho": {
+                    "fileName": "rightB_orthoB.webm"
+                }
+            }
+        }
+    ]
+}
